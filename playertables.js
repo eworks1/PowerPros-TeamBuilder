@@ -1,4 +1,4 @@
-import { players } from "./players.json" assert { type: "json" };
+import { players } from "./players.json";
 
 const playerPoolTable = document.getElementById('player-pool-table');
 if (playerPoolTable) {
