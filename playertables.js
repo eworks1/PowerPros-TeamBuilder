@@ -1,4 +1,4 @@
-import { players } from "./players.json";
+import players from "./getPlayers.js";
 
 const playerPoolTable = document.getElementById('player-pool-table');
 if (playerPoolTable) {
