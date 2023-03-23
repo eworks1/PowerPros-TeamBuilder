@@ -15,15 +15,18 @@
     {% assign colors = colors | push: colorName %}
 {% endfor %}
 
-{% assign gradient = "linear-gradient(to right, " | append: colors | first %}
+{% assign gradientStart = "linear-gradient(to right, " | append: colors | first %}
+{% assign gradientMiddle = "" %}
 {% for color in colors %}
-    {% assign gradient = gradient | append: ", " | append: color | " " | append: percent | append: "%" %}
+    {% assign middleTemp = gradientMiddle | append: ", " | append: color | " " | append: percent | append: "%" %}
+    {% assign gradientMiddle = middleTemp %}
 {% endfor %}
 
+{% assign gradientEnd = "" %}
 {% if colors | size > 1 %}
-    {% assign gradient = gradient | append: ", " | append: colors | last %}
+    {% assign gradientEnd = ", " | append: colors | last %}
 {% endif %}
 
-{% assign gradient = gradient | append: ");" %}
+{% assign gradient = gradientStart | append: gradientMiddle | append: gradientEnd | append: ");" %}
 
 <span class="player-name-cell" style="{{ gradient }}">{{ include.name }}</span><span>{{ include.cost }}</span>
