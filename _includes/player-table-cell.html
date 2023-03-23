@@ -28,7 +28,8 @@
 
 {% assign gradientEnd = "" %}
 {% if colors | size > 1 %}
-    {% assign gradientEnd = ", " | append: colors | last %}
+    {% assign lastColor = colors | last %}
+    {% assign gradientEnd = ", " | append: lastColor %}
 {% endif %}
 
 {% assign gradient = gradientStart | append: gradientMiddle | append: gradientEnd | append: ");" %}
