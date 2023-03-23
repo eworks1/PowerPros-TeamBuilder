@@ -3,7 +3,7 @@
 } -->
 
 {% assign playerPositions = include.positions %}
-{% assign percent = 100 | divided_by playerPositions | size %}
+{% assign percent = 100 | divided_by:playerPositions | size %}
 
 {% assign colors = '' | split: '' %}
 {% for pos in playerPositions %}
