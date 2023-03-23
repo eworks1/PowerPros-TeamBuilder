@@ -32,7 +32,8 @@
     </div>
 
     <div class="group-box" style="grid-area: availableplayers;">
-        {% include player-table.html players=site.data.players.players table_id="player-pool-table" %}
+        {% assign players = site.data.players.players %}
+        {% include player-table.html players=players table_id="player-pool-table" %}
     </div>
 
     <div class="group-box" style="grid-area: pointcount;">
