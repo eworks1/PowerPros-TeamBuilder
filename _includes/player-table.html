@@ -9,8 +9,11 @@
         {% endif %}
 
         <!-- if the object indexing doesn't work, then assign to their own variables first then pass the variables -->
-        {% assign playerName = player["Name"] %}
-        <td>{% include player-table-cell.html name=playerName positions=player["Field Position"] cost=player["Point Cost"] %}</td>
+        {% assign player_name = player["Name"] %}
+        {% assign player_positions = player["Field Position"] %}
+        {% assign player_cost = player["Point Cost"] %}
+        
+        <td>{% include player-table-cell.html name=player_name positions=player_positions cost=player_cost %}</td>
 
         {% if forloop.index0 | modulo:2 == 1 %}
             </tr>
