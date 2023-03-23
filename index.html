@@ -8,61 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- <link rel="stylesheet" href="./main.css"> -->
-
-    <style>
-        * {
-            box-sizing: border-box;
-            padding: 0;
-            margin: 0;
-        }
-
-        body {
-            background-color: green;
-
-            display: grid;
-            grid-template-columns: 1fr 1fr 25%;
-            grid-template-rows: auto 1fr 1fr auto;
-            grid-template-areas:
-                "teamname positions detailview"
-                "teamlist availableplayers detailview"
-                "teamlist availableplayers ."
-                "pointcount pointcount .";
-            place-content: stretch;
-            gap: 2px;
-
-            /* height: 100%; */
-        }
-
-        h1 {
-            margin: 0px;
-        }
-
-        .group-box {
-            background-color: antiquewhite;
-            border-radius: 10px;
-            border: 2px solid black;
-            padding: 8px;
-        }
-
-        #team-list {
-            overflow-y: scroll;
-            /* height: 100%; */
-        }
-
-        .player-table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        .player-table td {
-            border: 2px solid black;
-        }
-
-        #detail-box {
-            grid-area: detailview;
-        }
-    </style>
+    <link rel="stylesheet" href="./main.css">
 </head>
 
 <body>
