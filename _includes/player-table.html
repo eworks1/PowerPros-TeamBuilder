@@ -5,7 +5,7 @@
 <table id="{{ include.table_id }}" class="player-table">
     {% if include.players | size > 0 %}
         {% tablerow player in include.players cols:2 %}
-            {% assign player_name = player["Name"] %}
+            {% assign player_name = player["Name Abbreviation"] %}
             {% assign player_positions = player["Field Position"] %}
             {% assign player_cost = player["Point Cost"] %}
 
