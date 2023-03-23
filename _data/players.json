@@ -1,6 +1,7 @@
 {
     "players": [{
         "Name": "Miyabi Oyama",
+        "Name Abbreviation": "Oyama",
         "Field Position": ["SS", "2B"],
         "Throws": "R",
         "Bats": "S",
@@ -21,6 +22,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Masaru Tanaka",
+        "Name Abbreviation": "Tanaka",
         "Field Position": "1B",
         "Throws": "R",
         "Bats": "R",
@@ -41,6 +43,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Kumetaro Samejima",
+        "Name Abbreviation": "Samejima",
         "Field Position": "3B",
         "Throws": "R",
         "Bats": "L",
@@ -61,6 +64,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Miyoko Ozora",
+        "Name Abbreviation": "Ozora",
         "Field Position": ["3B", "OF"],
         "Throws": "R",
         "Bats": "L",
@@ -81,6 +85,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Himawari Natsuno",
+        "Name Abbreviation": "Natsuno",
         "Field Position": ["SS", "1B", "2B"],
         "Throws": "R",
         "Bats": "R",
@@ -101,6 +106,7 @@
         "Breaking Balls": ["Lv. Circle Change", "Lv. 2 12-6 Curveball"]
     }, {
         "Name": "Kyoji Gaido",
+        "Name Abbreviation": "Gaido",
         "Field Position": ["1B", "OF", "C"],
         "Throws": "R",
         "Bats": "R",
@@ -121,6 +127,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Choji Bando",
+        "Name Abbreviation": "Bando",
         "Field Position": ["3B", "1B"],
         "Throws": "R",
         "Bats": "R",
@@ -141,6 +148,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Yaben Diyansu",
+        "Name Abbreviation": "Y.Diyansu",
         "Field Position": ["2B", "3B", "OF"],
         "Throws": "R",
         "Bats": "R",
@@ -161,6 +169,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Tsuyoshi Shogogetsu",
+        "Name Abbreviation": "Shogogetsu",
         "Field Position": ["3B", "1B", "OF"],
         "Throws": "R",
         "Bats": "R",
@@ -181,6 +190,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Gen Sakamoto",
+        "Name Abbreviation": "Sakamoto",
         "Field Position": "2B",
         "Throws": "R",
         "Bats": "L",
@@ -201,6 +211,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Ryo Kogarashi",
+        "Name Abbreviation": "Kogarashi",
         "Field Position": ["SS", "2B"],
         "Throws": "R",
         "Bats": "R",
@@ -221,6 +232,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Hajime Sanbonmatsu",
+        "Name Abbreviation": "Sanbonmatsu",
         "Field Position": "1B",
         "Throws": "R",
         "Bats": "L",
@@ -241,6 +253,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Kenji Yojo",
+        "Name Abbreviation": "Yojo",
         "Field Position": "2B",
         "Throws": "R",
         "Bats": "R",
@@ -261,6 +274,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Gonzo Igarashi",
+        "Name Abbreviation": "Igarashi",
         "Field Position": "3B",
         "Throws": "R",
         "Bats": "R",
@@ -281,6 +295,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Yuki Roppongi",
+        "Name Abbreviation": "Roppongi",
         "Field Position": "SS",
         "Throws": "R",
         "Bats": "R",
@@ -301,6 +316,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Kiwamu Sendoh",
+        "Name Abbreviation": "Sendoh",
         "Field Position": ["1B", "3B"],
         "Throws": "L",
         "Bats": "S",
@@ -321,6 +337,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Shinzo Nomi",
+        "Name Abbreviation": "Nomi",
         "Field Position": ["2B", "SS"],
         "Throws": "R",
         "Bats": "L",
@@ -341,6 +358,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Gyanendra Bhattarai",
+        "Name Abbreviation": "G.Bhattarai",
         "Field Position": ["SS", "2B", "3B"],
         "Throws": "L",
         "Bats": "S",
@@ -361,6 +379,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Gunpei Shibata",
+        "Name Abbreviation": "Shibata",
         "Field Position": "SS",
         "Throws": "R",
         "Bats": "L",
@@ -381,6 +400,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Kentaro Suzuhime",
+        "Name Abbreviation": "Suzuhime",
         "Field Position": ["SS", "3B"],
         "Throws": "R",
         "Bats": "R",
@@ -401,6 +421,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Ken Hakosaki",
+        "Name Abbreviation": "Hakosaki",
         "Field Position": ["1B", "3B"],
         "Throws": "R",
         "Bats": "L",
@@ -421,6 +442,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Meiru Naito",
+        "Name Abbreviation": "Naito",
         "Field Position": ["1B", "OF", "C"],
         "Throws": "R",
         "Bats": "R",
@@ -441,6 +463,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Nodoka Yumeshiro",
+        "Name Abbreviation": "N.Yumeshiro",
         "Field Position": ["3B", "1B"],
         "Throws": "R",
         "Bats": "L",
@@ -461,6 +484,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Tansaku Iseki",
+        "Name Abbreviation": "Iseki",
         "Field Position": ["2B", "C"],
         "Throws": "R",
         "Bats": "R",
@@ -481,6 +505,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Minato Tatehashi",
+        "Name Abbreviation": "Tatehashi",
         "Field Position": ["2B", "SS"],
         "Throws": "R",
         "Bats": "L",
@@ -501,6 +526,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Haruki Warabi",
+        "Name Abbreviation": "Warabi",
         "Field Position": ["2B", "SS"],
         "Throws": "R",
         "Bats": "L",
@@ -521,6 +547,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Nyaptet",
+        "Name Abbreviation": "Nyaptet",
         "Field Position": ["2B", "SS", "OF"],
         "Throws": "R",
         "Bats": "L",
@@ -541,6 +568,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Nubis",
+        "Name Abbreviation": "Nubis",
         "Field Position": ["1B", "OF"],
         "Throws": "R",
         "Bats": "R",
@@ -561,6 +589,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Maito Oda",
+        "Name Abbreviation": "Oda",
         "Field Position": ["3B", "OF"],
         "Throws": "R",
         "Bats": "R",
@@ -581,6 +610,7 @@
         "Breaking Balls": ["Lv. Circle Change", "Lv. 3 Splitter", "Lv. 3 12-6 Curveball"]
     }, {
         "Name": "Yoshito Ueno",
+        "Name Abbreviation": "Ueno",
         "Field Position": "2B",
         "Throws": "R",
         "Bats": "R",
@@ -601,6 +631,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Furu Heart",
+        "Name Abbreviation": "Furu",
         "Field Position": "1B",
         "Throws": "R",
         "Bats": "R",
@@ -621,6 +652,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Yokan Ukami",
+        "Name Abbreviation": "Ukami",
         "Field Position": ["SS", "OF"],
         "Throws": "R",
         "Bats": "R",
@@ -641,6 +673,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Chiyohime",
+        "Name Abbreviation": "Chiyohime",
         "Field Position": ["2B", "1B"],
         "Throws": "R",
         "Bats": "R",
@@ -661,6 +694,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Mahiru Todo",
+        "Name Abbreviation": "Todo",
         "Field Position": "3B",
         "Throws": "R",
         "Bats": "R",
@@ -681,6 +715,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Tamio Oume",
+        "Name Abbreviation": "Oume",
         "Field Position": ["3B", "1B"],
         "Throws": "R",
         "Bats": "R",
@@ -701,6 +736,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Hazuki Hayama (Paachan)",
+        "Name Abbreviation": "Hazuki Hayama (Paachan)",
         "Field Position": ["SS", "2B", "3B"],
         "Throws": "R",
         "Bats": "R",
@@ -721,6 +757,7 @@
         "Breaking Balls": null
     }, {
         "Name": "Pink",
+        "Name Abbreviation": "Pink",
         "Field Position": ["SS", "2B"],
         "Throws": "R",
         "Bats": "L",
