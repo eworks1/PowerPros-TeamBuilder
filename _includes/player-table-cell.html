@@ -22,7 +22,7 @@
 
 {% assign gradientMiddle = "" %}
 {% for color in colors %}
-    {% assign middleTemp = gradientMiddle | append: ", " | append: color | " " | append: percent | append: "%" %}
+    {% assign middleTemp = gradientMiddle | append: ", " | append: color | append: " " | append: percent | append: "%" %}
     {% assign gradientMiddle = middleTemp %}
 {% endfor %}
 
