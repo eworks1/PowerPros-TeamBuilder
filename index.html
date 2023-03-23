@@ -28,13 +28,13 @@ title: WBSC eBASEBALL™: POWER PROS Team Builder
     </div>
 
     <div id="team-list" class="group-box" style="grid-area: teamlist;">
-        {% assign players = '' | split: '' %}
-        {% include player-table.html players=players table_id="team-table" %}
+        {% assign team_players = '' | split: '' %}
+        {% include player-table.html players=team_players table_id="team-table" %}
     </div>
 
     <div class="group-box" style="grid-area: availableplayers;">
-        {% assign players = site.data.players.players %}
-        {% include player-table.html players=players table_id="player-pool-table" %}
+        {% assign all_players = site.data.players.players %}
+        {% include player-table.html players=all_players table_id="player-pool-table" %}
     </div>
 
     <div class="group-box" style="grid-area: pointcount;">
