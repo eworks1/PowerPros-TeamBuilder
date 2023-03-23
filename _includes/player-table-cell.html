@@ -22,5 +22,4 @@
 
 {% assign gradient = gradient | append ");" %}
 
-<!-- background-image: linear-gradient(to right, {{ site.data.colors.positions[include.position] }}, orange 50%, green 50%, green); -->
 <span class="player-name-cell" style="{{ gradient }}">{{ include.name }}</span><span>{{ include.cost }}</span>
