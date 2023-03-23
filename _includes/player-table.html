@@ -1,8 +1,8 @@
 <!-- {
-    players, tableId
+    players, table_id
 } -->
 
-<table id="{{ include.tableId }}" class="player-table">
+<table id="{{ include.table_id }}" class="player-table">
     {% for player in include.players %}
         {% if forloop.index0 | modulo:2 == 0 %}
             <tr>
