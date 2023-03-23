@@ -12,7 +12,9 @@
 {% assign colors = '' | split: '' %}
 {% for pos in playerPositions %}
     {% assign colorName = site.data.colors.positions[pos] %}
-    {% assign colors = colors | push: colorName %}
+    {% unless colors contains colorName %}
+        {% assign colors = colors | push: colorName %}
+    {% endunless %}
 {% endfor %}
 
 {% assign gradientStart = "linear-gradient(to right, " | append: colors | first %}
