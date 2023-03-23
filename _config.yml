@@ -6,3 +6,4 @@ exclude:
   - LICENSE.md
   - Screenshots/*
   - *.code-workspace
+  - playertables.js
