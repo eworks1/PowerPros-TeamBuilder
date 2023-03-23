@@ -17,7 +17,9 @@
     {% endunless %}
 {% endfor %}
 
-{% assign gradientStart = "linear-gradient(to right, " | append: colors | first %}
+{% assign firstColor = colors | first %}
+{% assign gradientStart = "background-image: linear-gradient(to right, " | append: firstColor %}
+
 {% assign gradientMiddle = "" %}
 {% for color in colors %}
     {% assign middleTemp = gradientMiddle | append: ", " | append: color | " " | append: percent | append: "%" %}
