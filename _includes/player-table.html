@@ -3,11 +3,13 @@
 {% endcomment %}
 
 <table id="{{ include.table_id }}" class="player-table">
-    {% tablerow player in include.players cols:2 %}
-        {% assign player_name = player["Name"] %}
-        {% assign player_positions = player["Field Position"] %}
-        {% assign player_cost = player["Point Cost"] %}
+    {% if include.players | size > 0 %}
+        {% tablerow player in include.players cols:2 %}
+            {% assign player_name = player["Name"] %}
+            {% assign player_positions = player["Field Position"] %}
+            {% assign player_cost = player["Point Cost"] %}
 
-        {% include player-table-cell.html name=player_name positions=player_positions cost=player_cost %}
-    {% endtablerow %}
+            {% include player-table-cell.html name=player_name positions=player_positions cost=player_cost %}
+        {% endtablerow %}
+    {% endif %}
 </table>
