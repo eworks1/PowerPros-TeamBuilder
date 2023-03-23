@@ -1,0 +1,26 @@
+<!-- {
+    name, positions, cost
+} -->
+
+{% assign playerPositions = include.positions %}
+{% assign percent = 100 | divided_by playerPositions | size %}
+
+{% assign colors = '' | split: '' %}
+{% for pos in playerPositions %}
+    {% assign colorName = site.data.colors.positions[pos] %}
+    {% assign colors = colors | push: colorName %}
+{% endfor %}
+
+{% assign gradient = "linear-gradient(to right, " | append colors | first %}
+{% for color in colors %}
+    {% assign gradient = gradient | append ", " | append color | " " | append percent | append "%" %}
+{% endfor %}
+
+{% if colors | size > 1 %}
+    {% assign gradient = gradient | append ", " | append colors | last %}
+{% endif %}
+
+{% assign gradient = gradient | append ");" %}
+
+<!-- background-image: linear-gradient(to right, {{ site.data.colors.positions[include.position] }}, orange 50%, green 50%, green); -->
+<span class="player-name-cell" style="{{ gradient }}">{{ include.name }}</span><span>{{ include.cost }}</span>
