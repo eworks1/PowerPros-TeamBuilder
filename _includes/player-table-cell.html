@@ -3,7 +3,11 @@
 {% endcomment %}
 
 {% assign playerPositions = include.positions %}
-{% assign percent = 100 | divided_by:playerPositions | size %}
+{% assign positionCount = playerPositions | size %}
+{% if positionCount == 0 %}
+    {% assign positionCount = 1 %}
+{% endif %}
+{% assign percent = 100 | divided_by:positionCount %}
 
 {% assign colors = '' | split: '' %}
 {% for pos in playerPositions %}
