@@ -1,0 +1,8 @@
+title: WBSC Power Pros Team Builder
+description: Try building your team for WBSC Power Pros!
+
+exclude: 
+  - README.md
+  - LICENSE.md
+  - Screenshots/*
+  - *.code-workspace
