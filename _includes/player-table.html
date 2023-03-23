@@ -1,0 +1,18 @@
+<!-- {
+    players, tableId
+} -->
+
+<table id="{{ include.tableId }}" class="player-table">
+    {% for player in include.players %}
+        {% if forloop.index0 | modulo:2 == 0 %}
+            <tr>
+        {% endif %}
+
+        <!-- if the object indexing doesn't work, then assign to their own variables first then pass the variables -->
+        <td>{% include player-table-cell.html name=player.Name positions=player["Field Position"] cost=player["Point Cost"] %}</td>
+
+        {% if forloop.index0 | modulo:2 == 1 %}
+            </tr>
+        {% endif %}
+    {% endfor %}
+</table>
