@@ -3,11 +3,6 @@
 {% endcomment %}
 
 {% assign playerPositions = include.positions %}
-{% assign positionCount = playerPositions | size %}
-{% if positionCount == 0 %}
-    {% assign positionCount = 1 %}
-{% endif %}
-{% assign percent = 100 | divided_by:positionCount %}
 
 {% assign colors = '' | split: '' %}
 {% for pos in playerPositions %}
@@ -16,6 +11,9 @@
         {% assign colors = colors | push: colorName %}
     {% endunless %}
 {% endfor %}
+
+{% assign colorCount = colors | size %}
+{% assign percent = 100 | divided_by:colorCount %}
 
 {% assign firstColor = colors | first %}
 {% assign gradientStart = "background-image: linear-gradient(to right, " | append: firstColor %}
