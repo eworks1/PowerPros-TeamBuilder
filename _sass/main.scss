@@ -49,3 +49,29 @@ h1 {
 #detail-box {
     grid-area: detailview;
 }
+
+.player-name-cell {
+    padding: 4px;
+    width: 100%;
+
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+
+    border: rgba(0, 0, 0, 0.2) solid 2px;
+    border-radius: 6px;
+}
+
+.cost-span {
+    padding: 4px 4px 4px 1px;
+
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+
+    background-color: #4884c8;
+
+    border: rgba(0, 0, 0, 0.2) solid 2px;
+    border-radius: 6px;
+}

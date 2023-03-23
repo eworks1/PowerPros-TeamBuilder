@@ -32,4 +32,12 @@
 
 {% assign gradient = gradientStart | append: gradientMiddle | append: gradientEnd | append: ");" %}
 
-<span class="player-name-cell" style="{{ gradient }}">{{ include.name }}</span><span>{{ include.cost }}</span>
+<span style="font-size: 18px; box-sizing: border-box;">
+    <span class="player-name-cell" style="{{ gradient }}">{{ include.name }}</span><span class="cost-span"><img src="../assets/img/cost_diamond.png" style="height: 12px;"><span> {{ include.cost }}</span></span>
+</span>
+
+{% comment %}
+<!-- <span style="font-size: 18px; box-sizing: border-box;">
+    <span class="player-name-cell" style="background-image: linear-gradient(to right, #f2d247, #f2d247 50%, #f2d247);">Kamitaka</span><span class="cost-span"><img src="../assets/img/cost_diamond.png" style="height: 12px;"><span> 4</span></span>
+</span> -->
+{% endcomment %}
