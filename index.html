@@ -25,18 +25,19 @@
     </div>
 
     <div id="team-list" class="group-box" style="grid-area: teamlist;">
-        <table id="team-table" class="player-table"></table>
+        {% assign players = '' | split: '' %}
+        {% include player-table.html players=players tableId="team-table" %}
     </div>
 
     <div class="group-box" style="grid-area: availableplayers;">
-        <table id="player-pool-table" class="player-table"></table>
+        {% include player-table.html players=site.data.players.players tableId="player-pool-table" %}
     </div>
 
     <div class="group-box" style="grid-area: pointcount;">
         <h1>Point Count</h1>
     </div>
 
-    <script src="./playertables.js" type="module" async defer></script>
+    <!-- <script src="./playertables.js" type="module" async defer></script> -->
 </body>
 
 </html>
