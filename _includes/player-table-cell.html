@@ -15,7 +15,7 @@
 {% assign colorCount = colors | size %}
 {% assign percentDivided = 100 | divided_by:colorCount %}
 
-{% assign gradientStart = "background-image: linear-gradient(to right, " %}
+{% assign gradientStart = "background-image: linear-gradient(to right" %}
 
 {% assign gradientMiddle = "" %}
 {% for color in colors %}
@@ -26,7 +26,7 @@
         {% assign percentTwo = 100 %}
     {% endif %}
 
-    {% assign middleTemp = gradientMiddle | append: color | append: " " | append: percentOne | append: "%, " | append: color | append: " " | append: percentTwo | append: "%" %}
+    {% assign middleTemp = gradientMiddle | append: ", " | append: color | append: " " | append: percentOne | append: "%, " | append: color | append: " " | append: percentTwo | append: "%" %}
 
     {% assign gradientMiddle = middleTemp %}
 {% endfor %}
