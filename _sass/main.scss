@@ -37,6 +37,10 @@ body {
     /* height: 100%; */
 }
 
+#detail-box {
+    grid-area: detailview;
+}
+
 .player-table {
     // border-collapse: collapse;
     width: 100%;
@@ -51,9 +55,6 @@ body {
 //     border: 2px solid black;
 // }
 
-#detail-box {
-    grid-area: detailview;
-}
 
 #detail-info-grid {
     display: grid;
