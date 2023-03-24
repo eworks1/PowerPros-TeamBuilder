@@ -77,6 +77,11 @@ h1 {
     grid-area: namebox;
 }
 
+#detail-info-grid .info-box {
+    background-color: #f8fdfd;
+    border: #dfedf1 solid 1px;
+}
+
 .player-name-box {
     padding: 4px;
     width: 100%;
