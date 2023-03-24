@@ -3,5 +3,11 @@
 {% endcomment %}
 
 <span style="font-size: 18px;">
-    {% include player-name-box.html name=include.name positions=include.positions %}<span class="cost-span"><img src="{{ 'assets/img/cost_diamond.png' | relative_url }}" style="height: 12px;"><span> {{ include.cost }}</span></span>
+    {% include player-name-box.html name=include.name positions=include.positions %}
+    <span class="cost-span">
+        <img src="{{ 'assets/img/cost_diamond.png' | relative_url }}" style="height: 12px;">
+        {% if name | size > 0 %}
+            <span> {{ include.cost }}</span>
+        {% endif %}
+    </span>
 </span>
