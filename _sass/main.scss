@@ -57,6 +57,8 @@ h1 {
 
 #detail-info-grid {
     display: grid;
+    padding-right: 6px;
+    background-color: #ecf7f8;
 
     grid-template-columns: 45% 10% 45%;
     grid-template-rows: repeat(8, auto);
