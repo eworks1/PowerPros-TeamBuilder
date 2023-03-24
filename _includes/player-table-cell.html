@@ -2,6 +2,6 @@
 { name, positions, cost }
 {% endcomment %}
 
-<span style="font-size: 18px; box-sizing: border-box;">
+<span style="font-size: 18px;">
     {% include player-name-box.html name=include.name positions=include.positions %}<span class="cost-span"><img src="{{ 'assets/img/cost_diamond.png' | relative_url }}" style="height: 12px;"><span> {{ include.cost }}</span></span>
 </span>
