@@ -1,0 +1,49 @@
+{% comment %}
+{ player }
+{% endcomment %}
+
+{% assign playerName = include.player["Name"] %}
+{% assign playerPositions = include.player["Field Position"] %}
+
+
+<div id="detail-info-grid">
+    <!-- style="grid-area: teamname -->
+    {% include player-name-box.html name=playerName positions=playerPositions %}
+    
+    <span style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
+
+    <span style="grid-area: jerseynumber;">{{ include.player["Jersey Number"] }}</span>
+
+    <span style="grid-area: handedness;">Throws {{ include.player["Throws"] }}, Bats include.player["Bats"]</span>
+
+    <span style="grid-area: trj;">TRJ {{ include.player["Trajectory"] }} <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png"></span>
+
+    <span style="grid-area: hit;">HIT {{ include.player["Contact"] }} 
+        <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
+    </span>
+
+    <span style="grid-area: pwr;">PWR {{ include.player["Power"] }} 
+        <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
+    </span>
+
+    <span style="grid-area: runspd;">RUN SPD {{ include.player["Run Speed"] }} 
+        <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
+    </span>
+
+    <span style="grid-area: armstr;">ARM STR {{ include.player["Arm Strength"] }} 
+        <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
+    </span>
+
+    <span style="grid-area: catching;">Catching {{ include.player["Fielding"] }} 
+        <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
+    </span>
+
+    <div id="detail-fielding-box">
+        <span>Fielding {{ include.player["Field Position"] | first }}</span>
+
+        {% comment %}
+        TODO: need to get fielding level at each of their positions
+        {% endcomment %}
+        <span>{{ include.player["Fielding"] }}</span>
+    </div>
+</div>
