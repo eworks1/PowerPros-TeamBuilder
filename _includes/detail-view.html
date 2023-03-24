@@ -8,7 +8,7 @@
 <div id="detail-info-grid">
     {% include player-name-box.html name=playerName positions=playerPositions %}
     
-    <span style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
+    <span class="star-point-count" style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
 
     <span style="grid-area: jerseynumber;">{{ include.player["Jersey Number"] | default: "100" }}</span>
 
