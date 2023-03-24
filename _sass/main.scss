@@ -124,6 +124,10 @@ body {
 
 .star-point-count {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
     color: rgb(247, 209, 79);
     padding: 1px;
     border-radius: 6px;
@@ -143,4 +147,7 @@ body {
 .jersey-number {
     // background-image
     text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
