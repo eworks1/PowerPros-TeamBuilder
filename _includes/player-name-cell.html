@@ -1,0 +1,45 @@
+{% comment %}
+{ name, positions }
+{% endcomment %}
+
+{% assign playerPositions = include.positions %}
+
+{% assign colors = '' | split: '' %}
+{% for pos in playerPositions %}
+    {% assign colorName = site.data.colors.positions[pos] %}
+    {% unless colors contains colorName %}
+        {% assign colors = colors | push: colorName %}
+    {% endunless %}
+{% endfor %}
+
+{% assign colorCount = colors | size %}
+{% assign percentDivided = 100 | divided_by:colorCount %}
+
+{% assign gradientStart = "background: linear-gradient(to right" %}
+
+{% assign gradientMiddle = "" %}
+{% for color in colors %}
+    {% assign percentOne = percentDivided | times:forloop.index0 %}
+    {% assign percentTwo = percentOne | plus:percentDivided %}
+
+    {% if forloop.last %}
+        {% assign percentTwo = 100 %}
+    {% endif %}
+
+    {% assign middleTemp = gradientMiddle | append: ", " | append: color | append: " " | append: percentOne | append: "%, " | append: color | append: " " | append: percentTwo | append: "%" %}
+
+    {% assign gradientMiddle = middleTemp %}
+{% endfor %}
+
+{% assign gradientEnd = ");" %}
+
+{% assign gradient = gradientStart | append: gradientMiddle | append: gradientEnd  %}
+
+<span class="player-name-cell" style="{{ gradient }}">{{ include.name }}</span>
+
+{% comment %}
+<!-- background-image: linear-gradient(to right, #f2d247, #f2d247 33%, #8ef085 33%, #8ef085 66%, #74ecf0 66%, #74ecf0); -->
+<!-- <span style="font-size: 18px; box-sizing: border-box;">
+    <span class="player-name-cell" style="background: linear-gradient(to right, #f2d247, #f2d247 50%, #f2d247);">Kamitaka</span><span class="cost-span"><img src="../assets/img/cost_diamond.png" style="height: 12px;"><span> 4</span></span>
+</span> -->
+{% endcomment %}
