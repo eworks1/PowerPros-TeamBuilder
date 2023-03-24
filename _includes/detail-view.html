@@ -13,31 +13,31 @@
 
     <span style="grid-area: jerseynumber;">{{ include.player["Jersey Number"] }}</span>
 
-    <span style="grid-area: handedness;">Throws {{ include.player["Throws"] }}, Bats {{ include.player["Bats"] }}</span>
+    <span class="info-box" style="grid-area: handedness;">Throws {{ include.player["Throws"] }}, Bats {{ include.player["Bats"] }}</span>
 
-    <span style="grid-area: trj;">TRJ {{ include.player["Trajectory"] }} <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png"></span>
+    <span class="info-box" style="grid-area: trj;">TRJ {{ include.player["Trajectory"] }} <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png"></span>
 
-    <span style="grid-area: hit;">HIT {{ include.player["Contact"] }} 
+    <span class="info-box" style="grid-area: hit;">HIT {{ include.player["Contact"] }} 
         <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
     </span>
 
-    <span style="grid-area: pwr;">PWR {{ include.player["Power"] }} 
+    <span class="info-box" style="grid-area: pwr;">PWR {{ include.player["Power"] }} 
         <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
     </span>
 
-    <span style="grid-area: runspd;">RUN SPD {{ include.player["Run Speed"] }} 
+    <span class="info-box" style="grid-area: runspd;">RUN SPD {{ include.player["Run Speed"] }} 
         <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
     </span>
 
-    <span style="grid-area: armstr;">ARM STR {{ include.player["Arm Strength"] }} 
+    <span class="info-box" style="grid-area: armstr;">ARM STR {{ include.player["Arm Strength"] }} 
         <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
     </span>
 
-    <span style="grid-area: catching;">Catching {{ include.player["Fielding"] }} 
+    <span class="info-box" style="grid-area: catching;">Catching {{ include.player["Fielding"] }} 
         <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
     </span>
 
-    <div id="detail-fielding-box">
+    <div class="info-box" id="detail-fielding-box">
         <span>Fielding {{ include.player["Field Position"] | first }}</span>
 
         {% comment %}
