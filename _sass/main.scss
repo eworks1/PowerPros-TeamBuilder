@@ -108,6 +108,14 @@ body {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+
+    display: flex;
+    align-items: center;
+}
+
+// This is the labels for the info boxes
+#detail-info-grid .info-box .info-label {
+    width: 100%;
 }
 
 // Small Reused Components / TODO: refactor these into separate files in `inlcudes`
