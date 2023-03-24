@@ -4,10 +4,9 @@
 
 <span style="font-size: 18px;">
     {% include player-name-box.html name=include.name positions=include.positions %}
+    {% if include.name | size > 0 %}
     <span class="cost-span">
-        <img src="{{ 'assets/img/cost_diamond.png' | relative_url }}" style="height: 12px;">
-        {% if name | size > 0 %}
-            <span> {{ include.cost }}</span>
-        {% endif %}
+        <img src="{{ 'assets/img/cost_diamond.png' | relative_url }}" style="height: 12px;"><span> {{ include.cost }}</span>
     </span>
+    {% endif %}
 </span>

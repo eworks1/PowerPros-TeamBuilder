@@ -35,7 +35,7 @@
 
 {% assign gradient = gradientStart | append: gradientMiddle | append: gradientEnd  %}
 
-{% if name | size > 0 %}
+{% if include.name | size > 0 %}
     <span class="player-name-box" style="background: {{ gradient }};">{{ include.name }}</span>
 {% else %}
     <span class="player-name-box" style="color: rgba(0, 0, 0, 0.2); background: {{ gradient }}">Empty</span>
