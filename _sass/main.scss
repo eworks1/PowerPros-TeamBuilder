@@ -10,7 +10,7 @@ body {
         rgba(14, 26, 71, 0.8)
     ), url('../assets/img/checker_background.jpg');
     background-size: 10px;
-    
+
     display: grid;
     grid-template-columns: 1fr 1fr 25%;
     grid-template-rows: auto 1fr 1fr auto;
@@ -20,7 +20,7 @@ body {
         "teamlist availableplayers ."
         "pointcount pointcount .";
     place-content: stretch;
-    gap: 2px;
+    gap: 4px;
 
     /* height: 100%; */
 }
@@ -32,7 +32,7 @@ h1 {
 .group-box {
     background-color: antiquewhite;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 8px solid #1f4eaa;
     padding: 8px;
 }
 
