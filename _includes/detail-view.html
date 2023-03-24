@@ -16,25 +16,15 @@
 
     <span class="info-box" style="grid-area: trj;">TRJ {{ include.player["Trajectory"] }} <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png"></span>
 
-    <span class="info-box" style="grid-area: hit;">HIT {{ include.player["Contact"] }} 
-        <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
-    </span>
+    <span class="info-box" style="grid-area: hit;">HIT {% include letter-rating.html rating=include.player["Contact"] %}</span>
 
-    <span class="info-box" style="grid-area: pwr;">PWR {{ include.player["Power"] }} 
-        <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
-    </span>
+    <span class="info-box" style="grid-area: pwr;">PWR {% include letter-rating.html rating=include.player["Power"] %}</span>
 
-    <span class="info-box" style="grid-area: runspd;">RUN SPD {{ include.player["Run Speed"] }} 
-        <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
-    </span>
+    <span class="info-box" style="grid-area: runspd;">RUN SPD {% include letter-rating.html rating=include.player["Run Speed"] %}</span>
 
-    <span class="info-box" style="grid-area: armstr;">ARM STR {{ include.player["Arm Strength"] }} 
-        <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
-    </span>
+    <span class="info-box" style="grid-area: armstr;">ARM STR {% include letter-rating.html rating=include.player["Arm Strength"] %}</span>
 
-    <span class="info-box" style="grid-area: catching;">Catching {{ include.player["Fielding"] }} 
-        <!-- <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png" -->
-    </span>
+    <span class="info-box" style="grid-area: catching;">Catching {% include letter-rating.html rating=include.player["Fielding"] %}</span>
 
     <div class="info-box" id="detail-fielding-box" style="grid-area: fieldingbox;">
         <span>Fielding {{ include.player["Field Position"] | first }}</span>
@@ -42,6 +32,6 @@
         {% comment %}
         TODO: need to get fielding level at each of their positions
         {% endcomment %}
-        <span>{{ include.player["Fielding"] }}</span>
+        <span>{% include letter-rating.html rating=include.player["Fielding"] %}</span>
     </div>
 </div>
