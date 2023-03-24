@@ -15,6 +15,8 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
 </head>
 
 <body>
+    {% assign all_players = site.data.players.players %}
+
     <div class="group-box" style="grid-area: teamname; display: flex; align-content: center; justify-content: center;">
         <input id="team-name" type="text" placeholder="Team Name" style="text-align: center; font-size: 2em;">
         <!-- <h1 style="text-align: center;">Team Name</h1> -->
@@ -25,7 +27,8 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
     </div>
 
     <div id="detail-box" class="group-box">
-        <h1>Detail View</h1>
+        {% assign first_player = all_players | first %}
+        {% include detail-view.html player=first_player %}
     </div>
 
     <div id="team-list" class="group-box" style="grid-area: teamlist;">
@@ -34,7 +37,6 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
     </div>
 
     <div class="group-box" style="grid-area: availableplayers;">
-        {% assign all_players = site.data.players.players %}
         {% include player-table.html players=all_players table_id="player-pool-table" %}
     </div>
 
