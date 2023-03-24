@@ -6,7 +6,6 @@
 {% assign playerPositions = include.player["Field Position"] %}
 
 <div id="detail-info-grid">
-    <!-- style="grid-area: teamname -->
     {% include player-name-box.html name=playerName positions=playerPositions %}
     
     <span style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
