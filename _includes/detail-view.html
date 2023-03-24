@@ -20,20 +20,20 @@
 
     <span class="info-box" style="grid-area: handedness; font-family: 'Roboto Condensed', sans-serif;">Throws {{ include.player["Throws"] }}, Bats {{ include.player["Bats"] }}</span>
 
-    <span class="info-box" style="grid-area: trj;">TRJ <span style="font-weight: 500;">{{ include.player["Trajectory"] }}</span> <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png"></span>
+    <span class="info-box" style="grid-area: trj;"><span class="info-label">TRJ</span><span style="font-weight: 500;">{{ include.player["Trajectory"] }}</span> <img style="height: 12px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png"></span>
 
-    <span class="info-box" style="grid-area: hit;">HIT {% include letter-rating.html rating=hit %}</span>
+    <span class="info-box" style="grid-area: hit;"><span class="info-label">HIT</span>{% include letter-rating.html rating=hit %}</span>
 
-    <span class="info-box" style="grid-area: pwr;">PWR {% include letter-rating.html rating=pwr %}</span>
+    <span class="info-box" style="grid-area: pwr;"><span class="info-label">PWR</span>{% include letter-rating.html rating=pwr %}</span>
 
-    <span class="info-box" style="grid-area: runspd;">RUN SPD {% include letter-rating.html rating=runspd %}</span>
+    <span class="info-box" style="grid-area: runspd;"><span class="info-label">RUN SPD </span>{% include letter-rating.html rating=runspd %}</span>
 
-    <span class="info-box" style="grid-area: armstr;">ARM STR {% include letter-rating.html rating=armstr %}</span>
+    <span class="info-box" style="grid-area: armstr;"><span class="info-label">ARM STR</span>{% include letter-rating.html rating=armstr %}</span>
 
-    <span class="info-box" style="grid-area: catching;">Catching {% include letter-rating.html rating=fielding %}</span>
+    <span class="info-box" style="grid-area: catching;"><span class="info-label">Catching</span>{% include letter-rating.html rating=fielding %}</span>
 
     <div class="info-box" id="detail-fielding-box" style="grid-area: fieldingbox;">
-        <span>Fielding {{ include.player["Field Position"] | first }}</span>
+        <span class="info-label">Fielding</span> {{ include.player["Field Position"] | first }}</span>
 
         {% comment %}
         TODO: need to get fielding level at each of their positions
