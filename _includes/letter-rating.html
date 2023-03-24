@@ -1,0 +1,24 @@
+{% comment %}
+{ rating (number) }
+{% endcomment %}
+
+{% assign letter = "" %}
+{% if include.rating >= 90 and include.rating <= 100 %}
+    {% assign letter = "S" %}
+{% elsif include.rating >= 80 and include.rating <= 89 %}
+    {% assign letter = "A" %}
+{% elsif include.rating >= 70 and include.rating <= 79 %}
+    {% assign letter = "B" %}
+{% elsif include.rating >= 60 and include.rating <= 69 %}
+    {% assign letter = "C" %}
+{% elsif include.rating >= 50 and include.rating <= 59 %}
+    {% assign letter = "D" %}
+{% elsif include.rating >= 40 and include.rating <= 49 %}
+    {% assign letter = "E" %}
+{% elsif include.rating >= 20 and include.rating <= 39 %}
+    {% assign letter = "F" %}
+{% else %}
+    {% assign letter = "G" %}
+{% endif %}
+
+<img class="letting-rating" src="https://www.mlbppworld.com/wiki/images/Rank_{{ letter }}.png">
