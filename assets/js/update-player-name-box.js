@@ -59,9 +59,6 @@ function createGradientString(positions) {
 
 const all_position_colors = allPositionColors();
 
-/**
- * @returns {{[key: string]: string}}
- */
 function allPositionColors() {
     return {{ site.data.colors.positions | jsonify }};
 }
