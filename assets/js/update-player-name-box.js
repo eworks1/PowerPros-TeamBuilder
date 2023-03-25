@@ -30,7 +30,7 @@ function updatePlayerNameBox(name, positions) {
 function createGradientString(positions) {
     const colors = new Array();
     for (const pos of positions) {
-        const colorName = allPositionColors[pos];
+        const colorName = all_position_colors[pos];
         if (!colors.includes(colorName)) {
             prev.push(colorName);
         }
@@ -57,8 +57,8 @@ function createGradientString(positions) {
     return `linear-gradient(to right${gradientMiddle})`;
 }
 
-const allPositionColors = allColors();
+const all_position_colors = allPositionColors();
 
-function allColors() {
+function allPositionColors() {
     return {{ site.data.colors.positions | jsonify }};
 }
