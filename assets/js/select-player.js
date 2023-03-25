@@ -1,5 +1,4 @@
-// ---
-// ---
+function playerClicked(player) {
+    // update all 3 detail views (just fielding for now)
 
-const all_players = {{ site.site.data.players.players | jsonify }}
-export default all_players;
+    const playerNameBox = fieldingDetailView.getElementsByClassName('player-name-box').item(0);
