@@ -4,6 +4,10 @@ function playerClicked(player) {
 
     const playerNameBox = fieldingDetailView.getElementsByClassName('player-name-box').item(0);
     if (playerNameBox) {
-        playerNameBox.textContent = player['Name Abbreviation'];
+        updatePlayerNameBox(
+            playerNameBox,
+            player['Name Abbreviation'],
+            player['Field Position']
+        );
     }
 }
