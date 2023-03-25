@@ -47,10 +47,13 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
             
             playerNameBoxes.forEach((box) => box.addEventListener('click', (e) => {
                 // e.preventDefault();
-                const playerNameAbbr = e.srcElement.innerText;
-                console.info(playerNameAbbr);
-                const matchingPlayer = all_players.find(p => p["Name Abbreviation"] == playerNameAbbr);
+                const playerId = e.srcElement.id
+                    .replace('-name-box', '');
+                console.info(playerId);
+
+                const matchingPlayer = findPlayer(playerId);
                 console.info(matchingPlayer);
+                
                 if (matchingPlayer) {
                     playerClicked(matchingPlayer);
                 }
