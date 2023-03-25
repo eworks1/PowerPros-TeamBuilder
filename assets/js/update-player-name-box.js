@@ -33,7 +33,7 @@ function createGradientString(positions) {
     for (const pos of positions) {
         const colorName = all_position_colors[pos.trim()];
         if (!colors.includes(colorName)) {
-            prev.push(colorName);
+            colors.push(colorName);
         }
     }
     
