@@ -5,6 +5,7 @@
 {% assign positions_json = include.positions | jsonify %}
 {% assign joined_positions = include.positions | join: '' %}
 {% assign var_name = "positions" | append: include.name | append: joined_positions %}
+{% assign var_name = var_name | replace: '.', '' %}
 <script type="text/javascript">
     const {{ var_name }} = {{ positions_json }};
 </script>
