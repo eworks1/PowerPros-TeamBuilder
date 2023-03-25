@@ -1,11 +1,12 @@
 ---
 ---
 
+{% raw %}
 /**
  * @this Element
  * @param {string} name
  * @param {string[]} positions 
- */
+ */{% endraw %}
 function updatePlayerNameBox(name, positions) {
     const gradient = createGradientString(positions);
 
@@ -59,6 +60,10 @@ function createGradientString(positions) {
 
 const all_position_colors = allPositionColors();
 
+{% raw %}
+/**
+ * @returns {{[key: string]: string}}
+ */{% endraw %}
 function allPositionColors() {
     return {{ site.data.colors.positions | jsonify }};
 }
