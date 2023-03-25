@@ -57,4 +57,8 @@ function createGradientString(positions) {
     return `linear-gradient(to right${gradientMiddle})`;
 }
 
-const allPositionColors = {{ site.data.colors.positions | jsonify }};
+const allPositionColors = allColors();
+
+function allColors() {
+    return {{ site.data.colors.positions | jsonify }};
+}
