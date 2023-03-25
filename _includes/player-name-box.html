@@ -3,10 +3,12 @@
 {% endcomment %}
 
 {% assign positions_json = include.positions | jsonify %}
+{% assign joined_positions = include.positions | join: '' %}
+{% assign var_name = "positions" | append: include.name | append: joined_positions %}
 <script type="text/javascript">
-    const positions{% increment pos_var_num %} = {{ positions_json }};
+    const {{ var_name }} = {{ positions_json }};
 </script>
-<span class="player-name-box" onload="updatePlayerNameBox({{ include.name }}, positions{{ pos_var_num }})"></span>
+<span class="player-name-box" onload="updatePlayerNameBox({{ include.name }}, {{ var_name }})"></span>
 
 {% comment %}
 {% assign playerPositions = include.positions %}
