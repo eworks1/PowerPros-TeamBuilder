@@ -1,11 +1,11 @@
 ---
 ---
 
-const all_players = allPlayers()
+const all_players = allPlayers().players;
 
 /**
- * @returns {{[key: string]: string}[]}
+ * @returns { { players: { [key: string]: string }[] }}
  */
 function allPlayers() {
-    return {{ site.data.players.players | jsonify }};
+    return {{ site.data.players | jsonify }};
 }
