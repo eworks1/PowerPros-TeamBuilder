@@ -13,6 +13,9 @@
 {% endfor %}
 
 {% assign colorCount = colors | size %}
+{% if colorCount == 0 %}
+    {% assign colorCount = 1 %}
+{% endif %}
 {% assign percentDivided = 100 | divided_by:colorCount %}
 
 {% assign gradientStart = "linear-gradient(to right" %}
