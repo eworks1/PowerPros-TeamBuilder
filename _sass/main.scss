@@ -76,9 +76,9 @@ body {
 //     border: 2px solid black;
 // }
 
-// detail-view.html
+// fielding-detail-view.html
 
-#detail-info-grid {
+#fielding-detail-view {
     display: grid;
 
     grid-template-columns: auto 15% auto;
@@ -96,11 +96,11 @@ body {
     gap: 2px 4px;
 }
 
-#detail-info-grid .player-name-box {
+#fielding-detail-view .player-name-box {
     grid-area: namebox;
 }
 
-#detail-info-grid .info-box {
+#fielding-detail-view .info-box {
     color: rgb(58, 114, 191);
     background-color: #f8fdfd;
     border: #dfedf1 solid 1px;
@@ -115,7 +115,7 @@ body {
 }
 
 // This is the labels for the info boxes
-#detail-info-grid .info-box .info-label {
+#fielding-detail-view .info-box .info-label {
     width: 100%;
 }
 
