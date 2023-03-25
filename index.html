@@ -49,12 +49,14 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
                 console.info(playerNameAbbr);
                 const matchingPlayer = all_players.find(p => p["Name Abbreviation"] == playerNameAbbr);
                 console.info(matchingPlayer);
-                // if (matchingPlayer) {
-
-                // }
+                if (matchingPlayer) {
+                    playerClicked(matchingPlayer);
+                }
             }));
         }
     </script>
+
+    <script type="text/javascript" src="{{ 'assets/js/select-player.js' | relative_url }}" ></script>
 </head>
 
 <body onload="setUpClickListeners()">
