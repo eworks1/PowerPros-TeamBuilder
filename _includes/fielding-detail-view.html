@@ -2,7 +2,6 @@
 { player }
 {% endcomment %}
 
-{% assign playerId = include.player.id %}
 {% assign playerName = include.player["Name Abbreviation"] %}
 {% assign playerPositions = include.player["Field Position"] %}
 
@@ -13,7 +12,7 @@
 {% assign fielding = include.player["Fielding"] %}
 
 <div id="fielding-detail-view">
-    {% include player-name-box.html id=playerId name=playerName positions=playerPositions %}
+    {% include player-name-box.html name=playerName positions=playerPositions %}
     
     <span class="star-point-count" style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
 
