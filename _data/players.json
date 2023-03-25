@@ -1,5 +1,6 @@
 {
     "players": [{
+        "id": "recPA0mtVDiFjrIXK",
         "Name": "Miyabi Oyama",
         "Name Abbreviation": "Oyama",
         "Field Position": ["SS", "2B"],
@@ -22,6 +23,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recQCfKraneKsNHxH",
         "Name": "Masaru Tanaka",
         "Name Abbreviation": "Tanaka",
         "Field Position": ["1B"],
@@ -44,6 +46,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "reckb3RkuqezXaMb3",
         "Name": "Kumetaro Samejima",
         "Name Abbreviation": "Samejima",
         "Field Position": ["3B"],
@@ -66,6 +69,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "reczqlrwMcYVpGshZ",
         "Name": "Miyoko Ozora",
         "Name Abbreviation": "Ozora",
         "Field Position": ["3B", "OF"],
@@ -88,6 +92,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recaFrHXKosWgsXaV",
         "Name": "Himawari Natsuno",
         "Name Abbreviation": "Natsuno",
         "Field Position": ["SS", "1B", "2B"],
@@ -110,6 +115,7 @@
         "Stamina": 25,
         "Breaking Balls": ["Lv. Circle Change", "Lv. 2 12-6 Curveball"]
     }, {
+        "id": "reccibBaO4OMCmENX",
         "Name": "Kyoji Gaido",
         "Name Abbreviation": "Gaido",
         "Field Position": ["1B", "OF", "C"],
@@ -132,6 +138,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "rec0CDRjYuVhGH6cw",
         "Name": "Choji Bando",
         "Name Abbreviation": "Bando",
         "Field Position": ["3B", "1B"],
@@ -154,6 +161,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recSC5kCP8ftMRvM8",
         "Name": "Yaben Diyansu",
         "Name Abbreviation": "Y.Diyansu",
         "Field Position": ["2B", "3B", "OF"],
@@ -176,6 +184,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "reciDfJQV4vvlG1q9",
         "Name": "Tsuyoshi Shogogetsu",
         "Name Abbreviation": "Shogogetsu",
         "Field Position": ["3B", "1B", "OF"],
@@ -198,6 +207,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "rechSyD3F1FjRs51P",
         "Name": "Gen Sakamoto",
         "Name Abbreviation": "Sakamoto",
         "Field Position": ["2B"],
@@ -220,6 +230,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recF1jpiHkselXVlb",
         "Name": "Ryo Kogarashi",
         "Name Abbreviation": "Kogarashi",
         "Field Position": ["SS", "2B"],
@@ -242,6 +253,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recOkGyW287zoTGo7",
         "Name": "Hajime Sanbonmatsu",
         "Name Abbreviation": "Sanbonmatsu",
         "Field Position": ["1B"],
@@ -264,6 +276,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "reciAhFRv1xRNENLm",
         "Name": "Kenji Yojo",
         "Name Abbreviation": "Yojo",
         "Field Position": ["2B"],
@@ -286,6 +299,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recq8xuiLxv8R7LwM",
         "Name": "Gonzo Igarashi",
         "Name Abbreviation": "Igarashi",
         "Field Position": ["3B"],
@@ -308,6 +322,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recNisQ3kFMVUrity",
         "Name": "Yuki Roppongi",
         "Name Abbreviation": "Roppongi",
         "Field Position": ["SS"],
@@ -330,6 +345,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recvuLH1GpbdCyEkw",
         "Name": "Kiwamu Sendoh",
         "Name Abbreviation": "Sendoh",
         "Field Position": ["1B", "3B"],
@@ -352,6 +368,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recajCHDLbOz8uc6c",
         "Name": "Shinzo Nomi",
         "Name Abbreviation": "Nomi",
         "Field Position": ["2B", "SS"],
@@ -374,6 +391,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "rec6ainBq5GfqbfOG",
         "Name": "Gyanendra Bhattarai",
         "Name Abbreviation": "G.Bhattarai",
         "Field Position": ["SS", "2B", "3B"],
@@ -396,6 +414,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "rec4swvlPq3Cw97bL",
         "Name": "Gunpei Shibata",
         "Name Abbreviation": "Shibata",
         "Field Position": ["SS"],
@@ -418,6 +437,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recp5MSk9rS5KjGwI",
         "Name": "Kentaro Suzuhime",
         "Name Abbreviation": "Suzuhime",
         "Field Position": ["SS", "3B"],
@@ -440,6 +460,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recXFVjJiyufDMObw",
         "Name": "Ken Hakosaki",
         "Name Abbreviation": "Hakosaki",
         "Field Position": ["1B", "3B"],
@@ -462,6 +483,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recLGzGOHdyYOJGc2",
         "Name": "Meiru Naito",
         "Name Abbreviation": "Naito",
         "Field Position": ["1B", "OF", "C"],
@@ -484,6 +506,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recRKY6tiNUywEZvK",
         "Name": "Nodoka Yumeshiro",
         "Name Abbreviation": "N.Yumeshiro",
         "Field Position": ["3B", "1B"],
@@ -506,6 +529,7 @@
         "Stamina": 70,
         "Breaking Balls": null
     }, {
+        "id": "recS6I3Fagy6cLTeM",
         "Name": "Tansaku Iseki",
         "Name Abbreviation": "Iseki",
         "Field Position": ["2B", "C"],
@@ -528,6 +552,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recvNAbnZbzJyyR5x",
         "Name": "Minato Tatehashi",
         "Name Abbreviation": "Tatehashi",
         "Field Position": ["2B", "SS"],
@@ -550,6 +575,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "rec85VTdY1zuKkgWr",
         "Name": "Haruki Warabi",
         "Name Abbreviation": "Warabi",
         "Field Position": ["2B", "SS"],
@@ -572,6 +598,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recU8wwzh4pTZ9LQQ",
         "Name": "Nyaptet",
         "Name Abbreviation": "Nyaptet",
         "Field Position": ["2B", "SS", "OF"],
@@ -594,6 +621,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recCNgqxKjVkfemDe",
         "Name": "Nubis",
         "Name Abbreviation": "Nubis",
         "Field Position": ["1B", "OF"],
@@ -616,6 +644,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "rec455MXHY2cdGnz0",
         "Name": "Maito Oda",
         "Name Abbreviation": "Oda",
         "Field Position": ["3B", "OF"],
@@ -638,6 +667,7 @@
         "Stamina": 99,
         "Breaking Balls": ["Lv. Circle Change", "Lv. 3 Splitter", "Lv. 3 12-6 Curveball"]
     }, {
+        "id": "recK3tYBs10Y8RQIE",
         "Name": "Yoshito Ueno",
         "Name Abbreviation": "Ueno",
         "Field Position": ["2B"],
@@ -660,6 +690,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recxn4yXLRppydreX",
         "Name": "Furu Heart",
         "Name Abbreviation": "Furu",
         "Field Position": ["1B"],
@@ -682,6 +713,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recd7GJ8KHGn2IaOq",
         "Name": "Yokan Ukami",
         "Name Abbreviation": "Ukami",
         "Field Position": ["SS", "OF"],
@@ -704,6 +736,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recGNZfxaY8TfetIC",
         "Name": "Chiyohime",
         "Name Abbreviation": "Chiyohime",
         "Field Position": ["2B", "1B"],
@@ -726,6 +759,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recOpnY9QDyj620Zt",
         "Name": "Mahiru Todo",
         "Name Abbreviation": "Todo",
         "Field Position": ["3B"],
@@ -748,6 +782,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "reccyrT7LsGw1yS6t",
         "Name": "Tamio Oume",
         "Name Abbreviation": "Oume",
         "Field Position": ["3B", "1B"],
@@ -770,6 +805,7 @@
         "Stamina": null,
         "Breaking Balls": null
     }, {
+        "id": "recKm2IkOGrXvgqEK",
         "Name": "Hazuki Hayama (Paachan)",
         "Name Abbreviation": "Paachan",
         "Field Position": ["SS", "2B", "3B"],
@@ -792,6 +828,7 @@
         "Stamina": 30,
         "Breaking Balls": null
     }, {
+        "id": "rec75GGDUBbwBcrhz",
         "Name": "Pink",
         "Name Abbreviation": "Pink",
         "Field Position": ["SS", "2B"],
