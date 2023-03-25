@@ -37,7 +37,7 @@ function createGradientString(positions) {
         }
     }
     
-    const colorCount = colors.length | 1;
+    const colorCount = colors.length || 1;
     const percentDivided = 100 / colorCount;
 
     let gradientMiddle = '';
