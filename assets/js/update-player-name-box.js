@@ -40,8 +40,6 @@ function createGradientString(positions) {
     const colorCount = colors.length | 1;
     const percentDivided = 100 / colorCount;
 
-    const gradientStart = 'linear-gradient(to right';
-
     let gradientMiddle = '';
     colors.forEach((c, i) => {
         const percent1 = percentDivided * i;
@@ -54,7 +52,6 @@ function createGradientString(positions) {
         gradientMiddle = gradientMiddle + `, ${c} ${percent1}%, ${c} ${percent2}%`;
     })
     
-    const gradientEnd = ')';
     return `linear-gradient(to right${gradientMiddle})`;
 }
 
