@@ -2,6 +2,9 @@
 { name, positions }
 {% endcomment %}
 
+<span class="player-name-box" onload="updatePlayerNameBox(this, {{ include.name }}, {{ include.positions }})"></span>
+
+{% comment %}
 {% assign playerPositions = include.positions %}
 
 {% assign colors = '' | split: '' %}
@@ -43,7 +46,7 @@
 {% else %}
     <span class="player-name-box" style="color: rgba(0, 0, 0, 0.2); background: {{ gradient }}">Empty</span>
 {% endif %}
-
+{% endcomment %}
 
 {% comment %}
 <!-- background-image: linear-gradient(to right, #f2d247, #f2d247 33%, #8ef085 33%, #8ef085 66%, #74ecf0 66%, #74ecf0); -->
