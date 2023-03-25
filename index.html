@@ -38,6 +38,11 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
         
         function setUpClickListeners() {
             let playerNameBoxes = document.querySelectorAll('.player-table .player-name-box');
+            
+            // click => show detail
+            // right click => show popup info
+            // double-click => add to team
+            
             playerNameBoxes.forEach((box) => box.addEventListener('click', (e) => {
                 // contextmenu
                 // e.preventDefault();
