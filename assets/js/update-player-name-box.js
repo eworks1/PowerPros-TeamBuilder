@@ -30,7 +30,7 @@ function updatePlayerNameBox(name, positions) {
 function createGradientString(positions) {
     const colors = new Array();
     for (const pos of positions) {
-        const colorName = all_position_colors[pos];
+        const colorName = all_position_colors[pos.trim()];
         if (!colors.includes(colorName)) {
             prev.push(colorName);
         }
