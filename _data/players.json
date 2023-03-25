@@ -24,7 +24,7 @@
     }, {
         "Name": "Masaru Tanaka",
         "Name Abbreviation": "Tanaka",
-        "Field Position": "1B",
+        "Field Position": ["1B"],
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Base Set",
@@ -46,7 +46,7 @@
     }, {
         "Name": "Kumetaro Samejima",
         "Name Abbreviation": "Samejima",
-        "Field Position": "3B",
+        "Field Position": ["3B"],
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Base Set",
@@ -192,7 +192,7 @@
         "Arm Strength": 70,
         "Fielding": 50,
         "Error Resistance": 50,
-        "Special Abilities": "Menace",
+        "Special Abilities": ["Menace"],
         "Top Speed": null,
         "Control": null,
         "Stamina": null,
@@ -200,7 +200,7 @@
     }, {
         "Name": "Gen Sakamoto",
         "Name Abbreviation": "Sakamoto",
-        "Field Position": "2B",
+        "Field Position": ["2B"],
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Base Set",
@@ -244,7 +244,7 @@
     }, {
         "Name": "Hajime Sanbonmatsu",
         "Name Abbreviation": "Sanbonmatsu",
-        "Field Position": "1B",
+        "Field Position": ["1B"],
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Base Set",
@@ -266,7 +266,7 @@
     }, {
         "Name": "Kenji Yojo",
         "Name Abbreviation": "Yojo",
-        "Field Position": "2B",
+        "Field Position": ["2B"],
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Base Set",
@@ -288,7 +288,7 @@
     }, {
         "Name": "Gonzo Igarashi",
         "Name Abbreviation": "Igarashi",
-        "Field Position": "3B",
+        "Field Position": ["3B"],
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Base Set",
@@ -310,7 +310,7 @@
     }, {
         "Name": "Yuki Roppongi",
         "Name Abbreviation": "Roppongi",
-        "Field Position": "SS",
+        "Field Position": ["SS"],
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Base Set",
@@ -324,7 +324,7 @@
         "Arm Strength": 65,
         "Fielding": 90,
         "Error Resistance": 80,
-        "Special Abilities": "Glover",
+        "Special Abilities": ["Glover"],
         "Top Speed": null,
         "Control": null,
         "Stamina": null,
@@ -398,7 +398,7 @@
     }, {
         "Name": "Gunpei Shibata",
         "Name Abbreviation": "Shibata",
-        "Field Position": "SS",
+        "Field Position": ["SS"],
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Base Set",
@@ -412,7 +412,7 @@
         "Arm Strength": 59,
         "Fielding": 50,
         "Error Resistance": 16,
-        "Special Abilities": "Throwing E",
+        "Special Abilities": ["Throwing E"],
         "Top Speed": null,
         "Control": null,
         "Stamina": null,
@@ -640,7 +640,7 @@
     }, {
         "Name": "Yoshito Ueno",
         "Name Abbreviation": "Ueno",
-        "Field Position": "2B",
+        "Field Position": ["2B"],
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Base Set",
@@ -662,7 +662,7 @@
     }, {
         "Name": "Furu Heart",
         "Name Abbreviation": "Furu",
-        "Field Position": "1B",
+        "Field Position": ["1B"],
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Base Set",
@@ -728,7 +728,7 @@
     }, {
         "Name": "Mahiru Todo",
         "Name Abbreviation": "Todo",
-        "Field Position": "3B",
+        "Field Position": ["3B"],
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Base Set",
