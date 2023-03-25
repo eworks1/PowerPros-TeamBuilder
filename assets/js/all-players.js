@@ -1,5 +1,6 @@
 ---
 ---
 
-const all_players = {{ site.data.players.players | jsonify }};
-
+function allPlayers() {
+    return {{ site.data.players.players | jsonify }};
+}
