@@ -2,11 +2,11 @@
 ---
 
 /**
- * @param {Element} element
+ * @this Element
  * @param {string} name
  * @param {string[]} positions 
  */
-function updatePlayerNameBox(element, name, positions) {
+function updatePlayerNameBox(name, positions) {
     const gradient = createGradientString(positions);
 
     // const span = document.querySelector('.player-name-box')
@@ -19,8 +19,8 @@ function updatePlayerNameBox(element, name, positions) {
         styleString += ' color: rgba(0, 0, 0, 0.2);'
     }
 
-    element.setAttribute('style', styleString)
-    element.textContent = elementText
+    this.setAttribute('style', styleString)
+    this.textContent = elementText
 }
 
 /**
