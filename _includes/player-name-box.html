@@ -2,7 +2,7 @@
 { name, positions }
 {% endcomment %}
 
-<span class="player-name-box" onload="updatePlayerNameBox(this, {{ include.name }}, {{ include.positions }})"></span>
+<span class="player-name-box" onload="updatePlayerNameBox(this, {{ include.name }}, {{ include.positions | jsonify }})"></span>
 
 {% comment %}
 {% assign playerPositions = include.positions %}
