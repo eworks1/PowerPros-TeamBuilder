@@ -47,7 +47,7 @@ function playerClicked(player) {
         );
     }
 
-    const hitImg = fieldingDetailView.querySelectorAll('#detail-hit .info-box .letter-rating').item(0);
+    const hitImg = fieldingDetailView.querySelectorAll('#detail-hit.info-box .letter-rating').item(0);
     if (hitImg) {
         hitImg.setAttribute(
             'src',
@@ -55,7 +55,7 @@ function playerClicked(player) {
         );
     }
 
-    const pwrImg = fieldingDetailView.querySelectorAll('#detail-pwr .info-box .letter-rating').item(0);
+    const pwrImg = fieldingDetailView.querySelectorAll('#detail-pwr.info-box .letter-rating').item(0);
     if (pwrImg) {
         pwrImg.setAttribute(
             'src',
@@ -63,7 +63,7 @@ function playerClicked(player) {
         );
     }
 
-    const runspdImg = fieldingDetailView.querySelectorAll('#detail-runspd .info-box .letter-rating').item(0);
+    const runspdImg = fieldingDetailView.querySelectorAll('#detail-runspd.info-box .letter-rating').item(0);
     if (runspdImg) {
         runspdImg.setAttribute(
             'src',
@@ -71,7 +71,7 @@ function playerClicked(player) {
         );
     }
 
-    const armstrImg = fieldingDetailView.querySelectorAll('#detail-armstr .info-box .letter-rating').item(0);
+    const armstrImg = fieldingDetailView.querySelectorAll('#detail-armstr.info-box .letter-rating').item(0);
     if (armstrImg) {
         armstrImg.setAttribute(
             'src',
@@ -79,7 +79,7 @@ function playerClicked(player) {
         );
     }
 
-    const catchingImg = fieldingDetailView.querySelectorAll('#detail-catching .info-box .letter-rating').item(0);
+    const catchingImg = fieldingDetailView.querySelectorAll('#detail-catching.info-box .letter-rating').item(0);
     if (catchingImg) {
         catchingImg.setAttribute(
             'src',
