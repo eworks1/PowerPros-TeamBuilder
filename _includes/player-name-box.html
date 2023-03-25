@@ -2,9 +2,11 @@
 { name, positions }
 {% endcomment %}
 
-{% assign positions_json = include.positions | jsonify | upcase | replace: '"', "'" %}
-
-<span class="player-name-box" onload="updatePlayerNameBox({{ include.name }}, {{ positions_json }})"></span>
+{% assign positions_json = include.positions | jsonify %}
+<script type="text/javascript">
+    const positions{% increment pos_var_num %} = {{ positions_json }};
+</script>
+<span class="player-name-box" onload="updatePlayerNameBox({{ include.name }}, positions{{ pos_var_num }})"></span>
 
 {% comment %}
 {% assign playerPositions = include.positions %}
