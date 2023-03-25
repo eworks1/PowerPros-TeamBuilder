@@ -17,11 +17,11 @@ function updatePlayerNameBox(name, positions) {
         elementText = name;
     } else {
         elementText = 'Empty';
-        styleString += ' color: rgba(0, 0, 0, 0.2);'
+        styleString += ' color: rgba(0, 0, 0, 0.2);';
     }
 
-    this.setAttribute('style', styleString)
-    this.textContent = elementText
+    this.setAttribute('style', styleString);
+    this.textContent = elementText;
 }
 
 /**
