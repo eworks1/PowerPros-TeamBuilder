@@ -58,6 +58,7 @@ function addPlayer(player) {
     if (firstEmptyPlayerNameBox && costSpan) {
         // Update player-name-box
         firstEmptyPlayerNameBox.id = `${player.id}-name-box`;
+
         // pass player-name-box to updatePlayerNameBox with .apply
         updatePlayerNameBox.apply(
             firstEmptyPlayerNameBox,
@@ -76,6 +77,8 @@ function addPlayer(player) {
             `opacity: ${costOpacity};`
         );
     }
+
+    // TODO: FADE OUT PLAYER FROM ALL PLAYER TABLE
 
     return added;
 }
