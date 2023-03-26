@@ -13,6 +13,11 @@ var team = {
     backups: Array()
 };
 
+{% raw %}
+/**
+ * @param {any} player
+ * @returns {boolean}
+ */{% endraw %}
 function addPlayer(player) {
     // Add to team
     const primary_position = player["Field Position"][0];
@@ -40,7 +45,7 @@ function addPlayer(player) {
         }
     }
 
-    if (!added) { return; }
+    if (!added) { return added; }
 
     // Update in team table
     const playerNameBoxCSSSelector = `#team-table .no-player.${position_group}-group`;
@@ -71,4 +76,6 @@ function addPlayer(player) {
             `opacity: ${costOpacity};`
         );
     }
+
+    return added;
 }
