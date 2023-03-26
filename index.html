@@ -58,10 +58,9 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
                 }
             }));
 
-            // right click => show popup info
-            // double-click => add to/remove from team
-            playerNameBoxes.forEach((box) => box.addEventListener('dblclick', (e) => {
-                // e.preventDefault();
+            // right click => add to/remove from team
+            playerNameBoxes.forEach((box) => box.addEventListener('contextmenu', (e) => {
+                e.preventDefault();
                 const playerId = e.srcElement.id
                     .replace('-name-box', '');
 
@@ -70,9 +69,11 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
                 console.info(matchingPlayer);
 
                 if (matchingPlayer) {
-                    doubleClicked(matchingPlayer);
+                    rightClicked(matchingPlayer);
                 }
             }));
+
+            // double-click => show popup info (dblclick)
         }
     </script>
 
