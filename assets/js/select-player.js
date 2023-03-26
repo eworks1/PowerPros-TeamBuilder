@@ -88,13 +88,13 @@ function playerClicked(player) {
     }
 
     // Fielding Box
-    const fieldingImg = fieldingDetailView.querySelectorAll('#detail-fielding .letter-rating').item(0);
-    if (fieldingImg) {
-        fieldingImg.setAttribute(
-            'src',
-            letterRatingUrl(player["Error Resistance"])
-        );
-    }
+    // const fieldingImg = fieldingDetailView.querySelectorAll('#detail-fielding .letter-rating').item(0);
+    // if (fieldingImg) {
+    //     fieldingImg.setAttribute(
+    //         'src',
+    //         letterRatingUrl(player["Error Resistance"])
+    //     );
+    // }
 }
 
 /**
