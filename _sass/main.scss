@@ -161,9 +161,8 @@ table .player-name-box.has-player {
 // Small Reused Components / TODO: refactor these into separate files in `inlcudes`
 
 .cost-span {
-    padding: 4px;
+    padding: 4px 4px 4px 2px;
 
-    text-align: right;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -179,7 +178,7 @@ table .player-name-box.has-player {
     height: 12px;
     width: 12px;
     display: inline-block;
-    margin-right: 0px;
+    margin-right: 2px;
     background-position: center;
     content: "";
 }
