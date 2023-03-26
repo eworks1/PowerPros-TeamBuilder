@@ -82,3 +82,74 @@ function addPlayer(player) {
 
     return added;
 }
+
+{% raw %}
+/**
+ * @param {any} player
+ * @returns {boolean} If it succeeded.
+ */{% endraw %}
+function removePlayer(player) {
+    // Confirm if they're on the team or not
+    const primary_position = player["Field Position"][0];
+    let position_group = '';
+    if (['SP', 'MR', 'CP'].includes(primary_position)) {
+        position_group = 'pitchers';
+    } else {
+        position_group = 'fielders';
+    }
+
+    // Check if player exists in `team`, and deleted if so.
+    if (team[position_group]) {
+        let index = team[position_group].findIndex(p => p.id == player.id);
+        if (index > -1) {
+            team[position_group].splice(index, 1);
+            deleted = true;
+        } else {
+            index = team.backups.findIndex(p => p.id == player.id);
+            if (index > -1) {
+                team.backups.splice(index, 1);
+                deleted = true;
+                position_group = 'backups';
+            }
+        }
+    }
+
+    // If they were continue. Otherwise, return `deleted`.
+    if (!deleted) { return deleted; }
+
+    // Update in team table
+    const playerNameBoxID = `${player.id}-name-box`;
+    // This finds the first empty player-name-box of the correct position group
+    const assocPlayerNameBox = document.getElementById(playerNameBoxID);
+
+    // Finds the cost-span by looking at the immediately adjacent sibling
+    const costSpan = document.querySelector(`#${playerNameBoxID} + .cost-span`);
+
+    if (assocPlayerNameBox && costSpan) {
+        // Update player-name-box
+        assocPlayerNameBox.removeAttribute('id');
+
+        // pass player-name-box to updatePlayerNameBox with .apply
+        const emptyPlayer = empty_player_slots[position_group];
+        updatePlayerNameBox.apply(
+            assocPlayerNameBox,
+            [
+                emptyPlayer['Name Abbreviation'],
+                emptyPlayer['Field Position']
+            ]
+        );
+
+        // Update cost-span
+        // Manually update cost-span and set opacity to 0 if 0
+        costSpan.textContent = emptyPlayer["Point Cost"];
+        const costOpacity = Math.min(1, emptyPlayer["Point Cost"]);
+        costSpan.setAttribute(
+            'style',
+            `opacity: ${costOpacity};`
+        );
+    }
+
+    // TODO: FADE BACK IN PLAYER FROM ALL PLAYER TABLE
+
+    return deleted;
+}
