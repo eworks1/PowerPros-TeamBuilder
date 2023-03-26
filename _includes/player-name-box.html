@@ -53,10 +53,10 @@
 <!-- {{ include.positions | size }} -->
 {% if primary_position == 'SP' or primary_position == 'MR' or primary_position == 'CP' %}
     {% assign position_group = 'pitcher' %}
-{% elsif include.positions | size == 0 %}
-    {% assign position_group = 'backup' %}
-{% else %}
+{% elsif include.positions | size == 1 %}
     {% assign position_group = 'fielder' %}
+{% else %}
+    {% assign position_group = 'backup' %}
 {% endif %}
 
 {% if include.name != 'Empty' %}
