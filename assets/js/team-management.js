@@ -16,6 +16,21 @@ var team = {
 {% raw %}
 /**
  * @param {any} player
+ */{% endraw %}
+function doubleClicked(player) {
+    // If they're on the team, they'll be removed here.
+    const deleted = removePlayer(player);
+
+    // If they were removed, exit the function.
+    if (deleted) { return; }
+
+    // If they weren't removed, add them to the team.
+    addPlayer(player);
+}
+
+{% raw %}
+/**
+ * @param {any} player
  * @returns {boolean} If it succeeded.
  */{% endraw %}
 function addPlayer(player) {
