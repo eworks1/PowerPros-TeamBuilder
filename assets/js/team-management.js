@@ -84,13 +84,13 @@ function addPlayer(player) {
         );
 
         // Update cost-span
-        // Manually update cost-span and set opacity to 0 if 0
+        // Manually update cost-span and add `.cost-zero` class to hide if 0
         costSpan.textContent = player["Point Cost"];
-        const costOpacity = Math.min(1, player["Point Cost"]);
-        costSpan.setAttribute(
-            'style',
-            `opacity: ${costOpacity};`
-        );
+        if (player["Point Cost"] > 0) {
+            costSpan.classList.remove('cost-zero');
+        } else {
+            costSpan.classList.add('cost-zero');
+        }
     }
 
     // TODO: FADE OUT PLAYER FROM ALL PLAYER TABLE
@@ -156,13 +156,13 @@ function removePlayer(player) {
         );
 
         // Update cost-span
-        // Manually update cost-span and set opacity to 0 if 0
+        // Manually update cost-span and add `.cost-zero` class to hide if 0
         costSpan.textContent = emptyPlayer["Point Cost"];
-        const costOpacity = Math.min(1, emptyPlayer["Point Cost"]);
-        costSpan.setAttribute(
-            'style',
-            `opacity: ${costOpacity};`
-        );
+        if (emptyPlayer["Point Cost"] > 0) {
+            costSpan.classList.remove('cost-zero');
+        } else {
+            costSpan.classList.add('cost-zero');
+        }
     }
 
     // TODO: FADE BACK IN PLAYER FROM ALL PLAYER TABLE
