@@ -1,4 +1,18 @@
 {
+    "empty_slots": {
+        "pitcher": {
+            "Name Abbreviation": "",
+            "Field Position": ["SP"]
+        },
+        "fielder": {
+            "Name Abbreviation": "",
+            "Field Position": ["1B"]
+        },
+        "backup": {
+            "Name Abbreviation": "",
+            "Field Position": []
+        }
+    },
     "players": [{
         "id": "recPA0mtVDiFjrIXK",
         "Name": "Miyabi Oyama",
