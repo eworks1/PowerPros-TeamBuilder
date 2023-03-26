@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="202.081px"
+   height="150px"
+   viewBox="0 0 202.081 150"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="baseball-diamond.svg"
+   inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.5161705"
+     inkscape:cx="104.3252"
+     inkscape:cy="114.26094"
+     inkscape:window-width="1416"
+     inkscape:window-height="991"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g11837"
+       transform="matrix(1.0104068,0,0,1.0104068,-40.093761,-40.514199)">
+      <path
+         style="font-variation-settings:'wght' 400;fill:#cdedfd;fill-opacity:1;stroke:#92bbe4;stroke-width:0.186163;stroke-dasharray:none;stroke-opacity:1"
+         d="M 92.466228,52.916559 66.145829,79.244015 39.811313,52.916561 42.579485,50.04966 c 12.803301,-13.25993 34.019149,-13.033615 47.052766,0 l 2.833977,2.866895 z"
+         id="path6877"
+         sodipodi:nodetypes="cccsccc" />
+      <g
+         id="g11819">
+        <rect
+           style="font-variation-settings:'wght' 400;fill:#cdedfd;fill-opacity:1;stroke:#92bbe4;stroke-width:0.185236;stroke-dasharray:none;stroke-opacity:1"
+           id="rect184"
+           width="18.52363"
+           height="18.52363"
+           x="84.282516"
+           y="-9.2618141"
+           transform="rotate(45)" />
+        <rect
+           style="font-variation-settings:'wght' 400;fill:#cdedfd;fill-opacity:1;stroke:#92bbe4;stroke-width:0.171111;stroke-dasharray:none;stroke-opacity:1"
+           id="rect1007"
+           width="2.8223073"
+           height="2.8223073"
+           x="-9.6431828"
+           y="-86.723572"
+           transform="rotate(135.00009)"
+           inkscape:transform-center-x="0.25857938"
+           inkscape:transform-center-y="0.25859145" />
+        <rect
+           style="font-variation-settings:'wght' 400;fill:#cdedfd;fill-opacity:1;stroke:#92bbe4;stroke-width:0.171111;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5365"
+           width="2.8223073"
+           height="2.8223073"
+           x="-9.2619753"
+           y="-102.80613"
+           transform="rotate(135.00009)"
+           inkscape:transform-center-x="0.25857938"
+           inkscape:transform-center-y="0.25859145" />
+        <rect
+           style="font-variation-settings:'wght' 400;fill:#cdedfd;fill-opacity:1;stroke:#92bbe4;stroke-width:0.171111;stroke-dasharray:none;stroke-opacity:1"
+           id="rect5367"
+           width="2.8223076"
+           height="2.8223076"
+           x="6.4393759"
+           y="-87.104836"
+           transform="rotate(135.00009)"
+           inkscape:transform-center-x="0.25857945"
+           inkscape:transform-center-y="0.25859131" />
+      </g>
+    </g>
+  </g>
+</svg>
