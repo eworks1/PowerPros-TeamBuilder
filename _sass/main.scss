@@ -45,6 +45,11 @@ body {
     
 }
 
+.contains-player-table {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
 // player-table.html
 
 .player-table {
