@@ -2,15 +2,18 @@
     "empty_slots": {
         "pitcher": {
             "Name Abbreviation": "Empty",
-            "Field Position": ["SP"]
+            "Field Position": ["SP"],
+            "Point Cost": 0
         },
         "fielder": {
             "Name Abbreviation": "Empty",
-            "Field Position": ["1B"]
+            "Field Position": ["1B"],
+            "Point Cost": 0
         },
         "backup": {
             "Name Abbreviation": "Empty",
-            "Field Position": []
+            "Field Position": [],
+            "Point Cost": 0
         }
     },
     "players": [{
