@@ -90,6 +90,12 @@ function playerClicked(player) {
     // Fielding Positions
     const positions = fieldingDetailView.querySelectorAll('#detail-fielding-box .positions-label').item(0);
     if (positions) {
+        const primary_position = player["Field Position"][0];
+        if (['SP', 'MR', 'CP'].includes(primary_position)) {
+            positions.textContent = 'P';
+        } else {
+            positions.textContent = primary_position;
+        }
         positions.textContent = player["Field Position"][0];
     }
     
