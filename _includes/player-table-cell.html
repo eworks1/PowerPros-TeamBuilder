@@ -2,7 +2,7 @@
 { id, name, positions, cost }
 {% endcomment %}
 
-<span style="font-size: 18px;">
+<span class="player-cell-wrapper" style="font-size: 18px;">
     {% include player-name-box.html id=include.id name=include.name positions=include.positions %}
     {% if include.name | size > 0 %}
     <span class="cost-span">
