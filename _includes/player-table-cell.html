@@ -4,9 +4,13 @@
 
 <span class="player-cell-wrapper">
     {% include player-name-box.html id=include.id name=include.name positions=include.positions %}
-    {% if include.name | size > 0 %}
-    <span class="cost-span">
+
+    {% assign cost_opacity = 1 %}
+    {% if include.cost == 0 %}
+        {% assign cost_opacity = 0 %}
+    {% endif %}
+    <span class="cost-span" style="opacity: {{ cost_opacity }};">
         <img src="{{ 'assets/img/cost_diamond.png' | relative_url }}" style="height: 12px;"><span> {{ include.cost }}</span>
     </span>
-    {% endif %}
+    
 </span>
