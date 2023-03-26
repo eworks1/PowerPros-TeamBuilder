@@ -1,15 +1,15 @@
 {
     "empty_slots": {
         "pitcher": {
-            "Name Abbreviation": "",
+            "Name Abbreviation": "Empty",
             "Field Position": ["SP"]
         },
         "fielder": {
-            "Name Abbreviation": "",
+            "Name Abbreviation": "Empty",
             "Field Position": ["1B"]
         },
         "backup": {
-            "Name Abbreviation": "",
+            "Name Abbreviation": "Empty",
             "Field Position": []
         }
     },
