@@ -9,8 +9,6 @@
     {% if include.cost == 0 %}
         {% assign cost_opacity = 0 %}
     {% endif %}
-    <span class="cost-span" style="opacity: {{ cost_opacity }};">
-        <img src="{{ 'assets/img/cost_diamond.png' | relative_url }}" style="height: 12px; padding-right: 4px;"><span>{{ include.cost }}</span>
-    </span>
+    <span class="cost-span" style="opacity: {{ cost_opacity }};">{ include.cost }}</span>
     
 </span>

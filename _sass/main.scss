@@ -161,7 +161,7 @@ table .player-name-box.has-player {
 // Small Reused Components / TODO: refactor these into separate files in `inlcudes`
 
 .cost-span {
-    padding: 4px 4px 4px 1px;
+    padding: 4px;
 
     text-align: right;
     font-family: 'Roboto', sans-serif;
@@ -173,6 +173,15 @@ table .player-name-box.has-player {
 
     border: rgba(0, 0, 0, 0.2) solid 2px;
     border-radius: 6px;
+}
+
+.cost-span::before {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    margin-right: 0px;
+    background-position: center;
+    content: "";
 }
 
 .star-point-count {
