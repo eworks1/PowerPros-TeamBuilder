@@ -93,7 +93,14 @@ function addPlayer(player) {
         }
     }
 
-    // TODO: FADE OUT PLAYER FROM ALL PLAYER TABLE
+    // Fade down player from the player-pool-table
+    const playerCellInPool = document
+        .querySelector(`#player-pool-table #${player.id}-name-box`)
+        ?.parentElement;
+    
+    if (playerCellInPool) {
+        playerCellInPool.classList.add('player-used');
+    }
 
     return added;
 }
@@ -166,6 +173,14 @@ function removePlayer(player) {
     }
 
     // TODO: FADE BACK IN PLAYER FROM ALL PLAYER TABLE
+    // Fade up player from the player-pool-table
+    const playerCellInPool = document
+        .querySelector(`#player-pool-table #${playerNameBoxID}`)
+        ?.parentElement;
+    
+    if (playerCellInPool) {
+        playerCellInPool.classList.remove('player-used');
+    }
 
     return deleted;
 }
