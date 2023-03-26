@@ -17,7 +17,7 @@ var team = {
 /**
  * @param {any} player
  */{% endraw %}
-function doubleClicked(player) {
+function rightClicked(player) {
     // If they're on the team, they'll be removed here.
     const deleted = removePlayer(player);
 
