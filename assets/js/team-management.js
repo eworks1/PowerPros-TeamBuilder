@@ -16,7 +16,7 @@ var team = {
 {% raw %}
 /**
  * @param {any} player
- * @returns {boolean}
+ * @returns {boolean} If it succeeded.
  */{% endraw %}
 function addPlayer(player) {
     // Add to team
