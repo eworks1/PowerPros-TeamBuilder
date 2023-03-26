@@ -33,12 +33,12 @@
     <span id="detail-catching" class="info-box" style="grid-area: catching;"><span class="info-label">Catching</span>{% include letter-rating.html rating=fielding %}</span>
 
     <div class="info-box" id="detail-fielding-box" style="grid-area: fieldingbox;">
-        <span class="info-label">Fielding</span> {{ include.player["Field Position"] | first }}</span>
+        <span class="info-label" style="grid-area: label;">Fielding</span> {{ include.player["Field Position"] | first }}</span>
 
         {% comment %}
         TODO: need to get fielding level at each of their positions
         {% endcomment %}
-        <img src="{{ 'assets/img/baseball-diamond.svg' | relative_url }}">
+        <img style="grid-area: diamond; width: 100%;" src="{{ 'assets/img/baseball-diamond.svg' | relative_url }}">
         <!-- <span id="detail-fielding"><br>{% include letter-rating.html rating=fielding %}</span> -->
     </div>
 </div>
