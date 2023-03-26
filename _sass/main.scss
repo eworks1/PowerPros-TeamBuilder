@@ -127,7 +127,6 @@ body {
 }
 
 #detail-fielding-box {
-    display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: auto auto;
     grid-template-areas: "label positions" "diamond diamond";
