@@ -50,6 +50,7 @@
 {% assign gradient = gradientStart | append: gradientMiddle | append: gradientEnd  %}
 
 {% assign primary_position = include.player["Field Position"] | first %}
+<!-- {{ primary_position }} -->
 {% if primary_position == 'SP' or primary_position == 'MR' or primary_position == 'CP' %}
     {% assign position_group = 'pitcher' %}
 {% elsif include.player["Field Position"] | size == 0 %}
