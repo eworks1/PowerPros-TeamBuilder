@@ -49,10 +49,18 @@
 
 {% assign gradient = gradientStart | append: gradientMiddle | append: gradientEnd  %}
 
+{% assign primary_position = include.player["Field Position"] | first %}
+{% assign position_group = 'fielder' %}
+{% if primary_position == 'SP' or primary_position == 'MR' or primary_position == 'CP' %}
+    {% assign position_group = 'pitcher' %}
+{% elsif include.player["Field Position"] | size == 0 %}
+    {% assign position_group = 'backup' %}
+{% endif %}
+
 {% if include.name != 'Empty' %}
-    <span id="{{ include.id }}-name-box" class="player-name-box" style="background: {{ gradient }};">{{ include.name }}</span>
+    <span id="{{ include.id }}-name-box" class="player-name-box has-player {{ position_group }}-group" style="background: {{ gradient }};">{{ include.name }}</span>
 {% else %}
-    <span class="player-name-box" style="color: rgba(0, 0, 0, 0.2); background: {{ gradient }}">Empty</span>
+    <span class="player-name-box no-player {{ position_group }}-group" style="color: rgba(0, 0, 0, 0.2); background: {{ gradient }}">Empty</span>
 {% endif %}
 
 {% comment %}
