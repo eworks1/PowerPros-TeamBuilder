@@ -87,6 +87,12 @@ function playerClicked(player) {
         );
     }
 
+    // Fielding Positions
+    const positions = fieldingDetailView.querySelectorAll('#detail-fielding-box .positions-label').item(0);
+    if (positions) {
+        positions.textContent = player["Field Position"][0];
+    }
+    
     // Fielding Box
     // const fieldingImg = fieldingDetailView.querySelectorAll('#detail-fielding .letter-rating').item(0);
     // if (fieldingImg) {
