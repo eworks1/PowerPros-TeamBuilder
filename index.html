@@ -101,9 +101,9 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
     <div id="team-list" class="group-box contains-player-table" style="grid-area: teamlist;">
         <!-- 15 pitchers, 18 fielder starters, 37 backups -->
         {% assign empty_slots = site.data.players.empty_slots %}
-        {% assign empty_pitcher = empty_slots.pitcher %}
-        {% assign empty_fielder = empty_slots.fielder %}
-        {% assign empty_backup = empty_slots.backup %}
+        {% assign empty_pitcher = empty_slots.pitchers %}
+        {% assign empty_fielder = empty_slots.fielders %}
+        {% assign empty_backup = empty_slots.backups %}
 
         {% assign team_players = '' | split: '' %}
         {% for i in (1..15) %}
