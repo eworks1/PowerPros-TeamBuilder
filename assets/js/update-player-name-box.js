@@ -11,13 +11,15 @@ function updatePlayerNameBox(name, positions) {
     const gradient = createGradientString(positions);
 
     // const span = document.querySelector('.player-name-box')
-    let elementText = '';
+    let elementText = name;
     let styleString = `background: ${gradient};`;
-    if (name) { // if name is not an empty string
+    if (name != 'Empty') { // if name is a real player
         elementText = name;
-    } else {
-        elementText = 'Empty';
-        styleString += ' color: rgba(0, 0, 0, 0.2);';
+        this.classList.add('has-player');
+        this.classList.remove('no-player');
+    } else { // if its an empty player
+        this.classList.add('no-player');
+        this.classList.remove('has-player');
     }
 
     this.setAttribute('style', styleString);
