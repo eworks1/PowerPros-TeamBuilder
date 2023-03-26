@@ -107,6 +107,7 @@ function removePlayer(player) {
     // Confirm if they're on the team or not
     const primary_position = player["Field Position"][0];
     let position_group = '';
+    let deleted = false;
     if (['SP', 'MR', 'CP'].includes(primary_position)) {
         position_group = 'pitchers';
     } else {
