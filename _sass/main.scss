@@ -91,15 +91,18 @@ table .player-name-box.has-player {
     cursor: pointer;
 }
 
+// Added to player-name-box
 .has-player {
     color: black;
 }
 
+// Added to player-name-box
 .no-player {
     color: rgba(0, 0, 0, 0.2);
     filter: brightness(110%);
 }
 
+// Added to spans covering entire cell
 .player-used {
     filter: brightness(75%);
 }
