@@ -1,0 +1,19 @@
+.player-table {
+    // border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.player-table tr {
+    // line-height: 32px;
+}
+
+.player-table .player-cell-wrapper {
+    font-size: 18px;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto;
+    // align-items: center;
+    gap: 2px;
+}

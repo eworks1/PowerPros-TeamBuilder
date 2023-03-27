@@ -1,0 +1,24 @@
+.star-point-count {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
+    color: rgb(247, 209, 79);
+    padding: 2px;
+    border-radius: 6px;
+    border: 1px solid rgb(133, 174, 245);
+    background-color: $group-box-border-color;
+
+    width: fit-content;
+    justify-self: center;
+}
+
+.star-point-count::before {
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    margin-right: 2px;
+    background-position: center;
+    content: "";
+}

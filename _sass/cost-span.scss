@@ -1,0 +1,26 @@
+.cost-span {
+    padding: 4px 4px 4px 2px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+
+    background-color: #4884c8;
+
+    border: rgba(0, 0, 0, 0.2) solid 2px;
+    border-radius: 6px;
+}
+
+.cost-span::before {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    margin-right: 2px;
+    background-position: center;
+    content: "";
+}
+
+.cost-zero {
+    opacity: 0;
+}
