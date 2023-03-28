@@ -1,4 +1,12 @@
 {% comment %}
 { position }
 {% endcomment %}
-<span class="position-square" style="background-color: {{ site.data.colors.positions[include.position] }};">{{ include.position }}</span>
+<svg viewBox="0 0 36 36" height="36px" width="36px" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" height="100%" width="100%" rx="4px" fill="{{ site.data.colors.positions[include.position] }}"></rect>
+
+    <rect x="0" y="0" height="100%" width="100%" rx="4px" fill="rgba(0,0,0,0.3)"></rect>
+
+    <rect x="2px" y="2px" height="calc(100% - 4px)" width="calc(100% - 4px)" rx="2px" fill="{{ site.data.colors.positions[include.position] }}"></rect>
+
+    <text class="position-square" x="100%" y="100%" dx="-50%" dy="-50%" text-anchor="middle" dominant-baseline="middle" stroke="rgba(0,0,0,0.3)" stroke-width="4px" stroke-linejoin="round" fill="white">{{ include.position }}</text>
+</svg>
