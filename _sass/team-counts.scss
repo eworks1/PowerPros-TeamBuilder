@@ -32,11 +32,13 @@
 
 .position-count-container {
     display: inline-flex;
-    align-items: end;
+    align-items: center;
 }
 
 .player-position-count {
     margin-left: 4px;
+    margin-top: 2px;
+
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-weight: 400;
