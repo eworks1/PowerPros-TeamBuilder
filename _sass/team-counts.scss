@@ -1,0 +1,14 @@
+#counts-top-row {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.point-total-count::before {
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    margin-right: 2px;
+    background-position: center;
+    content: "";
+}
