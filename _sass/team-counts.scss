@@ -30,6 +30,11 @@
     content: "";
 }
 
+.position-count-container {
+    display: inline-flex;
+    align-items: center;
+}
+
 .player-position-count {
     margin-left: 2px;
     font-family: 'Roboto', sans-serif;
