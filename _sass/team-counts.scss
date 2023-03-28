@@ -8,6 +8,16 @@
     color: white;
 }
 
+#counts-bottom-row {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+
+    padding: 0px 8px;
+
+    color: white;
+}
+
 .point-total-count::before {
     height: 12px;
     width: 12px;
