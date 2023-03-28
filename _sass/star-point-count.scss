@@ -8,7 +8,7 @@
     padding: 2px;
     border-radius: 6px;
     border: 1px solid rgb(133, 174, 245);
-    background-color: $group-box-border-color;
+    // background-color: $group-box-border-color; (in main.scss to access variable)
 
     width: fit-content;
     justify-self: center;

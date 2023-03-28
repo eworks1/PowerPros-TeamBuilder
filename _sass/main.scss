@@ -48,3 +48,9 @@ body {
     max-height: 500px;
     overflow-y: scroll;
 }
+
+// to use the variable...
+
+.star-point-count {
+    background-color: $group-box-border-color;
+}
