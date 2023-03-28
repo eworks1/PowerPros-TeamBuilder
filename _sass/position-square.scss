@@ -1,6 +1,7 @@
 .position-square {
     display: inline-flex;
-    place-content: center;
+    justify-content: center;
+    align-items: center;
 
     aspect-ratio: 1;
     height: 36px;
