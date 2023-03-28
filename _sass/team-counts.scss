@@ -16,6 +16,13 @@
     font-weight: 500;
 }
 
+#all-point-counts-container {
+    gap: 16px; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    align-items: center;
+}
+
 .point-total-count::before {
     height: 16px;
     width: 16px;
