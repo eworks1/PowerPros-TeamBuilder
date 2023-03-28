@@ -1,6 +1,8 @@
 {
     "positions": {
         "All": "#9470ca",
+        "P": "#ee8d7f",
+        "F": "#5797f1",
         "SP": "#ee8d7f",
         "MR": "#f0a1c3",
         "CP": "#f0a1c3",
