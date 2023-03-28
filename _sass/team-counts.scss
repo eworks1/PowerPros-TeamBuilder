@@ -12,6 +12,10 @@
     font-size: 24px;
 }
 
+#player-count-total {
+    font-weight: 500;
+}
+
 #counts-bottom-row {
     display: grid;
     grid-template-columns: repeat(8, auto);
