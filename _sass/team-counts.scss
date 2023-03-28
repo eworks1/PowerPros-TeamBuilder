@@ -10,8 +10,9 @@
 
 #counts-bottom-row {
     display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-between;
+    grid-template-columns: repeat(8, auto);
+    gap: 8px;
+    justify-content: space-around;
 
     padding: 0px 8px;
 
