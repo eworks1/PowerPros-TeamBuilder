@@ -16,7 +16,10 @@
     
     <span class="star-point-count" style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
 
-    <span class="jersey-number" style="grid-area: jerseynumber;">{{ include.player["Jersey Number"] | default: "100" }}</span>
+    <span class="jersey-number" style="grid-area: jerseynumber;">
+        <img style="width: 100%;" src="{{ 'assets/img/jersey_background.svg' | relative_url }}">
+        {{ include.player["Jersey Number"] | default: "100" }}
+    </span>
 
     <span class="info-box handedness" style="grid-area: handedness; font-family: 'Roboto Condensed', sans-serif;">Throws {{ include.player["Throws"] }}, Bats {{ include.player["Bats"] }}</span>
 
