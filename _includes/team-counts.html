@@ -7,3 +7,9 @@
         <span>| All: <span id="full-point-count" class="point-total-count">0</span></span>
     </span>
 </span>
+<span id="counts-bottom-row">
+    {% assign positions = "P F C 1B 2B 3B SS OF" | split:" " %}
+    {% for pos in positions %}
+        <span>{{ pos }}: <span>0</span></span>
+    {% endfor %}
+</span>
