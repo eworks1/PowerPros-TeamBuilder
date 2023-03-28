@@ -1,7 +1,7 @@
 <span id="counts-top-row">
     <span>Total: <span id="player-count-total">0</span> / 70 player(s)</span>
 
-    <span class="position-count-container">
+    <span>
         <span>{% include position-square.html position="P" %}: <span id="pitcher-point-count" class="point-total-count">0</span></span>
         <span>• {% include position-square.html position="F" %}: <span id="fielder-point-count" class="point-total-count">0</span></span>
         <span>• {% include position-square.html position="All" %}: <span id="full-point-count" class="point-total-count">0</span></span>
@@ -10,6 +10,6 @@
 <span id="counts-bottom-row">
     {% assign positions = "P F C 1B 2B 3B SS OF" | split:" " %}
     {% for pos in positions %}
-        <span>{% include position-square.html position=pos %}<span id="{{ pos }}-player-position-count" class="player-position-count">0</span></span>
+        <span class="position-count-container">{% include position-square.html position=pos %}<span id="{{ pos }}-player-position-count" class="player-position-count">0</span></span>
     {% endfor %}
 </span>
