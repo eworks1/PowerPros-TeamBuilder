@@ -16,6 +16,16 @@
     font-weight: 500;
 }
 
+.point-total-count::before {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    background-position: center;
+    content: "";
+}
+
 #counts-bottom-row {
     display: grid;
     grid-template-columns: repeat(8, auto);
@@ -26,15 +36,6 @@
     padding: 4px 8px;
 
     color: #4884c8;
-}
-
-.point-total-count::before {
-    height: 12px;
-    width: 12px;
-    display: inline-block;
-    margin-right: 2px;
-    background-position: center;
-    content: "";
 }
 
 .point-count-container {
