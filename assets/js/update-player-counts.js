@@ -2,7 +2,7 @@
  * @param {string} position Primary position.
  */
 function updateCounts(position) {
-    let primary_position = getPrimaryPosition(position);
+    let primary_position = position;
     if (isPitcher(primary_position)) {
         primary_position = 'P';
     }
