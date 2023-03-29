@@ -5,10 +5,11 @@
 <span class="player-cell-wrapper">
     {% include player-name-box.html id=include.id name=include.name positions=include.positions %}
 
+    {% comment %}
     {% assign cost_opacity = 1 %}
     {% if include.cost == 0 %}
         {% assign cost_opacity = 0 %}
     {% endif %}
+    {% endcomment %}
     <span class="cost-span" style="opacity: {{ cost_opacity }};">{{ include.cost }}</span>
-    
 </span>
