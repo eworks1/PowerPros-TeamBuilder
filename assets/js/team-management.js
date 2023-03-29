@@ -35,10 +35,10 @@ function rightClicked(player) {
  */{% endraw %}
 function addPlayer(player) {
     // Add to team
-    const primary_position = player["Field Position"][0];
+    const primary_position = getPrimaryPosition(player);
     let added = true;
     let position_group = '';
-    if (['SP', 'MR', 'CP'].includes(primary_position)) {
+    if (isPitcher(primary_position)) {
         if (team.pitchers.length < max_counts.pitchers) {
             team.pitchers.push(player);
             position_group = 'pitchers';
@@ -114,10 +114,10 @@ function addPlayer(player) {
  */{% endraw %}
 function removePlayer(player) {
     // Confirm if they're on the team or not
-    const primary_position = player["Field Position"][0];
+    const primary_position = getPrimaryPosition(player);
     let position_group = '';
     let deleted = false;
-    if (['SP', 'MR', 'CP'].includes(primary_position)) {
+    if (isPitcher(primary_position)) {
         position_group = 'pitchers';
     } else {
         position_group = 'fielders';
@@ -187,4 +187,100 @@ function removePlayer(player) {
     // TODO: Update position and point counts
 
     return deleted;
+}
+
+// - Utility Functions
+
+{%- raw -%}/**
+ * @param {Object} player 
+ * @returns {string}
+ */{%- endraw -%}
+function getPrimaryPosition(player) {
+    return player["Field Position"][0];
+}
+
+{%- raw -%}/**
+ * @param {(string|Object)} primaryPositionOrPlayer
+ * @returns {boolean}
+ */{%- endraw -%}
+function isPitcher(primaryPositionOrPlayer) {
+    let primary_position;
+    if (typeof primaryPositionOrPlayer == 'string') {
+        primary_position = primaryPositionOrPlayer;
+    } else {
+        primary_position = getPrimaryPosition(primaryPositionOrPlayer);
+    }
+    
+    return ['SP', 'MR', 'CP'].includes(primary_position);
+}
+
+{%- raw -%}/**
+ * @returns {Object[]}
+ */{%- endraw -%}
+function getAllPitchers() {
+    return [
+        ...team.pitchers,
+        ...team.backups
+            .filter(player => isPitcher(player))
+    ];
+}
+
+{%- raw -%}
+/**
+ * @returns {Object[]}
+ */
+{%- endraw -%}
+function getAllFielders() {
+    return [
+        ...team.fielders,
+        ...team.backups
+            .filter(player => !isPitcher(player))
+    ];
+}
+
+{%- raw -%}
+/**
+ * @param {string} position
+ * @returns {Object[]}
+ */
+{%- endraw -%}
+function getAllPlayersByPostion(position) {
+    return [
+        ...team.pitchers,
+        ...team.fielders,
+        ...team.backups
+    ].filter(player => position == getPrimaryPosition(player));
+}
+
+{%- raw -%}/**
+ * @param {string} position
+ * @returns {number}
+ */{%- endraw -%}
+function getPlayerCountByPosition(position) {
+    return getAllPlayersByPostion(position).length;
+}
+
+{%- raw -%}/**
+ * @returns {number}
+ */{%- endraw -%}
+function getPitchersTotalCost() {
+    return getAllPitchers()
+        .map(p => p["Point Cost"])
+        .reduce((prev, current) => prev + current);
+}
+
+{%- raw -%}/**
+ * @returns {number}
+ */{%- endraw -%}
+function getFieldersTotalCost() {
+    return getAllFielders()
+        .map(p => p["Point Cost"])
+        .reduce((prev, current) => prev + current);
+}
+
+{%- raw -%}/**
+ * @returns {number}
+ */{%- endraw -%}
+function getFullTeamCost() {
+    return getPitchersTotalCost() + getFieldersTotalCost();
 }
