@@ -19,7 +19,7 @@
 #all-point-counts-container {
     gap: 16px; 
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: auto auto auto; 
     align-items: center;
 }
 
