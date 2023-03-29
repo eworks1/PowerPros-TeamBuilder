@@ -213,7 +213,7 @@ function isPitcher(primaryPositionOrPlayer) {
         primary_position = getPrimaryPosition(primaryPositionOrPlayer);
     }
     
-    return ['SP', 'MR', 'CP'].includes(primary_position);
+    return ['SP', 'MR', 'CP', 'P'].includes(primary_position);
 }
 
 {%- raw -%}/**
