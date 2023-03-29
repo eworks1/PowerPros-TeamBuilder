@@ -102,7 +102,8 @@ function addPlayer(player) {
         playerCellInPool.classList.add('player-used');
     }
 
-    // TODO: Update position and point counts
+    // Update position and point counts
+    updateCounts(primary_position);
 
     return added;
 }
@@ -184,7 +185,8 @@ function removePlayer(player) {
         playerCellInPool.classList.remove('player-used');
     }
 
-    // TODO: Update position and point counts
+    // Update position and point counts
+    updateCounts(primary_position);
 
     return deleted;
 }
