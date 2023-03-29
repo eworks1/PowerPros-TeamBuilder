@@ -10,6 +10,7 @@ function updateCounts(position) {
     const fullTeamCostSpan = document.getElementById('full-point-count');
     const positionCountSpan = document.getElementById(`${primary_position}-player-position-count`);
     const fieldersGroupCountSpan = document.getElementById('F-player-position-count');
+    const fullTeamCountSpan = document.getElementById('player-count-total');
 
     /** @type {HTMLElement|null} */
     let positionGroupCostSpan;
@@ -27,11 +28,12 @@ function updateCounts(position) {
         positionCount = getPlayerCountByPosition(primary_position);
     }
     
-    if (fullTeamCostSpan && positionCountSpan && fieldersGroupCountSpan && positionGroupCostSpan) {
+    if (fullTeamCostSpan && positionCountSpan && fieldersGroupCountSpan && positionGroupCostSpan && fullTeamCountSpan) {
         fullTeamCostSpan.textContent = `${getFullTeamCost()}`;
         positionGroupCostSpan.textContent = `${positionGroupCost}`;
 
         positionCountSpan.textContent = `${positionCount}`;
         fieldersGroupCountSpan.textContent = `${getAllFielders().length}`;
+        fullTeamCountSpan.textContent = `${getAllPlayers().length}`;
     }
 }
