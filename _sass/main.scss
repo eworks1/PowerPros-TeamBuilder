@@ -51,11 +51,7 @@ body {
 
 // to use the variable...
 
-.star-point-count {
-    background-color: $group-box-border-color;
-}
-
-#counts-top-row {
+.star-point-count, #counts-top-row {
     background-color: $group-box-border-color;
 }
 
