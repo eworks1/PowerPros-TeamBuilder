@@ -71,7 +71,7 @@ function getPlayerCountByPosition(position) {
 function getPitchersTotalCost() {
     return getAllPitchers()
         .map(p => p["Point Cost"])
-        .reduce((prev, current) => prev + current);
+        .reduce((prev, current) => prev + current, 0);
 }
 
 /**
@@ -80,7 +80,7 @@ function getPitchersTotalCost() {
 function getFieldersTotalCost() {
     return getAllFielders()
         .map(p => p["Point Cost"])
-        .reduce((prev, current) => prev + current);
+        .reduce((prev, current) => prev + current, 0);
 }
 
 /**
