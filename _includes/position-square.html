@@ -2,7 +2,7 @@
 { position, size }
 {% endcomment %}
 {% assign size = include.size | default: 38 %}
-
+<!-- {{ include.size }} -->
 <svg viewBox="0 0 {{ size }} {{ size }}" height="{{ size }}px" width="{{ size }}px" xmlns="http://www.w3.org/2000/svg">
     <rect x="0" y="0" height="{{ size }}" width="{{ size }}" rx="4px" fill="{{ site.data.colors.positions[include.position] }}"></rect>
 
