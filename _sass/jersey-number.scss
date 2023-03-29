@@ -1,12 +1,13 @@
 .jersey-number {
-    width: 70px;
-    height: 40px;
+    aspect-ratio: 7 / 4;
+    height: 34px;
     display: inline-flex;
-    
+    justify-self: center;
+
     justify-content: center;
     align-items: center;
 
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
