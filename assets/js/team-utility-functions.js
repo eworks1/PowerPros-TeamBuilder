@@ -21,6 +21,18 @@ function isPitcher(primaryPositionOrPlayer) {
     return ['SP', 'MR', 'CP', 'P'].includes(primary_position);
 }
 
+
+/**
+ * @returns {Object[]}
+ */
+function getAllPlayers() {
+    return [
+        ...team.pitchers,
+        ...team.fielders,
+        ...team.backups
+    ];
+}
+
 /**
  * @returns {Object[]}
  */
