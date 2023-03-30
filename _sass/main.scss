@@ -49,6 +49,8 @@ body {
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
 }
 
 .contains-player-table {
