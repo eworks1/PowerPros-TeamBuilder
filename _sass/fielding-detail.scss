@@ -1,4 +1,4 @@
-#fielding-detail-view {
+#fielding-detail {
     display: grid;
 
     grid-template-columns: auto 15% auto;
@@ -16,11 +16,11 @@
     gap: 2px 4px;
 }
 
-#fielding-detail-view .player-name-box {
+#fielding-detail .player-name-box {
     grid-area: namebox;
 }
 
-#fielding-detail-view .info-box {
+#fielding-detail .info-box {
     color: rgb(58, 114, 191);
     background-color: #f8fdfd;
     border: #dfedf1 solid 1px;
@@ -35,7 +35,7 @@
 }
 
 // This is the labels for the info boxes
-#fielding-detail-view .info-box .info-label {
+#fielding-detail .info-box .info-label {
     width: 100%;
 }
 
