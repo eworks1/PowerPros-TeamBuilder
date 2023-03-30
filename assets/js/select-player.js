@@ -1,6 +1,6 @@
 function playerClicked(player) {
     // update all 3 detail views (just fielding for now)
-    const fieldingDetailView = document.getElementById('fielding-detail-view');
+    const fieldingDetailView = document.getElementById('fielding-detail');
     if (!fieldingDetailView) { 
         console.error("Couldn't find #field-detail-view.")
         return;
