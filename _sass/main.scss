@@ -13,10 +13,11 @@ $group-box-border-color: #1f4eaa;
 body {
     display: grid;
     grid-template-columns: 1fr 1fr auto;
-    grid-template-rows: auto auto 1fr auto;
+    grid-template-rows: auto auto auto 1fr auto;
     grid-template-areas:
         "teamname positions detailview"
         "teamlist availableplayers detailview"
+        "teamlist availableplayers switcher"
         "teamlist availableplayers ."
         "pointcount pointcount .";
     place-content: stretch;
@@ -42,6 +43,12 @@ body {
 
 #detail-box {
     
+}
+
+#detail-switcher {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto;
 }
 
 .contains-player-table {

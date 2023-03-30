@@ -104,6 +104,9 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
         {% assign first_player = all_players | first %}
         {% include detail-view.html player=first_player %}
     </div>
+    <div id="detail-switcher" style="grid-area: switcher;">
+        {% include detail-switcher.html %}
+    </div>
 
     <div id="team-list" class="group-box contains-player-table" style="grid-area: teamlist;">
         <!-- 15 pitchers, 18 fielder starters, 37 backups -->
