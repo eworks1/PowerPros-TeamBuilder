@@ -27,7 +27,7 @@ function playerClicked(player) {
     // Jersey numbers
     const jerseyNumber = fieldingDetailView.getElementsByClassName('jersey-number').item(0);
     if (jerseyNumber) {
-        jerseyNumber.textContent = player["Jersey Number"] || 100;
+        jerseyNumber.textContent = player["Jersey Number"] || '';
     }
 
     // Handedness
