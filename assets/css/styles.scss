@@ -2,12 +2,16 @@
 ---
 @import "main";
 @import "player-table";
-@import "player-name-box";
+@import "team-counts";
+
 @import "fielding-detail";
+@import "detail-view";
+
+@import "player-name-box";
 @import "cost-span";
 @import "star-point-count";
 @import "jersey-number";
+
 @import "letter-rating";
-@import "team-counts";
+
 @import "position-square";
-@import "detail-view";
