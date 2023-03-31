@@ -1,7 +1,8 @@
 var currentDetailPageNum = 0;
-const detailPageMax = 0;
+const detailPageMax = 1;
 const detailPageViewIDs = [
-    'fielding-detail'
+    'fielding-detail',
+    'batting-detail'
 ];
 
 function leftDetailButtonClicked() {
