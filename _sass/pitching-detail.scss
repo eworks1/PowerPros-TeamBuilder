@@ -1,0 +1,21 @@
+#batting-detail {
+    grid-template-columns: 50% 10% 5% auto;
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas:
+        "namebox    namebox     .           starpoints"
+        "namebox    namebox     topspeed    topspeed"
+        ".          .           topspeed    topspeed"
+        "pitchform  roles       roles       roles"
+        "control    stamina     stamina     stamina"
+        "pitches    pitches     pitches     pitches";
+
+    gap: 2px 4px;
+}
+
+#pitching-detail-roles-list .has-pitching-role {
+
+}
+
+#pitching-detail-roles-list .does-not-have-pitching-role {
+    opacity: 0.7;
+}
