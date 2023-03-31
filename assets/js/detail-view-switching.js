@@ -37,5 +37,10 @@ function updateDetailPageVisibility() {
             otherPage.classList.remove('current-detail-page');
             otherPage.classList.add('hidden-detail-page');
         }
-    })
+    });
+
+    const currentDetailPageTitleSpan = document.getElementById('current-detail-page-title');
+    if (currentDetailPageTitleSpan) {
+        currentDetailPageTitleSpan.textContent = detailPageTitles[currentDetailPageNum];
+    }
 }
