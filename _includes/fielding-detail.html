@@ -11,7 +11,7 @@
 {% assign armstr = include.player["Arm Strength"] %}
 {% assign fielding = include.player["Fielding"] %}
 
-<div id="fielding-detail">
+<div id="fielding-detail" class="current-detail-page">
     {% include player-name-box.html name=playerName positions=playerPositions %}
     
     <span class="star-point-count" style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
