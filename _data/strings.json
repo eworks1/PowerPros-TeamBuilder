@@ -2,11 +2,13 @@
     "detail_pages": {
         "ids": [
             "fielding-detail",
-            "batting-detail"
+            "batting-detail",
+            "pitching-detail"
         ],
         "titles": [
             "Fielding Info",
-            "Batting Info"
+            "Batting Info",
+            "Pitching Info"
         ]
     }
 }
