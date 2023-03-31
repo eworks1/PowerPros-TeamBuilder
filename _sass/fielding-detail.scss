@@ -1,15 +1,15 @@
 #fielding-detail {
-    grid-template-columns: auto 15% auto;
+    grid-template-columns: 50% 10% 5% auto;
     grid-template-rows: repeat(8, auto);
     grid-template-areas:
-        "namebox    namebox     starpoints"
-        "namebox    namebox     jerseynumber"
-        "handedness .           jerseynumber"
-        "trj        fieldingbox fieldingbox"
-        "hit        fieldingbox fieldingbox"
-        "pwr        fieldingbox fieldingbox"
-        "runspd     fieldingbox fieldingbox"
-        "armstr     catching    catching";
+        "namebox    namebox     .           starpoints"
+        "namebox    namebox     .           jerseynumber"
+        "handedness .           .           jerseynumber"
+        "trj        fieldingbox fieldingbox fieldingbox"
+        "hit        fieldingbox fieldingbox fieldingbox"
+        "pwr        fieldingbox fieldingbox fieldingbox"
+        "runspd     fieldingbox fieldingbox fieldingbox"
+        "armstr     catching    catching    catching";
 
     gap: 2px 4px;
 }
