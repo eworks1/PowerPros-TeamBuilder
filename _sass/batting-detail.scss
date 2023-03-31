@@ -1,0 +1,23 @@
+#batting-detail {
+    grid-template-columns: auto auto; // 45% 55%;
+    grid-template-rows: repeat(8, auto);
+    grid-template-areas:
+        "namebox    starpoints"
+        "namebox    jerseynumber"
+        "handedness jerseynumber"
+        "hit        trj"
+        "pwr        avg"
+        "runspd     hr"
+        "armstr     rbi"
+        "catching   positions";
+
+    gap: 2px 4px;
+}
+
+#batting-detail-positions-list {
+    font-weight: 400;
+}
+
+#batting-detail-positions-list:first-child {
+    font-weight: 500;
+}

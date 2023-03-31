@@ -1,0 +1,59 @@
+{% comment %}
+{ player }
+{% endcomment %}
+
+{% assign playerName = include.player["Name Abbreviation"] %}
+{% assign playerPositions = include.player["Field Position"] %}
+
+{% assign hit = include.player["Contact"] %}
+{% assign pwr = include.player["Power"] %}
+{% assign runspd = include.player["Run Speed"] %}
+{% assign armstr = include.player["Arm Strength"] %}
+{% assign fielding = include.player["Fielding"] %}
+
+<div id="batting-detail" class="hidden-detail-page">
+    {% include player-name-box.html name=playerName positions=playerPositions %}
+    
+    <span class="star-point-count" style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
+
+    <span class="jersey-number" style="grid-area: jerseynumber; background-size: 100%; background-image: url({{ 'assets/img/jersey_background.svg' | relative_url }});">{{ include.player["Jersey Number"] | default: "" }}</span>
+
+    <span class="info-box handedness" style="grid-area: handedness; font-family: 'Roboto Condensed', sans-serif;">Throws {{ include.player["Throws"] }}, Bats {{ include.player["Bats"] }}</span>
+
+    <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label">HIT</span>{% include letter-rating.html rating=hit %}</span>
+
+    <span class="info-box detail-pwr" style="grid-area: pwr;"><span class="info-label">PWR</span>{% include letter-rating.html rating=pwr %}</span>
+
+    <span class="info-box detail-runspd" style="grid-area: runspd;"><span class="info-label">RUN SPD </span>{% include letter-rating.html rating=runspd %}</span>
+
+    <span class="info-box detail-armstr" style="grid-area: armstr;"><span class="info-label">ARM STR</span>{% include letter-rating.html rating=armstr %}</span>
+
+    <span class="info-box detail-catching" style="grid-area: catching;"><span class="info-label">FLD</span>{% include letter-rating.html rating=fielding %}</span>
+
+    <span class="info-box" style="grid-area: trj;"><span class="info-label">TRJ</span><span class="detail-trj-num" style="font-weight: 500;">{{ include.player["Trajectory"] }}</span> <img class="detail-trj-img" style="height: 22px; margin-left: 2px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png"></span>
+
+    <span class="info-box" style="grid-area: avg;"><span class="info-label">AVG</span>---</span>
+    <span class="info-box" style="grid-area: hr;"><span class="info-label">HR</span>---</span>
+    <span class="info-box" style="grid-area: rbi;"><span class="info-label">RBI</span>---</span>
+
+    <span class="info-box detail-positions" style="grid-area: positions;">
+        <span class="info-label">POS</span>
+        {%- assign abbrPositions = '' | split: '' -%}
+        {%- assign containsP = false -%}
+        {%- for pos in playerPositions -%}
+            {%- if pos == 'SP' or pos == 'MR' or pos == 'CP' -%}
+                {%- if containsP == false -%}
+                    {%- assign abbrPositions = abbrPositions | push: 'P' -%}
+                    {%- assign containsP = true -%}
+                {%- endif -%}
+            {%- elsif -%}
+                {%- assign abbrPositions = abbrPositions | push: pos -%}
+            {%- endif -%}
+        {%- endfor -%}
+        <span id="batting-detail-positions-list">
+            {%- for pos in abbrPositions -%}
+                <span>pos</span>
+            {%- endfor -%}
+        </span>
+    </span>
+</div>
