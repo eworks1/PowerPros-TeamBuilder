@@ -108,6 +108,34 @@ function playerClicked(player) {
     //         letterRatingUrl(player["Error Resistance"])
     //     );
     // }
+
+    // Positions List (Batting Detail)
+    const battingPositionList = document.getElementById('batting-detail-positions-list');
+    if (battingPositionList) {
+        let positions = player["Field Position"];
+        positions = positions.map(pos => {
+            if (isPitcher(pos)) {
+                return 'P';
+            } else {
+                return pos;
+            }
+        });
+        positions = [...new Set(positions)];
+
+        battingPositionList.innerHTML = '';
+        positions.forEach(pos => {
+            const newPosition = document.createElement('span');
+            newPosition.innerText = pos;
+            battingPositionList.appendChild(newPosition);
+        });
+
+        // const primary_position = getPrimaryPosition(player);
+        // if (isPitcher(primary_position)) {
+        //     battingPositionLabels.textContent = 'P';
+        // } else {
+        //     battingPositionLabels.textContent = primary_position;
+        // }
+    }
 }
 
 /**
