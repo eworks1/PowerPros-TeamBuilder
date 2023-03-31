@@ -136,7 +136,7 @@ function playerClicked(player) {
     }
 
     // Top Speed (Pitching Detail)
-    const topSpeed = detailBox.querySelector('.detail-topspeed.info-box span:first-child');
+    const topSpeed = detailBox.querySelector('#pitching-detail .detail-topspeed');
     if (topSpeed) {
         topSpeed.textContent = player["Top Speed"];
     }

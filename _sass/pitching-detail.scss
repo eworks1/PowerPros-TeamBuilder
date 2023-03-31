@@ -12,6 +12,15 @@
     gap: 2px 4px;
 }
 
+#pitching-detail .detail-topspeed {
+    font-weight: 400;
+}
+
+#pitching-detail .detail-topspeed::after {
+    content: " km/h";
+    font-weight: 300;
+}
+
 #pitching-detail-roles-list {
     font-family: 'Roboto Condensed', sans-serif;
     word-spacing: -3px;
@@ -24,3 +33,4 @@
 #pitching-detail-roles-list .does-not-have-pitching-role {
     opacity: 0.5;
 }
+
