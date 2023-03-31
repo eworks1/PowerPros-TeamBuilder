@@ -134,6 +134,73 @@ function playerClicked(player) {
             battingPositionList.appendChild(newPosition);
         });
     }
+
+    // Top Speed (Pitching Detail)
+    const topSpeed = detailBox.querySelector('.detail-topspeed.info-box span:first-child');
+    if (topSpeed) {
+        topSpeed.textContent = player["Top Speed"];
+    }
+
+    // Pitching Form (Pitching Detail)
+    const pitchingForm = detailBox.querySelector('.detail-pitching-form.info-box');
+    if (pitchingForm) {
+        pitchingForm.textContent = player["Pitching Form"] || 'Pitching Form';
+    }
+
+    // Pitch Control (Pitching Detail)
+    // I think there won't be more than 1 of these, but just in case.
+    const controlImgs = detailBox.querySelectorAll('.detail-control.info-box .letter-rating');
+    if (controlImgs) {
+        controlImgs.forEach(controlImg => controlImg.setAttribute(
+            'src',
+            letterRatingUrl(player.Control)
+        ));
+    }
+
+    // Pitch Stamina (Pitching Detail)
+    // I think there won't be more than 1 of these, but just in case.
+    const staminaImgs = detailBox.querySelectorAll('.detail-stamina.info-box .letter-rating');
+    if (staminaImgs) {
+        staminaImgs.forEach(staminaImg => staminaImg.setAttribute(
+            'src',
+            letterRatingUrl(player.Stamina)
+        ));
+    }
+
+    // Pitching Role List (Pitching Detail)
+    const pitchingRoleList = document.getElementById('pitching-detail-roles-list');
+    if (pitchingRoleList) {
+        pitchingRoleList.innerHTML = '';
+        const roles = ['SP', 'MR', 'CP'];
+
+        const primary_position = getPrimaryPosition(player);
+        if (isPitcher(primary_position)) {
+            roles.forEach((role, i) => {
+                let className = '';
+                if (player["Field Position"].includes(role)) {
+                    className = 'has-pitching-role';
+                } else {
+                    className = 'does-not-have-pitching-role';
+                }
+
+                const newRole = document.createElement('span');
+                newRole.classList.add(className);
+
+                if (i > 0) {
+                    newRole.innerText = ' ' + role;
+                } else {
+                    newRole.innerText = role;
+                }
+                
+                pitchingRoleList.appendChild(newRole);
+            });
+        } else {
+            const newRole = document.createElement('span');
+            newRole.innerText = '---';
+            
+            pitchingRoleList.appendChild(newRole);
+        }
+    }
 }
 
 /**
