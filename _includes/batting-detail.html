@@ -39,13 +39,11 @@
     <span class="info-box detail-positions" style="grid-area: positions;">
         <span class="info-label">POS</span>
         {%- assign abbrPositions = '' | split: '' -%}
-        {%- assign containsP = false -%}
         {%- for pos in playerPositions -%}
             {%- if pos == 'SP' or pos == 'MR' or pos == 'CP' -%}
-                {%- if containsP == false -%}
+                {%- unless abbrPositions contains 'P' -%}
                     {%- assign abbrPositions = abbrPositions | push: 'P' -%}
-                    {%- assign containsP = true -%}
-                {%- endif -%}
+                {%- endunless -%}
             {%- else -%}
                 {%- assign abbrPositions = abbrPositions | push: pos -%}
             {%- endif -%}
