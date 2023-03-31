@@ -1,3 +1,6 @@
+---
+---
+
 var currentDetailPageNum = 0;
 const detailPageMax = 1;
 const detailPageViewIDs = [
