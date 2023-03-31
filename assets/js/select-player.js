@@ -1,90 +1,92 @@
 function playerClicked(player) {
     // update all 3 detail views (just fielding for now)
-    const fieldingDetailView = document.getElementById('fielding-detail');
-    if (!fieldingDetailView) { 
-        console.error("Couldn't find #field-detail-view.")
+    const detailBox = document.getElementById('detail-box');
+    if (!detailBox) { 
+        console.error("Couldn't find #detail-box.")
         return;
     }
 
     // Update name box
-    const playerNameBox = fieldingDetailView.getElementsByClassName('player-name-box').item(0);
-    if (playerNameBox) {
-        updatePlayerNameBox.apply(
+    const playerNameBoxes = detailBox.querySelectorAll('.player-name-box');
+    if (playerNameBoxes) {
+        playerNameBoxes.forEach(playerNameBox => updatePlayerNameBox.apply(
             playerNameBox,
             [
                 player['Name Abbreviation'],
                 player['Field Position']
             ]
-        );
+        ));
     }
 
     // Star points
-    const starPointCount = fieldingDetailView.getElementsByClassName('star-point-count').item(0);
-    if (starPointCount) {
-        starPointCount.textContent = player["Star Point"];
+    const starPointCounts = detailBox.querySelectorAll('.star-point-count');
+    if (starPointCounts) {
+        starPointCounts.forEach(starPointCount => starPointCount.textContent = player["Star Point"]);
     }
 
     // Jersey numbers
-    const jerseyNumber = fieldingDetailView.getElementsByClassName('jersey-number').item(0);
-    if (jerseyNumber) {
-        jerseyNumber.textContent = player["Jersey Number"] || '';
+    const jerseyNumbers = detailBox.querySelectorAll('.jersey-number');
+    if (jerseyNumbers) {
+        jerseyNumbers.forEach(jerseyNumber => jerseyNumber.textContent = player["Jersey Number"] || '');
     }
 
     // Handedness
-    const handedness = fieldingDetailView.getElementsByClassName('info-box').item(0);
-    if (handedness) {
-        handedness.textContent = `Throws ${player.Throws}, Bats ${player.Bats}`;
+    const handednesses = detailBox.querySelectorAll('.handedness.info-box');
+    if (handednesses) {
+        handednesses.forEach(handedness => handedness.textContent = `Throws ${player.Throws}, Bats ${player.Bats}`);
     }
 
     // Stats
-    const trjText = document.getElementById('detail-trj-num');
-    const trjImg = document.getElementById('detail-trj-img');
-    if (trjText && trjImg) {
-        trjText.textContent = player.Trajectory;
-        trjImg.setAttribute(
+    const trjTexts = detailBox.querySelectorAll('.detail-trj-num');
+    const trjImgs = detailBox.querySelectorAll('.detail-trj-img');
+    if (trjTexts && trjImgs) {
+        trjTexts.forEach(element => element.textContent = player.Trajectory);
+        
+        trjImgs.forEach(element => element.setAttribute(
             'src',
             `https://www.mlbppworld.com/wiki/images/TRJ${player.Trajectory}.png`
-        );
+        ));
     }
 
-    const hitImg = fieldingDetailView.querySelectorAll('#detail-hit.info-box .letter-rating').item(0);
-    if (hitImg) {
-        hitImg.setAttribute(
+    const hitImgs = detailBox.querySelectorAll('.detail-hit.info-box .letter-rating');
+    if (hitImgs) {
+        hitImgs.forEach(element => element.setAttribute(
             'src',
             letterRatingUrl(player.Contact)
-        );
+        ));
     }
 
-    const pwrImg = fieldingDetailView.querySelectorAll('#detail-pwr.info-box .letter-rating').item(0);
-    if (pwrImg) {
-        pwrImg.setAttribute(
+    const pwrImgs = detailBox.querySelectorAll('.detail-pwr.info-box .letter-rating');
+    if (pwrImgs) {
+        pwrImgs.forEach(pwrImg => pwrImg.setAttribute(
             'src',
             letterRatingUrl(player.Power)
-        );
+        ));
     }
 
-    const runspdImg = fieldingDetailView.querySelectorAll('#detail-runspd.info-box .letter-rating').item(0);
-    if (runspdImg) {
-        runspdImg.setAttribute(
+    const runspdImgs = detailBox.querySelectorAll('.detail-runspd.info-box .letter-rating');
+    if (runspdImgs) {
+        runspdImgs.forEach(runspdImg => runspdImg.setAttribute(
             'src',
             letterRatingUrl(player["Run Speed"])
-        );
+        ));
     }
 
-    const armstrImg = fieldingDetailView.querySelectorAll('#detail-armstr.info-box .letter-rating').item(0);
-    if (armstrImg) {
-        armstrImg.setAttribute(
+    const armstrImgs = detailBox.querySelectorAll('.detail-armstr.info-box .letter-rating');
+    if (armstrImgs) {
+        armstrImgs.forEach(armstrImg => armstrImg.setAttribute(
             'src',
             letterRatingUrl(player["Arm Strength"])
-        );
+        ));
     }
 
-    const catchingImg = fieldingDetailView.querySelectorAll('#detail-catching.info-box .letter-rating').item(0);
-    if (catchingImg) {
-        catchingImg.setAttribute(
+    // I think there won't be more than 1 of these, but just in case.
+    const catchingImgs = detailBox.querySelectorAll('.detail-catching.info-box .letter-rating');
+    if (catchingImgs) {
+        catchingImgs.forEach(catchingImg => catchingImg.setAttribute(
             'src',
             letterRatingUrl(player["Error Resistance"])
-        );
+        ));
     }
 
     // Fielding Positions
