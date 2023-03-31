@@ -46,14 +46,16 @@ body {
 }
 
 #detail-switcher {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-template-rows: auto;
-    justify-items: center;
+    display: flex;
     align-items: center;
 
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+}
+
+#current-detail-page-text {
+    flex: 1;
+    text-align: center;
 }
 
 .contains-player-table {
