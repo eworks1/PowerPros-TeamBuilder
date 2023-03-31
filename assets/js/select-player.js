@@ -133,13 +133,6 @@ function playerClicked(player) {
             
             battingPositionList.appendChild(newPosition);
         });
-
-        // const primary_position = getPrimaryPosition(player);
-        // if (isPitcher(primary_position)) {
-        //     battingPositionLabels.textContent = 'P';
-        // } else {
-        //     battingPositionLabels.textContent = primary_position;
-        // }
     }
 }
 
