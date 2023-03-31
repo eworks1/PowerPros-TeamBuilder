@@ -168,13 +168,23 @@ function playerClicked(player) {
     }
 
     // Pitching Role List (Pitching Detail)
-    const pitchingRoleList = document.getElementById('pitching-detail-roles-list');
-    if (pitchingRoleList) {
-        pitchingRoleList.innerHTML = '';
+    const pitchingRoleBox = document.getElementById('pitching-detail-roles-box');
+    if (pitchingRoleBox) {
+        pitchingRoleBox.innerHTML = '';
+
+        const label = document.createElement('span');
+        label.classList.add('info-label');
+        label.textContent = 'APT';
+        pitchingRoleBox.appendChild(label);
+
         const roles = ['SP', 'MR', 'CP'];
 
         const primary_position = getPrimaryPosition(player);
         if (isPitcher(primary_position)) {
+            const list = document.createElement('span');
+            list.id = 'pitching-detail-roles-list';
+            pitchingRoleBox.appendChild(list);
+            
             roles.forEach((role, i) => {
                 let className = '';
                 if (player["Field Position"].includes(role)) {
@@ -192,13 +202,13 @@ function playerClicked(player) {
                     newRole.innerText = role;
                 }
                 
-                pitchingRoleList.appendChild(newRole);
+                list.appendChild(newRole);
             });
         } else {
             const newRole = document.createElement('span');
             newRole.innerText = '–––';
             newRole.classList.add('dash-content');
-            pitchingRoleList.appendChild(newRole);
+            pitchingRoleBox.appendChild(newRole);
         }
     }
 }
