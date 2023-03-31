@@ -1,5 +1,5 @@
 #batting-detail {
-    grid-template-columns: 1fr 15% 0.75fr;
+    grid-template-columns: 1fr 10% 0.75fr;
     grid-template-rows: repeat(8, auto);
     grid-template-areas:
         "namebox    namebox     starpoints"
