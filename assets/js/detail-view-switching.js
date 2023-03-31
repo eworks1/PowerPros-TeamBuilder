@@ -2,11 +2,9 @@
 ---
 
 var currentDetailPageNum = 0;
-const detailPageMax = 1;
-const detailPageViewIDs = [
-    'fielding-detail',
-    'batting-detail'
-];
+const detailPageMax = {{ site.data.strings.detail_pages.ids | size | minus:1 }};
+const detailPageViewIDs = {{ site.data.strings.detail_pages.ids | jsonify }};
+const detailPageTitles = {{ site.data.strings.detail_pages.titles | jsonify }};
 
 function leftDetailButtonClicked() {
     currentDetailPageNum -= 1;
