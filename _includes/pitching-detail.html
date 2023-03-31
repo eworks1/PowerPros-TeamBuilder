@@ -13,11 +13,11 @@
     
     <span class="star-point-count" style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
 
-    <span class="info-box top-speed" style="grid-area: topspeed;"><span style="font-weight: 400;">{{ include.player["Top Speed"] }}</span> km/h</span>
+    <span class="info-box detail-topspeed" style="grid-area: topspeed;"><span style="font-weight: 400;">{{ include.player["Top Speed"] }}</span> km/h</span>
 
-    <span class="info-box pitching-form" style="grid-area: pitchform;">{{ include.player["Pitching Form"] | default: 'Pitching Form' }}</span>
+    <span class="info-box detail-pitching-form" style="grid-area: pitchform;">{{ include.player["Pitching Form"] | default: 'Pitching Form' }}</span>
 
-    <span class="info-box pitching-roles" style="grid-area: roles;">
+    <span class="info-box" style="grid-area: roles;">
         <span class="info-label">APT</span>
         <span id="pitching-detail-roles-list">
             {%- assign primary_position = include.player["Field Position"] | first -%}
