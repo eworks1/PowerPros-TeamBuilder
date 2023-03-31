@@ -123,9 +123,14 @@ function playerClicked(player) {
         positions = [...new Set(positions)];
 
         battingPositionList.innerHTML = '';
-        positions.forEach(pos => {
+        positions.forEach((pos, i) => {
             const newPosition = document.createElement('span');
-            newPosition.innerText = pos;
+            if (i > 0) {
+                newPosition.innerText = ' ' + pos;
+            } else {
+                newPosition.innerText = pos;
+            }
+            
             battingPositionList.appendChild(newPosition);
         });
 
