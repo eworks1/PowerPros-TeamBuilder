@@ -17,13 +17,13 @@
 
     <span class="info-box detail-pitching-form" style="grid-area: pitchform;">{{ include.player["Pitching Form"] | default: 'Form' }}</span>
 
-    <span class="info-box" style="grid-area: roles;">
+    <span id="pitching-detail-roles-box" class="info-box" style="grid-area: roles;">
         <span class="info-label">APT</span>
-        <span id="pitching-detail-roles-list">
-            {%- assign primary_position = include.player["Field Position"] | first -%}
-            {%- assign roles = 'SP MR CP' | split: ' ' -%}
+        {%- assign primary_position = include.player["Field Position"] | first -%}
+        {%- assign roles = 'SP MR CP' | split: ' ' -%}
 
-            {%- if roles contains primary_position -%}
+        {%- if roles contains primary_position -%}
+            <span id="pitching-detail-roles-list">
                 {%- for role in roles -%}
                     {%- assign class = '' -%}
                     {%- if playerPositions contains role -%}
@@ -38,10 +38,10 @@
                         <span class="{{ class }}"> {{ role }}</span>
                     {%- endif -%}
                 {%- endfor -%}
-            {%- else -%}
-                <span class="dash-content">–––</span>
-            {%- endif -%}
-        </span>
+            </span>
+        {%- else -%}
+            <span class="dash-content">–––</span>
+        {%- endif -%}
         </span>
     </span>
 
