@@ -90,18 +90,18 @@ function playerClicked(player) {
     }
 
     // Fielding Positions
-    const positions = fieldingDetailView.querySelector('#fielding-detail-positions-box .positions-label');
-    if (positions) {
+    const positionsLabel = detailBox.querySelector('#fielding-detail-positions-box .positions-label');
+    if (positionsLabel) {
         const primary_position = getPrimaryPosition(player);
         if (isPitcher(primary_position)) {
-            positions.textContent = 'P';
+            positionsLabel.textContent = 'P';
         } else {
-            positions.textContent = primary_position;
+            positionsLabel.textContent = primary_position;
         }
     }
     
     // Fielding Box
-    // const fieldingImg = fieldingDetailView.querySelectorAll('#detail-fielding .letter-rating').item(0);
+    // const fieldingImg = detailBox.querySelector('#detail-fielding .letter-rating');
     // if (fieldingImg) {
     //     fieldingImg.setAttribute(
     //         'src',
