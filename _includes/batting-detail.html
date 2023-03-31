@@ -46,7 +46,7 @@
                     {%- assign abbrPositions = abbrPositions | push: 'P' -%}
                     {%- assign containsP = true -%}
                 {%- endif -%}
-            {%- elsif -%}
+            {%- else -%}
                 {%- assign abbrPositions = abbrPositions | push: pos -%}
             {%- endif -%}
         {%- endfor -%}
