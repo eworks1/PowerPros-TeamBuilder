@@ -1,15 +1,15 @@
 #batting-detail {
-    grid-template-columns: 1fr 0.75fr; // 45% 55%;
+    grid-template-columns: 1fr 15% 0.75fr;
     grid-template-rows: repeat(8, auto);
     grid-template-areas:
-        "namebox    starpoints"
-        "namebox    jerseynumber"
-        "handedness jerseynumber"
-        "hit        trj"
-        "pwr        avg"
-        "runspd     hr"
-        "armstr     rbi"
-        "catching   positions";
+        "namebox    namebox     starpoints"
+        "namebox    namebox     jerseynumber"
+        "handedness .           jerseynumber"
+        "hit        trj         trj"
+        "pwr        avg         avg"
+        "runspd     hr          hr"
+        "armstr     rbi         rbi"
+        "catching   positions   positions";
 
     gap: 2px 4px;
 }
