@@ -50,7 +50,11 @@
         {%- endfor -%}
         <span id="batting-detail-positions-list">
             {%- for pos in abbrPositions -%}
-                <span>{{ pos }}</span>
+                {%- if forloop.first -%}
+                    <span>{{ pos }}</span>
+                {%- else -%}
+                    <span> {{ pos }}</span>
+                {%- endif -%}
             {%- endfor -%}
         </span>
     </span>
