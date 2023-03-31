@@ -18,7 +18,7 @@
 
     <span class="jersey-number" style="grid-area: jerseynumber; background-size: 100%; background-image: url({{ 'assets/img/jersey_background.svg' | relative_url }});">{{ include.player["Jersey Number"] | default: "" }}</span>
 
-    <span class="info-box handedness" style="grid-area: handedness; font-family: 'Roboto Condensed', sans-serif;">Throws {{ include.player["Throws"] }}, Bats {{ include.player["Bats"] }}</span>
+    <span class="info-box handedness" style="grid-area: handedness;">Throws {{ include.player["Throws"] }}, Bats {{ include.player["Bats"] }}</span>
 
     <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label">HIT</span>{% include letter-rating.html rating=hit %}</span>
 
