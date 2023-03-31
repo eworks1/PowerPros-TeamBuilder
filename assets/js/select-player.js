@@ -88,15 +88,14 @@ function playerClicked(player) {
     }
 
     // Fielding Positions
-    const positions = fieldingDetailView.querySelectorAll('#fielding-detail-positions-box .positions-label').item(0);
+    const positions = fieldingDetailView.querySelector('#fielding-detail-positions-box .positions-label');
     if (positions) {
-        const primary_position = player["Field Position"][0];
-        if (['SP', 'MR', 'CP'].includes(primary_position)) {
+        const primary_position = getPrimaryPosition(player);
+        if (isPitcher(primary_position)) {
             positions.textContent = 'P';
         } else {
             positions.textContent = primary_position;
         }
-        positions.textContent = player["Field Position"][0];
     }
     
     // Fielding Box
