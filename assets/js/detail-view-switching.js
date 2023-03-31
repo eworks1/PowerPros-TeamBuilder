@@ -12,7 +12,6 @@ function leftDetailButtonClicked() {
         currentDetailPageNum = detailPageMax
     }
 
-    console.log('Left detail button clicked: ', currentDetailPageNum);
     updateDetailPageVisibility();
 }
 
@@ -22,7 +21,6 @@ function rightDetailButtonClicked() {
         currentDetailPageNum = 0
     }
 
-    console.log('Right detail button clicked', currentDetailPageNum);
     updateDetailPageVisibility();
 }
 
