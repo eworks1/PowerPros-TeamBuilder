@@ -196,8 +196,8 @@ function playerClicked(player) {
             });
         } else {
             const newRole = document.createElement('span');
-            newRole.innerText = '---';
-            
+            newRole.innerText = '–––';
+            newRole.classList.add('dash-content');
             pitchingRoleList.appendChild(newRole);
         }
     }
