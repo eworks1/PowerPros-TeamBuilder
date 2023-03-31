@@ -13,3 +13,27 @@
     display: none;
 }
 
+// Shared Styling 
+
+#detail-box .player-name-box {
+    grid-area: namebox;
+}
+
+#detail-box .info-box {
+    color: rgb(58, 114, 191);
+    background-color: #f8fdfd;
+    border: #dfedf1 solid 1px;
+    padding: 2px;
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+    display: flex;
+    align-items: center;
+}
+
+// This is the labels for the info boxes
+#detail-box .info-box .info-label {
+    width: 100%;
+}

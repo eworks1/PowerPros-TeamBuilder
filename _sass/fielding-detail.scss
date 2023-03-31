@@ -14,29 +14,6 @@
     gap: 2px 4px;
 }
 
-#fielding-detail .player-name-box {
-    grid-area: namebox;
-}
-
-#fielding-detail .info-box {
-    color: rgb(58, 114, 191);
-    background-color: #f8fdfd;
-    border: #dfedf1 solid 1px;
-    padding: 2px;
-
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-
-    display: flex;
-    align-items: center;
-}
-
-// This is the labels for the info boxes
-#fielding-detail .info-box .info-label {
-    width: 100%;
-}
-
 #detail-fielding-box {
     grid-template-columns: 1fr auto;
     grid-template-rows: auto auto;
