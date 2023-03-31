@@ -1,0 +1,12 @@
+{
+    "detail_pages": {
+        "ids": [
+            "fielding-detail",
+            "batting-detail"
+        ],
+        "titles": [
+            "Fielding Info",
+            "Batting Info"
+        ]
+    }
+}
