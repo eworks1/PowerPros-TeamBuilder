@@ -90,13 +90,13 @@ function playerClicked(player) {
     }
 
     // Fielding Positions
-    const positionsLabel = detailBox.querySelector('#fielding-detail-positions-box .positions-label');
-    if (positionsLabel) {
+    const fieldingPositionsLabel = detailBox.querySelector('#fielding-detail-positions-box .positions-label');
+    if (fieldingPositionsLabel) {
         const primary_position = getPrimaryPosition(player);
         if (isPitcher(primary_position)) {
-            positionsLabel.textContent = 'P';
+            fieldingPositionsLabel.textContent = 'P';
         } else {
-            positionsLabel.textContent = primary_position;
+            fieldingPositionsLabel.textContent = primary_position;
         }
     }
     
