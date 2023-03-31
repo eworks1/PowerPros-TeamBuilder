@@ -88,7 +88,7 @@ function playerClicked(player) {
     }
 
     // Fielding Positions
-    const positions = fieldingDetailView.querySelectorAll('#detail-fielding-box .positions-label').item(0);
+    const positions = fieldingDetailView.querySelectorAll('#fielding-detail-positions-box .positions-label').item(0);
     if (positions) {
         const primary_position = player["Field Position"][0];
         if (['SP', 'MR', 'CP'].includes(primary_position)) {

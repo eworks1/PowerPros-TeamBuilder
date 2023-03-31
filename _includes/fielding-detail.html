@@ -32,7 +32,7 @@
 
     <span id="detail-catching" class="info-box" style="grid-area: catching;"><span class="info-label">Catching</span>{% include letter-rating.html rating=fielding %}</span>
 
-    <div id="detail-fielding-box" class="info-box" style="display: grid; grid-area: fieldingbox;">
+    <div id="fielding-detail-positions-box" class="info-box" style="display: grid; grid-area: fieldingbox;">
         {% assign primary_position = include.player["Field Position"] | first %}
         {% if primary_position == 'SP' or primary_position == 'MR' or primary_position == 'CP' %}
             {% assign primary_position = 'P' %}
