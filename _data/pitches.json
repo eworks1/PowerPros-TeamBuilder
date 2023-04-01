@@ -1,0 +1,129 @@
+{
+    "pitches": {
+        "2SFB": {
+            "Name": "2-Seam Fastball",
+            "Abbreviation": "2SFB",
+            "Direction": "Up"
+        },
+        "12CV": {
+            "Name": "12-6 Curveball",
+            "Abbreviation": "12CV",
+            "Direction": "Inside-Down"
+        },
+        "CH": {
+            "Name": "Changeup",
+            "Abbreviation": "CH",
+            "Direction": "Down"
+        },
+        "CIR": {
+            "Name": "Circle Change",
+            "Abbreviation": "CIR",
+            "Direction": "Outside-Down"
+        },
+        "CB": {
+            "Name": "Curveball",
+            "Abbreviation": "CB",
+            "Direction": "Inside-Down"
+        },
+        "CUT": {
+            "Name": "Cutter",
+            "Abbreviation": "CUT",
+            "Direction": "Inside"
+        },
+        "EP": {
+            "Name": "Eephus",
+            "Abbreviation": "EP",
+            "Direction": "Up"
+        },
+        "FRK": {
+            "Name": "Forkball",
+            "Abbreviation": "FRK",
+            "Direction": "Down"
+        },
+        "HSHU": {
+            "Name": "Hard Shuuto",
+            "Abbreviation": "HSHU",
+            "Direction": "Outside"
+        },
+        "HSNK": {
+            "Name": "Hard Sinker",
+            "Abbreviation": "HSNK",
+            "Direction": "Outside"
+        },
+        "HSL": {
+            "Name": "Hard Slider",
+            "Abbreviation": "HSL",
+            "Direction": "Inside"
+        },
+        "KNCV": {
+            "Name": "Knuckle Curve",
+            "Abbreviation": "KNCV",
+            "Direction": "Inside-Down"
+        },
+        "KN": {
+            "Name": "Knuckleball",
+            "Abbreviation": "KN",
+            "Direction": "Down"
+        },
+        "MFB": {
+            "Name": "Moving Fastball",
+            "Abbreviation": "MFB",
+            "Direction": "Up"
+        },
+        "PLM": {
+            "Name": "Palmball",
+            "Abbreviation": "PLM",
+            "Direction": "Down"
+        },
+        "PCV": {
+            "Name": "Power Curve",
+            "Abbreviation": "PCV",
+            "Direction": "Inside-Down"
+        },
+        "SCR": {
+            "Name": "Screwball",
+            "Abbreviation": "SCR",
+            "Direction": "Outside-Down"
+        },
+        "SHU": {
+            "Name": "Shuuto",
+            "Abbreviation": "SHU",
+            "Direction": "Outside"
+        },
+        "SNK": {
+            "Name": "Sinker",
+            "Abbreviation": "SNK",
+            "Direction": "Outside-Down"
+        },
+        "SL": {
+            "Name": "Slider",
+            "Abbreviation": "SL",
+            "Direction": "Inside"
+        },
+        "SCV": {
+            "Name": "Slow Curve",
+            "Abbreviation": "SCV",
+            "Direction": "Inside-Down"
+        },
+        "SLV": {
+            "Name": "Slurve",
+            "Abbreviation": "SLV",
+            "Direction": "Inside-Down"
+        },
+        "null": {
+            "Name": "SP Slider 3",
+            "Abbreviation": "SP Slider 3",
+            "Direction": "Inside"
+        },
+        "SPL": {
+            "Name": "Splitter",
+            "Abbreviation": "SPL",
+            "Direction": "Down"
+        },
+        "VSL": {
+            "Name": "Vertical Slider",
+            "Abbreviation": "VSL",
+            "Direction": "Down"
+        }
+    }
+}
