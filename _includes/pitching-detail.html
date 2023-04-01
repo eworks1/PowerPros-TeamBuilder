@@ -32,11 +32,7 @@
                         {%- assign class = 'does-not-have-pitching-role' -%}
                     {%- endif -%}
 
-                    {%- if forloop.first -%}
-                        <span class="{{ class }}">{{ role }}</span>
-                    {%- else -%}
-                        <span class="{{ class }}"> {{ role }}</span>
-                    {%- endif -%}
+                    <span class="{{ class }}">{{ role }}</span>
                 {%- endfor -%}
             </span>
         {%- else -%}

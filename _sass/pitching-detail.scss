@@ -26,7 +26,11 @@
 
 #pitching-detail-roles-list {
     font-family: 'Roboto Condensed', sans-serif;
-    word-spacing: -3px;
+    letter-spacing: -1px;
+}
+
+#pitching-detail-roles-list span {
+    margin-left: 2px;
 }
 
 #pitching-detail-roles-list .has-pitching-role {
