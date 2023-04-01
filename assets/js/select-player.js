@@ -185,7 +185,7 @@ function playerClicked(player) {
             list.id = 'pitching-detail-roles-list';
             pitchingRoleBox.appendChild(list);
             
-            roles.forEach((role, i) => {
+            roles.forEach(role => {
                 let className = '';
                 if (player["Field Position"].includes(role)) {
                     className = 'has-pitching-role';
@@ -195,12 +195,7 @@ function playerClicked(player) {
 
                 const newRole = document.createElement('span');
                 newRole.classList.add(className);
-
-                if (i > 0) {
-                    newRole.innerText = ' ' + role;
-                } else {
-                    newRole.innerText = role;
-                }
+                newRole.innerText = role;
                 
                 list.appendChild(newRole);
             });
