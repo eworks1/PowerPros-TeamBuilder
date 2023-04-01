@@ -38,7 +38,19 @@
         "Top Speed": 143,
         "Control": 65,
         "Stamina": 45,
-        "Breaking Balls": ["Lv. 2 Slider", "Lv. 1 Shuuto", "Lv. 3 Curveball", "Lv. 3 Forkball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "2"
+        }, {
+            "id": "SHU",
+            "level": "1"
+        }, {
+            "id": "CB",
+            "level": "3"
+        }, {
+            "id": "FRK",
+            "level": "3"
+        }]
     }, {
         "id": "A.Yabe-333",
         "Name": "Akio Yabe",
@@ -61,7 +73,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Abata-318",
         "Name": "Yasushi Abata",
@@ -84,7 +96,13 @@
         "Top Speed": 145,
         "Control": 68,
         "Stamina": 71,
-        "Breaking Balls": ["Lv. 2 Shuuto", "Lv. 5 SP Forkball 1"]
+        "Breaking Balls": [{
+            "id": "SHU",
+            "level": "2"
+        }, {
+            "id": "SP Forkball 1",
+            "level": "5"
+        }]
     }, {
         "id": "Abata-316",
         "Name": "Yasushi Abata",
@@ -107,7 +125,13 @@
         "Top Speed": 145,
         "Control": 68,
         "Stamina": 71,
-        "Breaking Balls": ["Lv. 2 Shuuto", "Lv. 5 SP Forkball 1"]
+        "Breaking Balls": [{
+            "id": "SHU",
+            "level": "2"
+        }, {
+            "id": "SP Forkball 1",
+            "level": "5"
+        }]
     }, {
         "id": "Akechi-318",
         "Name": "Mitsuhide Akechi",
@@ -130,7 +154,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Akutsu-179",
         "Name": "Akamitsu Akutsu",
@@ -153,7 +177,10 @@
         "Top Speed": 139,
         "Control": 20,
         "Stamina": 63,
-        "Breaking Balls": "Lv. 4 Forkball"
+        "Breaking Balls": [{
+            "id": "FRK",
+            "level": "4"
+        }]
     }, {
         "id": "Alex-385",
         "Name": "Alex",
@@ -176,7 +203,13 @@
         "Top Speed": 148,
         "Control": 74,
         "Stamina": 84,
-        "Breaking Balls": ["Lv. 3 Hard Slider", "Lv. 5 Splitter"]
+        "Breaking Balls": [{
+            "id": "HSL",
+            "level": "3"
+        }, {
+            "id": "SPL",
+            "level": "5"
+        }]
     }, {
         "id": "Amane-240",
         "Name": "Karen Amane",
@@ -199,7 +232,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Aoba-336",
         "Name": "Haruto Aoba",
@@ -222,7 +255,13 @@
         "Top Speed": 147,
         "Control": 65,
         "Stamina": 55,
-        "Breaking Balls": ["Lv. 6 SP Slider 1", "Lv. 2 Knuckle Curve"]
+        "Breaking Balls": [{
+            "id": "SP Slider 1",
+            "level": "6"
+        }, {
+            "id": "KNCV",
+            "level": "2"
+        }]
     }, {
         "id": "Arakata-356",
         "Name": "Kirei Arakata",
@@ -245,7 +284,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Arashimaru-242",
         "Name": "Shiro Arashimaru",
@@ -268,7 +307,19 @@
         "Top Speed": 142,
         "Control": 50,
         "Stamina": 50,
-        "Breaking Balls": ["Lv. 2 Slider", "Lv. 2 Curveball", "Lv. 2 Forkball", "Lv. 2 Sinker"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "2"
+        }, {
+            "id": "CB",
+            "level": "2"
+        }, {
+            "id": "FRK",
+            "level": "2"
+        }, {
+            "id": "SNK",
+            "level": "2"
+        }]
     }, {
         "id": "Arashimaru-363",
         "Name": "Shiro Arashimaru",
@@ -291,7 +342,19 @@
         "Top Speed": 147,
         "Control": 55,
         "Stamina": 70,
-        "Breaking Balls": ["Lv. 3 Slider", "Lv. 3 Curveball", "Lv. 3 Forkball", "Lv. 3 Sinker"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "3"
+        }, {
+            "id": "CB",
+            "level": "3"
+        }, {
+            "id": "FRK",
+            "level": "3"
+        }, {
+            "id": "SNK",
+            "level": "3"
+        }]
     }, {
         "id": "Arima-382",
         "Name": "Momiji Arima",
@@ -314,12 +377,21 @@
         "Top Speed": 135,
         "Control": 62,
         "Stamina": 85,
-        "Breaking Balls": ["Lv. 3 Circle Change", "Lv. 5 Palmball", "Lv. 6 Slow Curve"]
+        "Breaking Balls": [{
+            "id": "CIR",
+            "level": "3"
+        }, {
+            "id": "PLM",
+            "level": "5"
+        }, {
+            "id": "SCV",
+            "level": "6"
+        }]
     }, {
         "id": "Atsumori-485",
         "Name": "Muneatsu Atsumori",
         "Name Abbreviation": "Atsumori",
-        "Jersey Number": 1,
+        "Jersey Number": "1",
         "Field Position": ["SP", "OF"],
         "Throws": "R",
         "Bats": "R",
@@ -337,7 +409,13 @@
         "Top Speed": 155,
         "Control": 66,
         "Stamina": 90,
-        "Breaking Balls": ["Lv. 3 CB", "Lv. 6 SP Ball"]
+        "Breaking Balls": [{
+            "id": "CB",
+            "level": "3"
+        }, {
+            "id": "SP Ball",
+            "level": "6"
+        }]
     }, {
         "id": "Atsumori-374",
         "Name": "Muneatsu Atsumori",
@@ -360,7 +438,13 @@
         "Top Speed": 145,
         "Control": 76,
         "Stamina": 70,
-        "Breaking Balls": ["Lv. 4 Hard Shuuto", "Lv. 3 Curveball"]
+        "Breaking Balls": [{
+            "id": "HSHU",
+            "level": "4"
+        }, {
+            "id": "CB",
+            "level": "3"
+        }]
     }, {
         "id": "Awate-296",
         "Name": "Sota Awate",
@@ -383,7 +467,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Azuma-394",
         "Name": "Shinpachi Azuma",
@@ -406,7 +490,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Azuma-326",
         "Name": "Suguru Azuma",
@@ -429,7 +513,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Ban-363",
         "Name": "Hanji Ban",
@@ -452,7 +536,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Bando-391",
         "Name": "Choji Bando",
@@ -475,7 +559,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Benitsuru-344",
         "Name": "Taito Benitsuru",
@@ -498,7 +582,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Black-314",
         "Name": "Black",
@@ -521,7 +605,7 @@
         "Top Speed": 120,
         "Control": 20,
         "Stamina": 20,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Charai-282",
         "Name": "Genki Charai",
@@ -544,7 +628,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Chiga-318",
         "Name": "Atsushi Chiga",
@@ -567,7 +651,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Chiyohime-348",
         "Name": "Chiyohime",
@@ -590,7 +674,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Chouno-296",
         "Name": "Hanshiro Chouno",
@@ -613,7 +697,19 @@
         "Top Speed": 135,
         "Control": 72,
         "Stamina": 54,
-        "Breaking Balls": ["Lv. 3 Slider", "Lv. 3 Knuckle Curve", "Lv. 3 Circle Change", "Lv. 3 Shuuto"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "3"
+        }, {
+            "id": "KNCV",
+            "level": "3"
+        }, {
+            "id": "CIR",
+            "level": "3"
+        }, {
+            "id": "SHU",
+            "level": "3"
+        }]
     }, {
         "id": "D.Bonda-265",
         "Name": "Daisuke Bonda",
@@ -636,7 +732,16 @@
         "Top Speed": 142,
         "Control": 60,
         "Stamina": 65,
-        "Breaking Balls": ["Lv. 2 Slider", "Lv. 2 Forkabll", "Lv. 2 Hard Sinker"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "2"
+        }, {
+            "id": "HSNK",
+            "level": "2"
+        }, {
+            "id": "FRK",
+            "level": "2"
+        }]
     }, {
         "id": "D.Deita-470",
         "Name": "Daisuke Deita",
@@ -659,7 +764,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "D.Wang-383",
         "Name": "Damai Wang",
@@ -682,7 +787,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Daigogetsu-524",
         "Name": "Daigogetsu",
@@ -705,7 +810,15 @@
         "Top Speed": 170,
         "Control": 35,
         "Stamina": 99,
-        "Breaking Balls": ["2SFB", "Lv. 3 Hard Shuuto", "Lv. 3 Splitter"]
+        "Breaking Balls": [{
+            "id": "2SFB"
+        }, {
+            "id": "HSHU",
+            "level": "3"
+        }, {
+            "id": "SPL",
+            "level": "3"
+        }]
     }, {
         "id": "Edogawa-347",
         "Name": "Bunraku Edogawa",
@@ -728,7 +841,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Ereki-349",
         "Name": "Teru Ereki",
@@ -751,7 +864,16 @@
         "Top Speed": 144,
         "Control": 60,
         "Stamina": 70,
-        "Breaking Balls": ["Lv. 3 Slider", "Lv. 4 Curveball", "Lv. 4 SP Shootball 3"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "3"
+        }, {
+            "id": "CB",
+            "level": "4"
+        }, {
+            "id": "SP Shootball 3",
+            "level": "4"
+        }]
     }, {
         "id": "F.Deita-382",
         "Name": "Fumito Deita",
@@ -774,7 +896,16 @@
         "Top Speed": 144,
         "Control": 68,
         "Stamina": 70,
-        "Breaking Balls": ["Lv. 2 Slider", "Lv. 3 Hard Shuuto", "Lv. 4 Changeup"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "2"
+        }, {
+            "id": "HSHU",
+            "level": "3"
+        }, {
+            "id": "CH",
+            "level": "4"
+        }]
     }, {
         "id": "Fukami-311",
         "Name": "Kazuhito Fukami",
@@ -797,7 +928,13 @@
         "Top Speed": 146,
         "Control": 45,
         "Stamina": 70,
-        "Breaking Balls": ["Lv. 4 Hard Shuuto", "Lv. 2 Curveball"]
+        "Breaking Balls": [{
+            "id": "HSHU",
+            "level": "4"
+        }, {
+            "id": "CB",
+            "level": "2"
+        }]
     }, {
         "id": "Fukumizu-466",
         "Name": "Takeaki Fukumizu",
@@ -820,7 +957,16 @@
         "Top Speed": 145,
         "Control": 70,
         "Stamina": 60,
-        "Breaking Balls": ["Lv. 2 Curveball", "Lv. 2 Forkball", "Lv. 4 SP Shootball 2"]
+        "Breaking Balls": [{
+            "id": "CB",
+            "level": "2"
+        }, {
+            "id": "FRK",
+            "level": "2"
+        }, {
+            "id": "SP Shootball 2",
+            "level": "4"
+        }]
     }, {
         "id": "Fukuya-413",
         "Name": "Hanao Fukuya",
@@ -843,7 +989,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Furu-216",
         "Name": "Furu Heart",
@@ -866,7 +1012,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "G.Bhattarai-357",
         "Name": "Gyanendra Bhattarai",
@@ -889,7 +1035,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Gaido-228",
         "Name": "Kyoji Gaido",
@@ -912,7 +1058,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Go-535",
         "Name": "Go",
@@ -935,7 +1081,16 @@
         "Top Speed": 155,
         "Control": 84,
         "Stamina": 75,
-        "Breaking Balls": ["Lv. 2 Shuuto", "Lv. 2 Sinker", "Lv. 3 Hard Slider"]
+        "Breaking Balls": [{
+            "id": "SHU",
+            "level": "2"
+        }, {
+            "id": "SNK",
+            "level": "2"
+        }, {
+            "id": "HSL",
+            "level": "3"
+        }]
     }, {
         "id": "Gunji-288",
         "Name": "Tomomasa Gunji",
@@ -958,7 +1113,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Hagane-414",
         "Name": "Tsuyoshi Hagane",
@@ -981,7 +1136,13 @@
         "Top Speed": 146,
         "Control": 70,
         "Stamina": 95,
-        "Breaking Balls": ["Lv. 4 Hard Sinker", "Lv. 5 Curveball"]
+        "Breaking Balls": [{
+            "id": "HSNK",
+            "level": "4"
+        }, {
+            "id": "CB",
+            "level": "5"
+        }]
     }, {
         "id": "Haitani-325",
         "Name": "Mitsuru Haitani",
@@ -1004,7 +1165,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Hakata-263",
         "Name": "Asune Hakata",
@@ -1027,7 +1188,15 @@
         "Top Speed": 134,
         "Control": 70,
         "Stamina": 52,
-        "Breaking Balls": ["Lv. 4 Cutter", "Lv. 3 Slow Curve", "Eephus"]
+        "Breaking Balls": [{
+            "id": "CUT",
+            "level": "4"
+        }, {
+            "id": "SCV",
+            "level": "3"
+        }, {
+            "id": "EP"
+        }]
     }, {
         "id": "Hakosaki-348",
         "Name": "Ken Hakosaki",
@@ -1050,7 +1219,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Hamasaki-270",
         "Name": "Shoji Hamasaki",
@@ -1073,7 +1242,16 @@
         "Top Speed": 143,
         "Control": 72,
         "Stamina": 55,
-        "Breaking Balls": ["Lv. 2 Slider", "Lv. 2 Forkball", "Lv. 2 Shuuto"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "2"
+        }, {
+            "id": "FRK",
+            "level": "2"
+        }, {
+            "id": "SHU",
+            "level": "2"
+        }]
     }, {
         "id": "Handa-313",
         "Name": "Kotetsu Handa",
@@ -1096,7 +1274,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Hasami-179",
         "Name": "Shunichi Hasami",
@@ -1119,7 +1297,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Hassyaku-265",
         "Name": "Fumiko Hassyaku",
@@ -1142,7 +1320,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Hatsuno-265",
         "Name": "Ayumu Hatsuno",
@@ -1165,7 +1343,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Hayakawa-217",
         "Name": "Aoi Hayakawa",
@@ -1188,7 +1366,13 @@
         "Top Speed": 135,
         "Control": 68,
         "Stamina": 41,
-        "Breaking Balls": ["Lv. 3 Curveball", "Lv. 4 SP Sinker 1"]
+        "Breaking Balls": [{
+            "id": "CB",
+            "level": "3"
+        }, {
+            "id": "SP Sinker 1",
+            "level": "4"
+        }]
     }, {
         "id": "Hibikino-301",
         "Name": "Cocoro Hibikino",
@@ -1211,7 +1395,16 @@
         "Top Speed": 137,
         "Control": 67,
         "Stamina": 44,
-        "Breaking Balls": ["Lv. 2 CB", "Lv. 4 SP Forkball 10", "Lv. 2 Forkball"]
+        "Breaking Balls": [{
+            "id": "CB",
+            "level": "2"
+        }, {
+            "id": "SP Forkball 10",
+            "level": "4"
+        }, {
+            "id": "FRK",
+            "level": "2"
+        }]
     }, {
         "id": "Hidou-304",
         "Name": "Hidou",
@@ -1234,7 +1427,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Hisakata-378",
         "Name": "Rei Hisakata",
@@ -1257,7 +1450,13 @@
         "Top Speed": 150,
         "Control": 85,
         "Stamina": 75,
-        "Breaking Balls": ["Lv. 4 Hard Slider", "Lv. 2 Splitter"]
+        "Breaking Balls": [{
+            "id": "HSL",
+            "level": "4"
+        }, {
+            "id": "SPL",
+            "level": "2"
+        }]
     }, {
         "id": "Hokuto-401",
         "Name": "Yakumo Hokuto",
@@ -1280,7 +1479,15 @@
         "Top Speed": 149,
         "Control": 80,
         "Stamina": 75,
-        "Breaking Balls": ["2-Seam Fastball", "Lv. 4 Cutter", "Lv. 4 Forkball"]
+        "Breaking Balls": [{
+            "id": "CUT",
+            "level": "4"
+        }, {
+            "id": "FRK",
+            "level": "4"
+        }, {
+            "id": "2SFB"
+        }]
     }, {
         "id": "Honba-308",
         "Name": "Anko Honba",
@@ -1303,7 +1510,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Horisugi-367",
         "Name": "Hitoshi Horisugi",
@@ -1326,7 +1533,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Horusrun-398",
         "Name": "Horusrun",
@@ -1349,7 +1556,15 @@
         "Top Speed": 150,
         "Control": 66,
         "Stamina": 73,
-        "Breaking Balls": ["Eephus", "Lv. 3 Cutter", "Lv. 4 SP Sinker 4"]
+        "Breaking Balls": [{
+            "id": "EP"
+        }, {
+            "id": "CUT",
+            "level": "3"
+        }, {
+            "id": "SP Sinker 4",
+            "level": "4"
+        }]
     }, {
         "id": "Hoshii-329",
         "Name": "Subaru Hoshii",
@@ -1372,7 +1587,16 @@
         "Top Speed": 144,
         "Control": 65,
         "Stamina": 65,
-        "Breaking Balls": ["Lv. 3 Slider", "Lv. 3 Sinker", "Lv. 4 SP Forkball 4"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "3"
+        }, {
+            "id": "SNK",
+            "level": "3"
+        }, {
+            "id": "SP Forkball 4",
+            "level": "4"
+        }]
     }, {
         "id": "Hoshizora-353",
         "Name": "Hoshimitsu Hoshizora",
@@ -1395,7 +1619,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Ichinose-418",
         "Name": "Touya Ichinose",
@@ -1418,7 +1642,19 @@
         "Top Speed": 142,
         "Control": 90,
         "Stamina": 65,
-        "Breaking Balls": ["Lv. 2 Shuuto", "Lv. 4 Screwball", "Lv. 3 Curveball", "Lv. 3 Slider"]
+        "Breaking Balls": [{
+            "id": "SHU",
+            "level": "2"
+        }, {
+            "id": "SCR",
+            "level": "4"
+        }, {
+            "id": "CB",
+            "level": "3"
+        }, {
+            "id": "SL",
+            "level": "3"
+        }]
     }, {
         "id": "Ichou-294",
         "Name": "Rikimaru Ichou",
@@ -1441,7 +1677,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Igarashi-281",
         "Name": "Gonzo Igarashi",
@@ -1464,7 +1700,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Inada-298",
         "Name": "Gosaku Inada",
@@ -1487,7 +1723,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Inukawa-316",
         "Name": "Kazune Inukawa",
@@ -1510,7 +1746,16 @@
         "Top Speed": 136,
         "Control": 80,
         "Stamina": 72,
-        "Breaking Balls": ["Lv. 2 Hard Shuuto", "Lv. 4 Sinker", "Lv. 2 Forkball"]
+        "Breaking Balls": [{
+            "id": "HSHU",
+            "level": "2"
+        }, {
+            "id": "SNK",
+            "level": "4"
+        }, {
+            "id": "FRK",
+            "level": "2"
+        }]
     }, {
         "id": "Isamura-390",
         "Name": "Takeshi Isamura",
@@ -1533,7 +1778,16 @@
         "Top Speed": 147,
         "Control": 84,
         "Stamina": 65,
-        "Breaking Balls": ["Lv. 4 Forkball", "Lv. 2 Curveball", "Lv. 2 Sinker"]
+        "Breaking Balls": [{
+            "id": "FRK",
+            "level": "4"
+        }, {
+            "id": "CB",
+            "level": "2"
+        }, {
+            "id": "SNK",
+            "level": "2"
+        }]
     }, {
         "id": "Iseki-388",
         "Name": "Tansaku Iseki",
@@ -1556,7 +1810,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Ishino-179",
         "Name": "Masao Ishino",
@@ -1579,7 +1833,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Itto-370",
         "Name": "Sho Itto",
@@ -1602,7 +1856,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Iwai-302",
         "Name": "Koukichi Iwai",
@@ -1625,7 +1879,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Izayoi-451",
         "Name": "Mitsuru Izayoi",
@@ -1648,7 +1902,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Izayoi-373",
         "Name": "Luna Izayoi",
@@ -1671,7 +1925,13 @@
         "Top Speed": 140,
         "Control": 72,
         "Stamina": 68,
-        "Breaking Balls": ["Lv. 3 Shuuto", "Lv. 3 12-6 Curveball"]
+        "Breaking Balls": [{
+            "id": "SHU",
+            "level": "3"
+        }, {
+            "id": "12CV",
+            "level": "3"
+        }]
     }, {
         "id": "Jinguji-277",
         "Name": "Hikaru Jinguji",
@@ -1694,7 +1954,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Jitsu-300",
         "Name": "Kazuo Jitsu",
@@ -1717,7 +1977,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Julius-368",
         "Name": "Julius Tenoro",
@@ -1740,7 +2000,13 @@
         "Top Speed": 138,
         "Control": 44,
         "Stamina": 68,
-        "Breaking Balls": ["Lv. 2 Splitter", "Lv. 2 Changeup"]
+        "Breaking Balls": [{
+            "id": "SPL",
+            "level": "2"
+        }, {
+            "id": "CH",
+            "level": "2"
+        }]
     }, {
         "id": "Junketsu-451",
         "Name": "Taro Junketsu",
@@ -1763,7 +2029,15 @@
         "Top Speed": 151,
         "Control": 41,
         "Stamina": 56,
-        "Breaking Balls": ["2SFB", "Lv. 2 Vertical Slider", "Lv. 7 Slow Curve"]
+        "Breaking Balls": [{
+            "id": "2SFB"
+        }, {
+            "id": "VSL",
+            "level": "2"
+        }, {
+            "id": "SCV",
+            "level": "7"
+        }]
     }, {
         "id": "Kagami-404",
         "Name": "Kuuya Kagami",
@@ -1786,7 +2060,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kagayaki-344",
         "Name": "Seiya Kagayaki",
@@ -1809,7 +2083,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kagurazaka-487",
         "Name": "Mitsuhiko Kagurazaka",
@@ -1832,7 +2106,19 @@
         "Top Speed": 153,
         "Control": 71,
         "Stamina": 77,
-        "Breaking Balls": ["Lv. 7 Curveball", "Lv. 3 Slider", "Lv. 3 Shuuto", "Lv. 3 Screwball"]
+        "Breaking Balls": [{
+            "id": "CB",
+            "level": "7"
+        }, {
+            "id": "SL",
+            "level": "3"
+        }, {
+            "id": "SHU",
+            "level": "3"
+        }, {
+            "id": "SCR",
+            "level": "3"
+        }]
     }, {
         "id": "Kamase-234",
         "Name": "Touma Kamase",
@@ -1855,7 +2141,13 @@
         "Top Speed": 144,
         "Control": 55,
         "Stamina": 60,
-        "Breaking Balls": ["Lv. 3 Slider", "Lv. 3 Forkball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "3"
+        }, {
+            "id": "FRK",
+            "level": "3"
+        }]
     }, {
         "id": "Kamitaka-388",
         "Name": "Ryu Kamitaka",
@@ -1878,7 +2170,13 @@
         "Top Speed": 150,
         "Control": 71,
         "Stamina": 74,
-        "Breaking Balls": ["Lv. 6 Slider", "Lv. 5 Curveball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "6"
+        }, {
+            "id": "CB",
+            "level": "5"
+        }]
     }, {
         "id": "Kamiyama-168",
         "Name": "Kaname Kamiyama",
@@ -1901,7 +2199,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kanehara-372",
         "Name": "Izuru Kanehara",
@@ -1924,7 +2222,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Karuizawa-261",
         "Name": "Daiki Karuizawa",
@@ -1947,7 +2245,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Katakura-245",
         "Name": "Masayuki Katakura",
@@ -1970,7 +2268,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kawahoshi-258",
         "Name": "Homura Kawahoshi",
@@ -1993,7 +2291,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kiba-385",
         "Name": "Arashi Kiba",
@@ -2016,7 +2314,18 @@
         "Top Speed": 152,
         "Control": 60,
         "Stamina": 70,
-        "Breaking Balls": ["Lv. 3 Hard Slider", "Lv. 3 Curveball", "Lv. 3 Forkball", "SP Fastball 3"]
+        "Breaking Balls": [{
+            "id": "HSL",
+            "level": "3"
+        }, {
+            "id": "CB",
+            "level": "3"
+        }, {
+            "id": "FRK",
+            "level": "3"
+        }, {
+            "id": "SP Fastball 3"
+        }]
     }, {
         "id": "Kino-372",
         "Name": "Kouichi Kino",
@@ -2039,7 +2348,21 @@
         "Top Speed": 142,
         "Control": 70,
         "Stamina": 70,
-        "Breaking Balls": ["Lv. 2 Slider", "Lv. 3 Curveball", "Lv. 2 Forkball", "Lv. 3 Sinker", "Moving Fastball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "2"
+        }, {
+            "id": "CB",
+            "level": "3"
+        }, {
+            "id": "FRK",
+            "level": "2"
+        }, {
+            "id": "SNK",
+            "level": "3"
+        }, {
+            "id": "MFB"
+        }]
     }, {
         "id": "Kiriki-294",
         "Name": "Tsuyoshi Kiriki",
@@ -2062,7 +2385,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kodaira-318",
         "Name": "Hinata Kodaira",
@@ -2085,7 +2408,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kodaka-307",
         "Name": "Mirei Kodaka",
@@ -2108,7 +2431,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kogarashi-254",
         "Name": "Ryo Kogarashi",
@@ -2131,7 +2454,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kogarashi-238",
         "Name": "Kabuki Kogarashi",
@@ -2154,7 +2477,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kohmoto-269",
         "Name": "Fukuo Kohmoto",
@@ -2177,7 +2500,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kuon-290",
         "Name": "Hikaru Kuon",
@@ -2200,7 +2523,16 @@
         "Top Speed": 148,
         "Control": 68,
         "Stamina": 65,
-        "Breaking Balls": ["Lv. 5 Slider", "Lv. 1 Hard Shuuto", "Lv. 1 Curveball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "5"
+        }, {
+            "id": "HSHU",
+            "level": "1"
+        }, {
+            "id": "CB",
+            "level": "1"
+        }]
     }, {
         "id": "Kuragari-289",
         "Name": "Hitoshi Kuragari",
@@ -2223,7 +2555,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kurama-453",
         "Name": "Takafumi Kurama",
@@ -2246,7 +2578,13 @@
         "Top Speed": 149,
         "Control": 55,
         "Stamina": 70,
-        "Breaking Balls": ["Lv. 5 SP Slider 2", "Lv. 3 Knuckleball"]
+        "Breaking Balls": [{
+            "id": "SP Slider 2",
+            "level": "5"
+        }, {
+            "id": "KN",
+            "level": "3"
+        }]
     }, {
         "id": "Kureba-423",
         "Name": "Eiji Kureba",
@@ -2269,7 +2607,13 @@
         "Top Speed": 149,
         "Control": 87,
         "Stamina": 55,
-        "Breaking Balls": ["Lv. 5 Forkball", "Lv. 7 Slow Curve"]
+        "Breaking Balls": [{
+            "id": "FRK",
+            "level": "5"
+        }, {
+            "id": "SCV",
+            "level": "7"
+        }]
     }, {
         "id": "Kusano-332",
         "Name": "Kentaro Kusano",
@@ -2292,7 +2636,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Kyushu-489",
         "Name": "Kyushu",
@@ -2315,7 +2659,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "L.Tsukami-404",
         "Name": "Lifter Tsukami",
@@ -2338,7 +2682,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Lee-271",
         "Name": "Bronko Lee",
@@ -2361,7 +2705,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Lockhart-332",
         "Name": "Alvin Lockhart",
@@ -2384,7 +2728,16 @@
         "Top Speed": 148,
         "Control": 58,
         "Stamina": 78,
-        "Breaking Balls": ["Lv. 2 Cutter", "Lv. 1 Slurve", "Lv. 3 SP Forkball 2"]
+        "Breaking Balls": [{
+            "id": "CUT",
+            "level": "2"
+        }, {
+            "id": "SLV",
+            "level": "1"
+        }, {
+            "id": "SP Forkball 2",
+            "level": "3"
+        }]
     }, {
         "id": "M.Christine-379",
         "Name": "Maximum Christine",
@@ -2407,7 +2760,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "M.Ikari-466",
         "Name": "Mamoru Ikari",
@@ -2430,7 +2783,18 @@
         "Top Speed": 149,
         "Control": 82,
         "Stamina": 78,
-        "Breaking Balls": ["Lv. 4 Slider", "Lv. 4 Curveball", "Lv. 4 Forkball", "SP Fastball 1"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "4"
+        }, {
+            "id": "CB",
+            "level": "4"
+        }, {
+            "id": "FRK",
+            "level": "4"
+        }, {
+            "id": "SP Fastball 1"
+        }]
     }, {
         "id": "M.Vermillion-292",
         "Name": "Mickey Vermillion",
@@ -2453,7 +2817,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Makita-339",
         "Name": "Makito Makita",
@@ -2476,7 +2840,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Marumochi-217",
         "Name": "Futoshi Marumochi",
@@ -2499,7 +2863,13 @@
         "Top Speed": 151,
         "Control": 10,
         "Stamina": 70,
-        "Breaking Balls": ["Lv. 1 Curveball", "Lv. 3 Changeup"]
+        "Breaking Balls": [{
+            "id": "CB",
+            "level": "1"
+        }, {
+            "id": "CH",
+            "level": "3"
+        }]
     }, {
         "id": "Matsukura-305",
         "Name": "Munemitsu Matsukura",
@@ -2522,7 +2892,13 @@
         "Top Speed": 145,
         "Control": 65,
         "Stamina": 75,
-        "Breaking Balls": ["Lv. 4 Curveball", "Lv. 3 Forkball"]
+        "Breaking Balls": [{
+            "id": "CB",
+            "level": "4"
+        }, {
+            "id": "FRK",
+            "level": "3"
+        }]
     }, {
         "id": "Matsuzaki-284",
         "Name": "Tomio Matsuzaki",
@@ -2545,7 +2921,10 @@
         "Top Speed": 153,
         "Control": 33,
         "Stamina": 70,
-        "Breaking Balls": "Lv. 5 Curveball"
+        "Breaking Balls": [{
+            "id": "CB",
+            "level": "5"
+        }]
     }, {
         "id": "Misono-255",
         "Name": "Chika Misono",
@@ -2568,7 +2947,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Mizudori-309",
         "Name": "Shinobu Mizudori",
@@ -2591,7 +2970,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Mizuki-218",
         "Name": "Suguru Mizuki",
@@ -2614,7 +2993,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Mizuno-350",
         "Name": "Mataro Mizuno",
@@ -2637,7 +3016,18 @@
         "Top Speed": 144,
         "Control": 80,
         "Stamina": 35,
-        "Breaking Balls": ["Moving Fastball", "Lv. 4 Curveball", "Lv. 4 Screwball", "Lv.4 KnuckleBall"]
+        "Breaking Balls": [{
+            "id": "MFB"
+        }, {
+            "id": "CB",
+            "level": "4"
+        }, {
+            "id": "SCR",
+            "level": "4"
+        }, {
+            "id": "KN",
+            "level": "4"
+        }]
     }, {
         "id": "Moroi-291",
         "Name": "Kiyokazu Moroi",
@@ -2660,7 +3050,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Murasame-398",
         "Name": "Murasame",
@@ -2683,7 +3073,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Mushika-324",
         "Name": "Riku Mushika",
@@ -2706,7 +3096,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "N.Yumeshiro-353",
         "Name": "Nodoka Yumeshiro",
@@ -2729,7 +3119,7 @@
         "Top Speed": 130,
         "Control": 85,
         "Stamina": 70,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Nagase-234",
         "Name": "Taiga Nagase",
@@ -2752,7 +3142,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Naito-392",
         "Name": "Meiru Naito",
@@ -2775,7 +3165,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Nakai-321",
         "Name": "Santa Nakai",
@@ -2798,7 +3188,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Namaki-264",
         "Name": "Morio Namaki",
@@ -2821,7 +3211,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Nanai-337",
         "Name": "Aleft Nanai",
@@ -2844,7 +3234,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Narumi-364",
         "Name": "Yuuto Narumi",
@@ -2867,7 +3257,16 @@
         "Top Speed": 145,
         "Control": 75,
         "Stamina": 71,
-        "Breaking Balls": ["Lv. 2 Cutter", "Lv. 3 Curveball", "Lv. 3 SP Forkball 7"]
+        "Breaking Balls": [{
+            "id": "CUT",
+            "level": "2"
+        }, {
+            "id": "CB",
+            "level": "3"
+        }, {
+            "id": "SP Forkball 7",
+            "level": "3"
+        }]
     }, {
         "id": "Natsuno-252",
         "Name": "Himawari Natsuno",
@@ -2890,7 +3289,13 @@
         "Top Speed": 132,
         "Control": 55,
         "Stamina": 25,
-        "Breaking Balls": ["Lv. 2 Circle Change", "Lv. 2 12-6 Curveball"]
+        "Breaking Balls": [{
+            "id": "CIR",
+            "level": "2"
+        }, {
+            "id": "12CV",
+            "level": "2"
+        }]
     }, {
         "id": "Nekogami-296",
         "Name": "Yuu Nekogami",
@@ -2913,7 +3318,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Niijima-262",
         "Name": "Saki Niijima",
@@ -2936,7 +3341,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Niijima-259",
         "Name": "Saki Niijima",
@@ -2959,7 +3364,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Ninomiya-360",
         "Name": "Mizuho Ninomiya",
@@ -2982,7 +3387,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Nisepuro-186",
         "Name": "Nisepuro",
@@ -3005,7 +3410,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Nomi-287",
         "Name": "Shinzo Nomi",
@@ -3028,7 +3433,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Nubis-341",
         "Name": "Nubis",
@@ -3051,7 +3456,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Nyaptet-284",
         "Name": "Nyaptet",
@@ -3074,7 +3479,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Octavia-414",
         "Name": "Octavia",
@@ -3097,7 +3502,22 @@
         "Top Speed": 143,
         "Control": 88,
         "Stamina": 68,
-        "Breaking Balls": ["Lv. 1 Hard slider", "Lv. 1 Slurve", "Lv. 1 Sinker", "Lv. 1 Shuuto", "Lv. 4 SP Forkball 9"]
+        "Breaking Balls": [{
+            "id": "HSL",
+            "level": "1"
+        }, {
+            "id": "SLV",
+            "level": "1"
+        }, {
+            "id": "SNK",
+            "level": "1"
+        }, {
+            "id": "SHU",
+            "level": "1"
+        }, {
+            "id": "SP Forkball 9",
+            "level": "4"
+        }]
     }, {
         "id": "Oda-333",
         "Name": "Maito Oda",
@@ -3120,7 +3540,16 @@
         "Top Speed": 152,
         "Control": 50,
         "Stamina": 99,
-        "Breaking Balls": ["Lv. 5 Circle Change", "Lv. 3 Splitter", "Lv. 3 12-6 Curveball"]
+        "Breaking Balls": [{
+            "id": "CIR",
+            "level": "5"
+        }, {
+            "id": "SPL",
+            "level": "3"
+        }, {
+            "id": "12CV",
+            "level": "3"
+        }]
     }, {
         "id": "Ogane-296",
         "Name": "Mochitaro Ogane",
@@ -3143,7 +3572,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Okino-370",
         "Name": "Kairi Okino",
@@ -3166,7 +3595,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "One-353",
         "Name": "Eight One",
@@ -3189,7 +3618,13 @@
         "Top Speed": 149,
         "Control": 65,
         "Stamina": 65,
-        "Breaking Balls": ["Lv. 5 Curveball", "Lv. 3 Screwball"]
+        "Breaking Balls": [{
+            "id": "CB",
+            "level": "5"
+        }, {
+            "id": "SCR",
+            "level": "3"
+        }]
     }, {
         "id": "Onishi-447",
         "Name": "Harrison Onishi",
@@ -3212,7 +3647,19 @@
         "Top Speed": 151,
         "Control": 25,
         "Stamina": 85,
-        "Breaking Balls": ["Lv. 4 Slider", "Lv. 4 Curveball", "Lv. 4 Forkball", "Lv. 4 Screwball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "4"
+        }, {
+            "id": "CB",
+            "level": "4"
+        }, {
+            "id": "FRK",
+            "level": "4"
+        }, {
+            "id": "SCR",
+            "level": "4"
+        }]
     }, {
         "id": "Onishi-432",
         "Name": "Harrison Onishi",
@@ -3235,7 +3682,19 @@
         "Top Speed": 151,
         "Control": 25,
         "Stamina": 85,
-        "Breaking Balls": ["Lv. 4 Slider", "Lv. 4 Curveball", "Lv. 4 Forkball", "Lv. 4 Screwball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "4"
+        }, {
+            "id": "CB",
+            "level": "4"
+        }, {
+            "id": "FRK",
+            "level": "4"
+        }, {
+            "id": "SCR",
+            "level": "4"
+        }]
     }, {
         "id": "Otakara-287",
         "Name": "Kintaro Otakara",
@@ -3258,7 +3717,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Oto-295",
         "Name": "Ruka Oto",
@@ -3281,7 +3740,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Otome-401",
         "Name": "Otome",
@@ -3304,7 +3763,16 @@
         "Top Speed": 155,
         "Control": 56,
         "Stamina": 88,
-        "Breaking Balls": ["Lv. 2 Slider", "Lv. 2 Shuuto", "Lv. 2 Forkball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "2"
+        }, {
+            "id": "SHU",
+            "level": "2"
+        }, {
+            "id": "FRK",
+            "level": "2"
+        }]
     }, {
         "id": "Oume-347",
         "Name": "Tamio Oume",
@@ -3327,7 +3795,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Oyama-309",
         "Name": "Miyabi Oyama",
@@ -3350,7 +3818,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Ozaki-312",
         "Name": "Ryusuke Ozaki",
@@ -3373,7 +3841,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Ozora-270",
         "Name": "Miyoko Ozora",
@@ -3396,7 +3864,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Paachan-223",
         "Name": "Hazuki Hayama (Paachan)",
@@ -3419,7 +3887,7 @@
         "Top Speed": 132,
         "Control": 10,
         "Stamina": 30,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Pink-345",
         "Name": "Pink",
@@ -3442,7 +3910,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "R.Verrese-477",
         "Name": "Roseo Verrese",
@@ -3465,7 +3933,15 @@
         "Top Speed": 155,
         "Control": 69,
         "Stamina": 78,
-        "Breaking Balls": ["2SFB", "Lv. 2 Knuckle Curve", "Lv. 3 Splitter"]
+        "Breaking Balls": [{
+            "id": "2SFB"
+        }, {
+            "id": "KNCV",
+            "level": "2"
+        }, {
+            "id": "SPL",
+            "level": "3"
+        }]
     }, {
         "id": "Raigou-491",
         "Name": "Haruto Raigou",
@@ -3488,7 +3964,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Rakugaki-307",
         "Name": "Gosuke Rakugaki",
@@ -3511,7 +3987,19 @@
         "Top Speed": 145,
         "Control": 68,
         "Stamina": 60,
-        "Breaking Balls": ["Lv. 2 Slider", "Lv. 2 Slow Curve", "Lv. 2 Splitter", "Lv. 2 Shuuto"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "2"
+        }, {
+            "id": "SCV",
+            "level": "2"
+        }, {
+            "id": "SPL",
+            "level": "2"
+        }, {
+            "id": "SHU",
+            "level": "2"
+        }]
     }, {
         "id": "Reibu-496",
         "Name": "Reibu",
@@ -3534,7 +4022,19 @@
         "Top Speed": 155,
         "Control": 85,
         "Stamina": 65,
-        "Breaking Balls": ["Lv. 4 SP Slider 3", "Lv. 4 Shuuto", "Lv. 2 Power Curve", "Lv. 2 Sinker"]
+        "Breaking Balls": [{
+            "id": "SP Slider 3",
+            "level": "4"
+        }, {
+            "id": "SHU",
+            "level": "4"
+        }, {
+            "id": "PCV",
+            "level": "2"
+        }, {
+            "id": "SNK",
+            "level": "2"
+        }]
     }, {
         "id": "Rokkaku-320",
         "Name": "Renji Rokkaku",
@@ -3557,7 +4057,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Rokudoh-328",
         "Name": "Hijiri Rokudoh",
@@ -3580,7 +4080,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Roppongi-321",
         "Name": "Yuki Roppongi",
@@ -3603,7 +4103,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "S.Ikari-392",
         "Name": "Susumu Ikari",
@@ -3626,7 +4126,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "S.Mitsumori-264",
         "Name": "Sakyo Mitsumori",
@@ -3649,7 +4149,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Saburi-339",
         "Name": "Motsuhide Saburi",
@@ -3672,7 +4172,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Saigoh-383",
         "Name": "Juzo Saigoh",
@@ -3695,7 +4195,15 @@
         "Top Speed": 154,
         "Control": 100,
         "Stamina": 30,
-        "Breaking Balls": ["Lv. 2 Hard Slider", "Lv. 2 Forkball", "Eephus"]
+        "Breaking Balls": [{
+            "id": "HSL",
+            "level": "2"
+        }, {
+            "id": "FRK",
+            "level": "2"
+        }, {
+            "id": "EP"
+        }]
     }, {
         "id": "Sakai-314",
         "Name": "Sumiyoshi Sakai",
@@ -3718,7 +4226,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Sakamoto-289",
         "Name": "Gen Sakamoto",
@@ -3741,7 +4249,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Sakigake-360",
         "Name": "Ryuji Sakigake",
@@ -3764,7 +4272,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Sakuma-330",
         "Name": "Hiroshi Sakuma",
@@ -3787,7 +4295,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Samejima-331",
         "Name": "Kumetaro Samejima",
@@ -3810,7 +4318,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Sana-278",
         "Name": "Ayumi Sana",
@@ -3833,7 +4341,16 @@
         "Top Speed": 134,
         "Control": 80,
         "Stamina": 50,
-        "Breaking Balls": ["Lv. 2 Slider", "Lv. 1 Screwball", "Lv. 5 Curveball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "2"
+        }, {
+            "id": "SCR",
+            "level": "1"
+        }, {
+            "id": "CB",
+            "level": "5"
+        }]
     }, {
         "id": "Sanbonmatsu-299",
         "Name": "Hajime Sanbonmatsu",
@@ -3856,7 +4373,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Saru-417",
         "Name": "Saru",
@@ -3879,7 +4396,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Saruyama-229",
         "Name": "Takeru Saruyama",
@@ -3902,7 +4419,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Sendoh-435",
         "Name": "Kiwamu Sendoh",
@@ -3925,7 +4442,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Setine-345",
         "Name": "Setine",
@@ -3948,7 +4465,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Shacho-395",
         "Name": "Shacho",
@@ -3971,7 +4488,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Shibata-201",
         "Name": "Gunpei Shibata",
@@ -3994,7 +4511,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Shibuya-395",
         "Name": "Hideki Shibuya",
@@ -4017,7 +4534,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Shido-327",
         "Name": "Remi Shido",
@@ -4040,7 +4557,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Shimada-405",
         "Name": "Eisaku Shimada",
@@ -4063,7 +4580,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Shindoh-453",
         "Name": "Yujiro Shindoh",
@@ -4086,7 +4603,18 @@
         "Top Speed": 151,
         "Control": 83,
         "Stamina": 70,
-        "Breaking Balls": ["2SFB", "Lv. 5 Slider", "Lv. 3 CB", "Lv. 2 Forkball"]
+        "Breaking Balls": [{
+            "id": "2SFB"
+        }, {
+            "id": "SL",
+            "level": "5"
+        }, {
+            "id": "CB",
+            "level": "3"
+        }, {
+            "id": "FRK",
+            "level": "2"
+        }]
     }, {
         "id": "Shinogi-451",
         "Name": "Takuma Shinogi",
@@ -4109,7 +4637,16 @@
         "Top Speed": 151,
         "Control": 68,
         "Stamina": 82,
-        "Breaking Balls": ["Lv. 5 SP Shuuto 4", "Lv. 3 Screwball", "Lv. 3 Splitter"]
+        "Breaking Balls": [{
+            "id": "SP Shuuto 4",
+            "level": "5"
+        }, {
+            "id": "SCR",
+            "level": "3"
+        }, {
+            "id": "SPL",
+            "level": "3"
+        }]
     }, {
         "id": "Shinonome-376",
         "Name": "Shouya Shinonome",
@@ -4132,7 +4669,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Shirana-357",
         "Name": "Itsutaro Shirana",
@@ -4155,7 +4692,16 @@
         "Top Speed": 142,
         "Control": 74,
         "Stamina": 68,
-        "Breaking Balls": ["Lv. 3 Shuuto", "Lv. 4 Slider", "Lv. 3 Forkball"]
+        "Breaking Balls": [{
+            "id": "SHU",
+            "level": "3"
+        }, {
+            "id": "SL",
+            "level": "4"
+        }, {
+            "id": "FRK",
+            "level": "3"
+        }]
     }, {
         "id": "Shiroi-305",
         "Name": "Hakusai Shiroi",
@@ -4178,7 +4724,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Shiroyama-310",
         "Name": "Kenichi Shiroyama",
@@ -4201,7 +4747,15 @@
         "Top Speed": 155,
         "Control": 45,
         "Stamina": 55,
-        "Breaking Balls": ["Lv. 4 Vertical Slider", "Lv. 1 Curveball", "SP Fastball 2"]
+        "Breaking Balls": [{
+            "id": "VSL",
+            "level": "4"
+        }, {
+            "id": "CB",
+            "level": "1"
+        }, {
+            "id": "SP Fastball 2"
+        }]
     }, {
         "id": "Shogogetsu-321",
         "Name": "Tsuyoshi Shogogetsu",
@@ -4224,7 +4778,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Sudo-350",
         "Name": "Reito Sudo",
@@ -4247,7 +4801,13 @@
         "Top Speed": 160,
         "Control": 45,
         "Stamina": 68,
-        "Breaking Balls": ["Lv. 2 Cutter", "Lv. 2 Splitter"]
+        "Breaking Balls": [{
+            "id": "CUT",
+            "level": "2"
+        }, {
+            "id": "SPL",
+            "level": "2"
+        }]
     }, {
         "id": "Suzaku-431",
         "Name": "Nanseki Suzaku",
@@ -4270,7 +4830,13 @@
         "Top Speed": 157,
         "Control": 62,
         "Stamina": 80,
-        "Breaking Balls": ["Lv. 3 Shuuto", "Lv. 2 Screwball"]
+        "Breaking Balls": [{
+            "id": "SHU",
+            "level": "3"
+        }, {
+            "id": "SCR",
+            "level": "2"
+        }]
     }, {
         "id": "Suzuhime-321",
         "Name": "Kentaro Suzuhime",
@@ -4293,7 +4859,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Suzukaze-334",
         "Name": "Hope Suzukaze",
@@ -4316,7 +4882,15 @@
         "Top Speed": 143,
         "Control": 65,
         "Stamina": 70,
-        "Breaking Balls": ["2SFB", "Lv. 3 Knuckle Curve", "Lv. 5 SP Forkball 3"]
+        "Breaking Balls": [{
+            "id": "2SFB"
+        }, {
+            "id": "KNCV",
+            "level": "3"
+        }, {
+            "id": "SP Forkball 3",
+            "level": "5"
+        }]
     }, {
         "id": "Suzumoto-535",
         "Name": "Daisuke Suzumoto",
@@ -4339,7 +4913,16 @@
         "Top Speed": 149,
         "Control": 90,
         "Stamina": 85,
-        "Breaking Balls": ["Lv. 3 Slider", "Lv. 3 Shuuto", "Lv. 4 Knuckleball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "3"
+        }, {
+            "id": "SHU",
+            "level": "3"
+        }, {
+            "id": "KN",
+            "level": "4"
+        }]
     }, {
         "id": "T.Tsukami-321",
         "Name": "Tomoe Tsukami",
@@ -4362,7 +4945,18 @@
         "Top Speed": 138,
         "Control": 70,
         "Stamina": 65,
-        "Breaking Balls": ["2SFB", "Lv. 3 Slider", "Lv. 3 Forkball", "Lv. 1 Circle Change"]
+        "Breaking Balls": [{
+            "id": "2SFB"
+        }, {
+            "id": "SL",
+            "level": "3"
+        }, {
+            "id": "FRK",
+            "level": "3"
+        }, {
+            "id": "CIR",
+            "level": "1"
+        }]
     }, {
         "id": "Tachibana-330",
         "Name": "Mizuki Tachibana",
@@ -4385,7 +4979,16 @@
         "Top Speed": 138,
         "Control": 87,
         "Stamina": 50,
-        "Breaking Balls": ["Lv. 1 Slider", "Lv. 5 SP Sinker 2", "Lv. 3 Screwball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "1"
+        }, {
+            "id": "SP Sinker 2",
+            "level": "5"
+        }, {
+            "id": "SCR",
+            "level": "3"
+        }]
     }, {
         "id": "Tachikawa-427",
         "Name": "Hiromi Tachikawa",
@@ -4408,7 +5011,16 @@
         "Top Speed": 141,
         "Control": 65,
         "Stamina": 78,
-        "Breaking Balls": ["Lv. 3 Hard Shuuto", "Lv. 3 Screwball", "Lv. 3 Curveball"]
+        "Breaking Balls": [{
+            "id": "HSHU",
+            "level": "3"
+        }, {
+            "id": "SCR",
+            "level": "3"
+        }, {
+            "id": "CB",
+            "level": "3"
+        }]
     }, {
         "id": "Takagi-288",
         "Name": "Sachiko Takagi",
@@ -4431,7 +5043,10 @@
         "Top Speed": 132,
         "Control": 50,
         "Stamina": 63,
-        "Breaking Balls": "Lv. 2 12-6 Curveball"
+        "Breaking Balls": [{
+            "id": "12CV",
+            "level": "2"
+        }]
     }, {
         "id": "Takano-365",
         "Name": "Yuki Takano",
@@ -4454,7 +5069,16 @@
         "Top Speed": 138,
         "Control": 95,
         "Stamina": 77,
-        "Breaking Balls": ["Lv. 2 Shuuto", "Lv. 2 Cutter", "Lv. 3 Circle Change"]
+        "Breaking Balls": [{
+            "id": "SHU",
+            "level": "2"
+        }, {
+            "id": "CUT",
+            "level": "2"
+        }, {
+            "id": "CIR",
+            "level": "3"
+        }]
     }, {
         "id": "Takeda-353",
         "Name": "Keiji Takeda",
@@ -4477,7 +5101,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Tamane-313",
         "Name": "Natsuki Tamane",
@@ -4500,7 +5124,13 @@
         "Top Speed": 147,
         "Control": 56,
         "Stamina": 72,
-        "Breaking Balls": ["Lv. 4 Shuuto", "Lv. 3 Curveball"]
+        "Breaking Balls": [{
+            "id": "SHU",
+            "level": "4"
+        }, {
+            "id": "CB",
+            "level": "3"
+        }]
     }, {
         "id": "Tamar-280",
         "Name": "Tamar Giuyu",
@@ -4523,7 +5153,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Tamasaburo-354",
         "Name": "Tamasaburo",
@@ -4546,7 +5176,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Tamura-317",
         "Name": "Tamura",
@@ -4569,7 +5199,13 @@
         "Top Speed": 149,
         "Control": 60,
         "Stamina": 75,
-        "Breaking Balls": ["Lv. 2 Sinker", "Lv. 2 Curveball"]
+        "Breaking Balls": [{
+            "id": "SNK",
+            "level": "2"
+        }, {
+            "id": "CB",
+            "level": "2"
+        }]
     }, {
         "id": "Tanaka-202",
         "Name": "Masaru Tanaka",
@@ -4592,7 +5228,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Tanakayama-437",
         "Name": "Taro Tanakayama",
@@ -4615,7 +5251,10 @@
         "Top Speed": 142,
         "Control": 45,
         "Stamina": 65,
-        "Breaking Balls": "Lv. 5 Forkball"
+        "Breaking Balls": [{
+            "id": "FRK",
+            "level": "5"
+        }]
     }, {
         "id": "Tarumoto-314",
         "Name": "Yuta Tarumoto",
@@ -4638,7 +5277,15 @@
         "Top Speed": 153,
         "Control": 67,
         "Stamina": 45,
-        "Breaking Balls": ["Lv. 2 Hard Slider", "Lv. 4 Vertical Slider", "2-Seam Fastball"]
+        "Breaking Balls": [{
+            "id": "HSL",
+            "level": "2"
+        }, {
+            "id": "VSL",
+            "level": "4"
+        }, {
+            "id": "2SFB"
+        }]
     }, {
         "id": "Tatehashi-232",
         "Name": "Minato Tatehashi",
@@ -4661,7 +5308,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Tatenishi-312",
         "Name": "Tsutomu Tatenishi",
@@ -4684,7 +5331,19 @@
         "Top Speed": 138,
         "Control": 85,
         "Stamina": 55,
-        "Breaking Balls": ["Lv. 2 Slider", "Lv. 2 Shuuto", "Lv. 1 Curveball", "Lv. 1 Sinker"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "2"
+        }, {
+            "id": "SHU",
+            "level": "2"
+        }, {
+            "id": "CB",
+            "level": "1"
+        }, {
+            "id": "SNK",
+            "level": "1"
+        }]
     }, {
         "id": "Tatsui-288",
         "Name": "Kazuya Tatsui",
@@ -4707,7 +5366,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Tennoji-428",
         "Name": "Tennoji",
@@ -4730,7 +5389,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Teramichi-331",
         "Name": "Noboru Teramichi",
@@ -4753,7 +5412,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Tezuka-324",
         "Name": "Takafumi Tezuka",
@@ -4776,7 +5435,13 @@
         "Top Speed": 139,
         "Control": 80,
         "Stamina": 63,
-        "Breaking Balls": ["Lv. 4 Slider", "Lv. 5 Curveball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "4"
+        }, {
+            "id": "CB",
+            "level": "5"
+        }]
     }, {
         "id": "Todo-350",
         "Name": "Mahiru Todo",
@@ -4799,7 +5464,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Todoroki-266",
         "Name": "Haruka Todoroki",
@@ -4822,7 +5487,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Tsuburaya-303",
         "Name": "Kazuyoshi Tsuburaya",
@@ -4845,7 +5510,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Tsukumo-314",
         "Name": "Sora Tsukumo",
@@ -4868,7 +5533,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Tsuruya-291",
         "Name": "Masaru Tsuruya",
@@ -4891,7 +5556,13 @@
         "Top Speed": 144,
         "Control": 70,
         "Stamina": 65,
-        "Breaking Balls": ["Lv. 3 Slider", "Lv. 3 Splitter"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "3"
+        }, {
+            "id": "SPL",
+            "level": "3"
+        }]
     }, {
         "id": "U.Mitsumori-264",
         "Name": "Ukyo Mitsumori",
@@ -4914,7 +5585,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Udo-287",
         "Name": "Mikihisa Udo",
@@ -4937,7 +5608,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Ueno-296",
         "Name": "Yoshito Ueno",
@@ -4960,7 +5631,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Ukami-379",
         "Name": "Yokan Ukami",
@@ -4983,7 +5654,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Unkai-427",
         "Name": "Kazuya Unkai",
@@ -5006,7 +5677,18 @@
         "Top Speed": 155,
         "Control": 58,
         "Stamina": 76,
-        "Breaking Balls": ["SP Fastball", "Lv. 3 Shuuto", "Lv. 4 Splitter", "Lv. 3 Slider"]
+        "Breaking Balls": [{
+            "id": "SP Fastball"
+        }, {
+            "id": "SHU",
+            "level": "3"
+        }, {
+            "id": "SPL",
+            "level": "4"
+        }, {
+            "id": "SL",
+            "level": "3"
+        }]
     }, {
         "id": "Uraga-326",
         "Name": "Yuuya Uraga",
@@ -5029,7 +5711,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Vanguard-414",
         "Name": "Bowman Vanguard",
@@ -5052,7 +5734,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Warabi-251",
         "Name": "Haruki Warabi",
@@ -5075,7 +5757,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Y.Diyansu-298",
         "Name": "Yaben Diyansu",
@@ -5098,7 +5780,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Yabai-334",
         "Name": "Moeo Yabai",
@@ -5121,7 +5803,13 @@
         "Top Speed": 138,
         "Control": 67,
         "Stamina": 47,
-        "Breaking Balls": ["Lv. 1 Slider", "Lv. 2 Curveball"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "1"
+        }, {
+            "id": "CB",
+            "level": "2"
+        }]
     }, {
         "id": "Yabe-273",
         "Name": "Akio Yabe",
@@ -5144,7 +5832,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Yabemon-368",
         "Name": "Tatsuo Yabemon",
@@ -5167,7 +5855,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Yabeta-276",
         "Name": "Akiko Yabeta",
@@ -5190,7 +5878,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Yagyu-275",
         "Name": "Sayaka Yagyu",
@@ -5213,7 +5901,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Yakyuman1Gou-292",
         "Name": "Yakyuman1Gou",
@@ -5236,7 +5924,13 @@
         "Top Speed": 138,
         "Control": 75,
         "Stamina": 48,
-        "Breaking Balls": ["Lv. 6 SP Sinker 1", "Lv. 4 Curveball"]
+        "Breaking Balls": [{
+            "id": "SP Sinker 1",
+            "level": "6"
+        }, {
+            "id": "CB",
+            "level": "4"
+        }]
     }, {
         "id": "Yakyuman2Gou-346",
         "Name": "Yakyuman2Gou",
@@ -5259,7 +5953,13 @@
         "Top Speed": 143,
         "Control": 87,
         "Stamina": 50,
-        "Breaking Balls": ["Lv. 5 SP Sinker 2", "Lv. 3 Slider"]
+        "Breaking Balls": [{
+            "id": "SP Sinker 2",
+            "level": "5"
+        }, {
+            "id": "SL",
+            "level": "3"
+        }]
     }, {
         "id": "Yakyuman3Gou-375",
         "Name": "Yakyuman3Gou",
@@ -5282,7 +5982,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Yakyuman5Gou-381",
         "Name": "Yakyuman5Gou",
@@ -5305,7 +6005,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Yamaguchi-336",
         "Name": "Ken Yamaguchi",
@@ -5328,7 +6028,13 @@
         "Top Speed": 147,
         "Control": 66,
         "Stamina": 70,
-        "Breaking Balls": ["Lv. 2 Curveball", "Lv. 7 Forkball"]
+        "Breaking Balls": [{
+            "id": "CB",
+            "level": "2"
+        }, {
+            "id": "FRK",
+            "level": "7"
+        }]
     }, {
         "id": "Yamino-481",
         "Name": "Eigou Yamino",
@@ -5351,7 +6057,19 @@
         "Top Speed": 159,
         "Control": 49,
         "Stamina": 89,
-        "Breaking Balls": ["Lv. 4 SP Sinker 3", "Lv. 4 Changeup", "Lv. 3 Slider", "Lv. 2 Slurve"]
+        "Breaking Balls": [{
+            "id": "SP Sinker 3",
+            "level": "4"
+        }, {
+            "id": "CH",
+            "level": "4"
+        }, {
+            "id": "SL",
+            "level": "3"
+        }, {
+            "id": "SLV",
+            "level": "2"
+        }]
     }, {
         "id": "Yashima-332",
         "Name": "Ataru Yashima",
@@ -5374,7 +6092,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Yojo-309",
         "Name": "Kenji Yojo",
@@ -5397,7 +6115,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Zansu-425",
         "Name": "Zansu",
@@ -5420,7 +6138,7 @@
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": null
+        "Breaking Balls": []
     }, {
         "id": "Zenigata-367",
         "Name": "Ranzo Zenigata",
@@ -5443,7 +6161,16 @@
         "Top Speed": 142,
         "Control": 69,
         "Stamina": 85,
-        "Breaking Balls": ["Lv. 3 Slider", "Lv. 3 Forkball", "Lv. 3 Sinker"]
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": "3"
+        }, {
+            "id": "FRK",
+            "level": "3"
+        }, {
+            "id": "SNK",
+            "level": "3"
+        }]
     }, {
         "id": "Zenzai-341",
         "Name": "Zenzai",
@@ -5466,6 +6193,15 @@
         "Top Speed": 142,
         "Control": 96,
         "Stamina": 1,
-        "Breaking Balls": ["Lv. 3 Sinker", "Lv. 3 Vertical Slider", "Lv. 4 SP Curveball 1"]
+        "Breaking Balls": [{
+            "id": "SNK",
+            "level": "3"
+        }, {
+            "id": "VSL",
+            "level": "3"
+        }, {
+            "id": "SP Curveball 1",
+            "level": "4"
+        }]
     }]
 }
