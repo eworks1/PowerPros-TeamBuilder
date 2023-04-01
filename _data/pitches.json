@@ -110,7 +110,117 @@
             "Abbreviation": "SLV",
             "Direction": "Inside-Down"
         },
-        "null": {
+        "SP Ball": {
+            "Name": "SP Ball",
+            "Abbreviation": "SP Ball",
+            "Direction": "Outside"
+        },
+        "SP Curveball 1": {
+            "Name": "SP Curveball 1",
+            "Abbreviation": "SP Curveball 1",
+            "Direction": "Inside-Down"
+        },
+        "SP Fastball": {
+            "Name": "SP Fastball",
+            "Abbreviation": "SP Fastball",
+            "Direction": "Up"
+        },
+        "SP Fastball 1": {
+            "Name": "SP Fastball 1",
+            "Abbreviation": "SP Fastball 1",
+            "Direction": "Up"
+        },
+        "SP Fastball 2": {
+            "Name": "SP Fastball 2",
+            "Abbreviation": "SP Fastball 2",
+            "Direction": "Up"
+        },
+        "SP Fastball 3": {
+            "Name": "SP Fastball 3",
+            "Abbreviation": "SP Fastball 3",
+            "Direction": "Up"
+        },
+        "SP Forkball 1": {
+            "Name": "SP Forkball 1",
+            "Abbreviation": "SP Forkball 1",
+            "Direction": "Down"
+        },
+        "SP Forkball 2": {
+            "Name": "SP Forkball 2",
+            "Abbreviation": "SP Forkball 2",
+            "Direction": "Down"
+        },
+        "SP Forkball 3": {
+            "Name": "SP Forkball 3",
+            "Abbreviation": "SP Forkball 3",
+            "Direction": "Down"
+        },
+        "SP Forkball 4": {
+            "Name": "SP Forkball 4",
+            "Abbreviation": "SP Forkball 4",
+            "Direction": "Down"
+        },
+        "SP Forkball 7": {
+            "Name": "SP Forkball 7",
+            "Abbreviation": "SP Forkball 7",
+            "Direction": "Down"
+        },
+        "SP Forkball 9": {
+            "Name": "SP Forkball 9",
+            "Abbreviation": "SP Forkball 9",
+            "Direction": "Down"
+        },
+        "SP Forkball 10": {
+            "Name": "SP Forkball 10",
+            "Abbreviation": "SP Forkball 10",
+            "Direction": "Down"
+        },
+        "SP Shootball 2": {
+            "Name": "SP Shootball 2",
+            "Abbreviation": "SP Shootball 2",
+            "Direction": "Outside"
+        },
+        "SP Shootball 3": {
+            "Name": "SP Shootball 3",
+            "Abbreviation": "SP Shootball 3",
+            "Direction": "Outside"
+        },
+        "SP Shuuto 4": {
+            "Name": "SP Shuuto 4",
+            "Abbreviation": "SP Shuuto 4",
+            "Direction": "Outside"
+        },
+        "SP Sinker 1": {
+            "Name": "SP Sinker 1",
+            "Abbreviation": "SP Sinker 1",
+            "Direction": "Outside-Down"
+        },
+        "SP Sinker 2": {
+            "Name": "SP Sinker 2",
+            "Abbreviation": "SP Sinker 2",
+            "Direction": "Outside-Down"
+        },
+        "SP Sinker 3": {
+            "Name": "SP Sinker 3",
+            "Abbreviation": "SP Sinker 3",
+            "Direction": "Outside-Down"
+        },
+        "SP Sinker 4": {
+            "Name": "SP Sinker 4",
+            "Abbreviation": "SP Sinker 4",
+            "Direction": "Outside-Down"
+        },
+        "SP Slider 1": {
+            "Name": "SP Slider 1",
+            "Abbreviation": "SP Slider 1",
+            "Direction": "Inside"
+        },
+        "SP Slider 2": {
+            "Name": "SP Slider 2",
+            "Abbreviation": "SP Slider 2",
+            "Direction": "Inside"
+        },
+        "SP Slider 3": {
             "Name": "SP Slider 3",
             "Abbreviation": "SP Slider 3",
             "Direction": "Inside"
