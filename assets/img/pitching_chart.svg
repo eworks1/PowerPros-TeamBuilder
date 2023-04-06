@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="724" height="464" version="1.1" viewBox="0 0 724 464" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- 1mm == 3.78px -->
+    <defs>
+        <linearGradient id="base-background-gradient">
+            <stop stop-color="#4293f8" offset="0" />
+            <stop stop-color="#6cbcf8" offset="1" />
+        </linearGradient>
+        <linearGradient id="base-fill-gradient">
+            <stop stop-color="#fff700" offset="0" />
+            <stop stop-color="#f00" offset="1" />
+        </linearGradient>
+        <linearGradient id="background-gradient" x1="0%" x2="100%" y1="50%" y2="50%" gradientUnits="objectBoundingBox"
+            xlink:href="#base-background-gradient" />
+        <linearGradient id="fill-gradient" x1="0%" x2="100%" y1="50%" y2="50%" gradientUnits="objectBoundingBox"
+            xlink:href="#base-fill-gradient" />
+        <linearGradient id="short-fill-gradient" x1="50%" x2="50%" y1="100%" y2="0%" gradientUnits="objectBoundingBox"
+            xlink:href="#base-fill-gradient" />
+
+        <clipPath id="baseball-circle">
+            <circle cx="362" cy="102" r="26" />
+        </clipPath>
+    </defs>
+    <g>
+        <g id="down" transform="rotate(90, 362, 102)" stroke-width="4">
+            <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" />
+            <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" />
+            <path d="M 662 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 622 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 582 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 542 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 502 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 462 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+        </g>
+        <g id="outside" transform="rotate(180, 362, 102)" stroke-width="4">
+            <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" />
+            <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" />
+            <path d="M 662 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 622 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 582 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 542 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 502 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 462 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+        </g>
+        <g id="inside" transform="" stroke-width="4">
+            <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" />
+            <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" />
+            <path d="M 662 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 622 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 582 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 542 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 502 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 462 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+        </g>
+
+        <g id="down-inside" transform="rotate(45, 362, 102)" stroke-width="4">
+            <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" />
+            <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" />
+            <path d="M 662 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 622 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 582 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 542 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 502 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 462 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+        </g>
+        <g id="down-outside" transform="rotate(135, 362, 102)" stroke-width="4">
+            <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" />
+            <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" />
+            <path d="M 662 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 622 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 582 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 542 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 502 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+            <path d="M 462 122 h -40 v -40 h 40 z" fill="none" stroke="#3f90f7" stroke-linejoin="round"
+                stroke-width="4" />
+        </g>
+
+        <g id="baseball" transform="">
+            <circle id="circle-background" cx="362" cy="102" r="26" fill="white" stroke="#3f90f7" stroke-width="4" />
+
+            <g clip-path="url(#baseball-circle)">
+                <circle transform="translate(-30)" cx="362" cy="102" r="26" fill="none" stroke="#ff0000" stroke-width="2.5" />
+                <circle transform="translate(30)" cx="362" cy="102" r="26" fill="none" stroke="#ff0000" stroke-width="2.5" />
+            </g>
+
+            <circle id="circle-cover" cx="362" cy="102" r="26" fill="none" stroke="#3f90f7" stroke-width="4" />
+        </g>
+        
+        <g id="up" stroke-width="4" display="none">
+            <path d="M 342 22 l 0 40 h 40 v -40l -20 -20 z" fill="url(#short-fill-gradient)" stroke="#3f90f7" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+        </g>
+        <g id="double-up-group" display="" stroke-width="4">
+            <g transform="translate(-10)" display="inline">
+                <path d="M 342 22 l 0 40 h 40 v -40l -20 -20 z" fill="url(#short-fill-gradient)" stroke="#3f90f7" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+            </g>
+            <g transform="translate(10)" display="inline">
+                <path d="M 342 22 l 0 40 h 40 v -40l -20 -20 z" fill="url(#short-fill-gradient)" stroke="#3f90f7" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
+            </g>
+        </g>
+    </g>
+</svg>
