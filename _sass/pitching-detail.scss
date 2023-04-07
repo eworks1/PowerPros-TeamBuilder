@@ -15,6 +15,10 @@
 
 #pitching-detail .detail-topspeed {
     font-weight: 400;
+    font-size: 18px;
+
+    min-height: revert;
+    justify-self: center;
 }
 
 #pitching-detail .detail-topspeed::after {
