@@ -51,6 +51,8 @@ body {
 #position-filter-box {
     display: grid;
     grid-auto-columns: auto;
+    grid-auto-flow: column;
+    gap: 8px;
 }
 
 #team-list {
