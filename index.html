@@ -99,13 +99,13 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
         {% include position-filter.html %}
     </div>
 
+    <div id="detail-switcher" class="group-box" style="grid-area: switcher;">
+        {% include detail-switcher.html %}
+    </div>
+
     <div id="detail-box" class="group-box" style="grid-area: detailview;">
         {% assign first_player = all_players | first %}
         {% include detail-view.html player=first_player %}
-    </div>
-
-    <div id="detail-switcher" class="group-box" style="grid-area: switcher;">
-        {% include detail-switcher.html %}
     </div>
 
     <div id="team-list" class="group-box contains-player-table" style="grid-area: teamlist;">
