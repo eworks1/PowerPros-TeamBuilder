@@ -1,0 +1,412 @@
+{
+    "traits": {
+        "Heater": {
+            "Name": "Heater",
+            "Description": ""
+        },
+        "Poise": {
+            "Name": "Poise",
+            "Description": ""
+        },
+        "w/ RISP": {
+            "Name": "w/ RISP",
+            "Description": ""
+        },
+        "Catcher": {
+            "Name": "Catcher",
+            "Description": ""
+        },
+        "Clutch": {
+            "Name": "Clutch",
+            "Description": ""
+        },
+        "Runner": {
+            "Name": "Runner",
+            "Description": ""
+        },
+        "Stealing": {
+            "Name": "Stealing",
+            "Description": ""
+        },
+        "Throwing": {
+            "Name": "Throwing",
+            "Description": ""
+        },
+        "vs LHP": {
+            "Name": "vs LHP",
+            "Description": ""
+        },
+        "Grit": {
+            "Name": "Grit",
+            "Description": ""
+        },
+        "Recovery": {
+            "Name": "Recovery",
+            "Description": ""
+        },
+        "vs LHB": {
+            "Name": "vs LHB",
+            "Description": ""
+        },
+        "Agile": {
+            "Name": "Agile",
+            "Description": ""
+        }
+    },
+    " ies": {
+        "Aggrssiv Fld": {
+            "Name": "Aggrssiv Fld",
+            "Category": "Position Assignment",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Aggrssiv Htr": {
+            "Name": "Aggrssiv Htr",
+            "Category": "Position Assignment",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Aggrssiv Run": {
+            "Name": "Aggrssiv Run",
+            "Category": "Position Assignment",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Aggrssiv Stl": {
+            "Name": "Aggrssiv Stl",
+            "Category": "Position Assignment",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Blunder": {
+            "Name": "Blunder",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Breaker": {
+            "Name": "Breaker",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Bunt": {
+            "Name": "Bunt",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Bunt Ace": {
+            "Name": "Bunt Ace",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Buzzkill": {
+            "Name": "Buzzkill",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Cautious Stl": {
+            "Name": "Cautious Stl",
+            "Category": "Position Assignment",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Clinical": {
+            "Name": "Clinical",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Clutch": {
+            "Name": "Clutch",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Diver": {
+            "Name": "Diver",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Eager": {
+            "Name": "Eager",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Easy Out": {
+            "Name": "Easy Out",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Fanned": {
+            "Name": "Fanned",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Glover": {
+            "Name": "Glover",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Good Eye": {
+            "Name": "Good Eye",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Heckler": {
+            "Name": "Heckler",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Homer": {
+            "Name": "Homer",
+            "Category": "Fielder",
+            "Effect Type": "+2",
+            "Description": ""
+        },
+        "Hot Bat": {
+            "Name": "Hot Bat",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Ironball": {
+            "Name": "Ironball",
+            "Category": "Pitcher",
+            "Effect Type": "+1",
+            "Description": ""
+        },
+        "Jester": {
+            "Name": "Jester",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Level-Headed": {
+            "Name": "Level-Headed",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Low Hit": {
+            "Name": "Low Hit",
+            "Category": "Fielder",
+            "Effect Type": "+1",
+            "Description": ""
+        },
+        "Menace": {
+            "Name": "Menace",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Momentum": {
+            "Name": "Momentum",
+            "Category": "Pitcher",
+            "Effect Type": "+1",
+            "Description": ""
+        },
+        "Mood Swinger": {
+            "Name": "Mood Swinger",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Morale": {
+            "Name": "Morale",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Patient Htr": {
+            "Name": "Patient Htr",
+            "Category": "Position Assignment",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Pinch": {
+            "Name": "Pinch",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Pinch Runner": {
+            "Name": "Pinch Runner",
+            "Category": "Position Assignment",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Pull Hit": {
+            "Name": "Pull Hit",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Push Hit": {
+            "Name": "Push Hit",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Rally": {
+            "Name": "Rally",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Refined": {
+            "Name": "Refined",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Reflexes": {
+            "Name": "Reflexes",
+            "Category": "Pitcher",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Selfish": {
+            "Name": "Selfish",
+            "Category": "Position Assignment",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Selfless": {
+            "Name": "Selfless",
+            "Category": "Position Assignment",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Setter": {
+            "Name": "Setter",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Slam Fan": {
+            "Name": "Slam Fan",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Slammer": {
+            "Name": "Slammer",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Slap Hitter": {
+            "Name": "Slap Hitter",
+            "Category": "Position Assignment",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Slugger": {
+            "Name": "Slugger",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Sprayer": {
+            "Name": "Sprayer",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Squibber": {
+            "Name": "Squibber",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Star": {
+            "Name": "Star",
+            "Category": "Position Assignment",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Survivor": {
+            "Name": "Survivor",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Takeout": {
+            "Name": "Takeout",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Tanker": {
+            "Name": "Tanker",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Trucker": {
+            "Name": "Trucker",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Trusty": {
+            "Name": "Trusty",
+            "Category": "Pitcher",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Two-way": {
+            "Name": "Two-way",
+            "Category": "Pitcher",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Victor": {
+            "Name": "Victor",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Zealous": {
+            "Name": "Zealous",
+            "Category": "Fielder",
+            "Effect Type": "",
+            "Description": ""
+        },
+        "Dr. K": {
+            "Name": "Dr. K",
+            "Category": "Pitcher",
+            "Effect Type": "+1",
+            "Description": ""
+        },
+        "Low Ball": {
+            "Name": "Low Ball",
+            "Category": "Pitcher",
+            "Effect Type": "+1",
+            "Description": ""
+        },
+        "Downplay": {
+            "Name": "Downplay",
+            "Category": "Pitcher",
+            "Effect Type": "0",
+            "Description": ""
+        },
+        "Choker": {
+            "Name": "Choker",
+            "Category": "Pitcher",
+            "Effect Type": "-1",
+            "Description": ""
+        }
+    }
+}
