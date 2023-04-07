@@ -2,13 +2,13 @@
     grid-template-columns: 50% 10% 5% auto;
     grid-template-rows: repeat(7, auto);
     grid-template-areas:
-        "namebox    namebox     .           starpoints"
-        "namebox    namebox     topspeed    topspeed"
-        ".          .           topspeed    topspeed"
-        ".          .           topspeed    topspeed"
-        "pitchform  roles       roles       roles"
-        "control    stamina     stamina     stamina"
-        "pitches    pitches     pitches     pitches";
+        "namebox    namebox     .       starpoints"
+        "namebox    namebox     .       topspeed"
+        ".          .           .       topspeed"
+        ".          .           .       topspeed"
+        "pitchform  roles       roles   roles"
+        "control    stamina     stamina stamina"
+        "pitches    pitches     pitches pitches";
 
     gap: 2px 4px;
 }
