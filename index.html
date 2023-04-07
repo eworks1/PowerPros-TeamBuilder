@@ -95,8 +95,8 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
         <input id="team-name" type="text" placeholder="Team Name">
     </div>
 
-    <div class="group-box" style="grid-area: positions;">
-        <h1>Positions</h1>
+    <div id="position-filter-box" class="group-box" style="grid-area: positions;">
+        {% include position-filter.html %}
     </div>
 
     <div id="detail-box" class="group-box" style="grid-area: detailview;">
