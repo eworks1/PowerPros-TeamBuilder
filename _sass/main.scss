@@ -37,6 +37,11 @@ body {
     padding: 8px;
 }
 
+#position-filter-box {
+    display: grid;
+    grid-auto-columns: auto;
+}
+
 #team-list {
 
 }
