@@ -13,10 +13,10 @@ var team = {
     backups: Array()
 };
 
-{% raw %}
+{%- raw -%}
 /**
  * @param {any} player
- */{% endraw %}
+ */{%- endraw -%}
 function rightClicked(player) {
     // If they're on the team, they'll be removed here.
     const deleted = removePlayer(player);
@@ -28,11 +28,11 @@ function rightClicked(player) {
     addPlayer(player);
 }
 
-{% raw %}
+{%- raw -%}
 /**
  * @param {any} player
  * @returns {boolean} If it succeeded.
- */{% endraw %}
+ */{%- endraw -%}
 function addPlayer(player) {
     // Add to team
     const primary_position = getPrimaryPosition(player);
@@ -108,11 +108,11 @@ function addPlayer(player) {
     return added;
 }
 
-{% raw %}
+{%- raw -%}
 /**
  * @param {any} player
  * @returns {boolean} If it succeeded.
- */{% endraw %}
+ */{%- endraw -%}
 function removePlayer(player) {
     // Confirm if they're on the team or not
     const primary_position = getPrimaryPosition(player);
