@@ -37,6 +37,18 @@ body {
     padding: 8px;
 }
 
+#team-name-box {
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+    padding: 4px;
+}
+
+#team-name-box input {
+    text-align: center;
+    font-size: 1.75em;
+}
+
 #position-filter-box {
     display: grid;
     grid-auto-columns: auto;

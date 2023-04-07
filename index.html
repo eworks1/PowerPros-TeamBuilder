@@ -91,8 +91,8 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
 <body onload="setUpClickListeners()">
     {% assign all_players = site.data.players.players %}
 
-    <div class="group-box" style="grid-area: teamname; display: flex; align-content: center; justify-content: center;">
-        <input id="team-name" type="text" placeholder="Team Name" style="text-align: center; font-size: 2em;">
+    <div id="team-name-box" class="group-box" style="grid-area: teamname;">
+        <input id="team-name" type="text" placeholder="Team Name">
     </div>
 
     <div class="group-box" style="grid-area: positions;">
