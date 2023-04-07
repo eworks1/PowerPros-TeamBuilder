@@ -34,23 +34,24 @@
         "Arm Strength": 61,
         "Fielding": 63,
         "Error Resistance": 35,
-        "Special Abilities": ["W/RISP B", "Agile B", "Recovery C", "Reflexes", "Gripper"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 143,
         "Control": 65,
         "Stamina": 45,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SHU",
-            "level": "1"
+            "level": 1
         }, {
             "id": "CB",
-            "level": "3"
+            "level": 3
         }, {
             "id": "FRK",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Agile B", "Recovery C", "Reflexes", "Gripper"]
     }, {
         "id": "A.Yabe-333",
         "Name": "Akio Yabe",
@@ -69,11 +70,12 @@
         "Arm Strength": 65,
         "Fielding": 78,
         "Error Resistance": 32,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch F", "Stealing B", "Runner B", "Diver"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Abata-318",
         "Name": "Yasushi Abata",
@@ -92,17 +94,18 @@
         "Arm Strength": 63,
         "Fielding": 65,
         "Error Resistance": 42,
-        "Special Abilities": ["Recovery B", "Breaking Ball P"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 145,
         "Control": 68,
         "Stamina": 71,
         "Breaking Balls": [{
             "id": "SHU",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SP Forkball 1",
-            "level": "5"
-        }]
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": ["Recovery B", "Breaking Ball P"]
     }, {
         "id": "Abata-316",
         "Name": "Yasushi Abata",
@@ -121,17 +124,18 @@
         "Arm Strength": 63,
         "Fielding": 65,
         "Error Resistance": 42,
-        "Special Abilities": ["Recovery C", "Breaking Ball Pitcher"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 145,
         "Control": 68,
         "Stamina": 71,
         "Breaking Balls": [{
             "id": "SHU",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SP Forkball 1",
-            "level": "5"
-        }]
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Breaking Ball Pitcher"]
     }, {
         "id": "Akechi-318",
         "Name": "Mitsuhide Akechi",
@@ -150,11 +154,12 @@
         "Arm Strength": 63,
         "Fielding": 76,
         "Error Resistance": 66,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": "Clutch",
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Akutsu-179",
         "Name": "Akamitsu Akutsu",
@@ -173,14 +178,15 @@
         "Arm Strength": 56,
         "Fielding": 57,
         "Error Resistance": 58,
-        "Special Abilities": ["Poise B", "Recovery C", "Low Ball", "Breaking Ball P"],
+        "Special Abilities (Fielder)": "Runner B",
         "Top Speed": 139,
         "Control": 20,
         "Stamina": 63,
         "Breaking Balls": [{
             "id": "FRK",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Poise B", "Recovery C", "Low Ball", "Breaking Ball P"]
     }, {
         "id": "Alex-385",
         "Name": "Alex",
@@ -199,17 +205,18 @@
         "Arm Strength": 73,
         "Fielding": 57,
         "Error Resistance": 52,
-        "Special Abilities": "Cutter",
+        "Special Abilities (Fielder)": "Slugger",
         "Top Speed": 148,
         "Control": 74,
         "Stamina": 84,
         "Breaking Balls": [{
             "id": "HSL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SPL",
-            "level": "5"
-        }]
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": "Cutter"
     }, {
         "id": "Amane-240",
         "Name": "Karen Amane",
@@ -228,11 +235,12 @@
         "Arm Strength": 43,
         "Fielding": 50,
         "Error Resistance": 35,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Runner B", "Throwing C", "Setter", "Aggressive Running"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Aoba-336",
         "Name": "Haruto Aoba",
@@ -251,17 +259,18 @@
         "Arm Strength": 65,
         "Fielding": 60,
         "Error Resistance": 60,
-        "Special Abilities": ["W/RISP B", "Recovery C", "Cutter", "Ironball", "Dr. K", "Battler", "Vs. Slugger", "Breaking Ball P"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 147,
         "Control": 65,
         "Stamina": 55,
         "Breaking Balls": [{
             "id": "SP Slider 1",
-            "level": "6"
+            "level": 6
         }, {
             "id": "KNCV",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Cutter", "Ironball", "Dr. K", "Battler", "Vs. Slugger", "Breaking Ball P"]
     }, {
         "id": "Arakata-356",
         "Name": "Kirei Arakata",
@@ -280,11 +289,12 @@
         "Arm Strength": 58,
         "Fielding": 44,
         "Error Resistance": 53,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch A", "Blunder", "Slap Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Arashimaru-242",
         "Name": "Shiro Arashimaru",
@@ -303,23 +313,24 @@
         "Arm Strength": 59,
         "Fielding": 50,
         "Error Resistance": 50,
-        "Special Abilities": ["Recovery C", "Vs. Slugger"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 142,
         "Control": 50,
         "Stamina": 50,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "CB",
-            "level": "2"
+            "level": 2
         }, {
             "id": "FRK",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SNK",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Vs. Slugger"]
     }, {
         "id": "Arashimaru-363",
         "Name": "Shiro Arashimaru",
@@ -338,23 +349,24 @@
         "Arm Strength": 65,
         "Fielding": 50,
         "Error Resistance": 50,
-        "Special Abilities": ["Heater B", "Recovery C", "Vs. Slugger"],
+        "Special Abilities (Fielder)": ["Clinical", "Good Eye"],
         "Top Speed": 147,
         "Control": 55,
         "Stamina": 70,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "CB",
-            "level": "3"
+            "level": 3
         }, {
             "id": "FRK",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SNK",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Vs. Slugger"]
     }, {
         "id": "Arima-382",
         "Name": "Momiji Arima",
@@ -373,20 +385,21 @@
         "Arm Strength": 45,
         "Fielding": 64,
         "Error Resistance": 60,
-        "Special Abilities": ["Grit B", "Crossfire", "Toolkit", "Airball"],
+        "Special Abilities (Fielder)": "Throwing E",
         "Top Speed": 135,
         "Control": 62,
         "Stamina": 85,
         "Breaking Balls": [{
             "id": "CIR",
-            "level": "3"
+            "level": 3
         }, {
             "id": "PLM",
-            "level": "5"
+            "level": 5
         }, {
             "id": "SCV",
-            "level": "6"
-        }]
+            "level": 6
+        }],
+        "Special Abilities (Pitching)": ["Grit B", "Crossfire", "Toolkit", "Airball"]
     }, {
         "id": "Atsumori-485",
         "Name": "Muneatsu Atsumori",
@@ -405,17 +418,18 @@
         "Arm Strength": 51,
         "Fielding": 58,
         "Error Resistance": 55,
-        "Special Abilities": ["Battler", "Hot Head"],
+        "Special Abilities (Fielder)": ["Slugger", "Rally"],
         "Top Speed": 155,
         "Control": 66,
         "Stamina": 90,
         "Breaking Balls": [{
             "id": "CB",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SP Ball",
-            "level": "6"
-        }]
+            "level": 6
+        }],
+        "Special Abilities (Pitching)": ["Battler", "Hot Head"]
     }, {
         "id": "Atsumori-374",
         "Name": "Muneatsu Atsumori",
@@ -434,17 +448,18 @@
         "Arm Strength": 63,
         "Fielding": 58,
         "Error Resistance": 55,
-        "Special Abilities": ["Poise A", "Recovery C"],
+        "Special Abilities (Fielder)": ["Slugger", "Rally"],
         "Top Speed": 145,
         "Control": 76,
         "Stamina": 70,
         "Breaking Balls": [{
             "id": "HSHU",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CB",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Poise A", "Recovery C"]
     }, {
         "id": "Awate-296",
         "Name": "Sota Awate",
@@ -463,11 +478,12 @@
         "Arm Strength": 55,
         "Fielding": 80,
         "Error Resistance": 60,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Squibber", "Clutch", "Vs. Ace", "Easy Out", "Patient Hitter", "Cautious Stealing", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Azuma-394",
         "Name": "Shinpachi Azuma",
@@ -486,11 +502,12 @@
         "Arm Strength": 63,
         "Fielding": 82,
         "Error Resistance": 72,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing A", "Bunt Ace", "Squibber", "Low Hit", "Glover", "Morale", "Mood Swinger", "Slap Hitter", "Aggressive Fielder"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Azuma-326",
         "Name": "Suguru Azuma",
@@ -509,11 +526,12 @@
         "Arm Strength": 70,
         "Fielding": 58,
         "Error Resistance": 58,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Grit G", "Throwing B", "Recovery C", "High Hit", "Morale", "Star"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Ban-363",
         "Name": "Hanji Ban",
@@ -532,11 +550,12 @@
         "Arm Strength": 65,
         "Fielding": 70,
         "Error Resistance": 65,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Grit B", "Bullseye", "Slugger", "Rally", "Glover", "Easy Out"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Bando-391",
         "Name": "Choji Bando",
@@ -555,11 +574,12 @@
         "Arm Strength": 47,
         "Fielding": 37,
         "Error Resistance": 57,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Sprayer", "Slam Fan", "Menace", "Trucker", "Star", "Slugger", "Patient Htr"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Benitsuru-344",
         "Name": "Taito Benitsuru",
@@ -578,11 +598,12 @@
         "Arm Strength": 55,
         "Fielding": 65,
         "Error Resistance": 73,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch C", "Homer", "Slam Fan", "Victor"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Black-314",
         "Name": "Black",
@@ -601,11 +622,12 @@
         "Arm Strength": 55,
         "Fielding": 70,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Vs. LHP B", "Stealing B", "Recovery C", "Clinical", "Squibber", "Rally", "Slam Fan", "Victor"],
         "Top Speed": 120,
         "Control": 20,
         "Stamina": 20,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Charai-282",
         "Name": "Genki Charai",
@@ -624,11 +646,12 @@
         "Arm Strength": 51,
         "Fielding": 71,
         "Error Resistance": 51,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Hot Bat", "Mood Swinger", "Aggressive Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Chiga-318",
         "Name": "Atsushi Chiga",
@@ -647,11 +670,12 @@
         "Arm Strength": 64,
         "Fielding": 64,
         "Error Resistance": 55,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Rally", "Vs. Ace", "Victor", "Grounder", "Mood Swinger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Chiyohime-348",
         "Name": "Chiyohime",
@@ -670,11 +694,12 @@
         "Arm Strength": 45,
         "Fielding": 70,
         "Error Resistance": 70,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch A", "Recovery C", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Chouno-296",
         "Name": "Hanshiro Chouno",
@@ -693,23 +718,24 @@
         "Arm Strength": 51,
         "Fielding": 72,
         "Error Resistance": 18,
-        "Special Abilities": ["Handler", "Airball", "Unlucky", "Breaking Ball Pitcher", "Pace"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 135,
         "Control": 72,
         "Stamina": 54,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "KNCV",
-            "level": "3"
+            "level": 3
         }, {
             "id": "CIR",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SHU",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Handler", "Airball", "Unlucky", "Breaking Ball Pitcher", "Pace"]
     }, {
         "id": "D.Bonda-265",
         "Name": "Daisuke Bonda",
@@ -728,20 +754,21 @@
         "Arm Strength": 59,
         "Fielding": 30,
         "Error Resistance": 10,
-        "Special Abilities": ["Recovery C", "Trusty"],
+        "Special Abilities (Fielder)": ["Clutch B", "Squibber"],
         "Top Speed": 142,
         "Control": 60,
         "Stamina": 65,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "HSNK",
-            "level": "2"
+            "level": 2
         }, {
             "id": "FRK",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Trusty"]
     }, {
         "id": "D.Deita-470",
         "Name": "Daisuke Deita",
@@ -760,11 +787,12 @@
         "Arm Strength": 70,
         "Fielding": 80,
         "Error Resistance": 49,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Catcher A", "Slugger", "High Hit", "Menace", "Good Eye", "Slugger", "Patient Hitter", "Selfish"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "D.Wang-383",
         "Name": "Damai Wang",
@@ -783,11 +811,12 @@
         "Arm Strength": 75,
         "Fielding": 63,
         "Error Resistance": 42,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch A", "Stealing E", "Throwing E", "Clinical", "Hot Bat", "Slam Fan", "Insurer", "Aggressive Hitter", "Aggressive Stealing", "Aggressive Running", "Aggressive Fielding", "Selfish"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Daigogetsu-524",
         "Name": "Daigogetsu",
@@ -806,19 +835,21 @@
         "Arm Strength": 93,
         "Fielding": 47,
         "Error Resistance": 73,
-        "Special Abilities": ["Ironball", "Tyrant", "Bluffer", "Meatball"],
+        "Special Abilities (Fielder)": "Slugger",
         "Top Speed": 170,
         "Control": 35,
         "Stamina": 99,
         "Breaking Balls": [{
-            "id": "2SFB"
+            "id": "2SFB",
+            "level": null
         }, {
             "id": "HSHU",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SPL",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Ironball", "Tyrant", "Bluffer", "Meatball"]
     }, {
         "id": "Edogawa-347",
         "Name": "Bunraku Edogawa",
@@ -837,11 +868,12 @@
         "Arm Strength": 47,
         "Fielding": 67,
         "Error Resistance": 61,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Slugger", "Pull Hit", "Setter", "Rally", "Morale", "Slam Fan"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Ereki-349",
         "Name": "Teru Ereki",
@@ -860,20 +892,21 @@
         "Arm Strength": 62,
         "Fielding": 56,
         "Error Resistance": 56,
-        "Special Abilities": ["Cutter", "Insider"],
+        "Special Abilities (Fielder)": ["Clinical", "Squibber", "Clutch"],
         "Top Speed": 144,
         "Control": 60,
         "Stamina": 70,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "CB",
-            "level": "4"
+            "level": 4
         }, {
             "id": "SP Shootball 3",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Cutter", "Insider"]
     }, {
         "id": "F.Deita-382",
         "Name": "Fumito Deita",
@@ -892,20 +925,21 @@
         "Arm Strength": 68,
         "Fielding": 74,
         "Error Resistance": 60,
-        "Special Abilities": ["W/RISP B", "Heater B", "Cutter"],
+        "Special Abilities (Fielder)": ["Catcher B", "Heckler", "Clinical", "Sprayer", "Level-Headed", "Good Eye", "Star", "Slap Hitter", "Patient Hitter"],
         "Top Speed": 144,
         "Control": 68,
         "Stamina": 70,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "HSHU",
-            "level": "3"
+            "level": 3
         }, {
             "id": "CH",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Heater B", "Cutter"]
     }, {
         "id": "Fukami-311",
         "Name": "Kazuhito Fukami",
@@ -924,17 +958,18 @@
         "Arm Strength": 64,
         "Fielding": 30,
         "Error Resistance": 30,
-        "Special Abilities": ["Resolve", "Grit F", "Recovery C", "Cutter", "Ironball", "Tyrant", "Insider"],
+        "Special Abilities (Fielder)": "Throwing C",
         "Top Speed": 146,
         "Control": 45,
         "Stamina": 70,
         "Breaking Balls": [{
             "id": "HSHU",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CB",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Resolve", "Grit F", "Recovery C", "Cutter", "Ironball", "Tyrant", "Insider"]
     }, {
         "id": "Fukumizu-466",
         "Name": "Takeaki Fukumizu",
@@ -953,20 +988,21 @@
         "Arm Strength": 84,
         "Fielding": 60,
         "Error Resistance": 60,
-        "Special Abilities": ["Recovery C", "Cutter", "Ironball", "Reflexes", "Tyrant", "Power P"],
+        "Special Abilities (Fielder)": ["Good Eye", "Patient Hitter"],
         "Top Speed": 145,
         "Control": 70,
         "Stamina": 60,
         "Breaking Balls": [{
             "id": "CB",
-            "level": "2"
+            "level": 2
         }, {
             "id": "FRK",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SP Shootball 2",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Ironball", "Reflexes", "Tyrant", "Power P"]
     }, {
         "id": "Fukuya-413",
         "Name": "Hanao Fukuya",
@@ -985,11 +1021,12 @@
         "Arm Strength": 73,
         "Fielding": 57,
         "Error Resistance": 57,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Slugger", "Sprayer", "Rally", "Menace", "Star", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Furu-216",
         "Name": "Furu Heart",
@@ -1008,11 +1045,12 @@
         "Arm Strength": 30,
         "Fielding": 25,
         "Error Resistance": 30,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Slugger", "Victor", "Trucker", "Easy Out"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "G.Bhattarai-357",
         "Name": "Gyanendra Bhattarai",
@@ -1031,11 +1069,12 @@
         "Arm Strength": 55,
         "Fielding": 66,
         "Error Resistance": 22,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing A", "Push Hit", "Hot Bat", "Low Hit", "Diver", "Takeout", "Good Eye", "Slap Hitter", "Aggrssiv Stl", "Aggrssiv Fld"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Gaido-228",
         "Name": "Kyoji Gaido",
@@ -1054,11 +1093,12 @@
         "Arm Strength": 70,
         "Fielding": 46,
         "Error Resistance": 49,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch F", "Catcher E", "Throwing C", "Trucker"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Go-535",
         "Name": "Go",
@@ -1077,20 +1117,21 @@
         "Arm Strength": 75,
         "Fielding": 80,
         "Error Resistance": 70,
-        "Special Abilities": ["Dr. K", "Downplay"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 155,
         "Control": 84,
         "Stamina": 75,
         "Breaking Balls": [{
             "id": "SHU",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SNK",
-            "level": "2"
+            "level": 2
         }, {
             "id": "HSL",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Dr. K", "Downplay"]
     }, {
         "id": "Gunji-288",
         "Name": "Tomomasa Gunji",
@@ -1109,11 +1150,12 @@
         "Arm Strength": 71,
         "Fielding": 60,
         "Error Resistance": 60,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher C", "Recovery C", "Survivor", "Setter", "Clutch", "Good Eye", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Hagane-414",
         "Name": "Tsuyoshi Hagane",
@@ -1132,17 +1174,18 @@
         "Arm Strength": 64,
         "Fielding": 60,
         "Error Resistance": 55,
-        "Special Abilities": ["w/RISP B", "Heater B", "Recovery C", "Vs. Runner"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 146,
         "Control": 70,
         "Stamina": 95,
         "Breaking Balls": [{
             "id": "HSNK",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CB",
-            "level": "5"
-        }]
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": ["w/RISP B", "Heater B", "Recovery C", "Vs. Runner"]
     }, {
         "id": "Haitani-325",
         "Name": "Mitsuru Haitani",
@@ -1161,11 +1204,12 @@
         "Arm Strength": 81,
         "Fielding": 50,
         "Error Resistance": 30,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Runner B", "Slugger", "Laser", "Trucker"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Hakata-263",
         "Name": "Asune Hakata",
@@ -1184,19 +1228,21 @@
         "Arm Strength": 50,
         "Fielding": 21,
         "Error Resistance": 72,
-        "Special Abilities": ["W/RISP B", "Recovery C", "Cutter", "Toolkit"],
+        "Special Abilities (Fielder)": ["Survivor", "Squibber"],
         "Top Speed": 134,
         "Control": 70,
         "Stamina": 52,
         "Breaking Balls": [{
             "id": "CUT",
-            "level": "4"
+            "level": 4
         }, {
             "id": "SCV",
-            "level": "3"
+            "level": 3
         }, {
-            "id": "EP"
-        }]
+            "id": "EP",
+            "level": null
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Cutter", "Toolkit"]
     }, {
         "id": "Hakosaki-348",
         "Name": "Ken Hakosaki",
@@ -1215,11 +1261,12 @@
         "Arm Strength": 61,
         "Fielding": 60,
         "Error Resistance": 51,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Hot Bat", "Menace", "Good Eye", "Slugger", "Aggrssiv Htr"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Hamasaki-270",
         "Name": "Shoji Hamasaki",
@@ -1238,20 +1285,21 @@
         "Arm Strength": 61,
         "Fielding": 53,
         "Error Resistance": 53,
-        "Special Abilities": ["Recovery C", "Momentum", "Battler", "Unlucky", "Hot Head"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 143,
         "Control": 72,
         "Stamina": 55,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "FRK",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SHU",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Momentum", "Battler", "Unlucky", "Hot Head"]
     }, {
         "id": "Handa-313",
         "Name": "Kotetsu Handa",
@@ -1270,11 +1318,12 @@
         "Arm Strength": 46,
         "Fielding": 43,
         "Error Resistance": 43,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher E", "Throwing E", "Slugger", "Pinch", "Blocker", "Trucker", "Easy Out"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Hasami-179",
         "Name": "Shunichi Hasami",
@@ -1293,11 +1342,12 @@
         "Arm Strength": 56,
         "Fielding": 44,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Runner B", "Aggressive Running"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Hassyaku-265",
         "Name": "Fumiko Hassyaku",
@@ -1316,11 +1366,12 @@
         "Arm Strength": 60,
         "Fielding": 40,
         "Error Resistance": 20,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing F", "Runner F", "Throwing F", "Squibber", "Survivor", "Slugger", "Aggressive Hitter", "Aggressive Stealing", "Aggressive Fielding"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Hatsuno-265",
         "Name": "Ayumu Hatsuno",
@@ -1339,11 +1390,12 @@
         "Arm Strength": 55,
         "Fielding": 70,
         "Error Resistance": 75,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch G", "Throwing B", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Hayakawa-217",
         "Name": "Aoi Hayakawa",
@@ -1362,17 +1414,18 @@
         "Arm Strength": 51,
         "Fielding": 45,
         "Error Resistance": 40,
-        "Special Abilities": ["Toolkit", "Hot Head", "<span style=\"color:light blue\">Recovery C", "Breaking Ball P"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 135,
         "Control": 68,
         "Stamina": 41,
         "Breaking Balls": [{
             "id": "CB",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SP Sinker 1",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Toolkit", "Hot Head", "Recovery C", "Breaking Ball P"]
     }, {
         "id": "Hibikino-301",
         "Name": "Cocoro Hibikino",
@@ -1391,20 +1444,21 @@
         "Arm Strength": 67,
         "Fielding": 51,
         "Error Resistance": 47,
-        "Special Abilities": ["Poise A", "Recovery G", "Toolkit"],
+        "Special Abilities (Fielder)": ["Throwing B", "Rally", "Morale", "Slap Hitter", "Patient Hitter"],
         "Top Speed": 137,
         "Control": 67,
         "Stamina": 44,
         "Breaking Balls": [{
             "id": "CB",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SP Forkball 10",
-            "level": "4"
+            "level": 4
         }, {
             "id": "FRK",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Poise A", "Recovery G", "Toolkit"]
     }, {
         "id": "Hidou-304",
         "Name": "Hidou",
@@ -1423,11 +1477,12 @@
         "Arm Strength": 84,
         "Fielding": 37,
         "Error Resistance": 47,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Vs. LHP F", "Catcher B", "Easy Out", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Hisakata-378",
         "Name": "Rei Hisakata",
@@ -1446,17 +1501,18 @@
         "Arm Strength": 69,
         "Fielding": 75,
         "Error Resistance": 40,
-        "Special Abilities": "Recovery C",
+        "Special Abilities (Fielder)": null,
         "Top Speed": 150,
         "Control": 85,
         "Stamina": 75,
         "Breaking Balls": [{
             "id": "HSL",
-            "level": "4"
+            "level": 4
         }, {
             "id": "SPL",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": "Recovery C"
     }, {
         "id": "Hokuto-401",
         "Name": "Yakumo Hokuto",
@@ -1475,19 +1531,21 @@
         "Arm Strength": 68,
         "Fielding": 50,
         "Error Resistance": 30,
-        "Special Abilities": ["Heater B", "Recovery C", "Pace"],
+        "Special Abilities (Fielder)": "Throwing C",
         "Top Speed": 149,
         "Control": 80,
         "Stamina": 75,
         "Breaking Balls": [{
             "id": "CUT",
-            "level": "4"
+            "level": 4
         }, {
             "id": "FRK",
-            "level": "4"
+            "level": 4
         }, {
-            "id": "2SFB"
-        }]
+            "id": "2SFB",
+            "level": null
+        }],
+        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Pace"]
     }, {
         "id": "Honba-308",
         "Name": "Anko Honba",
@@ -1506,11 +1564,12 @@
         "Arm Strength": 45,
         "Fielding": 54,
         "Error Resistance": 54,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Recovery C", "Slugger", "Survivor", "High Hit"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Horisugi-367",
         "Name": "Hitoshi Horisugi",
@@ -1529,11 +1588,12 @@
         "Arm Strength": 77,
         "Fielding": 53,
         "Error Resistance": 53,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Grit B", "Rally", "Menace", "Slugger", "Aggressive Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Horusrun-398",
         "Name": "Horusrun",
@@ -1552,19 +1612,21 @@
         "Arm Strength": 68,
         "Fielding": 41,
         "Error Resistance": 50,
-        "Special Abilities": ["W/RISP B", "Poise B", "Heater B", "Ironball", "Tyrant", "Chill", "Star"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 150,
         "Control": 66,
         "Stamina": 73,
         "Breaking Balls": [{
-            "id": "EP"
+            "id": "EP",
+            "level": null
         }, {
             "id": "CUT",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SP Sinker 4",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Poise B", "Heater B", "Ironball", "Tyrant", "Chill", "Star"]
     }, {
         "id": "Hoshii-329",
         "Name": "Subaru Hoshii",
@@ -1583,20 +1645,21 @@
         "Arm Strength": 62,
         "Fielding": 60,
         "Error Resistance": 45,
-        "Special Abilities": ["W/RISP F", "Recovery C", "Trusty", "Momentum"],
+        "Special Abilities (Fielder)": ["Throwing C", "Sprayer", "High Hit"],
         "Top Speed": 144,
         "Control": 65,
         "Stamina": 65,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SNK",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SP Forkball 4",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["W/RISP F", "Recovery C", "Trusty", "Momentum"]
     }, {
         "id": "Hoshizora-353",
         "Name": "Hoshimitsu Hoshizora",
@@ -1615,11 +1678,12 @@
         "Arm Strength": 75,
         "Fielding": 70,
         "Error Resistance": 45,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher B", "Clinical", "Insider", "Star"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Ichinose-418",
         "Name": "Touya Ichinose",
@@ -1638,23 +1702,24 @@
         "Arm Strength": 59,
         "Fielding": 60,
         "Error Resistance": 60,
-        "Special Abilities": ["Recovery C", "Tyrant", "Chill", "Breaking Ball P"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 142,
         "Control": 90,
         "Stamina": 65,
         "Breaking Balls": [{
             "id": "SHU",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SCR",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CB",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SL",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Tyrant", "Chill", "Breaking Ball P"]
     }, {
         "id": "Ichou-294",
         "Name": "Rikimaru Ichou",
@@ -1673,11 +1738,12 @@
         "Arm Strength": 66,
         "Fielding": 32,
         "Error Resistance": 54,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing E", "Slugger", "Trucker", "Hotshot", "Easy Out", "Mood Swinger", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Igarashi-281",
         "Name": "Gonzo Igarashi",
@@ -1696,11 +1762,12 @@
         "Arm Strength": 90,
         "Fielding": 55,
         "Error Resistance": 10,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing F", "Rally", "Easy Out", "Blunder", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Inada-298",
         "Name": "Gosaku Inada",
@@ -1719,11 +1786,12 @@
         "Arm Strength": 68,
         "Fielding": 51,
         "Error Resistance": 42,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": "Mood Swinger",
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Inukawa-316",
         "Name": "Kazune Inukawa",
@@ -1742,20 +1810,21 @@
         "Arm Strength": 52,
         "Fielding": 56,
         "Error Resistance": 60,
-        "Special Abilities": ["Poise F", "Recovery C", "Bluffer", "Downplay", "Pace"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 136,
         "Control": 80,
         "Stamina": 72,
         "Breaking Balls": [{
             "id": "HSHU",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SNK",
-            "level": "4"
+            "level": 4
         }, {
             "id": "FRK",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Poise F", "Recovery C", "Bluffer", "Downplay", "Pace"]
     }, {
         "id": "Isamura-390",
         "Name": "Takeshi Isamura",
@@ -1774,20 +1843,21 @@
         "Arm Strength": 65,
         "Fielding": 50,
         "Error Resistance": 55,
-        "Special Abilities": ["Poise B", "Tyrant", "Low Ball", "Chill", "Pace"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 147,
         "Control": 84,
         "Stamina": 65,
         "Breaking Balls": [{
             "id": "FRK",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CB",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SNK",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Poise B", "Tyrant", "Low Ball", "Chill", "Pace"]
     }, {
         "id": "Iseki-388",
         "Name": "Tansaku Iseki",
@@ -1806,11 +1876,12 @@
         "Arm Strength": 65,
         "Fielding": 82,
         "Error Resistance": 91,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher C", "Throwing B", "Clinical", "Survivor", "Glover", "Breaker"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Ishino-179",
         "Name": "Masao Ishino",
@@ -1829,11 +1900,12 @@
         "Arm Strength": 55,
         "Fielding": 45,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Runner B", "Aggressive Running"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Itto-370",
         "Name": "Sho Itto",
@@ -1852,11 +1924,12 @@
         "Arm Strength": 62,
         "Fielding": 62,
         "Error Resistance": 51,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Gambler", "Clinical", "Push Hit", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Iwai-302",
         "Name": "Koukichi Iwai",
@@ -1875,11 +1948,12 @@
         "Arm Strength": 70,
         "Fielding": 70,
         "Error Resistance": 80,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing C", "Clutch", "Good Eye", "Patient Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Izayoi-451",
         "Name": "Mitsuru Izayoi",
@@ -1898,11 +1972,12 @@
         "Arm Strength": 60,
         "Fielding": 90,
         "Error Resistance": 74,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing A", "Joker", "Clinical", "Survivor", "Glover", "Line Drive", "Revenge"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Izayoi-373",
         "Name": "Luna Izayoi",
@@ -1921,17 +1996,18 @@
         "Arm Strength": 70,
         "Fielding": 64,
         "Error Resistance": 67,
-        "Special Abilities": ["Recovery C", "Gyroball", "Reflexes", "Guts", "Pace"],
+        "Special Abilities (Fielder)": "Morale",
         "Top Speed": 140,
         "Control": 72,
         "Stamina": 68,
         "Breaking Balls": [{
             "id": "SHU",
-            "level": "3"
+            "level": 3
         }, {
             "id": "12CV",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Gyroball", "Reflexes", "Guts", "Pace"]
     }, {
         "id": "Jinguji-277",
         "Name": "Hikaru Jinguji",
@@ -1950,11 +2026,12 @@
         "Arm Strength": 36,
         "Fielding": 65,
         "Error Resistance": 55,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clinical", "Mood Swinger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Jitsu-300",
         "Name": "Kazuo Jitsu",
@@ -1973,11 +2050,12 @@
         "Arm Strength": 59,
         "Fielding": 46,
         "Error Resistance": 42,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clinical", "Survivor", "Aggressive Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Julius-368",
         "Name": "Julius Tenoro",
@@ -1996,17 +2074,18 @@
         "Arm Strength": 58,
         "Fielding": 72,
         "Error Resistance": 59,
-        "Special Abilities": ["Low Ball", "Toolkit", "Star", "Pace"],
+        "Special Abilities (Fielder)": ["Clutch B", "Throwing B", "Blunder"],
         "Top Speed": 138,
         "Control": 44,
         "Stamina": 68,
         "Breaking Balls": [{
             "id": "SPL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "CH",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Low Ball", "Toolkit", "Star", "Pace"]
     }, {
         "id": "Junketsu-451",
         "Name": "Taro Junketsu",
@@ -2025,19 +2104,21 @@
         "Arm Strength": 70,
         "Fielding": 46,
         "Error Resistance": 28,
-        "Special Abilities": ["Heater A", "Agile F", "Recovery C", "Ironball", "Guts"],
+        "Special Abilities (Fielder)": ["Pull Hit", "Trucker"],
         "Top Speed": 151,
         "Control": 41,
         "Stamina": 56,
         "Breaking Balls": [{
-            "id": "2SFB"
+            "id": "2SFB",
+            "level": null
         }, {
             "id": "VSL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SCV",
-            "level": "7"
-        }]
+            "level": 7
+        }],
+        "Special Abilities (Pitching)": ["Heater A", "Agile F", "Recovery C", "Ironball", "Guts"]
     }, {
         "id": "Kagami-404",
         "Name": "Kuuya Kagami",
@@ -2056,11 +2137,12 @@
         "Arm Strength": 70,
         "Fielding": 80,
         "Error Resistance": 70,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch G", "Stealing B", "Throwing A", "Slugger", "Sprayer", "Rally Laster", "Chaser"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kagayaki-344",
         "Name": "Seiya Kagayaki",
@@ -2079,11 +2161,12 @@
         "Arm Strength": 70,
         "Fielding": 70,
         "Error Resistance": 65,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Easy Out", "Blunder"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kagurazaka-487",
         "Name": "Mitsuhiko Kagurazaka",
@@ -2102,23 +2185,24 @@
         "Arm Strength": 73,
         "Fielding": 57,
         "Error Resistance": 53,
-        "Special Abilities": ["Poise B", "Recovery C"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 153,
         "Control": 71,
         "Stamina": 77,
         "Breaking Balls": [{
             "id": "CB",
-            "level": "7"
+            "level": 7
         }, {
             "id": "SL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SHU",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SCR",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Poise B", "Recovery C"]
     }, {
         "id": "Kamase-234",
         "Name": "Touma Kamase",
@@ -2137,17 +2221,18 @@
         "Arm Strength": 60,
         "Fielding": 50,
         "Error Resistance": 33,
-        "Special Abilities": ["Poise A", "Heater E", "Downplay", "Choker", "Unlucky"],
+        "Special Abilities (Fielder)": ["Clutch F", "Blunder", "Grounder"],
         "Top Speed": 144,
         "Control": 55,
         "Stamina": 60,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "FRK",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Poise A", "Heater E", "Downplay", "Choker", "Unlucky"]
     }, {
         "id": "Kamitaka-388",
         "Name": "Ryu Kamitaka",
@@ -2166,17 +2251,18 @@
         "Arm Strength": 69,
         "Fielding": 77,
         "Error Resistance": 77,
-        "Special Abilities": ["Recovery C", "Dr. K", "Low Ball", "Downplay", "Choker"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 150,
         "Control": 71,
         "Stamina": 74,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "6"
+            "level": 6
         }, {
             "id": "CB",
-            "level": "5"
-        }]
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Dr. K", "Low Ball", "Downplay", "Choker"]
     }, {
         "id": "Kamiyama-168",
         "Name": "Kaname Kamiyama",
@@ -2195,11 +2281,12 @@
         "Arm Strength": 55,
         "Fielding": 44,
         "Error Resistance": 51,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher E", "Runner B", "Aggressive Runner"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kanehara-372",
         "Name": "Izuru Kanehara",
@@ -2218,11 +2305,12 @@
         "Arm Strength": 60,
         "Fielding": 50,
         "Error Resistance": 40,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing B", "Runner B", "Clinical", "Squibber", "Setter", "Good Eye", "Aggressive Stealing", "Aggrexxive Running", "Aggressive Fielding"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Karuizawa-261",
         "Name": "Daiki Karuizawa",
@@ -2241,11 +2329,12 @@
         "Arm Strength": 55,
         "Fielding": 55,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing B", "Runner B", "Aggressive Runner"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Katakura-245",
         "Name": "Masayuki Katakura",
@@ -2264,11 +2353,12 @@
         "Arm Strength": 60,
         "Fielding": 55,
         "Error Resistance": 40,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Push Hit", "Slap Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kawahoshi-258",
         "Name": "Homura Kawahoshi",
@@ -2287,11 +2377,12 @@
         "Arm Strength": 47,
         "Fielding": 58,
         "Error Resistance": 55,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch A", "Throwing E", "Hot Bat", "Squibber", "Refined", "Morale", "Clutch", "Trucker", "Diver", "Aggressive Fielding"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kiba-385",
         "Name": "Arashi Kiba",
@@ -2310,22 +2401,24 @@
         "Arm Strength": 71,
         "Fielding": 60,
         "Error Resistance": 60,
-        "Special Abilities": ["Heater A", "Recovery C", "Gyroball", "Ironball", "Crossfire", "Power P"],
+        "Special Abilities (Fielder)": ["Clutch A", "Throwing C", "Slugger", "Good Eye", "Slugger"],
         "Top Speed": 152,
         "Control": 60,
         "Stamina": 70,
         "Breaking Balls": [{
             "id": "HSL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "CB",
-            "level": "3"
+            "level": 3
         }, {
             "id": "FRK",
-            "level": "3"
+            "level": 3
         }, {
-            "id": "SP Fastball 3"
-        }]
+            "id": "SP Fastball 3",
+            "level": null
+        }],
+        "Special Abilities (Pitching)": ["Heater A", "Recovery C", "Gyroball", "Ironball", "Crossfire", "Power P"]
     }, {
         "id": "Kino-372",
         "Name": "Kouichi Kino",
@@ -2344,25 +2437,27 @@
         "Arm Strength": 59,
         "Fielding": 60,
         "Error Resistance": 50,
-        "Special Abilities": ["Recovery C", "Cutter", "Handler", "Downplay", "Breaking Ball Pitcher", "Pace"],
+        "Special Abilities (Fielder)": "Aggressive Fielding",
         "Top Speed": 142,
         "Control": 70,
         "Stamina": 70,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "CB",
-            "level": "3"
+            "level": 3
         }, {
             "id": "FRK",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SNK",
-            "level": "3"
+            "level": 3
         }, {
-            "id": "MFB"
-        }]
+            "id": "MFB",
+            "level": null
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Handler", "Downplay", "Breaking Ball Pitcher", "Pace"]
     }, {
         "id": "Kiriki-294",
         "Name": "Tsuyoshi Kiriki",
@@ -2381,11 +2476,12 @@
         "Arm Strength": 73,
         "Fielding": 41,
         "Error Resistance": 40,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher F", "Grit A", "Throwing E", "Slugger", "Easy Out", "Mood Swinger", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kodaira-318",
         "Name": "Hinata Kodaira",
@@ -2404,11 +2500,12 @@
         "Arm Strength": 60,
         "Fielding": 65,
         "Error Resistance": 60,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Runner B", "Throwing C", "Clinical", "Push Hit", "Squibber", "Aggressive Fielder"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kodaka-307",
         "Name": "Mirei Kodaka",
@@ -2427,11 +2524,12 @@
         "Arm Strength": 56,
         "Fielding": 65,
         "Error Resistance": 65,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Catcher B", "Bunt Ace", "Rally", "Clutch", "Vs. Ace", "Aggressive Fielding"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kogarashi-254",
         "Name": "Ryo Kogarashi",
@@ -2450,11 +2548,12 @@
         "Arm Strength": 45,
         "Fielding": 72,
         "Error Resistance": 10,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Runner B", "Bunt Ace", "Glover", "Slap Hitter", "Aggrssiv Htr", "Aggrssiv Run", "Aggrssiv Fld"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kogarashi-238",
         "Name": "Kabuki Kogarashi",
@@ -2473,11 +2572,12 @@
         "Arm Strength": 66,
         "Fielding": 71,
         "Error Resistance": 65,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher C", "Bunt Ace", "Refined"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kohmoto-269",
         "Name": "Fukuo Kohmoto",
@@ -2496,11 +2596,12 @@
         "Arm Strength": 68,
         "Fielding": 62,
         "Error Resistance": 45,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Catcher B", "Throwing E"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kuon-290",
         "Name": "Hikaru Kuon",
@@ -2519,20 +2620,21 @@
         "Arm Strength": 67,
         "Fielding": 47,
         "Error Resistance": 53,
-        "Special Abilities": ["W/RISP F", "Poise F", "Recovery C", "Airball", "Breaking Ball P"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 148,
         "Control": 68,
         "Stamina": 65,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "5"
+            "level": 5
         }, {
             "id": "HSHU",
-            "level": "1"
+            "level": 1
         }, {
             "id": "CB",
-            "level": "1"
-        }]
+            "level": 1
+        }],
+        "Special Abilities (Pitching)": ["W/RISP F", "Poise F", "Recovery C", "Airball", "Breaking Ball P"]
     }, {
         "id": "Kuragari-289",
         "Name": "Hitoshi Kuragari",
@@ -2551,11 +2653,12 @@
         "Arm Strength": 50,
         "Fielding": 60,
         "Error Resistance": 89,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher G", "Stealing C", "Survivor", "Diver"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kurama-453",
         "Name": "Takafumi Kurama",
@@ -2574,17 +2677,18 @@
         "Arm Strength": 85,
         "Fielding": 60,
         "Error Resistance": 50,
-        "Special Abilities": ["Heater A", "Recovery C", "Battler", "Guts", "Power P"],
+        "Special Abilities (Fielder)": ["Good Eye", "Patient Hitter", "Aggressive Stealing", "Aggressive Fielding"],
         "Top Speed": 149,
         "Control": 55,
         "Stamina": 70,
         "Breaking Balls": [{
             "id": "SP Slider 2",
-            "level": "5"
+            "level": 5
         }, {
             "id": "KN",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Heater A", "Recovery C", "Battler", "Guts", "Power P"]
     }, {
         "id": "Kureba-423",
         "Name": "Eiji Kureba",
@@ -2603,17 +2707,18 @@
         "Arm Strength": 68,
         "Fielding": 60,
         "Error Resistance": 55,
-        "Special Abilities": ["w/RISP A", "Recovery C", "Dr. K", "Crossfire", "Low Ball"],
+        "Special Abilities (Fielder)": ["Stealing A", "Throwing A", "Aggressive FLD", "Selfless"],
         "Top Speed": 149,
         "Control": 87,
         "Stamina": 55,
         "Breaking Balls": [{
             "id": "FRK",
-            "level": "5"
+            "level": 5
         }, {
             "id": "SCV",
-            "level": "7"
-        }]
+            "level": 7
+        }],
+        "Special Abilities (Pitching)": ["w/RISP A", "Recovery C", "Dr. K", "Crossfire", "Low Ball"]
     }, {
         "id": "Kusano-332",
         "Name": "Kentaro Kusano",
@@ -2632,11 +2737,12 @@
         "Arm Strength": 70,
         "Fielding": 70,
         "Error Resistance": 20,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch F", "Slugger", "Pull Hit", "High Hit", "Easy Out", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Kyushu-489",
         "Name": "Kyushu",
@@ -2655,11 +2761,12 @@
         "Arm Strength": 86,
         "Fielding": 81,
         "Error Resistance": 82,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clinical", "Slam Fan", "Blocker"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "L.Tsukami-404",
         "Name": "Lifter Tsukami",
@@ -2678,11 +2785,12 @@
         "Arm Strength": 90,
         "Fielding": 48,
         "Error Resistance": 40,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Grit S", "Recovery C", "Homer", "Tanker", "Pull Hit", "Fanned", "Slugger", "Aggressive Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Lee-271",
         "Name": "Bronko Lee",
@@ -2701,11 +2809,12 @@
         "Arm Strength": 55,
         "Fielding": 65,
         "Error Resistance": 38,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Grit B", "Runner F", "Push Hit", "Survivor", "Clutch", "Mood Swinger", "Slap Hitter", "Aggressive Stealing", "Aggressive Running", "Aggressive Fielding", "Selfish"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Lockhart-332",
         "Name": "Alvin Lockhart",
@@ -2724,20 +2833,21 @@
         "Arm Strength": 67,
         "Fielding": 63,
         "Error Resistance": 61,
-        "Special Abilities": ["Heater B", "Recovery C", "Vs. Slugger", "Downplay"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 148,
         "Control": 58,
         "Stamina": 78,
         "Breaking Balls": [{
             "id": "CUT",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SLV",
-            "level": "1"
+            "level": 1
         }, {
             "id": "SP Forkball 2",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Vs. Slugger", "Downplay"]
     }, {
         "id": "M.Christine-379",
         "Name": "Maximum Christine",
@@ -2756,11 +2866,12 @@
         "Arm Strength": 63,
         "Fielding": 33,
         "Error Resistance": 44,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Throwing E", "Slugger", "Pull Hit", "Menace", "Trucker", "Slugger", "Aggressive Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "M.Ikari-466",
         "Name": "Mamoru Ikari",
@@ -2779,22 +2890,24 @@
         "Arm Strength": 68,
         "Fielding": 65,
         "Error Resistance": 65,
-        "Special Abilities": ["W/RISP B", "Handler", "Recovery C", " Chill", "Power P", "Star"],
+        "Special Abilities (Fielder)": ["Slugger", "Slugger"],
         "Top Speed": 149,
         "Control": 82,
         "Stamina": 78,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CB",
-            "level": "4"
+            "level": 4
         }, {
             "id": "FRK",
-            "level": "4"
+            "level": 4
         }, {
-            "id": "SP Fastball 1"
-        }]
+            "id": "SP Fastball 1",
+            "level": null
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Handler", "Recovery C", " Chill", "Power P", "Star"]
     }, {
         "id": "M.Vermillion-292",
         "Name": "Mickey Vermillion",
@@ -2813,11 +2926,12 @@
         "Arm Strength": 60,
         "Fielding": 62,
         "Error Resistance": 60,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing B", "Runner B", "Diver"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Makita-339",
         "Name": "Makito Makita",
@@ -2836,11 +2950,12 @@
         "Arm Strength": 71,
         "Fielding": 62,
         "Error Resistance": 56,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher A", "Grit C", "Throwing C", "Legend", "Pull Hit", "Survivor", "Low Hit", "Diver", "Laser", "Good Eye", "Aggressive Hitter", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Marumochi-217",
         "Name": "Futoshi Marumochi",
@@ -2859,17 +2974,18 @@
         "Arm Strength": 65,
         "Fielding": 35,
         "Error Resistance": 35,
-        "Special Abilities": ["W/RISP F", "Vs. LHB F", "Recovery G", "Battler"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 151,
         "Control": 10,
         "Stamina": 70,
         "Breaking Balls": [{
             "id": "CB",
-            "level": "1"
+            "level": 1
         }, {
             "id": "CH",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["W/RISP F", "Vs. LHB F", "Recovery G", "Battler"]
     }, {
         "id": "Matsukura-305",
         "Name": "Munemitsu Matsukura",
@@ -2888,17 +3004,18 @@
         "Arm Strength": 63,
         "Fielding": 47,
         "Error Resistance": 46,
-        "Special Abilities": ["Recovery C", "Vs. Slugger", "Hot Head"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 145,
         "Control": 65,
         "Stamina": 75,
         "Breaking Balls": [{
             "id": "CB",
-            "level": "4"
+            "level": 4
         }, {
             "id": "FRK",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Vs. Slugger", "Hot Head"]
     }, {
         "id": "Matsuzaki-284",
         "Name": "Tomio Matsuzaki",
@@ -2917,14 +3034,15 @@
         "Arm Strength": 73,
         "Fielding": 15,
         "Error Resistance": 10,
-        "Special Abilities": ["Heater B", "Recovery C", "Ironball", "Trusty", "Power Pitcher"],
+        "Special Abilities (Fielder)": "Throwing F",
         "Top Speed": 153,
         "Control": 33,
         "Stamina": 70,
         "Breaking Balls": [{
             "id": "CB",
-            "level": "5"
-        }]
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Ironball", "Trusty", "Power Pitcher"]
     }, {
         "id": "Misono-255",
         "Name": "Chika Misono",
@@ -2943,11 +3061,12 @@
         "Arm Strength": 65,
         "Fielding": 60,
         "Error Resistance": 40,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher B", "Throwing C", "Clutch", "Good Eye", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Mizudori-309",
         "Name": "Shinobu Mizudori",
@@ -2966,11 +3085,12 @@
         "Arm Strength": 68,
         "Fielding": 70,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Vs. LHP B", "Catcher B", "Throwing A", "Mood Swinger", "Good Eye", "Patient Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Mizuki-218",
         "Name": "Suguru Mizuki",
@@ -2989,11 +3109,12 @@
         "Arm Strength": 55,
         "Fielding": 55,
         "Error Resistance": 15,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Vs. LHP C", "Stealing C", "Throwing B", "Slam Fan"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Mizuno-350",
         "Name": "Mataro Mizuno",
@@ -3012,22 +3133,24 @@
         "Arm Strength": 62,
         "Fielding": 40,
         "Error Resistance": 20,
-        "Special Abilities": ["Cutter", "Dr.K", "Downplay", "Airball", "Choker Recovery C", "Breaking Ball P"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 144,
         "Control": 80,
         "Stamina": 35,
         "Breaking Balls": [{
-            "id": "MFB"
+            "id": "MFB",
+            "level": null
         }, {
             "id": "CB",
-            "level": "4"
+            "level": 4
         }, {
             "id": "SCR",
-            "level": "4"
+            "level": 4
         }, {
             "id": "KN",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Cutter", "Dr.K", "Downplay", "Airball", "Choker Recovery C", "Breaking Ball P"]
     }, {
         "id": "Moroi-291",
         "Name": "Kiyokazu Moroi",
@@ -3046,11 +3169,12 @@
         "Arm Strength": 50,
         "Fielding": 67,
         "Error Resistance": 60,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Grit G", "Runner A", "Push Hit", "Squibber", "Setter", "Rally", "Clutch", "Good Eye", "Aggressive Running"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Murasame-398",
         "Name": "Murasame",
@@ -3069,11 +3193,12 @@
         "Arm Strength": 92,
         "Fielding": 90,
         "Error Resistance": 86,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing B", "Laser", "Glover"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Mushika-324",
         "Name": "Riku Mushika",
@@ -3092,11 +3217,12 @@
         "Arm Strength": 66,
         "Fielding": 66,
         "Error Resistance": 66,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch G", "Grit A", "Throwing C", "Rally", "Blunder"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "N.Yumeshiro-353",
         "Name": "Nodoka Yumeshiro",
@@ -3115,11 +3241,12 @@
         "Arm Strength": 70,
         "Fielding": 65,
         "Error Resistance": 82,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clinical", "Level-Headed", "Good Eye", "Selfless"],
         "Top Speed": 130,
         "Control": 85,
         "Stamina": 70,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Nagase-234",
         "Name": "Taiga Nagase",
@@ -3138,11 +3265,12 @@
         "Arm Strength": 65,
         "Fielding": 68,
         "Error Resistance": 65,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch F", "Catcher C", "Grit F", "Blunder", "Good Eye", "Slap Hitter", "Patient Hitter", "Aggressive Fielder", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Naito-392",
         "Name": "Meiru Naito",
@@ -3161,11 +3289,12 @@
         "Arm Strength": 90,
         "Fielding": 50,
         "Error Resistance": 60,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Slugger", "Morale"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Nakai-321",
         "Name": "Santa Nakai",
@@ -3184,11 +3313,12 @@
         "Arm Strength": 45,
         "Fielding": 70,
         "Error Resistance": 30,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing E", "Slugger", "Trucker", "Blunder", "Slugger", "Patient Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Namaki-264",
         "Name": "Morio Namaki",
@@ -3207,11 +3337,12 @@
         "Arm Strength": 53,
         "Fielding": 59,
         "Error Resistance": 58,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing B", "Runner B", "Squibber", "Aggressive Stealing"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Nanai-337",
         "Name": "Aleft Nanai",
@@ -3230,11 +3361,12 @@
         "Arm Strength": 42,
         "Fielding": 42,
         "Error Resistance": 47,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Slugger", "Sprayer", "Rally"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Narumi-364",
         "Name": "Yuuto Narumi",
@@ -3253,20 +3385,21 @@
         "Arm Strength": 62,
         "Fielding": 68,
         "Error Resistance": 72,
-        "Special Abilities": ["Cutter", "Pickoff", "Lucky", "Pace"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 145,
         "Control": 75,
         "Stamina": 71,
         "Breaking Balls": [{
             "id": "CUT",
-            "level": "2"
+            "level": 2
         }, {
             "id": "CB",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SP Forkball 7",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Cutter", "Pickoff", "Lucky", "Pace"]
     }, {
         "id": "Natsuno-252",
         "Name": "Himawari Natsuno",
@@ -3285,17 +3418,18 @@
         "Arm Strength": 60,
         "Fielding": 60,
         "Error Resistance": 55,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Low Hit", "Clutch", "Aggrssiv Fld"],
         "Top Speed": 132,
         "Control": 55,
         "Stamina": 25,
         "Breaking Balls": [{
             "id": "CIR",
-            "level": "2"
+            "level": 2
         }, {
             "id": "12CV",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Nekogami-296",
         "Name": "Yuu Nekogami",
@@ -3314,11 +3448,12 @@
         "Arm Strength": 53,
         "Fielding": 56,
         "Error Resistance": 66,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher C", "Stealing B", "Runner B", "Throwing G", "Morale", "Diver", "Mood Swinger", "Aggressive Stealing"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Niijima-262",
         "Name": "Saki Niijima",
@@ -3337,11 +3472,12 @@
         "Arm Strength": 58,
         "Fielding": 61,
         "Error Resistance": 70,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher B", "Setter", "Clutch"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Niijima-259",
         "Name": "Saki Niijima",
@@ -3360,11 +3496,12 @@
         "Arm Strength": 53,
         "Fielding": 61,
         "Error Resistance": 55,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Setter", "Clutch", "Insider"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Ninomiya-360",
         "Name": "Mizuho Ninomiya",
@@ -3383,11 +3520,12 @@
         "Arm Strength": 80,
         "Fielding": 65,
         "Error Resistance": 35,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher C", "Clinical", "Blocker", "Mood Swinger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Nisepuro-186",
         "Name": "Nisepuro",
@@ -3406,11 +3544,12 @@
         "Arm Strength": 50,
         "Fielding": 60,
         "Error Resistance": 25,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": null,
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Nomi-287",
         "Name": "Shinzo Nomi",
@@ -3429,11 +3568,12 @@
         "Arm Strength": 50,
         "Fielding": 70,
         "Error Resistance": 30,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch G", "Runner B", "Clinical", "Push Hit", "Setter", "Rally", "Refined", "Clutch", "Aggrssiv Run"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Nubis-341",
         "Name": "Nubis",
@@ -3452,11 +3592,12 @@
         "Arm Strength": 85,
         "Fielding": 34,
         "Error Resistance": 34,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Tanker", "Slugger", "Easy Out"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Nyaptet-284",
         "Name": "Nyaptet",
@@ -3475,11 +3616,12 @@
         "Arm Strength": 52,
         "Fielding": 68,
         "Error Resistance": 52,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing B", "Runner B", "Throwing F", "Squibber", "Jester", "Diver", "Aggrssiv Stl", "Aggrssiv Run"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Octavia-414",
         "Name": "Octavia",
@@ -3498,26 +3640,27 @@
         "Arm Strength": 78,
         "Fielding": 88,
         "Error Resistance": 88,
-        "Special Abilities": ["Recovery C", "Cutter", "Trusty", "Lucky", "Tyrant"],
+        "Special Abilities (Fielder)": ["Throwing C", "Clinical", "Push Hit"],
         "Top Speed": 143,
         "Control": 88,
         "Stamina": 68,
         "Breaking Balls": [{
             "id": "HSL",
-            "level": "1"
+            "level": 1
         }, {
             "id": "SLV",
-            "level": "1"
+            "level": 1
         }, {
             "id": "SNK",
-            "level": "1"
+            "level": 1
         }, {
             "id": "SHU",
-            "level": "1"
+            "level": 1
         }, {
             "id": "SP Forkball 9",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Trusty", "Lucky", "Tyrant"]
     }, {
         "id": "Oda-333",
         "Name": "Maito Oda",
@@ -3536,20 +3679,21 @@
         "Arm Strength": 82,
         "Fielding": 20,
         "Error Resistance": 57,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Homer", "Sprayer", "Aggrssiv Fld"],
         "Top Speed": 152,
         "Control": 50,
         "Stamina": 99,
         "Breaking Balls": [{
             "id": "CIR",
-            "level": "5"
+            "level": 5
         }, {
             "id": "SPL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "12CV",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Ogane-296",
         "Name": "Mochitaro Ogane",
@@ -3568,11 +3712,12 @@
         "Arm Strength": 62,
         "Fielding": 62,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher F", "Throwing E", "Survivor", "Eager", "High Hit", "Aggressive Fielding"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Okino-370",
         "Name": "Kairi Okino",
@@ -3591,11 +3736,12 @@
         "Arm Strength": 75,
         "Fielding": 52,
         "Error Resistance": 60,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing C", "Slugger", "Refined", "Laser", "Easy Out", "Good Eye", "Patient Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "One-353",
         "Name": "Eight One",
@@ -3614,17 +3760,18 @@
         "Arm Strength": 68,
         "Fielding": 50,
         "Error Resistance": 50,
-        "Special Abilities": ["Heater A", "Agile B", "Recovery C", "Ironball", "Battler", "Toolkit", "Chill", "Power P"],
+        "Special Abilities (Fielder)": ["Throwing C", "Slugger", "Slugger"],
         "Top Speed": 149,
         "Control": 65,
         "Stamina": 65,
         "Breaking Balls": [{
             "id": "CB",
-            "level": "5"
+            "level": 5
         }, {
             "id": "SCR",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Heater A", "Agile B", "Recovery C", "Ironball", "Battler", "Toolkit", "Chill", "Power P"]
     }, {
         "id": "Onishi-447",
         "Name": "Harrison Onishi",
@@ -3643,23 +3790,24 @@
         "Arm Strength": 70,
         "Fielding": 60,
         "Error Resistance": 60,
-        "Special Abilities": ["Bullett", "Recovery C", "Bluffer", "Chill", "Power Pitcher"],
+        "Special Abilities (Fielder)": "Throwing C",
         "Top Speed": 151,
         "Control": 25,
         "Stamina": 85,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CB",
-            "level": "4"
+            "level": 4
         }, {
             "id": "FRK",
-            "level": "4"
+            "level": 4
         }, {
             "id": "SCR",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Bullett", "Recovery C", "Bluffer", "Chill", "Power Pitcher"]
     }, {
         "id": "Onishi-432",
         "Name": "Harrison Onishi",
@@ -3678,23 +3826,24 @@
         "Arm Strength": 70,
         "Fielding": 60,
         "Error Resistance": 60,
-        "Special Abilities": ["Recovery C", "Bluffer", "Chill", "Power P"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 151,
         "Control": 25,
         "Stamina": 85,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CB",
-            "level": "4"
+            "level": 4
         }, {
             "id": "FRK",
-            "level": "4"
+            "level": 4
         }, {
             "id": "SCR",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Bluffer", "Chill", "Power P"]
     }, {
         "id": "Otakara-287",
         "Name": "Kintaro Otakara",
@@ -3713,11 +3862,12 @@
         "Arm Strength": 71,
         "Fielding": 52,
         "Error Resistance": 40,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["High Hit", "Laser", "Slugger", "Aggressive Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Oto-295",
         "Name": "Ruka Oto",
@@ -3736,11 +3886,12 @@
         "Arm Strength": 60,
         "Fielding": 75,
         "Error Resistance": 64,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher C", "Heckler", "Clutch", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Otome-401",
         "Name": "Otome",
@@ -3759,20 +3910,21 @@
         "Arm Strength": 75,
         "Fielding": 65,
         "Error Resistance": 62,
-        "Special Abilities": ["w/RISP", "Recovery C", "Momentum", "Lucky"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 155,
         "Control": 56,
         "Stamina": 88,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SHU",
-            "level": "2"
+            "level": 2
         }, {
             "id": "FRK",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["w/RISP", "Recovery C", "Momentum", "Lucky"]
     }, {
         "id": "Oume-347",
         "Name": "Tamio Oume",
@@ -3791,11 +3943,12 @@
         "Arm Strength": 69,
         "Fielding": 70,
         "Error Resistance": 60,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch G", "vs LHP C", "Throwing C", "Slammer", "Clinical", "Survivor", "Buzzkill"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Oyama-309",
         "Name": "Miyabi Oyama",
@@ -3814,11 +3967,12 @@
         "Arm Strength": 52,
         "Fielding": 78,
         "Error Resistance": 90,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Victor", "Rally", "Clutch", "Patient Htr"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Ozaki-312",
         "Name": "Ryusuke Ozaki",
@@ -3837,11 +3991,12 @@
         "Arm Strength": 57,
         "Fielding": 67,
         "Error Resistance": 68,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing B", "Survivor"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Ozora-270",
         "Name": "Miyoko Ozora",
@@ -3860,11 +4015,12 @@
         "Arm Strength": 66,
         "Fielding": 50,
         "Error Resistance": 55,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing F", "Slugger", "Slugger", "Aggrssiv Htr", "Aggrssiv Fld"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Paachan-223",
         "Name": "Hazuki Hayama (Paachan)",
@@ -3883,11 +4039,12 @@
         "Arm Strength": 50,
         "Fielding": 55,
         "Error Resistance": 10,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch A", "Recovery C", "Clutch", "Slugger", "Aggrssiv Htr", "Aggrssiv Stl", "Aggrssiv Run", "Aggrssiv Fld", "Selfish"],
         "Top Speed": 132,
         "Control": 10,
         "Stamina": 30,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Pink-345",
         "Name": "Pink",
@@ -3906,11 +4063,12 @@
         "Arm Strength": 70,
         "Fielding": 80,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch G", "Recovery C", "Clinical", "Star", "Aggrssiv Stl"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "R.Verrese-477",
         "Name": "Roseo Verrese",
@@ -3929,19 +4087,21 @@
         "Arm Strength": 76,
         "Fielding": 46,
         "Error Resistance": 48,
-        "Special Abilities": ["W/RISP C", "Vs. LHB G", "Poise F", "Grit C", "Heater C", "Recovery C", "Guts", "Chill", "Right Side Pitching"],
+        "Special Abilities (Fielder)": ["Clutch C", "Vs. LHB G", "Grit C", "Throwing E", "Recovery C", "Victor", "Rally"],
         "Top Speed": 155,
         "Control": 69,
         "Stamina": 78,
         "Breaking Balls": [{
-            "id": "2SFB"
+            "id": "2SFB",
+            "level": null
         }, {
             "id": "KNCV",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SPL",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["W/RISP C", "Vs. LHB G", "Poise F", "Grit C", "Heater C", "Recovery C", "Guts", "Chill", "Right Side Pitching"]
     }, {
         "id": "Raigou-491",
         "Name": "Haruto Raigou",
@@ -3960,11 +4120,12 @@
         "Arm Strength": 80,
         "Fielding": 70,
         "Error Resistance": 70,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Grit A", "Throwing C", "Slugger", "Pull Hit", "Menace", "Vs. Ace"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Rakugaki-307",
         "Name": "Gosuke Rakugaki",
@@ -3983,23 +4144,24 @@
         "Arm Strength": 53,
         "Fielding": 64,
         "Error Resistance": 43,
-        "Special Abilities": ["Recovery C", "Cutter", "Trusty", "Hot Head"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 145,
         "Control": 68,
         "Stamina": 60,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SCV",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SPL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SHU",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Trusty", "Hot Head"]
     }, {
         "id": "Reibu-496",
         "Name": "Reibu",
@@ -4018,23 +4180,24 @@
         "Arm Strength": 85,
         "Fielding": 55,
         "Error Resistance": 55,
-        "Special Abilities": ["Recovery F", "Engineer", "Cutter", "Toolkit", "Breaking Ball Pitcher"],
+        "Special Abilities (Fielder)": ["Throwing B", "Recovery F", "Surgical", "Good Eye"],
         "Top Speed": 155,
         "Control": 85,
         "Stamina": 65,
         "Breaking Balls": [{
             "id": "SP Slider 3",
-            "level": "4"
+            "level": 4
         }, {
             "id": "SHU",
-            "level": "4"
+            "level": 4
         }, {
             "id": "PCV",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SNK",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Recovery F", "Engineer", "Cutter", "Toolkit", "Breaking Ball Pitcher"]
     }, {
         "id": "Rokkaku-320",
         "Name": "Renji Rokkaku",
@@ -4053,11 +4216,12 @@
         "Arm Strength": 48,
         "Fielding": 46,
         "Error Resistance": 70,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing E", "Throwing F", "Bunt Ace", "Setter", "Charger", "Jester", "Fighter", "Mood Swinger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Rokudoh-328",
         "Name": "Hijiri Rokudoh",
@@ -4076,11 +4240,12 @@
         "Arm Strength": 56,
         "Fielding": 86,
         "Error Resistance": 88,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher A", "Throwing B", "Heckler", "Bunt", "Level-Headed", "Slap Hitter", "Patient Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Roppongi-321",
         "Name": "Yuki Roppongi",
@@ -4099,11 +4264,12 @@
         "Arm Strength": 65,
         "Fielding": 90,
         "Error Resistance": 80,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": "Glover",
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "S.Ikari-392",
         "Name": "Susumu Ikari",
@@ -4122,11 +4288,12 @@
         "Arm Strength": 75,
         "Fielding": 72,
         "Error Resistance": 90,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher A", "Clinical", "Sprayer", "Slap Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "S.Mitsumori-264",
         "Name": "Sakyo Mitsumori",
@@ -4145,11 +4312,12 @@
         "Arm Strength": 43,
         "Fielding": 65,
         "Error Resistance": 55,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing B", "Runner B", "Throwing E", "Squibber", "Mood Swinger", "Aggressive Stealing"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Saburi-339",
         "Name": "Motsuhide Saburi",
@@ -4168,11 +4336,12 @@
         "Arm Strength": 56,
         "Fielding": 66,
         "Error Resistance": 49,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Grit A", "Runner A", "Clinical", "Refined", "Revenge", "Slap Hitter", "Selfish"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Saigoh-383",
         "Name": "Juzo Saigoh",
@@ -4191,19 +4360,21 @@
         "Arm Strength": 74,
         "Fielding": 58,
         "Error Resistance": 99,
-        "Special Abilities": ["Agile A", "Recovery C", "Bluffer", "Vs. Runner", "Chill", "Power P"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 154,
         "Control": 100,
         "Stamina": 30,
         "Breaking Balls": [{
             "id": "HSL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "FRK",
-            "level": "2"
+            "level": 2
         }, {
-            "id": "EP"
-        }]
+            "id": "EP",
+            "level": null
+        }],
+        "Special Abilities (Pitching)": ["Agile A", "Recovery C", "Bluffer", "Vs. Runner", "Chill", "Power P"]
     }, {
         "id": "Sakai-314",
         "Name": "Sumiyoshi Sakai",
@@ -4222,11 +4393,12 @@
         "Arm Strength": 52,
         "Fielding": 68,
         "Error Resistance": 65,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher B", "Stealing B", "Heckler", "Bunt", "Takeout"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Sakamoto-289",
         "Name": "Gen Sakamoto",
@@ -4245,11 +4417,12 @@
         "Arm Strength": 53,
         "Fielding": 53,
         "Error Resistance": 35,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Runner A", "Squibber", "Eager"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Sakigake-360",
         "Name": "Ryuji Sakigake",
@@ -4268,11 +4441,12 @@
         "Arm Strength": 70,
         "Fielding": 70,
         "Error Resistance": 80,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Vs. LHP B", "Catcher C", "Runner B", "Squibber", "Aggressive Runner", "Aggressive Fielding", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Sakuma-330",
         "Name": "Hiroshi Sakuma",
@@ -4291,11 +4465,12 @@
         "Arm Strength": 60,
         "Fielding": 70,
         "Error Resistance": 60,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clinical", "Push Hit", "Squibber"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Samejima-331",
         "Name": "Kumetaro Samejima",
@@ -4314,11 +4489,12 @@
         "Arm Strength": 62,
         "Fielding": 66,
         "Error Resistance": 66,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Push Hit", "Victor", "Rally", "Diver"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Sana-278",
         "Name": "Ayumi Sana",
@@ -4337,20 +4513,21 @@
         "Arm Strength": 60,
         "Fielding": 50,
         "Error Resistance": 20,
-        "Special Abilities": ["Poise B", "Recovery C", "Low Ball"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 134,
         "Control": 80,
         "Stamina": 50,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SCR",
-            "level": "1"
+            "level": 1
         }, {
             "id": "CB",
-            "level": "5"
-        }]
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": ["Poise B", "Recovery C", "Low Ball"]
     }, {
         "id": "Sanbonmatsu-299",
         "Name": "Hajime Sanbonmatsu",
@@ -4369,11 +4546,12 @@
         "Arm Strength": 47,
         "Fielding": 47,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Slugger", "Pull Hit", "Trucker", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Saru-417",
         "Name": "Saru",
@@ -4392,11 +4570,12 @@
         "Arm Strength": 76,
         "Fielding": 85,
         "Error Resistance": 82,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": "Throwing C",
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Saruyama-229",
         "Name": "Takeru Saruyama",
@@ -4415,11 +4594,12 @@
         "Arm Strength": 58,
         "Fielding": 51,
         "Error Resistance": 42,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": "Clutch",
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Sendoh-435",
         "Name": "Kiwamu Sendoh",
@@ -4438,11 +4618,12 @@
         "Arm Strength": 62,
         "Fielding": 46,
         "Error Resistance": 49,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Grit F", "Zealous", "Clinical", "Slugger", "Sprayer", "Pinch", "Refined", "Blunder", "Fanned", "Aggrssiv Htr", "Selfish"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Setine-345",
         "Name": "Setine",
@@ -4461,11 +4642,12 @@
         "Arm Strength": 65,
         "Fielding": 68,
         "Error Resistance": 78,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch A", "Magnet", "Jester", "Good Eye", "Selfish"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Shacho-395",
         "Name": "Shacho",
@@ -4484,11 +4666,12 @@
         "Arm Strength": 66,
         "Fielding": 75,
         "Error Resistance": 70,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Throwing B", "Slugger", "Trucker", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Shibata-201",
         "Name": "Gunpei Shibata",
@@ -4507,11 +4690,12 @@
         "Arm Strength": 59,
         "Fielding": 50,
         "Error Resistance": 16,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": "Throwing E",
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Shibuya-395",
         "Name": "Hideki Shibuya",
@@ -4530,11 +4714,12 @@
         "Arm Strength": 73,
         "Fielding": 68,
         "Error Resistance": 52,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Victor", "Menace", "Clutch", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Shido-327",
         "Name": "Remi Shido",
@@ -4553,11 +4738,12 @@
         "Arm Strength": 55,
         "Fielding": 70,
         "Error Resistance": 52,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Runner B", "Clinical", "Glover", "Aggressive Hitter", "Aggressive Stealing", "Aggressive Fielding"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Shimada-405",
         "Name": "Eisaku Shimada",
@@ -4576,11 +4762,12 @@
         "Arm Strength": 70,
         "Fielding": 80,
         "Error Resistance": 70,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch A", "Clinical", "Rally", "Morale"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Shindoh-453",
         "Name": "Yujiro Shindoh",
@@ -4599,22 +4786,24 @@
         "Arm Strength": 70,
         "Fielding": 61,
         "Error Resistance": 74,
-        "Special Abilities": "Star",
+        "Special Abilities (Fielder)": null,
         "Top Speed": 151,
         "Control": 83,
         "Stamina": 70,
         "Breaking Balls": [{
-            "id": "2SFB"
+            "id": "2SFB",
+            "level": null
         }, {
             "id": "SL",
-            "level": "5"
+            "level": 5
         }, {
             "id": "CB",
-            "level": "3"
+            "level": 3
         }, {
             "id": "FRK",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": "Star"
     }, {
         "id": "Shinogi-451",
         "Name": "Takuma Shinogi",
@@ -4633,20 +4822,21 @@
         "Arm Strength": 81,
         "Fielding": 75,
         "Error Resistance": 75,
-        "Special Abilities": ["W/RISP C", "Vs. LHB B", "Poise E", "Heater C", "Cutter", "Ironball", "Insider"],
+        "Special Abilities (Fielder)": "Buzzkill",
         "Top Speed": 151,
         "Control": 68,
         "Stamina": 82,
         "Breaking Balls": [{
             "id": "SP Shuuto 4",
-            "level": "5"
+            "level": 5
         }, {
             "id": "SCR",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SPL",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["W/RISP C", "Vs. LHB B", "Poise E", "Heater C", "Cutter", "Ironball", "Insider"]
     }, {
         "id": "Shinonome-376",
         "Name": "Shouya Shinonome",
@@ -4665,11 +4855,12 @@
         "Arm Strength": 60,
         "Fielding": 80,
         "Error Resistance": 70,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing B", "Clinical", "Sprayer", "Glover", "Aggressive Fielding"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Shirana-357",
         "Name": "Itsutaro Shirana",
@@ -4688,20 +4879,21 @@
         "Arm Strength": 61,
         "Fielding": 53,
         "Error Resistance": 45,
-        "Special Abilities": ["Recovery C", "Momentum", "Dr. K", "Handler", "Pace"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 142,
         "Control": 74,
         "Stamina": 68,
         "Breaking Balls": [{
             "id": "SHU",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SL",
-            "level": "4"
+            "level": 4
         }, {
             "id": "FRK",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Momentum", "Dr. K", "Handler", "Pace"]
     }, {
         "id": "Shiroi-305",
         "Name": "Hakusai Shiroi",
@@ -4720,11 +4912,12 @@
         "Arm Strength": 60,
         "Fielding": 70,
         "Error Resistance": 40,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch F", "Throwing B", "Slam Fan", "Glover", "Easy Out"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Shiroyama-310",
         "Name": "Kenichi Shiroyama",
@@ -4743,19 +4936,21 @@
         "Arm Strength": 75,
         "Fielding": 55,
         "Error Resistance": 30,
-        "Special Abilities": ["Heater B", "Recovery C", "Ironball", "Guts", "Toolkit", "Hot Head"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 155,
         "Control": 45,
         "Stamina": 55,
         "Breaking Balls": [{
             "id": "VSL",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CB",
-            "level": "1"
+            "level": 1
         }, {
-            "id": "SP Fastball 2"
-        }]
+            "id": "SP Fastball 2",
+            "level": null
+        }],
+        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Ironball", "Guts", "Toolkit", "Hot Head"]
     }, {
         "id": "Shogogetsu-321",
         "Name": "Tsuyoshi Shogogetsu",
@@ -4774,11 +4969,12 @@
         "Arm Strength": 70,
         "Fielding": 50,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Menace", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Sudo-350",
         "Name": "Reito Sudo",
@@ -4797,17 +4993,18 @@
         "Arm Strength": 81,
         "Fielding": 45,
         "Error Resistance": 40,
-        "Special Abilities": ["Poise B", "Heater B", "Recovery C", "Gyroball", "Trusty", "Power Pitcher", "Pace"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 160,
         "Control": 45,
         "Stamina": 68,
         "Breaking Balls": [{
             "id": "CUT",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SPL",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Poise B", "Heater B", "Recovery C", "Gyroball", "Trusty", "Power Pitcher", "Pace"]
     }, {
         "id": "Suzaku-431",
         "Name": "Nanseki Suzaku",
@@ -4826,17 +5023,18 @@
         "Arm Strength": 77,
         "Fielding": 60,
         "Error Resistance": 50,
-        "Special Abilities": ["Heater B", "Recovery C", "Cutter"],
+        "Special Abilities (Fielder)": ["Throwing B", "Laser"],
         "Top Speed": 157,
         "Control": 62,
         "Stamina": 80,
         "Breaking Balls": [{
             "id": "SHU",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SCR",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Cutter"]
     }, {
         "id": "Suzuhime-321",
         "Name": "Kentaro Suzuhime",
@@ -4855,11 +5053,12 @@
         "Arm Strength": 59,
         "Fielding": 65,
         "Error Resistance": 77,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing C", "Clinical", "Rally"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Suzukaze-334",
         "Name": "Hope Suzukaze",
@@ -4878,19 +5077,21 @@
         "Arm Strength": 61,
         "Fielding": 60,
         "Error Resistance": 50,
-        "Special Abilities": ["W/RISP B", "Recovery C", "Gripper", "Star"],
+        "Special Abilities (Fielder)": "Push Hit",
         "Top Speed": 143,
         "Control": 65,
         "Stamina": 70,
         "Breaking Balls": [{
-            "id": "2SFB"
+            "id": "2SFB",
+            "level": null
         }, {
             "id": "KNCV",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SP Forkball 3",
-            "level": "5"
-        }]
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Gripper", "Star"]
     }, {
         "id": "Suzumoto-535",
         "Name": "Daisuke Suzumoto",
@@ -4909,20 +5110,21 @@
         "Arm Strength": 68,
         "Fielding": 57,
         "Error Resistance": 57,
-        "Special Abilities": ["vs. LHB A", "Poise B", "Heater B", "Agile B", "Recovery C", "Pickoff", "Handler", "Reflexes", "Gripper", "Low Ball", "Chill", "Star", "Power P", "Pace"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 149,
         "Control": 90,
         "Stamina": 85,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SHU",
-            "level": "3"
+            "level": 3
         }, {
             "id": "KN",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["vs. LHB A", "Poise B", "Heater B", "Agile B", "Recovery C", "Pickoff", "Handler", "Reflexes", "Gripper", "Low Ball", "Chill", "Star", "Power P", "Pace"]
     }, {
         "id": "T.Tsukami-321",
         "Name": "Tomoe Tsukami",
@@ -4941,22 +5143,24 @@
         "Arm Strength": 55,
         "Fielding": 60,
         "Error Resistance": 60,
-        "Special Abilities": ["Heater B", "Agile B", "Recovery C", "Reflexes", "Toolkit", "Timer", "Pace"],
+        "Special Abilities (Fielder)": ["Clutch B", "Recovery C", "Clinical", "Sprayer"],
         "Top Speed": 138,
         "Control": 70,
         "Stamina": 65,
         "Breaking Balls": [{
-            "id": "2SFB"
+            "id": "2SFB",
+            "level": null
         }, {
             "id": "SL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "FRK",
-            "level": "3"
+            "level": 3
         }, {
             "id": "CIR",
-            "level": "1"
-        }]
+            "level": 1
+        }],
+        "Special Abilities (Pitching)": ["Heater B", "Agile B", "Recovery C", "Reflexes", "Toolkit", "Timer", "Pace"]
     }, {
         "id": "Tachibana-330",
         "Name": "Mizuki Tachibana",
@@ -4975,20 +5179,21 @@
         "Arm Strength": 55,
         "Fielding": 42,
         "Error Resistance": 46,
-        "Special Abilities": ["Poise F", "Recovery C", "Crossfire", "Downplay", "Moody", "Breaking Ball P", "Pace"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 138,
         "Control": 87,
         "Stamina": 50,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "1"
+            "level": 1
         }, {
             "id": "SP Sinker 2",
-            "level": "5"
+            "level": 5
         }, {
             "id": "SCR",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Poise F", "Recovery C", "Crossfire", "Downplay", "Moody", "Breaking Ball P", "Pace"]
     }, {
         "id": "Tachikawa-427",
         "Name": "Hiromi Tachikawa",
@@ -5007,20 +5212,21 @@
         "Arm Strength": 58,
         "Fielding": 60,
         "Error Resistance": 60,
-        "Special Abilities": ["w/RISP B", "Poise B", "Heater A", "Recovery C", "Ironball", "Momentum", "Vs. Slugger"],
+        "Special Abilities (Fielder)": ["Bunt Ace", "Rally", "Aggressive FLD"],
         "Top Speed": 141,
         "Control": 65,
         "Stamina": 78,
         "Breaking Balls": [{
             "id": "HSHU",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SCR",
-            "level": "3"
+            "level": 3
         }, {
             "id": "CB",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["w/RISP B", "Poise B", "Heater A", "Recovery C", "Ironball", "Momentum", "Vs. Slugger"]
     }, {
         "id": "Takagi-288",
         "Name": "Sachiko Takagi",
@@ -5039,14 +5245,15 @@
         "Arm Strength": 76,
         "Fielding": 60,
         "Error Resistance": 80,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing A", "Slugger", "Aggressive Hitter"],
         "Top Speed": 132,
         "Control": 50,
         "Stamina": 63,
         "Breaking Balls": [{
             "id": "12CV",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Takano-365",
         "Name": "Yuki Takano",
@@ -5065,20 +5272,21 @@
         "Arm Strength": 55,
         "Fielding": 53,
         "Error Resistance": 57,
-        "Special Abilities": ["W/RISP F", "Recovery C", "Vs. Runner"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 138,
         "Control": 95,
         "Stamina": 77,
         "Breaking Balls": [{
             "id": "SHU",
-            "level": "2"
+            "level": 2
         }, {
             "id": "CUT",
-            "level": "2"
+            "level": 2
         }, {
             "id": "CIR",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["W/RISP F", "Recovery C", "Vs. Runner"]
     }, {
         "id": "Takeda-353",
         "Name": "Keiji Takeda",
@@ -5097,11 +5305,12 @@
         "Arm Strength": 66,
         "Fielding": 64,
         "Error Resistance": 40,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch A", "Vs. LHP F", "Throwing E", "Survivor", "Victor", "Rally", "Pinch", "Clutch", "Trucker", "Mood Swinger", "Slugger", "Patient Hitter", "Aggressive Fielder"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Tamane-313",
         "Name": "Natsuki Tamane",
@@ -5120,17 +5329,18 @@
         "Arm Strength": 67,
         "Fielding": 55,
         "Error Resistance": 57,
-        "Special Abilities": ["W/RISP C", "Poise C", "Heater C", "Battler", "Timer", "Hot Head", "Moody"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 147,
         "Control": 56,
         "Stamina": 72,
         "Breaking Balls": [{
             "id": "SHU",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CB",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["W/RISP C", "Poise C", "Heater C", "Battler", "Timer", "Hot Head", "Moody"]
     }, {
         "id": "Tamar-280",
         "Name": "Tamar Giuyu",
@@ -5149,11 +5359,12 @@
         "Arm Strength": 67,
         "Fielding": 73,
         "Error Resistance": 76,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Catcher B", "Survivor", "Mood Swinger", "Good Eye"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Tamasaburo-354",
         "Name": "Tamasaburo",
@@ -5172,11 +5383,12 @@
         "Arm Strength": 62,
         "Fielding": 77,
         "Error Resistance": 76,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing E", "Bunt", "Squibber", "Diver", "Slap Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Tamura-317",
         "Name": "Tamura",
@@ -5195,17 +5407,18 @@
         "Arm Strength": 68,
         "Fielding": 33,
         "Error Resistance": 53,
-        "Special Abilities": ["Recovery C", "Ironball", "Trusty", "Momentum", "Slugger", "Power P"],
+        "Special Abilities (Fielder)": "Trucker",
         "Top Speed": 149,
         "Control": 60,
         "Stamina": 75,
         "Breaking Balls": [{
             "id": "SNK",
-            "level": "2"
+            "level": 2
         }, {
             "id": "CB",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Ironball", "Trusty", "Momentum", "Slugger", "Power P"]
     }, {
         "id": "Tanaka-202",
         "Name": "Masaru Tanaka",
@@ -5224,11 +5437,12 @@
         "Arm Strength": 51,
         "Fielding": 55,
         "Error Resistance": 43,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Eager", "Victor", "Clutch", "Diver"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Tanakayama-437",
         "Name": "Taro Tanakayama",
@@ -5247,14 +5461,15 @@
         "Arm Strength": 67,
         "Fielding": 84,
         "Error Resistance": 63,
-        "Special Abilities": "Recovery C",
+        "Special Abilities (Fielder)": ["Bunt", "Glover", "Slap Hitter", "Aggressive FLD"],
         "Top Speed": 142,
         "Control": 45,
         "Stamina": 65,
         "Breaking Balls": [{
             "id": "FRK",
-            "level": "5"
-        }]
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": "Recovery C"
     }, {
         "id": "Tarumoto-314",
         "Name": "Yuta Tarumoto",
@@ -5273,19 +5488,21 @@
         "Arm Strength": 73,
         "Fielding": 43,
         "Error Resistance": 35,
-        "Special Abilities": ["Heater B", "Recovery C", "Ironball", "Moody", "Power Pitcher"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 153,
         "Control": 67,
         "Stamina": 45,
         "Breaking Balls": [{
             "id": "HSL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "VSL",
-            "level": "4"
+            "level": 4
         }, {
-            "id": "2SFB"
-        }]
+            "id": "2SFB",
+            "level": null
+        }],
+        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Ironball", "Moody", "Power Pitcher"]
     }, {
         "id": "Tatehashi-232",
         "Name": "Minato Tatehashi",
@@ -5304,11 +5521,12 @@
         "Arm Strength": 42,
         "Fielding": 67,
         "Error Resistance": 80,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing C", "Bunt Ace", "Squibber", "Level-Headed", "Patient Htr", "Cautious Stl", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Tatenishi-312",
         "Name": "Tsutomu Tatenishi",
@@ -5327,23 +5545,24 @@
         "Arm Strength": 55,
         "Fielding": 57,
         "Error Resistance": 53,
-        "Special Abilities": ["W/RISP B", "Recovery C", "Handler", "Reflexes", "Breaking Ball P"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 138,
         "Control": 85,
         "Stamina": 55,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "2"
+            "level": 2
         }, {
             "id": "SHU",
-            "level": "2"
+            "level": 2
         }, {
             "id": "CB",
-            "level": "1"
+            "level": 1
         }, {
             "id": "SNK",
-            "level": "1"
-        }]
+            "level": 1
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Handler", "Reflexes", "Breaking Ball P"]
     }, {
         "id": "Tatsui-288",
         "Name": "Kazuya Tatsui",
@@ -5362,11 +5581,12 @@
         "Arm Strength": 72,
         "Fielding": 54,
         "Error Resistance": 36,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch A", "Throwing C", "Slugger", "Mood Swinger", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Tennoji-428",
         "Name": "Tennoji",
@@ -5385,11 +5605,12 @@
         "Arm Strength": 75,
         "Fielding": 82,
         "Error Resistance": 81,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Push Hit", "Eager"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Teramichi-331",
         "Name": "Noboru Teramichi",
@@ -5408,11 +5629,12 @@
         "Arm Strength": 70,
         "Fielding": 69,
         "Error Resistance": 75,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Grit F", "Throwing C", "Clinical", "Survivor", "Bunt Ace", "Trucker", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Tezuka-324",
         "Name": "Takafumi Tezuka",
@@ -5431,17 +5653,18 @@
         "Arm Strength": 68,
         "Fielding": 48,
         "Error Resistance": 62,
-        "Special Abilities": ["Agile B", "Cutter", "Timer"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 139,
         "Control": 80,
         "Stamina": 63,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CB",
-            "level": "5"
-        }]
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": ["Agile B", "Cutter", "Timer"]
     }, {
         "id": "Todo-350",
         "Name": "Mahiru Todo",
@@ -5460,11 +5683,12 @@
         "Arm Strength": 61,
         "Fielding": 77,
         "Error Resistance": 73,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing B", "Sprayer", "Squibber"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Todoroki-266",
         "Name": "Haruka Todoroki",
@@ -5483,11 +5707,12 @@
         "Arm Strength": 45,
         "Fielding": 53,
         "Error Resistance": 74,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch A", "Rally", "Pinch", "Morale", "Clutch", "Easy Out", "Slugger", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Tsuburaya-303",
         "Name": "Kazuyoshi Tsuburaya",
@@ -5506,11 +5731,12 @@
         "Arm Strength": 48,
         "Fielding": 64,
         "Error Resistance": 57,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing C", "Squibber", "Takeout", "Jester"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Tsukumo-314",
         "Name": "Sora Tsukumo",
@@ -5529,11 +5755,12 @@
         "Arm Strength": 72,
         "Fielding": 69,
         "Error Resistance": 46,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing E", "Push Hit", "High Hit", "Laser", "Level-Headed"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Tsuruya-291",
         "Name": "Masaru Tsuruya",
@@ -5552,17 +5779,18 @@
         "Arm Strength": 62,
         "Fielding": 60,
         "Error Resistance": 50,
-        "Special Abilities": ["Vs. LHB A", "Heater A", "Recovery C", "Downplay", "Walk", "Hot Head"],
+        "Special Abilities (Fielder)": ["Runner B", "Squibber"],
         "Top Speed": 144,
         "Control": 70,
         "Stamina": 65,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SPL",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Vs. LHB A", "Heater A", "Recovery C", "Downplay", "Walk", "Hot Head"]
     }, {
         "id": "U.Mitsumori-264",
         "Name": "Ukyo Mitsumori",
@@ -5581,11 +5809,12 @@
         "Arm Strength": 43,
         "Fielding": 65,
         "Error Resistance": 55,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing B", "Runner B", "Throwing E", "Squibber", "Mood Swinger", "Aggressive Stealing"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Udo-287",
         "Name": "Mikihisa Udo",
@@ -5604,11 +5833,12 @@
         "Arm Strength": 70,
         "Fielding": 55,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing C", "Slugger", "Easy Out", "Slugger"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Ueno-296",
         "Name": "Yoshito Ueno",
@@ -5627,11 +5857,12 @@
         "Arm Strength": 55,
         "Fielding": 69,
         "Error Resistance": 88,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Grit B", "Throwing B", "Bunt", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Ukami-379",
         "Name": "Yokan Ukami",
@@ -5650,11 +5881,12 @@
         "Arm Strength": 80,
         "Fielding": 45,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Recovery C", "Clinical", "Sprayer"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Unkai-427",
         "Name": "Kazuya Unkai",
@@ -5673,22 +5905,24 @@
         "Arm Strength": 75,
         "Fielding": 66,
         "Error Resistance": 55,
-        "Special Abilities": ["Cutter", "Ironball", "Battler", "Vs. Slugger"],
+        "Special Abilities (Fielder)": ["Clinical", "Sprayer", "Push Hit"],
         "Top Speed": 155,
         "Control": 58,
         "Stamina": 76,
         "Breaking Balls": [{
-            "id": "SP Fastball"
+            "id": "SP Fastball",
+            "level": null
         }, {
             "id": "SHU",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SPL",
-            "level": "4"
+            "level": 4
         }, {
             "id": "SL",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Cutter", "Ironball", "Battler", "Vs. Slugger"]
     }, {
         "id": "Uraga-326",
         "Name": "Yuuya Uraga",
@@ -5707,11 +5941,12 @@
         "Arm Strength": 55,
         "Fielding": 70,
         "Error Resistance": 60,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Throwing C", "Low Hit", "Glover"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Vanguard-414",
         "Name": "Bowman Vanguard",
@@ -5730,11 +5965,12 @@
         "Arm Strength": 55,
         "Fielding": 53,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Slugger", "Sprayer", "Menace", "Patient Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Warabi-251",
         "Name": "Haruki Warabi",
@@ -5753,11 +5989,12 @@
         "Arm Strength": 53,
         "Fielding": 65,
         "Error Resistance": 65,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Push Hit", "Bunt", "Patient Htr", "Cautious Stl", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Y.Diyansu-298",
         "Name": "Yaben Diyansu",
@@ -5776,11 +6013,12 @@
         "Arm Strength": 50,
         "Fielding": 68,
         "Error Resistance": 32,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch F", "Stealing B", "Runner B", "Throwing F", "Diver", "Pinch Runner"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Yabai-334",
         "Name": "Moeo Yabai",
@@ -5799,17 +6037,18 @@
         "Arm Strength": 62,
         "Fielding": 68,
         "Error Resistance": 50,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Throwing C", "Diver"],
         "Top Speed": 138,
         "Control": 67,
         "Stamina": 47,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "1"
+            "level": 1
         }, {
             "id": "CB",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Yabe-273",
         "Name": "Akio Yabe",
@@ -5828,11 +6067,12 @@
         "Arm Strength": 55,
         "Fielding": 68,
         "Error Resistance": 32,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch F", "Stealing B", "Runner B", "Diver"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Yabemon-368",
         "Name": "Tatsuo Yabemon",
@@ -5851,11 +6091,12 @@
         "Arm Strength": 63,
         "Fielding": 78,
         "Error Resistance": 5,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch A", "Stealing B", "Runner B", "Diver", "Blunder", "Selfish"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Yabeta-276",
         "Name": "Akiko Yabeta",
@@ -5874,11 +6115,12 @@
         "Arm Strength": 57,
         "Fielding": 69,
         "Error Resistance": 53,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing B", "Runner B", "Throwing B", "Bunt", "Squibber", "Aggressive Fielding"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Yagyu-275",
         "Name": "Sayaka Yagyu",
@@ -5897,11 +6139,12 @@
         "Arm Strength": 40,
         "Fielding": 35,
         "Error Resistance": 35,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clinical", "Slugger", "Survivor", "Clutch"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Yakyuman1Gou-292",
         "Name": "Yakyuman1Gou",
@@ -5920,17 +6163,18 @@
         "Arm Strength": 55,
         "Fielding": 45,
         "Error Resistance": 40,
-        "Special Abilities": ["Recovery C", "Battler", "Toolkit", "Hot Head", "Breaking Ball Pitcher"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 138,
         "Control": 75,
         "Stamina": 48,
         "Breaking Balls": [{
             "id": "SP Sinker 1",
-            "level": "6"
+            "level": 6
         }, {
             "id": "CB",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Battler", "Toolkit", "Hot Head", "Breaking Ball Pitcher"]
     }, {
         "id": "Yakyuman2Gou-346",
         "Name": "Yakyuman2Gou",
@@ -5949,17 +6193,18 @@
         "Arm Strength": 61,
         "Fielding": 42,
         "Error Resistance": 46,
-        "Special Abilities": ["Poise F", "Recovery C", "Crossfire", "Vs. Slugger", "Bluffer", "Downplay", "Moody", "Breaking Ball Pitcher", "Pace"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 143,
         "Control": 87,
         "Stamina": 50,
         "Breaking Balls": [{
             "id": "SP Sinker 2",
-            "level": "5"
+            "level": 5
         }, {
             "id": "SL",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Poise F", "Recovery C", "Crossfire", "Vs. Slugger", "Bluffer", "Downplay", "Moody", "Breaking Ball Pitcher", "Pace"]
     }, {
         "id": "Yakyuman3Gou-375",
         "Name": "Yakyuman3Gou",
@@ -5978,11 +6223,12 @@
         "Arm Strength": 56,
         "Fielding": 86,
         "Error Resistance": 88,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Catcher A", "Throwing B", "Heckler", "Push Hit", "Bunt", "Level-Headed", "Slap Hitter", "Patient Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": "Bluffer"
     }, {
         "id": "Yakyuman5Gou-381",
         "Name": "Yakyuman5Gou",
@@ -6001,11 +6247,12 @@
         "Arm Strength": 52,
         "Fielding": 78,
         "Error Resistance": 90,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Legend", "Sprayer", "Rally", "Clutch", "Patient Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": "Bluffer"
     }, {
         "id": "Yamaguchi-336",
         "Name": "Ken Yamaguchi",
@@ -6024,17 +6271,18 @@
         "Arm Strength": 65,
         "Fielding": 60,
         "Error Resistance": 60,
-        "Special Abilities": ["W/RISP B", "Recovery C", "Lucky", "Breaking Ball P"],
+        "Special Abilities (Fielder)": null,
         "Top Speed": 147,
         "Control": 66,
         "Stamina": 70,
         "Breaking Balls": [{
             "id": "CB",
-            "level": "2"
+            "level": 2
         }, {
             "id": "FRK",
-            "level": "7"
-        }]
+            "level": 7
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Lucky", "Breaking Ball P"]
     }, {
         "id": "Yamino-481",
         "Name": "Eigou Yamino",
@@ -6053,23 +6301,24 @@
         "Arm Strength": 80,
         "Fielding": 44,
         "Error Resistance": 29,
-        "Special Abilities": ["Recovery C", "Trusty", "Choker", "Unlucky", "Breaking Ball Pitcher"],
+        "Special Abilities (Fielder)": ["Slugger", "Pull Hit", "High Hit", "Menace", "Slugger", "Aggressive Hitter"],
         "Top Speed": 159,
         "Control": 49,
         "Stamina": 89,
         "Breaking Balls": [{
             "id": "SP Sinker 3",
-            "level": "4"
+            "level": 4
         }, {
             "id": "CH",
-            "level": "4"
+            "level": 4
         }, {
             "id": "SL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SLV",
-            "level": "2"
-        }]
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Trusty", "Choker", "Unlucky", "Breaking Ball Pitcher"]
     }, {
         "id": "Yashima-332",
         "Name": "Ataru Yashima",
@@ -6088,11 +6337,12 @@
         "Arm Strength": 60,
         "Fielding": 60,
         "Error Resistance": 40,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing B", "Runner B", "Squibber", "Morale", "Diver"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Yojo-309",
         "Name": "Kenji Yojo",
@@ -6111,11 +6361,12 @@
         "Arm Strength": 65,
         "Fielding": 65,
         "Error Resistance": 90,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Stealing B", "Survivor", "Bunt", "Level-Headed", "Aggrssiv Htr"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Zansu-425",
         "Name": "Zansu",
@@ -6134,11 +6385,12 @@
         "Arm Strength": 78,
         "Fielding": 82,
         "Error Resistance": 80,
-        "Special Abilities": null,
+        "Special Abilities (Fielder)": ["Clutch B", "Clinical", "Hot Bat", "Slap Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
-        "Breaking Balls": []
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
     }, {
         "id": "Zenigata-367",
         "Name": "Ranzo Zenigata",
@@ -6157,20 +6409,21 @@
         "Arm Strength": 59,
         "Fielding": 55,
         "Error Resistance": 25,
-        "Special Abilities": ["W/RISP B", "Vs. LHB B", "Poise B", "Recovery C", "Downplay", "Choker", "Hot Head", "Power Pitcher"],
+        "Special Abilities (Fielder)": "Aggressive Fielding",
         "Top Speed": 142,
         "Control": 69,
         "Stamina": 85,
         "Breaking Balls": [{
             "id": "SL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "FRK",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SNK",
-            "level": "3"
-        }]
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Vs. LHB B", "Poise B", "Recovery C", "Downplay", "Choker", "Hot Head", "Power Pitcher"]
     }, {
         "id": "Zenzai-341",
         "Name": "Zenzai",
@@ -6189,19 +6442,20 @@
         "Arm Strength": 59,
         "Fielding": 57,
         "Error Resistance": 55,
-        "Special Abilities": ["Agile B", "Recovery C", "Toolkit", "Airball", "Breaking Ball P"],
+        "Special Abilities (Fielder)": ["Stealing B", "Runner B", "Recovery C", "Push Hit", "Bunt", "Squibber"],
         "Top Speed": 142,
         "Control": 96,
         "Stamina": 1,
         "Breaking Balls": [{
             "id": "SNK",
-            "level": "3"
+            "level": 3
         }, {
             "id": "VSL",
-            "level": "3"
+            "level": 3
         }, {
             "id": "SP Curveball 1",
-            "level": "4"
-        }]
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Agile B", "Recovery C", "Toolkit", "Airball", "Breaking Ball P"]
     }]
 }
