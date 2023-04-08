@@ -4,6 +4,7 @@
 
 {% assign playerName = include.player["Name Abbreviation"] %}
 {% assign playerPositions = include.player["Field Position"] %}
+{% assign pitches = include.player["Breaking Balls"] %}
 
 {% assign control = include.player["Control"] %}
 {% assign stamina = include.player["Stamina"] %}
@@ -46,6 +47,6 @@
     <span class="info-box detail-stamina" style="grid-area: stamina;"><span class="info-label">STAMINA </span>{% include letter-rating.html rating=stamina %}</span>
 
     <span id="pitch-selection" style="grid-area: pitches;">
-        {% include pitching-chart.html %}
+        {% include pitching-chart.html pitches=pitches %}
     </span>
 </div>
