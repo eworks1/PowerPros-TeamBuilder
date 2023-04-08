@@ -24,8 +24,9 @@
     <g id="down" transform="rotate(90, 362, 102)">
         <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" stroke="none" />
         <path class="fill" d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" stroke="none" />
-        <path d="M 662 122 h -40 v -40 h 40 z" />
+
         <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" />
+        <path d="M 662 122 h -40 v -40 h 40 z" />
         <path d="M 622 122 h -40 v -40 h 40 z" />
         <path d="M 582 122 h -40 v -40 h 40 z" />
         <path d="M 542 122 h -40 v -40 h 40 z" />
@@ -35,8 +36,9 @@
     <g id="outside" transform="rotate(180, 362, 102)" stroke-width="4">
         <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" stroke="none" />
         <path class="fill" d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" stroke="none" />
-        <path d="M 662 122 h -40 v -40 h 40 z" />
+
         <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" />
+        <path d="M 662 122 h -40 v -40 h 40 z" />
         <path d="M 622 122 h -40 v -40 h 40 z" />
         <path d="M 582 122 h -40 v -40 h 40 z" />
         <path d="M 542 122 h -40 v -40 h 40 z" />
@@ -46,8 +48,9 @@
     <g id="inside" transform="" stroke-width="4">
         <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" stroke="none" />
         <path class="fill" d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" stroke="none" />
-        <path d="M 662 122 h -40 v -40 h 40 z" />
+
         <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" />
+        <path d="M 662 122 h -40 v -40 h 40 z" />
         <path d="M 622 122 h -40 v -40 h 40 z" />
         <path d="M 582 122 h -40 v -40 h 40 z" />
         <path d="M 542 122 h -40 v -40 h 40 z" />
@@ -58,8 +61,9 @@
     <g id="down-inside" transform="rotate(45, 362, 102)" stroke-width="4">
         <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" stroke="none" />
         <path class="fill" d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" stroke="none" />
-        <path d="M 662 122 h -40 v -40 h 40 z" />
+
         <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" />
+        <path d="M 662 122 h -40 v -40 h 40 z" />
         <path d="M 622 122 h -40 v -40 h 40 z" />
         <path d="M 582 122 h -40 v -40 h 40 z" />
         <path d="M 542 122 h -40 v -40 h 40 z" />
@@ -69,8 +73,9 @@
     <g id="down-outside" transform="rotate(135, 362, 102)" stroke-width="4">
         <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" stroke="none" />
         <path class="fill" d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" stroke="none" />
-        <path d="M 662 122 h -40 v -40 h 40 z" />
+
         <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" />
+        <path d="M 662 122 h -40 v -40 h 40 z" />
         <path d="M 622 122 h -40 v -40 h 40 z" />
         <path d="M 582 122 h -40 v -40 h 40 z" />
         <path d="M 542 122 h -40 v -40 h 40 z" />
