@@ -206,6 +206,15 @@ function playerClicked(player) {
             pitchingRoleBox.appendChild(newRole);
         }
     }
+
+    // Pitching Chart (Pitching Detail)
+    const pitchingChartObj = document.getElementById('pitching-chart');
+    if (pitchingChartObj) {
+        updatePitchChart.call(
+            pitchingChartObj.contentDocument,
+            player["Breaking Balls"]
+        );
+    }
 }
 
 /**
