@@ -93,10 +93,10 @@
         <path d="M 342 22 l 0 40 h 40 v -40l -20 -20 z" fill="url(#short-fill-gradient)" />
     </g>
     <g id="double-up-group">
-        <g transform="translate(-15)" display="inline">
+        <g transform="translate(-15)">
             <path d="M 342 22 l 0 40 h 40 v -40l -20 -20 z" fill="url(#short-fill-gradient)" />
         </g>
-        <g transform="translate(15)" display="inline">
+        <g transform="translate(15)">
             <path d="M 342 22 l 0 40 h 40 v -40l -20 -20 z" fill="url(#short-fill-gradient)" />
         </g>
     </g>
