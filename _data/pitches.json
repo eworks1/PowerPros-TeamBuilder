@@ -8,7 +8,7 @@
         "12CV": {
             "Name": "12-6 Curveball",
             "Abbreviation": "12CV",
-            "Direction": "Inside-Down"
+            "Direction": "Down-Inside"
         },
         "CH": {
             "Name": "Changeup",
@@ -18,12 +18,12 @@
         "CIR": {
             "Name": "Circle Change",
             "Abbreviation": "CIR",
-            "Direction": "Outside-Down"
+            "Direction": "Down-Outside"
         },
         "CB": {
             "Name": "Curveball",
             "Abbreviation": "CB",
-            "Direction": "Inside-Down"
+            "Direction": "Down-Inside"
         },
         "CUT": {
             "Name": "Cutter",
@@ -58,7 +58,7 @@
         "KNCV": {
             "Name": "Knuckle Curve",
             "Abbreviation": "KNCV",
-            "Direction": "Inside-Down"
+            "Direction": "Down-Inside"
         },
         "KN": {
             "Name": "Knuckleball",
@@ -78,12 +78,12 @@
         "PCV": {
             "Name": "Power Curve",
             "Abbreviation": "PCV",
-            "Direction": "Inside-Down"
+            "Direction": "Down-Inside"
         },
         "SCR": {
             "Name": "Screwball",
             "Abbreviation": "SCR",
-            "Direction": "Outside-Down"
+            "Direction": "Down-Outside"
         },
         "SHU": {
             "Name": "Shuuto",
@@ -93,7 +93,7 @@
         "SNK": {
             "Name": "Sinker",
             "Abbreviation": "SNK",
-            "Direction": "Outside-Down"
+            "Direction": "Down-Outside"
         },
         "SL": {
             "Name": "Slider",
@@ -103,12 +103,12 @@
         "SCV": {
             "Name": "Slow Curve",
             "Abbreviation": "SCV",
-            "Direction": "Inside-Down"
+            "Direction": "Down-Inside"
         },
         "SLV": {
             "Name": "Slurve",
             "Abbreviation": "SLV",
-            "Direction": "Inside-Down"
+            "Direction": "Down-Inside"
         },
         "SP Ball": {
             "Name": "SP Ball",
@@ -118,7 +118,7 @@
         "SP Curveball 1": {
             "Name": "SP Curveball 1",
             "Abbreviation": "SP Curveball 1",
-            "Direction": "Inside-Down"
+            "Direction": "Down-Inside"
         },
         "SP Fastball": {
             "Name": "SP Fastball",
@@ -193,22 +193,22 @@
         "SP Sinker 1": {
             "Name": "SP Sinker 1",
             "Abbreviation": "SP Sinker 1",
-            "Direction": "Outside-Down"
+            "Direction": "Down-Outside"
         },
         "SP Sinker 2": {
             "Name": "SP Sinker 2",
             "Abbreviation": "SP Sinker 2",
-            "Direction": "Outside-Down"
+            "Direction": "Down-Outside"
         },
         "SP Sinker 3": {
             "Name": "SP Sinker 3",
             "Abbreviation": "SP Sinker 3",
-            "Direction": "Outside-Down"
+            "Direction": "Down-Outside"
         },
         "SP Sinker 4": {
             "Name": "SP Sinker 4",
             "Abbreviation": "SP Sinker 4",
-            "Direction": "Outside-Down"
+            "Direction": "Down-Outside"
         },
         "SP Slider 1": {
             "Name": "SP Slider 1",
