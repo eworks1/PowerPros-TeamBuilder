@@ -94,7 +94,7 @@
         <circle id="circle-cover" cx="362" cy="102" r="26" />
     </g>
 
-    <g id="up">
+    <g id="single-up">
         <path d="M 342 22 l 0 40 h 40 v -40l -20 -20 z" fill="url(#short-fill-gradient)" />
     </g>
     <g id="double-up-group">
