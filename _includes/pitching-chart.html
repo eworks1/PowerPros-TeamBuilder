@@ -1,8 +1,10 @@
-<object id="pitching-chart" onload="test()" data="{{ 'assets/img/pitching_chart.svg' | relative_url }}" type="image/svg+xml"></object>
+<object id="pitching-chart" data="{{ 'assets/img/pitching_chart.svg' | relative_url }}" type="image/svg+xml"></object>
 <script>
-    function test() {
-        console.log("Loaded pitching_chart.svg!");
-        console.log(this);
-    }
-    // const object = document.getElementById('pitching-chart');
+    const object = document.getElementById('pitching-chart');
+    object.addEventListener('load', (ev) => {
+        updatePitchChart.call(
+            ev.srcElement.contentDocument,
+            {{ include.pitches | jsonify }}
+        );
+    });
 </script>
