@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" viewBox="0 0 724 464" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" stroke="#3f90f7" stroke-linejoin="round" stroke-width="4">
     <!-- 1mm == 3.78px -->
+    <style>
+        .gradient {
+            stroke: none;
+        }
+    </style>
     <defs>
         <linearGradient id="base-background-gradient">
             <stop stop-color="#4293f8" offset="0" />
@@ -22,8 +27,8 @@
         </clipPath>
     </defs>
     <g id="down" transform="rotate(90, 362, 102)">
-        <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" stroke="none" />
-        <path class="fill" d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" stroke="none" />
+        <path d="M 422 82 H 702 l 20 20 l -20 20 H 422 z" fill="url(#background-gradient)" class="gradient" />
+        <path d="M 422 82 H 702 l 20 20 l -20 20 H 422 z" fill="url(#fill-gradient)" class="gradient fill" />
 
         <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" />
         <path d="M 662 122 h -40 v -40 h 40 z" />
@@ -34,8 +39,8 @@
         <path d="M 462 122 h -40 v -40 h 40 z" />
     </g>
     <g id="outside" transform="rotate(180, 362, 102)" stroke-width="4">
-        <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" stroke="none" />
-        <path class="fill" d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" stroke="none" />
+        <path d="M 422 82 H 702 l 20 20 l -20 20 H 422 z" fill="url(#background-gradient)" class="gradient" />
+        <path d="M 422 82 H 702 l 20 20 l -20 20 H 422 z" fill="url(#fill-gradient)" class="gradient fill" />
 
         <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" />
         <path d="M 662 122 h -40 v -40 h 40 z" />
@@ -45,9 +50,9 @@
         <path d="M 502 122 h -40 v -40 h 40 z" />
         <path d="M 462 122 h -40 v -40 h 40 z" />
     </g>
-    <g id="inside" transform="" stroke-width="4">
-        <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" stroke="none" />
-        <path class="fill" d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" stroke="none" />
+    <g id="inside" stroke-width="4">
+        <path d="M 422 82 H 702 l 20 20 l -20 20 H 422 z" fill="url(#background-gradient)" class="gradient" />
+        <path d="M 422 82 H 702 l 20 20 l -20 20 H 422 z" fill="url(#fill-gradient)" class="gradient fill" />
 
         <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" />
         <path d="M 662 122 h -40 v -40 h 40 z" />
@@ -59,8 +64,8 @@
     </g>
 
     <g id="down-inside" transform="rotate(45, 362, 102)" stroke-width="4">
-        <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" stroke="none" />
-        <path class="fill" d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" stroke="none" />
+        <path d="M 422 82 H 702 l 20 20 l -20 20 H 422 z" fill="url(#background-gradient)" class="gradient" />
+        <path d="M 422 82 H 702 l 20 20 l -20 20 H 422 z" fill="url(#fill-gradient)" stroke="none" class="fill" />
 
         <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" />
         <path d="M 662 122 h -40 v -40 h 40 z" />
@@ -71,8 +76,8 @@
         <path d="M 462 122 h -40 v -40 h 40 z" />
     </g>
     <g id="down-outside" transform="rotate(135, 362, 102)" stroke-width="4">
-        <path d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#background-gradient)" stroke="none" />
-        <path class="fill" d="M 422 82 h 280 l 20 20 l -20 20 h -280 z" fill="url(#fill-gradient)" stroke="none" />
+        <path d="M 422 82 H 702 l 20 20 l -20 20 H 422 z" fill="url(#background-gradient)" class="gradient" />
+        <path d="M 422 82 H 702 l 20 20 l -20 20 H 422 z" fill="url(#fill-gradient)" class="gradient fill" />
 
         <path d="M 662 122 h 40 l 20 -20 l -20 -20 h -40 z" />
         <path d="M 662 122 h -40 v -40 h 40 z" />
