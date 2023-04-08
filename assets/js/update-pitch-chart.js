@@ -57,8 +57,7 @@ function updatePitchChart(pitches) {
         /** @type {{Name: string, Abbreviation: string, Direction: string}} */
         const fullPitch = all_pitches[p.id];
         
-        const dir = p.Direction;
-        const directionFill = this.querySelector(`#${dir.toLowerCase()} .fill`);
+        const directionFill = this.querySelector(`#${fullPitch.Direction.toLowerCase()} .fill`);
         if (directionFill) {
             if (p.level && p.level < 7) {
                 const pitchLevelLength = 422 + p.level * 40;
