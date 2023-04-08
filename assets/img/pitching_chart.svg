@@ -101,11 +101,11 @@
             stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
     </g>
     <g id="double-up-group" display="" stroke-width="4">
-        <g transform="translate(-10)" display="inline">
+        <g transform="translate(-15)" display="inline">
             <path d="M 342 22 l 0 40 h 40 v -40l -20 -20 z" fill="url(#short-fill-gradient)" stroke="#3f90f7"
                 stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
         </g>
-        <g transform="translate(10)" display="inline">
+        <g transform="translate(15)" display="inline">
             <path d="M 342 22 l 0 40 h 40 v -40l -20 -20 z" fill="url(#short-fill-gradient)" stroke="#3f90f7"
                 stroke-linecap="round" stroke-linejoin="round" stroke-width="4" />
         </g>
