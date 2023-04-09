@@ -54,9 +54,9 @@ function updatePitchChart(pitches) {
 
     // Figure out directions that are doubled-up
     /** @type {string[]} */
-    const doubledDirections = directionsUsed.reduce((prev, current) => {
+    const doubledDirections = directionsUsed.reduce((prev, current, i, arr) => {
         let temp = prev;
-        if (prev.includes(current)) {
+        if (arr.lastIndexOf(current) > i) {
             temp.push(current);
         }
         return temp;
