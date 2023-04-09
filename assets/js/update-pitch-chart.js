@@ -28,7 +28,7 @@ function updatePitchChart(pitches) {
                 directionFill.classList.add('hidden');
             }
         }
-    });
+    }, this);
 
     // TODO: add code for pitches that use Up, but are in place of 4SFB+ (SP Fastball?)
 
@@ -110,5 +110,5 @@ function updatePitchChart(pitches) {
                 directionFill.setAttribute('d', fullBarPath);
             }
         }
-    });
+    }, this);
 }
