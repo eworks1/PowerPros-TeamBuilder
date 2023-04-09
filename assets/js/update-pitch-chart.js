@@ -77,7 +77,7 @@ function updatePitchChart(pitches) {
         /** @type {number} */
         let barH;
 
-        // If a double direction...
+        // If a single direction...
         if (!doubledDirections.includes(dir)) {
             if (directionSingleGroup && directionDoubleGroup) {
                 directionSingleGroup.classList.remove('hidden');
