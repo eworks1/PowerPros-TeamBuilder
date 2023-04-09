@@ -52,20 +52,70 @@ function updatePitchChart(pitches) {
         }
     }
 
+    // Figure out directions that are doubled-up
+    /** @type {string[]} */
+    const doubledDirections = directionsUsed.reduce((prev, current) => {
+        let temp = prev;
+        if (prev.includes(current)) {
+            temp.push(current);
+        }
+        return temp;
+    }, new Array());
+
     // For each breaking ball, change gradient fill end
-    pitches.forEach(p => {
+    pitches.forEach((p, i, arr) => {
         /** @type {{Name: string, Abbreviation: string, Direction: string}} */
         const fullPitch = all_pitches[p.id];
+        const dir = fullPitch.Direction;
         
-        const directionFill = this.querySelector(`#${fullPitch.Direction.toLowerCase()} .fill`);
-        if (directionFill) {
-            if (p.level && p.level < 7) {
-                const pitchLevelLength = 422 + p.level * 40;
-                const partialBarPath = `M 422 82 H ${pitchLevelLength} v 40 H 422 z`;
-                directionFill.setAttribute('d', partialBarPath);
+        const directionDoubleGroup = this.querySelector(`#${dir.toLowerCase()} .double-group`);
+        const directionSingleGroup = this.querySelector(`#${dir.toLowerCase()} .single-group`);
+        
+        // If a double direction...
+        if (!doubledDirections.includes(dir)) {
+            if (directionSingleGroup && directionDoubleGroup) {
+                directionSingleGroup.classList.remove('hidden');
+                directionDoubleGroup.classList.add('hidden');
+            }
+
+            const directionFill = this.querySelector(`#${dir.toLowerCase()} .single-group .fill`);
+            if (directionFill) {
+                if (p.level && p.level < 7) {
+                    const pitchLevelLength = 422 + p.level * 40;
+                    const partialBarPath = `M 422 82 H ${pitchLevelLength} v 40 H 422 z`;
+                    directionFill.setAttribute('d', partialBarPath);
+                } else {
+                    const fullBarPath = 'M 422 82 H 702 l 20 20 l -20 20 H 422 z';
+                    directionFill.setAttribute('d', fullBarPath);
+                }
+            }
+        } else {
+            if (directionSingleGroup && directionDoubleGroup) {
+                directionSingleGroup.classList.add('hidden');
+                directionDoubleGroup.classList.remove('hidden');
+            }
+
+            /** @type {string} */
+            let groupClass;
+
+            // If there is another pitch coming up in the sequence with the same dir
+            // in other words, returns true if this is the first of a double-direction
+            if (arr.some((v, j) => all_pitches[v.id].Direction == all_pitches[p.id].Direction && j > i)) {
+                groupClass = 'pitch-1-group';
             } else {
-                const fullBarPath = 'M 422 82 H 702 l 20 20 l -20 20 H 422 z';
-                directionFill.setAttribute('d', fullBarPath);
+                groupClass = 'pitch-2-group';
+            }
+
+            const directionFill = this.querySelector(`#${dir.toLowerCase()} .double-group .${groupClass} .fill`);
+            if (directionFill) {
+                if (p.level && p.level < 7) {
+                    const pitchLevelLength = 422 + p.level * 40;
+                    const partialBarPath = `M 422 92 H ${pitchLevelLength} v 20 H 422 z`;
+                        directionFill.setAttribute('d', partialBarPath);
+                } else {
+                    const fullBarPath = 'M 422 92 H 702 l 10 10 l -10 10 H 422 z';
+                    directionFill.setAttribute('d', fullBarPath);
+                }
             }
         }
     });
