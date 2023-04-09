@@ -71,6 +71,12 @@ function updatePitchChart(pitches) {
         const directionDoubleGroup = this.querySelector(`#${dir.toLowerCase()} .double-group`);
         const directionSingleGroup = this.querySelector(`#${dir.toLowerCase()} .single-group`);
         
+        let quantityGroup = '';
+        /** @type {number} */
+        let barMinY;
+        /** @type {number} */
+        let barH;
+
         // If a double direction...
         if (!doubledDirections.includes(dir)) {
             if (directionSingleGroup && directionDoubleGroup) {
@@ -78,17 +84,9 @@ function updatePitchChart(pitches) {
                 directionDoubleGroup.classList.add('hidden');
             }
 
-            const directionFill = this.querySelector(`#${dir.toLowerCase()} .single-group .fill`);
-            if (directionFill) {
-                if (p.level && p.level < 7) {
-                    const pitchLevelLength = 422 + p.level * 40;
-                    const partialBarPath = `M 422 82 H ${pitchLevelLength} v 40 H 422 z`;
-                    directionFill.setAttribute('d', partialBarPath);
-                } else {
-                    const fullBarPath = 'M 422 82 H 702 l 20 20 l -20 20 H 422 z';
-                    directionFill.setAttribute('d', fullBarPath);
-                }
-            }
+            quantityGroup = 'single-group';
+            barMinY = 82;
+            barH = 40;
         } else {
             if (directionSingleGroup && directionDoubleGroup) {
                 directionSingleGroup.classList.add('hidden');
@@ -106,16 +104,20 @@ function updatePitchChart(pitches) {
                 groupClass = 'pitch-2-group';
             }
 
-            const directionFill = this.querySelector(`#${dir.toLowerCase()} .double-group .${groupClass} .fill`);
-            if (directionFill) {
-                if (p.level && p.level < 7) {
-                    const pitchLevelLength = 422 + p.level * 40;
-                    const partialBarPath = `M 422 92 H ${pitchLevelLength} v 20 H 422 z`;
-                        directionFill.setAttribute('d', partialBarPath);
-                } else {
-                    const fullBarPath = 'M 422 92 H 702 l 10 10 l -10 10 H 422 z';
-                    directionFill.setAttribute('d', fullBarPath);
-                }
+            quantityGroup = 'double-group';
+            barMinY = 92;
+            barH = 20;
+        }
+
+        const directionFill = this.querySelector(`#${dir.toLowerCase()} .${quantityGroup} .fill`);
+        if (directionFill) {
+            if (p.level && p.level < 7) {
+                const pitchLevelLength = 422 + p.level * 40;
+                const partialBarPath = `M 422 ${barMinY} H ${pitchLevelLength} v ${barH} H 422 z`;
+                directionFill.setAttribute('d', partialBarPath);
+            } else {
+                const fullBarPath = `M 422 ${barMinY} H 702 l ${barH / 2} ${barH / 2} l -${barH / 2} ${barH / 2} H 422 z`;
+                directionFill.setAttribute('d', fullBarPath);
             }
         }
     });
