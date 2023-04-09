@@ -18,16 +18,16 @@ function updatePitchChart(pitches) {
     let directionsUsed = pitches.map(p => all_pitches[p.id].Direction);
     
     directions.slice(1).forEach(d => {
-        const directionFill = this.querySelector(`#${d.toLowerCase()} .fill`);
-        if (directionFill) {
+        const directionFills = this.querySelectorAll(`#${d.toLowerCase()} .fill`);
+        directionFills.forEach(fill => {
             if (directionsUsed.includes(d)) {
                 // Make sure fills of directions that are used are shown.
-                directionFill.classList.remove('hidden');
+                fill.classList.remove('hidden');
             } else {
                 // Hide fills of directions not being used.
-                directionFill.classList.add('hidden');
+                fill.classList.add('hidden');
             }
-        }
+        });
     }, this);
 
     // TODO: add code for pitches that use Up, but are in place of 4SFB+ (SP Fastball?)
