@@ -17,7 +17,7 @@ function updatePitchChart(pitches) {
     /** @type {string[]} */
     let directionsUsed = pitches.map(p => all_pitches[p.id].Direction);
     
-    directions.forEach(d => {
+    directions.slice(1).forEach(d => {
         const directionFill = this.querySelector(`#${d.toLowerCase()} .fill`);
         if (directionFill) {
             if (directionsUsed.includes(d)) {
