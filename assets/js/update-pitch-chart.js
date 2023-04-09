@@ -71,7 +71,7 @@ function updatePitchChart(pitches) {
         const directionDoubleGroup = this.querySelector(`#${dir.toLowerCase()} .double-group`);
         const directionSingleGroup = this.querySelector(`#${dir.toLowerCase()} .single-group`);
         
-        let quantityGroup = '';
+        let groupClass = '';
         /** @type {number} */
         let barMinY;
         /** @type {number} */
@@ -84,7 +84,7 @@ function updatePitchChart(pitches) {
                 directionDoubleGroup.classList.add('hidden');
             }
 
-            quantityGroup = 'single-group';
+            groupClass = '.single-group';
             barMinY = 82;
             barH = 40;
         } else {
@@ -93,23 +93,19 @@ function updatePitchChart(pitches) {
                 directionDoubleGroup.classList.remove('hidden');
             }
 
-            /** @type {string} */
-            let groupClass;
-
             // If there is another pitch coming up in the sequence with the same dir
             // in other words, returns true if this is the first of a double-direction
             if (arr.some((v, j) => all_pitches[v.id].Direction == all_pitches[p.id].Direction && j > i)) {
-                groupClass = 'pitch-1-group';
+                groupClass = '.double-group .pitch-1-group';
             } else {
-                groupClass = 'pitch-2-group';
+                groupClass = '.double-group .pitch-2-group';
             }
 
-            quantityGroup = 'double-group';
             barMinY = 92;
             barH = 20;
         }
 
-        const directionFill = this.querySelector(`#${dir.toLowerCase()} .${quantityGroup} .fill`);
+        const directionFill = this.querySelector(`#${dir.toLowerCase()} ${groupClass} .fill`);
         if (directionFill) {
             if (p.level && p.level < 7) {
                 const pitchLevelLength = 422 + p.level * 40;
