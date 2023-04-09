@@ -5,6 +5,9 @@
         .gradient {
             stroke: none;
         }
+        .hidden {
+            display: none;
+        }
     </style>
     <defs>
         <linearGradient id="base-background-gradient">
