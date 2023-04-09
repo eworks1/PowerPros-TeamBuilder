@@ -24,7 +24,7 @@ function updatePitchChart(pitches) {
         const directionFill = this.querySelector(`#${d.toLowerCase()} .fill`);
 
         if (directionFill) {
-            directionFill.setAttribute('display', 'none');
+            directionFill.classList.add('hidden');
         }
     });
 
@@ -32,7 +32,7 @@ function updatePitchChart(pitches) {
     directionsUsed.forEach(d => {
         const directionFill = this.querySelector(`#${d.toLowerCase()} .fill`);
         if (directionFill) {
-            directionFill.removeAttribute('display');
+            directionFill.classList.remove('hidden');
         }
     });
 
@@ -44,11 +44,11 @@ function updatePitchChart(pitches) {
     if (singleUp && doubleUpGroup) {
         // If there is an Up breaking ball, hide single-up and show double-up
         if (directionsUsed.includes('Up')) {
-            singleUp.setAttribute('display', 'none');
-            doubleUpGroup.removeAttribute('display');
+            singleUp.classList.add('hidden');
+            doubleUpGroup.classList.remove('hidden');
         } else { // Otherwise show single-up and hide double-up
-            singleUp.removeAttribute('display');
-            doubleUpGroup.setAttribute('display', 'none');
+            singleUp.classList.remove('hidden');
+            doubleUpGroup.classList.add('hidden');
         }
     }
 
