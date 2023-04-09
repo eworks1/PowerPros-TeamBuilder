@@ -16,23 +16,17 @@ const directions = [
 function updatePitchChart(pitches) {
     /** @type {string[]} */
     let directionsUsed = pitches.map(p => all_pitches[p.id].Direction);
-    let missingDirections = directions
-        .filter(d => !directionsUsed.includes(d));
     
-    // Hide fills of directions not being used.
-    missingDirections.forEach(d => {
-        const directionFill = this.querySelector(`#${d.toLowerCase()} .fill`);
-
-        if (directionFill) {
-            directionFill.classList.add('hidden');
-        }
-    });
-
-    // Make sure fills of directions that are used are shown.
-    directionsUsed.forEach(d => {
+    directions.forEach(d => {
         const directionFill = this.querySelector(`#${d.toLowerCase()} .fill`);
         if (directionFill) {
-            directionFill.classList.remove('hidden');
+            if (directionsUsed.includes(d)) {
+                // Make sure fills of directions that are used are shown.
+                directionFill.classList.remove('hidden');
+            } else {
+                // Hide fills of directions not being used.
+                directionFill.classList.add('hidden');
+            }
         }
     });
 
