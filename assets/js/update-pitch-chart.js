@@ -32,7 +32,7 @@ function updatePitchChart(pitches, leftHanded) {
         const singleGroup = this.querySelector(`#${d.toLowerCase()} .single-group`);
         const doubleGroup = this.querySelector(`#${d.toLowerCase()} .double-group`);
         if (singleGroup && doubleGroup && directionFills.length > 0) {
-            directionFills.forEach(fill => {
+            for (const fill of directionFills) {
                 if (directionsUsed.includes(d)) {
                     // Make sure fills of directions that are used are shown.
                     fill.classList.remove('hidden');
@@ -43,7 +43,7 @@ function updatePitchChart(pitches, leftHanded) {
                     singleGroup.classList.remove('hidden');
                     doubleGroup.classList.add('hidden');
                 }
-            });
+            }
         }
     }, this);
 
