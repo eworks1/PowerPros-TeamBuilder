@@ -54,7 +54,7 @@ function updatePitchChart(pitches, leftHanded) {
     const doubleUpGroup = this.getElementById('double-up-group');
     if (singleUp && doubleUpGroup) {
         // If there is an Up breaking ball, hide single-up and show double-up
-        if (directionsUsed.includes('Up')) {
+        if (directionsUsed.includes('Up 2')) {
             singleUp.classList.add('hidden');
             doubleUpGroup.classList.remove('hidden');
         } else { // Otherwise show single-up and hide double-up
