@@ -1,7 +1,6 @@
 // assume right is inside, left is outside, if pitcher throws L => mirror horizontally 
 
 const directions = [
-    'Up',
     'Inside',
     'Down-Inside',
     'Down',
@@ -28,7 +27,7 @@ function updatePitchChart(pitches, leftHanded) {
         }
     }
     
-    directions.slice(1).forEach(d => {
+    directions.forEach(d => {
         const directionFills = this.querySelectorAll(`#${d.toLowerCase()} .fill`);
         const singleGroup = this.querySelector(`#${d.toLowerCase()} .single-group`);
         const doubleGroup = this.querySelector(`#${d.toLowerCase()} .double-group`);
