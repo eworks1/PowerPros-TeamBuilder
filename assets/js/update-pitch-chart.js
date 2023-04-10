@@ -30,8 +30,9 @@ function updatePitchChart(pitches, leftHanded) {
     
     directions.slice(1).forEach(d => {
         const directionFills = this.querySelectorAll(`#${d.toLowerCase()} .fill`);
+        const singleGroup = this.querySelector(`#${d.toLowerCase()} .single-group`);
         const doubleGroup = this.querySelector(`#${d.toLowerCase()} .double-group`);
-        if (doubleGroup && directionFills.length > 0) {
+        if (singleGroup && doubleGroup && directionFills.length > 0) {
             directionFills.forEach(fill => {
                 if (directionsUsed.includes(d)) {
                     // Make sure fills of directions that are used are shown.
@@ -40,6 +41,7 @@ function updatePitchChart(pitches, leftHanded) {
                 } else {
                     // Hide fills of directions not being used.
                     fill.classList.add('hidden');
+                    singleGroup.classList.remove('hidden');
                     doubleGroup.classList.add('hidden');
                 }
             });
