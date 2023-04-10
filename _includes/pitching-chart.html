@@ -2,9 +2,12 @@
 <script>
     const object = document.getElementById('pitching-chart');
     object.addEventListener('load', (ev) => {
-        updatePitchChart.call(
+        updatePitchChart.apply(
             ev.srcElement.contentDocument,
-            {{ include.pitches | jsonify }}
+            [
+                {{ include.pitches | jsonify }},
+                {{ include.handedness == 'L' }}
+            ]
         );
     });
 </script>
