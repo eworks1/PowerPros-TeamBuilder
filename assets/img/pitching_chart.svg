@@ -8,6 +8,9 @@
         .hidden {
             display: none;
         }
+        .left-handed {
+            transform: scale(-1, 1);
+        }
     </style>
     <defs>
         <linearGradient id="base-background-gradient">
