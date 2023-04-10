@@ -12,10 +12,21 @@ const directions = [
 /**
  * @this {Document}
  * @param {{id: string, level: number | null}[]} pitches 
+ * @param {boolean} leftHanded
  */
-function updatePitchChart(pitches) {
+function updatePitchChart(pitches, leftHanded) {
     /** @type {string[]} */
     let directionsUsed = pitches.map(p => all_pitches[p.id].Direction);
+    
+    // Mirror horizontally if left-handed
+    const bodyGroup = this.getElementById('pitching-chart-body');
+    if (bodyGroup) {
+        if (leftHanded) {
+            bodyGroup.classList.add('left-handed')
+        } else {
+            bodyGroup.classList.remove('left-handed')
+        }
+    }
     
     directions.slice(1).forEach(d => {
         const directionFills = this.querySelectorAll(`#${d.toLowerCase()} .fill`);
