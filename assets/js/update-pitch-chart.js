@@ -47,8 +47,6 @@ function updatePitchChart(pitches, leftHanded) {
         }
     }, this);
 
-    // TODO: add code for pitches that use Up, but are in place of 4SFB+ (SP Fastball?)
-
     // Show/hide up arrows
     const singleUp = this.getElementById('single-up');
     const doubleUpGroup = this.getElementById('double-up-group');
