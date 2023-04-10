@@ -3,7 +3,7 @@
         "2SFB": {
             "Name": "2-Seam Fastball",
             "Abbreviation": "2SFB",
-            "Direction": "Up"
+            "Direction": "Up 2"
         },
         "12CV": {
             "Name": "12-6 Curveball",
@@ -33,7 +33,7 @@
         "EP": {
             "Name": "Eephus",
             "Abbreviation": "EP",
-            "Direction": "Up"
+            "Direction": "Up 2"
         },
         "FRK": {
             "Name": "Forkball",
@@ -68,7 +68,7 @@
         "MFB": {
             "Name": "Moving Fastball",
             "Abbreviation": "MFB",
-            "Direction": "Up"
+            "Direction": "Up 2"
         },
         "PLM": {
             "Name": "Palmball",
@@ -128,17 +128,17 @@
         "SP Fastball 1": {
             "Name": "SP Fastball 1",
             "Abbreviation": "SP Fastball 1",
-            "Direction": "Up"
+            "Direction": "Up 1"
         },
         "SP Fastball 2": {
             "Name": "SP Fastball 2",
             "Abbreviation": "SP Fastball 2",
-            "Direction": "Up"
+            "Direction": "Up 2"
         },
         "SP Fastball 3": {
             "Name": "SP Fastball 3",
             "Abbreviation": "SP Fastball 3",
-            "Direction": "Up"
+            "Direction": "Up 1"
         },
         "SP Forkball 1": {
             "Name": "SP Forkball 1",
