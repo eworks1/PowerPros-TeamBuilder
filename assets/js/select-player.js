@@ -210,9 +210,12 @@ function playerClicked(player) {
     // Pitching Chart (Pitching Detail)
     const pitchingChartObj = document.getElementById('pitching-chart');
     if (pitchingChartObj) {
-        updatePitchChart.call(
+        updatePitchChart.apply(
             pitchingChartObj.contentDocument,
-            player["Breaking Balls"]
+            [
+                player["Breaking Balls"],
+                player.Throws == 'L'
+            ]
         );
     }
 }
