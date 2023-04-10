@@ -19,15 +19,20 @@ function updatePitchChart(pitches) {
     
     directions.slice(1).forEach(d => {
         const directionFills = this.querySelectorAll(`#${d.toLowerCase()} .fill`);
-        directionFills.forEach(fill => {
-            if (directionsUsed.includes(d)) {
-                // Make sure fills of directions that are used are shown.
-                fill.classList.remove('hidden');
-            } else {
-                // Hide fills of directions not being used.
-                fill.classList.add('hidden');
-            }
-        });
+        const doubleGroup = this.querySelector(`#${d.toLowerCase()} .double-group`);
+        if (doubleGroup && directionFills.length > 0) {
+            directionFills.forEach(fill => {
+                if (directionsUsed.includes(d)) {
+                    // Make sure fills of directions that are used are shown.
+                    fill.classList.remove('hidden');
+                    doubleGroup.classList.remove('hidden');
+                } else {
+                    // Hide fills of directions not being used.
+                    fill.classList.add('hidden');
+                    doubleGroup.classList.add('hidden');
+                }
+            });
+        }
     }, this);
 
     // TODO: add code for pitches that use Up, but are in place of 4SFB+ (SP Fastball?)
