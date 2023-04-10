@@ -77,7 +77,8 @@ function updatePitchChart(pitches, leftHanded) {
     pitches.forEach((p, i, arr) => {
         /** @type {{Name: string, Abbreviation: string, Direction: string}} */
         const fullPitch = all_pitches[p.id];
-        const dir = fullPitch.Direction;
+        const dir = fullPitch.Direction
+            .replace(/ \d/, '');
         
         const directionDoubleGroup = this.querySelector(`#${dir.toLowerCase()} .double-group`);
         const directionSingleGroup = this.querySelector(`#${dir.toLowerCase()} .single-group`);
