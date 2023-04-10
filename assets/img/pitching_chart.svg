@@ -10,6 +10,7 @@
         }
         .left-handed {
             transform: scaleX(-1);
+            transform-origin: 50%;
         }
     </style>
     <defs>
