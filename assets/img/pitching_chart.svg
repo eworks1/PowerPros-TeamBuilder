@@ -9,7 +9,7 @@
             display: none;
         }
         .left-handed {
-            transform: scale(-1, 1);
+            transform: scaleX(-1);
         }
     </style>
     <defs>
