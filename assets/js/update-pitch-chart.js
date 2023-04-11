@@ -48,7 +48,7 @@ function updatePitchChart(pitches, leftHanded) {
         }
 
         // Hide all directional labels in prep for showing the used ones later
-        const labelID = `${d.toLowerCase()}-label`;
+        const labelID = `${relativeDirToAbsolute(d.toLowerCase(), leftHanded)}-label`;
         const label1 = this.getElementById(`${labelID}-1`);
         const label2 = this.getElementById(`${labelID}-2`);
         if (label1 && label2) {
@@ -141,7 +141,7 @@ function updatePitchChart(pitches, leftHanded) {
             if (dir.toLowerCase().includes('down-')) {
                 labelNum = 2;
             }
-            const label = this.getElementById(`${dir.toLowerCase()}-label-${labelNum}`);
+            const label = this.getElementById(`${relativeDirToAbsolute(dir.toLowerCase(), leftHanded)}-label-${labelNum}`);
             if (label) {
                 label.classList.remove('hidden');
                 label.innerText = p.id;
@@ -168,7 +168,7 @@ function updatePitchChart(pitches, leftHanded) {
             barH = 20;
 
             // Show label
-            const label = this.getElementById(`${dir.toLowerCase()}-label-${labelNum}`);
+            const label = this.getElementById(`${relativeDirToAbsolute(dir.toLowerCase(), leftHanded)}-label-${labelNum}`);
             if (label) {
                 label.classList.remove('hidden');
                 label.innerText = p.id;
@@ -187,4 +187,15 @@ function updatePitchChart(pitches, leftHanded) {
             }
         }
     }, this);
+}
+
+/**
+ * @param {string} direction 
+ * @param {boolean} leftHanded
+ * @returns {string}
+ */
+function relativeDirToAbsolute(direction, leftHanded) {
+    return direction.toLowerCase()
+        .replace('inside', leftHanded ? 'left' : 'right')
+        .replace('outside', leftHanded ? 'right' : 'left');
 }
