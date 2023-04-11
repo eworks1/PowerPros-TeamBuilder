@@ -53,6 +53,42 @@
         }],
         "Special Abilities (Pitching)": ["W/RISP B", "Agile B", "Recovery C", "Reflexes", "Gripper"]
     }, {
+        "id": "A.Aznable-279",
+        "Name": "Anne Aznable",
+        "Name Abbreviation": "A.Aznable",
+        "Jersey Number": null,
+        "Field Position": ["MR"],
+        "Throws": "L",
+        "Bats": "L",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 279,
+        "Point Cost": 0,
+        "Trajectory": 3,
+        "Contact": 55,
+        "Power": 55,
+        "Run Speed": 55,
+        "Arm Strength": 61,
+        "Fielding": 58,
+        "Error Resistance": 35,
+        "Special Abilities (Fielder)": null,
+        "Top Speed": 143,
+        "Control": 65,
+        "Stamina": 45,
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": 2
+        }, {
+            "id": "CB",
+            "level": 3
+        }, {
+            "id": "FRK",
+            "level": 3
+        }, {
+            "id": "SHU",
+            "level": 1
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Reflexes"]
+    }, {
         "id": "A.Yabe-333",
         "Name": "Akio Yabe",
         "Name Abbreviation": "A.Yabe",
@@ -76,6 +112,39 @@
         "Stamina": 1,
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
+    }, {
+        "id": "Aasa-483",
+        "Name": "Ouma Aasa",
+        "Name Abbreviation": "Aasa",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 483,
+        "Point Cost": 12,
+        "Trajectory": 4,
+        "Contact": 75,
+        "Power": 75,
+        "Run Speed": 30,
+        "Arm Strength": 75,
+        "Fielding": 60,
+        "Error Resistance": 40,
+        "Special Abilities (Fielder)": ["Throwing C", "Slugger", "Rally", "Victor"],
+        "Top Speed": 155,
+        "Control": 50,
+        "Stamina": 80,
+        "Breaking Balls": [{
+            "id": "HSL",
+            "level": 3
+        }, {
+            "id": "HSHU",
+            "level": 3
+        }, {
+            "id": "SP Forkball 8",
+            "level": 6
+        }],
+        "Special Abilities (Pitching)": ["Poise A", "Bullet", "Recovery C", "Carver", "Ironball", "Breaking Ball Pitcher", "Pace"]
     }, {
         "id": "Abata-318",
         "Name": "Yasushi Abata",
@@ -533,6 +602,30 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "B.Marushima-369",
+        "Name": "Bat Marushima",
+        "Name Abbreviation": "B.Marushima",
+        "Jersey Number": null,
+        "Field Position": ["SS", "1B", "2B", "3B"],
+        "Throws": "R",
+        "Bats": "S",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 369,
+        "Point Cost": 4,
+        "Trajectory": 2,
+        "Contact": 62,
+        "Power": 68,
+        "Run Speed": 73,
+        "Arm Strength": 65,
+        "Fielding": 65,
+        "Error Resistance": 78,
+        "Special Abilities (Fielder)": ["Clutch B", "Stealing B", "Runner B", "Push Hit", "Glover", "Good Eye", "Aggressive Hitter", "Aggressive Stealing", "Aggressive Running", "Aggressive Fielding"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Ban-363",
         "Name": "Hanji Ban",
         "Name Abbreviation": "Ban",
@@ -818,6 +911,30 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "Daichiman-356",
+        "Name": "Daikichi Daichiman",
+        "Name Abbreviation": "Daichiman",
+        "Jersey Number": null,
+        "Field Position": ["1B"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 356,
+        "Point Cost": 5,
+        "Trajectory": 4,
+        "Contact": 55,
+        "Power": 85,
+        "Run Speed": 40,
+        "Arm Strength": 45,
+        "Fielding": 60,
+        "Error Resistance": 60,
+        "Special Abilities (Fielder)": ["Clutch A", "Vs. LHP C", "Slugger", "Menace", "Morale"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Daigogetsu-524",
         "Name": "Daigogetsu",
         "Name Abbreviation": "Daigogetsu",
@@ -851,6 +968,87 @@
         }],
         "Special Abilities (Pitching)": ["Ironball", "Tyrant", "Bluffer", "Meatball"]
     }, {
+        "id": "Doe-559",
+        "Name": "Ryuga Doe",
+        "Name Abbreviation": "Doe",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "L",
+        "Bats": "S",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 559,
+        "Point Cost": 10,
+        "Trajectory": 4,
+        "Contact": 75,
+        "Power": 90,
+        "Run Speed": 10,
+        "Arm Strength": 70,
+        "Fielding": 80,
+        "Error Resistance": 50,
+        "Special Abilities (Fielder)": ["Clutch B", "Slinical", "Slugger", "Sprayer", "Low Hit"],
+        "Top Speed": 151,
+        "Control": 85,
+        "Stamina": 95,
+        "Breaking Balls": [{
+            "id": "SHU",
+            "level": 3
+        }, {
+            "id": "KN",
+            "level": 3
+        }, {
+            "id": "CUT",
+            "level": 7
+        }],
+        "Special Abilities (Pitching)": ["Poise B", "Heater B", "Recovery C", "Ironball", "Trusty", "Chill"]
+    }, {
+        "id": "Doken-320",
+        "Name": "Reiji Doken",
+        "Name Abbreviation": "Doken",
+        "Jersey Number": null,
+        "Field Position": ["C", "1B"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 320,
+        "Point Cost": 4,
+        "Trajectory": 3,
+        "Contact": 50,
+        "Power": 70,
+        "Run Speed": 35,
+        "Arm Strength": 73,
+        "Fielding": 70,
+        "Error Resistance": 59,
+        "Special Abilities (Fielder)": ["Catcher B", "Grit C", "Throwing C", "Slugger", "Trucker", "Slugger", "Aggressive Hitter"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Domon-316",
+        "Name": "Kion Domon",
+        "Name Abbreviation": "Domon",
+        "Jersey Number": null,
+        "Field Position": ["1B", "2B", "SS"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 316,
+        "Point Cost": 3,
+        "Trajectory": 3,
+        "Contact": 73,
+        "Power": 50,
+        "Run Speed": 70,
+        "Arm Strength": 50,
+        "Fielding": 65,
+        "Error Resistance": 55,
+        "Special Abilities (Fielder)": ["Clutch B", "Recovery C", "Clinical", "Clutch"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Edogawa-347",
         "Name": "Bunraku Edogawa",
         "Name Abbreviation": "Edogawa",
@@ -869,6 +1067,30 @@
         "Fielding": 67,
         "Error Resistance": 61,
         "Special Abilities (Fielder)": ["Slugger", "Pull Hit", "Setter", "Rally", "Morale", "Slam Fan"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Emori-280",
+        "Name": "You Emori",
+        "Name Abbreviation": "Emori",
+        "Jersey Number": null,
+        "Field Position": ["SS", "OF"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 280,
+        "Point Cost": 2,
+        "Trajectory": 2,
+        "Contact": 46,
+        "Power": 48,
+        "Run Speed": 57,
+        "Arm Strength": 63,
+        "Fielding": 82,
+        "Error Resistance": 62,
+        "Special Abilities (Fielder)": ["Stealing C", "Hot Bat", "Glover", "Morale", "Grounder", "Good Eye", "Aggressive Hitter", "Aggressive Fielding", "Selfless"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
@@ -1052,6 +1274,30 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "Furunaga-349",
+        "Name": "Eiji Furunaga",
+        "Name Abbreviation": "Furunaga",
+        "Jersey Number": null,
+        "Field Position": ["3B", "SS"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 349,
+        "Point Cost": 4,
+        "Trajectory": 4,
+        "Contact": 45,
+        "Power": 80,
+        "Run Speed": 50,
+        "Arm Strength": 70,
+        "Fielding": 60,
+        "Error Resistance": 70,
+        "Special Abilities (Fielder)": ["Slugger", "Pull Hit", "High Hit"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "G.Bhattarai-357",
         "Name": "Gyanendra Bhattarai",
         "Name Abbreviation": "G.Bhattarai",
@@ -1133,6 +1379,30 @@
         }],
         "Special Abilities (Pitching)": ["Dr. K", "Downplay"]
     }, {
+        "id": "Gobu-378",
+        "Name": "Rinto Gobu",
+        "Name Abbreviation": "Gobu",
+        "Jersey Number": null,
+        "Field Position": ["C", "SS", "2B", "3B"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 378,
+        "Point Cost": 5,
+        "Trajectory": 3,
+        "Contact": 65,
+        "Power": 65,
+        "Run Speed": 65,
+        "Arm Strength": 60,
+        "Fielding": 80,
+        "Error Resistance": 70,
+        "Special Abilities (Fielder)": ["Vs. LHP A", "Catcher B", "Throwing A", "Slugger", "Slugger", "Aggressive Hitter", "Aggressive Running", "Aggressive Fielding"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": "Hot Head"
+    }, {
         "id": "Gunji-288",
         "Name": "Tomomasa Gunji",
         "Name Abbreviation": "Gunji",
@@ -1151,6 +1421,30 @@
         "Fielding": 60,
         "Error Resistance": 60,
         "Special Abilities (Fielder)": ["Catcher C", "Recovery C", "Survivor", "Setter", "Clutch", "Good Eye", "Slugger"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Hachikiri-306",
+        "Name": "Yuuto Hachikiri",
+        "Name Abbreviation": "Hachikiri",
+        "Jersey Number": null,
+        "Field Position": ["C", "1B"],
+        "Throws": "R",
+        "Bats": "L",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 306,
+        "Point Cost": 2,
+        "Trajectory": 2,
+        "Contact": 55,
+        "Power": 58,
+        "Run Speed": 41,
+        "Arm Strength": 75,
+        "Fielding": 53,
+        "Error Resistance": 83,
+        "Special Abilities (Fielder)": ["Vs. LHP B", "Catcher B", "Throwing C", "Takeout", "Breaker", "Insurer", "Level-Headed"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
@@ -1484,6 +1778,30 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "Hino-451",
+        "Name": "Yutaro Hino",
+        "Name Abbreviation": "Hino",
+        "Jersey Number": null,
+        "Field Position": ["OF"],
+        "Throws": "R",
+        "Bats": "L",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 451,
+        "Point Cost": 6,
+        "Trajectory": 3,
+        "Contact": 85,
+        "Power": 85,
+        "Run Speed": 85,
+        "Arm Strength": 67,
+        "Fielding": 58,
+        "Error Resistance": 10,
+        "Special Abilities (Fielder)": ["Clutch A", "Stealing A", "Throwing C", "Clinical", "Sprayer", "Blunder"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Hisakata-378",
         "Name": "Rei Hisakata",
         "Name Abbreviation": "Hisakata",
@@ -1544,6 +1862,39 @@
         }, {
             "id": "2SFB",
             "level": null
+        }],
+        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Pace"]
+    }, {
+        "id": "Hokuto-455",
+        "Name": "Yakumo Hokuto",
+        "Name Abbreviation": "Hokuto",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "L",
+        "Bats": "L",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 455,
+        "Point Cost": 8,
+        "Trajectory": 3,
+        "Contact": 60,
+        "Power": 65,
+        "Run Speed": 50,
+        "Arm Strength": 70,
+        "Fielding": 50,
+        "Error Resistance": 30,
+        "Special Abilities (Fielder)": "Throwing C",
+        "Top Speed": 151,
+        "Control": 80,
+        "Stamina": 75,
+        "Breaking Balls": [{
+            "id": "2SFB",
+            "level": null
+        }, {
+            "id": "FRK",
+            "level": 6
+        }, {
+            "id": "CUT",
+            "level": 6
         }],
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Pace"]
     }, {
@@ -1793,6 +2144,39 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "Ino-359",
+        "Name": "Reiji Ino",
+        "Name Abbreviation": "Ino",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "L",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 359,
+        "Point Cost": 2,
+        "Trajectory": 3,
+        "Contact": 66,
+        "Power": 55,
+        "Run Speed": 33,
+        "Arm Strength": 55,
+        "Fielding": 44,
+        "Error Resistance": 55,
+        "Special Abilities (Fielder)": ["Clinical", "Good Eye"],
+        "Top Speed": 138,
+        "Control": 75,
+        "Stamina": 70,
+        "Breaking Balls": [{
+            "id": "CIR",
+            "level": 4
+        }, {
+            "id": "SPL",
+            "level": 3
+        }, {
+            "id": "SCV",
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Gripper", "Toolkit", "Breaking Ball Pitcher"]
+    }, {
         "id": "Inukawa-316",
         "Name": "Kazune Inukawa",
         "Name Abbreviation": "Inukawa",
@@ -1825,6 +2209,39 @@
             "level": 2
         }],
         "Special Abilities (Pitching)": ["Poise F", "Recovery C", "Bluffer", "Downplay", "Pace"]
+    }, {
+        "id": "Inuki-470",
+        "Name": "Yamato Inuki",
+        "Name Abbreviation": "Inuki",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 470,
+        "Point Cost": 3,
+        "Trajectory": 2,
+        "Contact": 35,
+        "Power": 60,
+        "Run Speed": 50,
+        "Arm Strength": 67,
+        "Fielding": 50,
+        "Error Resistance": 50,
+        "Special Abilities (Fielder)": null,
+        "Top Speed": 148,
+        "Control": 99,
+        "Stamina": 65,
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": 3
+        }, {
+            "id": "CH",
+            "level": 4
+        }, {
+            "id": "SNK",
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["w/RISP A", "Poise B", "Recovery C", "Low Ball", "Bluffer", "Chill"]
     }, {
         "id": "Isamura-390",
         "Name": "Takeshi Isamura",
@@ -2009,6 +2426,30 @@
         }],
         "Special Abilities (Pitching)": ["Recovery C", "Gyroball", "Reflexes", "Guts", "Pace"]
     }, {
+        "id": "Javelin-378",
+        "Name": "Yukari Igarashi (Javelin)",
+        "Name Abbreviation": "Javelin",
+        "Jersey Number": null,
+        "Field Position": ["SS", "3B"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 378,
+        "Point Cost": 5,
+        "Trajectory": 3,
+        "Contact": 69,
+        "Power": 70,
+        "Run Speed": 79,
+        "Arm Strength": 70,
+        "Fielding": 63,
+        "Error Resistance": 55,
+        "Special Abilities (Fielder)": ["Runner B", "Throwing C", "Clinical", "Squibber", "Aggressive Runner", "Aggressive Fielding"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Jinguji-277",
         "Name": "Hikaru Jinguji",
         "Name Abbreviation": "Jinguji",
@@ -2120,6 +2561,30 @@
         }],
         "Special Abilities (Pitching)": ["Heater A", "Agile F", "Recovery C", "Ironball", "Guts"]
     }, {
+        "id": "K.Morales-384",
+        "Name": "Kyle Morales",
+        "Name Abbreviation": "K.Morales",
+        "Jersey Number": null,
+        "Field Position": ["OF", "SS"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 384,
+        "Point Cost": 4,
+        "Trajectory": 2,
+        "Contact": 65,
+        "Power": 50,
+        "Run Speed": 90,
+        "Arm Strength": 55,
+        "Fielding": 80,
+        "Error Resistance": 60,
+        "Special Abilities (Fielder)": ["Stealing A", "Hustle", "Recovery C", "Bunt Ace", "Squibber", "Jester", "Star", "Slap Hitter", "Aggressive Runner"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Kagami-404",
         "Name": "Kuuya Kagami",
         "Name Abbreviation": "Kagami",
@@ -2203,6 +2668,39 @@
             "level": 3
         }],
         "Special Abilities (Pitching)": ["Poise B", "Recovery C"]
+    }, {
+        "id": "Kaji-443",
+        "Name": "Masuto Kaji",
+        "Name Abbreviation": "Kaji",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 443,
+        "Point Cost": 4,
+        "Trajectory": 1,
+        "Contact": 50,
+        "Power": 40,
+        "Run Speed": 55,
+        "Arm Strength": 70,
+        "Fielding": 50,
+        "Error Resistance": 50,
+        "Special Abilities (Fielder)": "Throwing C",
+        "Top Speed": 151,
+        "Control": 80,
+        "Stamina": 80,
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": 3
+        }, {
+            "id": "FRK",
+            "level": 3
+        }, {
+            "id": "SHU",
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["W/RISP A", "Poise A", "Recovery C", "Lucky"]
     }, {
         "id": "Kamase-234",
         "Name": "Touma Kamase",
@@ -2360,6 +2858,36 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "Katori-293",
+        "Name": "Senga Katori",
+        "Name Abbreviation": "Katori",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP", "1B"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 293,
+        "Point Cost": 0,
+        "Trajectory": 3,
+        "Contact": 40,
+        "Power": 40,
+        "Run Speed": 40,
+        "Arm Strength": 40,
+        "Fielding": 50,
+        "Error Resistance": 40,
+        "Special Abilities (Fielder)": null,
+        "Top Speed": 140,
+        "Control": 60,
+        "Stamina": 50,
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": 3
+        }, {
+            "id": "CB",
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Vs. LHB C", "Recovery C", "Engineer", "Lucky", "Power Pitcher"]
+    }, {
         "id": "Kawahoshi-258",
         "Name": "Homura Kawahoshi",
         "Name Abbreviation": "Kawahoshi",
@@ -2378,6 +2906,66 @@
         "Fielding": 58,
         "Error Resistance": 55,
         "Special Abilities (Fielder)": ["Clutch A", "Throwing E", "Hot Bat", "Squibber", "Refined", "Morale", "Clutch", "Trucker", "Diver", "Aggressive Fielding"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Kazanagi-440",
+        "Name": "Hyo Kazanagi",
+        "Name Abbreviation": "Kazanagi",
+        "Jersey Number": null,
+        "Field Position": ["SS", "1B", "2B"],
+        "Throws": "R",
+        "Bats": "S",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 440,
+        "Point Cost": 7,
+        "Trajectory": 3,
+        "Contact": 69,
+        "Power": 69,
+        "Run Speed": 69,
+        "Arm Strength": 69,
+        "Fielding": 69,
+        "Error Resistance": 69,
+        "Special Abilities (Fielder)": ["Vs. LHP A", "Grit B", "Stealing B", "Runner B", "Throwing C", "Clinical", "Sprayer", "Push Hit", "Squibber", "Eager", "Setter", "Low Hit", "Level-Headed", "Good Eye", "Star"],
+        "Top Speed": 139,
+        "Control": 40,
+        "Stamina": 40,
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": 1
+        }, {
+            "id": "CB",
+            "level": 1
+        }, {
+            "id": "FRK",
+            "level": 1
+        }, {
+            "id": "SHU",
+            "level": 1
+        }],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Kazanin-289",
+        "Name": "Yu Kazanin",
+        "Name Abbreviation": "Kazanin",
+        "Jersey Number": null,
+        "Field Position": ["OF"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 289,
+        "Point Cost": 1,
+        "Trajectory": 1,
+        "Contact": 65,
+        "Power": 50,
+        "Run Speed": 84,
+        "Arm Strength": 50,
+        "Fielding": 50,
+        "Error Resistance": 30,
+        "Special Abilities (Fielder)": ["Runner A", "Joker", "Squibber", "Slap Hitter", "Aggressive Runner", "Aggressive Fielding"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
@@ -2419,6 +3007,39 @@
             "level": null
         }],
         "Special Abilities (Pitching)": ["Heater A", "Recovery C", "Gyroball", "Ironball", "Crossfire", "Power P"]
+    }, {
+        "id": "Kikudo-233",
+        "Name": "Aira Kikudo",
+        "Name Abbreviation": "Kikudo",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 233,
+        "Point Cost": 0,
+        "Trajectory": 1,
+        "Contact": 35,
+        "Power": 25,
+        "Run Speed": 45,
+        "Arm Strength": 60,
+        "Fielding": 55,
+        "Error Resistance": 40,
+        "Special Abilities (Fielder)": ["Hot Bat", "Clutch"],
+        "Top Speed": 142,
+        "Control": 47,
+        "Stamina": 34,
+        "Breaking Balls": [{
+            "id": "CUT",
+            "level": 2
+        }, {
+            "id": "SLV",
+            "level": 2
+        }, {
+            "id": "SPL",
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Gyroball", "Momentum", "Battler"]
     }, {
         "id": "Kino-372",
         "Name": "Kouichi Kino",
@@ -2602,6 +3223,33 @@
         "Stamina": 1,
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
+    }, {
+        "id": "Kujo-420",
+        "Name": "Bannou Kujo",
+        "Name Abbreviation": "Kujo",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "L",
+        "Bats": "L",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 420,
+        "Point Cost": 1,
+        "Trajectory": 1,
+        "Contact": 42,
+        "Power": 30,
+        "Run Speed": 48,
+        "Arm Strength": 89,
+        "Fielding": 69,
+        "Error Resistance": 51,
+        "Special Abilities (Fielder)": ["Throwing C", "Bunt"],
+        "Top Speed": 152,
+        "Control": 78,
+        "Stamina": 92,
+        "Breaking Balls": [{
+            "id": "SCR",
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["Poise F", "Dynamo"]
     }, {
         "id": "Kuon-290",
         "Name": "Hikaru Kuon",
@@ -3044,6 +3692,63 @@
         }],
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Ironball", "Trusty", "Power Pitcher"]
     }, {
+        "id": "Mileman-433",
+        "Name": "Terry Mileman",
+        "Name Abbreviation": "Mileman",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 433,
+        "Point Cost": 11,
+        "Trajectory": 2,
+        "Contact": 51,
+        "Power": 44,
+        "Run Speed": 50,
+        "Arm Strength": 71,
+        "Fielding": 59,
+        "Error Resistance": 50,
+        "Special Abilities (Fielder)": null,
+        "Top Speed": 160,
+        "Control": 45,
+        "Stamina": 85,
+        "Breaking Balls": [{
+            "id": "SP Fastball 6",
+            "level": null
+        }, {
+            "id": "HSL",
+            "level": 2
+        }, {
+            "id": "SPL",
+            "level": 4
+        }],
+        "Special Abilities (Pitching)": ["W/RISP B", "Heater B", "Recovery C", "Cutter", "Ironball", "Tyrant", "Power Pitcher"]
+    }, {
+        "id": "Minmin-292",
+        "Name": "Minban Min (Minmin)",
+        "Name Abbreviation": "Minmin",
+        "Jersey Number": null,
+        "Field Position": ["2B", "1B"],
+        "Throws": "R",
+        "Bats": "L",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 292,
+        "Point Cost": 3,
+        "Trajectory": 3,
+        "Contact": 55,
+        "Power": 60,
+        "Run Speed": 50,
+        "Arm Strength": 65,
+        "Fielding": 65,
+        "Error Resistance": 60,
+        "Special Abilities (Fielder)": ["Recovery C", "Stunner", "Mood Swinger", "Selfish"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Misono-255",
         "Name": "Chika Misono",
         "Name Abbreviation": "Misono",
@@ -3062,6 +3767,30 @@
         "Fielding": 60,
         "Error Resistance": 40,
         "Special Abilities (Fielder)": ["Catcher B", "Throwing C", "Clutch", "Good Eye", "Slugger"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Mitsuno-284",
+        "Name": "Seira Mitsuno",
+        "Name Abbreviation": "Mitsuno",
+        "Jersey Number": null,
+        "Field Position": ["OF"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 284,
+        "Point Cost": 1,
+        "Trajectory": 2,
+        "Contact": 70,
+        "Power": 40,
+        "Run Speed": 80,
+        "Arm Strength": 60,
+        "Fielding": 66,
+        "Error Resistance": 60,
+        "Special Abilities (Fielder)": ["Grit F", "Throwing C"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
@@ -3152,6 +3881,54 @@
         }],
         "Special Abilities (Pitching)": ["Cutter", "Dr.K", "Downplay", "Airball", "Choker Recovery C", "Breaking Ball P"]
     }, {
+        "id": "Modo-331",
+        "Name": "Kou Modo",
+        "Name Abbreviation": "Modo",
+        "Jersey Number": null,
+        "Field Position": ["3B", "1B", "2B", "SS"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 331,
+        "Point Cost": 4,
+        "Trajectory": 4,
+        "Contact": 50,
+        "Power": 75,
+        "Run Speed": 50,
+        "Arm Strength": 75,
+        "Fielding": 70,
+        "Error Resistance": 20,
+        "Special Abilities (Fielder)": ["Throwing C", "Slugger", "Jester"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Mokoba-279",
+        "Name": "Moko Mokoba",
+        "Name Abbreviation": "Mokoba",
+        "Jersey Number": null,
+        "Field Position": ["2B", "SS"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 279,
+        "Point Cost": 1,
+        "Trajectory": 2,
+        "Contact": 66,
+        "Power": 55,
+        "Run Speed": 58,
+        "Arm Strength": 56,
+        "Fielding": 70,
+        "Error Resistance": 60,
+        "Special Abilities (Fielder)": ["Stealing B", "Recovery C"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Moroi-291",
         "Name": "Kiyokazu Moroi",
         "Name Abbreviation": "Moroi",
@@ -3175,6 +3952,39 @@
         "Stamina": 1,
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
+    }, {
+        "id": "Morumoto-289",
+        "Name": "Yuuto Morumoto",
+        "Name Abbreviation": "Morumoto",
+        "Jersey Number": null,
+        "Field Position": ["MR", "CP", "OF"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 289,
+        "Point Cost": 0,
+        "Trajectory": 3,
+        "Contact": 58,
+        "Power": 28,
+        "Run Speed": 80,
+        "Arm Strength": 58,
+        "Fielding": 60,
+        "Error Resistance": 60,
+        "Special Abilities (Fielder)": "Runner A",
+        "Top Speed": 141,
+        "Control": 55,
+        "Stamina": 20,
+        "Breaking Balls": [{
+            "id": "CUT",
+            "level": 4
+        }, {
+            "id": "SPL",
+            "level": 2
+        }, {
+            "id": "HSHU",
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Poise A", "Grit A", "Heater B", "Agile B"]
     }, {
         "id": "Murasame-398",
         "Name": "Murasame",
@@ -3290,6 +4100,30 @@
         "Fielding": 50,
         "Error Resistance": 60,
         "Special Abilities (Fielder)": ["Slugger", "Morale"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Naito-386",
+        "Name": "Meiru Naito",
+        "Name Abbreviation": "Naito",
+        "Jersey Number": null,
+        "Field Position": ["1B", "C", "OF"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 386,
+        "Point Cost": 5,
+        "Trajectory": 4,
+        "Contact": 45,
+        "Power": 95,
+        "Run Speed": 10,
+        "Arm Strength": 90,
+        "Fielding": 40,
+        "Error Resistance": 60,
+        "Special Abilities (Fielder)": ["Clutch B", "Slugger", "Morale", "Trucker"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
@@ -3503,6 +4337,42 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "Nijitani-517",
+        "Name": "Makoto Nijitani",
+        "Name Abbreviation": "Nijitani",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 517,
+        "Point Cost": 6,
+        "Trajectory": 2,
+        "Contact": 65,
+        "Power": 60,
+        "Run Speed": 90,
+        "Arm Strength": 67,
+        "Fielding": 50,
+        "Error Resistance": 50,
+        "Special Abilities (Fielder)": null,
+        "Top Speed": 148,
+        "Control": 80,
+        "Stamina": 90,
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": 3
+        }, {
+            "id": "SHU",
+            "level": 3
+        }, {
+            "id": "CB",
+            "level": 3
+        }, {
+            "id": "FRK",
+            "level": 5
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Dr. K", "Breaking Ball Pitcher"]
+    }, {
         "id": "Ninomiya-360",
         "Name": "Mizuho Ninomiya",
         "Name Abbreviation": "Ninomiya",
@@ -3693,6 +4563,30 @@
             "id": "12CV",
             "level": 3
         }],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Odagiri-287",
+        "Name": "Takumi Odagiri",
+        "Name Abbreviation": "Odagiri",
+        "Jersey Number": null,
+        "Field Position": ["SS", "3B"],
+        "Throws": "R",
+        "Bats": "S",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 287,
+        "Point Cost": 2,
+        "Trajectory": 2,
+        "Contact": 60,
+        "Power": 45,
+        "Run Speed": 65,
+        "Arm Strength": 70,
+        "Fielding": 70,
+        "Error Resistance": 65,
+        "Special Abilities (Fielder)": ["Throwing B", "Glover", "Aggressive Fielding"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ogane-296",
@@ -4046,6 +4940,39 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "Papillon-683",
+        "Name": "Papillon",
+        "Name Abbreviation": "Papillon",
+        "Jersey Number": null,
+        "Field Position": ["CP", "2B", "SS"],
+        "Throws": "R",
+        "Bats": "S",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 683,
+        "Point Cost": 6,
+        "Trajectory": 4,
+        "Contact": 73,
+        "Power": 83,
+        "Run Speed": 81,
+        "Arm Strength": 69,
+        "Fielding": 81,
+        "Error Resistance": 81,
+        "Special Abilities (Fielder)": ["Clinical", "Slugger"],
+        "Top Speed": 150,
+        "Control": 82,
+        "Stamina": 42,
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": 3
+        }, {
+            "id": "12CV",
+            "level": 5
+        }, {
+            "id": "FRK",
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Tyrant", "Aggressive Fielding"]
+    }, {
         "id": "Pink-345",
         "Name": "Pink",
         "Name Abbreviation": "Pink",
@@ -4162,6 +5089,39 @@
             "level": 2
         }],
         "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Trusty", "Hot Head"]
+    }, {
+        "id": "Red-455",
+        "Name": "Red",
+        "Name Abbreviation": "Red",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "R",
+        "Bats": "L",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 455,
+        "Point Cost": 5,
+        "Trajectory": 3,
+        "Contact": 70,
+        "Power": 85,
+        "Run Speed": 80,
+        "Arm Strength": 85,
+        "Fielding": 80,
+        "Error Resistance": 80,
+        "Special Abilities (Fielder)": ["Clinical", "Slugger", "Slugger"],
+        "Top Speed": 155,
+        "Control": 65,
+        "Stamina": 95,
+        "Breaking Balls": [{
+            "id": "SL",
+            "level": 2
+        }, {
+            "id": "FRK",
+            "level": 2
+        }, {
+            "id": "SHU",
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["W/RISP A", "Heater A", "Recovery C", "Ironball", "Star"]
     }, {
         "id": "Reibu-496",
         "Name": "Reibu",
@@ -4343,6 +5303,30 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "Saeki-412",
+        "Name": "Hajime Saeki",
+        "Name Abbreviation": "Saeki",
+        "Jersey Number": null,
+        "Field Position": ["2B", "SS"],
+        "Throws": "R",
+        "Bats": "L",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 412,
+        "Point Cost": 5,
+        "Trajectory": 3,
+        "Contact": 77,
+        "Power": 61,
+        "Run Speed": 82,
+        "Arm Strength": 59,
+        "Fielding": 70,
+        "Error Resistance": 43,
+        "Special Abilities (Fielder)": ["Stealing A", "Runner B", "Clinical", "Survivor", "Squibber", "Setter", "Rally", "Glover", "Clutch", "Aggressive Fielding"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Saigoh-383",
         "Name": "Juzo Saigoh",
         "Name Abbreviation": "Saigoh",
@@ -4471,6 +5455,63 @@
         "Stamina": 1,
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
+    }, {
+        "id": "Sakuranomiya-289",
+        "Name": "Souji Sakuranomiya",
+        "Name Abbreviation": "Sakuranomiya",
+        "Jersey Number": null,
+        "Field Position": ["C", "OF"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 289,
+        "Point Cost": 3,
+        "Trajectory": 3,
+        "Contact": 60,
+        "Power": 60,
+        "Run Speed": 50,
+        "Arm Strength": 70,
+        "Fielding": 65,
+        "Error Resistance": 30,
+        "Special Abilities (Fielder)": ["Catcher A", "Throwing B", "Bunt", "Patient Hitter"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Sakurazawa-365",
+        "Name": "Itsuki Sakurazawa",
+        "Name Abbreviation": "Sakurazawa",
+        "Jersey Number": null,
+        "Field Position": ["SP"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 365,
+        "Point Cost": 2,
+        "Trajectory": 2,
+        "Contact": 66,
+        "Power": 56,
+        "Run Speed": 79,
+        "Arm Strength": 80,
+        "Fielding": 52,
+        "Error Resistance": 59,
+        "Special Abilities (Fielder)": null,
+        "Top Speed": 147,
+        "Control": 77,
+        "Stamina": 74,
+        "Breaking Balls": [{
+            "id": "SP Fastball 2",
+            "level": null
+        }, {
+            "id": "SL",
+            "level": 4
+        }, {
+            "id": "CH",
+            "level": 3
+        }],
+        "Special Abilities (Pitching)": ["Cutter", "Toolkit", "Breaking Ball Pitcher"]
     }, {
         "id": "Samejima-331",
         "Name": "Kumetaro Samejima",
@@ -4976,6 +6017,30 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "Sorimachi-294",
+        "Name": "Mitsugu Sorimachi",
+        "Name Abbreviation": "Sorimachi",
+        "Jersey Number": null,
+        "Field Position": ["OF"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 294,
+        "Point Cost": 2,
+        "Trajectory": 3,
+        "Contact": 44,
+        "Power": 38,
+        "Run Speed": 72,
+        "Arm Strength": 58,
+        "Fielding": 79,
+        "Error Resistance": 87,
+        "Special Abilities (Fielder)": ["Throwing A", "Slugger", "Aggressive Hitter"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Sudo-350",
         "Name": "Reito Sudo",
         "Name Abbreviation": "Sudo",
@@ -5005,6 +6070,39 @@
             "level": 2
         }],
         "Special Abilities (Pitching)": ["Poise B", "Heater B", "Recovery C", "Gyroball", "Trusty", "Power Pitcher", "Pace"]
+    }, {
+        "id": "Suiko-277",
+        "Name": "Mitsuyo Suiko",
+        "Name Abbreviation": "Suiko",
+        "Jersey Number": null,
+        "Field Position": ["SP", "MR", "CP"],
+        "Throws": "L",
+        "Bats": "L",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 277,
+        "Point Cost": 0,
+        "Trajectory": 3,
+        "Contact": 50,
+        "Power": 73,
+        "Run Speed": 30,
+        "Arm Strength": 65,
+        "Fielding": 40,
+        "Error Resistance": 50,
+        "Special Abilities (Fielder)": ["Clutch B", "Slugger", "Slugger"],
+        "Top Speed": 148,
+        "Control": 40,
+        "Stamina": 70,
+        "Breaking Balls": [{
+            "id": "HSL",
+            "level": 3
+        }, {
+            "id": "CH",
+            "level": 2
+        }, {
+            "id": "SCR",
+            "level": 2
+        }],
+        "Special Abilities (Pitching)": ["Recovery C", "Bluffer"]
     }, {
         "id": "Suzaku-431",
         "Name": "Nanseki Suzaku",
@@ -5306,6 +6404,30 @@
         "Fielding": 64,
         "Error Resistance": 40,
         "Special Abilities (Fielder)": ["Clutch A", "Vs. LHP F", "Throwing E", "Survivor", "Victor", "Rally", "Pinch", "Clutch", "Trucker", "Mood Swinger", "Slugger", "Patient Hitter", "Aggressive Fielder"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Takimoto-452",
+        "Name": "Taro Takimoto",
+        "Name Abbreviation": "Takimoto",
+        "Jersey Number": null,
+        "Field Position": ["1B", "3B"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 452,
+        "Point Cost": 6,
+        "Trajectory": 4,
+        "Contact": 82,
+        "Power": 96,
+        "Run Speed": 58,
+        "Arm Strength": 52,
+        "Fielding": 52,
+        "Error Resistance": 38,
+        "Special Abilities (Fielder)": ["Clutch B", "Clinical", "Slugger", "Sprayer", "Trucker"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
@@ -5714,6 +6836,30 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "Toy-615",
+        "Name": "Tetsuo Toy",
+        "Name Abbreviation": "Toy",
+        "Jersey Number": null,
+        "Field Position": ["OF", "C", "1B"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 615,
+        "Point Cost": 12,
+        "Trajectory": 3,
+        "Contact": 60,
+        "Power": 79,
+        "Run Speed": 99,
+        "Arm Strength": 99,
+        "Fielding": 99,
+        "Error Resistance": 99,
+        "Special Abilities (Fielder)": ["Stealing A", "Throwing B", "Clinical", "Slugger", "Squibber", "Rally", "Glover", "Vs. Ace", "Slap Hitter", "Aggressive Fielding"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Tsuburaya-303",
         "Name": "Kazuyoshi Tsuburaya",
         "Name Abbreviation": "Tsuburaya",
@@ -5888,6 +7034,30 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "Umino-284",
+        "Name": "Sachiko Umino",
+        "Name Abbreviation": "Umino",
+        "Jersey Number": null,
+        "Field Position": ["C", "OF"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 284,
+        "Point Cost": 3,
+        "Trajectory": 4,
+        "Contact": 30,
+        "Power": 65,
+        "Run Speed": 31,
+        "Arm Strength": 76,
+        "Fielding": 60,
+        "Error Resistance": 80,
+        "Special Abilities (Fielder)": ["Catcher E", "Throwing A", "Slugger", "Aggressive Hitter"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Unkai-427",
         "Name": "Kazuya Unkai",
         "Name Abbreviation": "Unkai",
@@ -5948,6 +7118,30 @@
         "Breaking Balls": [],
         "Special Abilities (Pitching)": null
     }, {
+        "id": "V.Coldberg-454",
+        "Name": "Victor Coldberg",
+        "Name Abbreviation": "V.Coldberg",
+        "Jersey Number": null,
+        "Field Position": ["OF"],
+        "Throws": "R",
+        "Bats": "S",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 454,
+        "Point Cost": 6,
+        "Trajectory": 3,
+        "Contact": 85,
+        "Power": 75,
+        "Run Speed": 75,
+        "Arm Strength": 65,
+        "Fielding": 60,
+        "Error Resistance": 75,
+        "Special Abilities (Fielder)": ["Vs. LHP A", "Throwing C", "Clinical", "Push Hit", "Survivor", "Menace"],
+        "Top Speed": 120,
+        "Control": 1,
+        "Stamina": 1,
+        "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
         "id": "Vanguard-414",
         "Name": "Bowman Vanguard",
         "Name Abbreviation": "Vanguard",
@@ -5970,6 +7164,33 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Special Abilities (Pitching)": null
+    }, {
+        "id": "Waachan-193",
+        "Name": "Wakana Wakamatsu (Waachan)",
+        "Name Abbreviation": "Waachan",
+        "Jersey Number": null,
+        "Field Position": ["2B", "1B", "SS"],
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 4",
+        "Star Point": 193,
+        "Point Cost": 0,
+        "Trajectory": 2,
+        "Contact": 45,
+        "Power": 25,
+        "Run Speed": 50,
+        "Arm Strength": 45,
+        "Fielding": 60,
+        "Error Resistance": 60,
+        "Special Abilities (Fielder)": ["Recovery C", "Bunt Ace", "Refined", "Good Eye", "Slap Hitter", "Patient Hitter", "Selfless"],
+        "Top Speed": 120,
+        "Control": 40,
+        "Stamina": 20,
+        "Breaking Balls": [{
+            "id": "CB",
+            "level": 2
+        }],
         "Special Abilities (Pitching)": null
     }, {
         "id": "Warabi-251",
