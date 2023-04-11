@@ -79,7 +79,8 @@ function updatePitchChart(pitches, leftHanded) {
                 doubleUpLabel1.classList.remove('hidden');
                 doubleUpLabel2.classList.remove('hidden');
             }
-        } else { // Otherwise show single-up and hide double-up
+        } else {
+            // Otherwise show single-up and hide double-up
             singleUp.classList.remove('hidden');
             doubleUpGroup.classList.add('hidden');
 
