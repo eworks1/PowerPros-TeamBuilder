@@ -46,6 +46,15 @@ function updatePitchChart(pitches, leftHanded) {
                 }
             }
         }
+
+        // Hide all directional labels in prep for showing the used ones later
+        const labelID = `${d.toLowerCase()}-label`;
+        const label1 = this.getElementById(`${labelID}-1`);
+        const label2 = this.getElementById(`${labelID}-2`);
+        if (label1 && label2) {
+            label1.classList.add('hidden');
+            label2.classList.add('hidden');
+        }
     }, this);
 
     // Show/hide up arrows
@@ -56,9 +65,37 @@ function updatePitchChart(pitches, leftHanded) {
             // If there is an Up breaking ball, hide single-up and show double-up
             singleUp.classList.add('hidden');
             doubleUpGroup.classList.remove('hidden');
+
+            // Hide single up label
+            const singleUpLabel = this.getElementById('up-label-0');
+            if (singleUpLabel) {
+                singleUpLabel.classList.add('hidden');
+            }
+            
+            // Show double up labels
+            const doubleUpLabel1 = this.getElementById('up-label-1');
+            const doubleUpLabel2 = this.getElementById('up-label-2');
+            if (doubleUpLabel1 && doubleUpLabel2) {
+                doubleUpLabel1.classList.remove('hidden');
+                doubleUpLabel2.classList.remove('hidden');
+            }
         } else { // Otherwise show single-up and hide double-up
             singleUp.classList.remove('hidden');
             doubleUpGroup.classList.add('hidden');
+
+            // Show single up label
+            const singleUpLabel = this.getElementById('up-label-0');
+            if (singleUpLabel) {
+                singleUpLabel.classList.remove('hidden');
+            }
+            
+            // Hide double up labels
+            const doubleUpLabel1 = this.getElementById('up-label-1');
+            const doubleUpLabel2 = this.getElementById('up-label-2');
+            if (doubleUpLabel1 && doubleUpLabel2) {
+                doubleUpLabel1.classList.add('hidden');
+                doubleUpLabel2.classList.add('hidden');
+            }
         }
     }
 
@@ -98,6 +135,17 @@ function updatePitchChart(pitches, leftHanded) {
             groupClass = '.single-group';
             barMinY = 82;
             barH = 40;
+
+            // Show label
+            let labelNum = 1;
+            if (dir.toLowerCase().includes('down-')) {
+                labelNum = 2;
+            }
+            const label = this.getElementById(`${dir.toLowerCase()}-label-${labelNum}`);
+            if (label) {
+                label.classList.remove('hidden');
+                label.innerText = p.id;
+            }
         } else {
             // If a double direction...
             if (directionSingleGroup && directionDoubleGroup) {
@@ -107,14 +155,24 @@ function updatePitchChart(pitches, leftHanded) {
 
             // If there is another pitch coming up in the sequence with the same dir
             // in other words, returns true if this is the first of a double-direction
+            let labelNum = 0; // set label num at the same time
             if (arr.some((v, j) => all_pitches[v.id].Direction == all_pitches[p.id].Direction && j > i)) {
                 groupClass = '.double-group .pitch-1-group';
+                labelNum = dir.toLowerCase().includes('down-') ? 2 : 1;
             } else {
                 groupClass = '.double-group .pitch-2-group';
+                labelNum = dir.toLowerCase().includes('down-') ? 1 : 2;
             }
 
             barMinY = 92;
             barH = 20;
+
+            // Show label
+            const label = this.getElementById(`${dir.toLowerCase()}-label-${labelNum}`);
+            if (label) {
+                label.classList.remove('hidden');
+                label.innerText = p.id;
+            }
         }
 
         const directionFill = this.querySelector(`#${dir.toLowerCase()} ${groupClass} .fill`);
