@@ -209,20 +209,18 @@ function playerClicked(player) {
 
     // Pitching Chart (Pitching Detail)
     const pitchingChartObj = document.getElementById('pitching-chart');
-    pitchingChartObj.removeEventListener('load');
-    pitchingChartObj.addEventListener('load', (ev) => {
-    // if (pitchingChartObj) {
+    // pitchingChartObj.addEventListener('load', (ev) => {
+    if (pitchingChartObj) {
         updatePitchChart.apply(
-            ev.target.contentDocument,
-            // pitchingChartObj.contentDocument,
+            // ev.target.contentDocument,
+            pitchingChartObj.contentDocument,
             [
                 player["Breaking Balls"],
                 player.Throws == 'L'
             ]
         );
-    // }
-    });
-
+    }
+    // });
 }
 
 /**
