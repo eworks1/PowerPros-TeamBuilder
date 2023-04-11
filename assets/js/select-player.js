@@ -1,7 +1,7 @@
 function playerClicked(player) {
     // update all 3 detail views (just fielding for now)
     const detailBox = document.getElementById('detail-box');
-    if (!detailBox) { 
+    if (!detailBox) {
         console.error("Couldn't find #detail-box.")
         return;
     }
