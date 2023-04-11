@@ -144,7 +144,7 @@ function updatePitchChart(pitches, leftHanded) {
             } else if (dir == 'Up 1') {
                 labelNum = 0;
             } else if (dir == 'Up 2') {
-                labelNum = 1;
+                labelNum = 2;
             }
             const label = this.getElementById(`${relativeDirToAbsolute(dir.toLowerCase(), leftHanded)}-label-${labelNum}`);
             if (label) {
