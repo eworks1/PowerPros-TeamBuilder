@@ -12,6 +12,31 @@
             transform: scaleX(-1);
             transform-origin: 50%;
         }
+        #labels {
+            stroke: none;
+            fill: #4293f8;
+
+            font-size: 20px;
+            font-family: sans-serif;
+        }
+        .left-aligned {
+            text-anchor: start;
+        }
+        .right-aligned {
+            text-anchor: end;
+        }
+        .center-aligned-h {
+            text-anchor: middle;
+        }
+        .top-aligned {
+            dominant-baseline: auto;
+        }
+        .bottom-aligned {
+            dominant-baseline: hanging;
+        }
+        .center-aligned-v {
+            dominant-baseline: middle;
+        }
     </style>
     <defs>
         <linearGradient id="base-background-gradient">
@@ -55,6 +80,26 @@
             <path d="M 462 92 h -40 v 20 h 40 z" />
         </g>
     </defs>
+    <g id="labels">
+        <text id="up-label-0" class="center-aligned-h center-aligned-v" x="50%" y="-15">4FSB</text>
+        <text id="up-label-1" class="right-aligned center-aligned-v" x="50%" y="-15" dx="-20">4FSB</text>
+        <text id="up-label-2" class="left-aligned center-aligned-v" x="50%" y="-15" dx="20">4FSB</text>
+        
+        <text id="inside-label-1" class="right-aligned top-aligned" x="100%" dx="-22" y="82" dy="-12">4FSB</text>
+        <text id="inside-label-2" class="right-aligned bottom-aligned" x="100%" dx="-22" y="122" dy="12">4FSB</text>
+
+        <text id="down-inside-label-1" class="right-aligned bottom-aligned" x="160" y="100%" dy="-255">4FSB</text>
+        <text id="down-inside-label-2" class="left-aligned top-aligned" x="105" y="100%" dy="-120">4FSB</text>
+
+        <text id="down-label-1" class="right-aligned top-aligned" x="50%" dx="-35" y="100%" dy="-60">4FSB</text>
+        <text id="down-label-2" class="left-aligned top-aligned" x="50%" dx="35" y="100%" dy="-60">4FSB</text>
+
+        <text id="down-outside-label-1" class="left-aligned bottom-aligned" x="100%" dx="-160" y="100%" dy="-255">4FSB</text>
+        <text id="down-outside-label-2" class="right-aligned top-aligned" x="100%" dx="-105" y="100%" dy="-120">4FSB</text>
+
+        <text id="outside-label-1" x="22" y="82" dy="-12" text-anchor="start" dominant-baseline="auto">4FSB</text>
+        <text id="outside-label-2" x="22" y="122" dy="12" text-anchor="start" dominant-baseline="hanging">4FSB</text>
+    </g>
     <g id="pitching-chart-body">
         <g id="inside">
             <g class="single-group">
