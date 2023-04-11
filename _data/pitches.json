@@ -140,6 +140,11 @@
             "Abbreviation": "SP Fastball 5",
             "Direction": "Up 1"
         },
+        "SP Fastball 6": {
+            "Name": "SP Fastball 6",
+            "Abbreviation": "SP Fastball 6",
+            "Direction": "Up 1"
+        },
         "SP Forkball 1": {
             "Name": "SP Forkball 1",
             "Abbreviation": "SP Forkball 1",
@@ -163,6 +168,11 @@
         "SP Forkball 7": {
             "Name": "SP Forkball 7",
             "Abbreviation": "SP Forkball 7",
+            "Direction": "Down"
+        },
+        "SP Forkball 8": {
+            "Name": "SP Forkball 8",
+            "Abbreviation": "SP Forkball 8",
             "Direction": "Down"
         },
         "SP Forkball 9": {
