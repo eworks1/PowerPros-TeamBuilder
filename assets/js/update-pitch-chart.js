@@ -145,6 +145,11 @@ function updatePitchChart(pitches, leftHanded) {
                 labelNum = 0;
             } else if (fullPitch.Direction == 'Up 2') {
                 labelNum = 2;
+                // Reset `Up 1` label to 4SFB
+                const label1 = this.getElementById(`up-label-1`);
+                if (label1) {
+                    label1.innerHTML = '4SFB';
+                }
             }
             const label = this.getElementById(`${relativeDirToAbsolute(dir.toLowerCase(), leftHanded)}-label-${labelNum}`);
             if (label) {
