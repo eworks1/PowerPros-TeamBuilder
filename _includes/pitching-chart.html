@@ -3,7 +3,7 @@
     const object = document.getElementById('pitching-chart');
     object.addEventListener('load', (ev) => {
         updatePitchChart.apply(
-            ev.srcElement.contentDocument,
+            ev.target.contentDocument,
             [
                 {{ include.pitches | jsonify }},
                 {{ include.handedness == 'L' }}
