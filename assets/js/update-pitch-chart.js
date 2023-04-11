@@ -144,7 +144,7 @@ function updatePitchChart(pitches, leftHanded) {
             const label = this.getElementById(`${relativeDirToAbsolute(dir.toLowerCase(), leftHanded)}-label-${labelNum}`);
             if (label) {
                 label.classList.remove('hidden');
-                label.innerText = p.id;
+                label.innerHTML = p.id;
             }
         } else {
             // If a double direction...
@@ -171,7 +171,7 @@ function updatePitchChart(pitches, leftHanded) {
             const label = this.getElementById(`${relativeDirToAbsolute(dir.toLowerCase(), leftHanded)}-label-${labelNum}`);
             if (label) {
                 label.classList.remove('hidden');
-                label.innerText = p.id;
+                label.innerHTML = p.id;
             }
         }
 
