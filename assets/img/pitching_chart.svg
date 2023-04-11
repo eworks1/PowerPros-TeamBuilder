@@ -2,6 +2,7 @@
 <svg version="1.1" viewBox="0 -40 724 504" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" stroke="#3f90f7" stroke-linejoin="round" stroke-width="4">
     <!-- 1mm == 3.78px -->
     <style>
+         @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700');
         .gradient {
             stroke: none;
         }
@@ -16,8 +17,9 @@
             stroke: none;
             fill: #4293f8;
 
-            font-size: 20px;
-            font-family: sans-serif;
+            font-size: 40px;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-weight: 700;
         }
         .left-aligned {
             text-anchor: start;
