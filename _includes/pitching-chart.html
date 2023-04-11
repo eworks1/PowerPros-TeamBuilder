@@ -9,6 +9,7 @@
                 {{ include.handedness == 'L' }}
             ]
         );
-        ev.target.removeEventListener('load');
+    }, {
+        once: true
     });
 </script>
