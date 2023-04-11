@@ -88,14 +88,14 @@
         <text id="right-label-1" class="right-aligned top-aligned" x="100%" dx="-22" y="82" dy="-12">4FSB</text>
         <text id="right-label-2" class="right-aligned bottom-aligned" x="100%" dx="-22" y="122" dy="12">4FSB</text>
 
-        <text id="down-right-label-1" class="left-aligned bottom-aligned" x="100%" dx="-160" y="100%" dy="-255">4FSB</text>
-        <text id="down-right-label-2" class="right-aligned top-aligned" x="100%" dx="-105" y="100%" dy="-120">4FSB</text>
+        <text id="down-right-label-1" class="left-aligned bottom-aligned" x="100%" dx="-160" y="100%" dy="-260">4FSB</text>
+        <text id="down-right-label-2" class="right-aligned bottom-aligned" x="100%" dx="-105" y="100%" dy="-135">4FSB</text>
 
-        <text id="down-label-1" class="right-aligned top-aligned" x="50%" dx="-35" y="100%" dy="-60">4FSB</text>
-        <text id="down-label-2" class="left-aligned top-aligned" x="50%" dx="35" y="100%" dy="-60">4FSB</text>
+        <text id="down-label-1" class="right-aligned top-aligned" x="50%" dx="-35" y="100%" dy="-65">4FSB</text>
+        <text id="down-label-2" class="left-aligned top-aligned" x="50%" dx="35" y="100%" dy="-65">4FSB</text>
 
-        <text id="down-left-label-1" class="right-aligned bottom-aligned" x="160" y="100%" dy="-255">4FSB</text>
-        <text id="down-left-label-2" class="left-aligned top-aligned" x="105" y="100%" dy="-120">4FSB</text>
+        <text id="down-left-label-1" class="right-aligned bottom-aligned" x="160" y="100%" dy="-260">4FSB</text>
+        <text id="down-left-label-2" class="left-aligned bottom-aligned" x="105" y="100%" dy="-135">4FSB</text>
 
         <text id="left-label-1" x="22" y="82" dy="-12" text-anchor="start" dominant-baseline="auto">4FSB</text>
         <text id="left-label-2" x="22" y="122" dy="12" text-anchor="start" dominant-baseline="hanging">4FSB</text>
