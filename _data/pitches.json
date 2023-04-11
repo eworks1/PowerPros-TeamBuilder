@@ -100,11 +100,6 @@
             "Abbreviation": "SL",
             "Direction": "Inside"
         },
-        "SCV": {
-            "Name": "Slow Curve",
-            "Abbreviation": "SCV",
-            "Direction": "Down-Inside"
-        },
         "SLV": {
             "Name": "Slurve",
             "Abbreviation": "SLV",
@@ -239,6 +234,11 @@
             "Name": "Splitter",
             "Abbreviation": "SPL",
             "Direction": "Down"
+        },
+        "SCV": {
+            "Name": "Sweeping Curve",
+            "Abbreviation": "SCV",
+            "Direction": "Down-Inside"
         },
         "VSL": {
             "Name": "Vertical Slider",
