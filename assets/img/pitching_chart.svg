@@ -97,8 +97,8 @@
         <text id="down-right-label-1" class="left-aligned bottom-aligned" x="100%" dx="-160" y="100%" dy="-255">4FSB</text>
         <text id="down-right-label-2" class="right-aligned top-aligned" x="100%" dx="-105" y="100%" dy="-120">4FSB</text>
 
-        <text id="outside-label-1" x="22" y="82" dy="-12" text-anchor="start" dominant-baseline="auto">4FSB</text>
-        <text id="outside-label-2" x="22" y="122" dy="12" text-anchor="start" dominant-baseline="hanging">4FSB</text>
+        <text id="right-label-1" x="22" y="82" dy="-12" text-anchor="start" dominant-baseline="auto">4FSB</text>
+        <text id="right-label-2" x="22" y="122" dy="12" text-anchor="start" dominant-baseline="hanging">4FSB</text>
     </g>
     <g id="pitching-chart-body">
         <g id="inside">
