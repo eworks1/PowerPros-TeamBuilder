@@ -27,6 +27,7 @@ function updatePitchChart(pitches, leftHanded) {
         }
     }
     
+    // Update base showing/hiding of fills in directions not covered by pitches later
     directions.forEach(d => {
         const directionFills = this.querySelectorAll(`#${d.toLowerCase()} .fill`);
         const singleGroup = this.querySelector(`#${d.toLowerCase()} .single-group`);
@@ -51,8 +52,8 @@ function updatePitchChart(pitches, leftHanded) {
     const singleUp = this.getElementById('single-up');
     const doubleUpGroup = this.getElementById('double-up-group');
     if (singleUp && doubleUpGroup) {
-        // If there is an Up breaking ball, hide single-up and show double-up
         if (directionsUsed.includes('Up 2')) {
+            // If there is an Up breaking ball, hide single-up and show double-up
             singleUp.classList.add('hidden');
             doubleUpGroup.classList.remove('hidden');
         } else { // Otherwise show single-up and hide double-up
@@ -98,6 +99,7 @@ function updatePitchChart(pitches, leftHanded) {
             barMinY = 82;
             barH = 40;
         } else {
+            // If a double direction...
             if (directionSingleGroup && directionDoubleGroup) {
                 directionSingleGroup.classList.add('hidden');
                 directionDoubleGroup.classList.remove('hidden');
