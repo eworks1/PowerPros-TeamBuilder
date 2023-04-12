@@ -12,6 +12,6 @@
 <span id="counts-bottom-row">
     {% assign positions = "P F C 1B 2B 3B SS OF" | split:" " %}
     {% for pos in positions %}
-        <span class="position-count-container">{% include position-square.html position=pos %}<span id="{{ pos }}-player-position-count" class="value-for-position-square">0</span></span>
+        <span class="position-count-container" title="{{ site.data.strings.hover_text.positions[pos] }} Count">{% include position-square.html position=pos %}<span id="{{ pos }}-player-position-count" class="value-for-position-square">0</span></span>
     {% endfor %}
 </span>
