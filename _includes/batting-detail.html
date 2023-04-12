@@ -30,7 +30,7 @@
 
     <span class="info-box detail-catching" style="grid-area: catching;"><span class="info-label">FLD</span>{% include letter-rating.html rating=fielding %}</span>
 
-    <span class="info-box" style="grid-area: trj;"><span class="info-label">TRJ</span><span class="detail-trj-num" style="font-weight: 500;">{{ include.player["Trajectory"] }}</span> <img class="detail-trj-img" style="height: 22px; margin-left: 2px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png"></span>
+    <span class="info-box" style="grid-area: trj;"><span class="info-label">TRJ</span><span class="detail-trj-num" style="font-weight: 500;">{{ include.player["Trajectory"] }}</span> <img class="detail-trj-img" style="height: 22px; margin-left: 2px;" title="{{ include.player['Trajectory'] }}" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png"></span>
 
     <span class="info-box" style="grid-area: avg;"><span class="info-label">AVG</span><span class="dash-content">–––</span></span>
     <span class="info-box" style="grid-area: hr;"><span class="info-label">HR</span><span class="dash-content">–––</span></span>
