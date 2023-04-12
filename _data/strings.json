@@ -30,8 +30,8 @@
         },
         "positions": {
             "All": "All Positions",
-            "P": "Pitchers",
-            "F": "Fielders",
+            "P": "Pitcher",
+            "F": "Fielder",
             "SP": "Starting Pitcher",
             "MR": "Middle Reliever",
             "CP": "Closing Pitcher",
