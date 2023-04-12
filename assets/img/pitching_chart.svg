@@ -83,8 +83,8 @@
         </g>
     </defs>
     <g id="labels">
-        <text id="up-label-0" class="center-aligned-h center-aligned-v" x="50%" y="-15">4FSB</text>
-        <text id="up-label-1" class="right-aligned center-aligned-v" x="50%" y="-15" dx="-20">4FSB</text>
+        <text id="up-label-0" class="center-aligned-h center-aligned-v" x="50%" y="-15"><title>4-Seam Fastball</title>4FSB</text>
+        <text id="up-label-1" class="right-aligned center-aligned-v" x="50%" y="-15" dx="-20"><title>4-Seam Fastball</title>4FSB</text>
         <text id="up-label-2" class="left-aligned center-aligned-v" x="50%" y="-15" dx="20">4FSB</text>
         
         <text id="right-label-1" class="right-aligned top-aligned" x="100%" dx="-22" y="82" dy="-12">4FSB</text>
