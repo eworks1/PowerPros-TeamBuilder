@@ -19,6 +19,15 @@
             "R": "Right",
             "S": "Switch"
         },
+        "stats": {
+            "TRJ": "Trajectory",
+            "HIT": "Contact",
+            "PWR": "Power",
+            "RUN SPD": "Run Speed",
+            "ARM STR": "Arm Strength",
+            "FLD": "Fielding",
+            "Catching": "Error Resistance"
+        },
         "positions": {
             "All": "All Positions",
             "P": "Pitchers",
