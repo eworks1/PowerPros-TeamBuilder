@@ -1,15 +1,16 @@
 <object id="pitching-chart" data="{{ 'assets/img/pitching_chart.svg' | relative_url }}" type="image/svg+xml"></object>
 <script>
     const object = document.getElementById('pitching-chart');
+    object.setAttribute('pitches', JSON.stringify({{ include.pitches | jsonify }}));
+    object.setAttribute('lefty', {{ include.handedness == 'L' }});
+
     object.addEventListener('load', (ev) => {
         updatePitchChart.apply(
             ev.target.contentDocument,
             [
-                {{ include.pitches | jsonify }},
-                {{ include.handedness == 'L' }}
+                JSON.parse(ev.target.getAttribute('pitches')),
+                ev.target.getAttribute('lefty')
             ]
         );
-    }, {
-        once: true
     });
 </script>
