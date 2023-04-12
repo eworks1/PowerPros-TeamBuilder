@@ -148,13 +148,13 @@ function updatePitchChart(pitches, leftHanded) {
                 // Reset `Up 1` label to 4SFB
                 const label1 = this.getElementById(`up-label-1`);
                 if (label1) {
-                    label1.innerHTML = '4SFB';
+                    label1.innerHTML = createInnerHTML('Four-Seam Fastball', '4SFB');
                 }
             }
             const label = this.getElementById(`${relativeDirToAbsolute(dir.toLowerCase(), leftHanded)}-label-${labelNum}`);
             if (label) {
                 label.classList.remove('hidden');
-                label.innerHTML = p.id;
+                label.innerHTML = createInnerHTML(fullPitch.Name, p.id);
             }
         } else {
             // If a double direction...
@@ -181,7 +181,7 @@ function updatePitchChart(pitches, leftHanded) {
             const label = this.getElementById(`${relativeDirToAbsolute(dir.toLowerCase(), leftHanded)}-label-${labelNum}`);
             if (label) {
                 label.classList.remove('hidden');
-                label.innerHTML = p.id;
+                label.innerHTML = createInnerHTML(fullPitch.Name, p.id);
             }
         }
 
@@ -208,4 +208,14 @@ function relativeDirToAbsolute(direction, leftHanded) {
     return direction.toLowerCase()
         .replace('inside', leftHanded ? 'left' : 'right')
         .replace('outside', leftHanded ? 'right' : 'left');
+}
+
+/**
+ * 
+ * @param {string} pitchName
+ * @param {string} pitchID
+ * @returns {string}
+ */
+function createInnerHTML(pitchName, pitchID) {
+    return `<title>${pitchName}</title>${pitchID}`
 }
