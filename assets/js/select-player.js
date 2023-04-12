@@ -42,51 +42,87 @@ function playerClicked(player) {
     if (trjTexts && trjImgs) {
         trjTexts.forEach(element => element.textContent = player.Trajectory);
         
-        trjImgs.forEach(element => element.setAttribute(
-            'src',
-            `https://www.mlbppworld.com/wiki/images/TRJ${player.Trajectory}.png`
-        ));
+        trjImgs.forEach(element => {
+            element.setAttribute(
+                'src',
+                `https://www.mlbppworld.com/wiki/images/TRJ${player.Trajectory}.png`
+            );
+            element.setAttribute(
+                'title',
+                `${player.Trajectory}`
+            );
+        });
     }
 
     const hitImgs = detailBox.querySelectorAll('.detail-hit.info-box .letter-rating');
     if (hitImgs) {
-        hitImgs.forEach(element => element.setAttribute(
-            'src',
-            letterRatingUrl(player.Contact)
-        ));
+        hitImgs.forEach(element => {
+            element.setAttribute(
+                'src',
+                letterRatingUrl(player.Contact)
+            );
+            element.setAttribute(
+                'title',
+                `${player.Contact}`
+            );
+        });
     }
 
     const pwrImgs = detailBox.querySelectorAll('.detail-pwr.info-box .letter-rating');
     if (pwrImgs) {
-        pwrImgs.forEach(pwrImg => pwrImg.setAttribute(
-            'src',
-            letterRatingUrl(player.Power)
-        ));
+        pwrImgs.forEach(pwrImg => {
+            pwrImg.setAttribute(
+                'src',
+                letterRatingUrl(player.Power)
+            );
+            pwrImg.setAttribute(
+                'title',
+                `${player.Power}`
+            );
+        });
     }
 
     const runspdImgs = detailBox.querySelectorAll('.detail-runspd.info-box .letter-rating');
     if (runspdImgs) {
-        runspdImgs.forEach(runspdImg => runspdImg.setAttribute(
-            'src',
-            letterRatingUrl(player["Run Speed"])
-        ));
+        runspdImgs.forEach(runspdImg => {
+            runspdImg.setAttribute(
+                'src',
+                letterRatingUrl(player["Run Speed"])
+            );
+            runspdImg.setAttribute(
+                'title',
+                `${player["Run Speed"]}`
+            );
+        });
     }
 
     const armstrImgs = detailBox.querySelectorAll('.detail-armstr.info-box .letter-rating');
     if (armstrImgs) {
-        armstrImgs.forEach(armstrImg => armstrImg.setAttribute(
-            'src',
-            letterRatingUrl(player["Arm Strength"])
-        ));
+        armstrImgs.forEach(armstrImg => {
+            armstrImg.setAttribute(
+                'src',
+                letterRatingUrl(player["Arm Strength"])
+            );
+            armstrImg.setAttribute(
+                'title',
+                `${player["Arm Strength"]}`
+            );
+        });
     }
 
     // I think there won't be more than 1 of these, but just in case.
     const catchingImgs = detailBox.querySelectorAll('.detail-catching.info-box .letter-rating');
     if (catchingImgs) {
-        catchingImgs.forEach(catchingImg => catchingImg.setAttribute(
-            'src',
-            letterRatingUrl(player["Error Resistance"])
-        ));
+        catchingImgs.forEach(catchingImg => {
+            catchingImg.setAttribute(
+                'src',
+                letterRatingUrl(player["Error Resistance"])
+            );
+            catchingImg.setAttribute(
+                'title',
+                `${player["Error Resistance"]}`
+            );
+        });
     }
 
     // Fielding Positions
@@ -95,6 +131,7 @@ function playerClicked(player) {
         const primary_position = getPrimaryPosition(player);
         if (isPitcher(primary_position)) {
             fieldingPositionsLabel.textContent = 'P';
+            fieldingPositionsLabel.setAttribute('title', 'Pitcher');
         } else {
             fieldingPositionsLabel.textContent = primary_position;
         }
@@ -151,20 +188,32 @@ function playerClicked(player) {
     // I think there won't be more than 1 of these, but just in case.
     const controlImgs = detailBox.querySelectorAll('.detail-control.info-box .letter-rating');
     if (controlImgs) {
-        controlImgs.forEach(controlImg => controlImg.setAttribute(
-            'src',
-            letterRatingUrl(player.Control)
-        ));
+        controlImgs.forEach(controlImg => {
+            controlImg.setAttribute(
+                'src',
+                letterRatingUrl(player.Control)
+            );
+            controlImg.setAttribute(
+                'title',
+                `${player.Control}`
+            );
+        });
     }
 
     // Pitch Stamina (Pitching Detail)
     // I think there won't be more than 1 of these, but just in case.
     const staminaImgs = detailBox.querySelectorAll('.detail-stamina.info-box .letter-rating');
     if (staminaImgs) {
-        staminaImgs.forEach(staminaImg => staminaImg.setAttribute(
-            'src',
-            letterRatingUrl(player.Stamina)
-        ));
+        staminaImgs.forEach(staminaImg => {
+            staminaImg.setAttribute(
+                'src',
+                letterRatingUrl(player.Stamina)
+            );
+            staminaImg.setAttribute(
+                'title',
+                `${player.Stamina}`
+            );
+        });
     }
 
     // Pitching Role List (Pitching Detail)
