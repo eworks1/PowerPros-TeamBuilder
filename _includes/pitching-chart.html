@@ -2,7 +2,7 @@
 <script>
     const object = document.getElementById('pitching-chart');
     object.setAttribute('pitches', JSON.stringify({{ include.pitches | jsonify }}));
-    object.setAttribute('lefty', {{ include.handedness }} == 'L');
+    object.setAttribute('lefty', {{ include.handedness == 'L' }});
 
     object.addEventListener('load', (ev) => {
         updatePitchChart.apply(
