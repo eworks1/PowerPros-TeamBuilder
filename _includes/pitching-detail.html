@@ -48,6 +48,7 @@
 
     <span id="pitch-selection" style="grid-area: pitches;">
         {% assign handedness = player["Throws"] %}
+        <!-- THROWS DEBUG - {{ handedness }} {{ player | jsonify }} -->
         {% include pitching-chart.html pitches=pitches handedness=handedness %}
     </span>
 </div>
