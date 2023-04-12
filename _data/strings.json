@@ -10,5 +10,28 @@
             "Batting Info",
             "Pitching Info"
         ]
+    },
+
+    "hover_text": {
+        "jersey_number": "Jersey Number",
+        "handedness": {
+            "L": "Left",
+            "R": "Right",
+            "S": "Switch"
+        },
+        "positions": {
+            "All": "All Positions",
+            "P": "Pitchers",
+            "F": "Fielders",
+            "SP": "Starting Pitcher",
+            "MR": "Middle Reliever",
+            "CP": "Closing Pitcher",
+            "C": "Catcher",
+            "1B": "First Baseman",
+            "2B": "Second Baseman",
+            "3B": "Third Baseman",
+            "SS": "Shortstop",
+            "OF": "Outfielder"
+        }
     }
 }
