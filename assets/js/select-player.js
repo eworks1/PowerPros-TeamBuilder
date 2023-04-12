@@ -209,6 +209,9 @@ function playerClicked(player) {
 
     // Pitching Chart (Pitching Detail)
     const pitchingChartObj = document.getElementById('pitching-chart');
+    pitchingChartObj.setAttribute('pitches', JSON.stringify(player["Breaking Balls"]));
+    pitchingChartObj.setAttribute('lefty', player.Throws == 'L');
+
     // pitchingChartObj.addEventListener('load', (ev) => {
     if (pitchingChartObj) {
         updatePitchChart.apply(
