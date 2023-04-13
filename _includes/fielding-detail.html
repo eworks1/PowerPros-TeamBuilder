@@ -9,7 +9,7 @@
 {% assign pwr = include.player["Power"] %}
 {% assign runspd = include.player["Run Speed"] %}
 {% assign armstr = include.player["Arm Strength"] %}
-{% assign fielding = include.player["Fielding"] %}
+{% assign catching = include.player["Error Resistance"] %}
 
 <div id="fielding-detail" class="current-detail-page">
     {% include player-name-box.html name=playerName positions=playerPositions %}
@@ -30,7 +30,7 @@
 
     <span class="info-box detail-armstr" style="grid-area: armstr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['ARM STR'] }}">ARM STR</span>{% include letter-rating.html rating=armstr %}</span>
 
-    <span class="info-box detail-catching" style="grid-area: catching;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.Catching }}">Catching</span>{% include letter-rating.html rating=fielding %}</span>
+    <span class="info-box detail-catching" style="grid-area: catching;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.Catching }}">Catching</span>{% include letter-rating.html rating=catching %}</span>
 
     <div id="fielding-detail-positions-box" class="info-box" style="display: grid; grid-area: fieldingbox;">
         {% assign primary_position = include.player["Field Position"] | first %}

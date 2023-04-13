@@ -125,6 +125,21 @@ function playerClicked(player) {
         });
     }
 
+    // I think there won't be more than 1 of these, but just in case.
+    const fldImgs = detailBox.querySelectorAll('.detail-fld.info-box .letter-rating');
+    if (fldImgs) {
+        fldImgs.forEach(fldImg => {
+            fldImg.setAttribute(
+                'src',
+                letterRatingUrl(player.Fielding)
+            );
+            fldImg.setAttribute(
+                'title',
+                `${player.Fielding}`
+            );
+        });
+    }
+
     // Fielding Positions
     const fieldingPositionsLabel = detailBox.querySelector('#fielding-detail-positions-box .positions-label');
     if (fieldingPositionsLabel) {
