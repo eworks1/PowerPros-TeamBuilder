@@ -322,5 +322,6 @@ function getLetterRatingFromNumber(ratingNum) {
  */
 function letterRatingUrl(ratingNum) {
     const ratingLetter = getLetterRatingFromNumber(ratingNum);
-    return `https://www.mlbppworld.com/wiki/images/Rank_${ratingLetter}.png`
+    // return `https://www.mlbppworld.com/wiki/images/Rank_${ratingLetter}.png`
+    return `assets/img/letter_rating_${ratingLetter}.svg`
 }
