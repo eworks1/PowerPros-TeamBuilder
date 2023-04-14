@@ -317,15 +317,6 @@ function getLetterRatingFromNumber(ratingNum) {
 
 /**
  * 
- * @param {string} ratingLetter
- * @returns {string}
- */
-function letterRatingUrl(ratingLetter) {
-    return `https://www.mlbppworld.com/wiki/images/Rank_${ratingLetter}.png`
-}
-
-/**
- * 
  * @param {number} ratingNum
  * @returns {string}
  */
