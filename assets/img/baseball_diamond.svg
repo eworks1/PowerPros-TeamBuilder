@@ -1,60 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 56 45.6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#cdedfd" stroke="#92bbe4" stroke-width="0.2">
+    <!-- 1mm == 3.78px -->
+    <g style="transform: scaleY(-1) translate(28px); transform-origin: center;">
+        <!-- 0,0 / 24,24 / 20,28 / 0,48 / -20,28 / -24,24 -->
+        <path id="OF" d="M 0,0 l 28,28 l -4,4 c -18,18 -30,18 -48,0 l -4,-4 z" transform="" />
 
-<svg
-   width="53.467361"
-   height="39.6875"
-   viewBox="0 0 53.467363 39.6875"
-   version="1.1"
-   id="svg5"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs2" />
-  <g
-     id="layer1">
-    <g
-       id="g11837"
-       transform="matrix(1.0104068,0,0,1.0104068,-40.093761,-40.514199)">
-      <path
-         style="font-variation-settings:'wght' 400;fill:#cdedfd;fill-opacity:1;stroke:#92bbe4;stroke-width:0.186163;stroke-dasharray:none;stroke-opacity:1"
-         d="M 92.466228,52.916559 66.145829,79.244015 39.811313,52.916561 42.579485,50.04966 c 12.803301,-13.25993 34.019149,-13.033615 47.052766,0 l 2.833977,2.866895 z"
-         id="path6877" />
-      <g
-         id="g11819">
-        <rect
-           style="font-variation-settings:'wght' 400;fill:#cdedfd;fill-opacity:1;stroke:#92bbe4;stroke-width:0.185236;stroke-dasharray:none;stroke-opacity:1"
-           id="rect184"
-           width="18.52363"
-           height="18.52363"
-           x="84.282516"
-           y="-9.2618141"
-           transform="rotate(45)" />
-        <rect
-           style="font-variation-settings:'wght' 400;fill:#cdedfd;fill-opacity:1;stroke:#92bbe4;stroke-width:0.171111;stroke-dasharray:none;stroke-opacity:1"
-           id="rect1007"
-           width="2.8223073"
-           height="2.8223073"
-           x="-9.6431828"
-           y="-86.723572"
-           transform="rotate(135.00009)" />
-        <rect
-           style="font-variation-settings:'wght' 400;fill:#cdedfd;fill-opacity:1;stroke:#92bbe4;stroke-width:0.171111;stroke-dasharray:none;stroke-opacity:1"
-           id="rect5365"
-           width="2.8223073"
-           height="2.8223073"
-           x="-9.2619753"
-           y="-102.80613"
-           transform="rotate(135.00009)" />
-        <rect
-           style="font-variation-settings:'wght' 400;fill:#cdedfd;fill-opacity:1;stroke:#92bbe4;stroke-width:0.171111;stroke-dasharray:none;stroke-opacity:1"
-           id="rect5367"
-           width="2.8223076"
-           height="2.8223076"
-           x="6.4393759"
-           y="-87.104836"
-           transform="rotate(135.00009)" />
-      </g>
+        <path id="infield" d="M0, 0 l 15, 15 l -15, 15 l -15, -15 z" />
+
+        <rect id="0B" width="3" height="3" transform="rotate(45)" />
+        <rect id="1B" width="3" height="3" transform="translate(15, 15) rotate(135)" />
+        <rect id="2B" width="3" height="3" transform="translate(0, 30) rotate(-135)" />
+        <rect id="3B" width="3" height="3" transform="translate(-15, 15) rotate(-45)" />
     </g>
-  </g>
 </svg>
