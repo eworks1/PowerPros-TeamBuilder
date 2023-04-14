@@ -21,4 +21,5 @@
     {% assign letter = "G" %}
 {% endif %}
 
-<img class="letter-rating" title="{{ include.rating }}" src="https://www.mlbppworld.com/wiki/images/Rank_{{ letter }}.png">
+{% assign path = 'assets/img/pitching_chart_' | append: letter | append: '.svg' %}
+<img class="letter-rating" title="{{ include.rating }}" src="{{ path | relative_url }}">
