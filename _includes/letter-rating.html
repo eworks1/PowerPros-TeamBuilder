@@ -21,5 +21,5 @@
     {% assign letter = "G" %}
 {% endif %}
 
-{% assign path = 'assets/img/pitching_chart_' | append: letter | append: '.svg' %}
+{% assign path = 'assets/img/letter_rating_' | append: letter | append: '.svg' %}
 <img class="letter-rating" title="{{ include.rating }}" src="{{ path | relative_url }}">
