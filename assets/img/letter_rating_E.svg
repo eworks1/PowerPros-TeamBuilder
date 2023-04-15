@@ -20,7 +20,7 @@
 
     <text id="E" filter="url(#shadow)" x="50%" y="50%" width="100%" class="text">E</text>
     
-    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
         <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.5" flood-color="black"/>
     </filter>
 </svg>
