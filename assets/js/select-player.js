@@ -52,78 +52,42 @@ function playerClicked(player) {
         );
     });
 
-    const hitImgs = detailBox.querySelectorAll('.detail-hit.info-box .letter-rating');
-    hitImgs.forEach(element => {
-        element.setAttribute(
-            'src',
-            letterRatingUrl(player.Contact)
-        );
-        element.setAttribute(
-            'title',
-            `${player.Contact}`
-        );
+    const hitSvgTexts = detailBox.querySelectorAll('.detail-hit.info-box .letter-rating .letter');
+    hitSvgTexts.forEach(element => {
+        element.textContent = getLetterRatingFromNumber(player.Contact);
+        element.previousElementSibling.textContent = `${player.Contact}`;
     });
 
-    const pwrSvgTexts = detailBox.querySelectorAll('.detail-pwr.info-box .letter-rating');
-    pwrSvgTexts.forEach(pwrImg => {
-        pwrImg.setAttribute(
-            'src',
-            letterRatingUrl(player.Power)
-        );
-        pwrImg.setAttribute(
-            'title',
-            `${player.Power}`
-        );
+    const pwrSvgTexts = detailBox.querySelectorAll('.detail-pwr.info-box .letter-rating .letter');
+    pwrSvgTexts.forEach(element => {
+        element.textContent = getLetterRatingFromNumber(player.Power);
+        element.previousElementSibling.textContent = `${player.Power}`;
     });
 
-    const runspdImgs = detailBox.querySelectorAll('.detail-runspd.info-box .letter-rating');
-    runspdImgs.forEach(runspdImg => {
-        runspdImg.setAttribute(
-            'src',
-            letterRatingUrl(player["Run Speed"])
-        );
-        runspdImg.setAttribute(
-            'title',
-            `${player["Run Speed"]}`
-        );
+    const runspdSvgTexts = detailBox.querySelectorAll('.detail-runspd.info-box .letter-rating .letter');
+    runspdSvgTexts.forEach(element => {
+        element.textContent = getLetterRatingFromNumber(player["Run Speed"]);
+        element.previousElementSibling.textContent = `${player["Run Speed"]}`;
     });
 
-    const armstrImgs = detailBox.querySelectorAll('.detail-armstr.info-box .letter-rating');
-    armstrImgs.forEach(armstrImg => {
-        armstrImg.setAttribute(
-            'src',
-            letterRatingUrl(player["Arm Strength"])
-        );
-        armstrImg.setAttribute(
-            'title',
-            `${player["Arm Strength"]}`
-        );
+    const armstrSvgTexts = detailBox.querySelectorAll('.detail-armstr.info-box .letter-rating .letter');
+    armstrSvgTexts.forEach(element => {
+        element.textContent = getLetterRatingFromNumber(player["Arm Strength"]);
+        element.previousElementSibling.textContent = `${player["Arm Strength"]}`;
     });
 
     // I think there won't be more than 1 of these, but just in case.
-    const catchingImgs = detailBox.querySelectorAll('.detail-catching.info-box .letter-rating');
-    catchingImgs.forEach(catchingImg => {
-        catchingImg.setAttribute(
-            'src',
-            letterRatingUrl(player["Error Resistance"])
-        );
-        catchingImg.setAttribute(
-            'title',
-            `${player["Error Resistance"]}`
-        );
+    const catchingSvgTexts = detailBox.querySelectorAll('.detail-catching.info-box .letter-rating .letter');
+    catchingSvgTexts.forEach(element => {
+        element.textContent = getLetterRatingFromNumber(player["Error Resistance"]);
+        element.previousElementSibling.textContent = `${player["Error Resistance"]}`;
     });
 
     // I think there won't be more than 1 of these, but just in case.
-    const fldImgs = detailBox.querySelectorAll('.detail-fld.info-box .letter-rating');
-    fldImgs.forEach(fldImg => {
-        fldImg.setAttribute(
-            'src',
-            letterRatingUrl(player.Fielding)
-        );
-        fldImg.setAttribute(
-            'title',
-            `${player.Fielding}`
-        );
+    const fldSvgTexts = detailBox.querySelectorAll('.detail-fld.info-box .letter-rating .letter');
+    fldSvgTexts.forEach(element => {
+        element.textContent = getLetterRatingFromNumber(player.Fielding);
+        element.previousElementSibling.textContent = `${player.Fielding}`;
     });
 
     // Fielding Positions
@@ -195,16 +159,10 @@ function playerClicked(player) {
 
     // Pitch Stamina (Pitching Detail)
     // I think there won't be more than 1 of these, but just in case.
-    const staminaImgs = detailBox.querySelectorAll('.detail-stamina.info-box .letter-rating');
-    staminaImgs.forEach(staminaImg => {
-        staminaImg.setAttribute(
-            'src',
-            letterRatingUrl(player.Stamina)
-        );
-        staminaImg.setAttribute(
-            'title',
-            `${player.Stamina}`
-        );
+    const staminaSvgTexts = detailBox.querySelectorAll('.detail-stamina.info-box .letter-rating .letter');
+    staminaSvgTexts.forEach(element => {
+        element.textContent = getLetterRatingFromNumber(player.Stamina);
+        element.previousElementSibling.textContent = `${player.Stamina}`;
     });
 
     // Pitching Role List (Pitching Detail)
