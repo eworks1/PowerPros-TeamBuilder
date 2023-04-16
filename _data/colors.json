@@ -1,4 +1,38 @@
 {
+    "ratings": {
+        "S": {
+            "start": "#e98db3",
+            "end": "#e06293"
+        },
+        "A": {
+            "start": "#e267dc",
+            "end": "#c52cb3"
+        },
+        "B": {
+            "start": "#dc5d78",
+            "end": "#d92e33"
+        },
+        "C": {
+            "start": "#dfa039",
+            "end": "#d4722d"
+        },
+        "D": {
+            "start": "#cacb45",
+            "end": "#afa036"
+        },
+        "E": {
+            "start": "#7ed843",
+            "end": "#5cb535"
+        },
+        "F": {
+            "start": "#55b3f6",
+            "end": "#3982f1"
+        },
+        "G": {
+            "start": "#a3a1a0",
+            "end": "#7b7d7c"
+        }
+    },
     "positions": {
         "All": "#9470ca",
         "P": "#ee8d7f",
