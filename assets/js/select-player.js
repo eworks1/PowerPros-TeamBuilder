@@ -210,10 +210,8 @@ function playerClicked(player) {
     pitchingChartObj.setAttribute('pitches', JSON.stringify(player["Breaking Balls"]));
     pitchingChartObj.setAttribute('lefty', player.Throws == 'L');
 
-    // pitchingChartObj.addEventListener('load', (ev) => {
     if (pitchingChartObj) {
         updatePitchChart.apply(
-            // ev.target.contentDocument,
             pitchingChartObj.contentDocument,
             [
                 player["Breaking Balls"],
@@ -221,7 +219,6 @@ function playerClicked(player) {
             ]
         );
     }
-    // });
 }
 
 /**
