@@ -201,17 +201,20 @@ function playerClicked(player) {
 
     // Pitch Control (Pitching Detail)
     // I think there won't be more than 1 of these, but just in case.
-    const controlImgs = detailBox.querySelectorAll('.detail-control.info-box .letter-rating');
-    if (controlImgs) {
-        controlImgs.forEach(controlImg => {
-            controlImg.setAttribute(
-                'src',
-                letterRatingUrl(player.Control)
-            );
-            controlImg.setAttribute(
-                'title',
-                `${player.Control}`
-            );
+    const controlSvgTexts = detailBox.querySelectorAll('.detail-control.info-box .letter-rating .letter');
+    if (controlSvgTexts) {
+        controlSvgTexts.forEach(controlSvgText => {
+            controlSvgText.textContent = getLetterRatingFromNumber(player.Control);
+            controlSvgText.previousElementSibling.textContent = `${player.Control}`;
+
+            // controlImg.setAttribute(
+            //     'src',
+            //     letterRatingUrl(player.Control)
+            // );
+            // controlImg.setAttribute(
+            //     'title',
+            //     `${player.Control}`
+            // );
         });
     }
 
