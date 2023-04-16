@@ -91,6 +91,12 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
 </head>
 
 <body onload="setUpClickListeners()">
+    <svg height="0">
+        <filter id="rating-shadow" x="-50%" y="-50%" width="200%" height="200%">
+            <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.5" flood-color="black" />
+        </filter>
+    </svg>
+
     {% assign all_players = site.data.players.players %}
 
     <div id="team-name-box" class="group-box" style="grid-area: teamname;">
