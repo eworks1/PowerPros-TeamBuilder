@@ -206,15 +206,6 @@ function playerClicked(player) {
         controlSvgTexts.forEach(controlSvgText => {
             controlSvgText.textContent = getLetterRatingFromNumber(player.Control);
             controlSvgText.previousElementSibling.textContent = `${player.Control}`;
-
-            // controlImg.setAttribute(
-            //     'src',
-            //     letterRatingUrl(player.Control)
-            // );
-            // controlImg.setAttribute(
-            //     'title',
-            //     `${player.Control}`
-            // );
         });
     }
 
