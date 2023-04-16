@@ -146,7 +146,7 @@ function playerClicked(player) {
     // Pitching Form (Pitching Detail)
     const pitchingForm = detailBox.querySelector('.detail-pitching-form.info-box');
     if (pitchingForm) {
-        pitchingForm.textContent = player["Pitching Form"] || 'Form';
+        pitchingForm.textContent = player["Pitching Form"] || '–––';
     }
 
     // Pitch Control (Pitching Detail)
