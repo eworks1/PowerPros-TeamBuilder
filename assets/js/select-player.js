@@ -158,10 +158,10 @@ function playerClicked(player) {
     // Pitch Control (Pitching Detail)
     // I think there won't be more than 1 of these, but just in case.
     const controlSvgTexts = detailBox.querySelectorAll('.detail-control.info-box .letter-rating .letter');
-    controlSvgTexts.forEach(controlSvgText => {
+    controlSvgTexts.forEach(element => {
         element.classList.replace(element.textContent, player.Control);
-        controlSvgText.textContent = getLetterRatingFromNumber(player.Control);
-        controlSvgText.previousElementSibling.textContent = `${player.Control}`;
+        element.textContent = getLetterRatingFromNumber(player.Control);
+        element.previousElementSibling.textContent = `${player.Control}`;
     });
 
     // Pitch Stamina (Pitching Detail)
