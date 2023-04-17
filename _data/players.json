@@ -22,6 +22,9 @@
         "Name Abbreviation": "A.Aznable",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 63
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -51,13 +54,18 @@
             "id": "FRK",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP B", "Agile B", "Recovery C", "Reflexes", "Gripper"]
     }, {
         "id": "A.Aznable-279",
         "Name": "Anne Aznable",
         "Name Abbreviation": "A.Aznable",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["MR"],
+        "All Fielding Ratings": {
+            "P": 58
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 4",
@@ -87,13 +95,56 @@
             "id": "SHU",
             "level": 1
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Reflexes"]
+    }, {
+        "id": "A.Lockhart-332",
+        "Name": "Alvin Lockhart",
+        "Name Abbreviation": "A.Lockhart",
+        "Jersey Number": "1",
+        "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 63
+        },
+        "Throws": "R",
+        "Bats": "R",
+        "Acquisition Req.": "Player Set 2",
+        "Star Point": 332,
+        "Point Cost": 2,
+        "Trajectory": 2,
+        "Contact": 52,
+        "Power": 46,
+        "Run Speed": 57,
+        "Arm Strength": 67,
+        "Fielding": 63,
+        "Error Resistance": 61,
+        "Special Abilities (Fielder)": null,
+        "Top Speed": 148,
+        "Control": 58,
+        "Stamina": 78,
+        "Breaking Balls": [{
+            "id": "CUT",
+            "level": 2
+        }, {
+            "id": "SLV",
+            "level": 1
+        }, {
+            "id": "SP Forkball 2",
+            "level": 3
+        }],
+        "Pitching Form": null,
+        "Batting Form": null,
+        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Vs. Slugger", "Downplay"]
     }, {
         "id": "A.Yabe-333",
         "Name": "Akio Yabe",
         "Name Abbreviation": "A.Yabe",
         "Jersey Number": "99",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 78
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -111,13 +162,18 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Aasa-483",
         "Name": "Ouma Aasa",
         "Name Abbreviation": "Aasa",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -144,6 +200,8 @@
             "id": "SP Forkball 8",
             "level": 6
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise A", "Bullet", "Recovery C", "Carver", "Ironball", "Breaking Ball Pitcher", "Pace"]
     }, {
         "id": "Abata-318",
@@ -151,6 +209,9 @@
         "Name Abbreviation": "Abata",
         "Jersey Number": "01",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 65
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -174,6 +235,8 @@
             "id": "SP Forkball 1",
             "level": 5
         }],
+        "Pitching Form": "Overhead 7",
+        "Batting Form": "General 29",
         "Special Abilities (Pitching)": ["Recovery B", "Breaking Ball P"]
     }, {
         "id": "Abata-316",
@@ -181,6 +244,9 @@
         "Name Abbreviation": "Abata",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 65
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -204,6 +270,8 @@
             "id": "SP Forkball 1",
             "level": 5
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Breaking Ball Pitcher"]
     }, {
         "id": "Akechi-318",
@@ -211,6 +279,9 @@
         "Name Abbreviation": "Akechi",
         "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 76
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -228,6 +299,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Akutsu-179",
@@ -235,6 +308,9 @@
         "Name Abbreviation": "Akutsu",
         "Jersey Number": "009",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 57
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -255,6 +331,8 @@
             "id": "FRK",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise B", "Recovery C", "Low Ball", "Breaking Ball P"]
     }, {
         "id": "Alex-385",
@@ -262,6 +340,9 @@
         "Name Abbreviation": "Alex",
         "Jersey Number": "22",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 57
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -285,6 +366,8 @@
             "id": "SPL",
             "level": 5
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": "Cutter"
     }, {
         "id": "Amane-240",
@@ -292,6 +375,9 @@
         "Name Abbreviation": "Amane",
         "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 50
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -309,6 +395,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Aoba-336",
@@ -316,6 +404,9 @@
         "Name Abbreviation": "Aoba",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -339,6 +430,8 @@
             "id": "KNCV",
             "level": 2
         }],
+        "Pitching Form": "Three-Quarters 40",
+        "Batting Form": "-",
         "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Cutter", "Ironball", "Dr. K", "Battler", "Vs. Slugger", "Breaking Ball P"]
     }, {
         "id": "Arakata-356",
@@ -346,6 +439,9 @@
         "Name Abbreviation": "Arakata",
         "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 44
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -363,6 +459,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Arashimaru-242",
@@ -370,6 +468,9 @@
         "Name Abbreviation": "Arashimaru",
         "Jersey Number": "19",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 50
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -399,6 +500,8 @@
             "id": "SNK",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Vs. Slugger"]
     }, {
         "id": "Arashimaru-363",
@@ -406,6 +509,9 @@
         "Name Abbreviation": "Arashimaru",
         "Jersey Number": "19",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 50
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -435,6 +541,8 @@
             "id": "SNK",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Vs. Slugger"]
     }, {
         "id": "Arima-382",
@@ -442,6 +550,9 @@
         "Name Abbreviation": "Arima",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 64
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -468,6 +579,8 @@
             "id": "SCV",
             "level": 6
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Grit B", "Crossfire", "Toolkit", "Airball"]
     }, {
         "id": "Atsumori-485",
@@ -475,6 +588,10 @@
         "Name Abbreviation": "Atsumori",
         "Jersey Number": "1",
         "Field Position": ["SP", "OF"],
+        "All Fielding Ratings": {
+            "P": 58,
+            "OF": 29
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "5000 CP",
@@ -498,6 +615,8 @@
             "id": "SP Ball",
             "level": 6
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Battler", "Hot Head"]
     }, {
         "id": "Atsumori-374",
@@ -505,6 +624,10 @@
         "Name Abbreviation": "Atsumori",
         "Jersey Number": "1",
         "Field Position": ["SP", "OF"],
+        "All Fielding Ratings": {
+            "P": 58,
+            "OF": 29
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -528,6 +651,8 @@
             "id": "CB",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise A", "Recovery C"]
     }, {
         "id": "Awate-296",
@@ -535,6 +660,10 @@
         "Name Abbreviation": "Awate",
         "Jersey Number": "8",
         "Field Position": ["OF", "SS"],
+        "All Fielding Ratings": {
+            "OF": 80,
+            "SS": 56
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -552,6 +681,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Azuma-394",
@@ -559,6 +690,9 @@
         "Name Abbreviation": "Azuma",
         "Jersey Number": "6",
         "Field Position": ["SS"],
+        "All Fielding Ratings": {
+            "SS": 82
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "950 CP",
@@ -576,6 +710,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Azuma-326",
@@ -583,6 +719,11 @@
         "Name Abbreviation": "Azuma",
         "Jersey Number": "4",
         "Field Position": ["SS", "2B", "OF"],
+        "All Fielding Ratings": {
+            "SS": 58,
+            "2B": 58,
+            "OF": 40
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -600,13 +741,21 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "B.Marushima-369",
         "Name": "Bat Marushima",
         "Name Abbreviation": "B.Marushima",
-        "Jersey Number": null,
+        "Jersey Number": "6",
         "Field Position": ["SS", "1B", "2B", "3B"],
+        "All Fielding Ratings": {
+            "SS": 65,
+            "1B": 52,
+            "2B": 52,
+            "3B": 52
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 4",
@@ -624,6 +773,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ban-363",
@@ -631,6 +782,11 @@
         "Name Abbreviation": "Ban",
         "Jersey Number": "1",
         "Field Position": ["SS", "2B", "3B"],
+        "All Fielding Ratings": {
+            "SS": 70,
+            "2B": 49,
+            "3B": 49
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -648,6 +804,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Bando-391",
@@ -655,6 +813,10 @@
         "Name Abbreviation": "Bando",
         "Jersey Number": "1",
         "Field Position": ["3B", "1B"],
+        "All Fielding Ratings": {
+            "3B": 37,
+            "1B": 18
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "50 CP",
@@ -672,6 +834,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Benitsuru-344",
@@ -679,6 +843,10 @@
         "Name Abbreviation": "Benitsuru",
         "Jersey Number": "5",
         "Field Position": ["SS", "2B"],
+        "All Fielding Ratings": {
+            "SS": 65,
+            "2B": 52
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -696,6 +864,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Black-314",
@@ -703,6 +873,11 @@
         "Name Abbreviation": "Black",
         "Jersey Number": "7",
         "Field Position": ["OF", "2B", "SS"],
+        "All Fielding Ratings": {
+            "OF": 70,
+            "2B": 56,
+            "SS": 56
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -720,6 +895,8 @@
         "Control": 20,
         "Stamina": 20,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Charai-282",
@@ -727,6 +904,10 @@
         "Name Abbreviation": "Charai",
         "Jersey Number": "4",
         "Field Position": ["2B", "SS"],
+        "All Fielding Ratings": {
+            "2B": 71,
+            "SS": 56
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -744,6 +925,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": "-",
+        "Batting Form": "-",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Chiga-318",
@@ -751,6 +934,11 @@
         "Name Abbreviation": "Chiga",
         "Jersey Number": "5",
         "Field Position": ["3B", "2B", "SS"],
+        "All Fielding Ratings": {
+            "3B": 64,
+            "2B": 51,
+            "SS": 51
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -768,6 +956,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Chiyohime-348",
@@ -775,6 +965,10 @@
         "Name Abbreviation": "Chiyohime",
         "Jersey Number": "3",
         "Field Position": ["2B", "1B"],
+        "All Fielding Ratings": {
+            "2B": 70,
+            "1B": 49
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -792,6 +986,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Chouno-296",
@@ -799,6 +995,9 @@
         "Name Abbreviation": "Chouno",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 72
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -828,6 +1027,8 @@
             "id": "SHU",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Handler", "Airball", "Unlucky", "Breaking Ball Pitcher", "Pace"]
     }, {
         "id": "D.Bonda-265",
@@ -835,6 +1036,9 @@
         "Name Abbreviation": "D.Bonda",
         "Jersey Number": "13",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 30
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -861,6 +1065,8 @@
             "id": "FRK",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Trusty"]
     }, {
         "id": "D.Deita-470",
@@ -868,6 +1074,9 @@
         "Name Abbreviation": "D.Deita",
         "Jersey Number": "2",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 80
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "4000 CP",
@@ -885,6 +1094,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "D.Wang-383",
@@ -892,6 +1103,11 @@
         "Name Abbreviation": "D.Wang",
         "Jersey Number": "8",
         "Field Position": ["OF", "3B", "SS"],
+        "All Fielding Ratings": {
+            "OF": 63,
+            "3B": 63,
+            "SS": 63
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -909,13 +1125,18 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Daichiman-356",
         "Name": "Daikichi Daichiman",
         "Name Abbreviation": "Daichiman",
-        "Jersey Number": null,
+        "Jersey Number": "3",
         "Field Position": ["1B"],
+        "All Fielding Ratings": {
+            "1B": 60
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -933,6 +1154,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Daigogetsu-524",
@@ -940,6 +1163,9 @@
         "Name Abbreviation": "Daigogetsu",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 47
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "2000 CP",
@@ -966,13 +1192,18 @@
             "id": "SPL",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Ironball", "Tyrant", "Bluffer", "Meatball"]
     }, {
         "id": "Doe-559",
         "Name": "Ryuga Doe",
         "Name Abbreviation": "Doe",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 80
+        },
         "Throws": "L",
         "Bats": "S",
         "Acquisition Req.": "Player Set 4",
@@ -999,13 +1230,19 @@
             "id": "CUT",
             "level": 7
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise B", "Heater B", "Recovery C", "Ironball", "Trusty", "Chill"]
     }, {
         "id": "Doken-320",
         "Name": "Reiji Doken",
         "Name Abbreviation": "Doken",
-        "Jersey Number": null,
+        "Jersey Number": "2",
         "Field Position": ["C", "1B"],
+        "All Fielding Ratings": {
+            "C": 70,
+            "1B": 49
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -1023,13 +1260,20 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Domon-316",
         "Name": "Kion Domon",
         "Name Abbreviation": "Domon",
-        "Jersey Number": null,
+        "Jersey Number": "3",
         "Field Position": ["1B", "2B", "SS"],
+        "All Fielding Ratings": {
+            "1B": 65,
+            "2B": 52,
+            "3B": 52
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -1047,6 +1291,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Edogawa-347",
@@ -1054,6 +1300,9 @@
         "Name Abbreviation": "Edogawa",
         "Jersey Number": "72",
         "Field Position": ["1B"],
+        "All Fielding Ratings": {
+            "1B": 67
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 2",
@@ -1071,13 +1320,19 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Emori-280",
         "Name": "You Emori",
         "Name Abbreviation": "Emori",
-        "Jersey Number": null,
+        "Jersey Number": "5",
         "Field Position": ["SS", "OF"],
+        "All Fielding Ratings": {
+            "SS": 82,
+            "OF": 57
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -1095,6 +1350,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ereki-349",
@@ -1102,6 +1359,9 @@
         "Name Abbreviation": "Ereki",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 56
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -1128,6 +1388,8 @@
             "id": "SP Shootball 3",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Cutter", "Insider"]
     }, {
         "id": "F.Deita-382",
@@ -1135,6 +1397,9 @@
         "Name Abbreviation": "F.Deita",
         "Jersey Number": "2",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 74
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -1161,6 +1426,8 @@
             "id": "CH",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP B", "Heater B", "Cutter"]
     }, {
         "id": "Fukami-311",
@@ -1168,6 +1435,9 @@
         "Name Abbreviation": "Fukami",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 30
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -1191,6 +1461,8 @@
             "id": "CB",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Resolve", "Grit F", "Recovery C", "Cutter", "Ironball", "Tyrant", "Insider"]
     }, {
         "id": "Fukumizu-466",
@@ -1198,6 +1470,10 @@
         "Name Abbreviation": "Fukumizu",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP", "OF"],
+        "All Fielding Ratings": {
+            "P": 60,
+            "OF": 60
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -1224,6 +1500,8 @@
             "id": "SP Shootball 2",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Ironball", "Reflexes", "Tyrant", "Power P"]
     }, {
         "id": "Fukuya-413",
@@ -1231,6 +1509,9 @@
         "Name Abbreviation": "Fukuya",
         "Jersey Number": "5",
         "Field Position": ["3B"],
+        "All Fielding Ratings": {
+            "3B": 57
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "900 CP",
@@ -1248,6 +1529,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Furu-216",
@@ -1255,6 +1538,9 @@
         "Name Abbreviation": "Furu",
         "Jersey Number": "99",
         "Field Position": ["1B"],
+        "All Fielding Ratings": {
+            "1B": 25
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -1272,13 +1558,19 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Furunaga-349",
         "Name": "Eiji Furunaga",
         "Name Abbreviation": "Furunaga",
-        "Jersey Number": null,
+        "Jersey Number": "5",
         "Field Position": ["3B", "SS"],
+        "All Fielding Ratings": {
+            "3B": 60,
+            "SS": 48
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -1296,6 +1588,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "G.Bhattarai-357",
@@ -1303,6 +1597,11 @@
         "Name Abbreviation": "G.Bhattarai",
         "Jersey Number": "6",
         "Field Position": ["SS", "2B", "3B"],
+        "All Fielding Ratings": {
+            "SS": 66,
+            "2B": 52,
+            "3B": 52
+        },
         "Throws": "L",
         "Bats": "S",
         "Acquisition Req.": "Player Set 1",
@@ -1320,6 +1619,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Gaido-228",
@@ -1327,6 +1628,11 @@
         "Name Abbreviation": "Gaido",
         "Jersey Number": "3",
         "Field Position": ["1B", "OF", "C"],
+        "All Fielding Ratings": {
+            "1B": 46,
+            "C": 23,
+            "OF": 36
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -1344,6 +1650,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Go-535",
@@ -1351,6 +1659,10 @@
         "Name Abbreviation": "Go",
         "Jersey Number": "5",
         "Field Position": ["SP", "3B"],
+        "All Fielding Ratings": {
+            "P": 80,
+            "3B": 56
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "3700 CP",
@@ -1377,13 +1689,21 @@
             "id": "HSL",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Dr. K", "Downplay"]
     }, {
         "id": "Gobu-378",
         "Name": "Rinto Gobu",
         "Name Abbreviation": "Gobu",
-        "Jersey Number": null,
+        "Jersey Number": "2",
         "Field Position": ["C", "SS", "2B", "3B"],
+        "All Fielding Ratings": {
+            "C": 80,
+            "SS": 64,
+            "2B": 56,
+            "3B": 56
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -1401,6 +1721,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": "Hot Head"
     }, {
         "id": "Gunji-288",
@@ -1408,6 +1730,10 @@
         "Name Abbreviation": "Gunji",
         "Jersey Number": "7",
         "Field Position": ["OF", "C"],
+        "All Fielding Ratings": {
+            "OF": 60,
+            "C": 42
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -1425,13 +1751,19 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hachikiri-306",
         "Name": "Yuuto Hachikiri",
         "Name Abbreviation": "Hachikiri",
-        "Jersey Number": null,
+        "Jersey Number": "4",
         "Field Position": ["C", "1B"],
+        "All Fielding Ratings": {
+            "C": 53,
+            "1B": 37
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 4",
@@ -1449,6 +1781,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hagane-414",
@@ -1456,6 +1790,9 @@
         "Name Abbreviation": "Hagane",
         "Jersey Number": "10",
         "Field Position": ["SP", "MR"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -1479,6 +1816,8 @@
             "id": "CB",
             "level": 5
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["w/RISP B", "Heater B", "Recovery C", "Vs. Runner"]
     }, {
         "id": "Haitani-325",
@@ -1486,6 +1825,9 @@
         "Name Abbreviation": "Haitani",
         "Jersey Number": "8",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 50
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -1503,6 +1845,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hakata-263",
@@ -1510,6 +1854,9 @@
         "Name Abbreviation": "Hakata",
         "Jersey Number": "10",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 21
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -1536,6 +1883,8 @@
             "id": "EP",
             "level": null
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Cutter", "Toolkit"]
     }, {
         "id": "Hakosaki-348",
@@ -1543,6 +1892,10 @@
         "Name Abbreviation": "Hakosaki",
         "Jersey Number": "3",
         "Field Position": ["1B", "3B"],
+        "All Fielding Ratings": {
+            "1B": 60,
+            "3B": 42
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -1560,6 +1913,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hamasaki-270",
@@ -1567,6 +1922,9 @@
         "Name Abbreviation": "Hamasaki",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 53
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -1593,6 +1951,8 @@
             "id": "SHU",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Momentum", "Battler", "Unlucky", "Hot Head"]
     }, {
         "id": "Handa-313",
@@ -1600,6 +1960,10 @@
         "Name Abbreviation": "Handa",
         "Jersey Number": "33",
         "Field Position": ["C", "OF"],
+        "All Fielding Ratings": {
+            "C": 43,
+            "OF": 21
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -1617,6 +1981,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hasami-179",
@@ -1624,6 +1990,9 @@
         "Name Abbreviation": "Hasami",
         "Jersey Number": "9",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 44
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -1641,6 +2010,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hassyaku-265",
@@ -1648,6 +2019,10 @@
         "Name Abbreviation": "Hassyaku",
         "Jersey Number": "8",
         "Field Position": ["OF", "1B"],
+        "All Fielding Ratings": {
+            "OF": 40,
+            "1B": 28
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -1665,6 +2040,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hatsuno-265",
@@ -1672,6 +2049,10 @@
         "Name Abbreviation": "Hatsuno",
         "Jersey Number": "4",
         "Field Position": ["2B", "SS"],
+        "All Fielding Ratings": {
+            "2B": 70,
+            "SS": 49
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 3",
@@ -1689,6 +2070,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hayakawa-217",
@@ -1696,6 +2079,9 @@
         "Name Abbreviation": "Hayakawa",
         "Jersey Number": "1",
         "Field Position": ["MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 45
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -1719,6 +2105,8 @@
             "id": "SP Sinker 1",
             "level": 4
         }],
+        "Pitching Form": "Submarine 7",
+        "Batting Form": "General 25",
         "Special Abilities (Pitching)": ["Toolkit", "Hot Head", "Recovery C", "Breaking Ball P"]
     }, {
         "id": "Hibikino-301",
@@ -1726,6 +2114,10 @@
         "Name Abbreviation": "Hibikino",
         "Jersey Number": "556",
         "Field Position": ["SP", "MR", "CP", "SS"],
+        "All Fielding Ratings": {
+            "P": 51,
+            "SS": 35
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -1752,6 +2144,8 @@
             "id": "FRK",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise A", "Recovery G", "Toolkit"]
     }, {
         "id": "Hidou-304",
@@ -1759,6 +2153,9 @@
         "Name Abbreviation": "Hidou",
         "Jersey Number": "2",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 37
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "400 CP",
@@ -1776,13 +2173,18 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hino-451",
         "Name": "Yutaro Hino",
         "Name Abbreviation": "Hino",
-        "Jersey Number": null,
+        "Jersey Number": "8",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 58
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 4",
@@ -1800,6 +2202,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hisakata-378",
@@ -1807,6 +2211,9 @@
         "Name Abbreviation": "Hisakata",
         "Jersey Number": "11",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 75
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -1830,6 +2237,8 @@
             "id": "SPL",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": "Recovery C"
     }, {
         "id": "Hokuto-401",
@@ -1837,6 +2246,9 @@
         "Name Abbreviation": "Hokuto",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 50
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -1863,13 +2275,18 @@
             "id": "2SFB",
             "level": null
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Pace"]
     }, {
         "id": "Hokuto-455",
         "Name": "Yakumo Hokuto",
         "Name Abbreviation": "Hokuto",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 50
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 4",
@@ -1896,6 +2313,8 @@
             "id": "CUT",
             "level": 6
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Pace"]
     }, {
         "id": "Honba-308",
@@ -1903,6 +2322,10 @@
         "Name Abbreviation": "Honba",
         "Jersey Number": "3",
         "Field Position": ["1B", "OF"],
+        "All Fielding Ratings": {
+            "1B": 54,
+            "OF": 37
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -1920,6 +2343,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Horisugi-367",
@@ -1927,6 +2352,9 @@
         "Name Abbreviation": "Horisugi",
         "Jersey Number": "21",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 53
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -1944,6 +2372,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Horusrun-398",
@@ -1951,6 +2381,9 @@
         "Name Abbreviation": "Horusrun",
         "Jersey Number": "4",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 41
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -1977,6 +2410,8 @@
             "id": "SP Sinker 4",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP B", "Poise B", "Heater B", "Ironball", "Tyrant", "Chill", "Star"]
     }, {
         "id": "Hoshii-329",
@@ -1984,6 +2419,9 @@
         "Name Abbreviation": "Hoshii",
         "Jersey Number": "11",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -2010,6 +2448,8 @@
             "id": "SP Forkball 4",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP F", "Recovery C", "Trusty", "Momentum"]
     }, {
         "id": "Hoshizora-353",
@@ -2017,6 +2457,10 @@
         "Name Abbreviation": "Hoshizora",
         "Jersey Number": "2",
         "Field Position": ["C", "OF"],
+        "All Fielding Ratings": {
+            "C": 70,
+            "OF": 56
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -2034,6 +2478,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ichinose-418",
@@ -2041,6 +2487,9 @@
         "Name Abbreviation": "Ichinose",
         "Jersey Number": "17",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -2070,6 +2519,8 @@
             "id": "SL",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Tyrant", "Chill", "Breaking Ball P"]
     }, {
         "id": "Ichou-294",
@@ -2077,6 +2528,10 @@
         "Name Abbreviation": "Ichou",
         "Jersey Number": "3",
         "Field Position": ["1B", "OF"],
+        "All Fielding Ratings": {
+            "1B": 32,
+            "OF": 22
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -2094,6 +2549,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Igarashi-281",
@@ -2101,6 +2558,9 @@
         "Name Abbreviation": "Igarashi",
         "Jersey Number": "5",
         "Field Position": ["3B"],
+        "All Fielding Ratings": {
+            "3B": 55
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -2118,6 +2578,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Inada-298",
@@ -2125,6 +2587,9 @@
         "Name Abbreviation": "Inada",
         "Jersey Number": "5",
         "Field Position": ["3B"],
+        "All Fielding Ratings": {
+            "3B": 51
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "2100 CP",
@@ -2142,13 +2607,18 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ino-359",
         "Name": "Reiji Ino",
         "Name Abbreviation": "Ino",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 44
+        },
         "Throws": "L",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -2175,6 +2645,8 @@
             "id": "SCV",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Gripper", "Toolkit", "Breaking Ball Pitcher"]
     }, {
         "id": "Inukawa-316",
@@ -2182,6 +2654,9 @@
         "Name Abbreviation": "Inukawa",
         "Jersey Number": "11",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 56
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -2208,13 +2683,18 @@
             "id": "FRK",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise F", "Recovery C", "Bluffer", "Downplay", "Pace"]
     }, {
         "id": "Inuki-470",
         "Name": "Yamato Inuki",
         "Name Abbreviation": "Inuki",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 50
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -2241,6 +2721,8 @@
             "id": "SNK",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["w/RISP A", "Poise B", "Recovery C", "Low Ball", "Bluffer", "Chill"]
     }, {
         "id": "Isamura-390",
@@ -2248,6 +2730,9 @@
         "Name Abbreviation": "Isamura",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 50
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -2274,6 +2759,8 @@
             "id": "SNK",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise B", "Tyrant", "Low Ball", "Chill", "Pace"]
     }, {
         "id": "Iseki-388",
@@ -2281,6 +2768,10 @@
         "Name Abbreviation": "Iseki",
         "Jersey Number": "7",
         "Field Position": ["2B", "C"],
+        "All Fielding Ratings": {
+            "2B": 82,
+            "C": 65
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -2298,6 +2789,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ishino-179",
@@ -2305,6 +2798,9 @@
         "Name Abbreviation": "Ishino",
         "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 45
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -2322,6 +2818,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Itto-370",
@@ -2329,6 +2827,10 @@
         "Name Abbreviation": "Itto",
         "Jersey Number": "2",
         "Field Position": ["OF", "1B"],
+        "All Fielding Ratings": {
+            "OF": 62,
+            "1B": 43
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -2346,6 +2848,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Iwai-302",
@@ -2353,6 +2857,10 @@
         "Name Abbreviation": "Iwai",
         "Jersey Number": "5",
         "Field Position": ["3B", "OF"],
+        "All Fielding Ratings": {
+            "3B": 70,
+            "OF": 56
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -2370,6 +2878,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Izayoi-451",
@@ -2377,6 +2887,9 @@
         "Name Abbreviation": "Izayoi",
         "Jersey Number": "10",
         "Field Position": ["SS"],
+        "All Fielding Ratings": {
+            "SS": 90
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -2394,6 +2907,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Izayoi-373",
@@ -2401,6 +2916,10 @@
         "Name Abbreviation": "Izayoi",
         "Jersey Number": "16",
         "Field Position": ["SP", "MR", "CP", "OF"],
+        "All Fielding Ratings": {
+            "P": 64,
+            "OF": 44
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -2424,13 +2943,19 @@
             "id": "12CV",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Gyroball", "Reflexes", "Guts", "Pace"]
     }, {
         "id": "Javelin-378",
         "Name": "Yukari Igarashi (Javelin)",
         "Name Abbreviation": "Javelin",
-        "Jersey Number": null,
+        "Jersey Number": "6",
         "Field Position": ["SS", "3B"],
+        "All Fielding Ratings": {
+            "SS": 63,
+            "3B": 50
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -2448,6 +2973,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Jinguji-277",
@@ -2455,6 +2982,10 @@
         "Name Abbreviation": "Jinguji",
         "Jersey Number": "3",
         "Field Position": ["1B", "3B"],
+        "All Fielding Ratings": {
+            "1B": 65,
+            "3B": 45
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -2472,6 +3003,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": "-",
+        "Batting Form": "-",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Jitsu-300",
@@ -2479,6 +3012,9 @@
         "Name Abbreviation": "Jitsu",
         "Jersey Number": "38",
         "Field Position": ["1B"],
+        "All Fielding Ratings": {
+            "1B": 46
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -2496,6 +3032,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Julius-368",
@@ -2503,6 +3041,11 @@
         "Name Abbreviation": "Julius",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP", "1B", "3B"],
+        "All Fielding Ratings": {
+            "P": 72,
+            "1B": 50,
+            "3B": 50
+        },
         "Throws": "L",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -2526,6 +3069,8 @@
             "id": "CH",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Low Ball", "Toolkit", "Star", "Pace"]
     }, {
         "id": "Junketsu-451",
@@ -2533,6 +3078,11 @@
         "Name Abbreviation": "Junketsu",
         "Jersey Number": "1",
         "Field Position": ["MR", "3B", "OF"],
+        "All Fielding Ratings": {
+            "P": 46,
+            "3B": 23,
+            "OF": 23
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "350 CP",
@@ -2559,13 +3109,19 @@
             "id": "SCV",
             "level": 7
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater A", "Agile F", "Recovery C", "Ironball", "Guts"]
     }, {
         "id": "K.Morales-384",
         "Name": "Kyle Morales",
         "Name Abbreviation": "K.Morales",
-        "Jersey Number": null,
+        "Jersey Number": "7",
         "Field Position": ["OF", "SS"],
+        "All Fielding Ratings": {
+            "OF": 80,
+            "SS": 64
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -2583,6 +3139,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kagami-404",
@@ -2590,6 +3148,9 @@
         "Name Abbreviation": "Kagami",
         "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 80
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -2607,6 +3168,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kagayaki-344",
@@ -2614,6 +3177,11 @@
         "Name Abbreviation": "Kagayaki",
         "Jersey Number": "8",
         "Field Position": ["3B", "SS", "OF"],
+        "All Fielding Ratings": {
+            "3B": 70,
+            "SS": 49,
+            "OF": 49
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -2631,6 +3199,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kagurazaka-487",
@@ -2638,6 +3208,9 @@
         "Name Abbreviation": "Kagurazaka",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 57
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -2667,13 +3240,18 @@
             "id": "SCR",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise B", "Recovery C"]
     }, {
         "id": "Kaji-443",
         "Name": "Masuto Kaji",
         "Name Abbreviation": "Kaji",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 50
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -2700,6 +3278,8 @@
             "id": "SHU",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP A", "Poise A", "Recovery C", "Lucky"]
     }, {
         "id": "Kamase-234",
@@ -2707,6 +3287,9 @@
         "Name Abbreviation": "Kamase",
         "Jersey Number": "2",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 50
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -2730,6 +3313,8 @@
             "id": "FRK",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise A", "Heater E", "Downplay", "Choker", "Unlucky"]
     }, {
         "id": "Kamitaka-388",
@@ -2737,6 +3322,9 @@
         "Name Abbreviation": "Kamitaka",
         "Jersey Number": "10",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 77
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -2760,6 +3348,8 @@
             "id": "CB",
             "level": 5
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Dr. K", "Low Ball", "Downplay", "Choker"]
     }, {
         "id": "Kamiyama-168",
@@ -2767,6 +3357,9 @@
         "Name Abbreviation": "Kamiyama",
         "Jersey Number": "2",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 44
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -2784,6 +3377,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kanehara-372",
@@ -2791,6 +3386,9 @@
         "Name Abbreviation": "Kanehara",
         "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 50
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -2808,6 +3406,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Karuizawa-261",
@@ -2815,6 +3415,9 @@
         "Name Abbreviation": "Karuizawa",
         "Jersey Number": "6",
         "Field Position": ["SS"],
+        "All Fielding Ratings": {
+            "SS": 55
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -2832,6 +3435,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Katakura-245",
@@ -2839,6 +3444,9 @@
         "Name Abbreviation": "Katakura",
         "Jersey Number": "10",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 55
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -2856,13 +3464,19 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Katori-293",
         "Name": "Senga Katori",
         "Name Abbreviation": "Katori",
-        "Jersey Number": null,
+        "Jersey Number": "7",
         "Field Position": ["SP", "MR", "CP", "1B"],
+        "All Fielding Ratings": {
+            "P": 50,
+            "1B": 35
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -2886,6 +3500,8 @@
             "id": "CB",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Vs. LHB C", "Recovery C", "Engineer", "Lucky", "Power Pitcher"]
     }, {
         "id": "Kawahoshi-258",
@@ -2893,6 +3509,10 @@
         "Name Abbreviation": "Kawahoshi",
         "Jersey Number": "3",
         "Field Position": ["1B", "2B"],
+        "All Fielding Ratings": {
+            "1B": 58,
+            "2B": 46
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -2910,13 +3530,20 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kazanagi-440",
         "Name": "Hyo Kazanagi",
         "Name Abbreviation": "Kazanagi",
-        "Jersey Number": null,
+        "Jersey Number": "6",
         "Field Position": ["SS", "1B", "2B"],
+        "All Fielding Ratings": {
+            "SS": 69,
+            "1B": 69,
+            "2B": 69
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 4",
@@ -2946,13 +3573,18 @@
             "id": "SHU",
             "level": 1
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kazanin-289",
         "Name": "Yu Kazanin",
         "Name Abbreviation": "Kazanin",
-        "Jersey Number": null,
+        "Jersey Number": "8",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 50
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -2970,6 +3602,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kiba-385",
@@ -2977,6 +3611,9 @@
         "Name Abbreviation": "Kiba",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -3006,13 +3643,18 @@
             "id": "SP Fastball 3",
             "level": null
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater A", "Recovery C", "Gyroball", "Ironball", "Crossfire", "Power P"]
     }, {
         "id": "Kikudo-233",
         "Name": "Aira Kikudo",
         "Name Abbreviation": "Kikudo",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 55
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -3039,6 +3681,8 @@
             "id": "SPL",
             "level": 5
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Gyroball", "Momentum", "Battler"]
     }, {
         "id": "Kino-372",
@@ -3046,6 +3690,9 @@
         "Name Abbreviation": "Kino",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -3078,6 +3725,8 @@
             "id": "MFB",
             "level": null
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Handler", "Downplay", "Breaking Ball Pitcher", "Pace"]
     }, {
         "id": "Kiriki-294",
@@ -3085,6 +3734,9 @@
         "Name Abbreviation": "Kiriki",
         "Jersey Number": "2",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 41
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "100 CP",
@@ -3102,6 +3754,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kodaira-318",
@@ -3109,6 +3763,10 @@
         "Name Abbreviation": "Kodaira",
         "Jersey Number": "4",
         "Field Position": ["2B", "SS"],
+        "All Fielding Ratings": {
+            "2B": 65,
+            "SS": 45
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -3126,6 +3784,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kodaka-307",
@@ -3133,6 +3793,12 @@
         "Name Abbreviation": "Kodaka",
         "Jersey Number": "2",
         "Field Position": ["C", "2B", "SS", "OF"],
+        "All Fielding Ratings": {
+            "C": 65,
+            "2B": 52,
+            "SS": 52,
+            "OF": 45
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "700 CP",
@@ -3150,6 +3816,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kogarashi-254",
@@ -3157,6 +3825,10 @@
         "Name Abbreviation": "Kogarashi",
         "Jersey Number": "6",
         "Field Position": ["SS", "2B"],
+        "All Fielding Ratings": {
+            "SS": 72,
+            "2B": 50
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -3174,6 +3846,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kogarashi-238",
@@ -3181,6 +3855,9 @@
         "Name Abbreviation": "Kogarashi",
         "Jersey Number": "12",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 71
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -3198,6 +3875,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kohmoto-269",
@@ -3205,6 +3884,9 @@
         "Name Abbreviation": "Kohmoto",
         "Jersey Number": "2",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 62
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -3222,13 +3904,18 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kujo-420",
         "Name": "Bannou Kujo",
         "Name Abbreviation": "Kujo",
-        "Jersey Number": null,
+        "Jersey Number": "7",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 69
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 4",
@@ -3249,6 +3936,8 @@
             "id": "SCR",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise F", "Dynamo"]
     }, {
         "id": "Kuon-290",
@@ -3256,6 +3945,9 @@
         "Name Abbreviation": "Kuon",
         "Jersey Number": "10",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 47
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -3282,6 +3974,8 @@
             "id": "CB",
             "level": 1
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP F", "Poise F", "Recovery C", "Airball", "Breaking Ball P"]
     }, {
         "id": "Kuragari-289",
@@ -3289,6 +3983,11 @@
         "Name Abbreviation": "Kuragari",
         "Jersey Number": "18",
         "Field Position": ["SS", "C", "OF"],
+        "All Fielding Ratings": {
+            "SS": 60,
+            "C": 42,
+            "OF": 42
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 2",
@@ -3306,6 +4005,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kurama-453",
@@ -3313,6 +4014,10 @@
         "Name Abbreviation": "Kurama",
         "Jersey Number": "7",
         "Field Position": ["SP", "MR", "CP", "OF"],
+        "All Fielding Ratings": {
+            "P": 60,
+            "OF": 60
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -3336,6 +4041,8 @@
             "id": "KN",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater A", "Recovery C", "Battler", "Guts", "Power P"]
     }, {
         "id": "Kureba-423",
@@ -3343,6 +4050,9 @@
         "Name Abbreviation": "Kureba",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "L",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -3366,6 +4076,8 @@
             "id": "SCV",
             "level": 7
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["w/RISP A", "Recovery C", "Dr. K", "Crossfire", "Low Ball"]
     }, {
         "id": "Kusano-332",
@@ -3373,6 +4085,10 @@
         "Name Abbreviation": "Kusano",
         "Jersey Number": "5",
         "Field Position": ["3B", "1B"],
+        "All Fielding Ratings": {
+            "3B": 65,
+            "1B": 45
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "650 CP",
@@ -3390,6 +4106,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kyushu-489",
@@ -3397,6 +4115,9 @@
         "Name Abbreviation": "Kyushu",
         "Jersey Number": "2",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 81
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "3500 CP",
@@ -3414,6 +4135,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "L.Tsukami-404",
@@ -3421,6 +4144,10 @@
         "Name Abbreviation": "L.Tsukami",
         "Jersey Number": "5",
         "Field Position": ["3B", "OF"],
+        "All Fielding Ratings": {
+            "3B": 48,
+            "OF": 33
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -3438,6 +4165,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Lee-271",
@@ -3445,6 +4174,10 @@
         "Name Abbreviation": "Lee",
         "Jersey Number": "44",
         "Field Position": ["2B", "SS"],
+        "All Fielding Ratings": {
+            "2B": 65,
+            "SS": 45
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -3462,46 +4195,18 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
-    }, {
-        "id": "Lockhart-332",
-        "Name": "Alvin Lockhart",
-        "Name Abbreviation": "Lockhart",
-        "Jersey Number": "1",
-        "Field Position": ["SP"],
-        "Throws": "R",
-        "Bats": "R",
-        "Acquisition Req.": "Player Set 2",
-        "Star Point": 332,
-        "Point Cost": 2,
-        "Trajectory": 2,
-        "Contact": 52,
-        "Power": 46,
-        "Run Speed": 57,
-        "Arm Strength": 67,
-        "Fielding": 63,
-        "Error Resistance": 61,
-        "Special Abilities (Fielder)": null,
-        "Top Speed": 148,
-        "Control": 58,
-        "Stamina": 78,
-        "Breaking Balls": [{
-            "id": "CUT",
-            "level": 2
-        }, {
-            "id": "SLV",
-            "level": 1
-        }, {
-            "id": "SP Forkball 2",
-            "level": 3
-        }],
-        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Vs. Slugger", "Downplay"]
     }, {
         "id": "M.Christine-379",
         "Name": "Maximum Christine",
         "Name Abbreviation": "M.Christine",
         "Jersey Number": "3",
         "Field Position": ["1B"],
+        "All Fielding Ratings": {
+            "1B": 33
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -3519,6 +4224,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "M.Ikari-466",
@@ -3526,6 +4233,9 @@
         "Name Abbreviation": "M.Ikari",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 65
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -3555,6 +4265,8 @@
             "id": "SP Fastball 1",
             "level": null
         }],
+        "Pitching Form": "Overhead 169",
+        "Batting Form": "General 2",
         "Special Abilities (Pitching)": ["W/RISP B", "Handler", "Recovery C", " Chill", "Power P", "Star"]
     }, {
         "id": "M.Vermillion-292",
@@ -3562,6 +4274,10 @@
         "Name Abbreviation": "M.Vermillion",
         "Jersey Number": "07",
         "Field Position": ["OF", "SS"],
+        "All Fielding Ratings": {
+            "OF": 62,
+            "SS": 43
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -3579,6 +4295,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Makita-339",
@@ -3586,6 +4304,10 @@
         "Name Abbreviation": "Makita",
         "Jersey Number": "2",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 62,
+            "OF": 43
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -3603,6 +4325,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Marumochi-217",
@@ -3610,6 +4334,9 @@
         "Name Abbreviation": "Marumochi",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 35
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -3633,6 +4360,8 @@
             "id": "CH",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP F", "Vs. LHB F", "Recovery G", "Battler"]
     }, {
         "id": "Matsukura-305",
@@ -3640,6 +4369,9 @@
         "Name Abbreviation": "Matsukura",
         "Jersey Number": "10",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 47
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -3663,6 +4395,8 @@
             "id": "FRK",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Vs. Slugger", "Hot Head"]
     }, {
         "id": "Matsuzaki-284",
@@ -3670,6 +4404,9 @@
         "Name Abbreviation": "Matsuzaki",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 15
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -3690,13 +4427,18 @@
             "id": "CB",
             "level": 5
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Ironball", "Trusty", "Power Pitcher"]
     }, {
         "id": "Mileman-433",
         "Name": "Terry Mileman",
         "Name Abbreviation": "Mileman",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 59
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -3723,13 +4465,19 @@
             "id": "SPL",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP B", "Heater B", "Recovery C", "Cutter", "Ironball", "Tyrant", "Power Pitcher"]
     }, {
         "id": "Minmin-292",
         "Name": "Minban Min (Minmin)",
         "Name Abbreviation": "Minmin",
-        "Jersey Number": null,
+        "Jersey Number": "4",
         "Field Position": ["2B", "1B"],
+        "All Fielding Ratings": {
+            "2B": 65,
+            "1B": 52
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 4",
@@ -3747,6 +4495,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Misono-255",
@@ -3754,6 +4504,11 @@
         "Name Abbreviation": "Misono",
         "Jersey Number": "2",
         "Field Position": ["C", "1B", "OF"],
+        "All Fielding Ratings": {
+            "C": 60,
+            "1B": 42,
+            "OF": 42
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -3771,13 +4526,18 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Mitsuno-284",
         "Name": "Seira Mitsuno",
         "Name Abbreviation": "Mitsuno",
-        "Jersey Number": null,
+        "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 66
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -3795,6 +4555,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Mizudori-309",
@@ -3802,6 +4564,10 @@
         "Name Abbreviation": "Mizudori",
         "Jersey Number": "2",
         "Field Position": ["C", "OF"],
+        "All Fielding Ratings": {
+            "C": 70,
+            "OF": 49
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -3819,6 +4585,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Mizuki-218",
@@ -3826,6 +4594,11 @@
         "Name Abbreviation": "Mizuki",
         "Jersey Number": "18",
         "Field Position": ["OF", "2B", "SS"],
+        "All Fielding Ratings": {
+            "OF": 55,
+            "2B": 38,
+            "SS": 38
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 2",
@@ -3843,6 +4616,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Mizuno-350",
@@ -3850,6 +4625,9 @@
         "Name Abbreviation": "Mizuno",
         "Jersey Number": "1",
         "Field Position": ["MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 40
+        },
         "Throws": "L",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -3879,13 +4657,21 @@
             "id": "KN",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Cutter", "Dr.K", "Downplay", "Airball", "Choker Recovery C", "Breaking Ball P"]
     }, {
         "id": "Modo-331",
         "Name": "Kou Modo",
         "Name Abbreviation": "Modo",
-        "Jersey Number": null,
+        "Jersey Number": "5",
         "Field Position": ["3B", "1B", "2B", "SS"],
+        "All Fielding Ratings": {
+            "22": 56,
+            "3B": 70,
+            "1B": 56,
+            "2B": 56
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -3903,13 +4689,19 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Mokoba-279",
         "Name": "Moko Mokoba",
         "Name Abbreviation": "Mokoba",
-        "Jersey Number": null,
+        "Jersey Number": "4",
         "Field Position": ["2B", "SS"],
+        "All Fielding Ratings": {
+            "2B": 70,
+            "SS": 49
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -3927,6 +4719,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Moroi-291",
@@ -3934,6 +4728,11 @@
         "Name Abbreviation": "Moroi",
         "Jersey Number": "9",
         "Field Position": ["OF", "1B", "2B"],
+        "All Fielding Ratings": {
+            "OF": 67,
+            "1B": 46,
+            "2B": 46
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -3951,13 +4750,19 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Morumoto-289",
         "Name": "Yuuto Morumoto",
         "Name Abbreviation": "Morumoto",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["MR", "CP", "OF"],
+        "All Fielding Ratings": {
+            "P": 60,
+            "OF": 42
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -3984,6 +4789,8 @@
             "id": "HSHU",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise A", "Grit A", "Heater B", "Agile B"]
     }, {
         "id": "Murasame-398",
@@ -3991,6 +4798,9 @@
         "Name Abbreviation": "Murasame",
         "Jersey Number": "8",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 90
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -4008,6 +4818,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Mushika-324",
@@ -4015,6 +4827,11 @@
         "Name Abbreviation": "Mushika",
         "Jersey Number": "6",
         "Field Position": ["SS", "3B", "1B"],
+        "All Fielding Ratings": {
+            "SS": 66,
+            "3B": 66,
+            "1B": 52
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -4032,6 +4849,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "N.Yumeshiro-353",
@@ -4039,6 +4858,10 @@
         "Name Abbreviation": "N.Yumeshiro",
         "Jersey Number": "5",
         "Field Position": ["3B", "1B"],
+        "All Fielding Ratings": {
+            "3B": 65,
+            "1B": 52
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -4056,6 +4879,8 @@
         "Control": 85,
         "Stamina": 70,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Nagase-234",
@@ -4063,6 +4888,14 @@
         "Name Abbreviation": "Nagase",
         "Jersey Number": "4",
         "Field Position": ["2B", "1B", "3B", "SS", "OF", "C"],
+        "All Fielding Ratings": {
+            "2B": 68,
+            "1B": 47,
+            "OF": 47,
+            "3B": 47,
+            "SS": 47,
+            "C": 34
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -4080,6 +4913,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Naito-392",
@@ -4087,6 +4922,11 @@
         "Name Abbreviation": "Naito",
         "Jersey Number": "3",
         "Field Position": ["1B", "OF", "C"],
+        "All Fielding Ratings": {
+            "1B": 50,
+            "OF": 40,
+            "C": 35
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -4104,13 +4944,20 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Naito-386",
         "Name": "Meiru Naito",
         "Name Abbreviation": "Naito",
-        "Jersey Number": null,
+        "Jersey Number": "3",
         "Field Position": ["1B", "C", "OF"],
+        "All Fielding Ratings": {
+            "1B": 40,
+            "C": 32,
+            "OF": 32
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -4128,6 +4975,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Nakai-321",
@@ -4135,6 +4984,10 @@
         "Name Abbreviation": "Nakai",
         "Jersey Number": "4",
         "Field Position": ["2B", "1B"],
+        "All Fielding Ratings": {
+            "2B": 70,
+            "1B": 70
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -4152,6 +5005,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Namaki-264",
@@ -4159,6 +5014,10 @@
         "Name Abbreviation": "Namaki",
         "Jersey Number": "6",
         "Field Position": ["SS", "3B"],
+        "All Fielding Ratings": {
+            "SS": 59,
+            "3B": 41
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -4176,6 +5035,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Nanai-337",
@@ -4183,6 +5044,9 @@
         "Name Abbreviation": "Nanai",
         "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 42
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -4200,6 +5064,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Narumi-364",
@@ -4207,6 +5073,9 @@
         "Name Abbreviation": "Narumi",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 68
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -4233,6 +5102,8 @@
             "id": "SP Forkball 7",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Cutter", "Pickoff", "Lucky", "Pace"]
     }, {
         "id": "Natsuno-252",
@@ -4240,6 +5111,11 @@
         "Name Abbreviation": "Natsuno",
         "Jersey Number": "6",
         "Field Position": ["SS", "1B", "2B"],
+        "All Fielding Ratings": {
+            "SS": 60,
+            "1B": 42,
+            "2B": 42
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -4263,6 +5139,8 @@
             "id": "12CV",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Nekogami-296",
@@ -4270,6 +5148,9 @@
         "Name Abbreviation": "Nekogami",
         "Jersey Number": "2",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 56
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -4287,6 +5168,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Niijima-262",
@@ -4294,6 +5177,10 @@
         "Name Abbreviation": "Niijima",
         "Jersey Number": "2",
         "Field Position": ["C", "OF"],
+        "All Fielding Ratings": {
+            "C": 61,
+            "OF": 30
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -4311,6 +5198,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Niijima-259",
@@ -4318,6 +5207,10 @@
         "Name Abbreviation": "Niijima",
         "Jersey Number": "7",
         "Field Position": ["OF", "C"],
+        "All Fielding Ratings": {
+            "OF": 61,
+            "C": 42
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -4335,13 +5228,18 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Nijitani-517",
         "Name": "Makoto Nijitani",
         "Name Abbreviation": "Nijitani",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "D": 50
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -4371,6 +5269,8 @@
             "id": "FRK",
             "level": 5
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Dr. K", "Breaking Ball Pitcher"]
     }, {
         "id": "Ninomiya-360",
@@ -4378,6 +5278,9 @@
         "Name Abbreviation": "Ninomiya",
         "Jersey Number": "2",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 65
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -4395,6 +5298,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Nisepuro-186",
@@ -4402,6 +5307,9 @@
         "Name Abbreviation": "Nisepuro",
         "Jersey Number": "8",
         "Field Position": ["SS"],
+        "All Fielding Ratings": {
+            "SS": 60
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -4419,6 +5327,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Nomi-287",
@@ -4426,6 +5336,10 @@
         "Name Abbreviation": "Nomi",
         "Jersey Number": "4",
         "Field Position": ["2B", "SS"],
+        "All Fielding Ratings": {
+            "2B": 70,
+            "SS": 49
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -4443,6 +5357,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Nubis-341",
@@ -4450,6 +5366,10 @@
         "Name Abbreviation": "Nubis",
         "Jersey Number": "2",
         "Field Position": ["1B", "OF"],
+        "All Fielding Ratings": {
+            "1B": 34,
+            "OF": 34
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -4467,6 +5387,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Nyaptet-284",
@@ -4474,6 +5396,11 @@
         "Name Abbreviation": "Nyaptet",
         "Jersey Number": "22",
         "Field Position": ["2B", "SS", "OF"],
+        "All Fielding Ratings": {
+            "2B": 68,
+            "SS": 68,
+            "OF": 68
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -4491,6 +5418,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Octavia-414",
@@ -4498,6 +5427,9 @@
         "Name Abbreviation": "Octavia",
         "Jersey Number": "10",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 88
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -4530,6 +5462,8 @@
             "id": "SP Forkball 9",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Trusty", "Lucky", "Tyrant"]
     }, {
         "id": "Oda-333",
@@ -4537,6 +5471,10 @@
         "Name Abbreviation": "Oda",
         "Jersey Number": "5",
         "Field Position": ["3B", "OF"],
+        "All Fielding Ratings": {
+            "3B": 20,
+            "OF": 20
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -4563,13 +5501,19 @@
             "id": "12CV",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Odagiri-287",
         "Name": "Takumi Odagiri",
         "Name Abbreviation": "Odagiri",
-        "Jersey Number": null,
+        "Jersey Number": "6",
         "Field Position": ["SS", "3B"],
+        "All Fielding Ratings": {
+            "SS": 70,
+            "3B": 49
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 4",
@@ -4587,6 +5531,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ogane-296",
@@ -4594,6 +5540,11 @@
         "Name Abbreviation": "Ogane",
         "Jersey Number": "8",
         "Field Position": ["OF", "C", "2B"],
+        "All Fielding Ratings": {
+            "OF": 62,
+            "C": 49,
+            "2B": 49
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -4611,6 +5562,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Okino-370",
@@ -4618,6 +5571,10 @@
         "Name Abbreviation": "Okino",
         "Jersey Number": "3",
         "Field Position": ["1B", "OF"],
+        "All Fielding Ratings": {
+            "1B": 52,
+            "OF": 41
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 3",
@@ -4635,6 +5592,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "One-353",
@@ -4642,6 +5601,9 @@
         "Name Abbreviation": "One",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 50
+        },
         "Throws": "L",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -4665,6 +5627,8 @@
             "id": "SCR",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater A", "Agile B", "Recovery C", "Ironball", "Battler", "Toolkit", "Chill", "Power P"]
     }, {
         "id": "Onishi-447",
@@ -4672,6 +5636,9 @@
         "Name Abbreviation": "Onishi",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -4701,6 +5668,8 @@
             "id": "SCR",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Bullett", "Recovery C", "Bluffer", "Chill", "Power Pitcher"]
     }, {
         "id": "Onishi-432",
@@ -4708,6 +5677,9 @@
         "Name Abbreviation": "Onishi",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -4737,6 +5709,8 @@
             "id": "SCR",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Bluffer", "Chill", "Power P"]
     }, {
         "id": "Otakara-287",
@@ -4744,6 +5718,9 @@
         "Name Abbreviation": "Otakara",
         "Jersey Number": "3",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 52
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -4761,6 +5738,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Oto-295",
@@ -4768,6 +5747,9 @@
         "Name Abbreviation": "Oto",
         "Jersey Number": "2",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 75
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -4785,6 +5767,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Otome-401",
@@ -4792,6 +5776,9 @@
         "Name Abbreviation": "Otome",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 65
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -4818,6 +5805,8 @@
             "id": "FRK",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["w/RISP", "Recovery C", "Momentum", "Lucky"]
     }, {
         "id": "Oume-347",
@@ -4825,6 +5814,10 @@
         "Name Abbreviation": "Oume",
         "Jersey Number": "6",
         "Field Position": ["3B", "1B"],
+        "All Fielding Ratings": {
+            "3B": 70,
+            "1B": 56
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -4842,6 +5835,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Oyama-309",
@@ -4849,6 +5844,10 @@
         "Name Abbreviation": "Oyama",
         "Jersey Number": "6",
         "Field Position": ["SS", "2B"],
+        "All Fielding Ratings": {
+            "2B": 62,
+            "SS": 78
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 1",
@@ -4866,6 +5865,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": "-",
+        "Batting Form": "-",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ozaki-312",
@@ -4873,6 +5874,10 @@
         "Name Abbreviation": "Ozaki",
         "Jersey Number": "6",
         "Field Position": ["SS", "3B"],
+        "All Fielding Ratings": {
+            "SS": 67,
+            "3B": 46
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 2",
@@ -4890,6 +5895,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ozora-270",
@@ -4897,6 +5904,10 @@
         "Name Abbreviation": "Ozora",
         "Jersey Number": "5",
         "Field Position": ["3B", "OF"],
+        "All Fielding Ratings": {
+            "3B": 50,
+            "OF": 35
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -4914,6 +5925,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Paachan-223",
@@ -4921,6 +5934,11 @@
         "Name Abbreviation": "Paachan",
         "Jersey Number": "6",
         "Field Position": ["SS", "2B", "3B"],
+        "All Fielding Ratings": {
+            "SS": 55,
+            "2B": 44,
+            "3B": 44
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -4938,13 +5956,20 @@
         "Control": 10,
         "Stamina": 30,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Papillon-683",
         "Name": "Papillon",
         "Name Abbreviation": "Papillon",
-        "Jersey Number": null,
+        "Jersey Number": "84",
         "Field Position": ["CP", "2B", "SS"],
+        "All Fielding Ratings": {
+            "P": 81,
+            "2B": 56,
+            "SS": 56
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 4",
@@ -4971,6 +5996,8 @@
             "id": "FRK",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Tyrant", "Aggressive Fielding"]
     }, {
         "id": "Pink-345",
@@ -4978,6 +6005,10 @@
         "Name Abbreviation": "Pink",
         "Jersey Number": "6",
         "Field Position": ["SS", "2B"],
+        "All Fielding Ratings": {
+            "SS": 80,
+            "2B": 56
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -4995,6 +6026,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "R.Verrese-477",
@@ -5002,6 +6035,10 @@
         "Name Abbreviation": "R.Verrese",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP", "OF"],
+        "All Fielding Ratings": {
+            "P": 46,
+            "OF": 46
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -5028,6 +6065,8 @@
             "id": "SPL",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP C", "Vs. LHB G", "Poise F", "Grit C", "Heater C", "Recovery C", "Guts", "Chill", "Right Side Pitching"]
     }, {
         "id": "Raigou-491",
@@ -5035,6 +6074,10 @@
         "Name Abbreviation": "Raigou",
         "Jersey Number": "5",
         "Field Position": ["3B"],
+        "All Fielding Ratings": {
+            "3B": 70,
+            "OF": 49
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "1000 CP",
@@ -5052,6 +6095,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Rakugaki-307",
@@ -5059,6 +6104,9 @@
         "Name Abbreviation": "Rakugaki",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 64
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -5088,13 +6136,18 @@
             "id": "SHU",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Trusty", "Hot Head"]
     }, {
         "id": "Red-455",
         "Name": "Red",
         "Name Abbreviation": "Red",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 80
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 4",
@@ -5121,6 +6174,8 @@
             "id": "SHU",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP A", "Heater A", "Recovery C", "Ironball", "Star"]
     }, {
         "id": "Reibu-496",
@@ -5128,6 +6183,9 @@
         "Name Abbreviation": "Reibu",
         "Jersey Number": "7",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 55
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -5157,6 +6215,8 @@
             "id": "SNK",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery F", "Engineer", "Cutter", "Toolkit", "Breaking Ball Pitcher"]
     }, {
         "id": "Rokkaku-320",
@@ -5164,6 +6224,10 @@
         "Name Abbreviation": "Rokkaku",
         "Jersey Number": "6",
         "Field Position": ["3B", "2B"],
+        "All Fielding Ratings": {
+            "3B": 46,
+            "2B": 32
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -5181,6 +6245,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Rokudoh-328",
@@ -5188,6 +6254,10 @@
         "Name Abbreviation": "Rokudoh",
         "Jersey Number": "2",
         "Field Position": ["C", "1B"],
+        "All Fielding Ratings": {
+            "C": 86,
+            "1B": 60
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -5205,6 +6275,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": "-",
+        "Batting Form": "General 17",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Roppongi-321",
@@ -5212,6 +6284,9 @@
         "Name Abbreviation": "Roppongi",
         "Jersey Number": "6",
         "Field Position": ["SS"],
+        "All Fielding Ratings": {
+            "SS": 90
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -5229,6 +6304,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "S.Ikari-392",
@@ -5236,6 +6313,9 @@
         "Name Abbreviation": "S.Ikari",
         "Jersey Number": "27",
         "Field Position": ["C"],
+        "All Fielding Ratings": {
+            "C": 72
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -5253,6 +6333,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": "-",
+        "Batting Form": "General 3",
         "Special Abilities (Pitching)": null
     }, {
         "id": "S.Mitsumori-264",
@@ -5260,6 +6342,9 @@
         "Name Abbreviation": "S.Mitsumori",
         "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 65
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -5277,6 +6362,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": "-",
+        "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Saburi-339",
@@ -5284,6 +6371,10 @@
         "Name Abbreviation": "Saburi",
         "Jersey Number": "2",
         "Field Position": ["2B", "C"],
+        "All Fielding Ratings": {
+            "2B": 66,
+            "C": 46
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -5301,13 +6392,19 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Saeki-412",
         "Name": "Hajime Saeki",
         "Name Abbreviation": "Saeki",
-        "Jersey Number": null,
+        "Jersey Number": "6",
         "Field Position": ["2B", "SS"],
+        "All Fielding Ratings": {
+            "2B": 70,
+            "SS": 49
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 4",
@@ -5325,6 +6422,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Saigoh-383",
@@ -5332,6 +6431,9 @@
         "Name Abbreviation": "Saigoh",
         "Jersey Number": "12",
         "Field Position": ["CP"],
+        "All Fielding Ratings": {
+            "P": 58
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -5358,6 +6460,8 @@
             "id": "EP",
             "level": null
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Agile A", "Recovery C", "Bluffer", "Vs. Runner", "Chill", "Power P"]
     }, {
         "id": "Sakai-314",
@@ -5365,6 +6469,10 @@
         "Name Abbreviation": "Sakai",
         "Jersey Number": "2",
         "Field Position": ["C", "2B"],
+        "All Fielding Ratings": {
+            "C": 68,
+            "2B": 47
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "250 CP",
@@ -5382,6 +6490,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Sakamoto-289",
@@ -5389,6 +6499,9 @@
         "Name Abbreviation": "Sakamoto",
         "Jersey Number": "4",
         "Field Position": ["2B"],
+        "All Fielding Ratings": {
+            "2B": 53
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -5406,6 +6519,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Sakigake-360",
@@ -5413,6 +6528,10 @@
         "Name Abbreviation": "Sakigake",
         "Jersey Number": "7",
         "Field Position": ["OF", "C"],
+        "All Fielding Ratings": {
+            "OF": 70,
+            "C": 56
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -5430,6 +6549,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Sakuma-330",
@@ -5437,6 +6558,10 @@
         "Name Abbreviation": "Sakuma",
         "Jersey Number": "6",
         "Field Position": ["SS", "2B"],
+        "All Fielding Ratings": {
+            "SS": 70,
+            "2B": 56
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -5454,13 +6579,19 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Sakuranomiya-289",
         "Name": "Souji Sakuranomiya",
         "Name Abbreviation": "Sakuranomiya",
-        "Jersey Number": null,
+        "Jersey Number": "2",
         "Field Position": ["C", "OF"],
+        "All Fielding Ratings": {
+            "C": 65,
+            "OF": 45
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -5478,13 +6609,18 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Sakurazawa-365",
         "Name": "Itsuki Sakurazawa",
         "Name Abbreviation": "Sakurazawa",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 52
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -5511,6 +6647,8 @@
             "id": "CH",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Cutter", "Toolkit", "Breaking Ball Pitcher"]
     }, {
         "id": "Samejima-331",
@@ -5518,6 +6656,9 @@
         "Name Abbreviation": "Samejima",
         "Jersey Number": "5",
         "Field Position": ["3B"],
+        "All Fielding Ratings": {
+            "3B": 66
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -5535,6 +6676,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Sana-278",
@@ -5542,6 +6685,9 @@
         "Name Abbreviation": "Sana",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR"],
+        "All Fielding Ratings": {
+            "P": 50
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -5568,6 +6714,8 @@
             "id": "CB",
             "level": 5
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise B", "Recovery C", "Low Ball"]
     }, {
         "id": "Sanbonmatsu-299",
@@ -5575,6 +6723,9 @@
         "Name Abbreviation": "Sanbonmatsu",
         "Jersey Number": "3",
         "Field Position": ["1B"],
+        "All Fielding Ratings": {
+            "1B": 47
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -5592,6 +6743,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Saru-417",
@@ -5599,6 +6752,9 @@
         "Name Abbreviation": "Saru",
         "Jersey Number": "4",
         "Field Position": ["2B"],
+        "All Fielding Ratings": {
+            "2B": 85
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "1400 CP",
@@ -5616,6 +6772,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Saruyama-229",
@@ -5623,6 +6781,9 @@
         "Name Abbreviation": "Saruyama",
         "Jersey Number": "1",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 51
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -5640,6 +6801,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Sendoh-435",
@@ -5647,6 +6810,10 @@
         "Name Abbreviation": "Sendoh",
         "Jersey Number": "3",
         "Field Position": ["1B", "3B"],
+        "All Fielding Ratings": {
+            "1B": 46,
+            "3B": 32
+        },
         "Throws": "L",
         "Bats": "S",
         "Acquisition Req.": "Player Set 1",
@@ -5664,6 +6831,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Setine-345",
@@ -5671,6 +6840,9 @@
         "Name Abbreviation": "Setine",
         "Jersey Number": "9",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 68
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -5688,6 +6860,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Shacho-395",
@@ -5695,6 +6869,9 @@
         "Name Abbreviation": "Shacho",
         "Jersey Number": "55",
         "Field Position": ["3B"],
+        "All Fielding Ratings": {
+            "3B": 75
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "500 CP",
@@ -5712,6 +6889,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Shibata-201",
@@ -5719,6 +6898,9 @@
         "Name Abbreviation": "Shibata",
         "Jersey Number": "6",
         "Field Position": ["SS"],
+        "All Fielding Ratings": {
+            "SS": 50
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -5736,6 +6918,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Shibuya-395",
@@ -5743,6 +6927,10 @@
         "Name Abbreviation": "Shibuya",
         "Jersey Number": "27",
         "Field Position": ["OF", "1B"],
+        "All Fielding Ratings": {
+            "OF": 68,
+            "1B": 47
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -5760,6 +6948,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Shido-327",
@@ -5767,6 +6957,9 @@
         "Name Abbreviation": "Shido",
         "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 70
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 2",
@@ -5784,6 +6977,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Shimada-405",
@@ -5791,6 +6986,9 @@
         "Name Abbreviation": "Shimada",
         "Jersey Number": "5",
         "Field Position": ["3B"],
+        "All Fielding Ratings": {
+            "3B": 80
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "750 CP",
@@ -5808,6 +7006,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Shindoh-453",
@@ -5815,6 +7015,9 @@
         "Name Abbreviation": "Shindoh",
         "Jersey Number": "16",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 61
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -5844,6 +7047,8 @@
             "id": "FRK",
             "level": 2
         }],
+        "Pitching Form": "Overhead 1",
+        "Batting Form": "General 26",
         "Special Abilities (Pitching)": "Star"
     }, {
         "id": "Shinogi-451",
@@ -5851,6 +7056,9 @@
         "Name Abbreviation": "Shinogi",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 75
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -5877,6 +7085,8 @@
             "id": "SPL",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP C", "Vs. LHB B", "Poise E", "Heater C", "Cutter", "Ironball", "Insider"]
     }, {
         "id": "Shinonome-376",
@@ -5884,6 +7094,10 @@
         "Name Abbreviation": "Shinonome",
         "Jersey Number": "6",
         "Field Position": ["SS", "2B"],
+        "All Fielding Ratings": {
+            "SS": 80,
+            "2B": 56
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 2",
@@ -5901,6 +7115,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Shirana-357",
@@ -5908,6 +7124,9 @@
         "Name Abbreviation": "Shirana",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 53
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -5934,6 +7153,8 @@
             "id": "FRK",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Momentum", "Dr. K", "Handler", "Pace"]
     }, {
         "id": "Shiroi-305",
@@ -5941,6 +7162,10 @@
         "Name Abbreviation": "Shiroi",
         "Jersey Number": "7",
         "Field Position": ["OF", "C"],
+        "All Fielding Ratings": {
+            "OF": 70,
+            "C": 49
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -5958,6 +7183,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Shiroyama-310",
@@ -5965,6 +7192,9 @@
         "Name Abbreviation": "Shiroyama",
         "Jersey Number": "10",
         "Field Position": ["MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 55
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -5991,6 +7221,8 @@
             "id": "SP Fastball 2",
             "level": null
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Ironball", "Guts", "Toolkit", "Hot Head"]
     }, {
         "id": "Shogogetsu-321",
@@ -5998,6 +7230,11 @@
         "Name Abbreviation": "Shogogetsu",
         "Jersey Number": "5",
         "Field Position": ["3B", "1B", "OF"],
+        "All Fielding Ratings": {
+            "3B": 50,
+            "1B": 35,
+            "OF": 35
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6015,13 +7252,18 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Sorimachi-294",
         "Name": "Mitsugu Sorimachi",
         "Name Abbreviation": "Sorimachi",
-        "Jersey Number": null,
+        "Jersey Number": "8",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 79
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -6039,6 +7281,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Sudo-350",
@@ -6046,6 +7290,9 @@
         "Name Abbreviation": "Sudo",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 45
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -6069,13 +7316,18 @@
             "id": "SPL",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise B", "Heater B", "Recovery C", "Gyroball", "Trusty", "Power Pitcher", "Pace"]
     }, {
         "id": "Suiko-277",
         "Name": "Mitsuyo Suiko",
         "Name Abbreviation": "Suiko",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 40
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 4",
@@ -6102,6 +7354,8 @@
             "id": "SCR",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Bluffer"]
     }, {
         "id": "Suzaku-431",
@@ -6109,6 +7363,10 @@
         "Name Abbreviation": "Suzaku",
         "Jersey Number": "1",
         "Field Position": ["SP", "OF"],
+        "All Fielding Ratings": {
+            "P": 60,
+            "OF": 42
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -6132,6 +7390,8 @@
             "id": "SCR",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Cutter"]
     }, {
         "id": "Suzuhime-321",
@@ -6139,6 +7399,10 @@
         "Name Abbreviation": "Suzuhime",
         "Jersey Number": "6",
         "Field Position": ["SS", "3B"],
+        "All Fielding Ratings": {
+            "SS": 65,
+            "3B": 52
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6156,6 +7420,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Suzukaze-334",
@@ -6163,6 +7429,9 @@
         "Name Abbreviation": "Suzukaze",
         "Jersey Number": "12",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -6189,6 +7458,8 @@
             "id": "SP Forkball 3",
             "level": 5
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Gripper", "Star"]
     }, {
         "id": "Suzumoto-535",
@@ -6196,6 +7467,9 @@
         "Name Abbreviation": "Suzumoto",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 57
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6222,6 +7496,8 @@
             "id": "KN",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["vs. LHB A", "Poise B", "Heater B", "Agile B", "Recovery C", "Pickoff", "Handler", "Reflexes", "Gripper", "Low Ball", "Chill", "Star", "Power P", "Pace"]
     }, {
         "id": "T.Tsukami-321",
@@ -6229,6 +7505,9 @@
         "Name Abbreviation": "T.Tsukami",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6258,6 +7537,8 @@
             "id": "CIR",
             "level": 1
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater B", "Agile B", "Recovery C", "Reflexes", "Toolkit", "Timer", "Pace"]
     }, {
         "id": "Tachibana-330",
@@ -6265,6 +7546,9 @@
         "Name Abbreviation": "Tachibana",
         "Jersey Number": "13",
         "Field Position": ["MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 42
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -6291,6 +7575,8 @@
             "id": "SCR",
             "level": 3
         }],
+        "Pitching Form": "Sidearm 102",
+        "Batting Form": "General 27",
         "Special Abilities (Pitching)": ["Poise F", "Recovery C", "Crossfire", "Downplay", "Moody", "Breaking Ball P", "Pace"]
     }, {
         "id": "Tachikawa-427",
@@ -6298,6 +7584,10 @@
         "Name Abbreviation": "Tachikawa",
         "Jersey Number": "1",
         "Field Position": ["SP", "3B"],
+        "All Fielding Ratings": {
+            "P": 60,
+            "3B": 42
+        },
         "Throws": "L",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6324,6 +7614,8 @@
             "id": "CB",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["w/RISP B", "Poise B", "Heater A", "Recovery C", "Ironball", "Momentum", "Vs. Slugger"]
     }, {
         "id": "Takagi-288",
@@ -6331,6 +7623,10 @@
         "Name Abbreviation": "Takagi",
         "Jersey Number": "2",
         "Field Position": ["C", "OF"],
+        "All Fielding Ratings": {
+            "C": 60,
+            "OF": 42
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -6351,6 +7647,8 @@
             "id": "12CV",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Takano-365",
@@ -6358,6 +7656,9 @@
         "Name Abbreviation": "Takano",
         "Jersey Number": "29",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 53
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -6384,6 +7685,8 @@
             "id": "CIR",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP F", "Recovery C", "Vs. Runner"]
     }, {
         "id": "Takeda-353",
@@ -6391,6 +7694,9 @@
         "Name Abbreviation": "Takeda",
         "Jersey Number": "8",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 64
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6408,13 +7714,19 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": "-",
+        "Batting Form": "General 5",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Takimoto-452",
         "Name": "Taro Takimoto",
         "Name Abbreviation": "Takimoto",
-        "Jersey Number": null,
+        "Jersey Number": "3",
         "Field Position": ["1B", "3B"],
+        "All Fielding Ratings": {
+            "1B": 52,
+            "3B": 36
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -6432,6 +7744,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Tamane-313",
@@ -6439,6 +7753,9 @@
         "Name Abbreviation": "Tamane",
         "Jersey Number": "8",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 55
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6462,6 +7779,8 @@
             "id": "CB",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP C", "Poise C", "Heater C", "Battler", "Timer", "Hot Head", "Moody"]
     }, {
         "id": "Tamar-280",
@@ -6469,6 +7788,10 @@
         "Name Abbreviation": "Tamar",
         "Jersey Number": "2",
         "Field Position": ["C", "2B"],
+        "All Fielding Ratings": {
+            "C": 73,
+            "2B": 73
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6486,6 +7809,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Tamasaburo-354",
@@ -6493,6 +7818,9 @@
         "Name Abbreviation": "Tamasaburo",
         "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 77
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -6510,6 +7838,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Tamura-317",
@@ -6517,6 +7847,9 @@
         "Name Abbreviation": "Tamura",
         "Jersey Number": "30",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 33
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -6540,6 +7873,8 @@
             "id": "CB",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Ironball", "Trusty", "Momentum", "Slugger", "Power P"]
     }, {
         "id": "Tanaka-202",
@@ -6547,6 +7882,9 @@
         "Name Abbreviation": "Tanaka",
         "Jersey Number": "3",
         "Field Position": ["1B"],
+        "All Fielding Ratings": {
+            "1B": 55
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6564,6 +7902,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Tanakayama-437",
@@ -6571,6 +7911,11 @@
         "Name Abbreviation": "Tanakayama",
         "Jersey Number": "10",
         "Field Position": ["SP", "SS"],
+        "All Fielding Ratings": {
+            "P": 84,
+            "2B": 58,
+            "SS": 84
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -6591,6 +7936,8 @@
             "id": "FRK",
             "level": 5
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": "Recovery C"
     }, {
         "id": "Tarumoto-314",
@@ -6598,6 +7945,9 @@
         "Name Abbreviation": "Tarumoto",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 43
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -6624,6 +7974,8 @@
             "id": "2SFB",
             "level": null
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Ironball", "Moody", "Power Pitcher"]
     }, {
         "id": "Tatehashi-232",
@@ -6631,6 +7983,10 @@
         "Name Abbreviation": "Tatehashi",
         "Jersey Number": "4",
         "Field Position": ["2B", "SS"],
+        "All Fielding Ratings": {
+            "2B": 67,
+            "SS": 46
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -6648,6 +8004,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Tatenishi-312",
@@ -6655,6 +8013,9 @@
         "Name Abbreviation": "Tatenishi",
         "Jersey Number": "21",
         "Field Position": ["SP", "MR"],
+        "All Fielding Ratings": {
+            "P": 57
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6684,6 +8045,8 @@
             "id": "SNK",
             "level": 1
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Handler", "Reflexes", "Breaking Ball P"]
     }, {
         "id": "Tatsui-288",
@@ -6691,6 +8054,9 @@
         "Name Abbreviation": "Tatsui",
         "Jersey Number": "7",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 54
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -6708,6 +8074,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Tennoji-428",
@@ -6715,6 +8083,9 @@
         "Name Abbreviation": "Tennoji",
         "Jersey Number": "9",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 82
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -6732,6 +8103,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Teramichi-331",
@@ -6739,6 +8112,11 @@
         "Name Abbreviation": "Teramichi",
         "Jersey Number": "4",
         "Field Position": ["OF", "1B", "2B"],
+        "All Fielding Ratings": {
+            "OF": 69,
+            "1B": 55,
+            "2B": 55
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -6756,6 +8134,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Tezuka-324",
@@ -6763,6 +8143,9 @@
         "Name Abbreviation": "Tezuka",
         "Jersey Number": "10",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 48
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6786,6 +8169,8 @@
             "id": "CB",
             "level": 5
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Agile B", "Cutter", "Timer"]
     }, {
         "id": "Todo-350",
@@ -6793,6 +8178,9 @@
         "Name Abbreviation": "Todo",
         "Jersey Number": "10",
         "Field Position": ["3B"],
+        "All Fielding Ratings": {
+            "3B": 77
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6810,6 +8198,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Todoroki-266",
@@ -6817,6 +8207,9 @@
         "Name Abbreviation": "Todoroki",
         "Jersey Number": "1",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 53
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -6834,13 +8227,20 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Toy-615",
         "Name": "Tetsuo Toy",
         "Name Abbreviation": "Toy",
-        "Jersey Number": null,
+        "Jersey Number": "8",
         "Field Position": ["OF", "C", "1B"],
+        "All Fielding Ratings": {
+            "OF": 99,
+            "C": 69,
+            "1B": 69
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -6858,6 +8258,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Tsuburaya-303",
@@ -6865,6 +8267,9 @@
         "Name Abbreviation": "Tsuburaya",
         "Jersey Number": "4",
         "Field Position": ["2B"],
+        "All Fielding Ratings": {
+            "2B": 64
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -6882,6 +8287,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Tsukumo-314",
@@ -6889,6 +8296,9 @@
         "Name Abbreviation": "Tsukumo",
         "Jersey Number": "9",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 69
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -6906,6 +8316,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Tsuruya-291",
@@ -6913,6 +8325,9 @@
         "Name Abbreviation": "Tsuruya",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -6936,6 +8351,8 @@
             "id": "SPL",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Vs. LHB A", "Heater A", "Recovery C", "Downplay", "Walk", "Hot Head"]
     }, {
         "id": "U.Mitsumori-264",
@@ -6943,6 +8360,9 @@
         "Name Abbreviation": "U.Mitsumori",
         "Jersey Number": "9",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 65
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -6960,6 +8380,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": "-",
+        "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Udo-287",
@@ -6967,6 +8389,10 @@
         "Name Abbreviation": "Udo",
         "Jersey Number": "9",
         "Field Position": ["1B", "OF"],
+        "All Fielding Ratings": {
+            "1B": 55,
+            "OF": 38
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 2",
@@ -6984,6 +8410,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ueno-296",
@@ -6991,6 +8419,9 @@
         "Name Abbreviation": "Ueno",
         "Jersey Number": "6",
         "Field Position": ["2B"],
+        "All Fielding Ratings": {
+            "2B": 69
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -7008,6 +8439,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ukami-379",
@@ -7015,6 +8448,10 @@
         "Name Abbreviation": "Ukami",
         "Jersey Number": "7",
         "Field Position": ["SS", "OF"],
+        "All Fielding Ratings": {
+            "SS": 45,
+            "OF": 31
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -7032,13 +8469,19 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Umino-284",
         "Name": "Sachiko Umino",
         "Name Abbreviation": "Umino",
-        "Jersey Number": null,
+        "Jersey Number": "2",
         "Field Position": ["C", "OF"],
+        "All Fielding Ratings": {
+            "C": 60,
+            "OF": 42
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -7056,6 +8499,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Unkai-427",
@@ -7063,6 +8508,9 @@
         "Name Abbreviation": "Unkai",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 66
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "2300 CP",
@@ -7092,6 +8540,8 @@
             "id": "SL",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Cutter", "Ironball", "Battler", "Vs. Slugger"]
     }, {
         "id": "Uraga-326",
@@ -7099,6 +8549,10 @@
         "Name Abbreviation": "Uraga",
         "Jersey Number": "4",
         "Field Position": ["2B", "SS"],
+        "All Fielding Ratings": {
+            "2B": 70,
+            "SS": 49
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "550 CP",
@@ -7116,13 +8570,18 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "V.Coldberg-454",
         "Name": "Victor Coldberg",
         "Name Abbreviation": "V.Coldberg",
-        "Jersey Number": null,
+        "Jersey Number": "1",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 60
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 4",
@@ -7140,6 +8599,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Vanguard-414",
@@ -7147,6 +8608,9 @@
         "Name Abbreviation": "Vanguard",
         "Jersey Number": "3",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 53
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -7164,13 +8628,20 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Waachan-193",
         "Name": "Wakana Wakamatsu (Waachan)",
         "Name Abbreviation": "Waachan",
-        "Jersey Number": null,
+        "Jersey Number": "4",
         "Field Position": ["2B", "1B", "SS"],
+        "All Fielding Ratings": {
+            "2B": 60,
+            "1B": 42,
+            "SS": 42
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 4",
@@ -7191,6 +8662,8 @@
             "id": "CB",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Warabi-251",
@@ -7198,6 +8671,10 @@
         "Name Abbreviation": "Warabi",
         "Jersey Number": "4",
         "Field Position": ["2B", "SS"],
+        "All Fielding Ratings": {
+            "2B": 65,
+            "SS": 65
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -7215,6 +8692,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Y.Diyansu-298",
@@ -7222,6 +8701,11 @@
         "Name Abbreviation": "Y.Diyansu",
         "Jersey Number": "99",
         "Field Position": ["2B", "3B", "OF"],
+        "All Fielding Ratings": {
+            "2B": 68,
+            "3B": 54,
+            "OF": 47
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -7239,6 +8723,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Yabai-334",
@@ -7246,6 +8732,9 @@
         "Name Abbreviation": "Yabai",
         "Jersey Number": "16",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 68
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -7269,6 +8758,8 @@
             "id": "CB",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Yabe-273",
@@ -7276,6 +8767,9 @@
         "Name Abbreviation": "Yabe",
         "Jersey Number": "99",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 68
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -7293,6 +8787,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": "-",
+        "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Yabemon-368",
@@ -7300,6 +8796,11 @@
         "Name Abbreviation": "Yabemon",
         "Jersey Number": "3",
         "Field Position": ["1B", "2B", "OF"],
+        "All Fielding Ratings": {
+            "1B": 78,
+            "2B": 62,
+            "OF": 62
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "800 CP",
@@ -7317,6 +8818,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Yabeta-276",
@@ -7324,6 +8827,9 @@
         "Name Abbreviation": "Yabeta",
         "Jersey Number": "8",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 69
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -7341,6 +8847,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Yagyu-275",
@@ -7348,6 +8856,10 @@
         "Name Abbreviation": "Yagyu",
         "Jersey Number": "7",
         "Field Position": ["OF", "1B"],
+        "All Fielding Ratings": {
+            "OF": 35,
+            "1B": 28
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -7365,6 +8877,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Yakyuman1Gou-292",
@@ -7372,6 +8886,9 @@
         "Name Abbreviation": "Yakyuman1Gou",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 45
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -7395,6 +8912,8 @@
             "id": "CB",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Battler", "Toolkit", "Hot Head", "Breaking Ball Pitcher"]
     }, {
         "id": "Yakyuman2Gou-346",
@@ -7402,6 +8921,9 @@
         "Name Abbreviation": "Yakyuman2Gou",
         "Jersey Number": "2",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 42
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -7425,6 +8947,8 @@
             "id": "SL",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Poise F", "Recovery C", "Crossfire", "Vs. Slugger", "Bluffer", "Downplay", "Moody", "Breaking Ball Pitcher", "Pace"]
     }, {
         "id": "Yakyuman3Gou-375",
@@ -7432,6 +8956,10 @@
         "Name Abbreviation": "Yakyuman3Gou",
         "Jersey Number": "3",
         "Field Position": ["C", "1B"],
+        "All Fielding Ratings": {
+            "C": 86,
+            "1B": 60
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 3",
@@ -7449,6 +8977,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": "Bluffer"
     }, {
         "id": "Yakyuman5Gou-381",
@@ -7456,6 +8986,10 @@
         "Name Abbreviation": "Yakyuman5Gou",
         "Jersey Number": "6",
         "Field Position": ["SS", "2B"],
+        "All Fielding Ratings": {
+            "SS": 78,
+            "2B": 62
+        },
         "Throws": "R",
         "Bats": "S",
         "Acquisition Req.": "Player Set 3",
@@ -7473,6 +9007,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": "Bluffer"
     }, {
         "id": "Yamaguchi-336",
@@ -7480,6 +9016,9 @@
         "Name Abbreviation": "Yamaguchi",
         "Jersey Number": "29",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 60
+        },
         "Throws": "L",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -7503,6 +9042,8 @@
             "id": "FRK",
             "level": 7
         }],
+        "Pitching Form": "Overhead 69",
+        "Batting Form": "General 29",
         "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Lucky", "Breaking Ball P"]
     }, {
         "id": "Yamino-481",
@@ -7510,6 +9051,9 @@
         "Name Abbreviation": "Yamino",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 44
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -7539,6 +9083,8 @@
             "id": "SLV",
             "level": 2
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Recovery C", "Trusty", "Choker", "Unlucky", "Breaking Ball Pitcher"]
     }, {
         "id": "Yashima-332",
@@ -7546,6 +9092,9 @@
         "Name Abbreviation": "Yashima",
         "Jersey Number": "8",
         "Field Position": ["OF"],
+        "All Fielding Ratings": {
+            "OF": 60
+        },
         "Throws": "L",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -7563,6 +9112,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Yojo-309",
@@ -7570,6 +9121,9 @@
         "Name Abbreviation": "Yojo",
         "Jersey Number": "4",
         "Field Position": ["2B"],
+        "All Fielding Ratings": {
+            "2B": 65
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "Player Set 1",
@@ -7587,6 +9141,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Zansu-425",
@@ -7594,6 +9150,9 @@
         "Name Abbreviation": "Zansu",
         "Jersey Number": "6",
         "Field Position": ["SS"],
+        "All Fielding Ratings": {
+            "SS": 82
+        },
         "Throws": "R",
         "Bats": "R",
         "Acquisition Req.": "1500 CP",
@@ -7611,6 +9170,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": null
     }, {
         "id": "Zenigata-367",
@@ -7618,6 +9179,9 @@
         "Name Abbreviation": "Zenigata",
         "Jersey Number": "1",
         "Field Position": ["SP"],
+        "All Fielding Ratings": {
+            "P": 55
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 3",
@@ -7644,6 +9208,8 @@
             "id": "SNK",
             "level": 3
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["W/RISP B", "Vs. LHB B", "Poise B", "Recovery C", "Downplay", "Choker", "Hot Head", "Power Pitcher"]
     }, {
         "id": "Zenzai-341",
@@ -7651,6 +9217,9 @@
         "Name Abbreviation": "Zenzai",
         "Jersey Number": "1",
         "Field Position": ["SP", "MR", "CP"],
+        "All Fielding Ratings": {
+            "P": 57
+        },
         "Throws": "R",
         "Bats": "L",
         "Acquisition Req.": "Player Set 1",
@@ -7677,6 +9246,8 @@
             "id": "SP Curveball 1",
             "level": 4
         }],
+        "Pitching Form": null,
+        "Batting Form": null,
         "Special Abilities (Pitching)": ["Agile B", "Recovery C", "Toolkit", "Airball", "Breaking Ball P"]
     }]
 }
