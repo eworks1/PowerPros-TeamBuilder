@@ -2,7 +2,7 @@
     <defs>
     {%- assign ratings = 'S A B C D E F G' | split: ' ' -%}
     {%- for r in ratings -%}
-        <linearGradient id="rating-{{ r }}" x1="0" x2="0" y1="0" y2="100%" gradientUnits="objectBoundingBox">
+        <linearGradient id="rating-gradient-{{ r }}" x1="0" x2="0" y1="0" y2="100%" gradientUnits="objectBoundingBox">
             <stop stop-color="{{ site.data.colors.ratings[r].start }}" offset="0%"/>
             <stop stop-color="{{ site.data.colors.ratings[r].end }}" offset="100%"/>
         </linearGradient>
