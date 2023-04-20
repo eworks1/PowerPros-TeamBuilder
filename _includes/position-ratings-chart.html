@@ -42,10 +42,10 @@
 </svg>
 <script>
     const chart = document.getElementById('position-ratings-chart');
-    const positions = {{ include.positions | jsonify }};
+    const positionRatings = {{ include.positionRatings | jsonify }};
 
     chart.addEventListener('load', (ev) => {
-        updatePositionRatingsChart(ev.target, positions);
+        updatePositionRatingsChart(ev.target, positionRatings);
     }, {
         once: true
     });
