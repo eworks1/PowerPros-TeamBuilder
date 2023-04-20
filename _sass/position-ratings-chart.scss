@@ -1,0 +1,10 @@
+#position-ratings-chart {
+    background-image: url(../assets/img/baseball_diamond.svg);
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#position-ratings-chart .letter {
+    transform: translate(0px, 2px);
+}
