@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" viewBox="0 0.15 56 45.75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#cdedfd" stroke="#92bbe4" stroke-width="0.2">
     <!-- 1mm == 3.78px -->
+        
     <g style="transform: scaleY(-1) translate(28px); transform-origin: center;">
         <!-- 0,0 / 24,24 / 20,28 / 0,48 / -20,28 / -24,24 -->
         <path id="OF" d="M 0,0 l 28,28 l -4,4 c -18,18 -30,18 -48,0 l -4,-4 z" transform="" />
@@ -9,7 +10,7 @@
 
         <rect id="0B" width="3" height="3" transform="rotate(45)" />
         <rect id="1B" width="3" height="3" transform="translate(15, 15) rotate(135)" />
-        <rect id="2B" width="3" height="3" transform="translate(0, 30) rotate(-135)" />
+        <rect id="2B" width="3" height="3" transform="translate(0, 31) rotate(-135)" />
         <rect id="3B" width="3" height="3" transform="translate(-15, 15) rotate(-45)" />
     </g>
 </svg>
