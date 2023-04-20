@@ -1,0 +1,52 @@
+<svg id="position-ratings-chart" height="500px" width="500px" viewBox="0 0 500 500">
+    <filter id="rating-shadow" x="-50%" y="-50%" width="200%" height="200%">
+        <feDropShadow dx="1" dy="1" stdDeviation="2" flood-opacity="0.5" flood-color="black" />
+    </filter>
+
+    <g id="P-pos-rating">
+        <title class="rating-title"></title>
+        <text filter="url(#rating-shadow)" x="50.0000%" y="60.09375%" class="letter A">A</text>
+    </g>
+    <g id="C-pos-rating">
+        <title class="rating-title"></title>
+        <text filter="url(#rating-shadow)" x="50.0000%" y="85.54018%" class="letter A">A</text>
+    </g>
+    <g id="1B-pos-rating">
+        <title class="rating-title"></title>
+        <text filter="url(#rating-shadow)" x="72.0536%" y="63.48661%" class="letter A">A</text>
+    </g>
+    <g id="2B-pos-rating">
+        <title class="rating-title"></title>
+        <text filter="url(#rating-shadow)" x="62.7232%" y="50.76339%" class="letter A">A</text>
+    </g>
+    <g id="SS-pos-rating">
+        <title class="rating-title"></title>
+        <text filter="url(#rating-shadow)" x="37.2768%" y="50.76339%" class="letter A">A</text>
+    </g>
+    <g id="3B-pos-rating">
+        <title class="rating-title"></title>
+        <text filter="url(#rating-shadow)" x="27.9464%" y="63.48661%" class="letter A">A</text>
+    </g>
+    <g id="LF-pos-rating">
+        <title class="rating-title"></title>
+        <text filter="url(#rating-shadow)" x="24.5536%" y="36.34375%" class="letter A">A</text>
+    </g>
+    <g id="CF-pos-rating">
+        <title class="rating-title"></title>
+        <text filter="url(#rating-shadow)" x="50.0000%" y="24.46875%" class="letter A">A</text>
+    </g>
+    <g id="RF-pos-rating">
+        <title class="rating-title"></title>
+        <text filter="url(#rating-shadow)" x="75.4464%" y="36.34375%" class="letter A">A</text>
+    </g>
+</svg>
+<script>
+    const chart = document.getElementById('position-ratings-chart');
+    const positions = {{ include.positions | jsonify }};
+
+    chart.addEventListener('load', (ev) => {
+        updatePositionRatingsChart(ev.target, positions);
+    }, {
+        once: true
+    });
+</script>
