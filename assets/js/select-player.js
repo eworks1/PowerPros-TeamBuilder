@@ -268,7 +268,7 @@ function letterRatingUrl(ratingNum) {
  * @returns {string}
  */
 function createPositionRatingTitle(position, rating) {
-    return `${position} - ${rating}`
+    return `${position}: ${rating}`
 }
 
 /**
