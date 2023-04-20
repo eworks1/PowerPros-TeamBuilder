@@ -280,7 +280,10 @@ function updatePositionRatingsChart(chart, ratings) {
         const titleNode = element.children.item(0);
         const textNode = element.children.item(1);
         if (titleNode && textNode) {
-            const position = element.id.split('-')[0];
+            let position = element.id.split('-')[0];
+            if (['LF', 'CF', 'RF'].includes(position)) {
+                position = 'OF';
+            }
 
             if (Object.keys(ratings).includes(position)) {
                 element.classList.remove('hidden');
