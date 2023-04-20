@@ -4,6 +4,7 @@
 
 {% assign playerName = include.player["Name Abbreviation"] %}
 {% assign playerPositions = include.player["Field Position"] %}
+{% assign positionRatings = include.player["All Fielding Ratings"] %}
 
 {% assign hit = include.player["Contact"] %}
 {% assign pwr = include.player["Power"] %}
@@ -43,7 +44,8 @@
         {% comment %}
         TODO: need to get fielding level at each of their positions
         {% endcomment %}
-        <img style="grid-area: diamond;" src="{{ 'assets/img/baseball_diamond.svg' | relative_url }}">
-        <!-- <span id="detail-fielding"><br>{% include letter-rating.html rating=fielding %}</span> -->
+        <span id="position-ratings-container">
+            {% include position-ratings-chart.html positionRatings=positionRatings %}
+        </span>
     </div>
 </div>
