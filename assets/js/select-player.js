@@ -109,13 +109,10 @@ function playerClicked(player) {
     }
     
     // Fielding Box
-    // const fieldingImg = detailBox.querySelector('#detail-fielding .letter-rating');
-    // if (fieldingImg) {
-    //     fieldingImg.setAttribute(
-    //         'src',
-    //         letterRatingUrl(player["Error Resistance"])
-    //     );
-    // }
+    const fieldingChart = detailBox.querySelector('#detail-fielding #position-ratings-chart');
+    if (fieldingChart) {
+        updatePositionRatingsChart(fieldingChart, player["All Fielding Ratings"]);
+    }
 
     // Positions List (Batting Detail)
     const battingPositionList = document.getElementById('batting-detail-positions-list');
@@ -263,4 +260,46 @@ function letterRatingUrl(ratingNum) {
     const ratingLetter = getLetterRatingFromNumber(ratingNum);
     // return `https://www.mlbppworld.com/wiki/images/Rank_${ratingLetter}.png`
     return `assets/img/letter_rating_${ratingLetter}.svg`
+}
+
+/**
+ * @param {string} position
+ * @param {number} rating
+ * @returns {string}
+ */
+function createPositionRatingTitle(position, rating) {
+    return `${position} - ${rating}`
+}
+
+/**
+ * @param {Element} chart
+ * @param {Object.<string, number>} ratings
+ */
+function updatePositionRatingsChart(chart, ratings) {
+    for (const element of chart.children) {
+        const titleNode = element.children.item(0);
+        const textNode = element.children.item(1);
+        if (titleNode && textNode) {
+            const position = element.id.split('-')[0];
+
+            if (Object.keys(ratings).includes(position)) {
+                element.classList.remove('hidden');
+
+                const rating = ratings[position];
+                const letterRating = getLetterRatingFromNumber(rating);
+
+                textNode.classList.replace(textNode.textContent, letterRating);
+
+                textNode.textContent = letterRating;
+                titleNode.textContent = createPositionRatingTitle(
+                    position,
+                    rating
+                );
+            } else {
+                element.classList.add('hidden');
+            }
+        } else {
+            element.classList.add('hidden');
+        }
+    }
 }
