@@ -211,7 +211,6 @@ function relativeDirToAbsolute(direction, leftHanded) {
 }
 
 /**
- * 
  * @param {string} pitchName
  * @param {string} pitchID
  * @returns {string}
