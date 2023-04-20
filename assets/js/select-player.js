@@ -109,7 +109,7 @@ function playerClicked(player) {
     }
     
     // Fielding Box
-    const fieldingChart = detailBox.querySelector('#detail-fielding #position-ratings-chart');
+    const fieldingChart = detailBox.querySelector('#fielding-detail #position-ratings-chart');
     if (fieldingChart) {
         updatePositionRatingsChart(fieldingChart, player["All Fielding Ratings"]);
     }
