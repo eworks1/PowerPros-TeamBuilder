@@ -1,8 +1,12 @@
+.trj-arrow {
+    height: 22px;
+}
+
 .trj-arrow path[trj] {
     stroke: white;
     stroke-linejoin: round;
-
-    height: 22px;
+    stroke-width: 8px;
+    paint-order: stroke fill;
 
     transform-origin: center;
 }
