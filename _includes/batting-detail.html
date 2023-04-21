@@ -5,6 +5,7 @@
 {% assign playerName = include.player["Name Abbreviation"] %}
 {% assign playerPositions = include.player["Field Position"] %}
 
+{% assign trj = include.player["Trajectory"] %}
 {% assign hit = include.player["Contact"] %}
 {% assign pwr = include.player["Power"] %}
 {% assign runspd = include.player["Run Speed"] %}
@@ -30,7 +31,7 @@
 
     <span class="info-box detail-fld" style="grid-area: fld;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.FLD }}">FLD</span>{% include letter-rating.html rating=fielding %}</span>
 
-    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num" style="font-weight: 500;">{{ include.player["Trajectory"] }}</span> <img class="detail-trj-img" style="height: 22px; margin-left: 2px;" src="https://www.mlbppworld.com/wiki/images/TRJ{{ include.player['Trajectory'] }}.png"></span>
+    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player["Trajectory"] }}</span> {% include trajectory-arrow.html trj=trj %}</span>
 
     <span class="info-box" style="grid-area: avg;"><span class="info-label">AVG</span><span class="dash-content">–––</span></span>
     <span class="info-box" style="grid-area: hr;"><span class="info-label">HR</span><span class="dash-content">–––</span></span>
