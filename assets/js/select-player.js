@@ -54,28 +54,28 @@ function playerClicked(player) {
 
     const hitSvgTexts = detailBox.querySelectorAll('.detail-hit.info-box .letter-rating .letter');
     hitSvgTexts.forEach(element => {
-        element.classList.replace(element.textContent, getLetterRatingFromNumber(player.Contact));
+        element.setAttribute('rating', `${player.Contact}`);
         element.textContent = getLetterRatingFromNumber(player.Contact);
         element.previousElementSibling.textContent = `${player.Contact}`;
     });
 
     const pwrSvgTexts = detailBox.querySelectorAll('.detail-pwr.info-box .letter-rating .letter');
     pwrSvgTexts.forEach(element => {
-        element.classList.replace(element.textContent, getLetterRatingFromNumber(player.Power));
+        element.setAttribute('rating', `${player.Power}`);
         element.textContent = getLetterRatingFromNumber(player.Power);
         element.previousElementSibling.textContent = `${player.Power}`;
     });
 
     const runspdSvgTexts = detailBox.querySelectorAll('.detail-runspd.info-box .letter-rating .letter');
     runspdSvgTexts.forEach(element => {
-        element.classList.replace(element.textContent, getLetterRatingFromNumber(player["Run Speed"]));
+        element.setAttribute('rating', `${player["Run Speed"]}`);
         element.textContent = getLetterRatingFromNumber(player["Run Speed"]);
         element.previousElementSibling.textContent = `${player["Run Speed"]}`;
     });
 
     const armstrSvgTexts = detailBox.querySelectorAll('.detail-armstr.info-box .letter-rating .letter');
     armstrSvgTexts.forEach(element => {
-        element.classList.replace(element.textContent, getLetterRatingFromNumber(player["Arm Strength"]));
+        element.setAttribute('rating', `${player["Arm Strength"]}`);
         element.textContent = getLetterRatingFromNumber(player["Arm Strength"]);
         element.previousElementSibling.textContent = `${player["Arm Strength"]}`;
     });
@@ -83,7 +83,7 @@ function playerClicked(player) {
     // I think there won't be more than 1 of these, but just in case.
     const catchingSvgTexts = detailBox.querySelectorAll('.detail-catching.info-box .letter-rating .letter');
     catchingSvgTexts.forEach(element => {
-        element.classList.replace(element.textContent, getLetterRatingFromNumber(player["Error Resistance"]));
+        element.setAttribute('rating', `${player["Error Resistance"]}`);
         element.textContent = getLetterRatingFromNumber(player["Error Resistance"]);
         element.previousElementSibling.textContent = `${player["Error Resistance"]}`;
     });
@@ -91,7 +91,7 @@ function playerClicked(player) {
     // I think there won't be more than 1 of these, but just in case.
     const fldSvgTexts = detailBox.querySelectorAll('.detail-fld.info-box .letter-rating .letter');
     fldSvgTexts.forEach(element => {
-        element.classList.replace(element.textContent, getLetterRatingFromNumber(player.Fielding));
+        element.setAttribute('rating', `${player.Fielding}`);
         element.textContent = getLetterRatingFromNumber(player.Fielding);
         element.previousElementSibling.textContent = `${player.Fielding}`;
     });
@@ -156,7 +156,7 @@ function playerClicked(player) {
     // I think there won't be more than 1 of these, but just in case.
     const controlSvgTexts = detailBox.querySelectorAll('.detail-control.info-box .letter-rating .letter');
     controlSvgTexts.forEach(element => {
-        element.classList.replace(element.textContent, getLetterRatingFromNumber(player.Control));
+        element.setAttribute('rating', `${player.Control}`);
         element.textContent = getLetterRatingFromNumber(player.Control);
         element.previousElementSibling.textContent = `${player.Control}`;
     });
@@ -165,7 +165,7 @@ function playerClicked(player) {
     // I think there won't be more than 1 of these, but just in case.
     const staminaSvgTexts = detailBox.querySelectorAll('.detail-stamina.info-box .letter-rating .letter');
     staminaSvgTexts.forEach(element => {
-        element.classList.replace(element.textContent, getLetterRatingFromNumber(player.Stamina));
+        element.setAttribute('rating', `${player.Stamina}`);
         element.textContent = getLetterRatingFromNumber(player.Stamina);
         element.previousElementSibling.textContent = `${player.Stamina}`;
     });
@@ -291,7 +291,7 @@ function updatePositionRatingsChart(chart, ratings) {
                 const rating = ratings[position];
                 const letterRating = getLetterRatingFromNumber(rating);
 
-                textNode.classList.replace(textNode.textContent, letterRating);
+                element.setAttribute('rating', letterRating);
 
                 textNode.textContent = letterRating;
                 titleNode.textContent = createPositionRatingTitle(

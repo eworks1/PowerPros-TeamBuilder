@@ -19,27 +19,27 @@
     dominant-baseline: middle;
 }
 
-.letter.S {
+.letter[rating="S"] {
     fill: url(#rating-gradient-S);
 }
-.letter.A {
+.letter[rating="A"] {
     fill: url(#rating-gradient-A);
 }
-.letter.B {
+.letter[rating="B"] {
     fill: url(#rating-gradient-B);
 }
-.letter.C {
+.letter[rating="C"] {
     fill: url(#rating-gradient-C);
 }
-.letter.D {
+.letter[rating="D"] {
     fill: url(#rating-gradient-D);
 }
-.letter.E {
+.letter[rating="E"] {
     fill: url(#rating-gradient-E);
 }
-.letter.F {
+.letter[rating="F"] {
     fill: url(#rating-gradient-F);
 }
-.letter.G {
+.letter[rating="G"] {
     fill: url(#rating-gradient-G);
 }
