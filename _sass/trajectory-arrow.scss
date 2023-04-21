@@ -8,20 +8,21 @@
     stroke-width: 8px;
     paint-order: stroke fill;
 
+    transform: rotate(0deg) translate(6px, 6px);
 }
 
 .trj-arrow path[trj="1"] {
-    transform: rotate(0deg);
+    transform: rotate(0deg) translate(6px, 6px);
 }
 
 .trj-arrow path[trj="2"] {
-    transform: translate(2.5px, -0.5px) rotate(-25deg);
+    transform: translate(0px, 2px) rotate(-25deg) translate(6px, 6px);
 }
 
 .trj-arrow path[trj="3"] {
-    transform: translate(4px, -4px) rotate(-45deg);
+    transform: translate(0px, 2.5px) rotate(-45deg) translate(6px, 6px);
 }
 
 .trj-arrow path[trj="4"] {
-    transform: translate(0px, -2px) rotate(-70deg);
+    transform: translate(-1px, 8px) rotate(-70deg) translate(6px, 6px);
 }
