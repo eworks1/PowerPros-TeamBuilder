@@ -13,16 +13,20 @@
 
 .trj-arrow path[trj="1"] {
     transform: rotate(0deg) translate(6px, 6px);
+    fill: url(#trj-gradient-1);
 }
 
 .trj-arrow path[trj="2"] {
     transform: translate(0px, 2px) rotate(-25deg) translate(6px, 6px);
+    fill: url(#trj-gradient-2);
 }
 
 .trj-arrow path[trj="3"] {
     transform: translate(0px, 2.5px) rotate(-45deg) translate(6px, 6px);
+    fill: url(#trj-gradient-3);
 }
 
 .trj-arrow path[trj="4"] {
     transform: translate(-1px, 8px) rotate(-70deg) translate(6px, 6px);
+    fill: url(#trj-gradient-4);
 }
