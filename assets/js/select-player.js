@@ -38,16 +38,12 @@ function playerClicked(player) {
 
     // Stats
     const trjTexts = detailBox.querySelectorAll('.detail-trj-num');
-    const trjImgs = detailBox.querySelectorAll('.detail-trj-img');
+    const trjPaths = detailBox.querySelectorAll('.trj-arrow path[trj]');
     trjTexts.forEach(element => element.textContent = player.Trajectory);
-    
-    trjImgs.forEach(element => {
-        element.setAttribute(
-            'src',
-            `https://www.mlbppworld.com/wiki/images/TRJ${player.Trajectory}.png`
-        );
-        element.setAttribute(
-            'title',
+
+    trjPaths.forEach(path => {
+        path.setAttribute(
+            'trj',
             `${player.Trajectory}`
         );
     });
