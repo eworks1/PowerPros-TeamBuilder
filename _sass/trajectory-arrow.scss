@@ -1,0 +1,20 @@
+.trj-arrow path[trj] {
+    stroke: white;
+    stroke-linejoin: round;
+
+    height: 22px;
+
+    transform-origin: center;
+}
+.trj-arrow path[trj="1"] {
+    transform: rotate(0deg);
+}
+.trj-arrow path[trj="2"] {
+    transform: rotate(-25deg);
+}
+.trj-arrow path[trj="3"] {
+    transform: rotate(-45deg);
+}
+.trj-arrow path[trj="4"] {
+    transform: rotate(-70deg);
+}
