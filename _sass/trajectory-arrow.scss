@@ -14,11 +14,11 @@
     transform: rotate(0deg);
 }
 .trj-arrow path[trj="2"] {
-    transform: rotate(-25deg);
+    transform: translate(2.5px, -0.5px) rotate(-25deg);
 }
 .trj-arrow path[trj="3"] {
-    transform: rotate(-45deg);
+    transform: translate(4px, -4px) rotate(-45deg);
 }
 .trj-arrow path[trj="4"] {
-    transform: rotate(-70deg);
+    transform: translate(0px, -2px) rotate(-70deg);
 }
