@@ -50,45 +50,51 @@ function playerClicked(player) {
 
     const hitSvgTexts = detailBox.querySelectorAll('.detail-hit.info-box .letter-rating .letter');
     hitSvgTexts.forEach(element => {
-        element.setAttribute('rating', `${player.Contact}`);
-        element.textContent = getLetterRatingFromNumber(player.Contact);
+        const rating = getLetterRatingFromNumber(player.Contact);
+        element.setAttribute('rating', rating);
+        element.textContent = rating;
         element.previousElementSibling.textContent = `${player.Contact}`;
     });
 
     const pwrSvgTexts = detailBox.querySelectorAll('.detail-pwr.info-box .letter-rating .letter');
     pwrSvgTexts.forEach(element => {
-        element.setAttribute('rating', `${player.Power}`);
-        element.textContent = getLetterRatingFromNumber(player.Power);
+        const rating = getLetterRatingFromNumber(player.Power);
+        element.setAttribute('rating', rating);
+        element.textContent = rating;
         element.previousElementSibling.textContent = `${player.Power}`;
     });
 
     const runspdSvgTexts = detailBox.querySelectorAll('.detail-runspd.info-box .letter-rating .letter');
     runspdSvgTexts.forEach(element => {
-        element.setAttribute('rating', `${player["Run Speed"]}`);
-        element.textContent = getLetterRatingFromNumber(player["Run Speed"]);
+        const rating = getLetterRatingFromNumber(player["Run Speed"]);
+        element.setAttribute('rating', rating);
+        element.textContent = rating;
         element.previousElementSibling.textContent = `${player["Run Speed"]}`;
     });
 
     const armstrSvgTexts = detailBox.querySelectorAll('.detail-armstr.info-box .letter-rating .letter');
     armstrSvgTexts.forEach(element => {
-        element.setAttribute('rating', `${player["Arm Strength"]}`);
-        element.textContent = getLetterRatingFromNumber(player["Arm Strength"]);
+        const rating = getLetterRatingFromNumber(player["Arm Strength"]);
+        element.setAttribute('rating', rating);
+        element.textContent = rating;
         element.previousElementSibling.textContent = `${player["Arm Strength"]}`;
     });
 
     // I think there won't be more than 1 of these, but just in case.
     const catchingSvgTexts = detailBox.querySelectorAll('.detail-catching.info-box .letter-rating .letter');
     catchingSvgTexts.forEach(element => {
-        element.setAttribute('rating', `${player["Error Resistance"]}`);
-        element.textContent = getLetterRatingFromNumber(player["Error Resistance"]);
+        const rating = getLetterRatingFromNumber(player["Error Resistance"]);
+        element.setAttribute('rating', rating);
+        element.textContent = rating;
         element.previousElementSibling.textContent = `${player["Error Resistance"]}`;
     });
 
     // I think there won't be more than 1 of these, but just in case.
     const fldSvgTexts = detailBox.querySelectorAll('.detail-fld.info-box .letter-rating .letter');
     fldSvgTexts.forEach(element => {
-        element.setAttribute('rating', `${player.Fielding}`);
-        element.textContent = getLetterRatingFromNumber(player.Fielding);
+        const rating = getLetterRatingFromNumber(player.Fielding);
+        element.setAttribute('rating', rating);
+        element.textContent = rating;
         element.previousElementSibling.textContent = `${player.Fielding}`;
     });
 
@@ -152,8 +158,9 @@ function playerClicked(player) {
     // I think there won't be more than 1 of these, but just in case.
     const controlSvgTexts = detailBox.querySelectorAll('.detail-control.info-box .letter-rating .letter');
     controlSvgTexts.forEach(element => {
-        element.setAttribute('rating', `${player.Control}`);
-        element.textContent = getLetterRatingFromNumber(player.Control);
+        const rating = getLetterRatingFromNumber(player.Control);
+        element.setAttribute('rating', rating);
+        element.textContent = rating;
         element.previousElementSibling.textContent = `${player.Control}`;
     });
 
@@ -161,8 +168,9 @@ function playerClicked(player) {
     // I think there won't be more than 1 of these, but just in case.
     const staminaSvgTexts = detailBox.querySelectorAll('.detail-stamina.info-box .letter-rating .letter');
     staminaSvgTexts.forEach(element => {
-        element.setAttribute('rating', `${player.Stamina}`);
-        element.textContent = getLetterRatingFromNumber(player.Stamina);
+        const rating = getLetterRatingFromNumber(player.Stamina);
+        element.setAttribute('rating', rating);
+        element.textContent = rating;
         element.previousElementSibling.textContent = `${player.Stamina}`;
     });
 
@@ -287,7 +295,7 @@ function updatePositionRatingsChart(chart, ratings) {
                 const rating = ratings[position];
                 const letterRating = getLetterRatingFromNumber(rating);
 
-                element.setAttribute('rating', letterRating);
+                textNode.setAttribute('rating', letterRating);
 
                 textNode.textContent = letterRating;
                 titleNode.textContent = createPositionRatingTitle(
