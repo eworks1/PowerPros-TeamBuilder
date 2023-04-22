@@ -1,4 +1,6 @@
 {%- assign positions = "All SP MR CP P F C 1B 2B 3B SS OF" | split:" " -%}
 {%- for pos in positions -%}
-    <span class="" onclick="positionButtonLeftClicked('{{ pos }}')" oncontextmenu="positionButtonRightClicked(event, '{{ pos }}')">{% include position-square.html position=pos size=42 %}</span>
+    <span class="position-filter-button" title="{{ site.data.strings.hover_text.positions[pos] }}"
+        onclick="positionButtonLeftClicked('{{ pos }}')" 
+        oncontextmenu="positionButtonRightClicked(event, '{{ pos }}')">{% include position-square.html position=pos size=42 %}</span>
 {%- endfor -%}
