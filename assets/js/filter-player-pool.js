@@ -6,10 +6,11 @@ function positionButtonLeftClicked(position) {
 }
 
 /**
+ * @param {Event} event
  * @param {string} position
  */
-function positionButtonRightClicked(position) {
-    this.preventDefault();
+function positionButtonRightClicked(event, position) {
+    event.preventDefault();
     updatePositionFilter(position, false);
 }
 
