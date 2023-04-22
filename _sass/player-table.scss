@@ -1,7 +1,9 @@
 .player-table {
-    // border-collapse: collapse;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px 4px;
+    
     width: 100%;
-    table-layout: fixed;
 }
 
 .player-table tr {
