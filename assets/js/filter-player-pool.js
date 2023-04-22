@@ -3,6 +3,7 @@
  * @param {string} position
  */
 function positionButtonLeftClicked(event, position) {
+    updateSelectedFilterButton(event.target, false);
     updatePositionFilter(position, true);
 }
 
@@ -12,7 +13,25 @@ function positionButtonLeftClicked(event, position) {
  */
 function positionButtonRightClicked(event, position) {
     event.preventDefault();
+    updateSelectedFilterButton(event.target, true);
     updatePositionFilter(position, false);
+}
+
+/**
+ * @param {Element} selectedButton 
+ * @param {boolean} rightClicked
+ */
+function updateSelectedFilterButton(selectedButton, rightClicked) {
+    const filterBox = document.getElementById('position-filter-box');
+    const currentlySelectedButton = filterBox.querySelector('.position-filter-button.clicked');
+    if (currentlySelectedButton) {
+        currentlySelectedButton.classList.remove('clicked', 'right-clicked');
+    }
+
+    selectedButton.classList.add('clicked');
+    if (rightClicked) {
+        selectedButton.classList.add('right-clicked');
+    }
 }
 
 /**
