@@ -1,7 +1,7 @@
 ---
 ---
 
-<svg height="0">
+<svg height="0" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <!-- Letter Rating Gradients -->
     {%- assign ratings = 'S A B C D E F G' | split: ' ' -%}
