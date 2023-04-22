@@ -6,6 +6,7 @@
     transform: translateY(-4px) scale(1.05);
 }
 
-.position-filter-button.right-clicked svg {
-    
+.position-filter-button.right-clicked text,
+.position-filter-button.right-clicked rect {
+    stroke: rgba(0,0,0,0.6);
 }
