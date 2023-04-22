@@ -2,7 +2,8 @@
 { id, name, positions, cost }
 {%- endcomment -%}
 
-<span class="player-cell-wrapper">
+{%- assign positions_list = include.positions | join: ' ' -%}
+<span class="player-cell-wrapper" positions="{{ positions_list }}">
     {% include player-name-box.html id=include.id name=include.name positions=include.positions %}
 
     {%- assign cost_zero_class = "" -%}
