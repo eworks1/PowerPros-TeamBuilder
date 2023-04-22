@@ -1,0 +1,11 @@
+.position-filter-button svg {
+    border-radius: 4px;
+}
+
+.position-filter-button.clicked svg {
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.position-filter-button.right-clicked svg {
+    
+}
