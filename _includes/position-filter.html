@@ -1,4 +1,4 @@
 {%- assign positions = "All SP MR CP P F C 1B 2B 3B SS OF" | split:" " -%}
 {%- for pos in positions -%}
-    <span class="" onclick="positionButtonLeftClicked('{{ pos }})'" oncontextmenu="positionButtonRightClicked('{{ pos }}')">{% include position-square.html position=pos %}</span>
+    <span class="" onclick="positionButtonLeftClicked('{{ pos }}')" oncontextmenu="positionButtonRightClicked('{{ pos }}')">{% include position-square.html position=pos %}</span>
 {%- endfor -%}
