@@ -1,4 +1,18 @@
 /**
+ * @param {string} position
+ */
+function positionButtonLeftClicked(position) {
+    updatePositionFilter(position, true);
+}
+
+/**
+ * @param {string} position
+ */
+function positionButtonRightClicked(position) {
+    updatePositionFilter(position, false);
+}
+
+/**
  * @param {string} positionGroup 
  * @param {boolean} primaryOnly If right-clicked, it should show players even if it's not their primary position.
  */
