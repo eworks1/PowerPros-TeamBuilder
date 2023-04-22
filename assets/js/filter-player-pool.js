@@ -1,7 +1,8 @@
 /**
+ * @param {Event} event
  * @param {string} position
  */
-function positionButtonLeftClicked(position) {
+function positionButtonLeftClicked(event, position) {
     updatePositionFilter(position, true);
 }
 
