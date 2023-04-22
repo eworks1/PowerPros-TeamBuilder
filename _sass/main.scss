@@ -21,8 +21,8 @@ body {
     grid-template-areas:
         "teamname positions switcher"
         "teamlist availableplayers detailview"
-        "teamlist availableplayers ."
-        "pointcount pointcount .";
+        "teamlist availableplayers instructions"
+        "pointcount pointcount instructions";
     place-content: stretch;
     gap: 4px;
 
