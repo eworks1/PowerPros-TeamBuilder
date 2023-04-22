@@ -2,15 +2,15 @@
 { players, table_id }
 {%- endcomment -%}
 
-<table id="{{ include.table_id }}" class="player-table">
+<div id="{{ include.table_id }}" class="player-table">
     {%- if include.players | size > 0 -%}
-        {%- tablerow player in include.players cols:2 -%}
+        {%- for player in include.players -%}
             {%- assign player_id = player.id -%}
             {%- assign player_name = player["Name Abbreviation"] -%}
             {%- assign player_positions = player["Field Position"] -%}
             {%- assign player_cost = player["Point Cost"] -%}
 
             {%- include player-table-cell.html id=player_id name=player_name positions=player_positions cost=player_cost -%}
-        {%- endtablerow -%}
+        {%- endfor -%}
     {%- endif -%}
-</table>
+</div>
