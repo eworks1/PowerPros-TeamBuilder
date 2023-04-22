@@ -1,13 +1,13 @@
-{% comment %}
+{%- comment -%}
 { id, name, positions, cost }
-{% endcomment %}
+{%- endcomment -%}
 
 <span class="player-cell-wrapper">
     {% include player-name-box.html id=include.id name=include.name positions=include.positions %}
 
-    {% assign cost_zero_class = "" %}
-    {% if include.cost == 0 %}
-        {% assign cost_zero_class = "cost-zero" %}
-    {% endif %}
+    {%- assign cost_zero_class = "" -%}
+    {%- if include.cost == 0 -%}
+        {%- assign cost_zero_class = "cost-zero" -%}
+    {%- endif -%}
     <span class="cost-span {{ cost_zero_class }}">{{ include.cost }}</span>
 </span>
