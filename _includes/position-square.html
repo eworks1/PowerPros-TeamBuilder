@@ -6,12 +6,12 @@
     {% assign size = 38 %}
 {% endif %}
 
-<svg viewBox="0 0 {{ size }} {{ size }}" height="{{ size }}px" width="{{ size }}px">
+<svg class="position-square" viewBox="0 0 {{ size }} {{ size }}" height="{{ size }}px" width="{{ size }}px">
     <rect x="0" y="0" height="{{ size }}" width="{{ size }}" rx="4" fill="{{ site.data.colors.positions[include.position] }}"></rect>
 
     <rect x="0" y="0" height="{{ size }}" width="{{ size }}" rx="4" fill="rgba(0,0,0,0.3)"></rect>
 
     <rect x="2" y="2" height="{{ size | minus:4 }}" width="{{ size | minus:4 }}" rx="2" fill="{{ site.data.colors.positions[include.position] }}"></rect>
 
-    <text class="position-square" x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" stroke="rgba(0,0,0,0.3)" stroke-width="4" stroke-linejoin="round" fill="white" transform="translate(0 3)">{{ include.position }}</text>
+    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" stroke="rgba(0,0,0,0.3)" stroke-width="4" stroke-linejoin="round" fill="white" transform="translate(0 3)">{{ include.position }}</text>
 </svg>
