@@ -1,5 +1,10 @@
 <svg height="0">
     <defs>
+        <!-- Position Square Clip Path -->
+        <clipPath id="position-square-clip">
+            <rect x="0" y="0" height="100%" width="100%" rx="4"></rect>
+        </clipPath>
+
         <!-- Letter Rating Gradients -->
     {%- assign ratings = 'S A B C D E F G' | split: ' ' -%}
     {%- for r in ratings -%}
