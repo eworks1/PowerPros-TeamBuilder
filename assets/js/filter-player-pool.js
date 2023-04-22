@@ -9,6 +9,7 @@ function positionButtonLeftClicked(position) {
  * @param {string} position
  */
 function positionButtonRightClicked(position) {
+    this.preventDefault();
     updatePositionFilter(position, false);
 }
 
