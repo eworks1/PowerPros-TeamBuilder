@@ -7,7 +7,7 @@
 {% endif %}
 
 <svg class="position-square" viewBox="0 0 {{ size }} {{ size }}" height="{{ size }}px" width="{{ size }}px">
-    <rect x="0" y="0" height="{{ size }}" width="{{ size }}" rx="4" fill="{{ site.data.colors.positions[include.position] }}" clip-path="url(#position-square-clip)"></rect>
+    <rect x="0" y="0" height="{{ size }}" width="{{ size }}" rx="4" fill="{{ site.data.colors.positions[include.position] }}"></rect>
 
     <text x="50%" y="50%" transform="translate(0 3)">{{ include.position }}</text>
 </svg>
