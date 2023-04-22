@@ -57,6 +57,7 @@ body {
     grid-auto-columns: auto;
     grid-auto-flow: column;
     gap: 8px;
+    grid-template-rows: 42px;
 
     overflow-x: scroll;
 }
