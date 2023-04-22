@@ -55,7 +55,7 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
             
             // click => show detail
             playerNameBoxes.forEach((box) => box.addEventListener('click', (e) => {
-                const playerId = e.srcElement.id
+                const playerId = e.target.id
                     .replace('-name-box', '');
 
                 const matchingPlayer = findPlayer(playerId);
@@ -67,7 +67,7 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
             // right click => add to/remove from team
             playerNameBoxes.forEach((box) => box.addEventListener('contextmenu', (e) => {
                 e.preventDefault();
-                const playerId = e.srcElement.id
+                const playerId = e.target.id
                     .replace('-name-box', '');
 
                 const matchingPlayer = findPlayer(playerId);
