@@ -29,7 +29,10 @@
             "Catching": "Error Resistance at Primary Position",
             "POS": "Positions",
             "Fielding": "Fielding Positions",
-            "APT": "Aptitude (Pitching Roles)"
+            "APT": "Aptitude (Pitching Roles)",
+            "AVG": "Batting Average",
+            "HR": "Home Runs",
+            "RBI": "Runs Batted In"
         },
         "positions": {
             "All": "All Positions",
