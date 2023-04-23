@@ -23,7 +23,7 @@
 
     <span class="info-box handedness" style="grid-area: handedness;">Throws {{ include.player["Throws"] }}, Bats {{ include.player["Bats"] }}</span>
 
-    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player["Trajectory"] }}</span> {% include trajectory-arrow.html trj=trj %}</span>
+    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player["Trajectory"] }}</span> {% include components/trajectory-arrow.html trj=trj %}</span>
 
     <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HIT }}">HIT</span>{% include components/letter-rating.html rating=hit %}</span>
 

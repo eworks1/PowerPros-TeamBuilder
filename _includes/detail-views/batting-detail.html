@@ -32,7 +32,7 @@
 
     <span class="info-box detail-fld" style="grid-area: fld;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.FLD }}">FLD</span>{% include components/letter-rating.html rating=fielding %}</span>
 
-    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player["Trajectory"] }}</span> {% include trajectory-arrow.html trj=trj %}</span>
+    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player["Trajectory"] }}</span> {% include components/trajectory-arrow.html trj=trj %}</span>
 
     <span class="info-box" style="grid-area: avg;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.AVG }}">AVG</span><span class="dash-content">–––</span></span>
     <span class="info-box" style="grid-area: hr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HR }}">HR</span><span class="dash-content">–––</span></span>
