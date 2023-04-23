@@ -207,12 +207,21 @@ function playerClicked(player) {
                 const newRole = document.createElement('span');
                 newRole.classList.add(className);
                 newRole.innerText = role;
-                
+
+                newRole.title.setAttribute(
+                    'title',
+                    all_strings.hover_text.positions[role]
+                );
+
                 list.appendChild(newRole);
             });
         } else {
             const newRole = document.createElement('span');
             newRole.innerText = '–––';
+            newRole.title.setAttribute(
+                'title',
+                all_strings.hover_text.positions.not_pitcher
+            );
             newRole.classList.add('dash-content');
             pitchingRoleBox.appendChild(newRole);
         }
