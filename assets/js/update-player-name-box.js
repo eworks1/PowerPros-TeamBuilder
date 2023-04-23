@@ -24,7 +24,7 @@ function updatePlayerNameBox(fullName, nameAbbr, positions) {
 
     this.setAttribute('style', styleString);
     this.textContent = elementText;
-    this.setAttribute('title', )
+    this.setAttribute('title', fullName)
 }
 
 /**
