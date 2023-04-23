@@ -2,17 +2,6 @@
 { id, name, positions }
 {% endcomment %}
 
-{% comment %}
-{% assign positions_json = include.positions | jsonify %}
-{% assign joined_positions = include.positions | join: '' %}
-{% assign var_name = "positions" | append: include.name | append: joined_positions %}
-{% assign var_name = var_name | replace: '.', '' %}
-<script type="text/javascript">
-    const {{ var_name }} = {{ positions_json }};
-</script>
-<span class="player-name-box" onload="updatePlayerNameBox({{ include.name }}, {{ var_name }})"></span>
-{% endcomment %}
-
 {% assign playerPositions = include.positions %}
 
 {% assign colors = '' | split: '' %}
@@ -63,10 +52,3 @@
 {% else %}
     <span class="player-name-box no-player {{ position_group }}-group" style="background: {{ gradient }}">Empty</span>
 {% endif %}
-
-{% comment %}
-<!-- background-image: linear-gradient(to right, #f2d247, #f2d247 33%, #8ef085 33%, #8ef085 66%, #74ecf0 66%, #74ecf0); -->
-<!-- <span style="font-size: 18px; box-sizing: border-box;">
-    <span class="player-name-cell" style="background: linear-gradient(to right, #f2d247, #f2d247 50%, #f2d247);">Kamitaka</span><span class="cost-span"><img src="../assets/img/cost_diamond.png" style="height: 12px;"><span> 4</span></span>
-</span> -->
-{% endcomment %}
