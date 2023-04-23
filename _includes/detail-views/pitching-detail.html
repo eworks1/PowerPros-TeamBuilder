@@ -34,11 +34,11 @@
                         {%- assign class = 'does-not-have-pitching-role' -%}
                     {%- endif -%}
 
-                    <span class="{{ class }}">{{ role }}</span>
+                    <span class="{{ class }}" title="{{ site.data.strings.hover_text.positions[role] }}">{{ role }}</span>
                 {%- endfor -%}
             </span>
         {%- else -%}
-            <span class="dash-content">–––</span>
+            <span class="dash-content" title="{{ site.data.strings.hover_text.positions.not_pitcher }}">–––</span>
         {%- endif -%}
         </span>
     </span>
