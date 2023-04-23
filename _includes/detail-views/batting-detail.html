@@ -22,15 +22,15 @@
 
     <span class="info-box handedness" style="grid-area: handedness;">Throws {{ include.player["Throws"] }}, Bats {{ include.player["Bats"] }}</span>
 
-    <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HIT }}">HIT</span>{% include letter-rating.html rating=hit %}</span>
+    <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HIT }}">HIT</span>{% include components/letter-rating.html rating=hit %}</span>
 
-    <span class="info-box detail-pwr" style="grid-area: pwr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.PWR }}">PWR</span>{% include letter-rating.html rating=pwr %}</span>
+    <span class="info-box detail-pwr" style="grid-area: pwr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.PWR }}">PWR</span>{% include components/letter-rating.html rating=pwr %}</span>
 
-    <span class="info-box detail-runspd" style="grid-area: runspd;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['RUN SPD'] }}">RUN SPD </span>{% include letter-rating.html rating=runspd %}</span>
+    <span class="info-box detail-runspd" style="grid-area: runspd;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['RUN SPD'] }}">RUN SPD </span>{% include components/letter-rating.html rating=runspd %}</span>
 
-    <span class="info-box detail-armstr" style="grid-area: armstr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['ARM STR'] }}">ARM STR</span>{% include letter-rating.html rating=armstr %}</span>
+    <span class="info-box detail-armstr" style="grid-area: armstr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['ARM STR'] }}">ARM STR</span>{% include components/letter-rating.html rating=armstr %}</span>
 
-    <span class="info-box detail-fld" style="grid-area: fld;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.FLD }}">FLD</span>{% include letter-rating.html rating=fielding %}</span>
+    <span class="info-box detail-fld" style="grid-area: fld;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.FLD }}">FLD</span>{% include components/letter-rating.html rating=fielding %}</span>
 
     <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player["Trajectory"] }}</span> {% include trajectory-arrow.html trj=trj %}</span>
 
