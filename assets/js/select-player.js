@@ -108,6 +108,7 @@ function playerClicked(player) {
             fieldingPositionsLabel.setAttribute('title', 'Pitcher');
         } else {
             fieldingPositionsLabel.textContent = primary_position;
+            fieldingPositionsLabel.setAttribute('title', all_strings.hover_text.positions[primary_position]);
         }
     }
     
