@@ -96,7 +96,7 @@ function addPlayer(player) {
 
     // Fade down player from the player-pool-table
     const playerCellInPool = document
-        .querySelector(`#player-pool-table #${player.id}-name-box`)
+        .querySelector(`#player-pool-table #${CSS.escape(player.id)}-name-box`)
         ?.parentElement;
     
     if (playerCellInPool) {
@@ -145,7 +145,7 @@ function removePlayer(player) {
     if (!deleted) { return deleted; }
 
     // Update in team table
-    const playerNameBoxID = `${player.id}-name-box`;
+    const playerNameBoxID = CSS.escape(`${player.id}-name-box`);
     // This finds the first empty player-name-box of the correct position group
     const assocPlayerNameBox = document.getElementById(playerNameBoxID);
 
