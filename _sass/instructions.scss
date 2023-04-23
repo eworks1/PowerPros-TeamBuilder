@@ -3,7 +3,7 @@
 }
 
 #how-to-header {
-    padding: 4px 8px;
+    padding: 4px;
 
     color: white;
 
@@ -12,6 +12,12 @@
     text-align: center;
 }
 
+#how-to-body {
+    
+}
+
 .how-to-list {
     list-style-type: "> ";
+    list-style-position: inside;
+    text-indent: 14px hanging;
 }
