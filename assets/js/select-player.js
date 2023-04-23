@@ -208,7 +208,7 @@ function playerClicked(player) {
                 newRole.classList.add(className);
                 newRole.innerText = role;
 
-                newRole.title.setAttribute(
+                newRole.setAttribute(
                     'title',
                     all_strings.hover_text.positions[role]
                 );
@@ -218,7 +218,7 @@ function playerClicked(player) {
         } else {
             const newRole = document.createElement('span');
             newRole.innerText = '–––';
-            newRole.title.setAttribute(
+            newRole.setAttribute(
                 'title',
                 all_strings.hover_text.positions.not_pitcher
             );
