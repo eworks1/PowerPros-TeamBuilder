@@ -41,7 +41,7 @@
             {% assign primary_position = 'P' %}
         {% endif %}
 
-        <span class="info-label" style="grid-area: label; width: 100%;" title="{{ site.data.strings.hover_text.stats.Fielding }}">Fielding</span> <span class="positions-label">{{ primary_position }}</span>
+        <span class="info-label" style="grid-area: label; width: 100%;" title="{{ site.data.strings.hover_text.stats.Fielding }}">Fielding</span> <span class="positions-label" title="{{ site.data.strings.hover_text.positions[primary_position] }}">{{ primary_position }}</span>
 
         <span id="position-ratings-container">
             {% include graphics/position-ratings-chart.html positionRatings=positionRatings %}
