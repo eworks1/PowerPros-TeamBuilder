@@ -131,11 +131,11 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
             {% assign team_players = team_players | push: empty_backup %}
         {% endfor %}
 
-        {% include player-table.html players=team_players table_id="team-table" %}
+        {% include components/player-table.html players=team_players table_id="team-table" %}
     </div>
 
     <div class="group-box contains-player-table" style="grid-area: availableplayers;">
-        {% include player-table.html players=all_players table_id="player-pool-table" %}
+        {% include components/player-table.html players=all_players table_id="player-pool-table" %}
     </div>
 
     <div id="instructions-container" class="group-box" style="grid-area: instructions;">
