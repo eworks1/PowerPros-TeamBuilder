@@ -28,7 +28,8 @@
             "FLD": "Feilding at Primary Position",
             "Catching": "Error Resistance at Primary Position",
             "POS": "Positions",
-            "Fielding": "Fielding Positions"
+            "Fielding": "Fielding Positions",
+            "APT": "Aptitude (Pitching Roles)"
         },
         "positions": {
             "All": "All Positions",

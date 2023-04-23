@@ -20,7 +20,7 @@
     <span class="info-box detail-pitching-form" style="grid-area: pitchform;">{{ include.player["Pitching Form"] | default: 'Form' }}</span>
 
     <span id="pitching-detail-roles-box" class="info-box" style="grid-area: roles;">
-        <span class="info-label">APT</span>
+        <span class="info-label" title="{{ site.data.strings.hover_text.stats.APT }}">APT</span>
         {%- assign primary_position = include.player["Field Position"] | first -%}
         {%- assign roles = 'SP MR CP' | split: ' ' -%}
 
