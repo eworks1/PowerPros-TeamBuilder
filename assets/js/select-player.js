@@ -107,6 +107,7 @@ function playerClicked(player) {
             fieldingPositionsLabel.textContent = 'P';
             fieldingPositionsLabel.setAttribute('title', 'Pitcher');
         } else {
+            // TODO: should this be only the primary position or a joined string?
             fieldingPositionsLabel.textContent = primary_position;
             fieldingPositionsLabel.setAttribute('title', all_strings.hover_text.positions[primary_position]);
         }
