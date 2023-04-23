@@ -1,10 +1,10 @@
 {%- comment -%}
-{ id, name, positions, cost }
+{ id, fullName, nameAbbr, positions, cost }
 {%- endcomment -%}
 
 {%- assign positions_list = include.positions | join: ' ' -%}
 <span class="player-cell-wrapper" positions="{{ positions_list }}">
-    {% include player-name-box.html id=include.id name=include.name positions=include.positions %}
+    {% include player-name-box.html id=include.id fullName=include.fullName nameAbbr=include.nameAbbr positions=include.positions %}
 
     {%- assign cost_zero_class = "" -%}
     {%- if include.cost == 0 -%}

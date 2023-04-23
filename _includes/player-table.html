@@ -6,11 +6,12 @@
     {%- if include.players | size > 0 -%}
         {%- for player in include.players -%}
             {%- assign player_id = player.id -%}
-            {%- assign player_name = player["Name Abbreviation"] -%}
+            {%- assign player_name = player["Name"] -%}
+            {%- assign player_name_abbr = player["Name Abbreviation"] -%}
             {%- assign player_positions = player["Field Position"] -%}
             {%- assign player_cost = player["Point Cost"] -%}
 
-            {%- include player-table-cell.html id=player_id name=player_name positions=player_positions cost=player_cost -%}
+            {%- include player-table-cell.html id=player_id fullName=player_name nameAbbr=player_name_abbr positions=player_positions cost=player_cost -%}
         {%- endfor -%}
     {%- endif -%}
 </div>
