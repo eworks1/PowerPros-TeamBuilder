@@ -180,7 +180,7 @@ function removePlayer(player) {
     // TODO: FADE BACK IN PLAYER FROM ALL PLAYER TABLE
     // Fade up player from the player-pool-table
     const playerCellInPool = document
-        .querySelector(`#player-pool-table #${playerNameBoxID}`)
+        .querySelector(`#player-pool-table #${CSS.escape(playerNameBoxID)}`)
         ?.parentElement;
     
     if (playerCellInPool) {
