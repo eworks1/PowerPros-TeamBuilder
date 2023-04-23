@@ -145,12 +145,12 @@ function removePlayer(player) {
     if (!deleted) { return deleted; }
 
     // Update in team table
-    const playerNameBoxID = CSS.escape(`${player.id}-name-box`);
+    const playerNameBoxID = `${player.id}-name-box`;
     // This finds the first empty player-name-box of the correct position group
     const assocPlayerNameBox = document.getElementById(playerNameBoxID);
 
     // Finds the cost-span by looking at the immediately adjacent sibling
-    const costSpan = document.querySelector(`#${playerNameBoxID} + .cost-span`);
+    const costSpan = document.querySelector(`#${CSS.escape(playerNameBoxID)} + .cost-span`);
 
     if (assocPlayerNameBox && costSpan) {
         // Update player-name-box
