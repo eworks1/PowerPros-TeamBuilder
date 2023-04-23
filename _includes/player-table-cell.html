@@ -4,7 +4,7 @@
 
 {%- assign positions_list = include.positions | join: ' ' -%}
 <span class="player-cell-wrapper" positions="{{ positions_list }}">
-    {% include player-name-box.html id=include.id fullName=include.fullName nameAbbr=include.nameAbbr positions=include.positions %}
+    {% include components/player-name-box.html id=include.id fullName=include.fullName nameAbbr=include.nameAbbr positions=include.positions %}
 
     {%- assign cost_zero_class = "" -%}
     {%- if include.cost == 0 -%}
