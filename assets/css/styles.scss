@@ -1,23 +1,23 @@
 ---
 ---
 @import "main";
-@import "player-table";
-@import "team-counts";
-@import "instructions";
+@import "components/player-table";
+@import "views/team-counts";
+@import "views/instructions";
 
 @import "views/detail-view";
-@import "fielding-detail";
-@import "batting-detail";
-@import "pitching-detail";
+@import "detail-views/fielding-detail";
+@import "detail-views/batting-detail";
+@import "detail-views/pitching-detail";
 
-@import "player-name-box";
-@import "cost-span";
-@import "star-point-count";
+@import "components/player-name-box";
+@import "components/cost-span";
+@import "graphics/star-point-count";
 @import "jersey-number";
 
-@import "letter-rating";
-@import "position-ratings-chart";
-@import "trajectory-arrow";
+@import "components/letter-rating";
+@import "graphics/position-ratings-chart";
+@import "components/trajectory-arrow";
 
-@import "position-square";
-@import "position-filter";
+@import "components/position-square";
+@import "controls/position-filter";
