@@ -10,7 +10,6 @@
 function updatePlayerNameBox(fullName, nameAbbr, positions) {
     const gradient = createGradientString(positions);
 
-    // const span = document.querySelector('.player-name-box')
     let elementText = nameAbbr;
     let styleString = `background: ${gradient};`;
     if (nameAbbr != 'Empty') { // if name is a real player
