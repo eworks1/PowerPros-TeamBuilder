@@ -11,7 +11,7 @@
             {%- assign player_positions = player["Field Position"] -%}
             {%- assign player_cost = player["Point Cost"] -%}
 
-            {%- include player-table-cell.html id=player_id fullName=player_name nameAbbr=player_name_abbr positions=player_positions cost=player_cost -%}
+            {%- include components/player-table-cell.html id=player_id fullName=player_name nameAbbr=player_name_abbr positions=player_positions cost=player_cost -%}
         {%- endfor -%}
     {%- endif -%}
 </div>
