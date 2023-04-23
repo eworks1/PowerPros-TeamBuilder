@@ -1,5 +1,5 @@
 {%- comment -%}
-{ id, name, positions }
+{ id, fullName nameAbbr, positions }
 {%- endcomment -%}
 
 {%- assign playerPositions = include.positions -%}
@@ -47,8 +47,8 @@
     {%- assign position_group = 'backups' -%}
 {%- endif -%}
 
-{%- if include.name != 'Empty' -%}
-    <span id="{{ include.id }}-name-box" class="player-name-box has-player {{ position_group }}-group" style="background: {{ gradient }};">{{ include.name }}</span>
+{%- if include.nameAbbr != 'Empty' -%}
+    <span id="{{ include.id }}-name-box" class="player-name-box has-player {{ position_group }}-group" style="background: {{ gradient }};">{{ include.nameAbbr }}</span>
 {%- else -%}
     <span class="player-name-box no-player {{ position_group }}-group" style="background: {{ gradient }}">Empty</span>
 {%- endif -%}

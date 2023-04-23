@@ -2,7 +2,8 @@
 { player }
 {% endcomment %}
 
-{% assign playerName = include.player["Name Abbreviation"] %}
+{% assign fullName = include.player["Name"] %}
+{% assign nameAbbr = include.player["Name Abbreviation"] %}
 {% assign playerPositions = include.player["Field Position"] %}
 {% assign pitches = include.player["Breaking Balls"] %}
 
@@ -10,7 +11,7 @@
 {% assign stamina = include.player["Stamina"] %}
 
 <div id="pitching-detail" class="hidden-detail-page">
-    {% include player-name-box.html name=playerName positions=playerPositions %}
+    {% include player-name-box.html fullName=fullName nameAbbr=nameAbbr positions=playerPositions %}
     
     <span class="star-point-count" style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
 
