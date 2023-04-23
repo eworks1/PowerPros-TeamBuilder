@@ -7,14 +7,14 @@
  * @param {string} name
  * @param {string[]} positions 
  */{% endraw %}
-function updatePlayerNameBox(name, positions) {
+function updatePlayerNameBox(fullName, nameAbbr, positions) {
     const gradient = createGradientString(positions);
 
     // const span = document.querySelector('.player-name-box')
-    let elementText = name;
+    let elementText = nameAbbr;
     let styleString = `background: ${gradient};`;
-    if (name != 'Empty') { // if name is a real player
-        elementText = name;
+    if (nameAbbr != 'Empty') { // if name is a real player
+        elementText = nameAbbr;
         this.classList.add('has-player');
         this.classList.remove('no-player');
     } else { // if its an empty player
@@ -24,6 +24,7 @@ function updatePlayerNameBox(name, positions) {
 
     this.setAttribute('style', styleString);
     this.textContent = elementText;
+    this.setAttribute('title', )
 }
 
 /**

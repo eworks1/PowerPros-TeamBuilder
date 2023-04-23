@@ -12,6 +12,7 @@ function playerClicked(player) {
         playerNameBoxes.forEach(playerNameBox => updatePlayerNameBox.apply(
             playerNameBox,
             [
+                player.Name,
                 player['Name Abbreviation'],
                 player['Field Position']
             ]

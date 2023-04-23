@@ -78,6 +78,7 @@ function addPlayer(player) {
         updatePlayerNameBox.apply(
             firstEmptyPlayerNameBox,
             [
+                player.Name,
                 player['Name Abbreviation'],
                 player['Field Position']
             ]
@@ -160,6 +161,7 @@ function removePlayer(player) {
         updatePlayerNameBox.apply(
             assocPlayerNameBox,
             [
+                emptyPlayer.Name,
                 emptyPlayer['Name Abbreviation'],
                 emptyPlayer['Field Position']
             ]
