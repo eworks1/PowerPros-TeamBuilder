@@ -1,54 +1,54 @@
-{% comment %}
+{%- comment -%}
 { id, name, positions }
-{% endcomment %}
+{%- endcomment -%}
 
-{% assign playerPositions = include.positions %}
+{%- assign playerPositions = include.positions -%}
 
-{% assign colors = '' | split: '' %}
-{% for pos in playerPositions %}
-    {% assign colorName = site.data.colors.positions[pos] %}
-    {% unless colors contains colorName %}
-        {% assign colors = colors | push: colorName %}
-    {% endunless %}
-{% endfor %}
+{%- assign colors = '' | split: '' -%}
+{%- for pos in playerPositions -%}
+    {%- assign colorName = site.data.colors.positions[pos] -%}
+    {%- unless colors contains colorName -%}
+        {%- assign colors = colors | push: colorName -%}
+    {%- endunless -%}
+{%- endfor -%}
 
-{% assign colorCount = colors | size %}
-{% if colorCount == 0 %}
-    {% assign colorCount = 1 %}
-{% endif %}
-{% assign percentDivided = 100 | divided_by:colorCount %}
+{%- assign colorCount = colors | size -%}
+{%- if colorCount == 0 -%}
+    {%- assign colorCount = 1 -%}
+{%- endif -%}
+{%- assign percentDivided = 100 | divided_by:colorCount -%}
 
-{% assign gradientStart = "linear-gradient(to right" %}
+{%- assign gradientStart = "linear-gradient(to right" -%}
 
-{% assign gradientMiddle = "" %}
-{% for color in colors %}
-    {% assign percentOne = percentDivided | times:forloop.index0 %}
-    {% assign percentTwo = percentOne | plus:percentDivided %}
+{%- assign gradientMiddle = "" -%}
+{%- for color in colors -%}
+    {%- assign percentOne = percentDivided | times:forloop.index0 -%}
+    {%- assign percentTwo = percentOne | plus:percentDivided -%}
 
-    {% if forloop.last %}
-        {% assign percentTwo = 100 %}
-    {% endif %}
+    {%- if forloop.last -%}
+        {%- assign percentTwo = 100 -%}
+    {%- endif -%}
 
-    {% assign middleTemp = gradientMiddle | append: ", " | append: color | append: " " | append: percentOne | append: "%, " | append: color | append: " " | append: percentTwo | append: "%" %}
+    {%- assign middleTemp = gradientMiddle | append: ", " | append: color | append: " " | append: percentOne | append: "%, " | append: color | append: " " | append: percentTwo | append: "%" -%}
 
-    {% assign gradientMiddle = middleTemp %}
-{% endfor %}
+    {%- assign gradientMiddle = middleTemp -%}
+{%- endfor -%}
 
-{% assign gradientEnd = ")" %}
+{%- assign gradientEnd = ")" -%}
 
-{% assign gradient = gradientStart | append: gradientMiddle | append: gradientEnd  %}
+{%- assign gradient = gradientStart | append: gradientMiddle | append: gradientEnd  -%}
 
-{% assign primary_position = include.positions | first %}
-{% assign position_group = 'fielders' %}
-{% assign position_count = include.positions | size %}
-{% if primary_position == 'SP' or primary_position == 'MR' or primary_position == 'CP' %}
-    {% assign position_group = 'pitchers' %}
-{% elsif position_count == 0 %}
-    {% assign position_group = 'backups' %}
-{% endif %}
+{%- assign primary_position = include.positions | first -%}
+{%- assign position_group = 'fielders' -%}
+{%- assign position_count = include.positions | size -%}
+{%- if primary_position == 'SP' or primary_position == 'MR' or primary_position == 'CP' -%}
+    {%- assign position_group = 'pitchers' -%}
+{%- elsif position_count == 0 -%}
+    {%- assign position_group = 'backups' -%}
+{%- endif -%}
 
-{% if include.name != 'Empty' %}
+{%- if include.name != 'Empty' -%}
     <span id="{{ include.id }}-name-box" class="player-name-box has-player {{ position_group }}-group" style="background: {{ gradient }};">{{ include.name }}</span>
-{% else %}
+{%- else -%}
     <span class="player-name-box no-player {{ position_group }}-group" style="background: {{ gradient }}">Empty</span>
-{% endif %}
+{%- endif -%}
