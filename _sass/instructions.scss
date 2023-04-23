@@ -1,5 +1,8 @@
 #instructions-container {
-    max-width: 280px; padding: 0px;
+    padding: 0px;
+
+    max-width: 280px;
+    height: fit-content;
 }
 
 #how-to-header {
@@ -13,7 +16,7 @@
 }
 
 #how-to-body {
-    
+    padding: 4px;
 }
 
 .how-to-list {
