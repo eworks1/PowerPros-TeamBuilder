@@ -35,6 +35,7 @@
             "RBI": "Runs Batted In"
         },
         "positions": {
+            "not_pitcher": "Not a Pitcher",
             "All": "All Positions",
             "P": "Pitcher",
             "F": "Fielder",
