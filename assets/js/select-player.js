@@ -147,6 +147,7 @@ function playerClicked(player) {
     const topSpeed = detailBox.querySelector('#pitching-detail .detail-topspeed');
     if (topSpeed) {
         topSpeed.textContent = player["Top Speed"];
+        topSpeed.setAttribute('title', `${Math.round(player["Top Speed"] * 0.62137)} mph`);
     }
 
     // Pitching Form (Pitching Detail)
