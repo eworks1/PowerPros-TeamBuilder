@@ -13,7 +13,7 @@ function updateSelectedPopoverTab(event) {
     if (event.target.classList.contains('selected')) { return; }
 
     // Find selected element and remove the .selected class
-    const selectedTab = event.target.parentElement.children.find(el => el.classList.contains('selected'));
+    const selectedTab = Array.from(event.target.parentNode.childNodes).find(el => el.classList.contains('selected'));
     if (selectedTab) {
         selectedTab.classList.remove('selected');
     }
