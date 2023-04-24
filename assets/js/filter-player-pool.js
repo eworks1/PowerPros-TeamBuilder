@@ -13,8 +13,11 @@ function positionButtonLeftClicked(event, position) {
  */
 function positionButtonRightClicked(event, position) {
     event.preventDefault();
-    updateSelectedFilterButton(position, true);
-    updatePositionFilter(position, false);
+
+    if (position != 'All') {
+        updateSelectedFilterButton(position, true);
+        updatePositionFilter(position, false);
+    }
 }
 
 /**
