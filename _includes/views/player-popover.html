@@ -1,9 +1,12 @@
 <div>
     <div id="popover-tabbar">
-        <span class="selected" onclick="updateSelectedPopoverTab(event)">Player Ability</span>
-        <span onclick="updateSelectedPopoverTab(event)">Pitcher Ability</span>
-        <span onclick="updateSelectedPopoverTab(event)">Fielder Ability</span>
-        <span onclick="updateSelectedPopoverTab(event)">Pos Asgmt</span>
-        <span onclick="updateSelectedPopoverTab(event)">Profile</span>
+        {%- assign tabs = site.data.strings.popover_tabs -%}
+        {%- for t in tabs -%}
+            {%- assign first = '' -%}
+            {%- if forloop.first -%}
+                {%- assign first = 'selected' -%}
+            {%- endif -%}
+            <span class="{{ first }}" onclick="updateSelectedPopoverTab(event)" style="background-color: {{ site.data.colors.popover_tabs[t] }};">t</span>
+        {%- endfor -%}
     </div>
 </div>
