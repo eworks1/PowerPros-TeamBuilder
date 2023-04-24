@@ -4,3 +4,24 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
+#popover-wrapper>div {
+    max-width: 50%;
+    margin: auto;
+}
+
+#popover-tabbar {
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+}
+
+#popover-tabbar span {
+    padding: 4px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+#popover-tabbar span:not(.selected) {
+    filter: brightness(60%);
+}
