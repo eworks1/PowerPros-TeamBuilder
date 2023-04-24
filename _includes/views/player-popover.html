@@ -9,4 +9,17 @@
             <span class="{{ first }}" onclick="updateSelectedPopoverTab(event)" style="background-color: {{ site.data.colors.popover_tabs[t] }};">{{ t }}</span>
         {%- endfor -%}
     </div>
+
+    <div id="popover-body">
+        <!-- Stays in all tabs -->
+        <div id="popover-name-section">
+            {% include components/player-name-box.html id="Test ID" fullName="Test Name" nameAbbr="Test Abbr" positions="SP MR" %}
+
+            <span class="jersey-number"
+                style="grid-area: jerseynumber; background-size: 100%; background-image: url({{ 'assets/img/jersey_background.svg' | relative_url }});">0</span>
+
+            <span class="star-point-count" style="grid-area: starpoints;">0</span>
+            <span class="cost-span" style="grid-area: cost;">1</span>
+        </div>
+    </div>
 </div>
