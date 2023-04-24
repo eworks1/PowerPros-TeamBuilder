@@ -41,6 +41,11 @@
     grid-template-areas:
         "namedetail formandpic"
         "ratings skills";
+
+    padding: 12px;
+
+    background-color: #edf6f8;
+    border-radius: 0 0 10px 10px;
 }
 
 #popover-name-section {
