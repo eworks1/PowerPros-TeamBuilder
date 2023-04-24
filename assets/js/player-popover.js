@@ -6,6 +6,23 @@ function hidePopover(event) {
 }
 
 /**
+ * @param {Event} event 
+ */
+function updateSelectedPopoverTab(event) {
+    // If the tab selected was already selected, do nothing.
+    if (event.target.classList.contains('selected')) { return; }
+
+    // Find selected element and remove the .selected class
+    const selectedTab = event.target.parentElement.children.find(el => el.classList.contains('selected'));
+    if (selectedTab) {
+        selectedTab.classList.remove('selected');
+    }
+
+    // Add .selected class
+    event.target.classList.add('selected');
+}
+
+/**
  * Update all parts of popover
  * @param {Object} player 
  */
