@@ -6,7 +6,7 @@
             {%- if forloop.first -%}
                 {%- assign first = 'selected' -%}
             {%- endif -%}
-            <span class="{{ first }}" onclick="updateSelectedPopoverTab(event)" style="background-color: {{ site.data.colors.popover_tabs[t] }};">t</span>
+            <span class="{{ first }}" onclick="updateSelectedPopoverTab(event)" style="background-color: {{ site.data.colors.popover_tabs[t] }};">{{ t }}</span>
         {%- endfor -%}
     </div>
 </div>
