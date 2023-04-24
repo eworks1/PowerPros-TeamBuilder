@@ -18,14 +18,15 @@
 
 #popover-tabbar span {
     cursor: pointer;
-    
+
     padding: 4px;
-    color: white;
     width: 100%;
-    text-align: center;
     border-radius: 10px 10px 0 0;
+
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
+    color: white;
+    text-align: center;
 }
 
 #popover-tabbar span:not(.selected) {
