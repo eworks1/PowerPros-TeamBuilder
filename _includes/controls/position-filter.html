@@ -1,6 +1,10 @@
 {%- assign positions = "All SP MR CP P F C 1B 2B 3B SS OF" | split:" " -%}
 {%- for pos in positions -%}
-    <span class="position-filter-button" 
+    {%- assign starting_clicked_class = '' -%}
+    {%- if pos == 'All' -%}
+        {%- assign starting_clicked_class = 'clicked' -%}
+    {%- endif -%}
+    <span class="position-filter-button {{ starting_clicked_class }}" 
         title="{{ site.data.strings.hover_text.positions[pos] }}"
         position="{{ pos }}"
         onclick="positionButtonLeftClicked(event, '{{ pos }}')" 
