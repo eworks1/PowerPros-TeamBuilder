@@ -2,7 +2,9 @@
  * @param {Event} event 
  */
 function hidePopover(event) {
-    event.target.classList.add('hidden');
+    if (event.target.id == 'popover-wrapper') {
+        event.target.classList.add('hidden');
+    }
 }
 
 /**
