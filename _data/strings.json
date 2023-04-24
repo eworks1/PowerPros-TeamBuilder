@@ -12,6 +12,14 @@
         ]
     },
 
+    "popover_tabs": [
+        "Player Abilities",
+        "Pitcher Abilities",
+        "Fielder Abilities",
+        "Pos Asgmt",
+        "Profile"
+    ],
+
     "hover_text": {
         "jersey_number": "Jersey Number",
         "handedness": {

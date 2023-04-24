@@ -46,5 +46,12 @@
         "SS": "#f2d247",
         "OF": "#8ef085",
         "C": "#74ecf0"
+    },
+    "popover_tabs": {
+        "Player Abilities": "#1f4bad",
+        "Pitcher Abilities": "#b7262a",
+        "Fielder Abilities": "#3c89e5",
+        "Pos Asgmt": "#cfa337",
+        "Profile": "#50ad34"
     }
 }
