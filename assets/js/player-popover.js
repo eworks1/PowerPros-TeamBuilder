@@ -72,5 +72,6 @@ function playerDoubleClicked(player) {
         );
     }
 
+    // Show popover once all info is updated
     popover.classList.remove('hidden');
 }
