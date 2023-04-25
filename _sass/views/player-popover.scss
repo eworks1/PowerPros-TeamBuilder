@@ -59,3 +59,19 @@
         "positions positions starpoints"
         "positions positions cost";
 }
+
+#popover-name-section .blank-flag {
+    grid-area: flag;
+    border: red solid 1px;
+    margin: 2px;
+    align-self: center;
+    padding: 4px;
+    aspect-ratio: 2;
+    height: 20px;
+    color: red;
+    font-family: sans-serif;
+    background-color: white;
+    text-align: center;
+    box-sizing: content-box;
+    justify-self: center;
+}
