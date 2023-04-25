@@ -70,9 +70,12 @@
     aspect-ratio: 2;
     height: 20px;
     color: red;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     background-color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: content-box;
     justify-self: center;
 }
