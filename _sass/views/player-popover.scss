@@ -72,6 +72,14 @@
     border: rgba(0, 0, 0, 0.2) solid 2px;
 }
 
+#popover-name-section .info-row .content {
+    text-align: center; 
+    font-size: 22px; 
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 500; 
+    color: #1b44a8;
+}
+
 #popover-name-section .blank-flag {
     grid-area: flag;
 
