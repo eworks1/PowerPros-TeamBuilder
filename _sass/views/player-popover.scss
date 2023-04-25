@@ -63,21 +63,26 @@
 
 #popover-name-section .blank-flag {
     grid-area: flag;
+
     border: red solid 1px;
-    margin: 2px;
-    align-self: center;
-    padding: 4px;
-    aspect-ratio: 2;
-    height: 20px;
-    color: red;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
     background-color: white;
+
+    margin: 2px;
+    padding: 4px;
+    align-self: center;
+    justify-self: center;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     box-sizing: content-box;
-    justify-self: center;
+    aspect-ratio: 2;
+    height: 20px;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: red;
 }
 
 #popover-body .star-point-count {
