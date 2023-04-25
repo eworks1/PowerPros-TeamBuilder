@@ -84,6 +84,11 @@
     justify-self: center;
 }
 
+#popover-body .star-point-count::before {
+    height: 16px;
+    width: 16px;
+}
+
 #popover-body .cost-span {
     padding: 2px 2px 2px 0px;
     width: 100%;
