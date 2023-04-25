@@ -68,6 +68,10 @@
     grid-area: namebox;
 }
 
+#popover-name-section .info-row {
+    border: rgba(0, 0, 0, 0.2) solid 2px;
+}
+
 #popover-name-section .blank-flag {
     grid-area: flag;
 
@@ -115,10 +119,6 @@
 #popover-body .cost-span::before {
     height: 16px;
     width: 16px;
-}
-
-#popover-body .info-row {
-    border: rgba(0, 0, 0, 0.2) solid 2px;
 }
 
 // ---
