@@ -116,6 +116,21 @@
 #popover-body .info-row {
     border: rgba(0, 0, 0, 0.2) solid 2px;
 }
+
+// ---
+
+// if pitcher, hide this on *not* pitching/profile tabs (show it on those tabs)
+#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="pitching"], #popover-tabbar[current-tab="profile"])+#popover-body #popover-pitching-role {
+    display: none;
+}
+
+// if pitcher, hide this on *not* batting/position tabs (show it on those tabs)
+#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="batting"], #popover-tabbar[current-tab="position"])+#popover-body #popover-fielding-positions {
+    display: none;
+}
+
+// ---
+
 // Reusable Styles
 
 #popover-body .info-row {
