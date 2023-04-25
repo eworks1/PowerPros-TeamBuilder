@@ -30,7 +30,7 @@ function updateSelectedPopoverTab(event) {
     }
 
     // Update viewable content
-    let index = Array.prototype.slice.call(event.target.parentElement.children).indexOf(element);
+    let index = Array.prototype.slice.call(event.target.parentElement.children).indexOf(event.target);
     if (index == 0) {
         index = popoverIsPitcher ? 1 : 2;
     }
