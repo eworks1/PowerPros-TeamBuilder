@@ -10,7 +10,7 @@
         {%- endfor -%}
     </div>
 
-    <div id="popover-body">
+    <div id="popover-body" style="border-color: {{ site.data.colors.popover_tabs['Player Abilities'] }};">
         <!-- Stays in all tabs -->
         <div id="popover-name-section">
             {%- assign positions = "SP MR" | split: ' ' -%}
