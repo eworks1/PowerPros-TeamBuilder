@@ -91,3 +91,8 @@
     font-size: 22px;
     justify-self: center;
 }
+
+#popover-body .cost-span::before {
+    height: 16px;
+    width: 16px;
+}
