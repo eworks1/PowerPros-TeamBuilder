@@ -1,6 +1,4 @@
 .player-name-box {
-    cursor: pointer;
-    
     padding: 0px;
     display: flex;
     align-items: center;
@@ -16,7 +14,7 @@
     border-radius: 6px;
 }
 
-table .player-name-box.has-player {
+.player-table .player-name-box.has-player {
     cursor: pointer;
 }
 
