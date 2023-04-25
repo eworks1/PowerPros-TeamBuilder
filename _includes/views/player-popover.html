@@ -16,6 +16,8 @@
             {%- assign positions = "SP MR" | split: ' ' -%}
             {% include components/player-name-box.html id="Test ID" fullName="Test Name" nameAbbr="Test Abbr" positions=positions %}
 
+            <span class="blank-flag">K</span>
+
             <span class="jersey-number"
                 style="grid-area: jerseynumber; background-size: 100%; background-image: url({{ 'assets/img/jersey_background.svg' | relative_url }});">0</span>
 
