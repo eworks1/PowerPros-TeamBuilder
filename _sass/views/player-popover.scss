@@ -101,3 +101,24 @@
     height: 16px;
     width: 16px;
 }
+
+// Reusable Styles
+
+#popover-body .info-row {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    
+    background: linear-gradient(#eef9f9, #e0f3f7);
+}
+
+#popover-body .info-row .label {
+    border-radius: 10px;
+    border: #d7e3f0 solid 1px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #3f78c1;
+}
+
