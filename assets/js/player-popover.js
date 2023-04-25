@@ -22,6 +22,12 @@ function updateSelectedPopoverTab(event) {
 
     // Add .selected class
     event.target.classList.add('selected');
+
+    // Update border color to background color newly-selected tab
+    const popoverBody = document.getElementById('popover-body');
+    if (popoverBody) {
+        popoverBody.style.borderColor = event.target.style.backgroundColor;
+    }
 }
 
 /**
