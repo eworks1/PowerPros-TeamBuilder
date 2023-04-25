@@ -28,7 +28,27 @@ function updateSelectedPopoverTab(event) {
     if (popoverBody) {
         popoverBody.style.borderColor = event.target.style.backgroundColor;
     }
+
+    // Update viewable content
+    let index = Array.prototype.slice.call(event.target.parentElement.children).indexOf(element);
+    if (index == 0) {
+        index = popoverIsPitcher ? 1 : 2;
+    }
+
+    event.target.parentElement.setAttribute('current-tab', popoverTabIDs[index]);
 }
+
+/** Defines whether the first tab should show pitcher or batter data */
+let popoverIsPitcher = false;
+
+/** Popover tab IDs */
+const popoverTabIDs = [
+    "default",
+    "pitching",
+    "batting",
+    "position",
+    "profile"
+];
 
 /**
  * Update all parts of popover
@@ -37,6 +57,20 @@ function updateSelectedPopoverTab(event) {
 function playerDoubleClicked(player) {
     const popover = document.getElementById('popover-wrapper');
     if (!popover) { console.error('Could not find #popover-wrapper.'); return; }
+
+    popoverIsPitcher = isPitcher(player);
+    popover.setAttribute(
+        'primary-pos',
+        popoverIsPitcher ? 'pitcher' : 'fielder'
+    );
+    
+    const tabbar = document.getElementById('popover-tabbar');
+    if (tabbar) {
+        tabbar.setAttribute(
+            'current-tab',
+            popoverTabIDs[popoverIsPitcher ? 1 : 2]
+        );
+    }
 
     popover.classList.remove('hidden');
 }
