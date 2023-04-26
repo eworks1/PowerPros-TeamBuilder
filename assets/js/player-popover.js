@@ -66,10 +66,7 @@ function playerDoubleClicked(player) {
     
     const tabbar = document.getElementById('popover-tabbar');
     if (tabbar) {
-        tabbar.setAttribute(
-            'current-tab',
-            popoverTabIDs[popoverIsPitcher ? 1 : 2]
-        );
+        updateSelectedPopoverTab(tabbar.firstElementChild);
     }
 
     // TODO: update all info
