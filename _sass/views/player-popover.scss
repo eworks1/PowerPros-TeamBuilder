@@ -198,9 +198,17 @@
     font-size: 28px;
 }
 
-#popover-pitching-ratings-section {
-    grid-area: ratings;
+// Ratings Sections
 
+.ratings-section {
+    grid-area: ratings;
+}
+
+.ratings-section .info-row .label {
+    width: 50%;
+}
+
+#popover-pitching-ratings-section {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto 1fr;
