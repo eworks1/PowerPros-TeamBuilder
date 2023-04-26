@@ -74,6 +74,17 @@ function playerDoubleClicked(player) {
 
     // TODO: update all info
 
+    // Update Player Name Box
+    const playerNameBox = popover.querySelector('#popover-name-section .player-name-box');
+    updatePlayerNameBox.apply(
+        playerNameBox,
+        [
+            player.Name,
+            player["Name Abbreviation"],
+            player["Field Position"]
+        ]
+    );
+
     // Show popover once all info is updated
     popover.classList.remove('hidden');
 }
