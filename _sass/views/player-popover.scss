@@ -199,6 +199,20 @@
     font-size: 28px;
 }
 
+#popover-pitching-ratings-section {
+    grid-area: ratings;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    grid-template-areas:
+        "velo"
+        "control"
+        "stamina"
+        "pitches";
+    gap: 4px;
+}
+
 // Reusable Styles
 
 #popover-body .info-row {
