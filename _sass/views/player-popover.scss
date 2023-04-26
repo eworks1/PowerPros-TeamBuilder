@@ -68,10 +68,6 @@
     grid-area: namebox;
 }
 
-#popover-name-section .info-row {
-    border: rgba(0, 0, 0, 0.2) solid 2px;
-}
-
 #popover-name-section .info-row .content {
     text-align: center; 
     font-size: 22px; 
@@ -186,10 +182,6 @@
         "pic handedness";
 }
 
-#popover-form-section .info-row {
-    border: rgba(0, 0, 0, 0.2) solid 2px;
-}
-
 #popover-form-section .info-row .label {
     width: 30%;
 }
@@ -217,6 +209,11 @@
     border-width: 2px;
     
     background: linear-gradient(#eef9f9, #e0f3f7);
+}
+
+#popover-name-section .info-row,
+#popover-form-section .info-row {
+    border-color: rgba(0, 0, 0, 0.2);
 }
 
 #popover-body .info-row .label {
