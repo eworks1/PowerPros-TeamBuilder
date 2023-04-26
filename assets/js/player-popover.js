@@ -8,34 +8,34 @@ function hidePopover(event) {
 }
 
 /**
- * @param {Event} event 
+ * @param {HTMLElement} element 
  */
-function updateSelectedPopoverTab(event) {
+function updateSelectedPopoverTab(element) {
     // If the tab selected was already selected, do nothing.
-    if (event.target.classList.contains('selected')) { return; }
+    if (element.classList.contains('selected')) { return; }
 
     // Find selected element and remove the .selected class
-    const alreadySelectedTab = Array.from(event.target.parentElement.children).find(el => el.classList.contains('selected'));
+    const alreadySelectedTab = Array.from(element.parentElement.children).find(el => el.classList.contains('selected'));
     if (alreadySelectedTab) {
         alreadySelectedTab.classList.remove('selected');
     }
 
     // Add .selected class
-    event.target.classList.add('selected');
+    element.classList.add('selected');
 
     // Update border color to background color newly-selected tab
     const popoverBody = document.getElementById('popover-body');
     if (popoverBody) {
-        popoverBody.style.borderColor = event.target.style.backgroundColor;
+        popoverBody.style.borderColor = element.style.backgroundColor;
     }
 
     // Update viewable content
-    let index = Array.prototype.slice.call(event.target.parentElement.children).indexOf(event.target);
+    let index = Array.prototype.slice.call(element.parentElement.children).indexOf(element);
     if (index == 0) {
         index = popoverIsPitcher ? 1 : 2;
     }
 
-    event.target.parentElement.setAttribute('current-tab', popoverTabIDs[index]);
+    element.parentElement.setAttribute('current-tab', popoverTabIDs[index]);
 }
 
 /** Defines whether the first tab should show pitcher or batter data */
