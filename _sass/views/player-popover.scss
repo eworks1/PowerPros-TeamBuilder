@@ -78,7 +78,6 @@
     font-size: 22px; 
     font-family: 'Roboto', sans-serif; 
     font-weight: 500; 
-    color: #1b44a8;
 }
 
 #popover-name-section .blank-flag {
@@ -252,4 +251,6 @@
 
 #popover-body .info-row .content {
     flex: 1;
+
+    color: #1b44a8;
 }
