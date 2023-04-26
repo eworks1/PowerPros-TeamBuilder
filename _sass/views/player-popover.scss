@@ -104,28 +104,20 @@
     color: red;
 }
 
-#popover-body .star-point-count {
+#popover-body .star-point-count,
+#popover-body .cost-span {
     width: 100%;
 
     font-size: 28px;
     justify-self: center;
     align-self: center;
-}
-
-#popover-body .star-point-count::before {
-    height: 18px;
-    width: 18px;
 }
 
 #popover-body .cost-span {
     padding: 2px 2px 2px 0px;
-    width: 100%;
-
-    font-size: 28px;
-    justify-self: center;
-    align-self: center;
 }
 
+#popover-body .star-point-count::before,
 #popover-body .cost-span::before {
     height: 18px;
     width: 18px;
