@@ -129,43 +129,51 @@
     width: 16px;
 }
 
-// ---
+// --- Tab-Specific Views
 
+// pitchers: pitching role (`positions` grid area)
 // if pitcher, hide this on *not* pitching/profile tabs (show it on those tabs)
 #popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="pitching"], #popover-tabbar[current-tab="profile"])+#popover-body #popover-pitching-role {
     display: none;
 }
 
+// pitchers: fielding positions (`positions` grid area)
 // if pitcher, hide this on *not* batting/position tabs (show it on those tabs)
 #popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="batting"], #popover-tabbar[current-tab="position"])+#popover-body #popover-fielding-positions {
     display: none;
 }
 
+// fielders: pitching role (`positions` grid area)
 // if fielder, hide this only on pitching tab (show it on those tabs)
 #popover-wrapper[primary-pos="fielder"] #popover-tabbar[current-tab="pitching"]+#popover-body #popover-fielding-positions {
     display: none;
 }
 
+// fielders: fielding positions (`positions` grid area)
 // if fielder, hide this on *not* pitching tab (show it on that tab only)
 #popover-wrapper[primary-pos="fielder"] :not(#popover-tabbar[current-tab="pitching"])+#popover-body #popover-pitching-role {
     display: none;
 }
 
+// pitchers: pitching form (`form` grid area)
 // if pitcher, hide this on batting (fielder abilities) tab (show it on other tabs)
 #popover-wrapper[primary-pos="pitcher"] #popover-tabbar[current-tab="batting"]+#popover-body #pitching-form {
     display: none;
 }
 
+// pitchers: batting form (`form` grid area)
 // if pitcher, hide this on *not* batting (fielder abilities) tab (show it on only this tab)
 #popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="batting"])+#popover-body #batting-form {
     display: none;
 }
 
+// fielders: pitching form (`form` grid area)
 // if fielder, hide this on *not* pitching (pitcher abilities) tab (show it on only this tab)
 #popover-wrapper[primary-pos="fielder"] :not(#popover-tabbar[current-tab="pitching"])+#popover-body #pitching-form {
     display: none;
 }
 
+// fielders: batting form (`form` grid area)
 // if fielder, hide this on pitching (pitcher abilities) tab (show it on other tabs)
 #popover-wrapper[primary-pos="fielder"] #popover-tabbar[current-tab="pitching"]+#popover-body #batting-form {
     display: none;
