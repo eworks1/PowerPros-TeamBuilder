@@ -84,6 +84,12 @@ function playerDoubleClicked(player) {
 
     // Pitcher Tab
 
+    // Pitching Chart
+    const pitchingChartObj = document.getElementById('popover-pitching-chart'); {
+        pitchingChartObj.setAttribute('pitches', JSON.stringify(player["Breaking Balls"]));
+        pitchingChartObj.setAttribute('lefty', `${player.Throws == 'L'}`);
+    }
+
     // Show popover once all info is updated
     popover.classList.remove('hidden');
 }
