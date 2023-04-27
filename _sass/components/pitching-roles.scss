@@ -1,0 +1,30 @@
+.pitching-roles {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.pitching-roles .does-not-have-pitching-role {
+    opacity: 0.5;
+}
+
+// Pitching Detail
+
+#pitching-detail-roles-list {
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: -1px;
+}
+
+// #pitching-detail-roles-list span {
+//     margin-left: 2px;
+// }
+
+#pitching-detail-roles-list .has-pitching-role {
+    font-weight: 400;
+}
+
+// Popover Pitching Aptitude
+
+#popover-pitching-role .pitching-roles .does-not-have-pitching-role {
+    font-weight: 400;
+}

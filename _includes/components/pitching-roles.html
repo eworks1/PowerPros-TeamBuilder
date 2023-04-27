@@ -1,0 +1,18 @@
+<span id="{{ include.id }}" class="{{ include.addl_classes }} pitching-roles">
+    {%- assign all_roles = 'SP MR CP' | split: ' ' -%}
+    {%- assign starting = include.starting_roles | split: ' ' -%}
+
+    {%- for role in all_roles -%}
+        {%- if starting | size > 0 -%}
+            {%- assign class = '' -%}
+            {%- if starting contains role -%}
+                {%- assign class = 'has-pitching-role' -%}
+            {%- else -%}
+                {%- assign class = 'does-not-have-pitching-role' -%}
+            {%- endif -%}
+            <span class="{{ class }}" {{ role | downcase }} title="{{ site.data.strings.hover_text.positions[role] }}">{{ role }}</span>
+        {%- else -%}
+            <span {{ role | downcase }} title="{{ site.data.strings.hover_text.positions[role] }}">{{ role }}</span>
+        {%- endif -%}
+    {%- endfor -%}
+</span>

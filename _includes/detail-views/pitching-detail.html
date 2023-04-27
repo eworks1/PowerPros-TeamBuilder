@@ -25,18 +25,8 @@
         {%- assign roles = 'SP MR CP' | split: ' ' -%}
 
         {%- if roles contains primary_position -%}
-            <span id="pitching-detail-roles-list">
-                {%- for role in roles -%}
-                    {%- assign class = '' -%}
-                    {%- if playerPositions contains role -%}
-                        {%- assign class = 'has-pitching-role' -%}
-                    {%- else -%}
-                        {%- assign class = 'does-not-have-pitching-role' -%}
-                    {%- endif -%}
-
-                    <span class="{{ class }}" title="{{ site.data.strings.hover_text.positions[role] }}">{{ role }}</span>
-                {%- endfor -%}
-            </span>
+            {% assign all_positions = include.player["Field Position"] | join: ' ' %}
+            {% include components/pitching-roles.html id='pitching-detail-roles-list' starting_roles=all_positions %}
         {%- else -%}
             <span class="dash-content" title="{{ site.data.strings.hover_text.positions.not_pitcher }}">–––</span>
         {%- endif -%}
