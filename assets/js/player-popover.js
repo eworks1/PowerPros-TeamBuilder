@@ -82,13 +82,123 @@ function playerDoubleClicked(player) {
         ]
     );
 
-    // Pitcher Tab
+    // -- Popover Name Section
+    const popoverNameSection = document.getElementById('popover-name-section');
+    if (popoverNameSection) {
+        // Jersey Number
+        const jerseyNumber = popoverNameSection.querySelector('.jersey-number');
+        if (jerseyNumber) {
+            jerseyNumber.textContent = `${player["Jersey Number"]}`;
+        }
+
+        // Star Points
+        const starPointCount = popoverNameSection.querySelector('.star-point-count');
+        if (starPointCount) {
+            starPointCount.textContent = `${player["Star Point"]}`;
+        }
+
+        // Cost Span
+        const costSpan = popoverNameSection.querySelector('.cost-span');
+        if (costSpan) {
+            costSpan.textContent = `${player["Point Cost"]}`;
+        }
+
+        // Pitching Aptitude (Pitching Tabs)
+        const pitchingApt = popoverNameSection.querySelector('#popover-pitching-role .pitching-roles');
+        if (pitchingApt) {
+            const primary_position = getPrimaryPosition(player);
+            if (isPitcher(primary_position)) {
+                pitchingApt.style.removeProperty('display');
+                pitchingApt.nextElementSibling.classList.add('hidden');
+
+                ['SP', 'MR', 'CP'].forEach(role => {
+                    const span = pitchingRoleBox.querySelector(`[${role.toLowerCase()}]`);
+                    if (span) {
+                        if (player["Field Position"].includes(role)) {
+                            span.classList.add('has-pitching-role');
+                            span.classList.remove('does-not-have-pitching-role');
+                        } else {
+                            span.classList.remove('has-pitching-role');
+                            span.classList.add('does-not-have-pitching-role');
+                        }
+                    }
+                });
+            } else {
+                pitchingApt.style.display = 'none';
+                pitchingApt.nextElementSibling.classList.remove('hidden');
+            }
+        }
+
+        // Field Positions (Fielding Tabs)
+        const fieldPositionsSpan = popoverNameSection.querySelector('#popover-fielding-positions .content');
+        if (fieldPositionsSpan) {
+            fieldPositionsSpan.textContent = player["Field Position"].join(' ');
+        }
+    }
+
+    // -- Popover Form Section
+    const popoverFormSection = document.getElementById('popover-name-section');
+    if (popoverFormSection) {
+        // Picture
+        const pfpImg = popoverFormSection.querySelector('.info-row[pfp] img');
+        if (pfpImg) {
+            const shortenedName = player.Name.split(' ').slice(-1);
+            pfpImg.setAttribute('src', `https://www.mlbppworld.com/wiki/images/Pfp_${shortenedName}.jpg`);
+        }
+
+        // Pitching Form (Pitching Tabs)
+        const pitchingForm = popoverFormSection.querySelector('.info-row #pitching-form.content');
+        if (pitchingForm) {
+            pitchingForm.textContent = player["Pitching Form"];
+        }
+
+        // Batting Form (Fielding Tabs)
+        const battingForm = popoverFormSection.querySelector('.info-row #batting-form.content');
+        if (battingForm) {
+            battingForm.textContent = player["Batting Form"];
+        }
+
+        // Handedness
+        const handedness = popoverFormSection.querySelector('.info-row[handedness] .content');
+        if (handedness) {
+            handedness.textContent = `Throws ${player.Throws}, Bats ${player.Bats}`;
+        }
+    }
+
+    // -- Pitching Ratings
+    const popoverPitchingRatingsSection = document.getElementById('popover-pitching-ratings-section');
+    if (popoverPitchingRatingsSection) {
+        // Pitch Velo
+        const pitchVelo = popoverPitchingRatingsSection.querySelector('.info-row .pitch-speed');
+        if (pitchVelo) {
+            pitchVelo.textContent = `${player["Top Speed"]}`;
+        }
+
+        // Control
+        const controlSvgText = popoverPitchingRatingsSection.querySelector('.info-row[control] .content .letter-rating text');
+        const controlNumberSpan = popoverPitchingRatingsSection.querySelector('.info-row[control] .content:last-child');
+        if (controlSvgText && controlNumberSpan) {
+            controlSvgText.textContent = getLetterRatingFromNumber(player.Control);
+            controlNumberSpan.textContent = `${player.Control}`
+        }
+
+        // Stamina
+        const staminaSvgText = popoverPitchingRatingsSection.querySelector('.info-row[stamina] .content .letter-rating text');
+        const staminaNumberSpan = popoverPitchingRatingsSection.querySelector('.info-row[stamina] .content:last-child');
+        if (staminaSvgText && staminaNumberSpan) {
+            staminaSvgText.textContent = getLetterRatingFromNumber(player.Stamina);
+            staminaNumberSpan.textContent = `${player.Stamina}`
+        }
+    }
+    
 
     // Pitching Chart
     const pitchingChartObj = document.getElementById('popover-pitching-chart'); {
         pitchingChartObj.setAttribute('pitches', JSON.stringify(player["Breaking Balls"]));
         pitchingChartObj.setAttribute('lefty', `${player.Throws == 'L'}`);
     }
+
+    // -- Batting Ratings
 
     // Show popover once all info is updated
     popover.classList.remove('hidden');
