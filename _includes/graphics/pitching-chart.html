@@ -1,6 +1,6 @@
 <object id="{{ include.id_prefix }}-pitching-chart" data="{{ 'assets/img/pitching_chart.svg' | relative_url }}" type="image/svg+xml"></object>
 <script>
-    const object = document.getElementById('pitching-chart');
+    const object = document.getElementById('{{ include.id_prefix }}-pitching-chart');
     object.setAttribute('pitches', JSON.stringify({{ include.pitches | jsonify }}));
     object.setAttribute('lefty', "{{ include.handedness == 'L' }}");
 
