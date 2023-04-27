@@ -208,6 +208,13 @@
     width: 50%;
 }
 
+.ratings-section .info-row .content {
+    margin-top: -4px;
+
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 32px;
+}
+
 #popover-pitching-ratings-section {
     display: grid;
     grid-template-columns: 1fr;
