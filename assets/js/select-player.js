@@ -181,49 +181,26 @@ function playerClicked(player) {
     // Pitching Role List (Pitching Detail)
     const pitchingRoleBox = document.getElementById('pitching-detail-roles-box');
     if (pitchingRoleBox) {
-        pitchingRoleBox.innerHTML = '';
-
-        const label = document.createElement('span');
-        label.classList.add('info-label');
-        label.textContent = 'APT';
-        pitchingRoleBox.appendChild(label);
-
-        const roles = ['SP', 'MR', 'CP'];
-
         const primary_position = getPrimaryPosition(player);
         if (isPitcher(primary_position)) {
-            const list = document.createElement('span');
-            list.id = 'pitching-detail-roles-list';
-            pitchingRoleBox.appendChild(list);
-            
-            roles.forEach(role => {
-                let className = '';
-                if (player["Field Position"].includes(role)) {
-                    className = 'has-pitching-role';
-                } else {
-                    className = 'does-not-have-pitching-role';
+            pitchingApt.classList.remove('hidden');
+            pitchingApt.nextElementSibling.classList.add('hidden');
+
+            ['SP', 'MR', 'CP'].forEach(role => {
+                const span = pitchingRoleBox.querySelector(`[${role.toLowerCase()}]`);
+                if (span) {
+                    if (player["Field Position"].includes(role)) {
+                        span.classList.add('has-pitching-role');
+                        span.classList.remove('does-not-have-pitching-role');
+                    } else {
+                        span.classList.remove('has-pitching-role');
+                        span.classList.add('does-not-have-pitching-role');
+                    }
                 }
-
-                const newRole = document.createElement('span');
-                newRole.classList.add(className);
-                newRole.innerText = role;
-
-                newRole.setAttribute(
-                    'title',
-                    all_strings.hover_text.positions[role]
-                );
-
-                list.appendChild(newRole);
             });
         } else {
-            const newRole = document.createElement('span');
-            newRole.innerText = '–––';
-            newRole.setAttribute(
-                'title',
-                all_strings.hover_text.positions.not_pitcher
-            );
-            newRole.classList.add('dash-content');
-            pitchingRoleBox.appendChild(newRole);
+            pitchingRoleBox.classList.add('hidden');
+            pitchingRoleBox.nextElementSibling.classList.remove('hidden');
         }
     }
 
