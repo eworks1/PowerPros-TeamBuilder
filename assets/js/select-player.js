@@ -179,15 +179,15 @@ function playerClicked(player) {
     });
 
     // Pitching Role List (Pitching Detail)
-    const pitchingRoleBox = document.getElementById('pitching-detail-roles-box');
-    if (pitchingRoleBox) {
+    const pitchingRoles = document.querySelector('#pitching-detail-roles-box .pitching-roles');
+    if (pitchingRoles) {
         const primary_position = getPrimaryPosition(player);
         if (isPitcher(primary_position)) {
-            pitchingRoleBox.classList.replace('pitching-roles', 'hidden');
-            pitchingRoleBox.nextElementSibling.classList.add('hidden');
+            pitchingRoles.classList.replace('pitching-roles', 'hidden');
+            pitchingRoles.nextElementSibling.classList.add('hidden');
 
             ['SP', 'MR', 'CP'].forEach(role => {
-                const span = pitchingRoleBox.querySelector(`[${role.toLowerCase()}]`);
+                const span = pitchingRoles.querySelector(`[${role.toLowerCase()}]`);
                 if (span) {
                     if (player["Field Position"].includes(role)) {
                         span.classList.add('has-pitching-role');
@@ -199,8 +199,8 @@ function playerClicked(player) {
                 }
             });
         } else {
-            pitchingRoleBox.classList.replace('hidden', 'pitching-roles');
-            pitchingRoleBox.nextElementSibling.classList.remove('hidden');
+            pitchingRoles.classList.replace('hidden', 'pitching-roles');
+            pitchingRoles.nextElementSibling.classList.remove('hidden');
         }
     }
 

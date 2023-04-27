@@ -24,7 +24,7 @@
         {%- assign primary_position = include.player["Field Position"] | first -%}
 
         {%- assign all_positions = include.player["Field Position"] | join: ' ' -%}
-        {% include components/pitching-roles.html id='pitching-detail-roles-list' addl_classes='' all_positions=all_positions %}
+        {% include components/pitching-roles.html addl_classes='' all_positions=all_positions %}
         </span>
     </span>
 
