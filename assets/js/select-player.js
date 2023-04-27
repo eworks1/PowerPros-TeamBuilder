@@ -183,8 +183,8 @@ function playerClicked(player) {
     if (pitchingRoleBox) {
         const primary_position = getPrimaryPosition(player);
         if (isPitcher(primary_position)) {
-            pitchingApt.classList.remove('hidden');
-            pitchingApt.nextElementSibling.classList.add('hidden');
+            pitchingRoleBox.classList.replace('pitching-roles', 'hidden');
+            pitchingRoleBox.nextElementSibling.classList.add('hidden');
 
             ['SP', 'MR', 'CP'].forEach(role => {
                 const span = pitchingRoleBox.querySelector(`[${role.toLowerCase()}]`);
@@ -199,7 +199,7 @@ function playerClicked(player) {
                 }
             });
         } else {
-            pitchingRoleBox.classList.add('hidden');
+            pitchingRoleBox.classList.replace('hidden', 'pitching-roles');
             pitchingRoleBox.nextElementSibling.classList.remove('hidden');
         }
     }
