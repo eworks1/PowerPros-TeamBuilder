@@ -21,4 +21,4 @@
         <span class="{{ class }}" {{ role | downcase }} title="{{ site.data.strings.hover_text.positions[role] }}">{{ role }}</span>
     {%- endfor -%}
 </span>
-<span class="dash-content {{ include.addl_classes }} {{ roles_hidden_class }}" title="{{ site.data.strings.hover_text.positions.not_pitcher }}">–––</span>
+<span class="dash-content {{ include.addl_classes }} {{ dashes_hidden_class }}" title="{{ site.data.strings.hover_text.positions.not_pitcher }}">–––</span>
