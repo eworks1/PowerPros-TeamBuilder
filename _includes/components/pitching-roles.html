@@ -1,18 +1,24 @@
-<span id="{{ include.id }}" class="{{ include.addl_classes }} pitching-roles">
-    {%- assign all_roles = 'SP MR CP' | split: ' ' -%}
-    {%- assign starting = include.starting_roles | split: ' ' -%}
+{%- assign all_roles = 'SP MR CP' | split: ' ' -%}
+{%- assign all_positions = include.all_positions | split: ' ' -%}
+{%- assign primary = all_positions | first -%}
 
+{%- assign roles_hidden_class = '' -%}
+{%- assign dashes_hidden_class = '' -%}
+{%- if all_roles contains primary -%}
+    {%- assign dashes_hidden_class = 'hidden' -%}
+{%- else -%}
+    {%- assign roles_hidden_class = 'hidden' -%}
+{%- endif -%}
+
+<span id="{{ include.id }}" class="{{ include.addl_classes }} pitching-roles {{ roles_hidden_class }}">
     {%- for role in all_roles -%}
-        {%- if starting | size > 0 -%}
-            {%- assign class = '' -%}
-            {%- if starting contains role -%}
-                {%- assign class = 'has-pitching-role' -%}
-            {%- else -%}
-                {%- assign class = 'does-not-have-pitching-role' -%}
-            {%- endif -%}
-            <span class="{{ class }}" {{ role | downcase }} title="{{ site.data.strings.hover_text.positions[role] }}">{{ role }}</span>
+        {%- assign class = '' -%}
+        {%- if all_positions contains role -%}
+            {%- assign class = 'has-pitching-role' -%}
         {%- else -%}
-            <span {{ role | downcase }} title="{{ site.data.strings.hover_text.positions[role] }}">{{ role }}</span>
+            {%- assign class = 'does-not-have-pitching-role' -%}
         {%- endif -%}
+        <span class="{{ class }}" {{ role | downcase }} title="{{ site.data.strings.hover_text.positions[role] }}">{{ role }}</span>
     {%- endfor -%}
 </span>
+<span class="dash-content {{ include.addl_classes }} roles_hidden_class" title="{{ site.data.strings.hover_text.positions.not_pitcher }}">–––</span>
