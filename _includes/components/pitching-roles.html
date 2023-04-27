@@ -2,15 +2,15 @@
 {%- assign all_positions = include.all_positions | split: ' ' -%}
 {%- assign primary = all_positions | first -%}
 
-{%- assign roles_hidden_class = '' -%}
+{%- assign roles_hidden_style = '' -%}
 {%- assign dashes_hidden_class = '' -%}
 {%- if all_roles contains primary -%}
     {%- assign dashes_hidden_class = 'hidden' -%}
 {%- else -%}
-    {%- assign roles_hidden_class = 'hidden' -%}
+    {%- assign roles_hidden_style = 'display: none;' -%}
 {%- endif -%}
 
-<span class="{{ include.addl_classes }} pitching-roles {{ roles_hidden_class }}">
+<span class="{{ include.addl_classes }} pitching-roles" style="{{ roles_hidden_style }}">
     {%- for role in all_roles -%}
         {%- assign class = '' -%}
         {%- if all_positions contains role -%}
