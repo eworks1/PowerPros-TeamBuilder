@@ -19,7 +19,7 @@
     
     <span class="star-point-count" style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
 
-    <span class="jersey-number" title="{{ site.data.strings.hover_text.jersey_number }}" style="grid-area: jerseynumber; background-size: 100%; background-image: url({{ 'assets/img/jersey_background.svg' | relative_url }});">{{ include.player["Jersey Number"] | default: "" }}</span>
+    <span class="jersey-number" title="{{ site.data.strings.hover_text.jersey_number }}" style="grid-area: jerseynumber;">{{ include.player["Jersey Number"] | default: "" }}</span>
 
     <span class="info-box handedness" style="grid-area: handedness;">Throws {{ include.player["Throws"] }}, Bats {{ include.player["Bats"] }}</span>
 

@@ -97,6 +97,9 @@ body {
 }
 
 .jersey-number {
+    background-size: 100%;
+    background-image: url(assets/img/jersey_background.svg);
+
     color: $group-box-border-color;
 }
 
