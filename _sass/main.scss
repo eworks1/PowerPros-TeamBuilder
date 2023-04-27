@@ -99,3 +99,7 @@ body {
 .jersey-number {
     color: $group-box-border-color;
 }
+
+.pitch-speed::after {
+    content: "km/h";
+}
