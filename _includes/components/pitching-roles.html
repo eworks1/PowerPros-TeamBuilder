@@ -10,7 +10,7 @@
     {%- assign roles_hidden_class = 'hidden' -%}
 {%- endif -%}
 
-<span id="{{ include.id }}" class="{{ include.addl_classes }} pitching-roles {{ roles_hidden_class }}">
+<span class="{{ include.addl_classes }} pitching-roles {{ roles_hidden_class }}">
     {%- for role in all_roles -%}
         {%- assign class = '' -%}
         {%- if all_positions contains role -%}
