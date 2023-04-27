@@ -82,6 +82,8 @@ function playerDoubleClicked(player) {
         ]
     );
 
+    // Pitcher Tab
+
     // Show popover once all info is updated
     popover.classList.remove('hidden');
 }
