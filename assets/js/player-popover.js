@@ -187,24 +187,14 @@ function playerDoubleClicked(player) {
             '.info-row[control] .content:last-child',
             player.Control
         );
-        // const controlSvgText = popoverPitchingRatingsSection.querySelector('.info-row[control] .content .letter-rating text');
-        // const controlNumberSpan = popoverPitchingRatingsSection.querySelector('.info-row[control] .content:last-child');
-        // if (controlSvgText && controlNumberSpan) {
-        //     const rating = getLetterRatingFromNumber(player.Control);
-        //     controlSvgText.setAttribute('rating', rating);
-        //     controlSvgText.textContent = rating;
-        //     controlNumberSpan.textContent = `${player.Control}`
-        // }
 
         // Stamina
-        const staminaSvgText = popoverPitchingRatingsSection.querySelector('.info-row[stamina] .content .letter-rating text');
-        const staminaNumberSpan = popoverPitchingRatingsSection.querySelector('.info-row[stamina] .content:last-child');
-        if (staminaSvgText && staminaNumberSpan) {
-            const rating = getLetterRatingFromNumber(player.Stamina);
-            staminaSvgText.setAttribute('rating', rating);
-            staminaSvgText.textContent = rating;
-            staminaNumberSpan.textContent = `${player.Stamina}`
-        }
+        updatePopoverLetterRating(
+            popoverPitchingRatingsSection,
+            '.info-row[stamina] .content .letter-rating text',
+            '.info-row[stamina] .content:last-child',
+            player.Stamina
+        );
     }
 
     // Pitching Chart
