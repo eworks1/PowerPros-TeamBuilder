@@ -1,3 +1,5 @@
+// Wrapper and first-level internal div
+
 #popover-wrapper {
     position: absolute;
     inset: 0px;
@@ -10,12 +12,16 @@
     margin-top: 80px;
 }
 
+// Tab Bar
+
 #popover-tabbar {
     display: flex;
     justify-content: space-between;
     gap: 4px;
     padding: 0 20px;
 }
+
+// Tab Bar Tabs
 
 #popover-tabbar span {
     cursor: pointer;
@@ -36,6 +42,8 @@
     filter: brightness(60%);
 }
 
+// Body
+
 #popover-body {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -53,6 +61,8 @@
     border-style: solid;
 }
 
+// Name Section
+
 #popover-name-section {
     grid-area: namedetail;
 
@@ -66,13 +76,19 @@
     gap: 2px 6px;
 }
 
+// Player Name Box inside Name Section
+
 #popover-name-section .player-name-box {
     grid-area: namebox;
 }
 
+// Info Rows inside Name Section
+
 #popover-name-section .info-row {
     margin: 18px 0px;
 }
+
+// Info Row Content inside Name Section
 
 #popover-name-section .info-row .content {
     text-align: center; 
@@ -80,6 +96,8 @@
     font-family: 'Roboto', sans-serif; 
     font-weight: 500; 
 }
+
+// Blank Flag (inside Name Section)
 
 #popover-name-section .blank-flag {
     grid-area: flag;
@@ -105,6 +123,8 @@
     color: red;
 }
 
+// Star Point Count and Cost Span inside Popover
+
 #popover-body .star-point-count,
 #popover-body .cost-span {
     width: 100%;
@@ -114,9 +134,13 @@
     align-self: center;
 }
 
+// Cost Span inside Popover
+
 #popover-body .cost-span {
     padding: 2px 2px 2px 0px;
 }
+
+// Star Point Count's and Cost Span's icon inside Popover
 
 #popover-body .star-point-count::before,
 #popover-body .cost-span::before {
@@ -125,6 +149,7 @@
 }
 
 
+// Form Section
 
 #popover-form-section {
     grid-area: formandpic;
@@ -138,9 +163,13 @@
     gap: 8px;
 }
 
+// Info Row Label inside Form Section
+
 #popover-form-section .info-row .label {
     width: 30%;
 }
+
+// Info Row Content inside Form Section
 
 #popover-form-section .info-row .content {
     text-align: center;
@@ -166,6 +195,8 @@
     font-size: 32px;
 }
 
+// Pitching Ratings Section
+
 #popover-pitching-ratings-section {
     display: grid;
     grid-template-columns: 1fr;
@@ -178,10 +209,14 @@
     gap: 4px;
 }
 
+// Popover's Pitching Chart
+
 #popover-pitching-chart {
     width: 95%;
     margin: 0px auto;
 }
+
+// Popover's Signature Pitch Text
 
 #popover-signature-pitch {
     font-size: 24px;
@@ -190,7 +225,9 @@
     margin-top: 0;
 }
 
-// Reusable Styles
+// -- Reusable Styles
+
+// Info Rows inside Popover Body
 
 #popover-body .info-row {
     display: flex;
@@ -207,14 +244,19 @@
     background: linear-gradient(#eef9f9, #e0f3f7);
 }
 
+// Info Rows inside Name and Form Sections
+
 #popover-name-section .info-row,
 #popover-form-section .info-row {
     border-color: rgba(0, 0, 0, 0.2);
 }
 
+// Info Row Labels inside Popover Body
+
 #popover-body .info-row .label {
     height: fit-content;
     padding: 4px 8px;
+    // set constant width?
 
     border-radius: 10px;
     border: #d7e3f0 solid 1px;
@@ -227,6 +269,8 @@
     background: linear-gradient(#fafdff, #e9eced);
 }
 
+// Info Row Content inside Popover Body
+
 #popover-body .info-row .content {
     flex: 1;
 
@@ -234,10 +278,14 @@
     color: #1b44a8;
 }
 
+// Letter Ratings inside Info Rows inside Popover Body
+
 #popover-body .info-row .letter-rating {
     height: 32px;
     margin-bottom: -4px;
 }
+
+// Pitch Speed Text Suffix inside Popover Body
 
 #popover-body .pitch-speed::after {
     font-size: 20px;
