@@ -214,6 +214,61 @@ function playerDoubleClicked(player) {
     }
 
     // -- Batting Ratings
+    const popoverBattingRatingsSection = document.getElementById('popover-batting-ratings-section');
+    if (popoverBattingRatingsSection) {
+        // Trajectory
+        const trjText = popoverBattingRatingsSection.querySelector('.info-row[trj] .content:last-child');
+        const trjPath = popoverBattingRatingsSection.querySelector('.info-row[trj] path[trj]');
+        if (trjText && trjPath) {
+            trjText.textContent = player.Trajectory;
+            trjPath.setAttribute(
+                'trj',
+                `${player.Trajectory}`
+            );
+        }
+
+        // Hit
+        updatePopoverLetterRating(
+            popoverBattingRatingsSection,
+            'hit',
+            player.Control
+        );
+
+        // Power
+        updatePopoverLetterRating(
+            popoverPitchingRatingsSection,
+            'power',
+            player.Power
+        );
+
+        // Speed
+        updatePopoverLetterRating(
+            popoverPitchingRatingsSection,
+            'speed',
+            player["Run Speed"]
+        );
+
+        // Strength
+        updatePopoverLetterRating(
+            popoverPitchingRatingsSection,
+            'strength',
+            player["Arm Strength"]
+        );
+
+        // Fielding
+        updatePopoverLetterRating(
+            popoverPitchingRatingsSection,
+            'fielding',
+            player.Fielding
+        );
+
+        // Catching
+        updatePopoverLetterRating(
+            popoverPitchingRatingsSection,
+            'catching',
+            player["Error Resistance"]
+        );
+    }
 
     // Show popover once all info is updated
     popover.classList.remove('hidden');
