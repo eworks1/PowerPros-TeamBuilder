@@ -132,7 +132,13 @@ function playerDoubleClicked(player) {
         // Field Positions (Fielding Tabs)
         const fieldPositionsSpan = popoverNameSection.querySelector('#popover-fielding-positions .content');
         if (fieldPositionsSpan) {
-            fieldPositionsSpan.textContent = player["Field Position"].join(' ');
+            let positions = player["Field Position"];
+            if (positions.some(pos => ['SP', 'MR', 'CP'].includes(pos))) {
+                positions[positions.indexOf(pos => ['SP', 'MR', 'CP'].includes(pos))] = 'P';
+                positions = positions
+                    .filter(pos => !['SP', 'MR', 'CP'].includes(pos));
+            }
+            fieldPositionsSpan.textContent = positions.join(' ');
         }
     }
 
