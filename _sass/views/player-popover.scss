@@ -240,6 +240,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
+    gap: 4px;
 }
 
 // Position Ratings Grid
