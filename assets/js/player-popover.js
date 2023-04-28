@@ -134,7 +134,7 @@ function playerDoubleClicked(player) {
         if (fieldPositionsSpan) {
             let positions = player["Field Position"];
             if (positions.some(pos => ['SP', 'MR', 'CP'].includes(pos))) {
-                positions[positions.indexOf(pos => ['SP', 'MR', 'CP'].includes(pos))] = 'P';
+                positions[positions.findIndex(pos => ['SP', 'MR', 'CP'].includes(pos))] = 'P';
                 positions = positions
                     .filter(pos => !['SP', 'MR', 'CP'].includes(pos));
             }
