@@ -3,7 +3,13 @@
     {%- assign objName = include.id_prefix | append: 'PitchingChartObj' -%}
     const {{ objName }} = document.getElementById('{{ include.id_prefix }}-pitching-chart');
     {{ objName }}.setAttribute('pitches', JSON.stringify({{ include.pitches | jsonify }}));
-    {{ objName }}.setAttribute('lefty', "{{ include.handedness == 'L' }}");
+    {%- assign lefty = '' -%}
+    {%- if include.handedness == 'L' -%}
+        {%- assign lefty = 'true' -%}
+    {%- else -%}
+        {%- assign lefty = 'false' -%}
+    {%- endif -%}
+    {{ objName }}.setAttribute('lefty', "{{ lefty }}");
 
     {{ objName }}.addEventListener('load', (ev) => {
         updatePitchChart.apply(
