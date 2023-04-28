@@ -236,35 +236,35 @@ function playerDoubleClicked(player) {
 
         // Power
         updatePopoverLetterRating(
-            popoverPitchingRatingsSection,
+            popoverBattingRatingsSection,
             'power',
             player.Power
         );
 
         // Speed
         updatePopoverLetterRating(
-            popoverPitchingRatingsSection,
+            popoverBattingRatingsSection,
             'speed',
             player["Run Speed"]
         );
 
         // Strength
         updatePopoverLetterRating(
-            popoverPitchingRatingsSection,
+            popoverBattingRatingsSection,
             'strength',
             player["Arm Strength"]
         );
 
         // Fielding
         updatePopoverLetterRating(
-            popoverPitchingRatingsSection,
+            popoverBattingRatingsSection,
             'fielding',
             player.Fielding
         );
 
         // Catching
         updatePopoverLetterRating(
-            popoverPitchingRatingsSection,
+            popoverBattingRatingsSection,
             'catching',
             player["Error Resistance"]
         );
