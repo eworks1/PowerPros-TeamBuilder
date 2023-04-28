@@ -57,3 +57,16 @@
 #popover-wrapper[primary-pos="fielder"] #popover-tabbar[current-tab="pitching"]+#popover-body #batting-form {
     display: none;
 }
+
+// -- Pitching Ratings Section (velo, control, stamina, pitching chart
+// Only show on pitching tabs (or general tabs if they're a pitcher)
+
+// if pitcher, hide this on *not* pitching/profile tabs (show it on those tabs)
+#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="pitching"], #popover-tabbar[current-tab="profile"])+#popover-body #popover-pitching-ratings-section {
+    display: none;
+}
+
+// if fielder, hide this on *not* pitching tab (show it on that tab only)
+#popover-wrapper[primary-pos="fielder"] :not(#popover-tabbar[current-tab="pitching"])+#popover-body #popover-pitching-ratings-section {
+    display: none;
+}
