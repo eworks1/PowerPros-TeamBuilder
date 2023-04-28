@@ -59,7 +59,7 @@
 }
 
 // -- Pitching Ratings Section (velo, control, stamina, pitching chart
-// Only show on pitching tabs (or general tabs if they're a pitcher)
+// Only show on pitching tab (or general tabs if they're a pitcher)
 
 // if pitcher, hide this on *not* pitching/profile tabs (show it on those tabs)
 #popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="pitching"], #popover-tabbar[current-tab="profile"])+#popover-body #popover-pitching-ratings-section {
