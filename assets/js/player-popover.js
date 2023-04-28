@@ -208,6 +208,17 @@ function playerDoubleClicked(player) {
         pitchingChartObj.setAttribute('lefty', `${player.Throws == 'L'}`);
     }
 
+    // Signature Pitch
+    const signaturePitch = player["Breaking Balls"].find(p => p.id.includes('SP'));
+    const signaturePitchSpan = document.getElementById('popover-signature-pitch');
+    if (signaturePitchSpan) {
+        if (signaturePitch) {
+            signaturePitchSpan.textContent = signaturePitch.id;
+        } else {
+            signaturePitchSpan.textContent = '';
+        }
+    }
+
     // -- Batting Ratings
 
     // Show popover once all info is updated
