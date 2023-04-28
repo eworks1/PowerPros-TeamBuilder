@@ -224,3 +224,25 @@ function playerDoubleClicked(player) {
     // Show popover once all info is updated
     popover.classList.remove('hidden');
 }
+
+/**
+ * @param {HTMLElement} parentElement
+ * @param {string} svgTextSelector 
+ * @param {string} numberSpanSelector 
+ * @param {number} ratingValue 
+ */
+function updatePopoverLetterRating(parentElement, svgTextSelector, numberSpanSelector, ratingValue) {
+    const rating = getLetterRatingFromNumber(ratingValue);
+
+    const svgText = parentElement.querySelector(svgTextSelector);
+    if (svgText) {
+        svgText.setAttribute('rating', rating);
+        svgText.textContent = rating;
+        svgText.previousElementSibling.textContent = `${ratingValue}`;
+    }
+
+    const numberSpan = parentElement.querySelector(numberSpanSelector);
+    if (numberSpan) {
+        numberSpan.textContent = `${ratingValue}`;
+    }
+}
