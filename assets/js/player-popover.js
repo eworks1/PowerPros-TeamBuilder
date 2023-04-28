@@ -104,7 +104,7 @@ function playerDoubleClicked(player) {
         }
 
         // Pitching Aptitude (Pitching Tabs)
-        const pitchingApt = popoverNameSection.querySelector('#popover-pitching-role .pitching-roles');
+        const pitchingApt = popoverNameSection.querySelector('#popover-pitching-roles .pitching-roles');
         if (pitchingApt) {
             const primary_position = getPrimaryPosition(player);
             if (isPitcher(primary_position)) {
