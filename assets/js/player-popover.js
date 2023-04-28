@@ -181,14 +181,20 @@ function playerDoubleClicked(player) {
         }
 
         // Control
-        const controlSvgText = popoverPitchingRatingsSection.querySelector('.info-row[control] .content .letter-rating text');
-        const controlNumberSpan = popoverPitchingRatingsSection.querySelector('.info-row[control] .content:last-child');
-        if (controlSvgText && controlNumberSpan) {
-            const rating = getLetterRatingFromNumber(player.Control);
-            controlSvgText.setAttribute('rating', rating);
-            controlSvgText.textContent = rating;
-            controlNumberSpan.textContent = `${player.Control}`
-        }
+        updatePopoverLetterRating(
+            popoverPitchingRatingsSection,
+            '.info-row[control] .content .letter-rating text',
+            '.info-row[control] .content:last-child',
+            player.Control
+        );
+        // const controlSvgText = popoverPitchingRatingsSection.querySelector('.info-row[control] .content .letter-rating text');
+        // const controlNumberSpan = popoverPitchingRatingsSection.querySelector('.info-row[control] .content:last-child');
+        // if (controlSvgText && controlNumberSpan) {
+        //     const rating = getLetterRatingFromNumber(player.Control);
+        //     controlSvgText.setAttribute('rating', rating);
+        //     controlSvgText.textContent = rating;
+        //     controlNumberSpan.textContent = `${player.Control}`
+        // }
 
         // Stamina
         const staminaSvgText = popoverPitchingRatingsSection.querySelector('.info-row[stamina] .content .letter-rating text');
