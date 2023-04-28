@@ -234,6 +234,28 @@
     gap: 4px;
 }
 
+// Positions Ratings Section
+
+#popover-positions-ratings-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+}
+
+// Position Ratings Grid inside Positions Ratings Section
+
+#position-ratings-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-flow: row;
+}
+
+#position-ratings-grid .pos-label {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
 // -- Reusable Styles
 
 // Info Rows inside Popover Body
