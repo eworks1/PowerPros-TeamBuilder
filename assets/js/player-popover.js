@@ -183,16 +183,14 @@ function playerDoubleClicked(player) {
         // Control
         updatePopoverLetterRating(
             popoverPitchingRatingsSection,
-            '.info-row[control] .content .letter-rating text',
-            '.info-row[control] .content:last-child',
+            'control',
             player.Control
         );
 
         // Stamina
         updatePopoverLetterRating(
             popoverPitchingRatingsSection,
-            '.info-row[stamina] .content .letter-rating text',
-            '.info-row[stamina] .content:last-child',
+            'stamina',
             player.Stamina
         );
     }
@@ -223,21 +221,20 @@ function playerDoubleClicked(player) {
 
 /**
  * @param {HTMLElement} parentElement
- * @param {string} svgTextSelector 
- * @param {string} numberSpanSelector 
+ * @param {string} selectorAttr 
  * @param {number} ratingValue 
  */
-function updatePopoverLetterRating(parentElement, svgTextSelector, numberSpanSelector, ratingValue) {
+function updatePopoverLetterRating(parentElement, selectorAttr, ratingValue) {
     const rating = getLetterRatingFromNumber(ratingValue);
 
-    const svgText = parentElement.querySelector(svgTextSelector);
+    const svgText = parentElement.querySelector(`.info-row[${selectorAttr}] .content .letter-rating text`);
     if (svgText) {
         svgText.setAttribute('rating', rating);
         svgText.textContent = rating;
         svgText.previousElementSibling.textContent = `${ratingValue}`;
     }
 
-    const numberSpan = parentElement.querySelector(numberSpanSelector);
+    const numberSpan = parentElement.querySelector(`.info-row[${selectorAttr}] .content:last-child`);
     if (numberSpan) {
         numberSpan.textContent = `${ratingValue}`;
     }
