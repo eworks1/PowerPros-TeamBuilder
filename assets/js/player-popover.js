@@ -148,7 +148,7 @@ function playerDoubleClicked(player) {
         // Picture
         const pfpImg = popoverFormSection.querySelector('.info-row[pfp] img');
         if (pfpImg) {
-            const shortenedName = player.Name.split(' ').slice(-1);
+            const shortenedName = player["Name Abbreviation"].split('.').slice(-1);
             pfpImg.setAttribute('src', `https://www.mlbppworld.com/wiki/images/Pfp_${shortenedName}.jpg`);
         }
 
