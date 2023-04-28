@@ -251,9 +251,26 @@
     grid-auto-flow: row;
 }
 
+// Info Row Labels inside the Position Ratings Section
+
+#popover-positions-ratings-section .info-row .label {
+    width: calc(50% - 5px);
+}
+
+// Position Labels inside Position Ratings Grid
+
 #position-ratings-grid .pos-label {
+    width: 30px;
+
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
     text-align: center;
+}
+
+#position-ratings-grid .pos-label .position-ratings-item {
+    display: flex;
+    align-items: center;
 }
 
 // -- Reusable Styles
