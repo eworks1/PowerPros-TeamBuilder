@@ -70,3 +70,16 @@
 #popover-wrapper[primary-pos="fielder"] :not(#popover-tabbar[current-tab="pitching"])+#popover-body #popover-pitching-ratings-section {
     display: none;
 }
+
+// -- Batting Ratings Section
+// Only show on batting tab
+
+// if pitcher, hide this on *not* batting tab (only show it on that tab)
+#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="batting"])+#popover-body #popover-batting-ratings-section {
+    display: none;
+}
+
+// if fielder, hide this on *not* batting/profile tabs (only show it on those tabs)
+#popover-wrapper[primary-pos="fielder"] :not(#popover-tabbar[current-tab="batting"], #popover-tabbar[current-tab="profile"])+#popover-body #popover-batting-ratings-section {
+    display: none;
+}
