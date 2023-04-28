@@ -234,7 +234,7 @@
     gap: 4px;
 }
 
-// Positions Ratings Section
+// -- Positions Ratings Section
 
 #popover-positions-ratings-section {
     display: grid;
@@ -242,7 +242,7 @@
     grid-template-rows: repeat(4, auto);
 }
 
-// Position Ratings Grid inside Positions Ratings Section
+// Position Ratings Grid
 
 #position-ratings-grid {
     grid-template-columns: repeat(2, 1fr);
