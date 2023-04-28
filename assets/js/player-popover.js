@@ -143,7 +143,7 @@ function playerDoubleClicked(player) {
     }
 
     // -- Popover Form Section
-    const popoverFormSection = document.getElementById('popover-name-section');
+    const popoverFormSection = document.getElementById('popover-form-section');
     if (popoverFormSection) {
         // Picture
         const pfpImg = popoverFormSection.querySelector('.info-row[pfp] img');
