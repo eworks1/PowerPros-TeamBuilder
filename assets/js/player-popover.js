@@ -178,7 +178,9 @@ function playerDoubleClicked(player) {
         const controlSvgText = popoverPitchingRatingsSection.querySelector('.info-row[control] .content .letter-rating text');
         const controlNumberSpan = popoverPitchingRatingsSection.querySelector('.info-row[control] .content:last-child');
         if (controlSvgText && controlNumberSpan) {
-            controlSvgText.textContent = getLetterRatingFromNumber(player.Control);
+            const rating = getLetterRatingFromNumber(player.Control);
+            controlSvgText.setAttribute('rating', rating);
+            controlSvgText.textContent = rating;
             controlNumberSpan.textContent = `${player.Control}`
         }
 
@@ -186,7 +188,9 @@ function playerDoubleClicked(player) {
         const staminaSvgText = popoverPitchingRatingsSection.querySelector('.info-row[stamina] .content .letter-rating text');
         const staminaNumberSpan = popoverPitchingRatingsSection.querySelector('.info-row[stamina] .content:last-child');
         if (staminaSvgText && staminaNumberSpan) {
-            staminaSvgText.textContent = getLetterRatingFromNumber(player.Stamina);
+            const rating = getLetterRatingFromNumber(player.Stamina);
+            staminaSvgText.setAttribute('rating', rating);
+            staminaSvgText.textContent = rating;
             staminaNumberSpan.textContent = `${player.Stamina}`
         }
     }
