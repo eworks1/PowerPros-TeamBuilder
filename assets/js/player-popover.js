@@ -202,7 +202,8 @@ function playerDoubleClicked(player) {
     }
 
     // Pitching Chart
-    const pitchingChartObj = document.getElementById('popover-pitching-chart'); {
+    const pitchingChartObj = document.getElementById('popover-pitching-chart');
+    if (pitchingChartObj) {
         pitchingChartObj.setAttribute('pitches', JSON.stringify(player["Breaking Balls"]));
         pitchingChartObj.setAttribute('lefty', `${player.Throws == 'L'}`);
     }
