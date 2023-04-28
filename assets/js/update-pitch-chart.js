@@ -11,17 +11,19 @@ const directions = [
 /**
  * @this {Document}
  * @param {{id: string, level: number | null}[]} pitches 
- * @param {boolean | string} leftHanded
+ * @param {boolean | string} leftHandedInput
  */
-function updatePitchChart(pitches, leftHanded) {
+function updatePitchChart(pitches, leftHandedInput) {
     /** @type {string[]} */
     let directionsUsed = pitches.map(p => all_pitches[p.id].Direction);
     
+    let leftHanded = ((typeof leftHandedInput == 'boolean' && leftHandedInput)
+        || (typeof leftHandedInput == 'string' && leftHandedInput === 'true'));
+
     // Mirror horizontally if left-handed
     const bodyGroup = this.getElementById('pitching-chart-body');
     if (bodyGroup) {
-        if ((typeof leftHanded == 'boolean' && leftHanded)
-            || (typeof leftHanded == 'string' && leftHanded === 'true')) {
+        if (leftHanded) {
             bodyGroup.classList.add('left-handed')
         } else {
             bodyGroup.classList.remove('left-handed')
