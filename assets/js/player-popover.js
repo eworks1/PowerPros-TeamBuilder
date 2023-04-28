@@ -112,7 +112,7 @@ function playerDoubleClicked(player) {
                 pitchingApt.nextElementSibling.classList.add('hidden');
 
                 ['SP', 'MR', 'CP'].forEach(role => {
-                    const span = pitchingRoleBox.querySelector(`[${role.toLowerCase()}]`);
+                    const span = pitchingApt.querySelector(`[${role.toLowerCase()}]`);
                     if (span) {
                         if (player["Field Position"].includes(role)) {
                             span.classList.add('has-pitching-role');
