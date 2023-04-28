@@ -200,7 +200,6 @@ function playerDoubleClicked(player) {
             staminaNumberSpan.textContent = `${player.Stamina}`
         }
     }
-    
 
     // Pitching Chart
     const pitchingChartObj = document.getElementById('popover-pitching-chart'); {
