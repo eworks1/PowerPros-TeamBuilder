@@ -225,6 +225,15 @@
     margin-top: 0;
 }
 
+// Batting Ratings Section
+
+#popover-batting-ratings-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, auto);
+    gap: 4px;
+}
+
 // -- Reusable Styles
 
 // Info Rows inside Popover Body

@@ -77,5 +77,50 @@
                 <span id="popover-signature-pitch"></span>
             </div>
         </div>
+
+        <!-- Is only shown in fielding tabs (not position assignment) -->
+        <div id="popover-batting-ratings-section" class="ratings-section">
+            <span trj class="info-row" style="grid-area: stamina;">
+                <span class="label">Trajectory</span>
+                <span class="content" style="text-align: end;">{% include components/trajectory-arrow.html trj=1 %}</span>
+                <span class="content" style="text-align: start;">1</span>
+            </span>
+
+            <span hit class="info-row" style="grid-area: stamina;">
+                <span class="label">Hit</span>
+                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
+                <span class="content" style="text-align: start;">1</span>
+            </span>
+
+            <span power class="info-row" style="grid-area: stamina;">
+                <span class="label">Power</span>
+                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
+                <span class="content" style="text-align: start;">1</span>
+            </span>
+
+            <span speed class="info-row" style="grid-area: stamina;">
+                <span class="label">Run Speed</span>
+                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
+                <span class="content" style="text-align: start;">1</span>
+            </span>
+
+            <span strength class="info-row" style="grid-area: stamina;">
+                <span class="label">Arm Strength</span>
+                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
+                <span class="content" style="text-align: start;">1</span>
+            </span>
+            
+            <span fielding class="info-row" style="grid-area: stamina;">
+                <span class="label">Fielding</span>
+                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
+                <span class="content" style="text-align: start;">1</span>
+            </span>
+
+            <span catching class="info-row" style="grid-area: stamina;">
+                <span class="label">Catching</span>
+                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
+                <span class="content" style="text-align: start;">1</span>
+            </span>
+        </div>
     </div>
 </div>
