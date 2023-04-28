@@ -83,3 +83,10 @@
 #popover-wrapper[primary-pos="fielder"] :not(#popover-tabbar[current-tab="batting"], #popover-tabbar[current-tab="profile"])+#popover-body #popover-batting-ratings-section {
     display: none;
 }
+
+// -- Positions Ratings Section
+// Only show on pos assignment tab, doesn't matter the type of player
+
+#popover-wrapper :not(#popover-tabbar[current-tab="position"])+#popover-body #popover-positions-ratings-section {
+    display: none;
+}
