@@ -231,7 +231,7 @@ function playerDoubleClicked(player) {
         updatePopoverLetterRating(
             popoverBattingRatingsSection,
             'hit',
-            player.Control
+            player.Contact
         );
 
         // Power
