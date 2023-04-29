@@ -270,6 +270,55 @@ function playerDoubleClicked(player) {
         );
     }
 
+    // -- Position Ratings
+    const popoverPositionsRatingsSection = document.getElementById('popover-positions-ratings-section');
+    if (popoverPositionsRatingsSection) {
+        // Speed
+        updatePopoverLetterRatingInfoRow(
+            popoverPositionsRatingsSection,
+            'speed',
+            player["Run Speed"]
+        );
+
+        // Strength
+        updatePopoverLetterRatingInfoRow(
+            popoverPositionsRatingsSection,
+            'strength',
+            player["Arm Strength"]
+        );
+
+        // Catching
+        updatePopoverLetterRatingInfoRow(
+            popoverPositionsRatingsSection,
+            'catching',
+            player["Error Resistance"]
+        );
+
+        // Position Ratings
+        const positionRatingsGrid = popoverPositionsRatingsSection.querySelector('#position-ratings-grid');
+        if (positionRatingsGrid) {
+            const items = positionRatingsGrid.querySelectorAll('.position-ratings-item');
+            items.forEach(item => {
+                const position = item.getAttribute('pos').toUpperCase();
+                /** @type {number | undefined} */
+                const rating = player["All Fielding Ratings"]?.[position];
+                if (rating) {
+                    item.classList.remove('blank');
+
+                    updatePopoverLetterRating(
+                        item,
+                        '.content .letter-rating text',
+                        '.content:last-child',
+                        rating
+                    );
+                } else {
+                    item.classList.add('blank');
+                    item.querySelector('.content:last-child')?.textContent = '——';
+                }
+            });
+        }
+    }
+
     // Show popover once all info is updated
     popover.classList.remove('hidden');
 }
