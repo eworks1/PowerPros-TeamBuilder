@@ -1,15 +1,15 @@
-// -- Pitching Role
+// -- Pitching Roles
 // Only show on pitching tab (or general tabs if they're a pitcher)
 
 // pitchers: pitching role (`positions` grid area)
 // if pitcher, hide this on *not* pitching/profile tabs (show it on those tabs)
-#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="pitching"], #popover-tabbar[current-tab="profile"])+#popover-body #popover-pitching-role {
+#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="pitching"], #popover-tabbar[current-tab="profile"])+#popover-body #popover-pitching-roles {
     display: none;
 }
 
 // fielders: fielding positions (`positions` grid area)
 // if fielder, hide this on *not* pitching tab (show it on that tab only)
-#popover-wrapper[primary-pos="fielder"] :not(#popover-tabbar[current-tab="pitching"])+#popover-body #popover-pitching-role {
+#popover-wrapper[primary-pos="fielder"] :not(#popover-tabbar[current-tab="pitching"])+#popover-body #popover-pitching-roles {
     display: none;
 }
 
