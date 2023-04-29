@@ -300,7 +300,7 @@
 #popover-body .info-row {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 
     padding: 4px 8px;
 
@@ -357,4 +357,13 @@
 
 #popover-body .pitch-speed::after {
     font-size: 20px;
+}
+
+// Number Value inside Info Rows in Ratings Sections (but ignoring the Position Ratings Grid)
+
+#popover-body .ratings-section .info-row:not(#position-ratings-grid) .content:last-child {
+    flex: revert;
+
+    margin-right: 38px;
+    width: 48px;
 }
