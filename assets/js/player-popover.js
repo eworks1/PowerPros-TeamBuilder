@@ -348,7 +348,7 @@ function updatePopoverLetterRatingInfoRow(parentElement, selectorAttr, ratingVal
  */
 function updatePopoverLetterRating(parentElement, svgTextSelector, numberSpanSelector, ratingValue) {
     const svgText = parentElement.querySelector(svgTextSelector);
-    updateLetterRating(svgText)
+    updateLetterRating(svgText, ratingValue)
 
     const numberSpan = parentElement.querySelector(numberSpanSelector);
     if (numberSpan) {
