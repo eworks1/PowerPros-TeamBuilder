@@ -181,14 +181,14 @@ function playerDoubleClicked(player) {
         }
 
         // Control
-        updatePopoverLetterRating(
+        updatePopoverLetterRatingInfoRow(
             popoverPitchingRatingsSection,
             'control',
             player.Control
         );
 
         // Stamina
-        updatePopoverLetterRating(
+        updatePopoverLetterRatingInfoRow(
             popoverPitchingRatingsSection,
             'stamina',
             player.Stamina
@@ -228,42 +228,42 @@ function playerDoubleClicked(player) {
         }
 
         // Hit
-        updatePopoverLetterRating(
+        updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'hit',
             player.Contact
         );
 
         // Power
-        updatePopoverLetterRating(
+        updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'power',
             player.Power
         );
 
         // Speed
-        updatePopoverLetterRating(
+        updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'speed',
             player["Run Speed"]
         );
 
         // Strength
-        updatePopoverLetterRating(
+        updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'strength',
             player["Arm Strength"]
         );
 
         // Fielding
-        updatePopoverLetterRating(
+        updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'fielding',
             player.Fielding
         );
 
         // Catching
-        updatePopoverLetterRating(
+        updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'catching',
             player["Error Resistance"]
@@ -279,18 +279,41 @@ function playerDoubleClicked(player) {
  * @param {string} selectorAttr 
  * @param {number} ratingValue 
  */
-function updatePopoverLetterRating(parentElement, selectorAttr, ratingValue) {
-    const rating = getLetterRatingFromNumber(ratingValue);
+function updatePopoverLetterRatingInfoRow(parentElement, selectorAttr, ratingValue) {
+    updatePopoverLetterRating(
+        parentElement,
+        `.info-row[${selectorAttr}] .content .letter-rating text`,
+        `.info-row[${selectorAttr}] .content:last-child`,
+        ratingValue
+    );
+}
 
-    const svgText = parentElement.querySelector(`.info-row[${selectorAttr}] .content .letter-rating text`);
-    if (svgText) {
-        svgText.setAttribute('rating', rating);
-        svgText.textContent = rating;
-        svgText.previousElementSibling.textContent = `${ratingValue}`;
-    }
+/**
+ * @param {HTMLElement} parentElement
+ * @param {string} svgTextSelector 
+ * @param {string} numberSpanSelector 
+ * @param {number} ratingValue 
+ */
+function updatePopoverLetterRating(parentElement, svgTextSelector, numberSpanSelector, ratingValue) {
+    const svgText = parentElement.querySelector(svgTextSelector);
+    updateLetterRating(svgText)
 
-    const numberSpan = parentElement.querySelector(`.info-row[${selectorAttr}] .content:last-child`);
+    const numberSpan = parentElement.querySelector(numberSpanSelector);
     if (numberSpan) {
         numberSpan.textContent = `${ratingValue}`;
+    }
+}
+
+/**
+ * @param {Element | undefined} svgTextElement
+ * @param {number} ratingValue 
+ */
+function updateLetterRating(svgTextElement, ratingValue) {
+    if (svgTextElement) {
+        const rating = getLetterRatingFromNumber(ratingValue);
+
+        svgTextElement.setAttribute('rating', rating);
+        svgTextElement.textContent = rating;
+        svgTextElement.previousElementSibling.textContent = `${ratingValue}`;
     }
 }
