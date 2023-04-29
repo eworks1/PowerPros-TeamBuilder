@@ -138,6 +138,10 @@ function playerDoubleClicked(player) {
                 positions = positions
                     .filter(pos => !['SP', 'MR', 'CP'].includes(pos));
             }
+
+            fieldPositionsSpan.title = positions
+                .map(p => all_strings.hover_text.positions[p])
+                .join(', ');
             fieldPositionsSpan.textContent = positions.join(' ');
         }
     }
