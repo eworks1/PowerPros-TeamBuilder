@@ -355,9 +355,9 @@
     font-size: 20px;
 }
 
-// Number Value inside Info Rows in Ratings Sections (but ignoring the Position Ratings Grid)
+// Number Value inside Info Rows in Ratings Sections (but ignoring the pitch speed value and inside the Position Ratings Grid)
 
-#popover-body .ratings-section .info-row:not(#position-ratings-grid) .content:last-child {
+#popover-body .ratings-section .info-row:not(#position-ratings-grid) .content:not(.pitch-speed):last-child {
     flex: revert;
 
     margin-right: 38px;
