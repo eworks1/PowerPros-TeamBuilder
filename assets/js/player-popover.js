@@ -313,7 +313,8 @@ function playerDoubleClicked(player) {
                     );
                 } else {
                     item.classList.add('blank');
-                    item.querySelector('.content:last-child')?.textContent = '——';
+                    const itemTextSpan = item.querySelector('.content:last-child')
+                    itemTextSpan?.textContent = '——';
                 }
             });
         }
