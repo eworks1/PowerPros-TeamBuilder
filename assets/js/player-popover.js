@@ -314,7 +314,9 @@ function playerDoubleClicked(player) {
                 } else {
                     item.classList.add('blank');
                     const itemTextSpan = item.querySelector('.content:last-child')
-                    itemTextSpan?.textContent = '——';
+                    if (itemTextSpan) {
+                        itemTextSpan.textContent = '——';
+                    }
                 }
             });
         }
