@@ -277,6 +277,16 @@
     align-items: center;
 }
 
+// Position Rating Items w/ no value inside Position Ratings Grid
+
+#position-ratings-grid .position-ratings-item.blank {
+    opacity: 0.5;
+}
+
+#position-ratings-grid .position-ratings-item.blank .content svg {
+    visibility: hidden;
+}
+
 // -- Reusable Styles
 
 // Info Rows inside Popover Body
