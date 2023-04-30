@@ -294,6 +294,55 @@
     visibility: hidden;
 }
 
+// -- Skills (bottom-right section)
+
+// Pitching Skills
+
+#pitching-skills {
+    // TODO: need to add more rows, then set the 2nd row to have a margin-bottom
+    grid-template-columns: repeat(4, 1fr);
+    align-content: start;
+}
+
+#pitching-skills .skill-cell {
+    display: flex;
+    align-items: center;
+
+    background-color: #c3f7fd;
+
+    border: rgba(0, 0, 0, 0.2) solid 2px;
+    border-radius: 10px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #3f78c1;
+}
+
+#pitching-skills .skill-cell .skill-desc {
+    flex: 1;
+    z-index: 1;
+    padding: 4px;
+    margin-right: -8px;
+
+    border-radius: 8px;
+    background-color: rgb(195, 247, 253);
+    
+    text-align: center;
+}
+
+#pitching-skills .skill-cell:is([rating="C"], [rating="D"]) {
+    opacity: 0.5;
+}
+
+#pitching-skills .skill-cell .skill-rating {
+    padding: 4px 4px 4px 12px;
+
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    
+    color: white;
+}
+
 // -- Reusable Styles
 
 // Info Rows inside Popover Body
