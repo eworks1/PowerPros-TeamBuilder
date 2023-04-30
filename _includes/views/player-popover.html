@@ -60,17 +60,14 @@
                 <span class="content pitch-speed">150</span>
             </span>
 
-            <span control class="info-row" style="grid-area: control;">
-                <span class="label">Control</span>
-                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=71 %}</span>
-                <span class="content">71</span>
+            {%- assign rows = 'control, stamina' | split: ', ' -%}
+            {%- for r in rows -%}
+            <span {{ r }} class="info-row" style="grid-area: {{ r }};">
+                <span class="label">{{ r | capitalize }}</span>
+                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
+                <span class="content">1</span>
             </span>
-
-            <span stamina class="info-row" style="grid-area: stamina;">
-                <span class="label">Stamina</span>
-                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=74 %}</span>
-                <span class="content">74</span>
-            </span>
+            {%- endfor -%}
 
             <div class="info-row" style="grid-area: pitches; flex-direction: column; gap: 4px;">
                 {% include graphics/pitching-chart.html id_prefix="popover" pitches="" handedness="" %}
@@ -86,58 +83,28 @@
                 <span class="content">1</span>
             </span>
 
-            <span hit class="info-row">
-                <span class="label">Hit</span>
+            {%- assign rows = 'Hit, Power, Run Speed, Arm Strength, Fielding, Catching' | split: ', ' -%}
+            {%- for r in rows -%}
+            <span {{ r | split: ' ' | last | downcase }} class="info-row">
+                <span class="label">{{ r }}</span>
                 <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
                 <span class="content">1</span>
             </span>
-
-            <span power class="info-row">
-                <span class="label">Power</span>
-                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
-                <span class="content">1</span>
-            </span>
-
-            <span speed class="info-row">
-                <span class="label">Run Speed</span>
-                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
-                <span class="content">1</span>
-            </span>
-
-            <span strength class="info-row">
-                <span class="label">Arm Strength</span>
-                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
-                <span class="content">1</span>
-            </span>
-            
-            <span fielding class="info-row">
-                <span class="label">Fielding</span>
-                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
-                <span class="content">1</span>
-            </span>
-
-            <span catching class="info-row">
-                <span class="label">Catching</span>
-                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
-                <span class="content">1</span>
-            </span>
+            {%- endfor -%}
         </div>
 
         <!-- Is only shown in position assignment tab -->
         <div id="popover-positions-ratings-section" class="ratings-section">
-            <span speed class="info-row">
-                <span class="label">Run Speed</span>
+            {%- assign rows = 'Run Speed, Arm Strength, Catching' | split: ', ' -%}
+            {%- for r in rows -%}
+            <span {{ r | split: ' ' | last | downcase }} class="info-row" style="grid-area: {{ r | split: ' ' | last | downcase }};">
+                <span class="label">{{ r }}</span>
                 <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
                 <span class="content">1</span>
             </span>
+            {%- endfor -%}
 
-            <span strength class="info-row">
-                <span class="label">Arm Strength</span>
-                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
-                <span class="content">1</span>
-            </span>
-
-            <div id="position-ratings-grid" class="info-row" style="display: grid; gap: calc((8px - 2px) / 2);">
+            <div id="position-ratings-grid" class="info-row" style="grid-area: fielding; display: grid; gap: calc((8px - 2px) / 2);">
                 <span class="label" style="width: 100%;">Fielding</span>
                 
                 <span class="empty-divider"></span>
@@ -198,12 +165,6 @@
                     <span class="content">1</span>
                 </span>
             </div>
-
-            <span catching class="info-row">
-                <span class="label">Catching</span>
-                <span class="content" style="text-align: end;">{% include components/letter-rating.html rating=1 %}</span>
-                <span class="content">1</span>
-            </span>
         </div>
     </div>
 </div>
