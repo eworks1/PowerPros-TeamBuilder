@@ -318,6 +318,7 @@
 }
 
 #pitching-skills .skill-cell :is(.skill-desc, .skill-rating) {
+    height: 100%;    
     padding: 4px;
 
     border-radius: 8px;
