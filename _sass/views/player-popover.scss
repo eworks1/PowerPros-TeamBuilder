@@ -329,13 +329,16 @@
 #pitching-skills .skill-cell .skill-desc {
     flex: 1;
     z-index: 1;
-    margin-right: -14px;
 
     background-color: rgb(195, 247, 253);
     
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 500;
     color: #3f78c1;
+}
+
+#pitching-skills .skill-cell .skill-desc:not(:only-child) {
+    margin-right: -16px;
 }
 
 #pitching-skills .skill-cell .skill-rating {
