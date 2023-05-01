@@ -355,6 +355,18 @@
     opacity: 0.5;
 }
 
+#pitching-skills .skill-cell:is([rating="A"], [rating="B"], [rating="+"]) {
+    background: green;
+}
+
+#pitching-skills .skill-cell:is([rating="E"], [rating="F"], [rating="G"], [rating="-"]) {
+    background: red;
+}
+
+#pitching-skills .skill-cell:is([rating="+-"]) {
+    background: linear-gradient(to right, #c3f7fd 0%, #c3f7fd 49.99%, #f7cfcc 50%, #f7cfcc 100%);
+}
+
 // -- Reusable Styles
 
 // Info Rows inside Popover Body
