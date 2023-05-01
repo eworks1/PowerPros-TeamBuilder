@@ -169,9 +169,9 @@
 
         <!-- Pitching Skills -->
         <div id="pitching-skills" class="info-row" style="grid-area: skills; display: grid;">
-            {%- for i in (1..8) -%}
+            {%- for trait in site.data.strings.traits.pitcher -%}
             <span class="skill-cell">
-                <span class="skill-desc">w/ RISP</span>
+                <span class="skill-desc">{{ trait }}</span>
                 <span class="skill-rating">A</span>
             </span>
             {%- endfor -%}
