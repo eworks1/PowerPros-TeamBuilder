@@ -337,11 +337,13 @@
 
 #pitching-skills .skill-cell .skill-rating {
     padding: 4px 4px 4px 20px;
+    min-width: 40px;
 
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 
     font-family: 'Roboto', sans-serif;
+    text-align: center;
     color: white;
 }
 
