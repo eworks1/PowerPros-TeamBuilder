@@ -331,7 +331,7 @@
     text-align: center;
 }
 
-#pitching-skills .skill-cell:is([rating="C"], [rating="D"]) {
+#pitching-skills .skill-cell:is(.blank, [rating="C"], [rating="D"]) {
     opacity: 0.5;
 }
 
@@ -346,7 +346,7 @@
 }
 
 #pitching-skills .skill-cell.empty :is(.skill-desc, .skill-rating) {
-    color: rgba(0,0,0,0);
+    color: transparent;
 }
 
 // -- Reusable Styles
