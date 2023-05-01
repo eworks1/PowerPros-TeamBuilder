@@ -175,7 +175,11 @@
                 {%- assign empty_class = 'empty' -%}
             {%- endif -%}
             <span class="skill-cell {{ empty_class }}">
-                <span class="skill-desc">{{ trait }}</span>
+                {%- if trait == '' -%}
+                    <span class="skill-desc">{{ trait }}</span>
+                {%- else -%}
+                    <span class="skill-desc">A</span>
+                {%- endif -%}
                 <span class="skill-rating">A</span>
             </span>
             {%- endfor -%}
