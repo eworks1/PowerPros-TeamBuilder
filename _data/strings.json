@@ -20,6 +20,29 @@
         "Profile"
     ],
 
+    "traits": {
+        "pitcher": [
+            "w/ RISP",
+            "vs LHB",
+            "Poise",
+            "Grit",
+            "Heater",
+            "Agile",
+            "",
+            "Recovery"
+        ],
+        "batter": [
+            "Clutch",
+            "vs LHP",
+            "",
+            "Grit",
+            "Stealing",
+            "Runner",
+            "Throwing",
+            "Recovery"
+        ]
+    },
+
     "hover_text": {
         "jersey_number": "Jersey Number",
         "handedness": {
