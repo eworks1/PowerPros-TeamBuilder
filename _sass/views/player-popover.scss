@@ -345,6 +345,10 @@
     color: white;
 }
 
+#pitching-skills .skill-cell.empty :is(.skill-desc, .skill-rating) {
+    color: rgba(0,0,0,0);
+}
+
 // -- Reusable Styles
 
 // Info Rows inside Popover Body
