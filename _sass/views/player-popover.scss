@@ -345,7 +345,7 @@
     color: white;
 }
 
-#pitching-skills .skill-cell.empty :is(.skill-desc, .skill-rating) {
+#pitching-skills .skill-cell.blank :is(.skill-desc, .skill-rating) {
     color: transparent;
 }
 
