@@ -332,10 +332,6 @@
     color: #3f78c1;
 }
 
-#pitching-skills .skill-cell:is(.blank, [rating="C"], [rating="D"]) {
-    opacity: 0.5;
-}
-
 #pitching-skills .skill-cell .skill-rating {
     padding: 4px 4px 4px 20px;
     min-width: 40px;
@@ -346,6 +342,10 @@
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
+}
+
+#pitching-skills .skill-cell:is(.blank, [rating="C"], [rating="D"]) {
+    opacity: 0.5;
 }
 
 // -- Reusable Styles
