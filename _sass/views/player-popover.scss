@@ -301,6 +301,7 @@
 #pitching-skills {
     // TODO: need to add more rows, then set the 2nd row to have a margin-bottom
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto) 4px repeat(6, auto);
     align-content: start;
 }
 
