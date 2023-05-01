@@ -170,7 +170,11 @@
         <!-- Pitching Skills -->
         <div id="pitching-skills" class="info-row" style="grid-area: skills; display: grid; gap: 2px;">
             {%- for trait in site.data.strings.traits.pitcher -%}
-            <span class="skill-cell">
+            {%- assign empty_class = '' -%}
+            {%- if trait == '' -%}
+                {%- assign empty_class = 'empty' -%}
+            {%- endif -%}
+            <span class="skill-cell {{ empty_class }}">
                 <span class="skill-desc">{{ trait }}</span>
                 <span class="skill-rating">A</span>
             </span>
