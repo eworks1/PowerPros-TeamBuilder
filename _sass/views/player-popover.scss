@@ -359,7 +359,7 @@
     background: green;
 }
 
-#pitching-skills .skill-cell:is([rating="E"], [rating="F"], [rating="G"], [rating="-"]) {
+#pitching-skills .skill-cell:is([rating="F"], [rating="G"], [rating="-"]) {
     background: red;
 }
 
