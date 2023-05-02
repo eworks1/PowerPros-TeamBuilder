@@ -137,7 +137,7 @@
             "level": 3
         }],
         "Pitching Form": "Overhead 1",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Vs. Slugger", "Downplay"]
     }, {
         "id": "A.Yabe-333",
@@ -165,7 +165,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -204,7 +204,7 @@
             "level": 6
         }],
         "Pitching Form": "Overhead 15",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Poise A", "Bullet", "Recovery C", "Carver", "Ironball", "Breaking Ball Pitcher", "Pace"]
     }, {
         "id": "Abata-318",
@@ -398,7 +398,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 111",
         "Special Abilities (Pitching)": null
     }, {
@@ -434,7 +434,7 @@
             "level": 2
         }],
         "Pitching Form": "Three-Quarters 40",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Cutter", "Ironball", "Dr. K", "Battler", "Vs. Slugger", "Breaking Ball P"]
     }, {
         "id": "Arakata-356",
@@ -462,8 +462,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Arashimaru-242",
@@ -684,7 +684,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -713,7 +713,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 36",
         "Special Abilities (Pitching)": null
     }, {
@@ -744,7 +744,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -776,7 +776,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 59",
         "Special Abilities (Pitching)": null
     }, {
@@ -807,7 +807,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -837,7 +837,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 15",
         "Special Abilities (Pitching)": null
     }, {
@@ -867,8 +867,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Black-314",
@@ -898,7 +898,7 @@
         "Control": 20,
         "Stamina": 20,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -928,8 +928,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Chiga-318",
@@ -959,7 +959,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 68",
         "Special Abilities (Pitching)": null
     }, {
@@ -989,7 +989,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 110",
         "Special Abilities (Pitching)": null
     }, {
@@ -1097,7 +1097,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 37",
         "Special Abilities (Pitching)": null
     }, {
@@ -1128,8 +1128,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Daichiman-356",
@@ -1157,7 +1157,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -1263,8 +1263,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Domon-316",
@@ -1294,7 +1294,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "Standard 2",
         "Special Abilities (Pitching)": null
     }, {
@@ -1323,7 +1323,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 35",
         "Special Abilities (Pitching)": null
     }, {
@@ -1353,8 +1353,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ereki-349",
@@ -1429,7 +1429,7 @@
             "id": "CH",
             "level": 4
         }],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": ["W/RISP B", "Heater B", "Cutter"]
     }, {
@@ -1532,7 +1532,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -1561,7 +1561,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 97",
         "Special Abilities (Pitching)": null
     }, {
@@ -1591,7 +1591,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -1622,7 +1622,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 49",
         "Special Abilities (Pitching)": null
     }, {
@@ -1653,7 +1653,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 1",
         "Special Abilities (Pitching)": null
     }, {
@@ -1724,7 +1724,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 77",
         "Special Abilities (Pitching)": "Hot Head"
     }, {
@@ -1754,7 +1754,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 109",
         "Special Abilities (Pitching)": null
     }, {
@@ -1784,8 +1784,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hagane-414",
@@ -1848,7 +1848,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 29",
         "Special Abilities (Pitching)": null
     }, {
@@ -1916,8 +1916,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hamasaki-270",
@@ -1984,8 +1984,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hasami-179",
@@ -2013,7 +2013,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -2043,8 +2043,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hatsuno-265",
@@ -2073,8 +2073,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Hayakawa-217",
@@ -2148,7 +2148,7 @@
             "level": 2
         }],
         "Pitching Form": "Overhead 50",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Poise A", "Recovery G", "Toolkit"]
     }, {
         "id": "Hidou-304",
@@ -2176,7 +2176,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -2205,7 +2205,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 20",
         "Special Abilities (Pitching)": null
     }, {
@@ -2346,7 +2346,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 112",
         "Special Abilities (Pitching)": null
     }, {
@@ -2375,7 +2375,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 32",
         "Special Abilities (Pitching)": null
     }, {
@@ -2481,7 +2481,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -2552,8 +2552,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Igarashi-281",
@@ -2581,7 +2581,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -2610,7 +2610,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 29",
         "Special Abilities (Pitching)": null
     }, {
@@ -2649,7 +2649,7 @@
             "level": 4
         }],
         "Pitching Form": "Three-Quarters 7",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Gripper", "Toolkit", "Breaking Ball Pitcher"]
     }, {
         "id": "Inukawa-316",
@@ -2792,8 +2792,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ishino-179",
@@ -2821,7 +2821,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -2851,8 +2851,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Iwai-302",
@@ -2881,7 +2881,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 44",
         "Special Abilities (Pitching)": null
     }, {
@@ -2910,7 +2910,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 29",
         "Special Abilities (Pitching)": null
     }, {
@@ -2947,7 +2947,7 @@
             "level": 3
         }],
         "Pitching Form": "Three-Quarters 8",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Recovery C", "Gyroball", "Reflexes", "Guts", "Pace"]
     }, {
         "id": "Javelin-378",
@@ -2976,7 +2976,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 92",
         "Special Abilities (Pitching)": null
     }, {
@@ -3006,8 +3006,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Jitsu-300",
@@ -3035,7 +3035,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 58",
         "Special Abilities (Pitching)": null
     }, {
@@ -3142,7 +3142,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 106",
         "Special Abilities (Pitching)": null
     }, {
@@ -3171,8 +3171,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kagayaki-344",
@@ -3202,7 +3202,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 101",
         "Special Abilities (Pitching)": null
     }, {
@@ -3380,7 +3380,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 29",
         "Special Abilities (Pitching)": null
     }, {
@@ -3409,7 +3409,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -3438,7 +3438,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 52",
         "Special Abilities (Pitching)": null
     }, {
@@ -3467,7 +3467,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -3533,7 +3533,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 23",
         "Special Abilities (Pitching)": null
     }, {
@@ -3576,7 +3576,7 @@
             "id": "SHU",
             "level": 1
         }],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -3605,8 +3605,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kiba-385",
@@ -3647,7 +3647,7 @@
             "level": null
         }],
         "Pitching Form": "Overhead 7",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Heater A", "Recovery C", "Gyroball", "Ironball", "Crossfire", "Power P"]
     }, {
         "id": "Kikudo-233",
@@ -3757,7 +3757,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -3787,8 +3787,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kodaka-307",
@@ -3819,7 +3819,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -3849,8 +3849,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kogarashi-238",
@@ -3878,8 +3878,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kohmoto-269",
@@ -3907,7 +3907,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -3940,7 +3940,7 @@
             "level": 4
         }],
         "Pitching Form": "Overhead 56",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Poise F", "Dynamo"]
     }, {
         "id": "Kuon-290",
@@ -4008,7 +4008,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 118",
         "Special Abilities (Pitching)": null
     }, {
@@ -4109,8 +4109,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Kyushu-489",
@@ -4138,7 +4138,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -4168,7 +4168,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 105",
         "Special Abilities (Pitching)": null
     }, {
@@ -4198,7 +4198,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -4227,7 +4227,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 12",
         "Special Abilities (Pitching)": null
     }, {
@@ -4298,8 +4298,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Makita-339",
@@ -4328,8 +4328,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Marumochi-217",
@@ -4498,7 +4498,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 107",
         "Special Abilities (Pitching)": null
     }, {
@@ -4529,7 +4529,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 40",
         "Special Abilities (Pitching)": null
     }, {
@@ -4558,8 +4558,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Mizudori-309",
@@ -4588,7 +4588,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -4619,7 +4619,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -4661,7 +4661,7 @@
             "level": 4
         }],
         "Pitching Form": "Overhead 15",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Cutter", "Dr.K", "Downplay", "Airball", "Choker Recovery C", "Breaking Ball P"]
     }, {
         "id": "Modo-331",
@@ -4692,7 +4692,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 72",
         "Special Abilities (Pitching)": null
     }, {
@@ -4722,7 +4722,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "Standard 2",
         "Special Abilities (Pitching)": null
     }, {
@@ -4753,7 +4753,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -4821,7 +4821,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -4852,7 +4852,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -4882,7 +4882,7 @@
         "Control": 85,
         "Stamina": 70,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 73",
         "Special Abilities (Pitching)": null
     }, {
@@ -4916,7 +4916,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -4947,7 +4947,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 46",
         "Special Abilities (Pitching)": null
     }, {
@@ -4978,7 +4978,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 60",
         "Special Abilities (Pitching)": null
     }, {
@@ -5008,7 +5008,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -5038,8 +5038,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Nanai-337",
@@ -5067,7 +5067,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -5142,7 +5142,7 @@
             "id": "12CV",
             "level": 2
         }],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -5171,8 +5171,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Niijima-262",
@@ -5201,7 +5201,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 42",
         "Special Abilities (Pitching)": null
     }, {
@@ -5231,7 +5231,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 42",
         "Special Abilities (Pitching)": null
     }, {
@@ -5273,7 +5273,7 @@
             "level": 5
         }],
         "Pitching Form": "Three-Quarters 15",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Dr. K", "Breaking Ball Pitcher"]
     }, {
         "id": "Ninomiya-360",
@@ -5301,7 +5301,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -5330,7 +5330,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 64",
         "Special Abilities (Pitching)": null
     }, {
@@ -5360,7 +5360,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -5390,7 +5390,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 89",
         "Special Abilities (Pitching)": null
     }, {
@@ -5421,7 +5421,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 88",
         "Special Abilities (Pitching)": null
     }, {
@@ -5466,7 +5466,7 @@
             "level": 4
         }],
         "Pitching Form": "Submarine 7",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Trusty", "Lucky", "Tyrant"]
     }, {
         "id": "Oda-333",
@@ -5504,7 +5504,7 @@
             "id": "12CV",
             "level": 3
         }],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 75",
         "Special Abilities (Pitching)": null
     }, {
@@ -5534,7 +5534,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -5565,7 +5565,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 41",
         "Special Abilities (Pitching)": null
     }, {
@@ -5595,8 +5595,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "One-353",
@@ -5741,7 +5741,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 54",
         "Special Abilities (Pitching)": null
     }, {
@@ -5770,8 +5770,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Otome-401",
@@ -5838,8 +5838,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Oyama-309",
@@ -5868,8 +5868,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ozaki-312",
@@ -5898,7 +5898,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -5928,7 +5928,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -5959,7 +5959,7 @@
         "Control": 10,
         "Stamina": 30,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "Standard 18",
         "Special Abilities (Pitching)": null
     }, {
@@ -6029,7 +6029,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "Standard 2",
         "Special Abilities (Pitching)": null
     }, {
@@ -6069,7 +6069,7 @@
             "level": 3
         }],
         "Pitching Form": "Three-Quarters 13",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["W/RISP C", "Vs. LHB G", "Poise F", "Grit C", "Heater C", "Recovery C", "Guts", "Chill", "Right Side Pitching"]
     }, {
         "id": "Raigou-491",
@@ -6098,7 +6098,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 21",
         "Special Abilities (Pitching)": null
     }, {
@@ -6248,8 +6248,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Rokudoh-328",
@@ -6278,7 +6278,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 17",
         "Special Abilities (Pitching)": null
     }, {
@@ -6307,7 +6307,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -6336,7 +6336,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 3",
         "Special Abilities (Pitching)": null
     }, {
@@ -6365,7 +6365,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -6395,7 +6395,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -6425,7 +6425,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -6493,7 +6493,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 29",
         "Special Abilities (Pitching)": null
     }, {
@@ -6522,7 +6522,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -6552,7 +6552,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 69",
         "Special Abilities (Pitching)": null
     }, {
@@ -6582,7 +6582,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -6612,7 +6612,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -6679,7 +6679,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 9",
         "Special Abilities (Pitching)": null
     }, {
@@ -6746,7 +6746,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -6775,7 +6775,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -6804,7 +6804,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -6834,7 +6834,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 29",
         "Special Abilities (Pitching)": null
     }, {
@@ -6863,7 +6863,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 90",
         "Special Abilities (Pitching)": null
     }, {
@@ -6892,7 +6892,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 10",
         "Special Abilities (Pitching)": null
     }, {
@@ -6921,8 +6921,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Shibuya-395",
@@ -6951,7 +6951,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -6980,7 +6980,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 71",
         "Special Abilities (Pitching)": null
     }, {
@@ -7009,7 +7009,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 11",
         "Special Abilities (Pitching)": null
     }, {
@@ -7118,7 +7118,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -7157,7 +7157,7 @@
             "level": 3
         }],
         "Pitching Form": "Sidearm 15",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Recovery C", "Momentum", "Dr. K", "Handler", "Pace"]
     }, {
         "id": "Shiroi-305",
@@ -7186,7 +7186,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 29",
         "Special Abilities (Pitching)": null
     }, {
@@ -7255,7 +7255,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -7284,7 +7284,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -7394,7 +7394,7 @@
             "level": 2
         }],
         "Pitching Form": "Overhead 53",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Cutter"]
     }, {
         "id": "Suzuhime-321",
@@ -7423,7 +7423,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -7650,7 +7650,7 @@
             "id": "12CV",
             "level": 2
         }],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -7717,7 +7717,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 5",
         "Special Abilities (Pitching)": null
     }, {
@@ -7747,7 +7747,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 19",
         "Special Abilities (Pitching)": null
     }, {
@@ -7783,7 +7783,7 @@
             "level": 3
         }],
         "Pitching Form": "Sidearm 2",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["W/RISP C", "Poise C", "Heater C", "Battler", "Timer", "Hot Head", "Moody"]
     }, {
         "id": "Tamar-280",
@@ -7812,8 +7812,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Tamasaburo-354",
@@ -7841,7 +7841,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -7905,7 +7905,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 8",
         "Special Abilities (Pitching)": null
     }, {
@@ -8007,7 +8007,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 81",
         "Special Abilities (Pitching)": null
     }, {
@@ -8077,7 +8077,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 63",
         "Special Abilities (Pitching)": null
     }, {
@@ -8106,7 +8106,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -8137,7 +8137,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -8201,7 +8201,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 33",
         "Special Abilities (Pitching)": null
     }, {
@@ -8261,7 +8261,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -8290,7 +8290,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -8319,7 +8319,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -8383,7 +8383,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -8413,7 +8413,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -8442,8 +8442,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Ukami-379",
@@ -8472,7 +8472,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 108",
         "Special Abilities (Pitching)": null
     }, {
@@ -8502,7 +8502,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 16",
         "Special Abilities (Pitching)": null
     }, {
@@ -8573,7 +8573,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 29",
         "Special Abilities (Pitching)": null
     }, {
@@ -8602,7 +8602,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 43",
         "Special Abilities (Pitching)": null
     }, {
@@ -8631,8 +8631,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Waachan-193",
@@ -8665,7 +8665,7 @@
             "id": "CB",
             "level": 2
         }],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "Standard 38",
         "Special Abilities (Pitching)": null
     }, {
@@ -8695,8 +8695,8 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
-        "Batting Form": "-----",
+        "Pitching Form": "–––––",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": null
     }, {
         "id": "Y.Diyansu-298",
@@ -8726,7 +8726,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 13",
         "Special Abilities (Pitching)": null
     }, {
@@ -8761,7 +8761,7 @@
             "id": "CB",
             "level": 2
         }],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Special Abilities (Pitching)": null
     }, {
@@ -8790,7 +8790,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Special Abilities (Pitching)": null
     }, {
@@ -8821,7 +8821,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 29",
         "Special Abilities (Pitching)": null
     }, {
@@ -8850,7 +8850,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 18",
         "Special Abilities (Pitching)": null
     }, {
@@ -8880,7 +8880,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 45",
         "Special Abilities (Pitching)": null
     }, {
@@ -8980,7 +8980,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 99",
         "Special Abilities (Pitching)": "Bluffer"
     }, {
@@ -9010,7 +9010,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 116",
         "Special Abilities (Pitching)": "Bluffer"
     }, {
@@ -9115,7 +9115,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Special Abilities (Pitching)": null
     }, {
@@ -9144,7 +9144,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 29",
         "Special Abilities (Pitching)": null
     }, {
@@ -9173,7 +9173,7 @@
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
-        "Pitching Form": "-----",
+        "Pitching Form": "–––––",
         "Batting Form": "General 27",
         "Special Abilities (Pitching)": null
     }, {
@@ -9212,7 +9212,7 @@
             "level": 3
         }],
         "Pitching Form": "Three-Quarters 15",
-        "Batting Form": "-----",
+        "Batting Form": "–––––",
         "Special Abilities (Pitching)": ["W/RISP B", "Vs. LHB B", "Poise B", "Recovery C", "Downplay", "Choker", "Hot Head", "Power Pitcher"]
     }, {
         "id": "Zenzai-341",
