@@ -351,7 +351,7 @@
     color: white;
 }
 
-#pitching-skills .skill-cell:is(.blank, [rating="C"], [rating="D"]) {
+#pitching-skills .skill-cell:is(.blank, [rating="C"], [rating="D"], [rating="E"]) {
     opacity: 0.5;
 }
 
