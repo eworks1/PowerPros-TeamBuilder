@@ -33,7 +33,7 @@
     font-weight: 300;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -47,12 +47,7 @@
     font-weight: 500;
 }
 
-// This is the labels for the info boxes
-#detail-box .info-box .info-label {
-    flex: 1;
-}
-
 #detail-box .info-box .dash-content {
-    flex: 1;
+    margin-right: 12px;
     text-align: center;
 }
