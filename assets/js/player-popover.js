@@ -367,7 +367,7 @@ function playerDoubleClicked(player) {
         // Abilities (remaining 24 cells, from 9th on)
         cells.slice(8).forEach((cell, i) => {
             // Check if the current index is within the range of the player's abilities
-            if (i < player.Abilities.pitching.length) {
+            if (i < player.Abilities.pitcher.length) {
                 cell.classList.remove('blank');
                 const ability = all_abilities.abilities[player.Abilities.pitcher[i]];
                 cell.firstElementChild.textContent = ability.Abbr;
