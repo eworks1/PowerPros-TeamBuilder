@@ -1,6 +1,9 @@
+:not(.detail-switcher-button)>.trj-arrow {
+    cursor: help;
+}
+
 .trj-arrow {
     height: 30px;
-    cursor: help;
 }
 
 .trj-arrow path[trj] {
