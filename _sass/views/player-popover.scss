@@ -394,7 +394,7 @@
 
 // Pitching Skills
 
-.skills-grid {
+#popover-body .skills-grid {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto) 4px repeat(6, auto);
     align-content: start;
