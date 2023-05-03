@@ -90,3 +90,15 @@
 #popover-wrapper :not(#popover-tabbar[current-tab="position"])+#popover-body #popover-positions-ratings-section {
     display: none;
 }
+
+
+// -- Skills Grids
+
+// Pitching skills
+// Only show on pitching tab
+
+// pitchers: pitching skill (`skills` grid area)
+// if pitcher, hide this on *not* pitching tab (show it on only that tab)
+#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="pitching"])+#popover-body #pitching-skills {
+    display: none;
+}
