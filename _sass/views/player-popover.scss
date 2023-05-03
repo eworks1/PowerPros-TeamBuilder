@@ -439,7 +439,7 @@
     color: #3f78c1;
 }
 
-.skills-grid .skill-cell:not([rating="S"]) .skill-desc:not(:only-child) {
+.skills-grid .skill-cell:not([rating="S"], .blank) .skill-desc:not(:only-child) {
     margin-right: -16px;
     background: #c3f7fd;
 }
@@ -471,10 +471,15 @@
     background: gold;
 }
 
-.skills-grid .skill-cell[rating="S"] .skill-desc+.skill-rating {
+.skills-grid .skill-cell:not([rating="S"], .blank) .skill-desc+.skill-rating,
+.skills-grid .skill-cell.blank .skill-desc+.skill-rating {
     display: none;
 }
 
 .skills-grid .skill-cell[rating="+-"] {
     background: linear-gradient(to right, #c3f7fd 0%, #c3f7fd 49.99%, #f7cfcc 50%, #f7cfcc 100%);
+}
+
+.skills-grid .skill-cell.blank .skill-desc {
+    color: transparent;
 }
