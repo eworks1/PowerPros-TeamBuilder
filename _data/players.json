@@ -60,7 +60,7 @@
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 25",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Agile": "B",
             "Recovery": "C"
         },
@@ -110,7 +110,7 @@
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 27",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Recovery": "C"
         },
         "Abilities": {
@@ -160,7 +160,7 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitcher": ["Vs. Slugger", "Downplay"],
+            "pitcher": ["vs Slugger", "Downplay"],
             "fielder": [],
             "positionAssignment": ["Auto"]
         }
@@ -522,11 +522,11 @@
         "Pitching Form": "Three-Quarters 40",
         "Batting Form": "–––––",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Recovery": "C"
         },
         "Abilities": {
-            "pitcher": ["Cutter", "Ironball", "Dr. K", "Battler", "Vs. Slugger"],
+            "pitcher": ["Cutter", "Ironball", "Dr. K", "Battler", "vs Slugger"],
             "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
@@ -610,7 +610,7 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitcher": ["Vs. Slugger"],
+            "pitcher": ["vs Slugger"],
             "fielder": [],
             "positionAssignment": ["Auto"]
         }
@@ -659,7 +659,7 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitcher": ["Vs. Slugger"],
+            "pitcher": ["vs Slugger"],
             "fielder": ["Good Eye", "Clinical"],
             "positionAssignment": ["Auto"]
         }
@@ -826,7 +826,7 @@
         "Traits": {},
         "Abilities": {
             "pitcher": [],
-            "fielder": ["Squibber", "Clutch", "Vs. Ace", "Easy Out"],
+            "fielder": ["Squibber", "Clutch", "vs Ace", "Easy Out"],
             "positionAssignment": ["Cautious Stl", "Selfless", "Patient Htr"]
         }
     }, {
@@ -1089,7 +1089,7 @@
         "Batting Form": "General 26",
         "Traits": {
             "Clutch": "B",
-            "Vs. LHP": "B",
+            "vs LHP": "B",
             "Stealing": "B",
             "Recovery": "C"
         },
@@ -1168,7 +1168,7 @@
         "Traits": {},
         "Abilities": {
             "pitcher": [],
-            "fielder": ["Rally", "Vs. Ace", "Victor", "Grounder", "Mood Swinger"],
+            "fielder": ["Rally", "vs Ace", "Victor", "Grounder", "Mood Swinger"],
             "positionAssignment": []
         }
     }, {
@@ -1408,7 +1408,7 @@
         "Batting Form": "General 27",
         "Traits": {
             "Clutch": "A",
-            "Vs. LHP": "C"
+            "vs LHP": "C"
         },
         "Abilities": {
             "pitcher": [],
@@ -1736,7 +1736,7 @@
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Heater": "B",
             "Catcher": "B"
         },
@@ -2095,7 +2095,7 @@
         "Pitching Form": "–––––",
         "Batting Form": "General 77",
         "Traits": {
-            "Vs. LHP": "A",
+            "vs LHP": "A",
             "Catcher": "B",
             "Throwing": "A"
         },
@@ -2172,7 +2172,7 @@
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
         "Traits": {
-            "Vs. LHP": "B",
+            "vs LHP": "B",
             "Catcher": "B",
             "Throwing": "C"
         },
@@ -2216,12 +2216,12 @@
         "Pitching Form": "Overhead 60",
         "Batting Form": "General 28",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Heater": "B",
             "Recovery": "C"
         },
         "Abilities": {
-            "pitcher": ["Vs. Runner"],
+            "pitcher": ["vs Runner"],
             "fielder": [],
             "positionAssignment": ["Auto"]
         }
@@ -2300,7 +2300,7 @@
         "Pitching Form": "Three-Quarters 16",
         "Batting Form": "General 84",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Recovery": "C"
         },
         "Abilities": {
@@ -2658,7 +2658,7 @@
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Traits": {
-            "Vs. LHP": "F",
+            "vs LHP": "F",
             "Catcher": "B"
         },
         "Abilities": {
@@ -2951,7 +2951,7 @@
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 87",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Poise": "B",
             "Heater": "B"
         },
@@ -2998,7 +2998,7 @@
         "Pitching Form": "Sidearm 15",
         "Batting Form": "General 25",
         "Traits": {
-            "W/RISP": "F",
+            "w/ RISP": "F",
             "Recovery": "C",
             "Throwing": "C"
         },
@@ -3328,7 +3328,7 @@
         "Pitching Form": "Sidearm 7",
         "Batting Form": "General 27",
         "Traits": {
-            "W/RISP": "A",
+            "w/ RISP": "A",
             "Poise": "B",
             "Recovery": "C"
         },
@@ -4010,7 +4010,7 @@
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "General 26",
         "Traits": {
-            "W/RISP": "A",
+            "w/ RISP": "A",
             "Poise": "A",
             "Recovery": "C",
             "Throwing": "C"
@@ -4287,7 +4287,7 @@
         "Pitching Form": "Sidearm 15",
         "Batting Form": "General 28",
         "Traits": {
-            "Vs. LHB": "C",
+            "vs LHB": "C",
             "Recovery": "C"
         },
         "Abilities": {
@@ -4376,7 +4376,7 @@
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
         "Traits": {
-            "Vs. LHP": "A",
+            "vs LHP": "A",
             "Grit": "B",
             "Stealing": "B",
             "Runner": "B",
@@ -4683,7 +4683,7 @@
         },
         "Abilities": {
             "pitcher": [],
-            "fielder": ["Bunt Ace", "Rally", "Clutch", "Vs. Ace"],
+            "fielder": ["Bunt Ace", "Rally", "Clutch", "vs Ace"],
             "positionAssignment": ["Aggrssiv Fld"]
         }
     }, {
@@ -4877,7 +4877,7 @@
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "General 28",
         "Traits": {
-            "W/RISP": "F",
+            "w/ RISP": "F",
             "Poise": "F",
             "Recovery": "C"
         },
@@ -5004,7 +5004,7 @@
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 26",
         "Traits": {
-            "W/RISP": "A",
+            "w/ RISP": "A",
             "Recovery": "C",
             "Stealing": "A",
             "Throwing": "A"
@@ -5240,7 +5240,7 @@
         "Pitching Form": "Overhead 169",
         "Batting Form": "General 2",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Recovery": "C"
         },
         "Abilities": {
@@ -5360,8 +5360,8 @@
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 29",
         "Traits": {
-            "W/RISP": "F",
-            "Vs. LHB": "F",
+            "w/ RISP": "F",
+            "vs LHB": "F",
             "Recovery": "G"
         },
         "Abilities": {
@@ -5407,7 +5407,7 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitcher": ["Vs. Slugger", "Hot Head"],
+            "pitcher": ["vs Slugger", "Hot Head"],
             "fielder": [],
             "positionAssignment": ["Auto"]
         }
@@ -5490,7 +5490,7 @@
         "Pitching Form": "Overhead 106",
         "Batting Form": "General 26",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Heater": "B",
             "Recovery": "C"
         },
@@ -5642,7 +5642,7 @@
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
         "Traits": {
-            "Vs. LHP": "B",
+            "vs LHP": "B",
             "Catcher": "B",
             "Throwing": "A"
         },
@@ -5682,7 +5682,7 @@
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
         "Traits": {
-            "Vs. LHP": "C",
+            "vs LHP": "C",
             "Stealing": "C",
             "Throwing": "B"
         },
@@ -7125,7 +7125,7 @@
         "Pitching Form": "Overhead 15",
         "Batting Form": "General 29",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Recovery": "C"
         },
         "Abilities": {
@@ -7164,7 +7164,7 @@
         "Batting Form": "–––––",
         "Traits": {
             "Clutch": "G",
-            "Vs. LHP": "C",
+            "vs LHP": "C",
             "Throwing": "C"
         },
         "Abilities": {
@@ -7445,8 +7445,8 @@
         "Pitching Form": "Three-Quarters 13",
         "Batting Form": "–––––",
         "Traits": {
-            "W/RISP": "C",
-            "Vs. LHB": "G",
+            "w/ RISP": "C",
+            "vs LHB": "G",
             "Poise": "F",
             "Grit": "C",
             "Heater": "C",
@@ -7494,7 +7494,7 @@
         },
         "Abilities": {
             "pitcher": [],
-            "fielder": ["Slugger", "Pull Hit", "Menace", "Vs. Ace"],
+            "fielder": ["Slugger", "Pull Hit", "Menace", "vs Ace"],
             "positionAssignment": []
         }
     }, {
@@ -7583,7 +7583,7 @@
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 103",
         "Traits": {
-            "W/RISP": "A",
+            "w/ RISP": "A",
             "Heater": "A",
             "Recovery": "C"
         },
@@ -7943,7 +7943,7 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitcher": ["Bluffer", "Vs. Runner", "Chill"],
+            "pitcher": ["Bluffer", "vs Runner", "Chill"],
             "fielder": [],
             "positionAssignment": ["Power P", "Auto"]
         }
@@ -8051,7 +8051,7 @@
         "Pitching Form": "–––––",
         "Batting Form": "General 69",
         "Traits": {
-            "Vs. LHP": "B",
+            "vs LHP": "B",
             "Catcher": "C",
             "Runner": "B"
         },
@@ -8697,8 +8697,8 @@
         "Pitching Form": "Three-Quarters 14",
         "Batting Form": "General 86",
         "Traits": {
-            "W/RISP": "C",
-            "Vs. LHB": "B",
+            "w/ RISP": "C",
+            "vs LHB": "B",
             "Poise": "E",
             "Heater": "C"
         },
@@ -9155,7 +9155,7 @@
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "General 25",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Recovery": "C"
         },
         "Abilities": {
@@ -9201,7 +9201,7 @@
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 27",
         "Traits": {
-            "Vs. LHB": "A",
+            "vs LHB": "A",
             "Poise": "B",
             "Heater": "B",
             "Agile": "B",
@@ -9348,13 +9348,13 @@
         "Pitching Form": "Overhead 15",
         "Batting Form": "General 25",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Poise": "B",
             "Heater": "A",
             "Recovery": "C"
         },
         "Abilities": {
-            "pitcher": ["Ironball", "Momentum", "Vs. Slugger"],
+            "pitcher": ["Ironball", "Momentum", "vs Slugger"],
             "fielder": ["Bunt Ace", "Rally"],
             "positionAssignment": ["Aggrssiv Fld", "Auto"]
         }
@@ -9436,11 +9436,11 @@
         "Pitching Form": "Sidearm 15",
         "Batting Form": "General 25",
         "Traits": {
-            "W/RISP": "F",
+            "w/ RISP": "F",
             "Recovery": "C"
         },
         "Abilities": {
-            "pitcher": ["Vs. Runner"],
+            "pitcher": ["vs Runner"],
             "fielder": [],
             "positionAssignment": ["Auto"]
         }
@@ -9474,7 +9474,7 @@
         "Batting Form": "General 5",
         "Traits": {
             "Clutch": "A",
-            "Vs. LHP": "F",
+            "vs LHP": "F",
             "Throwing": "E"
         },
         "Abilities": {
@@ -9554,7 +9554,7 @@
         "Pitching Form": "Sidearm 2",
         "Batting Form": "–––––",
         "Traits": {
-            "W/RISP": "C",
+            "w/ RISP": "C",
             "Poise": "C",
             "Heater": "C"
         },
@@ -9877,7 +9877,7 @@
         "Pitching Form": "Overhead 15",
         "Batting Form": "General 28",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Recovery": "C"
         },
         "Abilities": {
@@ -10145,7 +10145,7 @@
         },
         "Abilities": {
             "pitcher": [],
-            "fielder": ["Slugger", "Squibber", "Rally", "Glover", "Vs. Ace", "Clinical"],
+            "fielder": ["Slugger", "Squibber", "Rally", "Glover", "vs Ace", "Clinical"],
             "positionAssignment": ["Slap Hitter", "Aggrssiv Fld"]
         }
     }, {
@@ -10255,7 +10255,7 @@
         "Pitching Form": "Overhead 15",
         "Batting Form": "General 27",
         "Traits": {
-            "Vs. LHB": "A",
+            "vs LHB": "A",
             "Heater": "A",
             "Recovery": "C",
             "Runner": "B"
@@ -10494,7 +10494,7 @@
         "Batting Form": "General 27",
         "Traits": {},
         "Abilities": {
-            "pitcher": ["Cutter", "Ironball", "Battler", "Vs. Slugger"],
+            "pitcher": ["Cutter", "Ironball", "Battler", "vs Slugger"],
             "fielder": ["Sprayer", "Push Hit", "Clinical"],
             "positionAssignment": ["Auto"]
         }
@@ -10565,7 +10565,7 @@
         "Pitching Form": "–––––",
         "Batting Form": "General 43",
         "Traits": {
-            "Vs. LHP": "A",
+            "vs LHP": "A",
             "Throwing": "C"
         },
         "Abilities": {
@@ -10998,7 +10998,7 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitcher": ["Crossfire", "Vs. Slugger", "Bluffer", "Downplay", "Moody"],
+            "pitcher": ["Crossfire", "vs Slugger", "Bluffer", "Downplay", "Moody"],
             "fielder": [],
             "positionAssignment": ["Pace", "Brk Ball P", "Auto"]
         }
@@ -11111,7 +11111,7 @@
         "Pitching Form": "Overhead 69",
         "Batting Form": "General 29",
         "Traits": {
-            "W/RISP": "B",
+            "w/ RISP": "B",
             "Recovery": "C"
         },
         "Abilities": {
@@ -11314,8 +11314,8 @@
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "–––––",
         "Traits": {
-            "W/RISP": "B",
-            "Vs. LHB": "B",
+            "w/ RISP": "B",
+            "vs LHB": "B",
             "Poise": "B",
             "Recovery": "C"
         },
