@@ -1,3 +1,99 @@
+// -- Reusable Styles
+
+// Info Rows inside Popover Body
+
+#popover-body .info-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 4px 8px;
+
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    
+    background: linear-gradient(#eef9f9, #e0f3f7);
+}
+
+// Info Rows inside Name and Form Sections
+
+#popover-name-section .info-row,
+#popover-form-section .info-row {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+// Info Row Labels inside Popover Body
+
+#popover-body .info-row .label {
+    height: fit-content;
+    padding: 4px 8px;
+    // set constant width?
+
+    border-radius: 10px;
+    border: #d7e3f0 solid 1px;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #3f78c1;
+
+    background: linear-gradient(#fafdff, #e9eced);
+}
+
+// Info Row Content inside Popover Body
+
+#popover-body .info-row .content {
+    flex: 1;
+
+    text-align: center;
+    color: #1b44a8;
+}
+
+// Letter Ratings inside Info Rows inside Popover Body
+
+#popover-body .info-row .letter-rating {
+    height: 32px;
+    margin-bottom: -4px;
+}
+
+// Pitch Speed Text Suffix inside Popover Body
+
+#popover-body .pitch-speed::after {
+    font-size: 20px;
+}
+
+// Number Value inside Info Rows in Ratings Sections (but ignoring the pitch speed value and inside the Position Ratings Grid)
+
+#popover-body .ratings-section .info-row:not(#position-ratings-grid) .content:not(.pitch-speed):last-child {
+    flex: revert;
+
+    margin-right: 36px;
+    width: 48px;
+}
+
+#popover-body #position-ratings-grid :is(.h-divider, .v-divider) {
+    margin: auto;
+
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#popover-body #position-ratings-grid .h-divider {
+    width: calc(100% - 8px);
+    height: 2px;
+}
+
+#popover-body #position-ratings-grid .v-divider {
+    width: 2px;
+    height: calc(100% - 8px);
+}
+
+#popover-body #position-ratings-grid .empty-divider {
+    width: 0px;
+    height: 0px;
+}
+
 // Wrapper and first-level internal div
 
 #popover-wrapper {
@@ -373,100 +469,4 @@
 
 .skills-grid .skill-cell[rating="+-"] {
     background: linear-gradient(to right, #c3f7fd 0%, #c3f7fd 49.99%, #f7cfcc 50%, #f7cfcc 100%);
-}
-
-// -- Reusable Styles
-
-// Info Rows inside Popover Body
-
-#popover-body .info-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-
-    padding: 4px 8px;
-
-    border-color: white;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 2px;
-    
-    background: linear-gradient(#eef9f9, #e0f3f7);
-}
-
-// Info Rows inside Name and Form Sections
-
-#popover-name-section .info-row,
-#popover-form-section .info-row {
-    border-color: rgba(0, 0, 0, 0.2);
-}
-
-// Info Row Labels inside Popover Body
-
-#popover-body .info-row .label {
-    height: fit-content;
-    padding: 4px 8px;
-    // set constant width?
-
-    border-radius: 10px;
-    border: #d7e3f0 solid 1px;
-
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    color: #3f78c1;
-
-    background: linear-gradient(#fafdff, #e9eced);
-}
-
-// Info Row Content inside Popover Body
-
-#popover-body .info-row .content {
-    flex: 1;
-
-    text-align: center;
-    color: #1b44a8;
-}
-
-// Letter Ratings inside Info Rows inside Popover Body
-
-#popover-body .info-row .letter-rating {
-    height: 32px;
-    margin-bottom: -4px;
-}
-
-// Pitch Speed Text Suffix inside Popover Body
-
-#popover-body .pitch-speed::after {
-    font-size: 20px;
-}
-
-// Number Value inside Info Rows in Ratings Sections (but ignoring the pitch speed value and inside the Position Ratings Grid)
-
-#popover-body .ratings-section .info-row:not(#position-ratings-grid) .content:not(.pitch-speed):last-child {
-    flex: revert;
-
-    margin-right: 36px;
-    width: 48px;
-}
-
-#popover-body #position-ratings-grid :is(.h-divider, .v-divider) {
-    margin: auto;
-
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-#popover-body #position-ratings-grid .h-divider {
-    width: calc(100% - 8px);
-    height: 2px;
-}
-
-#popover-body #position-ratings-grid .v-divider {
-    width: 2px;
-    height: calc(100% - 8px);
-}
-
-#popover-body #position-ratings-grid .empty-divider {
-    width: 0px;
-    height: 0px;
 }
