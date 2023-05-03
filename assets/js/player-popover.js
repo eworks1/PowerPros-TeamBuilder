@@ -370,7 +370,7 @@ function playerDoubleClicked(player) {
             if (i < player.Abilities.pitcher.length) {
                 cell.classList.remove('blank');
                 const ability = all_abilities.abilities[player.Abilities.pitcher[i]];
-                cell.firstElementChild.textContent = ability.Abbr;
+                cell.firstElementChild.textContent = ability.abbr;
                 
                 cell.setAttribute('rating', ability.Effect);
                 if (ability.fullName) {
