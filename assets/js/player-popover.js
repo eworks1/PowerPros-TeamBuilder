@@ -380,7 +380,7 @@ function playerDoubleClicked(player) {
                 }
             } else {
                 cell.classList.add('blank');
-                cell.firstElementChild.innerHTML = '&nbsp;';
+                cell.firstElementChild.textContent = '';
                 
                 cell.removeAttribute('rating');
                 cell.title = ''; // clear hover text
