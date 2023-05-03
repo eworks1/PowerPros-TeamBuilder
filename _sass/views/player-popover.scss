@@ -335,7 +335,8 @@
     color: #3f78c1;
 }
 
-#pitching-skills .skill-cell .skill-desc:not(:only-child) {
+#pitching-skills .skill-cell .skill-desc:not(:only-child),
+#pitching-skills .skill-cell:not([rating="S"]) .skill-desc {
     margin-right: -16px;
     background: #c3f7fd;
 }
