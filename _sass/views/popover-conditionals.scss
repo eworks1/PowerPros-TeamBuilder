@@ -97,8 +97,26 @@
 // Pitching skills
 // Only show on pitching tab
 
-// pitchers: pitching skill (`skills` grid area)
-// if pitcher, hide this on *not* pitching tab (show it on only that tab)
-#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="pitching"])+#popover-body #pitcher-skills {
+// all players: pitching skill (`skills` grid area)
+// hide this on *not* pitching tab (show it on only that tab)
+#popover-wrapper :not(#popover-tabbar[current-tab="pitching"])+#popover-body #pitcher-skills {
+    display: none;
+}
+
+// Fielding skills
+// Only show on fielder tab
+
+// all players: fielding skill (`skills` grid area)
+// hide this on *not* batting (fielding) tab (show it on only that tab)
+#popover-wrapper :not(#popover-tabbar[current-tab="batting"])+#popover-body #fielder-skills {
+    display: none;
+}
+
+// Position Assignment skills
+// Only show on position tab
+
+// all players: position assignment skills (`skills` grid area)
+// hide this on *not* position tab (show it on only that tab)
+#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="position"])+#popover-body #posasgmt-skills {
     display: none;
 }
