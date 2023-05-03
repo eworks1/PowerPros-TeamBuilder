@@ -335,8 +335,7 @@
     color: #3f78c1;
 }
 
-.skills-grid .skill-cell .skill-desc:not(:only-child),
-.skills-grid .skill-cell:not([rating="S"]) .skill-desc {
+.skills-grid .skill-cell:not([rating="S"]) .skill-desc:not(:only-child) {
     margin-right: -16px;
     background: #c3f7fd;
 }
