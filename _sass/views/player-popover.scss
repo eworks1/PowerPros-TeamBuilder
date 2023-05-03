@@ -298,13 +298,13 @@
 
 // Pitching Skills
 
-#pitching-skills {
+.skills-grid {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto) 4px repeat(6, auto);
     align-content: start;
 }
 
-#pitching-skills .skill-cell {
+.skills-grid .skill-cell {
     display: flex;
     align-items: center;
     height: 100%;
@@ -317,7 +317,7 @@
     font-size: 24px;
 }
 
-#pitching-skills .skill-cell :is(.skill-desc, .skill-rating) {
+.skills-grid .skill-cell :is(.skill-desc, .skill-rating) {
     height: 100%;    
     padding: 4px;
 
@@ -326,7 +326,7 @@
     text-align: center;
 }
 
-#pitching-skills .skill-cell .skill-desc {
+.skills-grid .skill-cell .skill-desc {
     flex: 1;
     z-index: 1;
     
@@ -335,13 +335,13 @@
     color: #3f78c1;
 }
 
-#pitching-skills .skill-cell .skill-desc:not(:only-child),
-#pitching-skills .skill-cell:not([rating="S"]) .skill-desc {
+.skills-grid .skill-cell .skill-desc:not(:only-child),
+.skills-grid .skill-cell:not([rating="S"]) .skill-desc {
     margin-right: -16px;
     background: #c3f7fd;
 }
 
-#pitching-skills .skill-cell .skill-rating {
+.skills-grid .skill-cell .skill-rating {
     // Overrides from 4px all-around padding
     padding-left: 20px;
     min-width: 40px;
@@ -352,27 +352,27 @@
     color: white;
 }
 
-#pitching-skills .skill-cell:is(.blank, [rating="C"], [rating="D"], [rating="E"]) {
+.skills-grid .skill-cell:is(.blank, [rating="C"], [rating="D"], [rating="E"]) {
     opacity: 0.5;
 }
 
-#pitching-skills .skill-cell:is([rating="A"], [rating="B"], [rating="="]) {
+.skills-grid .skill-cell:is([rating="A"], [rating="B"], [rating="="]) {
     background: green;
 }
 
-#pitching-skills .skill-cell:is([rating="F"], [rating="G"], [rating="-"]) {
+.skills-grid .skill-cell:is([rating="F"], [rating="G"], [rating="-"]) {
     background: red;
 }
 
-#pitching-skills .skill-cell[rating="S"] {
+.skills-grid .skill-cell[rating="S"] {
     background: gold;
 }
 
-#pitching-skills .skill-cell[rating="S"] .skill-desc+.skill-rating {
+.skills-grid .skill-cell[rating="S"] .skill-desc+.skill-rating {
     display: none;
 }
 
-#pitching-skills .skill-cell[rating="+-"] {
+.skills-grid .skill-cell[rating="+-"] {
     background: linear-gradient(to right, #c3f7fd 0%, #c3f7fd 49.99%, #f7cfcc 50%, #f7cfcc 100%);
 }
 
