@@ -357,7 +357,7 @@ function playerDoubleClicked(player) {
                         ratingSpan.textContent = 'D';
                     }
                 } else {
-                    cell.innerHTML = '&nbsp;';
+                    cell.textContent = '';
                     cell.title = ''; // clear hover text
                     cell.removeAttribute('rating');
                 }
