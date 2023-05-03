@@ -15,8 +15,8 @@
 /**
  * @typedef {Object} Ability
  * @property {string} abbr
- * @property {string} effect
- * @property {string} fullName
+ * @property {string} [effectType]
+ * @property {string} [fullName]
  * @property {string} description
  */
     
