@@ -38,9 +38,10 @@
 }
 
 #detail-box .handedness {
+    min-height: revert;
+
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: -1.5px;
-    min-height: revert;
 }
 
 .detail-trj-num {
