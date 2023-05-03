@@ -373,7 +373,11 @@ function playerDoubleClicked(player) {
                 cell.firstElementChild.textContent = ability.Abbr;
                 
                 cell.setAttribute('rating', ability.Effect);
-                cell.title = `${ability.FullName}: ${ability.Description}`;
+                if (ability.fullName) {
+                    cell.title = `${ability.fullName}: ${ability.Description}`;
+                } else {
+                    cell.title = ability.description;
+                }
             } else {
                 cell.classList.add('blank');
                 cell.firstElementChild.innerHTML = '&nbsp;';
