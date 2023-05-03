@@ -399,7 +399,7 @@
     
     display: grid; 
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, auto) 4px repeat(6, auto);
+    grid-template-rows: repeat(2, auto) 4px repeat(5, auto);
     gap: 2px;
     align-content: start;
 }
