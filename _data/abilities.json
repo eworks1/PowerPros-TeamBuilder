@@ -6,38 +6,45 @@
                 "fullName": "with Runners in Scoring Position",
                 "description": "An ability that activates when runners are in scoring position.",
                 "sName": "Resolve",
-                "sDescription": "Stats increase greatly when runners are in scoring position."
+                "sDescription": "Stats increase greatly when runners are in scoring position.",
+                "order": 1
             },
             "vs LHB": {
                 "abbr": "vs LHB",
                 "fullName": "vs. Left-Handed Batter",
-                "description": "Ability for left-handed batters."
+                "description": "Ability for left-handed batters.",
+                "order": 2
             },
             "Poise": {
                 "abbr": "Poise",
-                "description": "Makes it more difficult to become Shaken when a batter hits your pitch."
+                "description": "Makes it more difficult to become Shaken when a batter hits your pitch.",
+                "order": 3
             },
             "Grit": {
                 "abbr": "Grit",
                 "description": "Makes it more difficult to get injuries.",
                 "sName": "Hardy",
-                "sDescription": "Very resistant to injuries."
+                "sDescription": "Very resistant to injuries.",
+                "order": 4
             },
             "Heater": {
                 "abbr": "Heater",
                 "description": "Increases fastball burst speed.",
                 "sName": "Bullet",
-                "sDescription": "Increases fastball burst speed greatly."
+                "sDescription": "Increases fastball burst speed greatly.",
+                "order": 5
             },
             "Agile": {
                 "abbr": "Agile",
-                "description": "Quickens your reactions to prevent stolen bases."
+                "description": "Quickens your reactions to prevent stolen bases.",
+                "order": 6
             },
             "Recovery": {
                 "abbr": "Recovery",
                 "description": "Makes it easier to recover from fatigue after pitching or participating in a game.",
                 "sName": "Dynamo",
-                "sDescription": "Great shortens pitching interval."
+                "sDescription": "Great shortens pitching interval.",
+                "order": 8
             }
         },
         "fielder": {
@@ -45,44 +52,52 @@
                 "abbr": "Clutch",
                 "description": "Lucky in chance-based situations.",
                 "sName": "Gambler",
-                "sDescription": "Extremely lucky when there's a good opportunity."
+                "sDescription": "Extremely lucky when there's a good opportunity.",
+                "order": 1
             },
             "vs LHP": {
                 "abbr": "vs LHP",
                 "fullName": "vs. Left-Handed Pitcher",
-                "description": "Abilities when facing left-handed pitchers."
+                "description": "Abilities when facing left-handed pitchers.",
+                "order": 2
             },
             "Catcher": {
                 "abbr": "Catcher",
-                "description": "Ability to draw out the best performance of pitchers."
+                "description": "Ability to draw out the best performance of pitchers.",
+                "order": 3
             },
             "Grit": {
                 "abbr": "Grit",
                 "description": "Makes it more difficult to get injuries.",
                 "sName": "Hardy",
-                "sDescription": "Very resistant to injuries."
+                "sDescription": "Very resistant to injuries.",
+                "order": 4
             },
             "Stealing": {
                 "abbr": "Stealing",
-                "description": "Ability for stealing bases."
+                "description": "Ability for stealing bases.",
+                "order": 5
             },
             "Runner": {
                 "abbr": "Runner",
                 "description": "Ability for running.",
                 "sName": "Hustle",
-                "sDescription": "Very good at running."
+                "sDescription": "Very good at running.",
+                "order": 6
             },
             "Throwing": {
                 "abbr": "Throwing",
                 "description": "Makes it more difficult for thrown balls to curve.",
                 "sName": "Bulleseye",
-                "sDescription": "Makes it much more difficult for thrown balls to curve."
+                "sDescription": "Makes it much more difficult for thrown balls to curve.",
+                "order": 7
             },
             "Recovery": {
                 "abbr": "Recovery",
                 "description": "Makes it easier to recover from fatigue after pitching or participating in a game.",
                 "sName": "Dynamo",
-                "sDescription": "Great shortens pitching interval."
+                "sDescription": "Great shortens pitching interval.",
+                "order": 8
             }
         }
     },
