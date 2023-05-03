@@ -364,7 +364,7 @@ function playerDoubleClicked(player) {
             }
         });
 
-        // Abilities (remaining 24 cells, from 9th on)
+        // Abilities (remaining 20 cells, from 9th on)
         cells.slice(8).forEach((cell, i) => {
             // Check if the current index is within the range of the player's abilities
             if (i < player.Abilities.pitcher.length) {
