@@ -471,7 +471,7 @@
     background: gold;
 }
 
-.skills-grid .skill-cell:not([rating="S"], .blank) .skill-desc+.skill-rating,
+.skills-grid .skill-cell:is([rating="S"], .blank) .skill-desc+.skill-rating,
 .skills-grid .skill-cell.blank .skill-desc+.skill-rating {
     display: none;
 }
