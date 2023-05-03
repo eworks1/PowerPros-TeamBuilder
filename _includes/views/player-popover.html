@@ -169,11 +169,6 @@
 
         <!-- Pitching Skills -->
         <div id="pitching-skills" class="info-row" style="grid-area: skills; display: grid; gap: 2px;">
-            {%- for i in (1..8) -%}
-            {%- assign trait = site.data.abilities.traits.pitcher | where_exp: "t", "t[1]['order'] == i" -%}
-            <!-- {{ trait }} -->
-            {%- endfor -%}
-
             {%- for trait in site.data.strings.traits.pitcher -%}
             <span class="skill-cell" rating>
                 <span class="skill-desc">{{ trait }}</span>
