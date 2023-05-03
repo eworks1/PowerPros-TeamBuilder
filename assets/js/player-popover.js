@@ -401,7 +401,7 @@ function playerDoubleClicked(player) {
             if (descSpan && ratingSpan) {
                 let traitAbbr = descSpan.getAttribute('traitAbbr');
                 if (traitAbbr == 'Catcher') {
-                    if (getPrimaryPosition(player) == 'C') {
+                    if (player["Field Position"].includes('C')) {
                         cell.classList.remove('blank');
                     } else {
                         cell.classList.add('blank');
