@@ -117,6 +117,6 @@
 
 // all players: position assignment skills (`skills` grid area)
 // hide this on *not* position tab (show it on only that tab)
-#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="position"])+#popover-body #posasgmt-skills {
+#popover-wrapper :not(#popover-tabbar[current-tab="position"])+#popover-body #posasgmt-skills {
     display: none;
 }
