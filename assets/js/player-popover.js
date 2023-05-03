@@ -343,9 +343,9 @@ function playerDoubleClicked(player) {
                 if (traitAbbr) { // this checks if it's an empty string
                     const trait = all_abilities.traits.pitcher?.[traitAbbr];
                     if (trait && trait.fullName) {
-                        cell.title = `${trait.fullName}: ${trait.Description}`;
+                        cell.title = `${trait.fullName}: ${trait.description}`;
                     } else {
-                        cell.title = trait.Description;
+                        cell.title = trait.description;
                     }
 
                     const traitRating = player.Traits?.[traitAbbr];
