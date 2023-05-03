@@ -2,13 +2,6 @@
 ---
 @import "main";
 @import "components/player-table";
-@import "views/team-counts";
-@import "views/instructions";
-
-@import "views/detail-view";
-@import "detail-views/fielding-detail";
-@import "detail-views/batting-detail";
-@import "detail-views/pitching-detail";
 
 @import "components/player-name-box";
 @import "components/cost-span";
@@ -22,6 +15,14 @@
 
 @import "components/position-square";
 @import "controls/position-filter";
+
+@import "views/team-counts";
+@import "views/instructions";
+
+@import "views/detail-view";
+@import "detail-views/fielding-detail";
+@import "detail-views/batting-detail";
+@import "detail-views/pitching-detail";
 
 @import "views/player-popover";
 @import "views/popover-conditionals";
