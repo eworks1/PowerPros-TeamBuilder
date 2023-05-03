@@ -20,7 +20,7 @@
  * @property {string} description
  */
     
-/** @type {{traits: Object.<string, Trait>, abilities: Object.<string, Ability>}} */
+/** @type {{traits: {pitcher: Object.<string, Trait>, fielder: Object.<string, Trait>}, abilities: Object.<string, Ability>}} */
 const all_abilities = allAbilities();
 {% endraw %}
 
