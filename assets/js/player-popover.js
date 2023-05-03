@@ -326,6 +326,64 @@ function playerDoubleClicked(player) {
         }
     }
 
+    // -- Abilities
+    
+    // Pitching Traits
+    const popoverAbilitiesSection = document.getElementById('pitching-skills');
+    if (popoverAbilitiesSection) {
+        const cells = Array.from(popoverAbilitiesSection.querySelectorAll('.skill-cell'));
+        
+        // Traits (first 8 cells)
+        cells.slice(0, 8).forEach(cell => {
+            const descSpan = cell.querySelector('.skill-desc');
+            const ratingSpan = cell.querySelector('.skill-rating');
+
+            if (descSpan && ratingSpan) {
+                const traitAbbr = descSpan.getAttribute('traitAbbr');
+                if (traitAbbr) { // this checks if it's an empty string
+                    const trait = all_abilities.traits[traitAbbr];
+                    if (trait.fullName) {
+                        cell.title = `${trait.fullName}: ${trait.Description}`;
+                    } else {
+                        cell.title = trait.Description;
+                    }
+
+                    const traitRating = player.Traits?.[traitAbbr];
+                    if (traitRating) {
+                        cell.setAttribute('rating', traitRating);
+                        ratingSpan.textContent = traitRating;
+                    } else {
+                        cell.setAttribute('rating', 'D');
+                        ratingSpan.textContent = 'D';
+                    }
+                } else {
+                    cell.innerHTML = '&nbsp;';
+                    cell.title = ''; // clear hover text
+                    cell.removeAttribute('rating');
+                }
+            }
+        });
+
+        // Abilities (remaining 24 cells, from 9th on)
+        cells.slice(8).forEach((cell, i) => {
+            // Check if the current index is within the range of the player's abilities
+            if (i < player.Abilities.length) {
+                cell.classList.remove('blank');
+                const ability = all_abilities.abilities[player.Abilities[i]];
+                cell.firstElementChild.textContent = ability.Abbr;
+                
+                cell.setAttribute('rating', ability.Effect);
+                cell.title = `${ability.FullName}: ${ability.Description}`;
+            } else {
+                cell.classList.add('blank');
+                cell.firstElementChild.innerHTML = '&nbsp;';
+                
+                cell.removeAttribute('rating');
+                cell.title = ''; // clear hover text
+            }
+        });
+    }
+
     // Show popover once all info is updated
     popover.classList.remove('hidden');
 }
