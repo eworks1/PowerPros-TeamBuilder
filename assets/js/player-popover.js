@@ -402,9 +402,9 @@ function playerDoubleClicked(player) {
                 let traitAbbr = descSpan.getAttribute('traitAbbr');
                 if (traitAbbr == 'Catcher') {
                     if (getPrimaryPosition(player) == 'C') {
-                        cell.classList.add('blank');
-                    } else {
                         cell.classList.remove('blank');
+                    } else {
+                        cell.classList.add('blank');
                     }
                 }
 
