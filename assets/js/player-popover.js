@@ -329,7 +329,7 @@ function playerDoubleClicked(player) {
     // -- Abilities
     
     // Pitching Traits
-    const popoverAbilitiesSection = document.getElementById('pitching-skills');
+    const popoverAbilitiesSection = document.getElementById('pitcher-skills');
     if (popoverAbilitiesSection) {
         const cells = Array.from(popoverAbilitiesSection.querySelectorAll('.skill-cell'));
         

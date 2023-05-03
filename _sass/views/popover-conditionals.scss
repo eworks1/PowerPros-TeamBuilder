@@ -99,6 +99,6 @@
 
 // pitchers: pitching skill (`skills` grid area)
 // if pitcher, hide this on *not* pitching tab (show it on only that tab)
-#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="pitching"])+#popover-body #pitching-skills {
+#popover-wrapper[primary-pos="pitcher"] :not(#popover-tabbar[current-tab="pitching"])+#popover-body #pitcher-skills {
     display: none;
 }
