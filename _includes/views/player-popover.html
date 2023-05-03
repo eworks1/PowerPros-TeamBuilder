@@ -167,9 +167,12 @@
             </div>
         </div>
 
-        <!-- Pitching Skills -->
-        <div id="pitcher-skills" class="skills-grid info-row">
-            {%- for traitAbbr in site.data.strings.traits.pitcher -%}
+        {%- assign skill_keys = 'pitcher fielder posasgmt' | split: ' ' -%}
+
+        {%- for key in skill_keys -%}
+        <!-- {{ key }} skills grid -->
+        <div id="{{ key }}-skills" class="skills-grid info-row">
+            {%- for traitAbbr in site.data.strings.traits[key] -%}
             {%- assign classStr = 'skill-cell' -%}
             {%- if traitAbbr == '' -%}
                 {%- assign classStr = 'skill-cell blank' -%}
@@ -181,13 +184,16 @@
             </span>
             {%- endfor -%}
 
+            {%- unless key == 'posasgmt' -%} 
             {%- for i in (1..4) -%}
             <span></span>
             {%- endfor -%}
+            {%- endunless -%}
 
             {%- for i in (1..24) -%}
             <span class="skill-cell blank"><span class="skill-desc">&nbsp;</span></span>
             {%- endfor -%}
         </div>
+        {%- endfor -%}
     </div>
 </div>
