@@ -103,3 +103,7 @@ body {
 .pitch-speed::after {
     content: " km/h";
 }
+
+:not([title=""])[title] {
+    cursor: help;
+}
