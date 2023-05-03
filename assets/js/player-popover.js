@@ -372,9 +372,9 @@ function playerDoubleClicked(player) {
                 const ability = all_abilities.abilities[player.Abilities.pitcher[i]];
                 cell.firstElementChild.textContent = ability.abbr;
                 
-                cell.setAttribute('rating', ability.Effect);
+                cell.setAttribute('rating', ability.effectType);
                 if (ability.fullName) {
-                    cell.title = `${ability.fullName}: ${ability.Description}`;
+                    cell.title = `${ability.fullName}: ${ability.description}`;
                 } else {
                     cell.title = ability.description;
                 }
