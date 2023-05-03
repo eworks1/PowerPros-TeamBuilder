@@ -360,7 +360,7 @@
 }
 
 .skills-grid .skill-cell:is([rating="F"], [rating="G"], [rating="-"]) {
-    background: red;
+    background: #f7cfcc;
 }
 
 .skills-grid .skill-cell[rating="S"] {
