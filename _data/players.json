@@ -65,8 +65,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Reflexes", "Gripper"],
-            "fielding": [],
+            "pitcher": ["Reflexes", "Gripper"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -114,8 +114,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Reflexes"],
-            "fielding": [],
+            "pitcher": ["Reflexes"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -160,8 +160,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Vs. Slugger", "Downplay"],
-            "fielding": [],
+            "pitcher": ["Vs. Slugger", "Downplay"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -198,8 +198,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Diver"],
+            "pitcher": [],
+            "fielder": ["Diver"],
             "positionAssignment": []
         }
     }, {
@@ -246,8 +246,8 @@
             "Heater": "S"
         },
         "Abilities": {
-            "pitching": ["Carver", "Ironball"],
-            "fielding": ["Slugger", "Rally", "Victor"],
+            "pitcher": ["Carver", "Ironball"],
+            "fielder": ["Slugger", "Rally", "Victor"],
             "positionAssignment": ["Pace", "Brk Ball P", "Auto"]
         }
     }, {
@@ -288,8 +288,8 @@
             "Recovery": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -330,8 +330,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -364,8 +364,8 @@
         "Batting Form": "Standard 2",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Clutch"],
+            "pitcher": [],
+            "fielder": ["Clutch"],
             "positionAssignment": []
         }
     }, {
@@ -405,8 +405,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": ["Low Ball"],
-            "fielding": [],
+            "pitcher": ["Low Ball"],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -445,8 +445,8 @@
         "Batting Form": "General 28",
         "Traits": {},
         "Abilities": {
-            "pitching": ["Cutter"],
-            "fielding": ["Slugger"],
+            "pitcher": ["Cutter"],
+            "fielder": ["Slugger"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -483,8 +483,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Setter"],
+            "pitcher": [],
+            "fielder": ["Setter"],
             "positionAssignment": ["Aggrssiv Run"]
         }
     }, {
@@ -526,8 +526,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Ironball", "Dr. K", "Battler", "Vs. Slugger"],
-            "fielding": [],
+            "pitcher": ["Cutter", "Ironball", "Dr. K", "Battler", "Vs. Slugger"],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -562,8 +562,8 @@
             "Clutch": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Blunder"],
+            "pitcher": [],
+            "fielder": ["Blunder"],
             "positionAssignment": ["Slap Hitter"]
         }
     }, {
@@ -610,8 +610,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Vs. Slugger"],
-            "fielding": [],
+            "pitcher": ["Vs. Slugger"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -659,8 +659,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Vs. Slugger"],
-            "fielding": ["Good Eye", "Clinical"],
+            "pitcher": ["Vs. Slugger"],
+            "fielder": ["Good Eye", "Clinical"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -705,8 +705,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": ["Crossfire", "Toolkit", "Airball"],
-            "fielding": [],
+            "pitcher": ["Crossfire", "Toolkit", "Airball"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -746,8 +746,8 @@
         "Batting Form": "General 24",
         "Traits": {},
         "Abilities": {
-            "pitching": ["Battler", "Hot Head"],
-            "fielding": ["Slugger", "Rally"],
+            "pitcher": ["Battler", "Hot Head"],
+            "fielder": ["Slugger", "Rally"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -790,8 +790,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Rally"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Rally"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -825,8 +825,8 @@
         "Batting Form": "General 25",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber", "Clutch", "Vs. Ace", "Easy Out"],
+            "pitcher": [],
+            "fielder": ["Squibber", "Clutch", "Vs. Ace", "Easy Out"],
             "positionAssignment": ["Cautious Stl", "Selfless", "Patient Htr"]
         }
     }, {
@@ -861,8 +861,8 @@
             "Stealing": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt Ace", "Squibber", "Low Hit", "Glover", "Morale", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Bunt Ace", "Squibber", "Low Hit", "Glover", "Morale", "Mood Swinger"],
             "positionAssignment": ["Slap Hitter", "Aggrssiv Fld"]
         }
     }, {
@@ -902,8 +902,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["High Hit", "Morale"],
+            "pitcher": [],
+            "fielder": ["High Hit", "Morale"],
             "positionAssignment": ["Star"]
         }
     }, {
@@ -943,8 +943,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Glover", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Glover", "Good Eye"],
             "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run", "Aggrssiv Stl"]
         }
     }, {
@@ -981,8 +981,8 @@
             "Grit": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Rally", "Glover", "Easy Out"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Rally", "Glover", "Easy Out"],
             "positionAssignment": []
         }
     }, {
@@ -1016,8 +1016,8 @@
         "Batting Form": "General 15",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Sprayer", "Slam Fan", "Menace", "Trucker", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Sprayer", "Slam Fan", "Menace", "Trucker", "Slugger"],
             "positionAssignment": ["Star", "Patient Htr"]
         }
     }, {
@@ -1053,8 +1053,8 @@
             "Clutch": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Homer", "Slam Fan", "Victor"],
+            "pitcher": [],
+            "fielder": ["Homer", "Slam Fan", "Victor"],
             "positionAssignment": []
         }
     }, {
@@ -1094,8 +1094,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber", "Rally", "Slam Fan", "Victor", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Squibber", "Rally", "Slam Fan", "Victor", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -1131,8 +1131,8 @@
             "Clutch": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Hot Bat", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Hot Bat", "Mood Swinger"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -1167,8 +1167,8 @@
         "Batting Form": "General 68",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Rally", "Vs. Ace", "Victor", "Grounder", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Rally", "Vs. Ace", "Victor", "Grounder", "Mood Swinger"],
             "positionAssignment": []
         }
     }, {
@@ -1205,8 +1205,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger"],
+            "pitcher": [],
+            "fielder": ["Slugger"],
             "positionAssignment": []
         }
     }, {
@@ -1251,8 +1251,8 @@
         "Batting Form": "General 27",
         "Traits": {},
         "Abilities": {
-            "pitching": ["Handler", "Airball", "Unlucky"],
-            "fielding": [],
+            "pitcher": ["Handler", "Airball", "Unlucky"],
+            "fielder": [],
             "positionAssignment": ["Pace", "Brk Ball P", "Auto"]
         }
     }, {
@@ -1297,8 +1297,8 @@
             "Clutch": "B"
         },
         "Abilities": {
-            "pitching": ["Trusty"],
-            "fielding": ["Squibber"],
+            "pitcher": ["Trusty"],
+            "fielder": ["Squibber"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -1334,8 +1334,8 @@
             "Catcher": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "High Hit", "Menace", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Slugger", "High Hit", "Menace", "Good Eye"],
             "positionAssignment": ["Selfish", "Patient Htr"]
         }
     }, {
@@ -1374,8 +1374,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Hot Bat", "Slam Fan", "Insurer", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Hot Bat", "Slam Fan", "Insurer", "Clinical"],
             "positionAssignment": ["Selfish", "Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run", "Aggrssiv Stl"]
         }
     }, {
@@ -1411,8 +1411,8 @@
             "Vs. LHP": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Menace", "Morale"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Menace", "Morale"],
             "positionAssignment": []
         }
     }, {
@@ -1454,8 +1454,8 @@
         "Batting Form": "General 7",
         "Traits": {},
         "Abilities": {
-            "pitching": ["Ironball", "Tyrant", "Bluffer", "Meatball"],
-            "fielding": ["Slugger"],
+            "pitcher": ["Ironball", "Tyrant", "Bluffer", "Meatball"],
+            "fielder": ["Slugger"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -1502,8 +1502,8 @@
             "Clutch": "B"
         },
         "Abilities": {
-            "pitching": ["Ironball", "Trusty", "Chill"],
-            "fielding": ["Slugger", "Sprayer", "Low Hit", "Clinical"],
+            "pitcher": ["Ironball", "Trusty", "Chill"],
+            "fielder": ["Slugger", "Sprayer", "Low Hit", "Clinical"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -1541,8 +1541,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Trucker"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Trucker"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -1580,8 +1580,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Clutch", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Clutch", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -1614,8 +1614,8 @@
         "Batting Form": "General 35",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Pull Hit", "Setter", "Rally", "Morale", "Slam Fan"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Pull Hit", "Setter", "Rally", "Morale", "Slam Fan"],
             "positionAssignment": []
         }
     }, {
@@ -1651,8 +1651,8 @@
             "Stealing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Hot Bat", "Glover", "Morale", "Grounder", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Hot Bat", "Glover", "Morale", "Grounder", "Good Eye"],
             "positionAssignment": ["Selfless", "Aggrssiv Fld", "Aggrssiv Htr"]
         }
     }, {
@@ -1694,8 +1694,8 @@
         "Batting Form": "General 25",
         "Traits": {},
         "Abilities": {
-            "pitching": ["Cutter", "Insider"],
-            "fielding": ["Squibber", "Clutch", "Clinical"],
+            "pitcher": ["Cutter", "Insider"],
+            "fielder": ["Squibber", "Clutch", "Clinical"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -1741,8 +1741,8 @@
             "Catcher": "B"
         },
         "Abilities": {
-            "pitching": ["Cutter"],
-            "fielding": ["Heckler", "Sprayer", "Level-Headed", "Good Eye", "Clinical"],
+            "pitcher": ["Cutter"],
+            "fielder": ["Heckler", "Sprayer", "Level-Headed", "Good Eye", "Clinical"],
             "positionAssignment": ["Star", "Slap Hitter", "Patient Htr"]
         }
     }, {
@@ -1786,8 +1786,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Ironball", "Tyrant", "Insider"],
-            "fielding": [],
+            "pitcher": ["Cutter", "Ironball", "Tyrant", "Insider"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -1832,8 +1832,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Ironball", "Reflexes", "Tyrant"],
-            "fielding": ["Good Eye"],
+            "pitcher": ["Cutter", "Ironball", "Reflexes", "Tyrant"],
+            "fielder": ["Good Eye"],
             "positionAssignment": ["Patient Htr", "Power P", "Auto"]
         }
     }, {
@@ -1866,8 +1866,8 @@
         "Batting Form": "General 27",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Sprayer", "Rally", "Menace"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Sprayer", "Rally", "Menace"],
             "positionAssignment": ["Star"]
         }
     }, {
@@ -1902,8 +1902,8 @@
             "Clutch": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Victor", "Trucker", "Easy Out"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Victor", "Trucker", "Easy Out"],
             "positionAssignment": []
         }
     }, {
@@ -1937,8 +1937,8 @@
         "Batting Form": "General 26",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Pull Hit", "High Hit"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Pull Hit", "High Hit"],
             "positionAssignment": []
         }
     }, {
@@ -1975,8 +1975,8 @@
             "Stealing": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Hot Bat", "Low Hit", "Diver", "Takeout", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Hot Bat", "Low Hit", "Diver", "Takeout", "Good Eye"],
             "positionAssignment": ["Slap Hitter", "Aggrssiv Fld", "Aggrssiv Stl"]
         }
     }, {
@@ -2015,8 +2015,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Trucker"],
+            "pitcher": [],
+            "fielder": ["Trucker"],
             "positionAssignment": []
         }
     }, {
@@ -2059,8 +2059,8 @@
         "Batting Form": "General 27",
         "Traits": {},
         "Abilities": {
-            "pitching": ["Dr. K", "Downplay"],
-            "fielding": [],
+            "pitcher": ["Dr. K", "Downplay"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -2100,8 +2100,8 @@
             "Throwing": "A"
         },
         "Abilities": {
-            "pitching": ["Hot Head"],
-            "fielding": ["Slugger"],
+            "pitcher": ["Hot Head"],
+            "fielder": ["Slugger"],
             "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run"]
         }
     }, {
@@ -2138,8 +2138,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Survivor", "Setter", "Clutch", "Good Eye", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Survivor", "Setter", "Clutch", "Good Eye", "Slugger"],
             "positionAssignment": []
         }
     }, {
@@ -2177,8 +2177,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Takeout", "Breaker", "Insurer", "Level-Headed"],
+            "pitcher": [],
+            "fielder": ["Takeout", "Breaker", "Insurer", "Level-Headed"],
             "positionAssignment": []
         }
     }, {
@@ -2221,8 +2221,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Vs. Runner"],
-            "fielding": [],
+            "pitcher": ["Vs. Runner"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -2258,8 +2258,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Laser", "Trucker"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Laser", "Trucker"],
             "positionAssignment": []
         }
     }, {
@@ -2304,8 +2304,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Toolkit"],
-            "fielding": ["Survivor", "Squibber"],
+            "pitcher": ["Cutter", "Toolkit"],
+            "fielder": ["Survivor", "Squibber"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -2339,8 +2339,8 @@
         "Batting Form": "–––––",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Hot Bat", "Menace", "Good Eye", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Hot Bat", "Menace", "Good Eye", "Slugger"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -2384,8 +2384,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Momentum", "Battler", "Unlucky", "Hot Head"],
-            "fielding": [],
+            "pitcher": ["Momentum", "Battler", "Unlucky", "Hot Head"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -2422,8 +2422,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Pinch", "Blocker", "Trucker", "Easy Out"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Pinch", "Blocker", "Trucker", "Easy Out"],
             "positionAssignment": []
         }
     }, {
@@ -2458,8 +2458,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Aggrssiv Run"]
         }
     }, {
@@ -2497,8 +2497,8 @@
             "Throwing": "F"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber", "Survivor", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Squibber", "Survivor", "Slugger"],
             "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Stl"]
         }
     }, {
@@ -2535,8 +2535,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Selfless"]
         }
     }, {
@@ -2577,8 +2577,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Toolkit", "Hot Head"],
-            "fielding": [],
+            "pitcher": ["Toolkit", "Hot Head"],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -2625,8 +2625,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": ["Toolkit"],
-            "fielding": ["Rally", "Morale"],
+            "pitcher": ["Toolkit"],
+            "fielder": ["Rally", "Morale"],
             "positionAssignment": ["Slap Hitter", "Patient Htr", "Auto"]
         }
     }, {
@@ -2662,8 +2662,8 @@
             "Catcher": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Easy Out", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Easy Out", "Slugger"],
             "positionAssignment": []
         }
     }, {
@@ -2700,8 +2700,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Sprayer", "Blunder", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Sprayer", "Blunder", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -2742,8 +2742,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -2789,8 +2789,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Pace", "Auto"]
         }
     }, {
@@ -2836,8 +2836,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Pace", "Auto"]
         }
     }, {
@@ -2873,8 +2873,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Survivor", "High Hit"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Survivor", "High Hit"],
             "positionAssignment": []
         }
     }, {
@@ -2909,8 +2909,8 @@
             "Grit": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Rally", "Menace", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Rally", "Menace", "Slugger"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -2956,8 +2956,8 @@
             "Heater": "B"
         },
         "Abilities": {
-            "pitching": ["Ironball", "Tyrant", "Chill"],
-            "fielding": [],
+            "pitcher": ["Ironball", "Tyrant", "Chill"],
+            "fielder": [],
             "positionAssignment": ["Star", "Auto"]
         }
     }, {
@@ -3003,8 +3003,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": ["Trusty", "Momentum"],
-            "fielding": ["Sprayer", "High Hit"],
+            "pitcher": ["Trusty", "Momentum"],
+            "fielder": ["Sprayer", "High Hit"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -3040,8 +3040,8 @@
             "Catcher": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Insider", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Insider", "Clinical"],
             "positionAssignment": ["Star"]
         }
     }, {
@@ -3088,8 +3088,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Tyrant", "Chill"],
-            "fielding": [],
+            "pitcher": ["Tyrant", "Chill"],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -3125,8 +3125,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Trucker", "Hotshot", "Easy Out", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Trucker", "Hotshot", "Easy Out", "Mood Swinger"],
             "positionAssignment": []
         }
     }, {
@@ -3161,8 +3161,8 @@
             "Throwing": "F"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Rally", "Easy Out", "Blunder", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Rally", "Easy Out", "Blunder", "Slugger"],
             "positionAssignment": []
         }
     }, {
@@ -3195,8 +3195,8 @@
         "Batting Form": "General 29",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Mood Swinger"],
             "positionAssignment": []
         }
     }, {
@@ -3240,8 +3240,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Gripper", "Toolkit"],
-            "fielding": ["Good Eye", "Clinical"],
+            "pitcher": ["Cutter", "Gripper", "Toolkit"],
+            "fielder": ["Good Eye", "Clinical"],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -3286,8 +3286,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Bluffer", "Downplay"],
-            "fielding": [],
+            "pitcher": ["Bluffer", "Downplay"],
+            "fielder": [],
             "positionAssignment": ["Pace", "Auto"]
         }
     }, {
@@ -3333,8 +3333,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Low Ball", "Bluffer", "Chill"],
-            "fielding": [],
+            "pitcher": ["Low Ball", "Bluffer", "Chill"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -3378,8 +3378,8 @@
             "Poise": "B"
         },
         "Abilities": {
-            "pitching": ["Tyrant", "Low Ball", "Chill"],
-            "fielding": [],
+            "pitcher": ["Tyrant", "Low Ball", "Chill"],
+            "fielder": [],
             "positionAssignment": ["Pace", "Auto"]
         }
     }, {
@@ -3416,8 +3416,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Survivor", "Glover", "Breaker", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Survivor", "Glover", "Breaker", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -3452,8 +3452,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Aggrssiv Run"]
         }
     }, {
@@ -3489,8 +3489,8 @@
             "Clutch": "S"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Slugger", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Slugger", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -3526,8 +3526,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Clutch", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Clutch", "Good Eye"],
             "positionAssignment": ["Patient Htr"]
         }
     }, {
@@ -3562,8 +3562,8 @@
             "Stealing": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Joker", "Survivor", "Glover", "Line Drive", "Revenge", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Joker", "Survivor", "Glover", "Line Drive", "Revenge", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -3605,8 +3605,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Gyroball", "Reflexes", "Guts"],
-            "fielding": ["Morale"],
+            "pitcher": ["Gyroball", "Reflexes", "Guts"],
+            "fielder": ["Morale"],
             "positionAssignment": ["Pace", "Auto"]
         }
     }, {
@@ -3643,8 +3643,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Squibber", "Clinical"],
             "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Run"]
         }
     }, {
@@ -3678,8 +3678,8 @@
         "Batting Form": "–––––",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Mood Swinger", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Mood Swinger", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -3712,8 +3712,8 @@
         "Batting Form": "General 58",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Survivor", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Survivor", "Clinical"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -3757,8 +3757,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": ["Low Ball", "Toolkit"],
-            "fielding": ["Blunder"],
+            "pitcher": ["Low Ball", "Toolkit"],
+            "fielder": ["Blunder"],
             "positionAssignment": ["Star", "Pace", "Auto"]
         }
     }, {
@@ -3806,8 +3806,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Ironball", "Guts"],
-            "fielding": ["Pull Hit", "Trucker"],
+            "pitcher": ["Ironball", "Guts"],
+            "fielder": ["Pull Hit", "Trucker"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -3845,8 +3845,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt Ace", "Squibber", "Jester"],
+            "pitcher": [],
+            "fielder": ["Bunt Ace", "Squibber", "Jester"],
             "positionAssignment": ["Star", "Slap Hitter", "Aggrssiv Run"]
         }
     }, {
@@ -3883,8 +3883,8 @@
             "Throwing": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Sprayer", "Rally", "Laser", "Chaser"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Sprayer", "Rally", "Laser", "Chaser"],
             "positionAssignment": []
         }
     }, {
@@ -3919,8 +3919,8 @@
         "Batting Form": "General 101",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Easy Out", "Blunder"],
+            "pitcher": [],
+            "fielder": ["Easy Out", "Blunder"],
             "positionAssignment": []
         }
     }, {
@@ -3968,8 +3968,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -4016,8 +4016,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": ["Lucky"],
-            "fielding": [],
+            "pitcher": ["Lucky"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -4060,8 +4060,8 @@
             "Clutch": "F"
         },
         "Abilities": {
-            "pitching": ["Downplay", "Choker", "Unlucky"],
-            "fielding": ["Blunder", "Grounder"],
+            "pitcher": ["Downplay", "Choker", "Unlucky"],
+            "fielder": ["Blunder", "Grounder"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -4102,8 +4102,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Dr. K", "Low Ball", "Downplay", "Choker"],
-            "fielding": [],
+            "pitcher": ["Dr. K", "Low Ball", "Downplay", "Choker"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -4139,8 +4139,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Aggrssiv Run"]
         }
     }, {
@@ -4176,8 +4176,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber", "Setter", "Good Eye", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Squibber", "Setter", "Good Eye", "Clinical"],
             "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Run", "Aggrssiv Stl"]
         }
     }, {
@@ -4213,8 +4213,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Aggrssiv Run"]
         }
     }, {
@@ -4247,8 +4247,8 @@
         "Batting Form": "General 27",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit"],
+            "pitcher": [],
+            "fielder": ["Push Hit"],
             "positionAssignment": ["Slap Hitter"]
         }
     }, {
@@ -4291,8 +4291,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Engineer", "Lucky"],
-            "fielding": [],
+            "pitcher": ["Engineer", "Lucky"],
+            "fielder": [],
             "positionAssignment": ["Power P", "Auto"]
         }
     }, {
@@ -4329,8 +4329,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Hot Bat", "Squibber", "Refined", "Morale", "Clutch", "Trucker", "Diver"],
+            "pitcher": [],
+            "fielder": ["Hot Bat", "Squibber", "Refined", "Morale", "Clutch", "Trucker", "Diver"],
             "positionAssignment": ["Aggrssiv Fld"]
         }
     }, {
@@ -4383,8 +4383,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Sprayer", "Push Hit", "Squibber", "Eager", "Setter", "Low Hit", "Level-Headed", "Good Eye", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Sprayer", "Push Hit", "Squibber", "Eager", "Setter", "Low Hit", "Level-Headed", "Good Eye", "Clinical"],
             "positionAssignment": ["Star"]
         }
     }, {
@@ -4419,8 +4419,8 @@
             "Runner": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Joker", "Squibber"],
+            "pitcher": [],
+            "fielder": ["Joker", "Squibber"],
             "positionAssignment": ["Slap Hitter", "Aggrssiv Fld", "Aggrssiv Run"]
         }
     }, {
@@ -4470,8 +4470,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": ["Gyroball", "Ironball", "Crossfire"],
-            "fielding": ["Slugger", "Good Eye"],
+            "pitcher": ["Gyroball", "Ironball", "Crossfire"],
+            "fielder": ["Slugger", "Good Eye"],
             "positionAssignment": ["Power P", "Auto"]
         }
     }, {
@@ -4515,8 +4515,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Gyroball", "Momentum", "Battler"],
-            "fielding": ["Hot Bat", "Clutch"],
+            "pitcher": ["Gyroball", "Momentum", "Battler"],
+            "fielder": ["Hot Bat", "Clutch"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -4566,8 +4566,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Handler", "Downplay"],
-            "fielding": [],
+            "pitcher": ["Cutter", "Handler", "Downplay"],
+            "fielder": [],
             "positionAssignment": ["Pace", "Aggrssiv Fld", "Brk Ball P", "Auto"]
         }
     }, {
@@ -4604,8 +4604,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Easy Out", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Easy Out", "Mood Swinger"],
             "positionAssignment": []
         }
     }, {
@@ -4642,8 +4642,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Squibber", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Squibber", "Clinical"],
             "positionAssignment": ["Aggrssiv Fld"]
         }
     }, {
@@ -4682,8 +4682,8 @@
             "Catcher": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt Ace", "Rally", "Clutch", "Vs. Ace"],
+            "pitcher": [],
+            "fielder": ["Bunt Ace", "Rally", "Clutch", "Vs. Ace"],
             "positionAssignment": ["Aggrssiv Fld"]
         }
     }, {
@@ -4720,8 +4720,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt Ace", "Glover"],
+            "pitcher": [],
+            "fielder": ["Bunt Ace", "Glover"],
             "positionAssignment": ["Slap Hitter", "Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run"]
         }
     }, {
@@ -4756,8 +4756,8 @@
             "Catcher": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt Ace", "Refined"],
+            "pitcher": [],
+            "fielder": ["Bunt Ace", "Refined"],
             "positionAssignment": []
         }
     }, {
@@ -4794,8 +4794,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": []
         }
     }, {
@@ -4835,8 +4835,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt"],
+            "pitcher": [],
+            "fielder": ["Bunt"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -4882,8 +4882,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Airball"],
-            "fielding": [],
+            "pitcher": ["Airball"],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -4921,8 +4921,8 @@
             "Stealing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Survivor", "Diver"],
+            "pitcher": [],
+            "fielder": ["Survivor", "Diver"],
             "positionAssignment": []
         }
     }, {
@@ -4965,8 +4965,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Battler", "Guts"],
-            "fielding": ["Good Eye"],
+            "pitcher": ["Battler", "Guts"],
+            "fielder": ["Good Eye"],
             "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Stl", "Patient Htr", "Power P", "Auto"]
         }
     }, {
@@ -5010,8 +5010,8 @@
             "Throwing": "A"
         },
         "Abilities": {
-            "pitching": ["Dr. K", "Crossfire", "Low Ball"],
-            "fielding": [],
+            "pitcher": ["Dr. K", "Crossfire", "Low Ball"],
+            "fielder": [],
             "positionAssignment": ["Selfless", "Aggrssiv Fld", "Auto"]
         }
     }, {
@@ -5047,8 +5047,8 @@
             "Clutch": "F"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Pull Hit", "High Hit", "Easy Out"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Pull Hit", "High Hit", "Easy Out"],
             "positionAssignment": []
         }
     }, {
@@ -5081,8 +5081,8 @@
         "Batting Form": "General 25",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slam Fan", "Blocker", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Slam Fan", "Blocker", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -5119,8 +5119,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Homer", "Tanker", "Pull Hit", "Fanned", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Homer", "Tanker", "Pull Hit", "Fanned", "Slugger"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -5158,8 +5158,8 @@
             "Runner": "F"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Survivor", "Clutch", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Survivor", "Clutch", "Mood Swinger"],
             "positionAssignment": ["Slap Hitter", "Selfish", "Aggrssiv Fld", "Aggrssiv Run", "Aggrssiv Stl"]
         }
     }, {
@@ -5195,8 +5195,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Pull Hit", "Menace", "Trucker"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Pull Hit", "Menace", "Trucker"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -5244,8 +5244,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Handler", "Chill"],
-            "fielding": ["Slugger", "Slugger"],
+            "pitcher": ["Handler", "Chill"],
+            "fielder": ["Slugger", "Slugger"],
             "positionAssignment": ["Stamina Push", "Star", "Power P"]
         }
     }, {
@@ -5282,8 +5282,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Diver"],
+            "pitcher": [],
+            "fielder": ["Diver"],
             "positionAssignment": []
         }
     }, {
@@ -5321,8 +5321,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Legend", "Pull Hit", "Survivor", "Low Hit", "Diver", "Laser", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Legend", "Pull Hit", "Survivor", "Low Hit", "Diver", "Laser", "Good Eye"],
             "positionAssignment": ["Selfless", "Aggrssiv Htr"]
         }
     }, {
@@ -5365,8 +5365,8 @@
             "Recovery": "G"
         },
         "Abilities": {
-            "pitching": ["Battler"],
-            "fielding": [],
+            "pitcher": ["Battler"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -5407,8 +5407,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Vs. Slugger", "Hot Head"],
-            "fielding": [],
+            "pitcher": ["Vs. Slugger", "Hot Head"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -5448,8 +5448,8 @@
             "Throwing": "F"
         },
         "Abilities": {
-            "pitching": ["Ironball", "Trusty"],
-            "fielding": [],
+            "pitcher": ["Ironball", "Trusty"],
+            "fielder": [],
             "positionAssignment": ["Power P", "Auto"]
         }
     }, {
@@ -5495,8 +5495,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Ironball", "Tyrant"],
-            "fielding": [],
+            "pitcher": ["Cutter", "Ironball", "Tyrant"],
+            "fielder": [],
             "positionAssignment": ["Power P", "Auto"]
         }
     }, {
@@ -5532,8 +5532,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Stunner", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Stunner", "Mood Swinger"],
             "positionAssignment": ["Selfish"]
         }
     }, {
@@ -5571,8 +5571,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Clutch", "Good Eye", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Clutch", "Good Eye", "Slugger"],
             "positionAssignment": []
         }
     }, {
@@ -5608,8 +5608,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": []
         }
     }, {
@@ -5647,8 +5647,8 @@
             "Throwing": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Mood Swinger", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Mood Swinger", "Good Eye"],
             "positionAssignment": ["Patient Htr"]
         }
     }, {
@@ -5687,8 +5687,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slam Fan"],
+            "pitcher": [],
+            "fielder": ["Slam Fan"],
             "positionAssignment": []
         }
     }, {
@@ -5735,8 +5735,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Dr. K", "Downplay", "Airball", "Choker"],
-            "fielding": [],
+            "pitcher": ["Cutter", "Dr. K", "Downplay", "Airball", "Choker"],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -5774,8 +5774,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Jester"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Jester"],
             "positionAssignment": []
         }
     }, {
@@ -5812,8 +5812,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": []
         }
     }, {
@@ -5851,8 +5851,8 @@
             "Runner": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Squibber", "Setter", "Rally", "Clutch", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Squibber", "Setter", "Rally", "Clutch", "Good Eye"],
             "positionAssignment": ["Aggrssiv Run"]
         }
     }, {
@@ -5901,8 +5901,8 @@
             "Runner": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -5937,8 +5937,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Laser", "Glover"],
+            "pitcher": [],
+            "fielder": ["Laser", "Glover"],
             "positionAssignment": []
         }
     }, {
@@ -5977,8 +5977,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Rally", "Blunder"],
+            "pitcher": [],
+            "fielder": ["Rally", "Blunder"],
             "positionAssignment": []
         }
     }, {
@@ -6012,8 +6012,8 @@
         "Batting Form": "General 73",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Level-Headed", "Good Eye", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Level-Headed", "Good Eye", "Clinical"],
             "positionAssignment": ["Selfless"]
         }
     }, {
@@ -6055,8 +6055,8 @@
             "Grit": "F"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Blunder", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Blunder", "Good Eye"],
             "positionAssignment": ["Slap Hitter", "Selfless", "Aggrssiv Fld", "Patient Htr"]
         }
     }, {
@@ -6091,8 +6091,8 @@
         "Batting Form": "General 46",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Morale"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Morale"],
             "positionAssignment": []
         }
     }, {
@@ -6129,8 +6129,8 @@
             "Clutch": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Morale", "Trucker"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Morale", "Trucker"],
             "positionAssignment": []
         }
     }, {
@@ -6166,8 +6166,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Trucker", "Blunder"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Trucker", "Blunder"],
             "positionAssignment": ["Patient Htr"]
         }
     }, {
@@ -6204,8 +6204,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber"],
+            "pitcher": [],
+            "fielder": ["Squibber"],
             "positionAssignment": ["Aggrssiv Stl"]
         }
     }, {
@@ -6238,8 +6238,8 @@
         "Batting Form": "General 27",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Sprayer", "Rally"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Sprayer", "Rally"],
             "positionAssignment": []
         }
     }, {
@@ -6281,8 +6281,8 @@
         "Batting Form": "General 30",
         "Traits": {},
         "Abilities": {
-            "pitching": ["Cutter", "Pickoff", "Lucky"],
-            "fielding": [],
+            "pitcher": ["Cutter", "Pickoff", "Lucky"],
+            "fielder": [],
             "positionAssignment": ["Pace", "Auto"]
         }
     }, {
@@ -6323,8 +6323,8 @@
         "Batting Form": "General 26",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Low Hit", "Clutch"],
+            "pitcher": [],
+            "fielder": ["Low Hit", "Clutch"],
             "positionAssignment": ["Aggrssiv Fld"]
         }
     }, {
@@ -6362,8 +6362,8 @@
             "Throwing": "G"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Morale", "Diver", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Morale", "Diver", "Mood Swinger"],
             "positionAssignment": ["Aggrssiv Stl"]
         }
     }, {
@@ -6399,8 +6399,8 @@
             "Catcher": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Setter", "Clutch"],
+            "pitcher": [],
+            "fielder": ["Setter", "Clutch"],
             "positionAssignment": []
         }
     }, {
@@ -6434,8 +6434,8 @@
         "Batting Form": "General 42",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Setter", "Clutch", "Insider"],
+            "pitcher": [],
+            "fielder": ["Setter", "Clutch", "Insider"],
             "positionAssignment": []
         }
     }, {
@@ -6482,8 +6482,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Dr. K"],
-            "fielding": [],
+            "pitcher": ["Cutter", "Dr. K"],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -6518,8 +6518,8 @@
             "Catcher": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Blocker", "Mood Swinger", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Blocker", "Mood Swinger", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -6586,8 +6586,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Setter", "Rally", "Refined", "Clutch", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Setter", "Rally", "Refined", "Clutch", "Clinical"],
             "positionAssignment": ["Aggrssiv Run"]
         }
     }, {
@@ -6621,8 +6621,8 @@
         "Batting Form": "General 89",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Tanker", "Slugger", "Easy Out"],
+            "pitcher": [],
+            "fielder": ["Tanker", "Slugger", "Easy Out"],
             "positionAssignment": []
         }
     }, {
@@ -6661,8 +6661,8 @@
             "Throwing": "F"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber", "Jester", "Diver"],
+            "pitcher": [],
+            "fielder": ["Squibber", "Jester", "Diver"],
             "positionAssignment": ["Aggrssiv Run", "Aggrssiv Stl"]
         }
     }, {
@@ -6713,8 +6713,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Trusty", "Lucky", "Tyrant"],
-            "fielding": ["Push Hit", "Clinical"],
+            "pitcher": ["Cutter", "Trusty", "Lucky", "Tyrant"],
+            "fielder": ["Push Hit", "Clinical"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -6757,8 +6757,8 @@
         "Batting Form": "General 75",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Homer", "Sprayer"],
+            "pitcher": [],
+            "fielder": ["Homer", "Sprayer"],
             "positionAssignment": ["Aggrssiv Fld"]
         }
     }, {
@@ -6794,8 +6794,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Glover"],
+            "pitcher": [],
+            "fielder": ["Glover"],
             "positionAssignment": ["Aggrssiv Fld"]
         }
     }, {
@@ -6833,8 +6833,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Survivor", "Eager", "High Hit"],
+            "pitcher": [],
+            "fielder": ["Survivor", "Eager", "High Hit"],
             "positionAssignment": ["Aggrssiv Fld"]
         }
     }, {
@@ -6870,8 +6870,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Refined", "Laser", "Easy Out", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Refined", "Laser", "Easy Out", "Good Eye"],
             "positionAssignment": ["Patient Htr"]
         }
     }, {
@@ -6915,8 +6915,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": ["Ironball", "Battler", "Toolkit", "Chill"],
-            "fielding": ["Slugger"],
+            "pitcher": ["Ironball", "Battler", "Toolkit", "Chill"],
+            "fielder": ["Slugger"],
             "positionAssignment": ["Power P", "Auto"]
         }
     }, {
@@ -6965,8 +6965,8 @@
             "Heater": "S"
         },
         "Abilities": {
-            "pitching": ["Bluffer", "Chill"],
-            "fielding": [],
+            "pitcher": ["Bluffer", "Chill"],
+            "fielder": [],
             "positionAssignment": ["Power P", "Auto"]
         }
     }, {
@@ -7013,8 +7013,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Bluffer", "Chill"],
-            "fielding": [],
+            "pitcher": ["Bluffer", "Chill"],
+            "fielder": [],
             "positionAssignment": ["Power P", "Auto"]
         }
     }, {
@@ -7047,8 +7047,8 @@
         "Batting Form": "General 54",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["High Hit", "Laser", "Slugger"],
+            "pitcher": [],
+            "fielder": ["High Hit", "Laser", "Slugger"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -7083,8 +7083,8 @@
             "Catcher": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Heckler", "Clutch"],
+            "pitcher": [],
+            "fielder": ["Heckler", "Clutch"],
             "positionAssignment": ["Selfless"]
         }
     }, {
@@ -7129,8 +7129,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Momentum", "Lucky"],
-            "fielding": [],
+            "pitcher": ["Momentum", "Lucky"],
+            "fielder": [],
             "positionAssignment": ["Complete Games", "Brk Ball P"]
         }
     }, {
@@ -7168,8 +7168,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slammer", "Survivor", "Buzzkill", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Slammer", "Survivor", "Buzzkill", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -7203,8 +7203,8 @@
         "Batting Form": "–––––",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Victor", "Rally", "Clutch"],
+            "pitcher": [],
+            "fielder": ["Victor", "Rally", "Clutch"],
             "positionAssignment": ["Patient Htr"]
         }
     }, {
@@ -7240,8 +7240,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Survivor"],
+            "pitcher": [],
+            "fielder": ["Survivor"],
             "positionAssignment": []
         }
     }, {
@@ -7277,8 +7277,8 @@
             "Throwing": "F"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger"],
+            "pitcher": [],
+            "fielder": ["Slugger"],
             "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr"]
         }
     }, {
@@ -7316,8 +7316,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Two-way"],
-            "fielding": ["Clutch", "Slugger"],
+            "pitcher": ["Two-way"],
+            "fielder": ["Clutch", "Slugger"],
             "positionAssignment": ["Selfish", "Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run", "Aggrssiv Stl"]
         }
     }, {
@@ -7364,8 +7364,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Tyrant"],
-            "fielding": ["Slugger", "Clinical"],
+            "pitcher": ["Tyrant"],
+            "fielder": ["Slugger", "Clinical"],
             "positionAssignment": ["Aggrssiv Fld", "Auto"]
         }
     }, {
@@ -7402,8 +7402,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Clinical"],
+            "pitcher": [],
+            "fielder": ["Clinical"],
             "positionAssignment": ["Star", "Aggrssiv Stl"]
         }
     }, {
@@ -7455,8 +7455,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": ["Guts", "Chill"],
-            "fielding": ["Victor", "Rally"],
+            "pitcher": ["Guts", "Chill"],
+            "fielder": ["Victor", "Rally"],
             "positionAssignment": ["Right Side", "Auto"]
         }
     }, {
@@ -7493,8 +7493,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Pull Hit", "Menace", "Vs. Ace"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Pull Hit", "Menace", "Vs. Ace"],
             "positionAssignment": []
         }
     }, {
@@ -7541,8 +7541,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Trusty", "Hot Head"],
-            "fielding": [],
+            "pitcher": ["Cutter", "Trusty", "Hot Head"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -7588,8 +7588,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Ironball"],
-            "fielding": ["Slugger", "Clinical"],
+            "pitcher": ["Ironball"],
+            "fielder": ["Slugger", "Clinical"],
             "positionAssignment": ["Star", "Auto"]
         }
     }, {
@@ -7637,8 +7637,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": ["Engineer", "Cutter", "Toolkit"],
-            "fielding": ["Surgical", "Good Eye"],
+            "pitcher": ["Engineer", "Cutter", "Toolkit"],
+            "fielder": ["Surgical", "Good Eye"],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -7675,8 +7675,8 @@
             "Throwing": "F"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt Ace", "Setter", "Charger", "Jester", "Fighter", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Bunt Ace", "Setter", "Charger", "Jester", "Fighter", "Mood Swinger"],
             "positionAssignment": []
         }
     }, {
@@ -7713,8 +7713,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Heckler", "Bunt", "Level-Headed"],
+            "pitcher": [],
+            "fielder": ["Heckler", "Bunt", "Level-Headed"],
             "positionAssignment": ["Slap Hitter", "Patient Htr"]
         }
     }, {
@@ -7747,8 +7747,8 @@
         "Batting Form": "General 26",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Glover"],
+            "pitcher": [],
+            "fielder": ["Glover"],
             "positionAssignment": []
         }
     }, {
@@ -7783,8 +7783,8 @@
             "Catcher": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Sprayer", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Sprayer", "Clinical"],
             "positionAssignment": ["Slap Hitter"]
         }
     }, {
@@ -7821,8 +7821,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Squibber", "Mood Swinger"],
             "positionAssignment": ["Aggrssiv Stl"]
         }
     }, {
@@ -7859,8 +7859,8 @@
             "Runner": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Refined", "Revenge", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Refined", "Revenge", "Clinical"],
             "positionAssignment": ["Slap Hitter", "Selfish"]
         }
     }, {
@@ -7897,8 +7897,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Survivor", "Squibber", "Setter", "Rally", "Glover", "Clutch", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Survivor", "Squibber", "Setter", "Rally", "Glover", "Clutch", "Clinical"],
             "positionAssignment": ["Aggrssiv Fld"]
         }
     }, {
@@ -7943,8 +7943,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Bluffer", "Vs. Runner", "Chill"],
-            "fielding": [],
+            "pitcher": ["Bluffer", "Vs. Runner", "Chill"],
+            "fielder": [],
             "positionAssignment": ["Power P", "Auto"]
         }
     }, {
@@ -7981,8 +7981,8 @@
             "Stealing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Heckler", "Bunt", "Takeout"],
+            "pitcher": [],
+            "fielder": ["Heckler", "Bunt", "Takeout"],
             "positionAssignment": []
         }
     }, {
@@ -8017,8 +8017,8 @@
             "Runner": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber", "Eager"],
+            "pitcher": [],
+            "fielder": ["Squibber", "Eager"],
             "positionAssignment": []
         }
     }, {
@@ -8056,8 +8056,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber"],
+            "pitcher": [],
+            "fielder": ["Squibber"],
             "positionAssignment": ["Selfless", "Aggrssiv Fld", "Aggrssiv Run"]
         }
     }, {
@@ -8091,8 +8091,8 @@
         "Batting Form": "General 26",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Squibber", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Squibber", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -8129,8 +8129,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt"],
+            "pitcher": [],
+            "fielder": ["Bunt"],
             "positionAssignment": ["Patient Htr"]
         }
     }, {
@@ -8172,8 +8172,8 @@
         "Batting Form": "General 28",
         "Traits": {},
         "Abilities": {
-            "pitching": ["Cutter", "Toolkit"],
-            "fielding": [],
+            "pitcher": ["Cutter", "Toolkit"],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -8206,8 +8206,8 @@
         "Batting Form": "General 9",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Victor", "Rally", "Diver"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Victor", "Rally", "Diver"],
             "positionAssignment": []
         }
     }, {
@@ -8252,8 +8252,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Low Ball"],
-            "fielding": [],
+            "pitcher": ["Low Ball"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -8286,8 +8286,8 @@
         "Batting Form": "General 28",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Pull Hit", "Trucker"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Pull Hit", "Trucker"],
             "positionAssignment": []
         }
     }, {
@@ -8322,8 +8322,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": []
         }
     }, {
@@ -8356,8 +8356,8 @@
         "Batting Form": "General 26",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Clutch"],
+            "pitcher": [],
+            "fielder": ["Clutch"],
             "positionAssignment": []
         }
     }, {
@@ -8393,8 +8393,8 @@
             "Grit": "F"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Zealous", "Slugger", "Sprayer", "Pinch", "Refined", "Blunder", "Fanned", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Zealous", "Slugger", "Sprayer", "Pinch", "Refined", "Blunder", "Fanned", "Clinical"],
             "positionAssignment": ["Selfish", "Aggrssiv Htr"]
         }
     }, {
@@ -8429,8 +8429,8 @@
             "Clutch": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Magnet", "Jester", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Magnet", "Jester", "Good Eye"],
             "positionAssignment": ["Selfish"]
         }
     }, {
@@ -8466,8 +8466,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Trucker"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Trucker"],
             "positionAssignment": []
         }
     }, {
@@ -8502,8 +8502,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": []
         }
     }, {
@@ -8537,8 +8537,8 @@
         "Batting Form": "General 26",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Victor", "Menace", "Clutch", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Victor", "Menace", "Clutch", "Slugger"],
             "positionAssignment": []
         }
     }, {
@@ -8573,8 +8573,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Glover", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Glover", "Clinical"],
             "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Stl"]
         }
     }, {
@@ -8609,8 +8609,8 @@
             "Clutch": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Rally", "Morale", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Rally", "Morale", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -8655,8 +8655,8 @@
         "Batting Form": "General 26",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": [],
+            "pitcher": [],
+            "fielder": [],
             "positionAssignment": ["Star", "Auto"]
         }
     }, {
@@ -8703,8 +8703,8 @@
             "Heater": "C"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Ironball", "Insider"],
-            "fielding": ["Buzzkill"],
+            "pitcher": ["Cutter", "Ironball", "Insider"],
+            "fielder": ["Buzzkill"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -8740,8 +8740,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Sprayer", "Glover", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Sprayer", "Glover", "Clinical"],
             "positionAssignment": ["Aggrssiv Fld"]
         }
     }, {
@@ -8785,8 +8785,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Momentum", "Dr. K", "Handler"],
-            "fielding": [],
+            "pitcher": ["Momentum", "Dr. K", "Handler"],
+            "fielder": [],
             "positionAssignment": ["Pace", "Auto"]
         }
     }, {
@@ -8823,8 +8823,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slam Fan", "Glover", "Easy Out"],
+            "pitcher": [],
+            "fielder": ["Slam Fan", "Glover", "Easy Out"],
             "positionAssignment": []
         }
     }, {
@@ -8869,8 +8869,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Ironball", "Guts", "Toolkit", "Hot Head"],
-            "fielding": [],
+            "pitcher": ["Ironball", "Guts", "Toolkit", "Hot Head"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -8905,8 +8905,8 @@
         "Batting Form": "General 28",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Menace", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Menace", "Slugger"],
             "positionAssignment": []
         }
     }, {
@@ -8941,8 +8941,8 @@
             "Throwing": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger"],
+            "pitcher": [],
+            "fielder": ["Slugger"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -8985,8 +8985,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Gyroball", "Trusty"],
-            "fielding": [],
+            "pitcher": ["Gyroball", "Trusty"],
+            "fielder": [],
             "positionAssignment": ["Pace", "Power P", "Auto"]
         }
     }, {
@@ -9031,8 +9031,8 @@
             "Clutch": "B"
         },
         "Abilities": {
-            "pitching": ["Bluffer"],
-            "fielding": ["Slugger"],
+            "pitcher": ["Bluffer"],
+            "fielder": ["Slugger"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -9076,8 +9076,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": ["Cutter"],
-            "fielding": ["Laser"],
+            "pitcher": ["Cutter"],
+            "fielder": ["Laser"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -9113,8 +9113,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Rally", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Rally", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -9159,8 +9159,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Gripper"],
-            "fielding": ["Push Hit"],
+            "pitcher": ["Gripper"],
+            "fielder": ["Push Hit"],
             "positionAssignment": ["Star", "Auto"]
         }
     }, {
@@ -9208,8 +9208,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Pickoff", "Handler", "Reflexes", "Gripper", "Low Ball", "Chill"],
-            "fielding": [],
+            "pitcher": ["Pickoff", "Handler", "Reflexes", "Gripper", "Low Ball", "Chill"],
+            "fielder": [],
             "positionAssignment": ["Star", "Pace", "Power P", "Auto"]
         }
     }, {
@@ -9259,8 +9259,8 @@
             "Clutch": "B"
         },
         "Abilities": {
-            "pitching": ["Reflexes", "Toolkit", "Timer"],
-            "fielding": ["Sprayer", "Clinical"],
+            "pitcher": ["Reflexes", "Toolkit", "Timer"],
+            "fielder": ["Sprayer", "Clinical"],
             "positionAssignment": ["Pace", "Auto"]
         }
     }, {
@@ -9305,8 +9305,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Crossfire", "Downplay", "Moody"],
-            "fielding": [],
+            "pitcher": ["Crossfire", "Downplay", "Moody"],
+            "fielder": [],
             "positionAssignment": ["Pace", "Brk Ball P", "Auto"]
         }
     }, {
@@ -9354,8 +9354,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Ironball", "Momentum", "Vs. Slugger"],
-            "fielding": ["Bunt Ace", "Rally"],
+            "pitcher": ["Ironball", "Momentum", "Vs. Slugger"],
+            "fielder": ["Bunt Ace", "Rally"],
             "positionAssignment": ["Aggrssiv Fld", "Auto"]
         }
     }, {
@@ -9394,8 +9394,8 @@
             "Throwing": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger"],
+            "pitcher": [],
+            "fielder": ["Slugger"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -9440,8 +9440,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Vs. Runner"],
-            "fielding": [],
+            "pitcher": ["Vs. Runner"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -9478,8 +9478,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Survivor", "Victor", "Rally", "Pinch", "Clutch", "Trucker", "Mood Swinger", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Survivor", "Victor", "Rally", "Pinch", "Clutch", "Trucker", "Mood Swinger", "Slugger"],
             "positionAssignment": ["Aggrssiv Fld", "Patient Htr"]
         }
     }, {
@@ -9515,8 +9515,8 @@
             "Clutch": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Sprayer", "Trucker", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Sprayer", "Trucker", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -9559,8 +9559,8 @@
             "Heater": "C"
         },
         "Abilities": {
-            "pitching": ["Battler", "Timer", "Hot Head", "Moody"],
-            "fielding": [],
+            "pitcher": ["Battler", "Timer", "Hot Head", "Moody"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -9596,8 +9596,8 @@
             "Catcher": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Survivor", "Mood Swinger", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Survivor", "Mood Swinger", "Good Eye"],
             "positionAssignment": []
         }
     }, {
@@ -9632,8 +9632,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt", "Squibber", "Diver"],
+            "pitcher": [],
+            "fielder": ["Bunt", "Squibber", "Diver"],
             "positionAssignment": ["Slap Hitter"]
         }
     }, {
@@ -9674,8 +9674,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Ironball", "Trusty", "Momentum"],
-            "fielding": ["Slugger", "Trucker"],
+            "pitcher": ["Ironball", "Trusty", "Momentum"],
+            "fielder": ["Slugger", "Trucker"],
             "positionAssignment": ["Power P", "Auto"]
         }
     }, {
@@ -9708,8 +9708,8 @@
         "Batting Form": "General 8",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Eager", "Victor", "Clutch", "Diver"],
+            "pitcher": [],
+            "fielder": ["Eager", "Victor", "Clutch", "Diver"],
             "positionAssignment": []
         }
     }, {
@@ -9749,8 +9749,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt", "Glover"],
+            "pitcher": [],
+            "fielder": ["Bunt", "Glover"],
             "positionAssignment": ["Slap Hitter", "Aggrssiv Fld", "Auto"]
         }
     }, {
@@ -9795,8 +9795,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Ironball", "Moody"],
-            "fielding": [],
+            "pitcher": ["Ironball", "Moody"],
+            "fielder": [],
             "positionAssignment": ["Power P", "Auto"]
         }
     }, {
@@ -9832,8 +9832,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt Ace", "Squibber", "Level-Headed"],
+            "pitcher": [],
+            "fielder": ["Bunt Ace", "Squibber", "Level-Headed"],
             "positionAssignment": ["Cautious Stl", "Selfless", "Patient Htr"]
         }
     }, {
@@ -9881,8 +9881,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Handler", "Reflexes"],
-            "fielding": [],
+            "pitcher": ["Handler", "Reflexes"],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -9918,8 +9918,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Mood Swinger"],
             "positionAssignment": []
         }
     }, {
@@ -9952,8 +9952,8 @@
         "Batting Form": "General 25",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Eager"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Eager"],
             "positionAssignment": []
         }
     }, {
@@ -9991,8 +9991,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Survivor", "Bunt Ace", "Trucker", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Survivor", "Bunt Ace", "Trucker", "Clinical"],
             "positionAssignment": ["Selfless"]
         }
     }, {
@@ -10033,8 +10033,8 @@
             "Agile": "B"
         },
         "Abilities": {
-            "pitching": ["Cutter", "Timer"],
-            "fielding": [],
+            "pitcher": ["Cutter", "Timer"],
+            "fielder": [],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -10069,8 +10069,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Sprayer", "Squibber"],
+            "pitcher": [],
+            "fielder": ["Sprayer", "Squibber"],
             "positionAssignment": []
         }
     }, {
@@ -10105,8 +10105,8 @@
             "Clutch": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Rally", "Pinch", "Morale", "Clutch", "Easy Out", "Slugger"],
+            "pitcher": [],
+            "fielder": ["Rally", "Pinch", "Morale", "Clutch", "Easy Out", "Slugger"],
             "positionAssignment": ["Selfless"]
         }
     }, {
@@ -10144,8 +10144,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Squibber", "Rally", "Glover", "Vs. Ace", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Squibber", "Rally", "Glover", "Vs. Ace", "Clinical"],
             "positionAssignment": ["Slap Hitter", "Aggrssiv Fld"]
         }
     }, {
@@ -10180,8 +10180,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber", "Takeout", "Jester"],
+            "pitcher": [],
+            "fielder": ["Squibber", "Takeout", "Jester"],
             "positionAssignment": []
         }
     }, {
@@ -10216,8 +10216,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "High Hit", "Laser", "Level-Headed"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "High Hit", "Laser", "Level-Headed"],
             "positionAssignment": []
         }
     }, {
@@ -10261,8 +10261,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": ["Downplay", "Walker", "Hot Head"],
-            "fielding": ["Squibber"],
+            "pitcher": ["Downplay", "Walker", "Hot Head"],
+            "fielder": ["Squibber"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -10299,8 +10299,8 @@
             "Throwing": "E"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber", "Mood Swinger"],
+            "pitcher": [],
+            "fielder": ["Squibber", "Mood Swinger"],
             "positionAssignment": ["Aggrssiv Stl"]
         }
     }, {
@@ -10336,8 +10336,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Easy Out"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Easy Out"],
             "positionAssignment": []
         }
     }, {
@@ -10373,8 +10373,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt"],
+            "pitcher": [],
+            "fielder": ["Bunt"],
             "positionAssignment": ["Selfless"]
         }
     }, {
@@ -10410,8 +10410,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Sprayer", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Sprayer", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -10448,8 +10448,8 @@
             "Throwing": "A"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger"],
+            "pitcher": [],
+            "fielder": ["Slugger"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -10494,8 +10494,8 @@
         "Batting Form": "General 27",
         "Traits": {},
         "Abilities": {
-            "pitching": ["Cutter", "Ironball", "Battler", "Vs. Slugger"],
-            "fielding": ["Sprayer", "Push Hit", "Clinical"],
+            "pitcher": ["Cutter", "Ironball", "Battler", "Vs. Slugger"],
+            "fielder": ["Sprayer", "Push Hit", "Clinical"],
             "positionAssignment": ["Auto"]
         }
     }, {
@@ -10532,8 +10532,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Low Hit", "Glover"],
+            "pitcher": [],
+            "fielder": ["Low Hit", "Glover"],
             "positionAssignment": []
         }
     }, {
@@ -10569,8 +10569,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Survivor", "Menace", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Survivor", "Menace", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -10603,8 +10603,8 @@
         "Batting Form": "–––––",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Sprayer", "Menace"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Sprayer", "Menace"],
             "positionAssignment": ["Patient Htr"]
         }
     }, {
@@ -10644,8 +10644,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt Ace", "Refined", "Good Eye"],
+            "pitcher": [],
+            "fielder": ["Bunt Ace", "Refined", "Good Eye"],
             "positionAssignment": ["Slap Hitter", "Selfless", "Patient Htr"]
         }
     }, {
@@ -10679,8 +10679,8 @@
         "Batting Form": "–––––",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Push Hit", "Bunt"],
+            "pitcher": [],
+            "fielder": ["Push Hit", "Bunt"],
             "positionAssignment": ["Cautious Stl", "Selfless", "Patient Htr"]
         }
     }, {
@@ -10720,8 +10720,8 @@
             "Throwing": "F"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Diver"],
+            "pitcher": [],
+            "fielder": ["Diver"],
             "positionAssignment": ["Pinch Runner"]
         }
     }, {
@@ -10762,8 +10762,8 @@
             "Throwing": "C"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Diver"],
+            "pitcher": [],
+            "fielder": ["Diver"],
             "positionAssignment": []
         }
     }, {
@@ -10800,8 +10800,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Diver"],
+            "pitcher": [],
+            "fielder": ["Diver"],
             "positionAssignment": []
         }
     }, {
@@ -10840,8 +10840,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Diver", "Blunder"],
+            "pitcher": [],
+            "fielder": ["Diver", "Blunder"],
             "positionAssignment": ["Selfish"]
         }
     }, {
@@ -10878,8 +10878,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Bunt", "Squibber"],
+            "pitcher": [],
+            "fielder": ["Bunt", "Squibber"],
             "positionAssignment": ["Aggrssiv Fld"]
         }
     }, {
@@ -10913,8 +10913,8 @@
         "Batting Form": "General 45",
         "Traits": {},
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Slugger", "Survivor", "Clutch", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Slugger", "Survivor", "Clutch", "Clinical"],
             "positionAssignment": []
         }
     }, {
@@ -10955,8 +10955,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Battler", "Toolkit", "Hot Head"],
-            "fielding": [],
+            "pitcher": ["Battler", "Toolkit", "Hot Head"],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -10998,8 +10998,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Crossfire", "Vs. Slugger", "Bluffer", "Downplay", "Moody"],
-            "fielding": [],
+            "pitcher": ["Crossfire", "Vs. Slugger", "Bluffer", "Downplay", "Moody"],
+            "fielder": [],
             "positionAssignment": ["Pace", "Brk Ball P", "Auto"]
         }
     }, {
@@ -11037,8 +11037,8 @@
             "Throwing": "B"
         },
         "Abilities": {
-            "pitching": ["Bluffer"],
-            "fielding": ["Heckler", "Push Hit", "Bunt", "Level-Headed"],
+            "pitcher": ["Bluffer"],
+            "fielder": ["Heckler", "Push Hit", "Bunt", "Level-Headed"],
             "positionAssignment": ["Slap Hitter", "Patient Htr"]
         }
     }, {
@@ -11072,8 +11072,8 @@
         "Batting Form": "General 116",
         "Traits": {},
         "Abilities": {
-            "pitching": ["Bluffer"],
-            "fielding": ["Legend", "Sprayer", "Rally", "Clutch"],
+            "pitcher": ["Bluffer"],
+            "fielder": ["Legend", "Sprayer", "Rally", "Clutch"],
             "positionAssignment": ["Patient Htr"]
         }
     }, {
@@ -11115,8 +11115,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Lucky"],
-            "fielding": [],
+            "pitcher": ["Lucky"],
+            "fielder": [],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }, {
@@ -11163,8 +11163,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Trusty", "Choker", "Unlucky"],
-            "fielding": ["Slugger", "Pull Hit", "High Hit", "Menace"],
+            "pitcher": ["Trusty", "Choker", "Unlucky"],
+            "fielder": ["Slugger", "Pull Hit", "High Hit", "Menace"],
             "positionAssignment": ["Aggrssiv Htr", "Brk Ball P", "Auto"]
         }
     }, {
@@ -11200,8 +11200,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Squibber", "Morale", "Diver"],
+            "pitcher": [],
+            "fielder": ["Squibber", "Morale", "Diver"],
             "positionAssignment": []
         }
     }, {
@@ -11236,8 +11236,8 @@
             "Stealing": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Survivor", "Bunt", "Level-Headed"],
+            "pitcher": [],
+            "fielder": ["Survivor", "Bunt", "Level-Headed"],
             "positionAssignment": ["Aggrssiv Htr"]
         }
     }, {
@@ -11272,8 +11272,8 @@
             "Clutch": "B"
         },
         "Abilities": {
-            "pitching": [],
-            "fielding": ["Hot Bat", "Clinical"],
+            "pitcher": [],
+            "fielder": ["Hot Bat", "Clinical"],
             "positionAssignment": ["Slap Hitter"]
         }
     }, {
@@ -11320,8 +11320,8 @@
             "Recovery": "C"
         },
         "Abilities": {
-            "pitching": ["Downplay", "Choker", "Hot Head"],
-            "fielding": [],
+            "pitcher": ["Downplay", "Choker", "Hot Head"],
+            "fielder": [],
             "positionAssignment": ["Aggrssiv Fld", "Power P", "Auto"]
         }
     }, {
@@ -11368,8 +11368,8 @@
             "Runner": "B"
         },
         "Abilities": {
-            "pitching": ["Toolkit", "Airball"],
-            "fielding": ["Push Hit", "Bunt", "Squibber"],
+            "pitcher": ["Toolkit", "Airball"],
+            "fielder": ["Push Hit", "Bunt", "Squibber"],
             "positionAssignment": ["Brk Ball P", "Auto"]
         }
     }]
