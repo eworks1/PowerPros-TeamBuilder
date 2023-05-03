@@ -388,6 +388,74 @@ function playerDoubleClicked(player) {
         });
     }
 
+    // Fielder Traits
+    const popoverFielderAbilitiesSection = document.getElementById('fielder-skills');
+    if (popoverFielderAbilitiesSection) {
+        const cells = Array.from(popoverFielderAbilitiesSection.querySelectorAll('.skill-cell'));
+        
+        // Traits (first 8 cells)
+        cells.slice(0, 8).forEach(cell => {
+            const descSpan = cell.querySelector('.skill-desc');
+            const ratingSpan = cell.querySelector('.skill-rating');
+
+            if (descSpan && ratingSpan) {
+                let traitAbbr = descSpan.getAttribute('traitAbbr');
+                if (traitAbbr == 'Catcher') {
+                    if (getPrimaryPosition(player) == 'C') {
+                        cell.classList.add('blank');
+                    } else {
+                        cell.classList.remove('blank');
+                    }
+                }
+
+                if (traitAbbr) { // this checks if it's an empty string
+                    const trait = all_abilities.traits.fielder?.[traitAbbr];
+                    if (trait && trait.fullName) {
+                        cell.title = `${trait.fullName}: ${trait.description}`;
+                    } else {
+                        cell.title = trait.description;
+                    }
+
+                    const traitRating = player.Traits?.[traitAbbr];
+                    if (traitRating) {
+                        cell.setAttribute('rating', traitRating);
+                        ratingSpan.textContent = traitRating;
+                    } else {
+                        cell.setAttribute('rating', 'D');
+                        ratingSpan.textContent = 'D';
+                    }
+                } else {
+                    cell.textContent = '';
+                    cell.title = ''; // clear hover text
+                    cell.removeAttribute('rating');
+                }
+            }
+        });
+
+        // Abilities (remaining 24 cells, from 9th on)
+        cells.slice(8).forEach((cell, i) => {
+            // Check if the current index is within the range of the player's abilities
+            if (i < player.Abilities.fielder.length) {
+                cell.classList.remove('blank');
+                const ability = all_abilities.abilities[player.Abilities.fielder[i]];
+                cell.firstElementChild.textContent = ability.abbr;
+                
+                cell.setAttribute('rating', ability.effectType);
+                if (ability.fullName) {
+                    cell.title = `${ability.fullName}: ${ability.description}`;
+                } else {
+                    cell.title = ability.description;
+                }
+            } else {
+                cell.classList.add('blank');
+                cell.firstElementChild.textContent = '';
+                
+                cell.removeAttribute('rating');
+                cell.title = ''; // clear hover text
+            }
+        });
+    }
+
     // Show popover once all info is updated
     popover.classList.remove('hidden');
 }
