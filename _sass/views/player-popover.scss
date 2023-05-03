@@ -404,6 +404,10 @@
     align-content: start;
 }
 
+#popover-body #posasgmt-skills {
+    grid-template-rows: repeat(2, auto) repeat(6, auto);
+}
+
 .skills-grid .skill-cell {
     display: flex;
     align-items: center;
