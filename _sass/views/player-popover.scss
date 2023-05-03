@@ -364,6 +364,14 @@
     background: red;
 }
 
+#pitching-skills .skill-cell[rating="S"] {
+    background: gold;
+}
+
+#pitching-skills .skill-cell[rating="S"] .skill-desc+.skill-rating {
+    display: none;
+}
+
 #pitching-skills .skill-cell[rating="+-"] {
     background: linear-gradient(to right, #c3f7fd 0%, #c3f7fd 49.99%, #f7cfcc 50%, #f7cfcc 100%);
 }
