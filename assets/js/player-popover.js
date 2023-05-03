@@ -369,7 +369,7 @@ function playerDoubleClicked(player) {
             // Check if the current index is within the range of the player's abilities
             if (i < player.Abilities.length) {
                 cell.classList.remove('blank');
-                const ability = all_abilities.abilities[player.Abilities[i]];
+                const ability = all_abilities.abilities[player.Abilities.pitcher[i]];
                 cell.firstElementChild.textContent = ability.Abbr;
                 
                 cell.setAttribute('rating', ability.Effect);
