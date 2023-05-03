@@ -117,7 +117,7 @@
         "Gambler": {
             "Abbr": "Gambler",
             "Category": "Trait, Fielder",
-            "Effect Type": "",
+            "Effect Type": "S",
             "Description": ""
         },
         "Grounder": {
@@ -162,8 +162,8 @@
             "Effect Type": "S",
             "Description": "Hits easy-to-hit balls much more often."
         },
-        "Vs. Ace": {
-            "Abbr": "Vs. Ace",
+        "vs Ace": {
+            "Abbr": "vs Ace",
             "Category": "Fielder",
             "Effect Type": "+",
             "Description": "Increases abilities when up against an ace pitcher."
@@ -570,8 +570,8 @@
             "Effect Type": "",
             "Description": "Extremely popular."
         },
-        "W/RISP B": {
-            "Abbr": "W/RISP B",
+        "w/ RISP B": {
+            "Abbr": "w/ RISP B",
             "Category": "Trait, Pitcher",
             "Effect Type": "",
             "Description": ""
@@ -654,8 +654,8 @@
             "Effect Type": "+",
             "Description": "Throw pitches full of fighting spirit."
         },
-        "Vs. Slugger": {
-            "Abbr": "Vs. Slugger",
+        "vs Slugger": {
+            "Abbr": "vs Slugger",
             "Category": "Pitcher",
             "Effect Type": "+",
             "Description": "Increases abilities when up against a slugger."
@@ -708,8 +708,8 @@
             "Effect Type": "",
             "Description": ""
         },
-        "W/RISP F": {
-            "Abbr": "W/RISP F",
+        "w/ RISP F": {
+            "Abbr": "w/ RISP F",
             "Category": "Trait, Pitcher",
             "Effect Type": "",
             "Description": ""
@@ -738,8 +738,8 @@
             "Effect Type": "-",
             "Description": "Makes it easier for poor pitches to go straight down the middle."
         },
-        "Vs. Runner": {
-            "Abbr": "Vs. Runner",
+        "vs Runner": {
+            "Abbr": "vs Runner",
             "Category": "Pitcher",
             "Effect Type": "-",
             "Description": "Weakens skills when there's a runner on 1st, or 1st and 3rd."
@@ -756,8 +756,8 @@
             "Effect Type": "",
             "Description": ""
         },
-        "W/RISP A": {
-            "Abbr": "W/RISP A",
+        "w/ RISP A": {
+            "Abbr": "w/ RISP A",
             "Category": "Trait, Pitcher",
             "Effect Type": "",
             "Description": ""
@@ -774,8 +774,8 @@
             "Effect Type": "",
             "Description": ""
         },
-        "Vs. LHB B": {
-            "Abbr": "Vs. LHB B",
+        "vs LHB B": {
+            "Abbr": "vs LHB B",
             "Category": "Trait, Pitcher",
             "Effect Type": "",
             "Description": ""
@@ -786,8 +786,8 @@
             "Effect Type": "-",
             "Description": "Tends to not lead their team to a win when they pitch."
         },
-        "Vs. LHB A": {
-            "Abbr": "Vs. LHB A",
+        "vs LHB A": {
+            "Abbr": "vs LHB A",
             "Category": "Trait, Pitcher",
             "Effect Type": "",
             "Description": ""
@@ -810,8 +810,8 @@
             "Effect Type": "S",
             "Description": "The slowdown of your breaking pitches becomes much more pronounced."
         },
-        "Vs. LHB F": {
-            "Abbr": "Vs. LHB F",
+        "vs LHB F": {
+            "Abbr": "vs LHB F",
             "Category": "Trait, Pitcher",
             "Effect Type": "",
             "Description": ""
@@ -822,8 +822,8 @@
             "Effect Type": "",
             "Description": ""
         },
-        "W/RISP C": {
-            "Abbr": "W/RISP C",
+        "w/ RISP C": {
+            "Abbr": "w/ RISP C",
             "Category": "Trait, Pitcher",
             "Effect Type": "",
             "Description": ""
@@ -852,15 +852,15 @@
             "Effect Type": "",
             "Description": ""
         },
-        "Vs. LHB G": {
-            "Abbr": "Vs. LHB G",
+        "vs LHB G": {
+            "Abbr": "vs LHB G",
             "Category": "Trait, Pitcher",
             "Effect Type": "",
             "Description": ""
         },
         "Grit C": {
             "Abbr": "Grit C",
-            "Category": "Trait",
+            "Category": "Trait, Pitcher, Fielder",
             "Effect Type": "",
             "Description": ""
         },
@@ -872,7 +872,7 @@
         },
         "Grit B": {
             "Abbr": "Grit B",
-            "Category": "Trait",
+            "Category": "Trait, Pitcher, Fielder",
             "Effect Type": "",
             "Description": ""
         },
@@ -884,13 +884,13 @@
         },
         "Grit F": {
             "Abbr": "Grit F",
-            "Category": "Trait",
+            "Category": "Trait, Pitcher, Fielder",
             "Effect Type": "",
             "Description": ""
         },
         "Grit A": {
             "Abbr": "Grit A",
-            "Category": "Trait",
+            "Category": "Trait, Pitcher, Fielder",
             "Effect Type": "",
             "Description": ""
         },
@@ -906,15 +906,15 @@
             "Effect Type": "S",
             "Description": "Very good control of low pitches."
         },
-        "Vs. LHB C": {
-            "Abbr": "Vs. LHB C",
+        "vs LHB C": {
+            "Abbr": "vs LHB C",
             "Category": "Trait, Pitcher",
             "Effect Type": "",
             "Description": ""
         },
         "Dynamo": {
             "Abbr": "Dynamo",
-            "Category": "Trait",
+            "Category": "Trait, Pitcher, Fielder",
             "Effect Type": "",
             "Description": ""
         },
@@ -926,7 +926,7 @@
         },
         "Clutch F": {
             "Abbr": "Clutch F",
-            "Category": "Trait",
+            "Category": "Trait, Fielder",
             "Effect Type": "",
             "Description": ""
         },
@@ -956,12 +956,12 @@
         },
         "Clutch A": {
             "Abbr": "Clutch A",
-            "Category": "Trait",
+            "Category": "Trait, Fielder",
             "Effect Type": "",
             "Description": ""
         },
-        "Vs. LHP F": {
-            "Abbr": "Vs. LHP F",
+        "vs LHP F": {
+            "Abbr": "vs LHP F",
             "Category": "Trait, Fielder",
             "Effect Type": "",
             "Description": ""
@@ -974,7 +974,7 @@
         },
         "Clutch B": {
             "Abbr": "Clutch B",
-            "Category": "Trait",
+            "Category": "Trait, Fielder",
             "Effect Type": "",
             "Description": ""
         },
@@ -1020,8 +1020,8 @@
             "Effect Type": "",
             "Description": ""
         },
-        "Vs. LHP A": {
-            "Abbr": "Vs. LHP A",
+        "vs LHP A": {
+            "Abbr": "vs LHP A",
             "Category": "Trait, Fielder",
             "Effect Type": "",
             "Description": ""
@@ -1044,8 +1044,8 @@
             "Effect Type": "",
             "Description": ""
         },
-        "Vs. LHP B": {
-            "Abbr": "Vs. LHP B",
+        "vs LHP B": {
+            "Abbr": "vs LHP B",
             "Category": "Trait, Fielder",
             "Effect Type": "",
             "Description": ""
@@ -1058,7 +1058,7 @@
         },
         "Clutch G": {
             "Abbr": "Clutch G",
-            "Category": "Trait",
+            "Category": "Trait, Fielder",
             "Effect Type": "",
             "Description": ""
         },
@@ -1070,19 +1070,19 @@
         },
         "Grit G": {
             "Abbr": "Grit G",
-            "Category": "Trait",
+            "Category": "Trait, Pitcher, Fielder",
             "Effect Type": "",
             "Description": ""
         },
-        "Vs. LHP C": {
-            "Abbr": "Vs. LHP C",
+        "vs LHP C": {
+            "Abbr": "vs LHP C",
             "Category": "Trait, Fielder",
             "Effect Type": "",
             "Description": ""
         },
         "Clutch C": {
             "Abbr": "Clutch C",
-            "Category": "Trait",
+            "Category": "Trait, Fielder",
             "Effect Type": "",
             "Description": ""
         },
@@ -1136,8 +1136,8 @@
         },
         "Hardy": {
             "Abbr": "Hardy",
-            "Category": "Trait",
-            "Effect Type": "",
+            "Category": "Trait, Pitcher, Fielder",
+            "Effect Type": "S",
             "Description": ""
         },
         "Builder": {
