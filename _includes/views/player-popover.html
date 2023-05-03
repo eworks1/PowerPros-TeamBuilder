@@ -172,6 +172,14 @@
         {%- for key in skill_keys -%}
         <!-- {{ key }} skills grid -->
         <div id="{{ key }}-skills" class="skills-grid info-row">
+            {%- if key == 'posasgmt' -%} 
+            <span class="label">Assignment Rules</span>
+            {%- for i in (1..7) -%}
+            <span class="skill-cell blank"><span class="skill-desc">&nbsp;</span></span>
+            {%- endfor -%}
+
+            {%- else -%}
+
             {%- for traitAbbr in site.data.strings.traits[key] -%}
             {%- assign classStr = 'skill-cell' -%}
             {%- if traitAbbr == '' -%}
@@ -183,6 +191,7 @@
                 <span class="skill-rating"></span>
             </span>
             {%- endfor -%}
+            {%- endif -%}
 
             {%- unless key == 'posasgmt' -%} 
             {%- for i in (1..4) -%}
