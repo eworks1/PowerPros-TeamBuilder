@@ -117,8 +117,7 @@
         "Gambler": {
             "abbr": "Gambler",
             "category": "Trait, Fielder",
-            "effectType": "S",
-            "description": ""
+            "effectType": "S"
         },
         "Grounder": {
             "abbr": "Grounder",
@@ -249,8 +248,7 @@
         "Bullseye": {
             "abbr": "Bullseye",
             "category": "Trait, Fielder",
-            "effectType": "S",
-            "description": ""
+            "effectType": "S"
         },
         "Bunt": {
             "abbr": "Bunt",
@@ -453,7 +451,6 @@
         "Slugger": {
             "abbr": "Slugger",
             "category": "Position Assignment",
-            "effectType": "",
             "description": "Use big swings often."
         },
         "Sprayer": {
@@ -507,74 +504,67 @@
         "Aggrssiv Fld": {
             "abbr": "Aggrssiv Fld",
             "category": "Position Assignment",
-            "effectType": "",
+            "fullName": "Aggressive Fielder",
             "description": "Stubbornly hold onto your defense."
         },
         "Aggrssiv Htr": {
             "abbr": "Aggrssiv Htr",
             "category": "Position Assignment",
-            "effectType": "",
+            "fullName": "Aggressive Hitter",
             "description": "Swing with all your might from the very first pitch."
         },
         "Aggrssiv Run": {
             "abbr": "Aggrssiv Run",
             "category": "Position Assignment",
-            "effectType": "",
+            "fullName": "Aggressive Runner",
             "description": "Actively aim for the next base."
         },
         "Aggrssiv Stl": {
             "abbr": "Aggrssiv Stl",
             "category": "Position Assignment",
-            "effectType": "",
+            "fullName": "Aggressive Stealer",
             "description": "Always be on the lookout for chances to steal bases."
         },
         "Cautious Stl": {
             "abbr": "Cautious Stl",
             "category": "Position Assignment",
-            "effectType": "",
+            "fullName": "Cautious Stealer",
             "description": "Rarely steal bases."
         },
         "Patient Htr": {
             "abbr": "Patient Htr",
             "category": "Position Assignment",
-            "effectType": "",
+            "fullName": "Patient Hitter",
             "description": "Swing carefully, with an eye out for balls."
         },
         "Pinch Runner": {
             "abbr": "Pinch Runner",
             "category": "Position Assignment, Assignment Rules",
-            "effectType": "",
             "description": "Easy to be substituted in as a runner."
         },
         "Selfish": {
             "abbr": "Selfish",
             "category": "Position Assignment",
-            "effectType": "",
             "description": "Avoid bunting or batting with the intent of advancing runners."
         },
         "Selfless": {
             "abbr": "Selfless",
             "category": "Position Assignment",
-            "effectType": "",
             "description": "Bunt or bat with the intent of advancing runners."
         },
         "Slap Hitter": {
             "abbr": "Slap Hitter",
             "category": "Position Assignment",
-            "effectType": "",
             "description": "Use perfect swings often."
         },
         "Star": {
             "abbr": "Star",
             "category": "Position Assignment",
-            "effectType": "",
             "description": "Extremely popular."
         },
         "w/ RISP B": {
             "abbr": "w/ RISP B",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Handler": {
             "abbr": "Handler",
@@ -584,9 +574,7 @@
         },
         "Recovery C": {
             "abbr": "Recovery C",
-            "category": "Trait, Pitcher, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher, Fielder"
         },
         "Chill": {
             "abbr": "Chill",
@@ -597,14 +585,12 @@
         "Power P": {
             "abbr": "Power P",
             "category": "Position Assignment",
-            "effectType": "",
+            "fullName": "Power Pitcher",
             "description": "Focuses mainly on pitching fastballs."
         },
         "Recovery B": {
             "abbr": "Recovery B",
-            "category": "Trait, Pitcher, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher, Fielder"
         },
         "Toolkit": {
             "abbr": "Toolkit",
@@ -620,9 +606,7 @@
         },
         "Poise F": {
             "abbr": "Poise F",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Crossfire": {
             "abbr": "Crossfire",
@@ -639,7 +623,6 @@
         "Pace": {
             "abbr": "Pace",
             "category": "Position Assignment",
-            "effectType": "",
             "description": "Pitch with good tempo."
         },
         "Cutter": {
@@ -668,9 +651,7 @@
         },
         "Heater B": {
             "abbr": "Heater B",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Guts": {
             "abbr": "Guts",
@@ -680,15 +661,11 @@
         },
         "Poise B": {
             "abbr": "Poise B",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Agile B": {
             "abbr": "Agile B",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Pickoff": {
             "abbr": "Pickoff",
@@ -704,15 +681,11 @@
         },
         "Heater A": {
             "abbr": "Heater A",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "w/ RISP F": {
             "abbr": "w/ RISP F",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Airball": {
             "abbr": "Airball",
@@ -752,33 +725,23 @@
         },
         "Agile A": {
             "abbr": "Agile A",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "w/ RISP A": {
             "abbr": "w/ RISP A",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Agile F": {
             "abbr": "Agile F",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Poise A": {
             "abbr": "Poise A",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "vs LHB B": {
             "abbr": "vs LHB B",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Unlucky": {
             "abbr": "Unlucky",
@@ -788,9 +751,7 @@
         },
         "vs LHB A": {
             "abbr": "vs LHB A",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Walker": {
             "abbr": "Walker",
@@ -812,33 +773,23 @@
         },
         "vs LHB F": {
             "abbr": "vs LHB F",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Recovery G": {
             "abbr": "Recovery G",
-            "category": "Trait, Pitcher, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher, Fielder"
         },
         "w/ RISP C": {
             "abbr": "w/ RISP C",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Poise C": {
             "abbr": "Poise C",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Heater C": {
             "abbr": "Heater C",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Timer": {
             "abbr": "Timer",
@@ -848,57 +799,39 @@
         },
         "Poise E": {
             "abbr": "Poise E",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "vs LHB G": {
             "abbr": "vs LHB G",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Grit C": {
             "abbr": "Grit C",
-            "category": "Trait, Pitcher, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher, Fielder"
         },
         "Heater E": {
             "abbr": "Heater E",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Grit B": {
             "abbr": "Grit B",
-            "category": "Trait, Pitcher, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher, Fielder"
         },
         "Resolve": {
             "abbr": "Resolve",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Grit F": {
             "abbr": "Grit F",
-            "category": "Trait, Pitcher, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher, Fielder"
         },
         "Grit A": {
             "abbr": "Grit A",
-            "category": "Trait, Pitcher, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher, Fielder"
         },
         "Recovery F": {
             "abbr": "Recovery F",
-            "category": "Trait, Pitcher, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher, Fielder"
         },
         "Engineer": {
             "abbr": "Engineer",
@@ -908,195 +841,133 @@
         },
         "vs LHB C": {
             "abbr": "vs LHB C",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Dynamo": {
             "abbr": "Dynamo",
-            "category": "Trait, Pitcher, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher, Fielder"
         },
         "Auto": {
             "abbr": "Auto",
             "category": "Position Assignment, Assignment Rules",
-            "effectType": "",
             "description": "Leave the decision of when to substitute this player to the AI."
         },
         "Clutch F": {
             "abbr": "Clutch F",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Stealing B": {
             "abbr": "Stealing B",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Runner B": {
             "abbr": "Runner B",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Catcher A": {
             "abbr": "Catcher A",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Throwing B": {
             "abbr": "Throwing B",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Clutch A": {
             "abbr": "Clutch A",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "vs LHP F": {
             "abbr": "vs LHP F",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Throwing E": {
             "abbr": "Throwing E",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Clutch B": {
             "abbr": "Clutch B",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Catcher B": {
             "abbr": "Catcher B",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Throwing C": {
             "abbr": "Throwing C",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Throwing F": {
             "abbr": "Throwing F",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Runner F": {
             "abbr": "Runner F",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Stealing A": {
             "abbr": "Stealing A",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Catcher F": {
             "abbr": "Catcher F",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Throwing A": {
             "abbr": "Throwing A",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "vs LHP A": {
             "abbr": "vs LHP A",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Catcher C": {
             "abbr": "Catcher C",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Throwing G": {
             "abbr": "Throwing G",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Catcher E": {
             "abbr": "Catcher E",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "vs LHP B": {
             "abbr": "vs LHP B",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Runner A": {
             "abbr": "Runner A",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Clutch G": {
             "abbr": "Clutch G",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Stealing F": {
             "abbr": "Stealing F",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Grit G": {
             "abbr": "Grit G",
-            "category": "Trait, Pitcher, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher, Fielder"
         },
         "vs LHP C": {
             "abbr": "vs LHP C",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Clutch C": {
             "abbr": "Clutch C",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Stealing E": {
             "abbr": "Stealing E",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Hustle": {
             "abbr": "Hustle",
             "category": "Trait, Fielder",
-            "effectType": "S",
-            "description": ""
+            "effectType": "S"
         },
         "Stunner": {
             "abbr": "Stunner",
@@ -1106,39 +977,32 @@
         },
         "Catcher G": {
             "abbr": "Catcher G",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Stealing C": {
             "abbr": "Stealing C",
-            "category": "Trait, Fielder",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Fielder"
         },
         "Brk Ball P": {
             "abbr": "Brk Ball P",
             "category": "Position Assignment",
-            "effectType": "",
+            "fullName": "Breaking Ball Pitcher",
             "description": "Focuses more on breaking pitches."
         },
         "Bullet": {
             "abbr": "Bullet",
-            "category": "Trait, Pitcher",
-            "effectType": "",
-            "description": ""
+            "category": "Trait, Pitcher"
         },
         "Right Side": {
             "abbr": "Right Side",
             "category": "Position Assignment",
-            "effectType": "",
+            "fullName": "Right Side Pitching",
             "description": "Stand on the right side (toward 1st) of the mound."
         },
         "Hardy": {
             "abbr": "Hardy",
             "category": "Trait, Pitcher, Fielder",
-            "effectType": "S",
-            "description": ""
+            "effectType": "S"
         },
         "Builder": {
             "abbr": "Builder",
@@ -1149,13 +1013,11 @@
         "Stamina Push": {
             "abbr": "Stamina Push",
             "category": "Position Assignment, Assignment Rules",
-            "effectType": "",
             "description": "Start thinking about substitution when their stamina start dropping."
         },
         "Complete Games": {
             "abbr": "Complete Games",
             "category": "Position Assignment, Assignment Rules",
-            "effectType": "",
             "description": "Try to use this pitcher for complete games as much as possible."
         }
     }
