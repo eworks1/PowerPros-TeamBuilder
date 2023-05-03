@@ -356,7 +356,7 @@
     opacity: 0.5;
 }
 
-#pitching-skills .skill-cell:is([rating="A"], [rating="B"], [rating="+"]) {
+#pitching-skills .skill-cell:is([rating="A"], [rating="B"], [rating="="]) {
     background: green;
 }
 
