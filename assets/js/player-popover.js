@@ -341,8 +341,8 @@ function playerDoubleClicked(player) {
             if (descSpan && ratingSpan) {
                 const traitAbbr = descSpan.getAttribute('traitAbbr');
                 if (traitAbbr) { // this checks if it's an empty string
-                    const trait = all_abilities.traits[traitAbbr];
-                    if (trait.fullName) {
+                    const trait = all_abilities.traits.pitcher?.[traitAbbr];
+                    if (trait && trait.fullName) {
                         cell.title = `${trait.fullName}: ${trait.Description}`;
                     } else {
                         cell.title = trait.Description;
