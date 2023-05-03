@@ -102,131 +102,58 @@
         }
     },
     "abilities": {
-        "Chaser": {
-            "abbr": "Chaser",
-            "category": "Fielder",
-            "effectType": "+-",
-            "description": "Hits pitches that would be balls."
+        "Aggrssiv Fld": {
+            "abbr": "Aggrssiv Fld",
+            "category": "Position Assignment",
+            "fullName": "Aggressive Fielder",
+            "description": "Stubbornly hold onto your defense."
         },
-        "Fighter": {
-            "abbr": "Fighter",
-            "category": "Fielder",
-            "effectType": "+",
-            "description": "Shows high cutter technique."
+        "Aggrssiv Htr": {
+            "abbr": "Aggrssiv Htr",
+            "category": "Position Assignment",
+            "fullName": "Aggressive Hitter",
+            "description": "Swing with all your might from the very first pitch."
         },
-        "Grounder": {
-            "abbr": "Grounder",
-            "category": "Fielder",
-            "effectType": "-",
-            "description": "Easier to hit grounders when there are no outs or 1 out and a runner is on 1st."
+        "Aggrssiv Run": {
+            "abbr": "Aggrssiv Run",
+            "category": "Position Assignment",
+            "fullName": "Aggressive Runner",
+            "description": "Actively aim for the next base."
         },
-        "Hotshot": {
-            "abbr": "Hotshot",
-            "category": "Fielder",
-            "effectType": "+",
-            "description": "Boosts power after hitting a home run."
+        "Aggrssiv Stl": {
+            "abbr": "Aggrssiv Stl",
+            "category": "Position Assignment",
+            "fullName": "Aggressive Stealer",
+            "description": "Always be on the lookout for chances to steal bases."
         },
-        "Joker": {
-            "abbr": "Joker",
-            "category": "Fielder",
-            "effectType": "S",
-            "description": "Put lots of pressure on the pitcher when you're on base."
-        },
-        "Legend": {
-            "abbr": "Legend",
-            "category": "Fielder",
-            "effectType": "S",
-            "description": "Much easier to hit if there's a walk-off chance."
-        },
-        "Line Drive": {
-            "abbr": "Line Drive",
-            "category": "Fielder",
-            "effectType": "+",
-            "description": "Hits are more likely to be line drives."
-        },
-        "Revenge": {
-            "abbr": "Revenge",
-            "category": "Fielder",
-            "effectType": "+",
-            "description": "If called out in the last PA, boosts batting power for their next one."
-        },
-        "Surgical": {
-            "abbr": "Surgical",
-            "category": "Fielder",
-            "effectType": "S",
-            "description": "Hits easy-to-hit balls much more often."
-        },
-        "vs Ace": {
-            "abbr": "vs Ace",
-            "category": "Fielder",
-            "effectType": "+",
-            "description": "Increases abilities when up against an ace pitcher."
-        },
-        "Choker": {
-            "abbr": "Choker",
+        "Airball": {
+            "abbr": "Airball",
             "category": "Pitcher",
             "effectType": "-",
-            "description": "Abilities decline when you are close to victory."
+            "description": "Makes it easier for your pitches to fly when they are hit."
         },
-        "Downplay": {
-            "abbr": "Downplay",
-            "category": "Pitcher",
-            "effectType": "+-",
-            "description": "Show your full power at the very best time."
+        "Auto": {
+            "abbr": "Auto",
+            "category": "Position Assignment, Assignment Rules",
+            "description": "Leave the decision of when to substitute this player to the AI."
         },
-        "Dr. K": {
-            "abbr": "Dr. K",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Stats improve when you're on 2 strikes."
-        },
-        "Insider (P)": {
-            "abbr": "Insider (P)",
+        "Battler": {
+            "abbr": "Battler",
             "category": "Pitcher",
             "effectType": "+",
-            "description": "Improved control when throwing inside pitches."
-        },
-        "Ironball": {
-            "abbr": "Ironball",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Makes it more difficult for your pitches to have airtime even when they are hit."
-        },
-        "Low Ball": {
-            "abbr": "Low Ball",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Good control of low pitches."
-        },
-        "Momentum": {
-            "abbr": "Momentum",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Condition improves in the 2nd half of the game."
-        },
-        "Reflexes": {
-            "abbr": "Reflexes",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Good at handling pitcher returns."
-        },
-        "Trusty": {
-            "abbr": "Trusty",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Makes it more difficult for poor pitches to go straight down the middle."
-        },
-        "Two-way": {
-            "abbr": "Two-way",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Good pitching boosts batting power, and good batting boosts pitching power."
+            "description": "Throw pitches full of fighting spirit."
         },
         "Blocker": {
             "abbr": "Blocker",
             "category": "Fielder",
             "effectType": "+",
             "description": "Strike down runners with your precise tagging skills."
+        },
+        "Bluffer": {
+            "abbr": "Bluffer",
+            "category": "Pitcher",
+            "effectType": "+-",
+            "description": "Hide when you're exhausted or shaken."
         },
         "Blunder": {
             "abbr": "Blunder",
@@ -239,6 +166,18 @@
             "category": "Fielder",
             "effectType": "+",
             "description": "Good at hitting breaking pitches."
+        },
+        "Brk Ball P": {
+            "abbr": "Brk Ball P",
+            "category": "Position Assignment",
+            "fullName": "Breaking Ball Pitcher",
+            "description": "Focuses more on breaking pitches."
+        },
+        "Builder": {
+            "abbr": "Builder",
+            "category": "Fielder",
+            "effectType": "S",
+            "description": "Very good at creating opportunities."
         },
         "Bunt": {
             "abbr": "Bunt",
@@ -258,11 +197,41 @@
             "effectType": "-",
             "description": "Worsen the mood of the team."
         },
+        "Carver": {
+            "abbr": "Carver",
+            "category": "Pitcher",
+            "effectType": "S",
+            "description": "The slowdown of your breaking pitches becomes much more pronounced."
+        },
+        "Cautious Stl": {
+            "abbr": "Cautious Stl",
+            "category": "Position Assignment",
+            "fullName": "Cautious Stealer",
+            "description": "Rarely steal bases."
+        },
         "Charger": {
             "abbr": "Charger",
             "category": "Fielder",
             "effectType": "+",
             "description": "Run faster when a bunt is used."
+        },
+        "Chaser": {
+            "abbr": "Chaser",
+            "category": "Fielder",
+            "effectType": "+-",
+            "description": "Hits pitches that would be balls."
+        },
+        "Chill": {
+            "abbr": "Chill",
+            "category": "Pitcher",
+            "effectType": "=",
+            "description": "Pitching is not as easily impacted by condition."
+        },
+        "Choker": {
+            "abbr": "Choker",
+            "category": "Pitcher",
+            "effectType": "-",
+            "description": "Abilities decline when you are close to victory."
         },
         "Clinical": {
             "abbr": "Clinical",
@@ -276,11 +245,40 @@
             "effectType": "+",
             "description": "Can produce unexpected results under certain conditions."
         },
+        "Complete Games": {
+            "abbr": "Complete Games",
+            "category": "Position Assignment, Assignment Rules",
+            "description": "Try to use this pitcher for complete games as much as possible."
+        },
+        "Crossfire": {
+            "abbr": "Crossfire",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "Stats improve when you get a pitch on the outer corner."
+        },
+        "Cutter": {
+            "abbr": "Cutter",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "The slowdown of your breaking pitches becomes more pronounced."
+        },
         "Diver": {
             "abbr": "Diver",
             "category": "Fielder",
             "effectType": "+",
             "description": "Slide head-first into the base when things are close (1st)."
+        },
+        "Downplay": {
+            "abbr": "Downplay",
+            "category": "Pitcher",
+            "effectType": "+-",
+            "description": "Show your full power at the very best time."
+        },
+        "Dr. K": {
+            "abbr": "Dr. K",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "Stats improve when you're on 2 strikes."
         },
         "Eager": {
             "abbr": "Eager",
@@ -294,11 +292,23 @@
             "effectType": "-",
             "description": "Batting power with decrease when things are rough."
         },
+        "Engineer": {
+            "abbr": "Engineer",
+            "category": "Pitcher",
+            "effectType": "S",
+            "description": "Very good control of low pitches."
+        },
         "Fanned": {
             "abbr": "Fanned",
             "category": "Fielder",
             "effectType": "-",
             "description": "Batting power will greatly decrease when things are rough."
+        },
+        "Fighter": {
+            "abbr": "Fighter",
+            "category": "Fielder",
+            "effectType": "+",
+            "description": "Shows high cutter technique."
         },
         "Glover": {
             "abbr": "Glover",
@@ -311,6 +321,36 @@
             "category": "Fielder",
             "effectType": "+",
             "description": "Easier to differentiate between strikes and balls."
+        },
+        "Gripper": {
+            "abbr": "Gripper",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "You handle the ball well, making it harder for batters to hit your pitches."
+        },
+        "Grounder": {
+            "abbr": "Grounder",
+            "category": "Fielder",
+            "effectType": "-",
+            "description": "Easier to hit grounders when there are no outs or 1 out and a runner is on 1st."
+        },
+        "Guts": {
+            "abbr": "Guts",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "Don't show exhaustion, and pitch with stubborn energy even when your stamina is spent."
+        },
+        "Gyroball": {
+            "abbr": "Gyroball",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "The spin axis of fastballs with turn towards the batters, making the ball more difficult to hit."
+        },
+        "Handler": {
+            "abbr": "Handler",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "Motion and release timing is consistent for fastballs and breaking pitches."
         },
         "Heckler": {
             "abbr": "Heckler",
@@ -336,11 +376,41 @@
             "effectType": "+",
             "description": "Batting power increases as you hit more."
         },
+        "Hot Head": {
+            "abbr": "Hot Head",
+            "category": "Pitcher",
+            "effectType": "-",
+            "description": "Get angry when someone hits your pitches."
+        },
+        "Hotshot": {
+            "abbr": "Hotshot",
+            "category": "Fielder",
+            "effectType": "+",
+            "description": "Boosts power after hitting a home run."
+        },
+        "Insider": {
+            "abbr": "Insider",
+            "category": "Fielder",
+            "effectType": "+",
+            "description": "Good at inside pitches."
+        },
+        "Insider (P)": {
+            "abbr": "Insider (P)",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "Improved control when throwing inside pitches."
+        },
         "Insurer": {
             "abbr": "Insurer",
             "category": "Fielder",
             "effectType": "+",
             "description": "Batting power increases when you have a lead toward the end of the game."
+        },
+        "Ironball": {
+            "abbr": "Ironball",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "Makes it more difficult for your pitches to have airtime even when they are hit."
         },
         "Jester": {
             "abbr": "Jester",
@@ -348,11 +418,23 @@
             "effectType": "+",
             "description": "Put pressure on the pitcher when you're on base."
         },
+        "Joker": {
+            "abbr": "Joker",
+            "category": "Fielder",
+            "effectType": "S",
+            "description": "Put lots of pressure on the pitcher when you're on base."
+        },
         "Laser": {
             "abbr": "Laser",
             "category": "Fielder",
             "effectType": "+",
             "description": "You throw very sharp pitches."
+        },
+        "Legend": {
+            "abbr": "Legend",
+            "category": "Fielder",
+            "effectType": "S",
+            "description": "Much easier to hit if there's a walk-off chance."
         },
         "Level-Headed": {
             "abbr": "Level-Headed",
@@ -360,11 +442,29 @@
             "effectType": "=",
             "description": "Batting is not as easily impacted by condition."
         },
+        "Line Drive": {
+            "abbr": "Line Drive",
+            "category": "Fielder",
+            "effectType": "+",
+            "description": "Hits are more likely to be line drives."
+        },
+        "Low Ball": {
+            "abbr": "Low Ball",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "Good control of low pitches."
+        },
         "Low Hit": {
             "abbr": "Low Hit",
             "category": "Fielder",
             "effectType": "+",
             "description": "Easier to hit low pitches."
+        },
+        "Lucky": {
+            "abbr": "Lucky",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "Guide your team to a win when you pitch."
         },
         "Magnet": {
             "abbr": "Magnet",
@@ -372,11 +472,23 @@
             "effectType": "S",
             "description": "Hold onto your defenses with almost mystical strength."
         },
+        "Meatball": {
+            "abbr": "Meatball",
+            "category": "Pitcher",
+            "effectType": "-",
+            "description": "Makes it easier for poor pitches to go straight down the middle."
+        },
         "Menace": {
             "abbr": "Menace",
             "category": "Fielder",
             "effectType": "+",
             "description": "Intimidate pitchers."
+        },
+        "Momentum": {
+            "abbr": "Momentum",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "Condition improves in the 2nd half of the game."
         },
         "Mood Swinger": {
             "abbr": "Mood Swinger",
@@ -384,17 +496,51 @@
             "effectType": "=",
             "description": "The difference between good and poor batting becomes more severe."
         },
+        "Moody": {
+            "abbr": "Moody",
+            "category": "Pitcher",
+            "effectType": "=",
+            "description": "The difference between perfect pitches and poor pitches become more severe."
+        },
         "Morale": {
             "abbr": "Morale",
             "category": "Fielder",
             "effectType": "+",
             "description": "Improve the mood of the team."
         },
+        "Pace": {
+            "abbr": "Pace",
+            "category": "Position Assignment",
+            "description": "Pitch with good tempo."
+        },
+        "Patient Htr": {
+            "abbr": "Patient Htr",
+            "category": "Position Assignment",
+            "fullName": "Patient Hitter",
+            "description": "Swing carefully, with an eye out for balls."
+        },
+        "Pickoff": {
+            "abbr": "Pickoff",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "Good at pickoffs."
+        },
         "Pinch": {
             "abbr": "Pinch",
             "category": "Fielder",
             "effectType": "+",
             "description": "Batting power increases when you're Pinch Hitter."
+        },
+        "Pinch Runner": {
+            "abbr": "Pinch Runner",
+            "category": "Position Assignment, Assignment Rules",
+            "description": "Easy to be substituted in as a runner."
+        },
+        "Power P": {
+            "abbr": "Power P",
+            "category": "Position Assignment",
+            "fullName": "Power Pitcher",
+            "description": "Focuses mainly on pitching fastballs."
         },
         "Pull Hit": {
             "abbr": "Pull Hit",
@@ -420,6 +566,34 @@
             "effectType": "+",
             "description": "Show your refined batting form."
         },
+        "Reflexes": {
+            "abbr": "Reflexes",
+            "category": "Pitcher",
+            "effectType": "+",
+            "description": "Good at handling pitcher returns."
+        },
+        "Revenge": {
+            "abbr": "Revenge",
+            "category": "Fielder",
+            "effectType": "+",
+            "description": "If called out in the last PA, boosts batting power for their next one."
+        },
+        "Right Side": {
+            "abbr": "Right Side",
+            "category": "Position Assignment",
+            "fullName": "Right Side Pitching",
+            "description": "Stand on the right side (toward 1st) of the mound."
+        },
+        "Selfish": {
+            "abbr": "Selfish",
+            "category": "Position Assignment",
+            "description": "Avoid bunting or batting with the intent of advancing runners."
+        },
+        "Selfless": {
+            "abbr": "Selfless",
+            "category": "Position Assignment",
+            "description": "Bunt or bat with the intent of advancing runners."
+        },
         "Setter": {
             "abbr": "Setter",
             "category": "Fielder",
@@ -438,6 +612,11 @@
             "effectType": "S",
             "description": "Much easier to get hits when there is a chance to load the bases."
         },
+        "Slap Hitter": {
+            "abbr": "Slap Hitter",
+            "category": "Position Assignment",
+            "description": "Use perfect swings often."
+        },
         "Slugger": {
             "abbr": "Slugger",
             "category": "Position Assignment",
@@ -454,6 +633,28 @@
             "category": "Fielder",
             "effectType": "+",
             "description": "Your starting dash after a hit is faster."
+        },
+        "Stamina Push": {
+            "abbr": "Stamina Push",
+            "category": "Position Assignment, Assignment Rules",
+            "description": "Start thinking about substitution when their stamina start dropping."
+        },
+        "Star": {
+            "abbr": "Star",
+            "category": "Position Assignment",
+            "description": "Extremely popular."
+        },
+        "Stunner": {
+            "abbr": "Stunner",
+            "category": "Fielder",
+            "effectType": "S",
+            "description": "Can produce very unexpected results under certain conditions."
+        },
+        "Surgical": {
+            "abbr": "Surgical",
+            "category": "Fielder",
+            "effectType": "S",
+            "description": "Hits easy-to-hit balls much more often."
         },
         "Survivor": {
             "abbr": "Survivor",
@@ -473,102 +674,11 @@
             "effectType": "S",
             "description": "Use extreme sliding into home to take advantage of fielding mistakes."
         },
-        "Trucker": {
-            "abbr": "Trucker",
-            "category": "Fielder",
-            "effectType": "+",
-            "description": "Use extreme sliding into home to take advantage of fielding mistakes."
-        },
-        "Victor": {
-            "abbr": "Victor",
-            "category": "Fielder",
-            "effectType": "+",
-            "description": "Easier to hit if there's a walk-off chance."
-        },
-        "Zealous": {
-            "abbr": "Zealous",
-            "category": "Fielder",
-            "effectType": "S",
-            "description": "Very good against first pitches."
-        },
-        "Aggrssiv Fld": {
-            "abbr": "Aggrssiv Fld",
-            "category": "Position Assignment",
-            "fullName": "Aggressive Fielder",
-            "description": "Stubbornly hold onto your defense."
-        },
-        "Aggrssiv Htr": {
-            "abbr": "Aggrssiv Htr",
-            "category": "Position Assignment",
-            "fullName": "Aggressive Hitter",
-            "description": "Swing with all your might from the very first pitch."
-        },
-        "Aggrssiv Run": {
-            "abbr": "Aggrssiv Run",
-            "category": "Position Assignment",
-            "fullName": "Aggressive Runner",
-            "description": "Actively aim for the next base."
-        },
-        "Aggrssiv Stl": {
-            "abbr": "Aggrssiv Stl",
-            "category": "Position Assignment",
-            "fullName": "Aggressive Stealer",
-            "description": "Always be on the lookout for chances to steal bases."
-        },
-        "Cautious Stl": {
-            "abbr": "Cautious Stl",
-            "category": "Position Assignment",
-            "fullName": "Cautious Stealer",
-            "description": "Rarely steal bases."
-        },
-        "Patient Htr": {
-            "abbr": "Patient Htr",
-            "category": "Position Assignment",
-            "fullName": "Patient Hitter",
-            "description": "Swing carefully, with an eye out for balls."
-        },
-        "Pinch Runner": {
-            "abbr": "Pinch Runner",
-            "category": "Position Assignment, Assignment Rules",
-            "description": "Easy to be substituted in as a runner."
-        },
-        "Selfish": {
-            "abbr": "Selfish",
-            "category": "Position Assignment",
-            "description": "Avoid bunting or batting with the intent of advancing runners."
-        },
-        "Selfless": {
-            "abbr": "Selfless",
-            "category": "Position Assignment",
-            "description": "Bunt or bat with the intent of advancing runners."
-        },
-        "Slap Hitter": {
-            "abbr": "Slap Hitter",
-            "category": "Position Assignment",
-            "description": "Use perfect swings often."
-        },
-        "Star": {
-            "abbr": "Star",
-            "category": "Position Assignment",
-            "description": "Extremely popular."
-        },
-        "Handler": {
-            "abbr": "Handler",
+        "Timer": {
+            "abbr": "Timer",
             "category": "Pitcher",
             "effectType": "+",
-            "description": "Motion and release timing is consistent for fastballs and breaking pitches."
-        },
-        "Chill": {
-            "abbr": "Chill",
-            "category": "Pitcher",
-            "effectType": "=",
-            "description": "Pitching is not as easily impacted by condition."
-        },
-        "Power P": {
-            "abbr": "Power P",
-            "category": "Position Assignment",
-            "fullName": "Power Pitcher",
-            "description": "Focuses mainly on pitching fastballs."
+            "description": "Can pitch at very stable speeds."
         },
         "Toolkit": {
             "abbr": "Toolkit",
@@ -576,76 +686,23 @@
             "effectType": "+",
             "description": "Improves stats when combining fastballs with slow breaking pitches."
         },
-        "Hot Head": {
-            "abbr": "Hot Head",
-            "category": "Pitcher",
-            "effectType": "-",
-            "description": "Get angry when someone hits your pitches."
+        "Trucker": {
+            "abbr": "Trucker",
+            "category": "Fielder",
+            "effectType": "+",
+            "description": "Use extreme sliding into home to take advantage of fielding mistakes."
         },
-        "Crossfire": {
-            "abbr": "Crossfire",
+        "Trusty": {
+            "abbr": "Trusty",
             "category": "Pitcher",
             "effectType": "+",
-            "description": "Stats improve when you get a pitch on the outer corner."
+            "description": "Makes it more difficult for poor pitches to go straight down the middle."
         },
-        "Moody": {
-            "abbr": "Moody",
-            "category": "Pitcher",
-            "effectType": "=",
-            "description": "The difference between perfect pitches and poor pitches become more severe."
-        },
-        "Pace": {
-            "abbr": "Pace",
-            "category": "Position Assignment",
-            "description": "Pitch with good tempo."
-        },
-        "Cutter": {
-            "abbr": "Cutter",
+        "Two-way": {
+            "abbr": "Two-way",
             "category": "Pitcher",
             "effectType": "+",
-            "description": "The slowdown of your breaking pitches becomes more pronounced."
-        },
-        "Battler": {
-            "abbr": "Battler",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Throw pitches full of fighting spirit."
-        },
-        "vs Slugger": {
-            "abbr": "vs Slugger",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Increases abilities when up against a slugger."
-        },
-        "Lucky": {
-            "abbr": "Lucky",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Guide your team to a win when you pitch."
-        },
-        "Guts": {
-            "abbr": "Guts",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Don't show exhaustion, and pitch with stubborn energy even when your stamina is spent."
-        },
-        "Pickoff": {
-            "abbr": "Pickoff",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Good at pickoffs."
-        },
-        "Gripper": {
-            "abbr": "Gripper",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "You handle the ball well, making it harder for batters to hit your pitches."
-        },
-        "Airball": {
-            "abbr": "Airball",
-            "category": "Pitcher",
-            "effectType": "-",
-            "description": "Makes it easier for your pitches to fly when they are hit."
+            "description": "Good pitching boosts batting power, and good batting boosts pitching power."
         },
         "Tyrant": {
             "abbr": "Tyrant",
@@ -653,17 +710,23 @@
             "effectType": "+",
             "description": "Intimidate batters."
         },
-        "Bluffer": {
-            "abbr": "Bluffer",
-            "category": "Pitcher",
-            "effectType": "+-",
-            "description": "Hide when you're exhausted or shaken."
-        },
-        "Meatball": {
-            "abbr": "Meatball",
+        "Unlucky": {
+            "abbr": "Unlucky",
             "category": "Pitcher",
             "effectType": "-",
-            "description": "Makes it easier for poor pitches to go straight down the middle."
+            "description": "Tends to not lead their team to a win when they pitch."
+        },
+        "Victor": {
+            "abbr": "Victor",
+            "category": "Fielder",
+            "effectType": "+",
+            "description": "Easier to hit if there's a walk-off chance."
+        },
+        "vs Ace": {
+            "abbr": "vs Ace",
+            "category": "Fielder",
+            "effectType": "+",
+            "description": "Increases abilities when up against an ace pitcher."
         },
         "vs Runner": {
             "abbr": "vs Runner",
@@ -671,17 +734,11 @@
             "effectType": "-",
             "description": "Weakens skills when there's a runner on 1st, or 1st and 3rd."
         },
-        "Gyroball": {
-            "abbr": "Gyroball",
+        "vs Slugger": {
+            "abbr": "vs Slugger",
             "category": "Pitcher",
             "effectType": "+",
-            "description": "The spin axis of fastballs with turn towards the batters, making the ball more difficult to hit."
-        },
-        "Unlucky": {
-            "abbr": "Unlucky",
-            "category": "Pitcher",
-            "effectType": "-",
-            "description": "Tends to not lead their team to a win when they pitch."
+            "description": "Increases abilities when up against a slugger."
         },
         "Walker": {
             "abbr": "Walker",
@@ -689,68 +746,11 @@
             "effectType": "-",
             "description": "Makes walks more common."
         },
-        "Insider": {
-            "abbr": "Insider",
-            "category": "Fielder",
-            "effectType": "+",
-            "description": "Good at inside pitches."
-        },
-        "Carver": {
-            "abbr": "Carver",
-            "category": "Pitcher",
-            "effectType": "S",
-            "description": "The slowdown of your breaking pitches becomes much more pronounced."
-        },
-        "Timer": {
-            "abbr": "Timer",
-            "category": "Pitcher",
-            "effectType": "+",
-            "description": "Can pitch at very stable speeds."
-        },
-        "Engineer": {
-            "abbr": "Engineer",
-            "category": "Pitcher",
-            "effectType": "S",
-            "description": "Very good control of low pitches."
-        },
-        "Auto": {
-            "abbr": "Auto",
-            "category": "Position Assignment, Assignment Rules",
-            "description": "Leave the decision of when to substitute this player to the AI."
-        },
-        "Stunner": {
-            "abbr": "Stunner",
+        "Zealous": {
+            "abbr": "Zealous",
             "category": "Fielder",
             "effectType": "S",
-            "description": "Can produce very unexpected results under certain conditions."
-        },
-        "Brk Ball P": {
-            "abbr": "Brk Ball P",
-            "category": "Position Assignment",
-            "fullName": "Breaking Ball Pitcher",
-            "description": "Focuses more on breaking pitches."
-        },
-        "Right Side": {
-            "abbr": "Right Side",
-            "category": "Position Assignment",
-            "fullName": "Right Side Pitching",
-            "description": "Stand on the right side (toward 1st) of the mound."
-        },
-        "Builder": {
-            "abbr": "Builder",
-            "category": "Fielder",
-            "effectType": "S",
-            "description": "Very good at creating opportunities."
-        },
-        "Stamina Push": {
-            "abbr": "Stamina Push",
-            "category": "Position Assignment, Assignment Rules",
-            "description": "Start thinking about substitution when their stamina start dropping."
-        },
-        "Complete Games": {
-            "abbr": "Complete Games",
-            "category": "Position Assignment, Assignment Rules",
-            "description": "Try to use this pitcher for complete games as much as possible."
+            "description": "Very good against first pitches."
         }
     }
 }
