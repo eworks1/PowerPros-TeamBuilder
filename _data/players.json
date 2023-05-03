@@ -59,7 +59,16 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["W/RISP B", "Agile B", "Recovery C", "Reflexes", "Gripper"]
+        "Traits": {
+            "W/RISP": "B",
+            "Agile": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Reflexes", "Gripper"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "A.Aznable-279",
         "Name": "Anne Aznable",
@@ -100,7 +109,15 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Reflexes"]
+        "Traits": {
+            "W/RISP": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Reflexes"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "A.Lockhart-332",
         "Name": "Alvin Lockhart",
@@ -138,7 +155,15 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Vs. Slugger", "Downplay"]
+        "Traits": {
+            "Heater": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Vs. Slugger", "Downplay"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "A.Yabe-333",
         "Name": "Akio Yabe",
@@ -167,7 +192,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "F",
+            "Stealing": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Diver"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Aasa-483",
         "Name": "Ouma Aasa",
@@ -205,7 +239,17 @@
         }],
         "Pitching Form": "Overhead 15",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Poise A", "Bullet", "Recovery C", "Carver", "Ironball", "Breaking Ball Pitcher", "Pace"]
+        "Traits": {
+            "Poise": "A",
+            "Recovery": "C",
+            "Throwing": "C",
+            "Heater": "S"
+        },
+        "Abilities": {
+            "pitching": ["Carver", "Ironball"],
+            "fielding": ["Slugger", "Rally", "Victor"],
+            "positionAssignment": ["Pace", "Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Abata-318",
         "Name": "Yasushi Abata",
@@ -240,7 +284,14 @@
         }],
         "Pitching Form": "Overhead 7",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["Recovery B", "Breaking Ball P"]
+        "Traits": {
+            "Recovery": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Abata-316",
         "Name": "Yasushi Abata",
@@ -275,7 +326,14 @@
         }],
         "Pitching Form": "Overhead 7",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["Recovery C", "Breaking Ball Pitcher"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Akechi-318",
         "Name": "Mitsuhide Akechi",
@@ -304,7 +362,12 @@
         "Breaking Balls": [],
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "Standard 2",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Clutch"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Akutsu-179",
         "Name": "Akamitsu Akutsu",
@@ -336,7 +399,16 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["Poise B", "Recovery C", "Low Ball", "Breaking Ball P"]
+        "Traits": {
+            "Poise": "B",
+            "Recovery": "C",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": ["Low Ball"],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Alex-385",
         "Name": "Alex",
@@ -371,7 +443,12 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": "Cutter"
+        "Traits": {},
+        "Abilities": {
+            "pitching": ["Cutter"],
+            "fielding": ["Slugger"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Amane-240",
         "Name": "Karen Amane",
@@ -400,7 +477,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 111",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Runner": "B",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Setter"],
+            "positionAssignment": ["Aggrssiv Run"]
+        }
     }, {
         "id": "Aoba-336",
         "Name": "Haruto Aoba",
@@ -435,7 +521,15 @@
         }],
         "Pitching Form": "Three-Quarters 40",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Cutter", "Ironball", "Dr. K", "Battler", "Vs. Slugger", "Breaking Ball P"]
+        "Traits": {
+            "W/RISP": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Ironball", "Dr. K", "Battler", "Vs. Slugger"],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Arakata-356",
         "Name": "Kirei Arakata",
@@ -464,7 +558,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Blunder"],
+            "positionAssignment": ["Slap Hitter"]
+        }
     }, {
         "id": "Arashimaru-242",
         "Name": "Shiro Arashimaru",
@@ -505,7 +606,14 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["Recovery C", "Vs. Slugger"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Vs. Slugger"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Arashimaru-363",
         "Name": "Shiro Arashimaru",
@@ -546,7 +654,15 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Vs. Slugger"]
+        "Traits": {
+            "Heater": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Vs. Slugger"],
+            "fielding": ["Good Eye", "Clinical"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Arima-382",
         "Name": "Momiji Arima",
@@ -584,7 +700,15 @@
         }],
         "Pitching Form": "Three-Quarters 1",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["Grit B", "Crossfire", "Toolkit", "Airball"]
+        "Traits": {
+            "Grit": "B",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": ["Crossfire", "Toolkit", "Airball"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Atsumori-485",
         "Name": "Muneatsu Atsumori",
@@ -620,7 +744,12 @@
         }],
         "Pitching Form": "Overhead 80",
         "Batting Form": "General 24",
-        "Special Abilities (Pitching)": ["Battler", "Hot Head"]
+        "Traits": {},
+        "Abilities": {
+            "pitching": ["Battler", "Hot Head"],
+            "fielding": ["Slugger", "Rally"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Atsumori-374",
         "Name": "Muneatsu Atsumori",
@@ -656,7 +785,15 @@
         }],
         "Pitching Form": "Overhead 8",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["Poise A", "Recovery C"]
+        "Traits": {
+            "Poise": "A",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Rally"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Awate-296",
         "Name": "Sota Awate",
@@ -686,7 +823,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber", "Clutch", "Vs. Ace", "Easy Out"],
+            "positionAssignment": ["Cautious Stl", "Selfless", "Patient Htr"]
+        }
     }, {
         "id": "Azuma-394",
         "Name": "Shinpachi Azuma",
@@ -715,7 +857,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 36",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt Ace", "Squibber", "Low Hit", "Glover", "Morale", "Mood Swinger"],
+            "positionAssignment": ["Slap Hitter", "Aggrssiv Fld"]
+        }
     }, {
         "id": "Azuma-326",
         "Name": "Suguru Azuma",
@@ -746,7 +895,17 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Grit": "G",
+            "Throwing": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["High Hit", "Morale"],
+            "positionAssignment": ["Star"]
+        }
     }, {
         "id": "B.Marushima-369",
         "Name": "Bat Marushima",
@@ -778,7 +937,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 59",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Stealing": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Glover", "Good Eye"],
+            "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run", "Aggrssiv Stl"]
+        }
     }, {
         "id": "Ban-363",
         "Name": "Hanji Ban",
@@ -809,7 +977,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Grit": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Rally", "Glover", "Easy Out"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Bando-391",
         "Name": "Choji Bando",
@@ -839,7 +1014,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 15",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Sprayer", "Slam Fan", "Menace", "Trucker", "Slugger"],
+            "positionAssignment": ["Star", "Patient Htr"]
+        }
     }, {
         "id": "Benitsuru-344",
         "Name": "Taito Benitsuru",
@@ -869,7 +1049,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Homer", "Slam Fan", "Victor"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Black-314",
         "Name": "Black",
@@ -900,7 +1087,17 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Vs. LHP": "B",
+            "Stealing": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber", "Rally", "Slam Fan", "Victor", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Charai-282",
         "Name": "Genki Charai",
@@ -930,7 +1127,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Hot Bat", "Mood Swinger"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "Chiga-318",
         "Name": "Atsushi Chiga",
@@ -961,7 +1165,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 68",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Rally", "Vs. Ace", "Victor", "Grounder", "Mood Swinger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Chiyohime-348",
         "Name": "Chiyohime",
@@ -991,7 +1200,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 110",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Chouno-296",
         "Name": "Hanshiro Chouno",
@@ -1032,7 +1249,12 @@
         }],
         "Pitching Form": "Sidearm 15",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": ["Handler", "Airball", "Unlucky", "Breaking Ball Pitcher", "Pace"]
+        "Traits": {},
+        "Abilities": {
+            "pitching": ["Handler", "Airball", "Unlucky"],
+            "fielding": [],
+            "positionAssignment": ["Pace", "Brk Ball P", "Auto"]
+        }
     }, {
         "id": "D.Bonda-265",
         "Name": "Daisuke Bonda",
@@ -1070,7 +1292,15 @@
         }],
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["Recovery C", "Trusty"]
+        "Traits": {
+            "Recovery": "C",
+            "Clutch": "B"
+        },
+        "Abilities": {
+            "pitching": ["Trusty"],
+            "fielding": ["Squibber"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "D.Deita-470",
         "Name": "Daisuke Deita",
@@ -1099,7 +1329,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 37",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Catcher": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "High Hit", "Menace", "Good Eye"],
+            "positionAssignment": ["Selfish", "Patient Htr"]
+        }
     }, {
         "id": "D.Wang-383",
         "Name": "Damai Wang",
@@ -1130,7 +1368,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A",
+            "Stealing": "E",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Hot Bat", "Slam Fan", "Insurer", "Clinical"],
+            "positionAssignment": ["Selfish", "Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run", "Aggrssiv Stl"]
+        }
     }, {
         "id": "Daichiman-356",
         "Name": "Daikichi Daichiman",
@@ -1159,7 +1406,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A",
+            "Vs. LHP": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Menace", "Morale"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Daigogetsu-524",
         "Name": "Daigogetsu",
@@ -1197,7 +1452,12 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 7",
-        "Special Abilities (Pitching)": ["Ironball", "Tyrant", "Bluffer", "Meatball"]
+        "Traits": {},
+        "Abilities": {
+            "pitching": ["Ironball", "Tyrant", "Bluffer", "Meatball"],
+            "fielding": ["Slugger"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Doe-559",
         "Name": "Ryuga Doe",
@@ -1219,7 +1479,7 @@
         "Arm Strength": 70,
         "Fielding": 80,
         "Error Resistance": 50,
-        "Special Abilities (Fielder)": ["Clutch B", "Slinical", "Slugger", "Sprayer", "Low Hit"],
+        "Special Abilities (Fielder)": ["Clutch B", "Clinical", "Slugger", "Sprayer", "Low Hit"],
         "Top Speed": 151,
         "Control": 85,
         "Stamina": 95,
@@ -1235,7 +1495,17 @@
         }],
         "Pitching Form": "Three-Quarters 7",
         "Batting Form": "General 83",
-        "Special Abilities (Pitching)": ["Poise B", "Heater B", "Recovery C", "Ironball", "Trusty", "Chill"]
+        "Traits": {
+            "Poise": "B",
+            "Heater": "B",
+            "Recovery": "C",
+            "Clutch": "B"
+        },
+        "Abilities": {
+            "pitching": ["Ironball", "Trusty", "Chill"],
+            "fielding": ["Slugger", "Sprayer", "Low Hit", "Clinical"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Doken-320",
         "Name": "Reiji Doken",
@@ -1265,7 +1535,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "B",
+            "Grit": "C",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Trucker"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "Domon-316",
         "Name": "Kion Domon",
@@ -1296,7 +1575,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "Standard 2",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Clutch", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Edogawa-347",
         "Name": "Bunraku Edogawa",
@@ -1325,7 +1612,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 35",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Pull Hit", "Setter", "Rally", "Morale", "Slam Fan"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Emori-280",
         "Name": "You Emori",
@@ -1355,7 +1647,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Hot Bat", "Glover", "Morale", "Grounder", "Good Eye"],
+            "positionAssignment": ["Selfless", "Aggrssiv Fld", "Aggrssiv Htr"]
+        }
     }, {
         "id": "Ereki-349",
         "Name": "Teru Ereki",
@@ -1393,7 +1692,12 @@
         }],
         "Pitching Form": "Overhead 169",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["Cutter", "Insider"]
+        "Traits": {},
+        "Abilities": {
+            "pitching": ["Cutter", "Insider"],
+            "fielding": ["Squibber", "Clutch", "Clinical"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "F.Deita-382",
         "Name": "Fumito Deita",
@@ -1431,7 +1735,16 @@
         }],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["W/RISP B", "Heater B", "Cutter"]
+        "Traits": {
+            "W/RISP": "B",
+            "Heater": "B",
+            "Catcher": "B"
+        },
+        "Abilities": {
+            "pitching": ["Cutter"],
+            "fielding": ["Heckler", "Sprayer", "Level-Headed", "Good Eye", "Clinical"],
+            "positionAssignment": ["Star", "Slap Hitter", "Patient Htr"]
+        }
     }, {
         "id": "Fukami-311",
         "Name": "Kazuhito Fukami",
@@ -1466,7 +1779,17 @@
         }],
         "Pitching Form": "Overhead 2",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["Resolve", "Grit F", "Recovery C", "Cutter", "Ironball", "Tyrant", "Insider"]
+        "Traits": {
+            "w/ RISP": "S",
+            "Grit": "F",
+            "Recovery": "C",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Ironball", "Tyrant", "Insider"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Fukumizu-466",
         "Name": "Takeaki Fukumizu",
@@ -1505,7 +1828,14 @@
         }],
         "Pitching Form": "Three-Quarters 1",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Ironball", "Reflexes", "Tyrant", "Power P"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Ironball", "Reflexes", "Tyrant"],
+            "fielding": ["Good Eye"],
+            "positionAssignment": ["Patient Htr", "Power P", "Auto"]
+        }
     }, {
         "id": "Fukuya-413",
         "Name": "Hanao Fukuya",
@@ -1534,7 +1864,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Sprayer", "Rally", "Menace"],
+            "positionAssignment": ["Star"]
+        }
     }, {
         "id": "Furu-216",
         "Name": "Furu Heart",
@@ -1563,7 +1898,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 97",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Victor", "Trucker", "Easy Out"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Furunaga-349",
         "Name": "Eiji Furunaga",
@@ -1593,7 +1935,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Pull Hit", "High Hit"],
+            "positionAssignment": []
+        }
     }, {
         "id": "G.Bhattarai-357",
         "Name": "Gyanendra Bhattarai",
@@ -1624,7 +1971,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 49",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Hot Bat", "Low Hit", "Diver", "Takeout", "Good Eye"],
+            "positionAssignment": ["Slap Hitter", "Aggrssiv Fld", "Aggrssiv Stl"]
+        }
     }, {
         "id": "Gaido-228",
         "Name": "Kyoji Gaido",
@@ -1655,7 +2009,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 1",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "F",
+            "Catcher": "E",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Trucker"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Go-535",
         "Name": "Go",
@@ -1694,7 +2057,12 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": ["Dr. K", "Downplay"]
+        "Traits": {},
+        "Abilities": {
+            "pitching": ["Dr. K", "Downplay"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Gobu-378",
         "Name": "Rinto Gobu",
@@ -1726,7 +2094,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 77",
-        "Special Abilities (Pitching)": "Hot Head"
+        "Traits": {
+            "Vs. LHP": "A",
+            "Catcher": "B",
+            "Throwing": "A"
+        },
+        "Abilities": {
+            "pitching": ["Hot Head"],
+            "fielding": ["Slugger"],
+            "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run"]
+        }
     }, {
         "id": "Gunji-288",
         "Name": "Tomomasa Gunji",
@@ -1756,7 +2133,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 109",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "C",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Survivor", "Setter", "Clutch", "Good Eye", "Slugger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Hachikiri-306",
         "Name": "Yuuto Hachikiri",
@@ -1786,7 +2171,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Vs. LHP": "B",
+            "Catcher": "B",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Takeout", "Breaker", "Insurer", "Level-Headed"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Hagane-414",
         "Name": "Tsuyoshi Hagane",
@@ -1821,7 +2215,16 @@
         }],
         "Pitching Form": "Overhead 60",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": ["w/RISP B", "Heater B", "Recovery C", "Vs. Runner"]
+        "Traits": {
+            "W/RISP": "B",
+            "Heater": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Vs. Runner"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Haitani-325",
         "Name": "Mitsuru Haitani",
@@ -1850,7 +2253,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Laser", "Trucker"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Hakata-263",
         "Name": "Asune Hakata",
@@ -1888,7 +2299,15 @@
         }],
         "Pitching Form": "Three-Quarters 16",
         "Batting Form": "General 84",
-        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Cutter", "Toolkit"]
+        "Traits": {
+            "W/RISP": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Toolkit"],
+            "fielding": ["Survivor", "Squibber"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Hakosaki-348",
         "Name": "Ken Hakosaki",
@@ -1918,7 +2337,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Hot Bat", "Menace", "Good Eye", "Slugger"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "Hamasaki-270",
         "Name": "Shoji Hamasaki",
@@ -1956,7 +2380,14 @@
         }],
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["Recovery C", "Momentum", "Battler", "Unlucky", "Hot Head"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Momentum", "Battler", "Unlucky", "Hot Head"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Handa-313",
         "Name": "Kotetsu Handa",
@@ -1986,7 +2417,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "E",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Pinch", "Blocker", "Trucker", "Easy Out"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Hasami-179",
         "Name": "Shunichi Hasami",
@@ -2015,7 +2454,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Aggrssiv Run"]
+        }
     }, {
         "id": "Hassyaku-265",
         "Name": "Fumiko Hassyaku",
@@ -2045,7 +2491,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "F",
+            "Runner": "F",
+            "Throwing": "F"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber", "Survivor", "Slugger"],
+            "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Stl"]
+        }
     }, {
         "id": "Hatsuno-265",
         "Name": "Ayumu Hatsuno",
@@ -2075,7 +2530,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "G",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Selfless"]
+        }
     }, {
         "id": "Hayakawa-217",
         "Name": "Aoi Hayakawa",
@@ -2110,7 +2573,14 @@
         }],
         "Pitching Form": "Submarine 7",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["Toolkit", "Hot Head", "Recovery C", "Breaking Ball P"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Toolkit", "Hot Head"],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Hibikino-301",
         "Name": "Cocoro Hibikino",
@@ -2149,7 +2619,16 @@
         }],
         "Pitching Form": "Overhead 50",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Poise A", "Recovery G", "Toolkit"]
+        "Traits": {
+            "Poise": "A",
+            "Recovery": "G",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": ["Toolkit"],
+            "fielding": ["Rally", "Morale"],
+            "positionAssignment": ["Slap Hitter", "Patient Htr", "Auto"]
+        }
     }, {
         "id": "Hidou-304",
         "Name": "Hidou",
@@ -2178,7 +2657,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Vs. LHP": "F",
+            "Catcher": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Easy Out", "Slugger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Hino-451",
         "Name": "Yutaro Hino",
@@ -2207,7 +2694,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 20",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A",
+            "Stealing": "A",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Sprayer", "Blunder", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Hisakata-378",
         "Name": "Rei Hisakata",
@@ -2242,7 +2738,14 @@
         }],
         "Pitching Form": "Overhead 36",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": "Recovery C"
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Hokuto-401",
         "Name": "Yakumo Hokuto",
@@ -2280,7 +2783,16 @@
         }],
         "Pitching Form": "Three-Quarters 7",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Pace"]
+        "Traits": {
+            "Heater": "B",
+            "Recovery": "C",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Pace", "Auto"]
+        }
     }, {
         "id": "Hokuto-455",
         "Name": "Yakumo Hokuto",
@@ -2318,7 +2830,16 @@
         }],
         "Pitching Form": "Three-Quarters 7",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Pace"]
+        "Traits": {
+            "Heater": "B",
+            "Recovery": "C",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Pace", "Auto"]
+        }
     }, {
         "id": "Honba-308",
         "Name": "Anko Honba",
@@ -2348,7 +2869,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 112",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Survivor", "High Hit"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Horisugi-367",
         "Name": "Hitoshi Horisugi",
@@ -2377,7 +2905,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 32",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Grit": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Rally", "Menace", "Slugger"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "Horusrun-398",
         "Name": "Horusrun",
@@ -2415,7 +2950,16 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 87",
-        "Special Abilities (Pitching)": ["W/RISP B", "Poise B", "Heater B", "Ironball", "Tyrant", "Chill", "Star"]
+        "Traits": {
+            "W/RISP": "B",
+            "Poise": "B",
+            "Heater": "B"
+        },
+        "Abilities": {
+            "pitching": ["Ironball", "Tyrant", "Chill"],
+            "fielding": [],
+            "positionAssignment": ["Star", "Auto"]
+        }
     }, {
         "id": "Hoshii-329",
         "Name": "Subaru Hoshii",
@@ -2453,7 +2997,16 @@
         }],
         "Pitching Form": "Sidearm 15",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["W/RISP F", "Recovery C", "Trusty", "Momentum"]
+        "Traits": {
+            "W/RISP": "F",
+            "Recovery": "C",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": ["Trusty", "Momentum"],
+            "fielding": ["Sprayer", "High Hit"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Hoshizora-353",
         "Name": "Hoshimitsu Hoshizora",
@@ -2483,7 +3036,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Insider", "Clinical"],
+            "positionAssignment": ["Star"]
+        }
     }, {
         "id": "Ichinose-418",
         "Name": "Touya Ichinose",
@@ -2524,7 +3084,14 @@
         }],
         "Pitching Form": "Sidearm 1",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["Recovery C", "Tyrant", "Chill", "Breaking Ball P"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Tyrant", "Chill"],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Ichou-294",
         "Name": "Rikimaru Ichou",
@@ -2554,7 +3121,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Trucker", "Hotshot", "Easy Out", "Mood Swinger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Igarashi-281",
         "Name": "Gonzo Igarashi",
@@ -2583,7 +3157,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "F"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Rally", "Easy Out", "Blunder", "Slugger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Inada-298",
         "Name": "Gosaku Inada",
@@ -2612,7 +3193,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Mood Swinger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Ino-359",
         "Name": "Reiji Ino",
@@ -2650,7 +3236,14 @@
         }],
         "Pitching Form": "Three-Quarters 7",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Gripper", "Toolkit", "Breaking Ball Pitcher"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Gripper", "Toolkit"],
+            "fielding": ["Good Eye", "Clinical"],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Inukawa-316",
         "Name": "Kazune Inukawa",
@@ -2688,7 +3281,15 @@
         }],
         "Pitching Form": "Submarine 15",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["Poise F", "Recovery C", "Bluffer", "Downplay", "Pace"]
+        "Traits": {
+            "Poise": "F",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Bluffer", "Downplay"],
+            "fielding": [],
+            "positionAssignment": ["Pace", "Auto"]
+        }
     }, {
         "id": "Inuki-470",
         "Name": "Yamato Inuki",
@@ -2726,7 +3327,16 @@
         }],
         "Pitching Form": "Sidearm 7",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": ["w/RISP A", "Poise B", "Recovery C", "Low Ball", "Bluffer", "Chill"]
+        "Traits": {
+            "W/RISP": "A",
+            "Poise": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Low Ball", "Bluffer", "Chill"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Isamura-390",
         "Name": "Takeshi Isamura",
@@ -2764,7 +3374,14 @@
         }],
         "Pitching Form": "Three-Quarters 62",
         "Batting Form": "General 102",
-        "Special Abilities (Pitching)": ["Poise B", "Tyrant", "Low Ball", "Chill", "Pace"]
+        "Traits": {
+            "Poise": "B"
+        },
+        "Abilities": {
+            "pitching": ["Tyrant", "Low Ball", "Chill"],
+            "fielding": [],
+            "positionAssignment": ["Pace", "Auto"]
+        }
     }, {
         "id": "Iseki-388",
         "Name": "Tansaku Iseki",
@@ -2794,7 +3411,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "C",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Survivor", "Glover", "Breaker", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Ishino-179",
         "Name": "Masao Ishino",
@@ -2823,7 +3448,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Aggrssiv Run"]
+        }
     }, {
         "id": "Itto-370",
         "Name": "Sho Itto",
@@ -2853,7 +3485,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "S"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Slugger", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Iwai-302",
         "Name": "Koukichi Iwai",
@@ -2883,7 +3522,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 44",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Clutch", "Good Eye"],
+            "positionAssignment": ["Patient Htr"]
+        }
     }, {
         "id": "Izayoi-451",
         "Name": "Mitsuru Izayoi",
@@ -2912,7 +3558,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Joker", "Survivor", "Glover", "Line Drive", "Revenge", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Izayoi-373",
         "Name": "Luna Izayoi",
@@ -2948,7 +3601,14 @@
         }],
         "Pitching Form": "Three-Quarters 8",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Recovery C", "Gyroball", "Reflexes", "Guts", "Pace"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Gyroball", "Reflexes", "Guts"],
+            "fielding": ["Morale"],
+            "positionAssignment": ["Pace", "Auto"]
+        }
     }, {
         "id": "Javelin-378",
         "Name": "Yukari Igarashi (Javelin)",
@@ -2978,7 +3638,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 92",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Runner": "B",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber", "Clinical"],
+            "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Run"]
+        }
     }, {
         "id": "Jinguji-277",
         "Name": "Hikaru Jinguji",
@@ -3008,7 +3676,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Mood Swinger", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Jitsu-300",
         "Name": "Kazuo Jitsu",
@@ -3037,7 +3710,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 58",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Survivor", "Clinical"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "Julius-368",
         "Name": "Julius Tenoro",
@@ -3074,7 +3752,15 @@
         }],
         "Pitching Form": "Three-Quarters 91",
         "Batting Form": "General 119",
-        "Special Abilities (Pitching)": ["Low Ball", "Toolkit", "Star", "Pace"]
+        "Traits": {
+            "Clutch": "B",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": ["Low Ball", "Toolkit"],
+            "fielding": ["Blunder"],
+            "positionAssignment": ["Star", "Pace", "Auto"]
+        }
     }, {
         "id": "Junketsu-451",
         "Name": "Taro Junketsu",
@@ -3114,7 +3800,16 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["Heater A", "Agile F", "Recovery C", "Ironball", "Guts"]
+        "Traits": {
+            "Heater": "A",
+            "Agile": "F",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Ironball", "Guts"],
+            "fielding": ["Pull Hit", "Trucker"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "K.Morales-384",
         "Name": "Kyle Morales",
@@ -3144,7 +3839,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 106",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "A",
+            "Runner": "S",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt Ace", "Squibber", "Jester"],
+            "positionAssignment": ["Star", "Slap Hitter", "Aggrssiv Run"]
+        }
     }, {
         "id": "Kagami-404",
         "Name": "Kuuya Kagami",
@@ -3166,14 +3870,23 @@
         "Arm Strength": 70,
         "Fielding": 80,
         "Error Resistance": 70,
-        "Special Abilities (Fielder)": ["Clutch G", "Stealing B", "Throwing A", "Slugger", "Sprayer", "Rally Laster", "Chaser"],
+        "Special Abilities (Fielder)": ["Clutch G", "Stealing B", "Throwing A", "Slugger", "Sprayer", "Rally", "Laser", "Chaser"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "G",
+            "Stealing": "B",
+            "Throwing": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Sprayer", "Rally", "Laser", "Chaser"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Kagayaki-344",
         "Name": "Seiya Kagayaki",
@@ -3204,7 +3917,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 101",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Easy Out", "Blunder"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Kagurazaka-487",
         "Name": "Mitsuhiko Kagurazaka",
@@ -3245,7 +3963,15 @@
         }],
         "Pitching Form": "Sidearm 69",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": ["Poise B", "Recovery C"]
+        "Traits": {
+            "Poise": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Kaji-443",
         "Name": "Masuto Kaji",
@@ -3283,7 +4009,17 @@
         }],
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["W/RISP A", "Poise A", "Recovery C", "Lucky"]
+        "Traits": {
+            "W/RISP": "A",
+            "Poise": "A",
+            "Recovery": "C",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": ["Lucky"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Kamase-234",
         "Name": "Touma Kamase",
@@ -3318,7 +4054,16 @@
         }],
         "Pitching Form": "Overhead 2",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["Poise A", "Heater E", "Downplay", "Choker", "Unlucky"]
+        "Traits": {
+            "Poise": "A",
+            "Heater": "E",
+            "Clutch": "F"
+        },
+        "Abilities": {
+            "pitching": ["Downplay", "Choker", "Unlucky"],
+            "fielding": ["Blunder", "Grounder"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Kamitaka-388",
         "Name": "Ryu Kamitaka",
@@ -3353,7 +4098,14 @@
         }],
         "Pitching Form": "Three-Quarters 127",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["Recovery C", "Dr. K", "Low Ball", "Downplay", "Choker"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Dr. K", "Low Ball", "Downplay", "Choker"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Kamiyama-168",
         "Name": "Kaname Kamiyama",
@@ -3382,7 +4134,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "E",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Aggrssiv Run"]
+        }
     }, {
         "id": "Kanehara-372",
         "Name": "Izuru Kanehara",
@@ -3411,7 +4171,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber", "Setter", "Good Eye", "Clinical"],
+            "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Run", "Aggrssiv Stl"]
+        }
     }, {
         "id": "Karuizawa-261",
         "Name": "Daiki Karuizawa",
@@ -3440,7 +4208,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 52",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Aggrssiv Run"]
+        }
     }, {
         "id": "Katakura-245",
         "Name": "Masayuki Katakura",
@@ -3469,7 +4245,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit"],
+            "positionAssignment": ["Slap Hitter"]
+        }
     }, {
         "id": "Katori-293",
         "Name": "Senga Katori",
@@ -3505,7 +4286,15 @@
         }],
         "Pitching Form": "Sidearm 15",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": ["Vs. LHB C", "Recovery C", "Engineer", "Lucky", "Power Pitcher"]
+        "Traits": {
+            "Vs. LHB": "C",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Engineer", "Lucky"],
+            "fielding": [],
+            "positionAssignment": ["Power P", "Auto"]
+        }
     }, {
         "id": "Kawahoshi-258",
         "Name": "Homura Kawahoshi",
@@ -3535,7 +4324,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 23",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Hot Bat", "Squibber", "Refined", "Morale", "Clutch", "Trucker", "Diver"],
+            "positionAssignment": ["Aggrssiv Fld"]
+        }
     }, {
         "id": "Kazanagi-440",
         "Name": "Hyo Kazanagi",
@@ -3578,7 +4375,18 @@
         }],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Vs. LHP": "A",
+            "Grit": "B",
+            "Stealing": "B",
+            "Runner": "B",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Sprayer", "Push Hit", "Squibber", "Eager", "Setter", "Low Hit", "Level-Headed", "Good Eye", "Clinical"],
+            "positionAssignment": ["Star"]
+        }
     }, {
         "id": "Kazanin-289",
         "Name": "Yu Kazanin",
@@ -3607,7 +4415,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Runner": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Joker", "Squibber"],
+            "positionAssignment": ["Slap Hitter", "Aggrssiv Fld", "Aggrssiv Run"]
+        }
     }, {
         "id": "Kiba-385",
         "Name": "Arashi Kiba",
@@ -3648,7 +4463,17 @@
         }],
         "Pitching Form": "Overhead 7",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Heater A", "Recovery C", "Gyroball", "Ironball", "Crossfire", "Power P"]
+        "Traits": {
+            "Heater": "A",
+            "Recovery": "C",
+            "Clutch": "A",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": ["Gyroball", "Ironball", "Crossfire"],
+            "fielding": ["Slugger", "Good Eye"],
+            "positionAssignment": ["Power P", "Auto"]
+        }
     }, {
         "id": "Kikudo-233",
         "Name": "Aira Kikudo",
@@ -3686,7 +4511,14 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 113",
-        "Special Abilities (Pitching)": ["Recovery C", "Gyroball", "Momentum", "Battler"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Gyroball", "Momentum", "Battler"],
+            "fielding": ["Hot Bat", "Clutch"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Kino-372",
         "Name": "Kouichi Kino",
@@ -3730,7 +4562,14 @@
         }],
         "Pitching Form": "Sidearm 1",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Handler", "Downplay", "Breaking Ball Pitcher", "Pace"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Handler", "Downplay"],
+            "fielding": [],
+            "positionAssignment": ["Pace", "Aggrssiv Fld", "Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Kiriki-294",
         "Name": "Tsuyoshi Kiriki",
@@ -3759,7 +4598,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "F",
+            "Grit": "A",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Easy Out", "Mood Swinger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Kodaira-318",
         "Name": "Hinata Kodaira",
@@ -3789,7 +4637,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Runner": "B",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Squibber", "Clinical"],
+            "positionAssignment": ["Aggrssiv Fld"]
+        }
     }, {
         "id": "Kodaka-307",
         "Name": "Mirei Kodaka",
@@ -3821,7 +4677,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Catcher": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt Ace", "Rally", "Clutch", "Vs. Ace"],
+            "positionAssignment": ["Aggrssiv Fld"]
+        }
     }, {
         "id": "Kogarashi-254",
         "Name": "Ryo Kogarashi",
@@ -3851,7 +4715,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt Ace", "Glover"],
+            "positionAssignment": ["Slap Hitter", "Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run"]
+        }
     }, {
         "id": "Kogarashi-238",
         "Name": "Kabuki Kogarashi",
@@ -3880,7 +4752,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt Ace", "Refined"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Kohmoto-269",
         "Name": "Fukuo Kohmoto",
@@ -3909,7 +4788,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Catcher": "B",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": []
+        }
     }, {
         "id": "Kujo-420",
         "Name": "Bannou Kujo",
@@ -3941,7 +4829,16 @@
         }],
         "Pitching Form": "Overhead 56",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Poise F", "Dynamo"]
+        "Traits": {
+            "Poise": "F",
+            "Recovery": "S",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Kuon-290",
         "Name": "Hikaru Kuon",
@@ -3979,7 +4876,16 @@
         }],
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": ["W/RISP F", "Poise F", "Recovery C", "Airball", "Breaking Ball P"]
+        "Traits": {
+            "W/RISP": "F",
+            "Poise": "F",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Airball"],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Kuragari-289",
         "Name": "Hitoshi Kuragari",
@@ -4010,7 +4916,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 118",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "G",
+            "Stealing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Survivor", "Diver"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Kurama-453",
         "Name": "Takafumi Kurama",
@@ -4046,7 +4960,15 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["Heater A", "Recovery C", "Battler", "Guts", "Power P"]
+        "Traits": {
+            "Heater": "A",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Battler", "Guts"],
+            "fielding": ["Good Eye"],
+            "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Stl", "Patient Htr", "Power P", "Auto"]
+        }
     }, {
         "id": "Kureba-423",
         "Name": "Eiji Kureba",
@@ -4081,7 +5003,17 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["w/RISP A", "Recovery C", "Dr. K", "Crossfire", "Low Ball"]
+        "Traits": {
+            "W/RISP": "A",
+            "Recovery": "C",
+            "Stealing": "A",
+            "Throwing": "A"
+        },
+        "Abilities": {
+            "pitching": ["Dr. K", "Crossfire", "Low Ball"],
+            "fielding": [],
+            "positionAssignment": ["Selfless", "Aggrssiv Fld", "Auto"]
+        }
     }, {
         "id": "Kusano-332",
         "Name": "Kentaro Kusano",
@@ -4111,7 +5043,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "F"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Pull Hit", "High Hit", "Easy Out"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Kyushu-489",
         "Name": "Kyushu",
@@ -4140,7 +5079,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slam Fan", "Blocker", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "L.Tsukami-404",
         "Name": "Lifter Tsukami",
@@ -4163,14 +5107,22 @@
         "Arm Strength": 90,
         "Fielding": 48,
         "Error Resistance": 40,
-        "Special Abilities (Fielder)": ["Grit S", "Recovery C", "Homer", "Tanker", "Pull Hit", "Fanned", "Slugger", "Aggressive Hitter"],
+        "Special Abilities (Fielder)": ["Hardy", "Recovery C", "Homer", "Tanker", "Pull Hit", "Fanned", "Slugger", "Aggressive Hitter"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 105",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Grit": "S",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Homer", "Tanker", "Pull Hit", "Fanned", "Slugger"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "Lee-271",
         "Name": "Bronko Lee",
@@ -4200,7 +5152,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Grit": "B",
+            "Runner": "F"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Survivor", "Clutch", "Mood Swinger"],
+            "positionAssignment": ["Slap Hitter", "Selfish", "Aggrssiv Fld", "Aggrssiv Run", "Aggrssiv Stl"]
+        }
     }, {
         "id": "M.Christine-379",
         "Name": "Maximum Christine",
@@ -4229,7 +5190,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 12",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Pull Hit", "Menace", "Trucker"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "M.Ikari-466",
         "Name": "Mamoru Ikari",
@@ -4270,7 +5239,15 @@
         }],
         "Pitching Form": "Overhead 169",
         "Batting Form": "General 2",
-        "Special Abilities (Pitching)": ["W/RISP B", "Handler", "Recovery C", " Chill", "Power P", "Star"]
+        "Traits": {
+            "W/RISP": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Handler", "Chill"],
+            "fielding": ["Slugger", "Slugger"],
+            "positionAssignment": ["Stamina Push", "Star", "Power P"]
+        }
     }, {
         "id": "M.Vermillion-292",
         "Name": "Mickey Vermillion",
@@ -4300,7 +5277,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Diver"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Makita-339",
         "Name": "Makito Makita",
@@ -4330,7 +5315,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "A",
+            "Grit": "C",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Legend", "Pull Hit", "Survivor", "Low Hit", "Diver", "Laser", "Good Eye"],
+            "positionAssignment": ["Selfless", "Aggrssiv Htr"]
+        }
     }, {
         "id": "Marumochi-217",
         "Name": "Futoshi Marumochi",
@@ -4365,7 +5359,16 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["W/RISP F", "Vs. LHB F", "Recovery G", "Battler"]
+        "Traits": {
+            "W/RISP": "F",
+            "Vs. LHB": "F",
+            "Recovery": "G"
+        },
+        "Abilities": {
+            "pitching": ["Battler"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Matsukura-305",
         "Name": "Munemitsu Matsukura",
@@ -4400,7 +5403,14 @@
         }],
         "Pitching Form": "Overhead 15",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["Recovery C", "Vs. Slugger", "Hot Head"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Vs. Slugger", "Hot Head"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Matsuzaki-284",
         "Name": "Tomio Matsuzaki",
@@ -4432,7 +5442,16 @@
         }],
         "Pitching Form": "Overhead 108",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Ironball", "Trusty", "Power Pitcher"]
+        "Traits": {
+            "Heater": "B",
+            "Recovery": "C",
+            "Throwing": "F"
+        },
+        "Abilities": {
+            "pitching": ["Ironball", "Trusty"],
+            "fielding": [],
+            "positionAssignment": ["Power P", "Auto"]
+        }
     }, {
         "id": "Mileman-433",
         "Name": "Terry Mileman",
@@ -4470,7 +5489,16 @@
         }],
         "Pitching Form": "Overhead 106",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["W/RISP B", "Heater B", "Recovery C", "Cutter", "Ironball", "Tyrant", "Power Pitcher"]
+        "Traits": {
+            "W/RISP": "B",
+            "Heater": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Ironball", "Tyrant"],
+            "fielding": [],
+            "positionAssignment": ["Power P", "Auto"]
+        }
     }, {
         "id": "Minmin-292",
         "Name": "Minban Min (Minmin)",
@@ -4500,7 +5528,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 107",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Stunner", "Mood Swinger"],
+            "positionAssignment": ["Selfish"]
+        }
     }, {
         "id": "Misono-255",
         "Name": "Chika Misono",
@@ -4531,7 +5566,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 40",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "B",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Clutch", "Good Eye", "Slugger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Mitsuno-284",
         "Name": "Seira Mitsuno",
@@ -4560,7 +5603,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Grit": "F",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": []
+        }
     }, {
         "id": "Mizudori-309",
         "Name": "Shinobu Mizudori",
@@ -4590,7 +5641,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Vs. LHP": "B",
+            "Catcher": "B",
+            "Throwing": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Mood Swinger", "Good Eye"],
+            "positionAssignment": ["Patient Htr"]
+        }
     }, {
         "id": "Mizuki-218",
         "Name": "Suguru Mizuki",
@@ -4621,7 +5681,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Vs. LHP": "C",
+            "Stealing": "C",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slam Fan"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Mizuno-350",
         "Name": "Mataro Mizuno",
@@ -4662,7 +5731,14 @@
         }],
         "Pitching Form": "Overhead 15",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Cutter", "Dr.K", "Downplay", "Airball", "Choker Recovery C", "Breaking Ball P"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Dr. K", "Downplay", "Airball", "Choker"],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Modo-331",
         "Name": "Kou Modo",
@@ -4694,7 +5770,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 72",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Jester"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Mokoba-279",
         "Name": "Moko Mokoba",
@@ -4724,7 +5807,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "Standard 2",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": []
+        }
     }, {
         "id": "Moroi-291",
         "Name": "Kiyokazu Moroi",
@@ -4755,7 +5846,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Grit": "G",
+            "Runner": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Squibber", "Setter", "Rally", "Clutch", "Good Eye"],
+            "positionAssignment": ["Aggrssiv Run"]
+        }
     }, {
         "id": "Morumoto-289",
         "Name": "Yuuto Morumoto",
@@ -4794,7 +5893,18 @@
         }],
         "Pitching Form": "Overhead 16",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": ["Poise A", "Grit A", "Heater B", "Agile B"]
+        "Traits": {
+            "Poise": "A",
+            "Grit": "A",
+            "Heater": "B",
+            "Agile": "B",
+            "Runner": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Murasame-398",
         "Name": "Murasame",
@@ -4823,7 +5933,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Laser", "Glover"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Mushika-324",
         "Name": "Riku Mushika",
@@ -4854,7 +5971,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "G",
+            "Grit": "A",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Rally", "Blunder"],
+            "positionAssignment": []
+        }
     }, {
         "id": "N.Yumeshiro-353",
         "Name": "Nodoka Yumeshiro",
@@ -4884,7 +6010,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 73",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Level-Headed", "Good Eye", "Clinical"],
+            "positionAssignment": ["Selfless"]
+        }
     }, {
         "id": "Nagase-234",
         "Name": "Taiga Nagase",
@@ -4918,7 +6049,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "F",
+            "Catcher": "C",
+            "Grit": "F"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Blunder", "Good Eye"],
+            "positionAssignment": ["Slap Hitter", "Selfless", "Aggrssiv Fld", "Patient Htr"]
+        }
     }, {
         "id": "Naito-392",
         "Name": "Meiru Naito",
@@ -4949,7 +6089,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 46",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Morale"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Naito-386",
         "Name": "Meiru Naito",
@@ -4980,7 +6125,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 60",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Morale", "Trucker"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Nakai-321",
         "Name": "Santa Nakai",
@@ -5010,7 +6162,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Trucker", "Blunder"],
+            "positionAssignment": ["Patient Htr"]
+        }
     }, {
         "id": "Namaki-264",
         "Name": "Morio Namaki",
@@ -5040,7 +6199,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber"],
+            "positionAssignment": ["Aggrssiv Stl"]
+        }
     }, {
         "id": "Nanai-337",
         "Name": "Aleft Nanai",
@@ -5069,7 +6236,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Sprayer", "Rally"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Narumi-364",
         "Name": "Yuuto Narumi",
@@ -5107,7 +6279,12 @@
         }],
         "Pitching Form": "Three-Quarters 7",
         "Batting Form": "General 30",
-        "Special Abilities (Pitching)": ["Cutter", "Pickoff", "Lucky", "Pace"]
+        "Traits": {},
+        "Abilities": {
+            "pitching": ["Cutter", "Pickoff", "Lucky"],
+            "fielding": [],
+            "positionAssignment": ["Pace", "Auto"]
+        }
     }, {
         "id": "Natsuno-252",
         "Name": "Himawari Natsuno",
@@ -5144,7 +6321,12 @@
         }],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Low Hit", "Clutch"],
+            "positionAssignment": ["Aggrssiv Fld"]
+        }
     }, {
         "id": "Nekogami-296",
         "Name": "Yuu Nekogami",
@@ -5173,7 +6355,17 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "C",
+            "Stealing": "B",
+            "Runner": "B",
+            "Throwing": "G"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Morale", "Diver", "Mood Swinger"],
+            "positionAssignment": ["Aggrssiv Stl"]
+        }
     }, {
         "id": "Niijima-262",
         "Name": "Saki Niijima",
@@ -5203,7 +6395,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 42",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Setter", "Clutch"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Niijima-259",
         "Name": "Saki Niijima",
@@ -5233,7 +6432,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 42",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Setter", "Clutch", "Insider"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Nijitani-517",
         "Name": "Makoto Nijitani",
@@ -5274,7 +6478,14 @@
         }],
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Dr. K", "Breaking Ball Pitcher"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Dr. K"],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Ninomiya-360",
         "Name": "Mizuho Ninomiya",
@@ -5303,7 +6514,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Blocker", "Mood Swinger", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Nisepuro-186",
         "Name": "Nisepuro",
@@ -5332,7 +6550,8 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 64",
-        "Special Abilities (Pitching)": null
+        "Traits": [],
+        "Abilities": []
     }, {
         "id": "Nomi-287",
         "Name": "Shinzo Nomi",
@@ -5362,7 +6581,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "G",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Setter", "Rally", "Refined", "Clutch", "Clinical"],
+            "positionAssignment": ["Aggrssiv Run"]
+        }
     }, {
         "id": "Nubis-341",
         "Name": "Nubis",
@@ -5392,7 +6619,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 89",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Tanker", "Slugger", "Easy Out"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Nyaptet-284",
         "Name": "Nyaptet",
@@ -5423,7 +6655,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 88",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "B",
+            "Runner": "B",
+            "Throwing": "F"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber", "Jester", "Diver"],
+            "positionAssignment": ["Aggrssiv Run", "Aggrssiv Stl"]
+        }
     }, {
         "id": "Octavia-414",
         "Name": "Octavia",
@@ -5467,7 +6708,15 @@
         }],
         "Pitching Form": "Submarine 7",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Trusty", "Lucky", "Tyrant"]
+        "Traits": {
+            "Recovery": "C",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Trusty", "Lucky", "Tyrant"],
+            "fielding": ["Push Hit", "Clinical"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Oda-333",
         "Name": "Maito Oda",
@@ -5506,7 +6755,12 @@
         }],
         "Pitching Form": "–––––",
         "Batting Form": "General 75",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Homer", "Sprayer"],
+            "positionAssignment": ["Aggrssiv Fld"]
+        }
     }, {
         "id": "Odagiri-287",
         "Name": "Takumi Odagiri",
@@ -5536,7 +6790,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Glover"],
+            "positionAssignment": ["Aggrssiv Fld"]
+        }
     }, {
         "id": "Ogane-296",
         "Name": "Mochitaro Ogane",
@@ -5567,7 +6828,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 41",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "F",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Survivor", "Eager", "High Hit"],
+            "positionAssignment": ["Aggrssiv Fld"]
+        }
     }, {
         "id": "Okino-370",
         "Name": "Kairi Okino",
@@ -5597,7 +6866,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Refined", "Laser", "Easy Out", "Good Eye"],
+            "positionAssignment": ["Patient Htr"]
+        }
     }, {
         "id": "One-353",
         "Name": "Eight One",
@@ -5632,7 +6908,17 @@
         }],
         "Pitching Form": "Three-Quarters 1",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": ["Heater A", "Agile B", "Recovery C", "Ironball", "Battler", "Toolkit", "Chill", "Power P"]
+        "Traits": {
+            "Heater": "A",
+            "Agile": "B",
+            "Recovery": "C",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": ["Ironball", "Battler", "Toolkit", "Chill"],
+            "fielding": ["Slugger"],
+            "positionAssignment": ["Power P", "Auto"]
+        }
     }, {
         "id": "Onishi-447",
         "Name": "Harrison Onishi",
@@ -5673,7 +6959,16 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["Bullett", "Recovery C", "Bluffer", "Chill", "Power Pitcher"]
+        "Traits": {
+            "Recovery": "C",
+            "Throwing": "C",
+            "Heater": "S"
+        },
+        "Abilities": {
+            "pitching": ["Bluffer", "Chill"],
+            "fielding": [],
+            "positionAssignment": ["Power P", "Auto"]
+        }
     }, {
         "id": "Onishi-432",
         "Name": "Harrison Onishi",
@@ -5714,7 +7009,14 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["Recovery C", "Bluffer", "Chill", "Power P"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Bluffer", "Chill"],
+            "fielding": [],
+            "positionAssignment": ["Power P", "Auto"]
+        }
     }, {
         "id": "Otakara-287",
         "Name": "Kintaro Otakara",
@@ -5743,7 +7045,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 54",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["High Hit", "Laser", "Slugger"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "Oto-295",
         "Name": "Ruka Oto",
@@ -5772,7 +7079,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Heckler", "Clutch"],
+            "positionAssignment": ["Selfless"]
+        }
     }, {
         "id": "Otome-401",
         "Name": "Otome",
@@ -5810,7 +7124,15 @@
         }],
         "Pitching Form": "Overhead 15",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["w/RISP", "Recovery C", "Momentum", "Lucky"]
+        "Traits": {
+            "W/RISP": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Momentum", "Lucky"],
+            "fielding": [],
+            "positionAssignment": ["Complete Games", "Brk Ball P"]
+        }
     }, {
         "id": "Oume-347",
         "Name": "Tamio Oume",
@@ -5833,14 +7155,23 @@
         "Arm Strength": 69,
         "Fielding": 70,
         "Error Resistance": 60,
-        "Special Abilities (Fielder)": ["Clutch G", "vs LHP C", "Throwing C", "Slammer", "Clinical", "Survivor", "Buzzkill"],
+        "Special Abilities (Fielder)": ["Clutch G", "Vs. LHP C", "Throwing C", "Slammer", "Clinical", "Survivor", "Buzzkill"],
         "Top Speed": 120,
         "Control": 1,
         "Stamina": 1,
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "G",
+            "Vs. LHP": "C",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slammer", "Survivor", "Buzzkill", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Oyama-309",
         "Name": "Miyabi Oyama",
@@ -5870,7 +7201,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Victor", "Rally", "Clutch"],
+            "positionAssignment": ["Patient Htr"]
+        }
     }, {
         "id": "Ozaki-312",
         "Name": "Ryusuke Ozaki",
@@ -5900,7 +7236,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Survivor"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Ozora-270",
         "Name": "Miyoko Ozora",
@@ -5930,7 +7273,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "F"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger"],
+            "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr"]
+        }
     }, {
         "id": "Paachan-223",
         "Name": "Hazuki Hayama (Paachan)",
@@ -5961,7 +7311,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "Standard 18",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Two-way"],
+            "fielding": ["Clutch", "Slugger"],
+            "positionAssignment": ["Selfish", "Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run", "Aggrssiv Stl"]
+        }
     }, {
         "id": "Papillon-683",
         "Name": "Papillon",
@@ -6001,7 +7359,15 @@
         }],
         "Pitching Form": "Overhead 14",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Tyrant", "Aggressive Fielding"]
+        "Traits": {
+            "Heater": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Tyrant"],
+            "fielding": ["Slugger", "Clinical"],
+            "positionAssignment": ["Aggrssiv Fld", "Auto"]
+        }
     }, {
         "id": "Pink-345",
         "Name": "Pink",
@@ -6031,7 +7397,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "Standard 2",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "G",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Clinical"],
+            "positionAssignment": ["Star", "Aggrssiv Stl"]
+        }
     }, {
         "id": "R.Verrese-477",
         "Name": "Roseo Verrese",
@@ -6070,7 +7444,21 @@
         }],
         "Pitching Form": "Three-Quarters 13",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["W/RISP C", "Vs. LHB G", "Poise F", "Grit C", "Heater C", "Recovery C", "Guts", "Chill", "Right Side Pitching"]
+        "Traits": {
+            "W/RISP": "C",
+            "Vs. LHB": "G",
+            "Poise": "F",
+            "Grit": "C",
+            "Heater": "C",
+            "Recovery": "C",
+            "Clutch": "C",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": ["Guts", "Chill"],
+            "fielding": ["Victor", "Rally"],
+            "positionAssignment": ["Right Side", "Auto"]
+        }
     }, {
         "id": "Raigou-491",
         "Name": "Haruto Raigou",
@@ -6100,7 +7488,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 21",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Grit": "A",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Pull Hit", "Menace", "Vs. Ace"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Rakugaki-307",
         "Name": "Gosuke Rakugaki",
@@ -6141,7 +7537,14 @@
         }],
         "Pitching Form": "Three-Quarters 46",
         "Batting Form": "General 55",
-        "Special Abilities (Pitching)": ["Recovery C", "Cutter", "Trusty", "Hot Head"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Trusty", "Hot Head"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Red-455",
         "Name": "Red",
@@ -6179,7 +7582,16 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 103",
-        "Special Abilities (Pitching)": ["W/RISP A", "Heater A", "Recovery C", "Ironball", "Star"]
+        "Traits": {
+            "W/RISP": "A",
+            "Heater": "A",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Ironball"],
+            "fielding": ["Slugger", "Clinical"],
+            "positionAssignment": ["Star", "Auto"]
+        }
     }, {
         "id": "Reibu-496",
         "Name": "Reibu",
@@ -6220,7 +7632,15 @@
         }],
         "Pitching Form": "Three-Quarters 42",
         "Batting Form": "General 94",
-        "Special Abilities (Pitching)": ["Recovery F", "Engineer", "Cutter", "Toolkit", "Breaking Ball Pitcher"]
+        "Traits": {
+            "Recovery": "F",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": ["Engineer", "Cutter", "Toolkit"],
+            "fielding": ["Surgical", "Good Eye"],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Rokkaku-320",
         "Name": "Renji Rokkaku",
@@ -6250,7 +7670,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "E",
+            "Throwing": "F"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt Ace", "Setter", "Charger", "Jester", "Fighter", "Mood Swinger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Rokudoh-328",
         "Name": "Hijiri Rokudoh",
@@ -6280,7 +7708,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 17",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "A",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Heckler", "Bunt", "Level-Headed"],
+            "positionAssignment": ["Slap Hitter", "Patient Htr"]
+        }
     }, {
         "id": "Roppongi-321",
         "Name": "Yuki Roppongi",
@@ -6309,7 +7745,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Glover"],
+            "positionAssignment": []
+        }
     }, {
         "id": "S.Ikari-392",
         "Name": "Susumu Ikari",
@@ -6338,7 +7779,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 3",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Sprayer", "Clinical"],
+            "positionAssignment": ["Slap Hitter"]
+        }
     }, {
         "id": "S.Mitsumori-264",
         "Name": "Sakyo Mitsumori",
@@ -6367,7 +7815,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "B",
+            "Runner": "B",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber", "Mood Swinger"],
+            "positionAssignment": ["Aggrssiv Stl"]
+        }
     }, {
         "id": "Saburi-339",
         "Name": "Motsuhide Saburi",
@@ -6397,7 +7854,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Grit": "A",
+            "Runner": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Refined", "Revenge", "Clinical"],
+            "positionAssignment": ["Slap Hitter", "Selfish"]
+        }
     }, {
         "id": "Saeki-412",
         "Name": "Hajime Saeki",
@@ -6427,7 +7892,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "A",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Survivor", "Squibber", "Setter", "Rally", "Glover", "Clutch", "Clinical"],
+            "positionAssignment": ["Aggrssiv Fld"]
+        }
     }, {
         "id": "Saigoh-383",
         "Name": "Juzo Saigoh",
@@ -6465,7 +7938,15 @@
         }],
         "Pitching Form": "Three-Quarters 4",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": ["Agile A", "Recovery C", "Bluffer", "Vs. Runner", "Chill", "Power P"]
+        "Traits": {
+            "Agile": "A",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Bluffer", "Vs. Runner", "Chill"],
+            "fielding": [],
+            "positionAssignment": ["Power P", "Auto"]
+        }
     }, {
         "id": "Sakai-314",
         "Name": "Sumiyoshi Sakai",
@@ -6495,7 +7976,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "B",
+            "Stealing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Heckler", "Bunt", "Takeout"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Sakamoto-289",
         "Name": "Gen Sakamoto",
@@ -6524,7 +8013,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Runner": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber", "Eager"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Sakigake-360",
         "Name": "Ryuji Sakigake",
@@ -6554,7 +8050,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 69",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Vs. LHP": "B",
+            "Catcher": "C",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber"],
+            "positionAssignment": ["Selfless", "Aggrssiv Fld", "Aggrssiv Run"]
+        }
     }, {
         "id": "Sakuma-330",
         "Name": "Hiroshi Sakuma",
@@ -6584,7 +8089,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Squibber", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Sakuranomiya-289",
         "Name": "Souji Sakuranomiya",
@@ -6614,7 +8124,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "A",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt"],
+            "positionAssignment": ["Patient Htr"]
+        }
     }, {
         "id": "Sakurazawa-365",
         "Name": "Itsuki Sakurazawa",
@@ -6652,7 +8170,12 @@
         }],
         "Pitching Form": "Sidearm 15",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": ["Cutter", "Toolkit", "Breaking Ball Pitcher"]
+        "Traits": {},
+        "Abilities": {
+            "pitching": ["Cutter", "Toolkit"],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Samejima-331",
         "Name": "Kumetaro Samejima",
@@ -6681,7 +8204,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 9",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Victor", "Rally", "Diver"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Sana-278",
         "Name": "Ayumi Sana",
@@ -6719,7 +8247,15 @@
         }],
         "Pitching Form": "Submarine 15",
         "Batting Form": "General 57",
-        "Special Abilities (Pitching)": ["Poise B", "Recovery C", "Low Ball"]
+        "Traits": {
+            "Poise": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Low Ball"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Sanbonmatsu-299",
         "Name": "Hajime Sanbonmatsu",
@@ -6748,7 +8284,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Pull Hit", "Trucker"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Saru-417",
         "Name": "Saru",
@@ -6777,7 +8318,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": []
+        }
     }, {
         "id": "Saruyama-229",
         "Name": "Takeru Saruyama",
@@ -6806,7 +8354,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Clutch"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Sendoh-435",
         "Name": "Kiwamu Sendoh",
@@ -6836,7 +8389,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Grit": "F"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Zealous", "Slugger", "Sprayer", "Pinch", "Refined", "Blunder", "Fanned", "Clinical"],
+            "positionAssignment": ["Selfish", "Aggrssiv Htr"]
+        }
     }, {
         "id": "Setine-345",
         "Name": "Setine",
@@ -6865,7 +8425,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 90",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Magnet", "Jester", "Good Eye"],
+            "positionAssignment": ["Selfish"]
+        }
     }, {
         "id": "Shacho-395",
         "Name": "Shacho",
@@ -6894,7 +8461,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 10",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Trucker"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Shibata-201",
         "Name": "Gunpei Shibata",
@@ -6923,7 +8498,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": []
+        }
     }, {
         "id": "Shibuya-395",
         "Name": "Hideki Shibuya",
@@ -6953,7 +8535,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Victor", "Menace", "Clutch", "Slugger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Shido-327",
         "Name": "Remi Shido",
@@ -6982,7 +8569,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 71",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Glover", "Clinical"],
+            "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Stl"]
+        }
     }, {
         "id": "Shimada-405",
         "Name": "Eisaku Shimada",
@@ -7011,7 +8605,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 11",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Rally", "Morale", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Shindoh-453",
         "Name": "Yujiro Shindoh",
@@ -7052,7 +8653,12 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": "Star"
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": [],
+            "positionAssignment": ["Star", "Auto"]
+        }
     }, {
         "id": "Shinogi-451",
         "Name": "Takuma Shinogi",
@@ -7090,7 +8696,17 @@
         }],
         "Pitching Form": "Three-Quarters 14",
         "Batting Form": "General 86",
-        "Special Abilities (Pitching)": ["W/RISP C", "Vs. LHB B", "Poise E", "Heater C", "Cutter", "Ironball", "Insider"]
+        "Traits": {
+            "W/RISP": "C",
+            "Vs. LHB": "B",
+            "Poise": "E",
+            "Heater": "C"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Ironball", "Insider"],
+            "fielding": ["Buzzkill"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Shinonome-376",
         "Name": "Shouya Shinonome",
@@ -7120,7 +8736,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Sprayer", "Glover", "Clinical"],
+            "positionAssignment": ["Aggrssiv Fld"]
+        }
     }, {
         "id": "Shirana-357",
         "Name": "Itsutaro Shirana",
@@ -7158,7 +8781,14 @@
         }],
         "Pitching Form": "Sidearm 15",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Recovery C", "Momentum", "Dr. K", "Handler", "Pace"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Momentum", "Dr. K", "Handler"],
+            "fielding": [],
+            "positionAssignment": ["Pace", "Auto"]
+        }
     }, {
         "id": "Shiroi-305",
         "Name": "Hakusai Shiroi",
@@ -7188,7 +8818,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "F",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slam Fan", "Glover", "Easy Out"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Shiroyama-310",
         "Name": "Kenichi Shiroyama",
@@ -7226,7 +8864,15 @@
         }],
         "Pitching Form": "Overhead 15",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Ironball", "Guts", "Toolkit", "Hot Head"]
+        "Traits": {
+            "Heater": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Ironball", "Guts", "Toolkit", "Hot Head"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Shogogetsu-321",
         "Name": "Tsuyoshi Shogogetsu",
@@ -7257,7 +8903,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Menace", "Slugger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Sorimachi-294",
         "Name": "Mitsugu Sorimachi",
@@ -7286,7 +8937,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "Sudo-350",
         "Name": "Reito Sudo",
@@ -7321,7 +8979,16 @@
         }],
         "Pitching Form": "Overhead 170",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["Poise B", "Heater B", "Recovery C", "Gyroball", "Trusty", "Power Pitcher", "Pace"]
+        "Traits": {
+            "Poise": "B",
+            "Heater": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Gyroball", "Trusty"],
+            "fielding": [],
+            "positionAssignment": ["Pace", "Power P", "Auto"]
+        }
     }, {
         "id": "Suiko-277",
         "Name": "Mitsuyo Suiko",
@@ -7359,7 +9026,15 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 100",
-        "Special Abilities (Pitching)": ["Recovery C", "Bluffer"]
+        "Traits": {
+            "Recovery": "C",
+            "Clutch": "B"
+        },
+        "Abilities": {
+            "pitching": ["Bluffer"],
+            "fielding": ["Slugger"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Suzaku-431",
         "Name": "Nanseki Suzaku",
@@ -7395,7 +9070,16 @@
         }],
         "Pitching Form": "Overhead 53",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Cutter"]
+        "Traits": {
+            "Heater": "B",
+            "Recovery": "C",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": ["Cutter"],
+            "fielding": ["Laser"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Suzuhime-321",
         "Name": "Kentaro Suzuhime",
@@ -7425,7 +9109,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Rally", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Suzukaze-334",
         "Name": "Hope Suzukaze",
@@ -7463,7 +9154,15 @@
         }],
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Gripper", "Star"]
+        "Traits": {
+            "W/RISP": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Gripper"],
+            "fielding": ["Push Hit"],
+            "positionAssignment": ["Star", "Auto"]
+        }
     }, {
         "id": "Suzumoto-535",
         "Name": "Daisuke Suzumoto",
@@ -7501,7 +9200,18 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": ["vs. LHB A", "Poise B", "Heater B", "Agile B", "Recovery C", "Pickoff", "Handler", "Reflexes", "Gripper", "Low Ball", "Chill", "Star", "Power P", "Pace"]
+        "Traits": {
+            "Vs. LHB": "A",
+            "Poise": "B",
+            "Heater": "B",
+            "Agile": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Pickoff", "Handler", "Reflexes", "Gripper", "Low Ball", "Chill"],
+            "fielding": [],
+            "positionAssignment": ["Star", "Pace", "Power P", "Auto"]
+        }
     }, {
         "id": "T.Tsukami-321",
         "Name": "Tomoe Tsukami",
@@ -7542,7 +9252,17 @@
         }],
         "Pitching Form": "Overhead 16",
         "Batting Form": "General 104",
-        "Special Abilities (Pitching)": ["Heater B", "Agile B", "Recovery C", "Reflexes", "Toolkit", "Timer", "Pace"]
+        "Traits": {
+            "Heater": "B",
+            "Agile": "B",
+            "Recovery": "C",
+            "Clutch": "B"
+        },
+        "Abilities": {
+            "pitching": ["Reflexes", "Toolkit", "Timer"],
+            "fielding": ["Sprayer", "Clinical"],
+            "positionAssignment": ["Pace", "Auto"]
+        }
     }, {
         "id": "Tachibana-330",
         "Name": "Mizuki Tachibana",
@@ -7580,7 +9300,15 @@
         }],
         "Pitching Form": "Sidearm 102",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": ["Poise F", "Recovery C", "Crossfire", "Downplay", "Moody", "Breaking Ball P", "Pace"]
+        "Traits": {
+            "Poise": "F",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Crossfire", "Downplay", "Moody"],
+            "fielding": [],
+            "positionAssignment": ["Pace", "Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Tachikawa-427",
         "Name": "Hiromi Tachikawa",
@@ -7619,7 +9347,17 @@
         }],
         "Pitching Form": "Overhead 15",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["w/RISP B", "Poise B", "Heater A", "Recovery C", "Ironball", "Momentum", "Vs. Slugger"]
+        "Traits": {
+            "W/RISP": "B",
+            "Poise": "B",
+            "Heater": "A",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Ironball", "Momentum", "Vs. Slugger"],
+            "fielding": ["Bunt Ace", "Rally"],
+            "positionAssignment": ["Aggrssiv Fld", "Auto"]
+        }
     }, {
         "id": "Takagi-288",
         "Name": "Sachiko Takagi",
@@ -7652,7 +9390,14 @@
         }],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "Takano-365",
         "Name": "Yuki Takano",
@@ -7690,7 +9435,15 @@
         }],
         "Pitching Form": "Sidearm 15",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["W/RISP F", "Recovery C", "Vs. Runner"]
+        "Traits": {
+            "W/RISP": "F",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Vs. Runner"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Takeda-353",
         "Name": "Keiji Takeda",
@@ -7719,7 +9472,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 5",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A",
+            "Vs. LHP": "F",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Survivor", "Victor", "Rally", "Pinch", "Clutch", "Trucker", "Mood Swinger", "Slugger"],
+            "positionAssignment": ["Aggrssiv Fld", "Patient Htr"]
+        }
     }, {
         "id": "Takimoto-452",
         "Name": "Taro Takimoto",
@@ -7749,7 +9511,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 19",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Sprayer", "Trucker", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Tamane-313",
         "Name": "Natsuki Tamane",
@@ -7784,7 +9553,16 @@
         }],
         "Pitching Form": "Sidearm 2",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["W/RISP C", "Poise C", "Heater C", "Battler", "Timer", "Hot Head", "Moody"]
+        "Traits": {
+            "W/RISP": "C",
+            "Poise": "C",
+            "Heater": "C"
+        },
+        "Abilities": {
+            "pitching": ["Battler", "Timer", "Hot Head", "Moody"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Tamar-280",
         "Name": "Tamar Giuyu",
@@ -7814,7 +9592,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Survivor", "Mood Swinger", "Good Eye"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Tamasaburo-354",
         "Name": "Tamasaburo",
@@ -7843,7 +9628,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt", "Squibber", "Diver"],
+            "positionAssignment": ["Slap Hitter"]
+        }
     }, {
         "id": "Tamura-317",
         "Name": "Tamura",
@@ -7878,7 +9670,14 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": ["Recovery C", "Ironball", "Trusty", "Momentum", "Slugger", "Power P"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Ironball", "Trusty", "Momentum"],
+            "fielding": ["Slugger", "Trucker"],
+            "positionAssignment": ["Power P", "Auto"]
+        }
     }, {
         "id": "Tanaka-202",
         "Name": "Masaru Tanaka",
@@ -7907,7 +9706,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 8",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Eager", "Victor", "Clutch", "Diver"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Tanakayama-437",
         "Name": "Taro Tanakayama",
@@ -7941,7 +9745,14 @@
         }],
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": "Recovery C"
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt", "Glover"],
+            "positionAssignment": ["Slap Hitter", "Aggrssiv Fld", "Auto"]
+        }
     }, {
         "id": "Tarumoto-314",
         "Name": "Yuta Tarumoto",
@@ -7979,7 +9790,15 @@
         }],
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": ["Heater B", "Recovery C", "Ironball", "Moody", "Power Pitcher"]
+        "Traits": {
+            "Heater": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Ironball", "Moody"],
+            "fielding": [],
+            "positionAssignment": ["Power P", "Auto"]
+        }
     }, {
         "id": "Tatehashi-232",
         "Name": "Minato Tatehashi",
@@ -8009,7 +9828,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 81",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt Ace", "Squibber", "Level-Headed"],
+            "positionAssignment": ["Cautious Stl", "Selfless", "Patient Htr"]
+        }
     }, {
         "id": "Tatenishi-312",
         "Name": "Tsutomu Tatenishi",
@@ -8050,7 +9876,15 @@
         }],
         "Pitching Form": "Overhead 15",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Handler", "Reflexes", "Breaking Ball P"]
+        "Traits": {
+            "W/RISP": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Handler", "Reflexes"],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Tatsui-288",
         "Name": "Kazuya Tatsui",
@@ -8079,7 +9913,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 63",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Mood Swinger"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Tennoji-428",
         "Name": "Tennoji",
@@ -8108,7 +9950,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Eager"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Teramichi-331",
         "Name": "Noboru Teramichi",
@@ -8139,7 +9986,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Grit": "F",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Survivor", "Bunt Ace", "Trucker", "Clinical"],
+            "positionAssignment": ["Selfless"]
+        }
     }, {
         "id": "Tezuka-324",
         "Name": "Takafumi Tezuka",
@@ -8174,7 +10029,14 @@
         }],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": ["Agile B", "Cutter", "Timer"]
+        "Traits": {
+            "Agile": "B"
+        },
+        "Abilities": {
+            "pitching": ["Cutter", "Timer"],
+            "fielding": [],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Todo-350",
         "Name": "Mahiru Todo",
@@ -8203,7 +10065,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 33",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Sprayer", "Squibber"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Todoroki-266",
         "Name": "Haruka Todoroki",
@@ -8232,7 +10101,14 @@
         "Breaking Balls": [],
         "Pitching Form": "Overhead 1",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Rally", "Pinch", "Morale", "Clutch", "Easy Out", "Slugger"],
+            "positionAssignment": ["Selfless"]
+        }
     }, {
         "id": "Toy-615",
         "Name": "Tetsuo Toy",
@@ -8263,7 +10139,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "A",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Squibber", "Rally", "Glover", "Vs. Ace", "Clinical"],
+            "positionAssignment": ["Slap Hitter", "Aggrssiv Fld"]
+        }
     }, {
         "id": "Tsuburaya-303",
         "Name": "Kazuyoshi Tsuburaya",
@@ -8292,7 +10176,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber", "Takeout", "Jester"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Tsukumo-314",
         "Name": "Sora Tsukumo",
@@ -8321,7 +10212,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "High Hit", "Laser", "Level-Headed"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Tsuruya-291",
         "Name": "Masaru Tsuruya",
@@ -8356,7 +10254,17 @@
         }],
         "Pitching Form": "Overhead 15",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": ["Vs. LHB A", "Heater A", "Recovery C", "Downplay", "Walk", "Hot Head"]
+        "Traits": {
+            "Vs. LHB": "A",
+            "Heater": "A",
+            "Recovery": "C",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": ["Downplay", "Walker", "Hot Head"],
+            "fielding": ["Squibber"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "U.Mitsumori-264",
         "Name": "Ukyo Mitsumori",
@@ -8385,7 +10293,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "B",
+            "Runner": "B",
+            "Throwing": "E"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber", "Mood Swinger"],
+            "positionAssignment": ["Aggrssiv Stl"]
+        }
     }, {
         "id": "Udo-287",
         "Name": "Mikihisa Udo",
@@ -8415,7 +10332,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Easy Out"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Ueno-296",
         "Name": "Yoshito Ueno",
@@ -8444,7 +10368,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Grit": "B",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt"],
+            "positionAssignment": ["Selfless"]
+        }
     }, {
         "id": "Ukami-379",
         "Name": "Yokan Ukami",
@@ -8474,7 +10406,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 108",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Sprayer", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Umino-284",
         "Name": "Sachiko Umino",
@@ -8504,7 +10443,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 16",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Catcher": "E",
+            "Throwing": "A"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "Unkai-427",
         "Name": "Kazuya Unkai",
@@ -8545,7 +10492,12 @@
         }],
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": ["Cutter", "Ironball", "Battler", "Vs. Slugger"]
+        "Traits": {},
+        "Abilities": {
+            "pitching": ["Cutter", "Ironball", "Battler", "Vs. Slugger"],
+            "fielding": ["Sprayer", "Push Hit", "Clinical"],
+            "positionAssignment": ["Auto"]
+        }
     }, {
         "id": "Uraga-326",
         "Name": "Yuuya Uraga",
@@ -8575,7 +10527,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Low Hit", "Glover"],
+            "positionAssignment": []
+        }
     }, {
         "id": "V.Coldberg-454",
         "Name": "Victor Coldberg",
@@ -8604,7 +10564,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 43",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Vs. LHP": "A",
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Survivor", "Menace", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Vanguard-414",
         "Name": "Bowman Vanguard",
@@ -8633,7 +10601,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Sprayer", "Menace"],
+            "positionAssignment": ["Patient Htr"]
+        }
     }, {
         "id": "Waachan-193",
         "Name": "Wakana Wakamatsu (Waachan)",
@@ -8667,7 +10640,14 @@
         }],
         "Pitching Form": "–––––",
         "Batting Form": "Standard 38",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt Ace", "Refined", "Good Eye"],
+            "positionAssignment": ["Slap Hitter", "Selfless", "Patient Htr"]
+        }
     }, {
         "id": "Warabi-251",
         "Name": "Haruki Warabi",
@@ -8697,7 +10677,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Push Hit", "Bunt"],
+            "positionAssignment": ["Cautious Stl", "Selfless", "Patient Htr"]
+        }
     }, {
         "id": "Y.Diyansu-298",
         "Name": "Yaben Diyansu",
@@ -8728,7 +10713,17 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 13",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "F",
+            "Stealing": "B",
+            "Runner": "B",
+            "Throwing": "F"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Diver"],
+            "positionAssignment": ["Pinch Runner"]
+        }
     }, {
         "id": "Yabai-334",
         "Name": "Moeo Yabai",
@@ -8763,7 +10758,14 @@
         }],
         "Pitching Form": "–––––",
         "Batting Form": "General 26",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Throwing": "C"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Diver"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Yabe-273",
         "Name": "Akio Yabe",
@@ -8792,7 +10794,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 25",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "F",
+            "Stealing": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Diver"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Yabemon-368",
         "Name": "Tatsuo Yabemon",
@@ -8823,7 +10834,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "A",
+            "Stealing": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Diver", "Blunder"],
+            "positionAssignment": ["Selfish"]
+        }
     }, {
         "id": "Yabeta-276",
         "Name": "Akiko Yabeta",
@@ -8852,7 +10872,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 18",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "B",
+            "Runner": "B",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Bunt", "Squibber"],
+            "positionAssignment": ["Aggrssiv Fld"]
+        }
     }, {
         "id": "Yagyu-275",
         "Name": "Sayaka Yagyu",
@@ -8882,7 +10911,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 45",
-        "Special Abilities (Pitching)": null
+        "Traits": {},
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Slugger", "Survivor", "Clutch", "Clinical"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Yakyuman1Gou-292",
         "Name": "Yakyuman1Gou",
@@ -8917,7 +10951,14 @@
         }],
         "Pitching Form": "Submarine 7",
         "Batting Form": "General 114",
-        "Special Abilities (Pitching)": ["Recovery C", "Battler", "Toolkit", "Hot Head", "Breaking Ball Pitcher"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Battler", "Toolkit", "Hot Head"],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Yakyuman2Gou-346",
         "Name": "Yakyuman2Gou",
@@ -8952,7 +10993,15 @@
         }],
         "Pitching Form": "Sidearm 102",
         "Batting Form": "General 115",
-        "Special Abilities (Pitching)": ["Poise F", "Recovery C", "Crossfire", "Vs. Slugger", "Bluffer", "Downplay", "Moody", "Breaking Ball Pitcher", "Pace"]
+        "Traits": {
+            "Poise": "F",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Crossfire", "Vs. Slugger", "Bluffer", "Downplay", "Moody"],
+            "fielding": [],
+            "positionAssignment": ["Pace", "Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Yakyuman3Gou-375",
         "Name": "Yakyuman3Gou",
@@ -8982,7 +11031,16 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 99",
-        "Special Abilities (Pitching)": "Bluffer"
+        "Traits": {
+            "Clutch": "B",
+            "Catcher": "A",
+            "Throwing": "B"
+        },
+        "Abilities": {
+            "pitching": ["Bluffer"],
+            "fielding": ["Heckler", "Push Hit", "Bunt", "Level-Headed"],
+            "positionAssignment": ["Slap Hitter", "Patient Htr"]
+        }
     }, {
         "id": "Yakyuman5Gou-381",
         "Name": "Yakyuman5Gou",
@@ -9012,7 +11070,12 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 116",
-        "Special Abilities (Pitching)": "Bluffer"
+        "Traits": {},
+        "Abilities": {
+            "pitching": ["Bluffer"],
+            "fielding": ["Legend", "Sprayer", "Rally", "Clutch"],
+            "positionAssignment": ["Patient Htr"]
+        }
     }, {
         "id": "Yamaguchi-336",
         "Name": "Ken Yamaguchi",
@@ -9047,7 +11110,15 @@
         }],
         "Pitching Form": "Overhead 69",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": ["W/RISP B", "Recovery C", "Lucky", "Breaking Ball P"]
+        "Traits": {
+            "W/RISP": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Lucky"],
+            "fielding": [],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Yamino-481",
         "Name": "Eigou Yamino",
@@ -9088,7 +11159,14 @@
         }],
         "Pitching Form": "Three-Quarters 40",
         "Batting Form": "General 74",
-        "Special Abilities (Pitching)": ["Recovery C", "Trusty", "Choker", "Unlucky", "Breaking Ball Pitcher"]
+        "Traits": {
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Trusty", "Choker", "Unlucky"],
+            "fielding": ["Slugger", "Pull Hit", "High Hit", "Menace"],
+            "positionAssignment": ["Aggrssiv Htr", "Brk Ball P", "Auto"]
+        }
     }, {
         "id": "Yashima-332",
         "Name": "Ataru Yashima",
@@ -9117,7 +11195,15 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 28",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Squibber", "Morale", "Diver"],
+            "positionAssignment": []
+        }
     }, {
         "id": "Yojo-309",
         "Name": "Kenji Yojo",
@@ -9146,7 +11232,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 29",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Stealing": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Survivor", "Bunt", "Level-Headed"],
+            "positionAssignment": ["Aggrssiv Htr"]
+        }
     }, {
         "id": "Zansu-425",
         "Name": "Zansu",
@@ -9175,7 +11268,14 @@
         "Breaking Balls": [],
         "Pitching Form": "–––––",
         "Batting Form": "General 27",
-        "Special Abilities (Pitching)": null
+        "Traits": {
+            "Clutch": "B"
+        },
+        "Abilities": {
+            "pitching": [],
+            "fielding": ["Hot Bat", "Clinical"],
+            "positionAssignment": ["Slap Hitter"]
+        }
     }, {
         "id": "Zenigata-367",
         "Name": "Ranzo Zenigata",
@@ -9213,7 +11313,17 @@
         }],
         "Pitching Form": "Three-Quarters 15",
         "Batting Form": "–––––",
-        "Special Abilities (Pitching)": ["W/RISP B", "Vs. LHB B", "Poise B", "Recovery C", "Downplay", "Choker", "Hot Head", "Power Pitcher"]
+        "Traits": {
+            "W/RISP": "B",
+            "Vs. LHB": "B",
+            "Poise": "B",
+            "Recovery": "C"
+        },
+        "Abilities": {
+            "pitching": ["Downplay", "Choker", "Hot Head"],
+            "fielding": [],
+            "positionAssignment": ["Aggrssiv Fld", "Power P", "Auto"]
+        }
     }, {
         "id": "Zenzai-341",
         "Name": "Zenzai",
@@ -9251,6 +11361,16 @@
         }],
         "Pitching Form": "Three-Quarters 31",
         "Batting Form": "General 98",
-        "Special Abilities (Pitching)": ["Agile B", "Recovery C", "Toolkit", "Airball", "Breaking Ball P"]
+        "Traits": {
+            "Agile": "B",
+            "Recovery": "C",
+            "Stealing": "B",
+            "Runner": "B"
+        },
+        "Abilities": {
+            "pitching": ["Toolkit", "Airball"],
+            "fielding": ["Push Hit", "Bunt", "Squibber"],
+            "positionAssignment": ["Brk Ball P", "Auto"]
+        }
     }]
 }
