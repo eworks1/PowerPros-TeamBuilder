@@ -411,7 +411,7 @@ function playerDoubleClicked(player) {
                 if (traitAbbr) { // this checks if it's an empty string
                     const trait = all_abilities.traits.fielder?.[traitAbbr];
                     if (trait && trait.fullName) {
-                        cell.title = `${trait.fullName}: ${trait.description}`;
+                        cell.title = `(${trait.fullName}) - ${trait.description}`;
                     } else {
                         cell.title = trait.description;
                     }
@@ -442,7 +442,7 @@ function playerDoubleClicked(player) {
                 
                 cell.setAttribute('rating', ability.effectType);
                 if (ability.fullName) {
-                    cell.title = `${ability.fullName}: ${ability.description}`;
+                    cell.title = `(${ability.fullName}) - ${ability.description}`;
                 } else {
                     cell.title = ability.description;
                 }
