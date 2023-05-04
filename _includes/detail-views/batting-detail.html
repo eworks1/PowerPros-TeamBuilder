@@ -1,20 +1,20 @@
-{% comment %}
+{%- comment -%}
 { player }
-{% endcomment %}
+{%- endcomment -%}
 
-{% assign fullName = include.player.name %}
-{% assign nameAbbr = include.player.nameAbbr %}
-{% assign playerPositions = include.player.positions %}
+{%- assign fullName = include.player.name -%}
+{%- assign nameAbbr = include.player.nameAbbr -%}
+{%- assign playerPositions = include.player.positions -%}
 
-{% assign trj = include.player.trajectory %}
-{% assign hit = include.player.contact %}
-{% assign pwr = include.player.power %}
-{% assign runspd = include.player.runSpeed %}
-{% assign armstr = include.player.armStrength %}
-{% assign fielding = include.player.fielding %}
+{%- assign trj = include.player.trajectory -%}
+{%- assign hit = include.player.contact -%}
+{%- assign pwr = include.player.power -%}
+{%- assign runspd = include.player.runSpeed -%}
+{%- assign armstr = include.player.armStrength -%}
+{%- assign fielding = include.player.fielding -%}
 
 <div id="batting-detail" class="hidden-detail-page">
-    {% include components/player-name-box.html fullName=fullName nameAbbr=nameAbbr positions=playerPositions %}
+    {%- include components/player-name-box.html fullName=fullName nameAbbr=nameAbbr positions=playerPositions -%}
     
     <span class="star-point-count" style="grid-area: starpoints;">{{ include.player.starPoints }}</span>
 
@@ -22,17 +22,17 @@
 
     <span class="info-box handedness" style="grid-area: handedness;">Throws {{ include.player.throwingHandedness }}, Bats {{ include.player.battingHandedness }}</span>
 
-    <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HIT }}">HIT</span>{% include components/letter-rating.html rating=hit %}</span>
+    <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HIT }}">HIT</span>{%- include components/letter-rating.html rating=hit -%}</span>
 
-    <span class="info-box detail-pwr" style="grid-area: pwr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.PWR }}">PWR</span>{% include components/letter-rating.html rating=pwr %}</span>
+    <span class="info-box detail-pwr" style="grid-area: pwr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.PWR }}">PWR</span>{%- include components/letter-rating.html rating=pwr -%}</span>
 
-    <span class="info-box detail-runspd" style="grid-area: runspd;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['RUN SPD'] }}">RUN SPD </span>{% include components/letter-rating.html rating=runspd %}</span>
+    <span class="info-box detail-runspd" style="grid-area: runspd;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['RUN SPD'] }}">RUN SPD </span>{%- include components/letter-rating.html rating=runspd -%}</span>
 
-    <span class="info-box detail-armstr" style="grid-area: armstr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['ARM STR'] }}">ARM STR</span>{% include components/letter-rating.html rating=armstr %}</span>
+    <span class="info-box detail-armstr" style="grid-area: armstr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['ARM STR'] }}">ARM STR</span>{%- include components/letter-rating.html rating=armstr -%}</span>
 
-    <span class="info-box detail-fld" style="grid-area: fld;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.FLD }}">FLD</span>{% include components/letter-rating.html rating=fielding %}</span>
+    <span class="info-box detail-fld" style="grid-area: fld;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.FLD }}">FLD</span>{%- include components/letter-rating.html rating=fielding -%}</span>
 
-    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player.trajectory }}</span> {% include components/trajectory-arrow.html trj=trj %}</span>
+    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player.trajectory }}</span> {%- include components/trajectory-arrow.html trj=trj -%}</span>
 
     <span class="info-box" style="grid-area: avg;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.AVG }}">AVG</span><span class="dash-content">–––</span></span>
     <span class="info-box" style="grid-area: hr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HR }}">HR</span><span class="dash-content">–––</span></span>
@@ -40,24 +40,24 @@
 
     <span class="info-box detail-positions" style="grid-area: positions;">
         <span class="info-label" title="{{ site.data.strings.hover_text.stats.POS }}">POS</span>
-        {%- assign abbrPositions = '' | split: '' -%}
-        {%- for pos in playerPositions -%}
-            {%- if pos == 'SP' or pos == 'MR' or pos == 'CP' -%}
-                {%- unless abbrPositions contains 'P' -%}
-                    {%- assign abbrPositions = abbrPositions | push: 'P' -%}
-                {%- endunless -%}
-            {%- else -%}
-                {%- assign abbrPositions = abbrPositions | push: pos -%}
-            {%- endif -%}
-        {%- endfor -%}
+        {%-- assign abbrPositions = '' | split: '' --%}
+        {%-- for pos in playerPositions --%}
+            {%-- if pos == 'SP' or pos == 'MR' or pos == 'CP' --%}
+                {%-- unless abbrPositions contains 'P' --%}
+                    {%-- assign abbrPositions = abbrPositions | push: 'P' --%}
+                {%-- endunless --%}
+            {%-- else --%}
+                {%-- assign abbrPositions = abbrPositions | push: pos --%}
+            {%-- endif --%}
+        {%-- endfor --%}
         <span id="batting-detail-positions-list">
-            {%- for pos in abbrPositions -%}
-                {%- if forloop.first -%}
+            {%-- for pos in abbrPositions --%}
+                {%-- if forloop.first --%}
                     <span>{{ pos }}</span>
-                {%- else -%}
+                {%-- else --%}
                     <span> {{ pos }}</span>
-                {%- endif -%}
-            {%- endfor -%}
+                {%-- endif --%}
+            {%-- endfor --%}
         </span>
     </span>
 </div>

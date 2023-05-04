@@ -1,21 +1,21 @@
-{% comment %}
+{%- comment -%}
 { player }
-{% endcomment %}
+{%- endcomment -%}
 
-{% assign fullName = include.player.name %}
-{% assign nameAbbr = include.player.nameAbbr %}
-{% assign playerPositions = include.player.positions %}
-{% assign positionRatings = include.player.allFieldingRatings %}
+{%- assign fullName = include.player.name -%}
+{%- assign nameAbbr = include.player.nameAbbr -%}
+{%- assign playerPositions = include.player.positions -%}
+{%- assign positionRatings = include.player.allFieldingRatings -%}
 
-{% assign trj = include.player.trajectory %}
-{% assign hit = include.player.contact %}
-{% assign pwr = include.player.power %}
-{% assign runspd = include.player.runSpeed %}
-{% assign armstr = include.player.armStrength %}
-{% assign catching = include.player.catching %}
+{%- assign trj = include.player.trajectory -%}
+{%- assign hit = include.player.contact -%}
+{%- assign pwr = include.player.power -%}
+{%- assign runspd = include.player.runSpeed -%}
+{%- assign armstr = include.player.armStrength -%}
+{%- assign catching = include.player.catching -%}
 
 <div id="fielding-detail" class="current-detail-page">
-    {% include components/player-name-box.html fullName=fullName nameAbbr=nameAbbr positions=playerPositions %}
+    {%- include components/player-name-box.html fullName=fullName nameAbbr=nameAbbr positions=playerPositions -%}
     
     <span class="star-point-count" style="grid-area: starpoints;">{{ include.player.starPoints }}</span>
 
@@ -23,28 +23,29 @@
 
     <span class="info-box handedness" style="grid-area: handedness;">Throws {{ include.player.throwingHandedness }}, Bats {{ include.player.battingHandedness }}</span>
 
-    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player.trajectory }}</span> {% include components/trajectory-arrow.html trj=trj %}</span>
+    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player.trajectory }}</span> {%- include components/trajectory-arrow.html trj=trj -%}</span>
 
-    <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HIT }}">HIT</span>{% include components/letter-rating.html rating=hit %}</span>
+    <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HIT }}">HIT</span>{%- include components/letter-rating.html rating=hit -%}</span>
 
-    <span class="info-box detail-pwr" style="grid-area: pwr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.PWR }}">PWR</span>{% include components/letter-rating.html rating=pwr %}</span>
+    <span class="info-box detail-pwr" style="grid-area: pwr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.PWR }}">PWR</span>{%- include components/letter-rating.html rating=pwr -%}</span>
 
-    <span class="info-box detail-runspd" style="grid-area: runspd;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['RUN SPD'] }}">RUN SPD </span>{% include components/letter-rating.html rating=runspd %}</span>
+    <span class="info-box detail-runspd" style="grid-area: runspd;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['RUN SPD'] }}">RUN SPD </span>{%- include components/letter-rating.html rating=runspd -%}</span>
 
-    <span class="info-box detail-armstr" style="grid-area: armstr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['ARM STR'] }}">ARM STR</span>{% include components/letter-rating.html rating=armstr %}</span>
+    <span class="info-box detail-armstr" style="grid-area: armstr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['ARM STR'] }}">ARM STR</span>{%- include components/letter-rating.html rating=armstr -%}</span>
 
-    <span class="info-box detail-catching" style="grid-area: catching;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.Catching }}">Catching</span>{% include components/letter-rating.html rating=catching %}</span>
+    <span class="info-box detail-catching" style="grid-area: catching;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.Catching }}">Catching</span>{%- include components/letter-rating.html rating=catching -%}</span>
 
     <div id="fielding-detail-positions-box" class="info-box" style="display: grid; grid-area: fieldingbox;">
-        {% assign primary_position = include.player.positions | first %}
-        {% if primary_position == 'SP' or primary_position == 'MR' or primary_position == 'CP' %}
-            {% assign primary_position = 'P' %}
-        {% endif %}
+        <!-- TODO? -->
+        {%- assign primary_position = include.player.positions | first -%}
+        {%- if primary_position == 'SP' or primary_position == 'MR' or primary_position == 'CP' -%}
+            {%- assign primary_position = 'P' -%}
+        {%- endif -%}
 
         <span class="info-label" style="grid-area: label; width: 100%;" title="{{ site.data.strings.hover_text.stats.Fielding }}">Fielding</span> <span class="positions-label" title="{{ site.data.strings.hover_text.positions[primary_position] }}">{{ primary_position }}</span>
 
         <span id="position-ratings-container">
-            {% include graphics/position-ratings-chart.html positionRatings=positionRatings %}
+            {%- include graphics/position-ratings-chart.html positionRatings=positionRatings -%}
         </span>
     </div>
 </div>
