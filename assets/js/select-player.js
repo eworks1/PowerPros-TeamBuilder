@@ -290,3 +290,16 @@ function updatePositionRatingsChart(chart, ratings) {
         }
     }
 }
+
+/**
+ * @param {NodeListOf<Element>} textElements Collection of SVG `<text>` elements.
+ * @param {number} ratingValue
+ */
+function updateDetailViewLetterRatings(textElements, ratingValue) {
+    textElements.forEach(element => {
+        const rating = getLetterRatingFromNumber(ratingValue);
+        element.setAttribute('rating', rating);
+        element.textContent = rating;
+        element.previousElementSibling.textContent = `${ratingValue}`;
+    });
+}
