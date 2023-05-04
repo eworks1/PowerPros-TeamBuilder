@@ -300,6 +300,7 @@ function updateDetailViewLetterRatings(textElements, ratingValue) {
         const rating = getLetterRatingFromNumber(ratingValue);
         element.setAttribute('rating', rating);
         element.textContent = rating;
+        // <title> element for mouseover text
         element.previousElementSibling.textContent = `${ratingValue}`;
     });
 }
