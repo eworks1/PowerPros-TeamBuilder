@@ -403,6 +403,30 @@ function playerDoubleClicked(player) {
         updateAbilityCells(cells.slice(7), posAsgmtAbils);
     }
 
+    // Profile Tab (Skills/Info)
+    const popoverProfileInfoSection = document.getElementById('profile-tab-skills');
+    if (popoverProfileInfoSection) {
+        // Full Name
+        const fullNameSpan = popoverProfileInfoSection.querySelector('.info-row[fullname] .content');
+        if (fullNameSpan) {
+            fullNameSpan.textContent = player.Name;
+        }
+
+        // Uniform Name
+        const uniformNameSpan = popoverProfileInfoSection.querySelector('.info-row[uniformname] .content');
+        if (uniformNameSpan) {
+            // TODO: COME BACK TO THIS
+            uniformNameSpan.textContent = player.Name.toUpperCase();
+        }
+
+        // Nickname
+        const nicknameSpan = popoverProfileInfoSection.querySelector('.info-row[nickname] .content');
+        if (nicknameSpan) {
+            // TODO: COME BACK TO THIS
+            nicknameSpan.textContent = player.Name;
+        }
+    }
+
     // Show popover once all info is updated
     popover.classList.remove('hidden');
 }
