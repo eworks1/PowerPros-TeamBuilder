@@ -327,133 +327,79 @@ function playerDoubleClicked(player) {
     }
 
     // -- Abilities
+    // Pitcher and Fielder tabs
+    /** @type {['pitcher', 'fielder']} */
+    const tabKeys = ['pitcher', 'fielder'];
     
-    // Pitcher Tab
-    const popoverPitcherAbilitiesSection = document.getElementById('pitcher-skills');
-    if (popoverPitcherAbilitiesSection) {
-        const cells = Array.from(popoverPitcherAbilitiesSection.querySelectorAll('.skill-cell'));
-        
-        // Traits (first 8 cells)
-        cells.slice(0, 8).forEach(cell => {
-            const descSpan = cell.querySelector('.skill-desc');
-            const ratingSpan = cell.querySelector('.skill-rating');
+    for (const key of tabKeys) {
+        const popoverAbilitySection = document.getElementById(`${key}-skills`);
+        if (popoverAbilitySection) {
+            const cells = Array.from(popoverAbilitySection.querySelectorAll('.skill-cell'));
 
-            if (descSpan && ratingSpan) {
-                const traitAbbr = descSpan.getAttribute('traitAbbr');
-                if (traitAbbr) { // this checks if it's an empty string
-                    const trait = all_abilities.traits.pitcher?.[traitAbbr];
-                    if (trait && trait.fullName) {
-                        cell.title = `${trait.fullName}: ${trait.description}`;
-                    } else {
-                        cell.title = trait.description;
+            // Traits (first 8 cells)
+            cells.slice(0, 8).forEach(cell => {
+                const descSpan = cell.querySelector('.skill-desc');
+                const ratingSpan = cell.querySelector('.skill-rating');
+
+                if (descSpan && ratingSpan) {
+                    const traitAbbr = descSpan.getAttribute('traitAbbr');
+                    // Check if it's the catcher trait
+                    if (key == 'fielder' && traitAbbr == 'Catcher') {
+                        if (player["Field Position"].includes('C')) {
+                            cell.classList.remove('blank');
+                        } else {
+                            cell.classList.add('blank');
+                        }
                     }
 
-                    const traitRating = player.Traits?.[traitAbbr];
-                    if (traitRating) {
-                        cell.setAttribute('rating', traitRating);
-                        ratingSpan.textContent = traitRating;
+                    // this checks if it's an empty string
+                    if (traitAbbr) {
+                        const trait = all_abilities.traits[key]?.[traitAbbr];
+                        if (trait && trait.fullName) {
+                            cell.title = `(${trait.fullName}) - ${trait.description}`;
+                        } else {
+                            cell.title = trait.description;
+                        }
+
+                        const traitRating = player.Traits?.[traitAbbr];
+                        if (traitRating) {
+                            cell.setAttribute('rating', traitRating);
+                            ratingSpan.textContent = traitRating;
+                        } else {
+                            cell.setAttribute('rating', 'D');
+                            ratingSpan.textContent = 'D';
+                        }
                     } else {
-                        cell.setAttribute('rating', 'D');
-                        ratingSpan.textContent = 'D';
+                        cell.textContent = '';
+                        cell.title = ''; // clear hover text
+                        cell.removeAttribute('rating');
+                    }
+                }
+            });
+
+            // Abilities (remaining 24 cells, from 9th on)
+            cells.slice(8).forEach((cell, i) => {
+                // Check if the current index is within the range of the player's abilities
+                if (i < player.Abilities[key].length) {
+                    cell.classList.remove('blank');
+                    const ability = all_abilities.abilities[player.Abilities[key][i]];
+                    cell.firstElementChild.textContent = ability.abbr;
+                
+                    cell.setAttribute('rating', ability.effectType);
+                    if (ability.fullName) {
+                        cell.title = `(${ability.fullName}) - ${ability.description}`;
+                    } else {
+                        cell.title = ability.description;
                     }
                 } else {
-                    cell.textContent = '';
-                    cell.title = ''; // clear hover text
+                    cell.classList.add('blank');
+                    cell.firstElementChild.textContent = '';
+                
                     cell.removeAttribute('rating');
-                }
-            }
-        });
-
-        // Abilities (remaining 20 cells, from 9th on)
-        cells.slice(8).forEach((cell, i) => {
-            // Check if the current index is within the range of the player's abilities
-            if (i < player.Abilities.pitcher.length) {
-                cell.classList.remove('blank');
-                const ability = all_abilities.abilities[player.Abilities.pitcher[i]];
-                cell.firstElementChild.textContent = ability.abbr;
-                
-                cell.setAttribute('rating', ability.effectType);
-                if (ability.fullName) {
-                    cell.title = `${ability.fullName}: ${ability.description}`;
-                } else {
-                    cell.title = ability.description;
-                }
-            } else {
-                cell.classList.add('blank');
-                cell.firstElementChild.textContent = '';
-                
-                cell.removeAttribute('rating');
-                cell.title = ''; // clear hover text
-            }
-        });
-    }
-
-    // Fielder Tab
-    const popoverFielderAbilitiesSection = document.getElementById('fielder-skills');
-    if (popoverFielderAbilitiesSection) {
-        const cells = Array.from(popoverFielderAbilitiesSection.querySelectorAll('.skill-cell'));
-        
-        // Traits (first 8 cells)
-        cells.slice(0, 8).forEach(cell => {
-            const descSpan = cell.querySelector('.skill-desc');
-            const ratingSpan = cell.querySelector('.skill-rating');
-
-            if (descSpan && ratingSpan) {
-                let traitAbbr = descSpan.getAttribute('traitAbbr');
-                if (traitAbbr == 'Catcher') {
-                    if (player["Field Position"].includes('C')) {
-                        cell.classList.remove('blank');
-                    } else {
-                        cell.classList.add('blank');
-                    }
-                }
-
-                if (traitAbbr) { // this checks if it's an empty string
-                    const trait = all_abilities.traits.fielder?.[traitAbbr];
-                    if (trait && trait.fullName) {
-                        cell.title = `(${trait.fullName}) - ${trait.description}`;
-                    } else {
-                        cell.title = trait.description;
-                    }
-
-                    const traitRating = player.Traits?.[traitAbbr];
-                    if (traitRating) {
-                        cell.setAttribute('rating', traitRating);
-                        ratingSpan.textContent = traitRating;
-                    } else {
-                        cell.setAttribute('rating', 'D');
-                        ratingSpan.textContent = 'D';
-                    }
-                } else {
-                    cell.textContent = '';
                     cell.title = ''; // clear hover text
-                    cell.removeAttribute('rating');
                 }
-            }
-        });
-
-        // Abilities (remaining 24 cells, from 9th on)
-        cells.slice(8).forEach((cell, i) => {
-            // Check if the current index is within the range of the player's abilities
-            if (i < player.Abilities.fielder.length) {
-                cell.classList.remove('blank');
-                const ability = all_abilities.abilities[player.Abilities.fielder[i]];
-                cell.firstElementChild.textContent = ability.abbr;
-                
-                cell.setAttribute('rating', ability.effectType);
-                if (ability.fullName) {
-                    cell.title = `(${ability.fullName}) - ${ability.description}`;
-                } else {
-                    cell.title = ability.description;
-                }
-            } else {
-                cell.classList.add('blank');
-                cell.firstElementChild.textContent = '';
-                
-                cell.removeAttribute('rating');
-                cell.title = ''; // clear hover text
-            }
-        });
+            });
+        }
     }
 
     // Position Assignment Tab
