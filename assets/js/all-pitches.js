@@ -6,7 +6,8 @@ const all_pitches = allPitches().pitches;
 {% raw %}
 /**
  * @returns { { pitches: Object }}
- */{% endraw %}
+ */
 function allPitches() {
+{% endraw %}
     return {{ site.data.pitches | jsonify }};
 }
