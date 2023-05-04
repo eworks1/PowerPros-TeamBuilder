@@ -50,54 +50,24 @@ function playerClicked(player) {
     });
 
     const hitSvgTexts = detailBox.querySelectorAll('.detail-hit.info-box .letter-rating .letter');
-    hitSvgTexts.forEach(element => {
-        const rating = getLetterRatingFromNumber(player.Contact);
-        element.setAttribute('rating', rating);
-        element.textContent = rating;
-        element.previousElementSibling.textContent = `${player.Contact}`;
-    });
+    updateDetailViewLetterRatings(hitSvgTexts, player.Contact);
 
     const pwrSvgTexts = detailBox.querySelectorAll('.detail-pwr.info-box .letter-rating .letter');
-    pwrSvgTexts.forEach(element => {
-        const rating = getLetterRatingFromNumber(player.Power);
-        element.setAttribute('rating', rating);
-        element.textContent = rating;
-        element.previousElementSibling.textContent = `${player.Power}`;
-    });
+    updateDetailViewLetterRatings(pwrSvgTexts, player.Power);
 
     const runspdSvgTexts = detailBox.querySelectorAll('.detail-runspd.info-box .letter-rating .letter');
-    runspdSvgTexts.forEach(element => {
-        const rating = getLetterRatingFromNumber(player["Run Speed"]);
-        element.setAttribute('rating', rating);
-        element.textContent = rating;
-        element.previousElementSibling.textContent = `${player["Run Speed"]}`;
-    });
+    updateDetailViewLetterRatings(runspdSvgTexts, player["Run Speed"]);
 
     const armstrSvgTexts = detailBox.querySelectorAll('.detail-armstr.info-box .letter-rating .letter');
-    armstrSvgTexts.forEach(element => {
-        const rating = getLetterRatingFromNumber(player["Arm Strength"]);
-        element.setAttribute('rating', rating);
-        element.textContent = rating;
-        element.previousElementSibling.textContent = `${player["Arm Strength"]}`;
-    });
+    updateDetailViewLetterRatings(armstrSvgTexts, player["Arm Strength"]);
 
     // I think there won't be more than 1 of these, but just in case.
     const catchingSvgTexts = detailBox.querySelectorAll('.detail-catching.info-box .letter-rating .letter');
-    catchingSvgTexts.forEach(element => {
-        const rating = getLetterRatingFromNumber(player["Error Resistance"]);
-        element.setAttribute('rating', rating);
-        element.textContent = rating;
-        element.previousElementSibling.textContent = `${player["Error Resistance"]}`;
-    });
+    updateDetailViewLetterRatings(catchingSvgTexts, player["Error Resistance"]);
 
     // I think there won't be more than 1 of these, but just in case.
     const fldSvgTexts = detailBox.querySelectorAll('.detail-fld.info-box .letter-rating .letter');
-    fldSvgTexts.forEach(element => {
-        const rating = getLetterRatingFromNumber(player.Fielding);
-        element.setAttribute('rating', rating);
-        element.textContent = rating;
-        element.previousElementSibling.textContent = `${player.Fielding}`;
-    });
+    updateDetailViewLetterRatings(fldSvgTexts, player.Fielding);
 
     // Fielding Positions
     const fieldingPositionsLabel = detailBox.querySelector('#fielding-detail-positions-box .positions-label');
