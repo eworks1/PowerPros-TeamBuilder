@@ -2,28 +2,34 @@
 { player }
 {% endcomment %}
 
-{% assign fullName = include.player["Name"] %}
-{% assign nameAbbr = include.player["Name Abbreviation"] %}
-{% assign playerPositions = include.player["Field Position"] %}
-{% assign pitches = include.player["Breaking Balls"] %}
+{% assign fullName = include.player.name %}
+{% assign nameAbbr = include.player.nameAbbr %}
+{% assign playerPositions = include.player.positions %}
+{% assign pitches = include.player.breakingBalls %}
 
-{% assign control = include.player["Control"] %}
-{% assign stamina = include.player["Stamina"] %}
+{% assign control = include.player.control %}
+{% assign stamina = include.player.stamina %}
 
 <div id="pitching-detail" class="hidden-detail-page">
     {% include components/player-name-box.html fullName=fullName nameAbbr=nameAbbr positions=playerPositions %}
     
-    <span class="star-point-count" style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
+    <span class="star-point-count" style="grid-area: starpoints;">{{ include.player.starPoints }}</span>
 
-    <span class="info-box detail-topspeed pitch-speed" style="grid-area: topspeed;" title="{{ include.player['Top Speed'] | times: 0.62137 | round }} mph">{{ include.player["Top Speed"] }}</span>
+    <span class="info-box detail-topspeed pitch-speed" style="grid-area: topspeed;" title="{{ include.player.pitchingVelo | times: 0.62137 | round }} mph">{{ include.player.pitch.pitchingVelo }}</span>
 
-    <span class="info-box detail-pitching-form" style="grid-area: pitchform; justify-content: center;">{{ include.player["Pitching Form"] | replace: 'Three-Quarters', '3/4' }}</span>
+    {% assign formStr = '–––––' %}
+    {% if include.player.pitchingForm != '–––––' %}
+    {% assign throwingStr = include.player.throwingHandedness | replace: 'L', 'Left' | replace: 'R', 'Right' %}
+    {% assign tempStr = throwingStr |  include.player.pitchingForm | split: ' ' | first | replace: 'Three-Quarters', '3/4' %}
+    {% assign formStr = throwingStr | append: ' ' | append: tempStr %}
+    {% endif %}
+    <span class="info-box detail-pitching-form" style="grid-area: pitchform; justify-content: center;">{{ formStr }}</span>
 
     <span id="pitching-detail-roles-box" class="info-box" style="grid-area: roles;">
         <span class="info-label" title="{{ site.data.strings.hover_text.stats.APT }}">APT</span>
-        {%- assign primary_position = include.player["Field Position"] | first -%}
+        {%- assign primary_position = playerPositions | first -%}
 
-        {%- assign all_positions = include.player["Field Position"] | join: ' ' -%}
+        {%- assign all_positions = playerPositions | join: ' ' -%}
         {% include components/pitching-roles.html addl_classes='' all_positions=all_positions %}
         </span>
     </span>
@@ -33,7 +39,7 @@
     <span class="info-box detail-stamina" style="grid-area: stamina;"><span class="info-label">STAMINA</span>{% include components/letter-rating.html rating=stamina %}</span>
 
     <span id="pitch-selection" style="grid-area: pitches;">
-        {% assign handedness = include.player["Throws"] %}
+        {% assign handedness = include.player.throwingHandedness %}
         {% include graphics/pitching-chart.html id_prefix="detail" pitches=pitches handedness=handedness %}
     </span>
 </div>

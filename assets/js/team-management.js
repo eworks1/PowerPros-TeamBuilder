@@ -7,6 +7,7 @@ const max_counts = {
     fielders: 18,
     backups: 37
 };
+/** @type {{pitchers: Player[], fielders: Player[], backups: Player[]}} */
 var team = {
     pitchers: Array(),
     fielders: Array(),
@@ -15,9 +16,10 @@ var team = {
 
 {% raw %}
 /**
- * @param {any} player
- */{% endraw %}
+ * @param {Player} player
+ */
 function rightClicked(player) {
+{% endraw %}
     // If they're on the team, they'll be removed here.
     const deleted = removePlayer(player);
 
@@ -30,10 +32,11 @@ function rightClicked(player) {
 
 {% raw %}
 /**
- * @param {any} player
+ * @param {Player} player
  * @returns {boolean} If it succeeded.
- */{% endraw %}
+ */
 function addPlayer(player) {
+{% endraw %}
     // Add to team
     const primary_position = getPrimaryPosition(player);
     let added = true;
@@ -78,16 +81,16 @@ function addPlayer(player) {
         updatePlayerNameBox.apply(
             firstEmptyPlayerNameBox,
             [
-                player.Name,
-                player['Name Abbreviation'],
-                player['Field Position']
+                player.name,
+                player.nameAbbr,
+                player.positions
             ]
         );
 
         // Update cost-span
         // Manually update cost-span and add `.cost-zero` class to hide if 0
-        costSpan.textContent = player["Point Cost"];
-        if (player["Point Cost"] > 0) {
+        costSpan.textContent = player.cost;
+        if (player.cost > 0) {
             costSpan.classList.remove('cost-zero');
         } else {
             costSpan.classList.add('cost-zero');
@@ -111,12 +114,14 @@ function addPlayer(player) {
 
 {% raw %}
 /**
- * @param {any} player
+ * @param {Player} player
  * @returns {boolean} If it succeeded.
- */{% endraw %}
+ */
 function removePlayer(player) {
+{% endraw %}
     // Confirm if they're on the team or not
     const primary_position = getPrimaryPosition(player);
+    /** @type {"pitchers"|"fielders"|"backup"} */
     let position_group = '';
     let deleted = false;
     if (isPitcher(primary_position)) {
@@ -161,16 +166,16 @@ function removePlayer(player) {
         updatePlayerNameBox.apply(
             assocPlayerNameBox,
             [
-                emptyPlayer.Name,
-                emptyPlayer['Name Abbreviation'],
-                emptyPlayer['Field Position']
+                emptyPlayer.name,
+                emptyPlayer.nameAbbr,
+                emptyPlayer.positions
             ]
         );
 
         // Update cost-span
         // Manually update cost-span and add `.cost-zero` class to hide if 0
-        costSpan.textContent = emptyPlayer["Point Cost"];
-        if (emptyPlayer["Point Cost"] > 0) {
+        costSpan.textContent = emptyPlayer.cost;
+        if (emptyPlayer.cost > 0) {
             costSpan.classList.remove('cost-zero');
         } else {
             costSpan.classList.add('cost-zero');

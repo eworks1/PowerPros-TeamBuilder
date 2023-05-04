@@ -2,28 +2,28 @@
 { player }
 {% endcomment %}
 
-{% assign fullName = include.player["Name"] %}
-{% assign nameAbbr = include.player["Name Abbreviation"] %}
-{% assign playerPositions = include.player["Field Position"] %}
-{% assign positionRatings = include.player["All Fielding Ratings"] %}
+{% assign fullName = include.player.name %}
+{% assign nameAbbr = include.player.nameAbbr %}
+{% assign playerPositions = include.player.positions %}
+{% assign positionRatings = include.player.allFieldingRatings %}
 
-{% assign trj = include.player["Trajectory"] %}
-{% assign hit = include.player["Contact"] %}
-{% assign pwr = include.player["Power"] %}
-{% assign runspd = include.player["Run Speed"] %}
-{% assign armstr = include.player["Arm Strength"] %}
-{% assign catching = include.player["Error Resistance"] %}
+{% assign trj = include.player.trajectory %}
+{% assign hit = include.player.contact %}
+{% assign pwr = include.player.power %}
+{% assign runspd = include.player.runSpeed %}
+{% assign armstr = include.player.armStrength %}
+{% assign catching = include.player.catching %}
 
 <div id="fielding-detail" class="current-detail-page">
     {% include components/player-name-box.html fullName=fullName nameAbbr=nameAbbr positions=playerPositions %}
     
-    <span class="star-point-count" style="grid-area: starpoints;">{{ include.player["Star Point"] }}</span>
+    <span class="star-point-count" style="grid-area: starpoints;">{{ include.player.starPoints }}</span>
 
-    <span class="jersey-number" title="{{ site.data.strings.hover_text.jersey_number }}" style="grid-area: jerseynumber;">{{ include.player["Jersey Number"] | default: "" }}</span>
+    <span class="jersey-number" title="{{ site.data.strings.hover_text.jersey_number }}" style="grid-area: jerseynumber;">{{ include.player.jerseyNum | default: "" }}</span>
 
-    <span class="info-box handedness" style="grid-area: handedness;">Throws {{ include.player["Throws"] }}, Bats {{ include.player["Bats"] }}</span>
+    <span class="info-box handedness" style="grid-area: handedness;">Throws {{ include.player.throwingHandedness }}, Bats {{ include.player.battingHandedness }}</span>
 
-    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player["Trajectory"] }}</span> {% include components/trajectory-arrow.html trj=trj %}</span>
+    <span class="info-box" style="grid-area: trj;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}">TRJ</span><span class="detail-trj-num">{{ include.player.trajectory }}</span> {% include components/trajectory-arrow.html trj=trj %}</span>
 
     <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HIT }}">HIT</span>{% include components/letter-rating.html rating=hit %}</span>
 
@@ -36,7 +36,7 @@
     <span class="info-box detail-catching" style="grid-area: catching;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.Catching }}">Catching</span>{% include components/letter-rating.html rating=catching %}</span>
 
     <div id="fielding-detail-positions-box" class="info-box" style="display: grid; grid-area: fieldingbox;">
-        {% assign primary_position = include.player["Field Position"] | first %}
+        {% assign primary_position = include.player.positions | first %}
         {% if primary_position == 'SP' or primary_position == 'MR' or primary_position == 'CP' %}
             {% assign primary_position = 'P' %}
         {% endif %}

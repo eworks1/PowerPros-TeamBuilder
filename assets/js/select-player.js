@@ -1,3 +1,7 @@
+/**
+ * Update detail views.
+ * @param {Player} player 
+ */
 function playerClicked(player) {
     // update all 3 detail views (just fielding for now)
     const detailBox = document.getElementById('detail-box');
@@ -12,9 +16,9 @@ function playerClicked(player) {
         playerNameBoxes.forEach(playerNameBox => updatePlayerNameBox.apply(
             playerNameBox,
             [
-                player.Name,
-                player['Name Abbreviation'],
-                player['Field Position']
+                player.name,
+                player.nameAbbr,
+                player.positions
             ]
         ));
     }
@@ -22,52 +26,52 @@ function playerClicked(player) {
     // Star points
     const starPointCounts = detailBox.querySelectorAll('.star-point-count');
     if (starPointCounts) {
-        starPointCounts.forEach(starPointCount => starPointCount.textContent = player["Star Point"]);
+        starPointCounts.forEach(starPointCount => starPointCount.textContent = player.starPoints);
     }
 
     // Jersey numbers
     const jerseyNumbers = detailBox.querySelectorAll('.jersey-number');
     if (jerseyNumbers) {
-        jerseyNumbers.forEach(jerseyNumber => jerseyNumber.textContent = player["Jersey Number"] || '');
+        jerseyNumbers.forEach(jerseyNumber => jerseyNumber.textContent = player.jerseyNum || '');
     }
 
     // Handedness
     const handednesses = detailBox.querySelectorAll('.handedness.info-box');
     if (handednesses) {
-        handednesses.forEach(handedness => handedness.textContent = `Throws ${player.Throws}, Bats ${player.Bats}`);
+        handednesses.forEach(handedness => handedness.textContent = `Throws ${player.throwingHandedness}, Bats ${player.battingHandedness}`);
     }
 
     // Stats
     const trjTexts = detailBox.querySelectorAll('.detail-trj-num');
     const trjPaths = detailBox.querySelectorAll('.trj-arrow path[trj]');
-    trjTexts.forEach(element => element.textContent = player.Trajectory);
+    trjTexts.forEach(element => element.textContent = player.trajectory);
 
     trjPaths.forEach(path => {
         path.setAttribute(
             'trj',
-            `${player.Trajectory}`
+            `${player.trajectory}`
         );
     });
 
     const hitSvgTexts = detailBox.querySelectorAll('.detail-hit.info-box .letter-rating .letter');
-    updateDetailViewLetterRatings(hitSvgTexts, player.Contact);
+    updateDetailViewLetterRatings(hitSvgTexts, player.contact);
 
     const pwrSvgTexts = detailBox.querySelectorAll('.detail-pwr.info-box .letter-rating .letter');
-    updateDetailViewLetterRatings(pwrSvgTexts, player.Power);
+    updateDetailViewLetterRatings(pwrSvgTexts, player.power);
 
     const runspdSvgTexts = detailBox.querySelectorAll('.detail-runspd.info-box .letter-rating .letter');
-    updateDetailViewLetterRatings(runspdSvgTexts, player["Run Speed"]);
+    updateDetailViewLetterRatings(runspdSvgTexts, player.runSpeed);
 
     const armstrSvgTexts = detailBox.querySelectorAll('.detail-armstr.info-box .letter-rating .letter');
-    updateDetailViewLetterRatings(armstrSvgTexts, player["Arm Strength"]);
+    updateDetailViewLetterRatings(armstrSvgTexts, player.armStrength);
 
     // I think there won't be more than 1 of these, but just in case.
     const catchingSvgTexts = detailBox.querySelectorAll('.detail-catching.info-box .letter-rating .letter');
-    updateDetailViewLetterRatings(catchingSvgTexts, player["Error Resistance"]);
+    updateDetailViewLetterRatings(catchingSvgTexts, player.catching);
 
     // I think there won't be more than 1 of these, but just in case.
     const fldSvgTexts = detailBox.querySelectorAll('.detail-fld.info-box .letter-rating .letter');
-    updateDetailViewLetterRatings(fldSvgTexts, player.Fielding);
+    updateDetailViewLetterRatings(fldSvgTexts, player.fielding);
 
     // Fielding Positions
     const fieldingPositionsLabel = detailBox.querySelector('#fielding-detail-positions-box .positions-label');
@@ -86,13 +90,13 @@ function playerClicked(player) {
     // Fielding Box
     const fieldingChart = detailBox.querySelector('#fielding-detail #position-ratings-chart');
     if (fieldingChart) {
-        updatePositionRatingsChart(fieldingChart, player["All Fielding Ratings"]);
+        updatePositionRatingsChart(fieldingChart, player.allFieldingRatings);
     }
 
     // Positions List (Batting Detail)
     const battingPositionList = document.getElementById('batting-detail-positions-list');
     if (battingPositionList) {
-        let positions = player["Field Position"];
+        let positions = player.positions;
         positions = positions.map(pos => {
             if (isPitcher(pos)) {
                 return 'P';
@@ -118,31 +122,35 @@ function playerClicked(player) {
     // Top Speed (Pitching Detail)
     const topSpeed = detailBox.querySelector('#pitching-detail .detail-topspeed');
     if (topSpeed) {
-        topSpeed.textContent = player["Top Speed"];
-        topSpeed.setAttribute('title', `${Math.round(player["Top Speed"] * 0.62137)} mph`);
+        topSpeed.textContent = player.pitchingVelo;
+        topSpeed.setAttribute('title', `${Math.round(player.pitchingVelo * 0.62137)} mph`);
     }
 
     // Pitching Form (Pitching Detail)
     const pitchingForm = detailBox.querySelector('.detail-pitching-form.info-box');
     if (pitchingForm) {
-        const formStr = player["Pitching Form"]
-            .replace(/ \d+/, '')
-            .replace('Three-Quarters', '3/4');
-        const throwingStr = player.Throws
-            .replace('L', 'Left')
-            .replace('R', 'Right');
-        pitchingForm.textContent = `${throwingStr} ${formStr}`;
+        if (pitchingForm != '–––––') {
+            const formStr = player.pitchingForm
+                .replace(/ \d+/, '')
+                .replace('Three-Quarters', '3/4');
+            const throwingStr = player.throwingHandedness
+                .replace('L', 'Left')
+                .replace('R', 'Right');
+            pitchingForm.textContent = `${throwingStr} ${formStr}`;
+        } else {
+            pitchingForm.textContent = player.pitchingForm;
+        }
     }
 
     // Pitch Control (Pitching Detail)
     // I think there won't be more than 1 of these, but just in case.
     const controlSvgTexts = detailBox.querySelectorAll('.detail-control.info-box .letter-rating .letter');
-    updateDetailViewLetterRatings(controlSvgTexts, player.Control);
+    updateDetailViewLetterRatings(controlSvgTexts, player.control);
 
     // Pitch Stamina (Pitching Detail)
     // I think there won't be more than 1 of these, but just in case.
     const staminaSvgTexts = detailBox.querySelectorAll('.detail-stamina.info-box .letter-rating .letter');
-    updateDetailViewLetterRatings(staminaSvgTexts, player.Stamina);
+    updateDetailViewLetterRatings(staminaSvgTexts, player.stamina);
 
     // Pitching Role List (Pitching Detail)
     const pitchingRoles = document.querySelector('#pitching-detail-roles-box .pitching-roles');
@@ -172,15 +180,15 @@ function playerClicked(player) {
 
     // Pitching Chart (Pitching Detail)
     const pitchingChartObj = document.getElementById('detail-pitching-chart');
-    pitchingChartObj.setAttribute('pitches', JSON.stringify(player["Breaking Balls"]));
-    pitchingChartObj.setAttribute('lefty', player.Throws == 'L');
+    pitchingChartObj.setAttribute('pitches', JSON.stringify(player.breakingBalls));
+    pitchingChartObj.setAttribute('lefty', player.throwingHandedness == 'L');
 
     if (pitchingChartObj) {
         updatePitchChart.apply(
             pitchingChartObj.contentDocument,
             [
-                player["Breaking Balls"],
-                player.Throws == 'L'
+                player.breakingBalls,
+                player.throwingHandedness == 'L'
             ]
         );
     }

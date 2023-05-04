@@ -21,7 +21,7 @@ function updateCounts(position) {
     if (isPitcher(primary_position)) {
         positionGroupCostSpan = document.getElementById('pitcher-point-count');
         positionGroupCost = getPitchersTotalCost();
-        positionCount = getAllPitchers().length;
+        positionCount = getAllPitchersOnTeam().length;
     } else {
         positionGroupCostSpan = document.getElementById('fielder-point-count');
         positionGroupCost = getFieldersTotalCost();
@@ -33,7 +33,7 @@ function updateCounts(position) {
         positionGroupCostSpan.textContent = `${positionGroupCost}`;
 
         positionCountSpan.textContent = `${positionCount}`;
-        fieldersGroupCountSpan.textContent = `${getAllFielders().length}`;
-        fullTeamCountSpan.textContent = `${getAllPlayers().length}`;
+        fieldersGroupCountSpan.textContent = `${getAllFieldersOnTeam().length}`;
+        fullTeamCountSpan.textContent = `${getAllPlayersOnTeam().length}`;
     }
 }

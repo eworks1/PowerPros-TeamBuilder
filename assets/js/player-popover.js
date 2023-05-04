@@ -51,8 +51,8 @@ const popoverTabIDs = [
 ];
 
 /**
- * Update all parts of popover
- * @param {Object} player 
+ * Update all parts of popover.
+ * @param {Player} player 
  */
 function playerDoubleClicked(player) {
     const popover = document.getElementById('popover-wrapper');
@@ -76,9 +76,9 @@ function playerDoubleClicked(player) {
     updatePlayerNameBox.apply(
         playerNameBox,
         [
-            player.Name,
-            player["Name Abbreviation"],
-            player["Field Position"]
+            player.name,
+            player.nameAbbr,
+            player.positions
         ]
     );
 
@@ -88,19 +88,19 @@ function playerDoubleClicked(player) {
         // Jersey Number
         const jerseyNumber = popoverNameSection.querySelector('.jersey-number');
         if (jerseyNumber) {
-            jerseyNumber.textContent = `${player["Jersey Number"]}`;
+            jerseyNumber.textContent = `${player.jerseyNum}`;
         }
 
         // Star Points
         const starPointCount = popoverNameSection.querySelector('.star-point-count');
         if (starPointCount) {
-            starPointCount.textContent = `${player["Star Point"]}`;
+            starPointCount.textContent = `${player.starPoints}`;
         }
 
         // Cost Span
         const costSpan = popoverNameSection.querySelector('.cost-span');
         if (costSpan) {
-            costSpan.textContent = `${player["Point Cost"]}`;
+            costSpan.textContent = `${player.cost}`;
         }
 
         // Pitching Aptitude (Pitching Tabs)
@@ -114,7 +114,7 @@ function playerDoubleClicked(player) {
                 ['SP', 'MR', 'CP'].forEach(role => {
                     const span = pitchingApt.querySelector(`[${role.toLowerCase()}]`);
                     if (span) {
-                        if (player["Field Position"].includes(role)) {
+                        if (player.positions.includes(role)) {
                             span.classList.add('has-pitching-role');
                             span.classList.remove('does-not-have-pitching-role');
                         } else {
@@ -132,7 +132,7 @@ function playerDoubleClicked(player) {
         // Field Positions (Fielding Tabs)
         const fieldPositionsSpan = popoverNameSection.querySelector('#popover-fielding-positions .content');
         if (fieldPositionsSpan) {
-            let positions = player["Field Position"];
+            let positions = player.positions;
             if (positions.some(pos => ['SP', 'MR', 'CP'].includes(pos))) {
                 positions[positions.findIndex(pos => ['SP', 'MR', 'CP'].includes(pos))] = 'P';
                 positions = positions
@@ -152,26 +152,26 @@ function playerDoubleClicked(player) {
         // Picture
         const pfpImg = popoverFormSection.querySelector('.info-row[pfp] img');
         if (pfpImg) {
-            const shortenedName = player["Name Abbreviation"].split('.').slice(-1);
+            const shortenedName = player.nameAbbr.split('.').slice(-1);
             pfpImg.setAttribute('src', `https://www.mlbppworld.com/wiki/images/Pfp_${shortenedName}.jpg`);
         }
 
         // Pitching Form (Pitching Tabs)
         const pitchingForm = popoverFormSection.querySelector('.info-row #pitching-form.content');
         if (pitchingForm) {
-            pitchingForm.textContent = player["Pitching Form"];
+            pitchingForm.textContent = player.pitchingForm;
         }
 
         // Batting Form (Fielding Tabs)
         const battingForm = popoverFormSection.querySelector('.info-row #batting-form.content');
         if (battingForm) {
-            battingForm.textContent = player["Batting Form"];
+            battingForm.textContent = player.battingForm;
         }
 
         // Handedness
         const handedness = popoverFormSection.querySelector('.info-row[handedness] .content');
         if (handedness) {
-            handedness.textContent = `Throws ${player.Throws}, Bats ${player.Bats}`;
+            handedness.textContent = `Throws ${player.throwingHandedness}, Bats ${player.battingHandedness}`;
         }
     }
 
@@ -181,34 +181,34 @@ function playerDoubleClicked(player) {
         // Pitch Velo
         const pitchVelo = popoverPitchingRatingsSection.querySelector('.info-row .pitch-speed');
         if (pitchVelo) {
-            pitchVelo.textContent = `${player["Top Speed"]}`;
-            pitchVelo.setAttribute('title', `${Math.round(player["Top Speed"] * 0.62137)} mph`);
+            pitchVelo.textContent = `${player.pitchingVelo}`;
+            pitchVelo.setAttribute('title', `${Math.round(player.pitchingVelo * 0.62137)} mph`);
         }
 
         // Control
         updatePopoverLetterRatingInfoRow(
             popoverPitchingRatingsSection,
             'control',
-            player.Control
+            player.control
         );
 
         // Stamina
         updatePopoverLetterRatingInfoRow(
             popoverPitchingRatingsSection,
             'stamina',
-            player.Stamina
+            player.stamina
         );
     }
 
     // Pitching Chart
     const pitchingChartObj = document.getElementById('popover-pitching-chart');
     if (pitchingChartObj) {
-        pitchingChartObj.setAttribute('pitches', JSON.stringify(player["Breaking Balls"]));
-        pitchingChartObj.setAttribute('lefty', `${player.Throws == 'L'}`);
+        pitchingChartObj.setAttribute('pitches', JSON.stringify(player.breakingBalls));
+        pitchingChartObj.setAttribute('lefty', `${player.throwingHandedness == 'L'}`);
     }
 
     // Signature Pitch
-    const signaturePitch = player["Breaking Balls"].find(p => p.id.includes('SP'));
+    const signaturePitch = player.breakingBalls.find(p => p.id.includes('SP'));
     const signaturePitchSpan = document.getElementById('popover-signature-pitch');
     if (signaturePitchSpan) {
         if (signaturePitch) {
@@ -225,10 +225,10 @@ function playerDoubleClicked(player) {
         const trjText = popoverBattingRatingsSection.querySelector('.info-row[trj] .content:last-child');
         const trjPath = popoverBattingRatingsSection.querySelector('.info-row[trj] path[trj]');
         if (trjText && trjPath) {
-            trjText.textContent = player.Trajectory;
+            trjText.textContent = player.trajectory;
             trjPath.setAttribute(
                 'trj',
-                `${player.Trajectory}`
+                `${player.trajectory}`
             );
         }
 
@@ -236,42 +236,42 @@ function playerDoubleClicked(player) {
         updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'hit',
-            player.Contact
+            player.contact
         );
 
         // Power
         updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'power',
-            player.Power
+            player.power
         );
 
         // Speed
         updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'speed',
-            player["Run Speed"]
+            player.runSpeed
         );
 
         // Strength
         updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'strength',
-            player["Arm Strength"]
+            player.armStrength
         );
 
         // Fielding
         updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'fielding',
-            player.Fielding
+            player.fielding
         );
 
         // Catching
         updatePopoverLetterRatingInfoRow(
             popoverBattingRatingsSection,
             'catching',
-            player["Error Resistance"]
+            player.catching
         );
     }
 
@@ -282,21 +282,21 @@ function playerDoubleClicked(player) {
         updatePopoverLetterRatingInfoRow(
             popoverPositionsRatingsSection,
             'speed',
-            player["Run Speed"]
+            player.runSpeed
         );
 
         // Strength
         updatePopoverLetterRatingInfoRow(
             popoverPositionsRatingsSection,
             'strength',
-            player["Arm Strength"]
+            player.armStrength
         );
 
         // Catching
         updatePopoverLetterRatingInfoRow(
             popoverPositionsRatingsSection,
             'catching',
-            player["Error Resistance"]
+            player.catching
         );
 
         // Position Ratings
@@ -306,7 +306,7 @@ function playerDoubleClicked(player) {
             items.forEach(item => {
                 const position = item.getAttribute('pos').toUpperCase();
                 /** @type {number | undefined} */
-                const rating = player["All Fielding Ratings"]?.[position];
+                const rating = player.allFieldingRatings?.[position];
                 if (rating) {
                     item.classList.remove('blank');
 
@@ -346,7 +346,7 @@ function playerDoubleClicked(player) {
                     const traitAbbr = descSpan.getAttribute('traitAbbr');
                     // Check if it's the catcher trait
                     if (key == 'fielder' && traitAbbr == 'Catcher') {
-                        if (player["Field Position"].includes('C')) {
+                        if (player.positions.includes('C')) {
                             cell.classList.remove('blank');
                         } else {
                             cell.classList.add('blank');
@@ -362,7 +362,7 @@ function playerDoubleClicked(player) {
                             cell.title = trait.description;
                         }
 
-                        const traitRating = player.Traits?.[traitAbbr];
+                        const traitRating = player.traits?.[traitAbbr];
                         if (traitRating) {
                             cell.setAttribute('rating', traitRating);
                             ratingSpan.textContent = traitRating;
@@ -379,7 +379,7 @@ function playerDoubleClicked(player) {
             });
 
             // Abilities (remaining 24 cells, from 9th on)
-            const abilities = player.Abilities[key]
+            const abilities = player.abilities[key]
                 .map(a => all_abilities.abilities[a]);
             updateAbilityCells(cells.slice(8), abilities);
         }
@@ -389,7 +389,7 @@ function playerDoubleClicked(player) {
     const popoverPositionAbilitiesSection = document.getElementById('posasgmt-skills');
     if (popoverPositionAbilitiesSection) {
         const cells = Array.from(popoverPositionAbilitiesSection.querySelectorAll('.skill-cell'));
-        const abilities = player.Abilities.positionAssignment
+        const abilities = player.abilities.positionAssignment
             .map(a => all_abilities.abilities[a]);
         const rules = abilities
             .filter(a => a.category.includes('Assignment Rules'));
@@ -409,13 +409,13 @@ function playerDoubleClicked(player) {
         // Full Name
         const fullNameSpan = popoverProfileInfoSection.querySelector('.info-row[fullname] .content');
         if (fullNameSpan) {
-            fullNameSpan.textContent = player.Name;
+            fullNameSpan.textContent = player.name;
         }
 
         // Uniform Name
         const uniformNameSpan = popoverProfileInfoSection.querySelector('.info-row[uniformname] .content');
         if (uniformNameSpan) {
-            uniformNameSpan.textContent = player["Uniform Name"].toUpperCase();
+            uniformNameSpan.textContent = player.uniformName.toUpperCase();
         }
     }
 

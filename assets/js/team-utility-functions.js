@@ -1,16 +1,17 @@
 /**
- * @param {Object} player 
- * @returns {string}
+ * @param {Player} player 
+ * @returns {Position}
  */
 function getPrimaryPosition(player) {
-    return player["Field Position"][0];
+    return player.positions[0];
 }
 
 /**
- * @param {(string|Object)} primaryPositionOrPlayer
+ * @param {(Position|Player)} primaryPositionOrPlayer
  * @returns {boolean}
  */
 function isPitcher(primaryPositionOrPlayer) {
+    /** @type {Position} */
     let primary_position;
     if (typeof primaryPositionOrPlayer == 'string') {
         primary_position = primaryPositionOrPlayer;
@@ -23,9 +24,9 @@ function isPitcher(primaryPositionOrPlayer) {
 
 
 /**
- * @returns {Object[]}
+ * @returns {Player[]}
  */
-function getAllPlayers() {
+function getAllPlayersOnTeam() {
     return [
         ...team.pitchers,
         ...team.fielders,
@@ -34,9 +35,9 @@ function getAllPlayers() {
 }
 
 /**
- * @returns {Object[]}
+ * @returns {Player[]}
  */
-function getAllPitchers() {
+function getAllPitchersOnTeam() {
     return [
         ...team.pitchers,
         ...team.backups
@@ -45,9 +46,9 @@ function getAllPitchers() {
 }
 
 /**
- * @returns {Object[]}
+ * @returns {Player[]}
  */
-function getAllFielders() {
+function getAllFieldersOnTeam() {
     return [
         ...team.fielders,
         ...team.backups
@@ -57,19 +58,16 @@ function getAllFielders() {
 
 
 /**
- * @param {string} position
- * @returns {Object[]}
+ * @param {Position} position
+ * @returns {Player[]}
  */
 function getAllPlayersByPostion(position) {
-    return [
-        ...team.pitchers,
-        ...team.fielders,
-        ...team.backups
-    ].filter(player => position == getPrimaryPosition(player));
+    return getAllPlayersOnTeam()
+        .filter(player => position == getPrimaryPosition(player));
 }
 
 /**
- * @param {string} position
+ * @param {Position} position
  * @returns {number}
  */
 function getPlayerCountByPosition(position) {
@@ -80,8 +78,8 @@ function getPlayerCountByPosition(position) {
  * @returns {number}
  */
 function getPitchersTotalCost() {
-    return getAllPitchers()
-        .map(p => p["Point Cost"])
+    return getAllPitchersOnTeam()
+        .map(p => p.cost)
         .reduce((prev, current) => prev + current, 0);
 }
 
@@ -89,8 +87,8 @@ function getPitchersTotalCost() {
  * @returns {number}
  */
 function getFieldersTotalCost() {
-    return getAllFielders()
-        .map(p => p["Point Cost"])
+    return getAllFieldersOnTeam()
+        .map(p => p.cost)
         .reduce((prev, current) => prev + current, 0);
 }
 
