@@ -155,7 +155,8 @@ function playerClicked(player) {
     // Pitching Form (Pitching Detail)
     const pitchingForm = detailBox.querySelector('.detail-pitching-form.info-box');
     if (pitchingForm) {
-        pitchingForm.textContent = player["Pitching Form"] || '–––';
+        pitchingForm.textContent = player["Pitching Form"]
+            .replace('Three-Quarters', '3/4');
     }
 
     // Pitch Control (Pitching Detail)
