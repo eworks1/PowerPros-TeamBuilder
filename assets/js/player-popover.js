@@ -417,13 +417,6 @@ function playerDoubleClicked(player) {
         if (uniformNameSpan) {
             uniformNameSpan.textContent = player["Uniform Name"].toUpperCase();
         }
-
-        // Nickname
-        const nicknameSpan = popoverProfileInfoSection.querySelector('.info-row[nickname] .content');
-        if (nicknameSpan) {
-            // TODO: COME BACK TO THIS
-            nicknameSpan.textContent = player.Name;
-        }
     }
 
     // Show popover once all info is updated
