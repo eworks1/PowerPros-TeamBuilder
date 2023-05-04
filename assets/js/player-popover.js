@@ -456,6 +456,64 @@ function playerDoubleClicked(player) {
         });
     }
 
+    // Position Assignment Tab
+    const popoverPositionAbilitiesSection = document.getElementById('posasgmt-skills');
+    if (popoverPositionAbilitiesSection) {
+        const cells = Array.from(popoverPositionAbilitiesSection.querySelectorAll('.skill-cell'));
+        const abilties = player.Abilities.positionAssignment
+            .map(a => all_abilities.abilities[player.Abilities.positionAssignment]);
+        const rules = abilties
+            .filter(a => a.category.includes('Assignment Rules'));
+        const posAsgmtAbils = abilties
+            .filter(a => !a.category.includes('Assignment Rules'));
+
+        // Assignment Rules (first 7 cells)
+        cells.slice(0, 7).forEach(cell => {
+            // Check if the current index is within the range of the player's abilities
+            if (i < rules.length) {
+                cell.classList.remove('blank');
+                const ability = rules[i];
+                cell.firstElementChild.textContent = ability.abbr;
+                
+                cell.setAttribute('rating', ability.effectType);
+                if (ability.fullName) {
+                    cell.title = `(${ability.fullName}) - ${ability.description}`;
+                } else {
+                    cell.title = ability.description;
+                }
+            } else {
+                cell.classList.add('blank');
+                cell.firstElementChild.textContent = '';
+                
+                cell.removeAttribute('rating');
+                cell.title = ''; // clear hover text
+            }
+        });
+
+        // Abilities (remaining 24 cells, from 9th on)
+        cells.slice(8).forEach((cell, i) => {
+            // Check if the current index is within the range of the player's abilities
+            if (i < posAsgmtAbils.length) {
+                cell.classList.remove('blank');
+                const ability = posAsgmtAbils[i];
+                cell.firstElementChild.textContent = ability.abbr;
+                
+                cell.setAttribute('rating', ability.effectType);
+                if (ability.fullName) {
+                    cell.title = `(${ability.fullName}) - ${ability.description}`;
+                } else {
+                    cell.title = ability.description;
+                }
+            } else {
+                cell.classList.add('blank');
+                cell.firstElementChild.textContent = '';
+                
+                cell.removeAttribute('rating');
+                cell.title = ''; // clear hover text
+            }
+        });
+    }
+
     // Show popover once all info is updated
     popover.classList.remove('hidden');
 }
