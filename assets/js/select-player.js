@@ -193,21 +193,21 @@ function playerClicked(player) {
  */
 function getLetterRatingFromNumber(ratingNum) {
     if (ratingNum >= 90 && ratingNum <= 100) {
-        return "S"
+        return "S";
     } else if (ratingNum >= 80 && ratingNum <= 89) {
-        return "A"
+        return "A";
     } else if (ratingNum >= 70 && ratingNum <= 79) {
-        return "B"
+        return "B";
     } else if (ratingNum >= 60 && ratingNum <= 69) {
-        return "C"
+        return "C";
     } else if (ratingNum >= 50 && ratingNum <= 59) {
-        return "D"
+        return "D";
     } else if (ratingNum >= 40 && ratingNum <= 49) {
-        return "E"
+        return "E";
     } else if (ratingNum >= 20 && ratingNum <= 39) {
-        return "F"
+        return "F";
     } else {
-        return "G"
+        return "G";
     }
 }
 
