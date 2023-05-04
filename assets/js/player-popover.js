@@ -328,7 +328,7 @@ function playerDoubleClicked(player) {
 
     // -- Abilities
     
-    // Pitcher Traits
+    // Pitcher Tab
     const popoverPitcherAbilitiesSection = document.getElementById('pitcher-skills');
     if (popoverPitcherAbilitiesSection) {
         const cells = Array.from(popoverPitcherAbilitiesSection.querySelectorAll('.skill-cell'));
@@ -388,7 +388,7 @@ function playerDoubleClicked(player) {
         });
     }
 
-    // Fielder Traits
+    // Fielder Tab
     const popoverFielderAbilitiesSection = document.getElementById('fielder-skills');
     if (popoverFielderAbilitiesSection) {
         const cells = Array.from(popoverFielderAbilitiesSection.querySelectorAll('.skill-cell'));
