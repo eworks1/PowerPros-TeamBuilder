@@ -193,11 +193,13 @@
             {%- endfor -%}
             {%- endif -%}
 
+            {%- comment -%} 
             {%- unless key == 'posasgmt' -%} 
             {%- for i in (1..4) -%}
             <span></span>
             {%- endfor -%}
             {%- endunless -%}
+            {%- endcomment -%} 
 
             {%- for i in (1..20) -%}
             <span class="skill-cell blank"><span class="skill-desc">&nbsp;</span></span>
