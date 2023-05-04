@@ -125,8 +125,13 @@ function playerClicked(player) {
     // Pitching Form (Pitching Detail)
     const pitchingForm = detailBox.querySelector('.detail-pitching-form.info-box');
     if (pitchingForm) {
-        pitchingForm.textContent = player["Pitching Form"]
+        const formStr = player["Pitching Form"]
+            .replace(/ \d+/, '')
             .replace('Three-Quarters', '3/4');
+        const throwingStr = player.Throws
+            .replace('L', 'Left')
+            .replace('R', 'Right');
+        pitchingForm.textContent = `${throwingStr} ${formStr}`;
     }
 
     // Pitch Control (Pitching Detail)
