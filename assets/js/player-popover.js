@@ -407,11 +407,11 @@ function playerDoubleClicked(player) {
     const popoverPositionAbilitiesSection = document.getElementById('posasgmt-skills');
     if (popoverPositionAbilitiesSection) {
         const cells = Array.from(popoverPositionAbilitiesSection.querySelectorAll('.skill-cell'));
-        const abilties = player.Abilities.positionAssignment
+        const abilities = player.Abilities.positionAssignment
             .map(a => all_abilities.abilities[a]);
-        const rules = abilties
+        const rules = abilities
             .filter(a => a.category.includes('Assignment Rules'));
-        const posAsgmtAbils = abilties
+        const posAsgmtAbils = abilities
             .filter(a => !a.category.includes('Assignment Rules'));
 
         // Assignment Rules (first 7 cells)
