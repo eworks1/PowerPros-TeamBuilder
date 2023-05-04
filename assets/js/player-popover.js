@@ -69,7 +69,7 @@ function playerDoubleClicked(player) {
         updateSelectedPopoverTab(tabbar.firstElementChild);
     }
 
-    // TODO: update all info
+    // --- Update Info
 
     // Update Player Name Box
     const playerNameBox = popover.querySelector('#popover-name-section .player-name-box');
