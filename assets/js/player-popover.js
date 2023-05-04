@@ -468,7 +468,7 @@ function playerDoubleClicked(player) {
             .filter(a => !a.category.includes('Assignment Rules'));
 
         // Assignment Rules (first 7 cells)
-        cells.slice(0, 7).forEach(cell => {
+        cells.slice(0, 7).forEach((cell, i) => {
             // Check if the current index is within the range of the player's abilities
             if (i < rules.length) {
                 cell.classList.remove('blank');
