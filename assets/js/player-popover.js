@@ -415,8 +415,7 @@ function playerDoubleClicked(player) {
         // Uniform Name
         const uniformNameSpan = popoverProfileInfoSection.querySelector('.info-row[uniformname] .content');
         if (uniformNameSpan) {
-            // TODO: COME BACK TO THIS
-            uniformNameSpan.textContent = player.Name.toUpperCase();
+            uniformNameSpan.textContent = player["Uniform Name"].toUpperCase();
         }
 
         // Nickname
