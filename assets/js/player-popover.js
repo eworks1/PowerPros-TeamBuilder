@@ -461,7 +461,7 @@ function playerDoubleClicked(player) {
     if (popoverPositionAbilitiesSection) {
         const cells = Array.from(popoverPositionAbilitiesSection.querySelectorAll('.skill-cell'));
         const abilties = player.Abilities.positionAssignment
-            .map(a => all_abilities.abilities[player.Abilities.positionAssignment]);
+            .map(a => all_abilities.abilities[a]);
         const rules = abilties
             .filter(a => a.category.includes('Assignment Rules'));
         const posAsgmtAbils = abilties
