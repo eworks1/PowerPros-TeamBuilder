@@ -27,9 +27,9 @@
 
     <span id="pitching-detail-roles-box" class="info-box" style="grid-area: roles;">
         <span class="info-label" title="{{ site.data.strings.hover_text.stats.APT }}">APT</span>
-        {%-- assign primary_position = playerPositions | first --%}
+        {%- assign primary_position = playerPositions | first -%}
 
-        {%-- assign all_positions = playerPositions | join: ' ' --%}
+        {%- assign all_positions = playerPositions | join: ' ' -%}
         {%- include components/pitching-roles.html addl_classes='' all_positions=all_positions -%}
         </span>
     </span>

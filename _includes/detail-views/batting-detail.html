@@ -40,24 +40,24 @@
 
     <span class="info-box detail-positions" style="grid-area: positions;">
         <span class="info-label" title="{{ site.data.strings.hover_text.stats.POS }}">POS</span>
-        {%-- assign abbrPositions = '' | split: '' --%}
-        {%-- for pos in playerPositions --%}
-            {%-- if pos == 'SP' or pos == 'MR' or pos == 'CP' --%}
-                {%-- unless abbrPositions contains 'P' --%}
-                    {%-- assign abbrPositions = abbrPositions | push: 'P' --%}
-                {%-- endunless --%}
-            {%-- else --%}
-                {%-- assign abbrPositions = abbrPositions | push: pos --%}
-            {%-- endif --%}
-        {%-- endfor --%}
+        {%- assign abbrPositions = '' | split: '' -%}
+        {%- for pos in playerPositions -%}
+            {%- if pos == 'SP' or pos == 'MR' or pos == 'CP' -%}
+                {%- unless abbrPositions contains 'P' -%}
+                    {%- assign abbrPositions = abbrPositions | push: 'P' -%}
+                {%- endunless -%}
+            {%- else -%}
+                {%- assign abbrPositions = abbrPositions | push: pos -%}
+            {%- endif -%}
+        {%- endfor -%}
         <span id="batting-detail-positions-list">
-            {%-- for pos in abbrPositions --%}
-                {%-- if forloop.first --%}
+            {%- for pos in abbrPositions -%}
+                {%- if forloop.first -%}
                     <span>{{ pos }}</span>
-                {%-- else --%}
+                {%- else -%}
                     <span> {{ pos }}</span>
-                {%-- endif --%}
-            {%-- endfor --%}
+                {%- endif -%}
+            {%- endfor -%}
         </span>
     </span>
 </div>
