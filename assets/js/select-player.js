@@ -163,7 +163,7 @@ function playerClicked(player) {
             ['SP', 'MR', 'CP'].forEach(role => {
                 const span = pitchingRoles.querySelector(`[${role.toLowerCase()}]`);
                 if (span) {
-                    if (player["Field Position"].includes(role)) {
+                    if (player.positions.includes(role)) {
                         span.classList.add('has-pitching-role');
                         span.classList.remove('does-not-have-pitching-role');
                     } else {
