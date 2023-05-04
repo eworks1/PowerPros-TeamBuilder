@@ -236,30 +236,20 @@ function createPositionRatingTitle(position, rating) {
  */
 function updatePositionRatingsChart(chart, ratings) {
     for (const element of chart.children) {
-        const titleNode = element.children.item(0);
-        const textNode = element.children.item(1);
-        if (titleNode && textNode) {
-            let position = element.id.split('-')[0];
-            if (['LF', 'CF', 'RF'].includes(position)) {
-                position = 'OF';
-            }
+        // Changed to nodeS so it's easily compatible with convenience function, won't be more than 1.
+        const textNodes = element.querySelectorAll('text');
+        let position = element.id.split('-')[0];
+        if (['LF', 'CF', 'RF'].includes(position)) {
+            position = 'OF';
+        }
 
-            if (Object.keys(ratings).includes(position)) {
-                element.classList.remove('hidden');
+        if (Object.keys(ratings).includes(position)) {
+            element.classList.remove('hidden');
 
-                const rating = ratings[position];
-                const letterRating = getLetterRatingFromNumber(rating);
-
-                textNode.setAttribute('rating', letterRating);
-
-                textNode.textContent = letterRating;
-                titleNode.textContent = createPositionRatingTitle(
-                    position,
-                    rating
-                );
-            } else {
-                element.classList.add('hidden');
-            }
+            updateDetailViewLetterRatings(
+                textNodes,
+                ratings[position]
+            );
         } else {
             element.classList.add('hidden');
         }
