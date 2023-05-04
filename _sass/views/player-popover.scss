@@ -511,3 +511,16 @@
     font-weight: 300;
     font-size: 28px;
 }
+
+#profile-tab-skills .info-row .label {
+    width: 25%;
+}
+
+#profile-tab-skills .info-row .label.squeeze {
+    letter-spacing: -1px;
+}
+
+#profile-tab-skills .info-row.profile-info-block .label {
+    // Should be calc((200% + 4px) * 0.22), but that didn't look right.
+    width: calc((200% + 22px) * 0.22);
+}
