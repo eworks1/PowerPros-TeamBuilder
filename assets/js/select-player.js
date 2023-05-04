@@ -137,22 +137,12 @@ function playerClicked(player) {
     // Pitch Control (Pitching Detail)
     // I think there won't be more than 1 of these, but just in case.
     const controlSvgTexts = detailBox.querySelectorAll('.detail-control.info-box .letter-rating .letter');
-    controlSvgTexts.forEach(element => {
-        const rating = getLetterRatingFromNumber(player.Control);
-        element.setAttribute('rating', rating);
-        element.textContent = rating;
-        element.previousElementSibling.textContent = `${player.Control}`;
-    });
+    updateDetailViewLetterRatings(controlSvgTexts, player.Control);
 
     // Pitch Stamina (Pitching Detail)
     // I think there won't be more than 1 of these, but just in case.
     const staminaSvgTexts = detailBox.querySelectorAll('.detail-stamina.info-box .letter-rating .letter');
-    staminaSvgTexts.forEach(element => {
-        const rating = getLetterRatingFromNumber(player.Stamina);
-        element.setAttribute('rating', rating);
-        element.textContent = rating;
-        element.previousElementSibling.textContent = `${player.Stamina}`;
-    });
+    updateDetailViewLetterRatings(staminaSvgTexts, player.Stamina);
 
     // Pitching Role List (Pitching Detail)
     const pitchingRoles = document.querySelector('#pitching-detail-roles-box .pitching-roles');
