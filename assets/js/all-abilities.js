@@ -15,6 +15,7 @@
 /**
  * @typedef {Object} Ability
  * @property {string} abbr
+ * @property {string[]} category
  * @property {string} [effectType]
  * @property {string} [fullName]
  * @property {string} description
