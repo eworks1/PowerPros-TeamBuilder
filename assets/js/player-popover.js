@@ -379,27 +379,9 @@ function playerDoubleClicked(player) {
             });
 
             // Abilities (remaining 24 cells, from 9th on)
-            cells.slice(8).forEach((cell, i) => {
-                // Check if the current index is within the range of the player's abilities
-                if (i < player.Abilities[key].length) {
-                    cell.classList.remove('blank');
-                    const ability = all_abilities.abilities[player.Abilities[key][i]];
-                    cell.firstElementChild.textContent = ability.abbr;
-                
-                    cell.setAttribute('rating', ability.effectType);
-                    if (ability.fullName) {
-                        cell.title = `(${ability.fullName}) - ${ability.description}`;
-                    } else {
-                        cell.title = ability.description;
-                    }
-                } else {
-                    cell.classList.add('blank');
-                    cell.firstElementChild.textContent = '';
-                
-                    cell.removeAttribute('rating');
-                    cell.title = ''; // clear hover text
-                }
-            });
+            const abilities = player.Abilities[key]
+                .map(a => all_abilities.abilities[a]);
+            updateAbilityCells(cells.slice(8), abilities);
         }
     }
 
@@ -415,50 +397,10 @@ function playerDoubleClicked(player) {
             .filter(a => !a.category.includes('Assignment Rules'));
 
         // Assignment Rules (first 7 cells)
-        cells.slice(0, 7).forEach((cell, i) => {
-            // Check if the current index is within the range of the player's abilities
-            if (i < rules.length) {
-                cell.classList.remove('blank');
-                const ability = rules[i];
-                cell.firstElementChild.textContent = ability.abbr;
-                
-                cell.setAttribute('rating', ability.effectType);
-                if (ability.fullName) {
-                    cell.title = `(${ability.fullName}) - ${ability.description}`;
-                } else {
-                    cell.title = ability.description;
-                }
-            } else {
-                cell.classList.add('blank');
-                cell.firstElementChild.textContent = '';
-                
-                cell.removeAttribute('rating');
-                cell.title = ''; // clear hover text
-            }
-        });
+        updateAbilityCells(cells.slice(0, 7), rules);
 
         // Abilities (remaining 24 cells, from 8th on)
-        cells.slice(7).forEach((cell, i) => {
-            // Check if the current index is within the range of the player's abilities
-            if (i < posAsgmtAbils.length) {
-                cell.classList.remove('blank');
-                const ability = posAsgmtAbils[i];
-                cell.firstElementChild.textContent = ability.abbr;
-                
-                cell.setAttribute('rating', ability.effectType);
-                if (ability.fullName) {
-                    cell.title = `(${ability.fullName}) - ${ability.description}`;
-                } else {
-                    cell.title = ability.description;
-                }
-            } else {
-                cell.classList.add('blank');
-                cell.firstElementChild.textContent = '';
-                
-                cell.removeAttribute('rating');
-                cell.title = ''; // clear hover text
-            }
-        });
+        updateAbilityCells(cells.slice(7), posAsgmtAbils);
     }
 
     // Show popover once all info is updated
@@ -507,4 +449,33 @@ function updateLetterRating(svgTextElement, ratingValue) {
         svgTextElement.textContent = rating;
         svgTextElement.previousElementSibling.textContent = `${ratingValue}`;
     }
+}
+
+/**
+ * 
+ * @param {Element[]} cells 
+ * @param {Ability[]} abilities 
+ */
+function updateAbilityCells(cells, abilities) {
+    cells.forEach((cell, i) => {
+        // Check if the current index is within the range of the player's abilities
+        if (i < abilities.length) {
+            cell.classList.remove('blank');
+            const ability = abilities[i];
+            cell.firstElementChild.textContent = ability.abbr;
+                
+            cell.setAttribute('rating', ability.effectType);
+            if (ability.fullName) {
+                cell.title = `(${ability.fullName}) - ${ability.description}`;
+            } else {
+                cell.title = ability.description;
+            }
+        } else {
+            cell.classList.add('blank');
+            cell.firstElementChild.textContent = '';
+                
+            cell.removeAttribute('rating');
+            cell.title = ''; // clear hover text
+        }
+    });
 }
