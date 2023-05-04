@@ -328,7 +328,7 @@ function playerDoubleClicked(player) {
     }
 
     // -- Abilities
-    // Pitcher and Fielder tabs
+    // Pitcher and Fielder tabs' Skills
     /** @type {['pitcher', 'fielder']} */
     const tabKeys = ['pitcher', 'fielder'];
     
@@ -385,7 +385,7 @@ function playerDoubleClicked(player) {
         }
     }
 
-    // Position Assignment Tab
+    // Position Assignment Tab (Skills)
     const popoverPositionAbilitiesSection = document.getElementById('posasgmt-skills');
     if (popoverPositionAbilitiesSection) {
         const cells = Array.from(popoverPositionAbilitiesSection.querySelectorAll('.skill-cell'));
