@@ -490,8 +490,8 @@ function playerDoubleClicked(player) {
             }
         });
 
-        // Abilities (remaining 24 cells, from 9th on)
-        cells.slice(8).forEach((cell, i) => {
+        // Abilities (remaining 24 cells, from 8th on)
+        cells.slice(7).forEach((cell, i) => {
             // Check if the current index is within the range of the player's abilities
             if (i < posAsgmtAbils.length) {
                 cell.classList.remove('blank');
