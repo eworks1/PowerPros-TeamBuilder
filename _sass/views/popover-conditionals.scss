@@ -120,3 +120,12 @@
 #popover-wrapper :not(#popover-tabbar[current-tab="position"])+#popover-body #posasgmt-skills {
     display: none;
 }
+
+// Profile tab "skills"
+// Only show on Profile tab
+
+// all players: profile skills/info (`skills` grid area)
+// hide this on *not* profile tab (show it on only that tab)
+#popover-wrapper :not(#popover-tabbar[current-tab="profile"])+#popover-body #profile-tab-skills {
+    display: none;
+}
