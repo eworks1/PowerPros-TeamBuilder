@@ -105,24 +105,28 @@
         "Aggrssiv Fld": {
             "abbr": "Aggrssiv Fld",
             "category": "Position Assignment",
+            "effectType": "=",
             "fullName": "Aggressive Fielder",
             "description": "Stubbornly hold onto your defense."
         },
         "Aggrssiv Htr": {
             "abbr": "Aggrssiv Htr",
             "category": "Position Assignment",
+            "effectType": "=",
             "fullName": "Aggressive Hitter",
             "description": "Swing with all your might from the very first pitch."
         },
         "Aggrssiv Run": {
             "abbr": "Aggrssiv Run",
             "category": "Position Assignment",
+            "effectType": "=",
             "fullName": "Aggressive Runner",
             "description": "Actively aim for the next base."
         },
         "Aggrssiv Stl": {
             "abbr": "Aggrssiv Stl",
             "category": "Position Assignment",
+            "effectType": "=",
             "fullName": "Aggressive Stealer",
             "description": "Always be on the lookout for chances to steal bases."
         },
@@ -135,6 +139,7 @@
         "Auto": {
             "abbr": "Auto",
             "category": "Position Assignment, Assignment Rules",
+            "effectType": "=",
             "description": "Leave the decision of when to substitute this player to the AI."
         },
         "Battler": {
@@ -170,6 +175,7 @@
         "Brk Ball P": {
             "abbr": "Brk Ball P",
             "category": "Position Assignment",
+            "effectType": "=",
             "fullName": "Breaking Ball Pitcher",
             "description": "Focuses more on breaking pitches."
         },
@@ -206,6 +212,7 @@
         "Cautious Stl": {
             "abbr": "Cautious Stl",
             "category": "Position Assignment",
+            "effectType": "=",
             "fullName": "Cautious Stealer",
             "description": "Rarely steal bases."
         },
@@ -248,6 +255,7 @@
         "Complete Games": {
             "abbr": "Complete Games",
             "category": "Position Assignment, Assignment Rules",
+            "effectType": "=",
             "description": "Try to use this pitcher for complete games as much as possible."
         },
         "Crossfire": {
@@ -511,11 +519,13 @@
         "Pace": {
             "abbr": "Pace",
             "category": "Position Assignment",
+            "effectType": "=",
             "description": "Pitch with good tempo."
         },
         "Patient Htr": {
             "abbr": "Patient Htr",
             "category": "Position Assignment",
+            "effectType": "=",
             "fullName": "Patient Hitter",
             "description": "Swing carefully, with an eye out for balls."
         },
@@ -534,11 +544,13 @@
         "Pinch Runner": {
             "abbr": "Pinch Runner",
             "category": "Position Assignment, Assignment Rules",
+            "effectType": "=",
             "description": "Easy to be substituted in as a runner."
         },
         "Power P": {
             "abbr": "Power P",
             "category": "Position Assignment",
+            "effectType": "=",
             "fullName": "Power Pitcher",
             "description": "Focuses mainly on pitching fastballs."
         },
@@ -581,17 +593,20 @@
         "Right Side": {
             "abbr": "Right Side",
             "category": "Position Assignment",
+            "effectType": "=",
             "fullName": "Right Side Pitching",
             "description": "Stand on the right side (toward 1st) of the mound."
         },
         "Selfish": {
             "abbr": "Selfish",
             "category": "Position Assignment",
+            "effectType": "=",
             "description": "Avoid bunting or batting with the intent of advancing runners."
         },
         "Selfless": {
             "abbr": "Selfless",
             "category": "Position Assignment",
+            "effectType": "=",
             "description": "Bunt or bat with the intent of advancing runners."
         },
         "Setter": {
@@ -615,11 +630,13 @@
         "Slap Hitter": {
             "abbr": "Slap Hitter",
             "category": "Position Assignment",
+            "effectType": "=",
             "description": "Use perfect swings often."
         },
         "Slugger": {
             "abbr": "Slugger",
             "category": "Position Assignment",
+            "effectType": "=",
             "description": "Use big swings often."
         },
         "Sprayer": {
@@ -637,11 +654,13 @@
         "Stamina Push": {
             "abbr": "Stamina Push",
             "category": "Position Assignment, Assignment Rules",
+            "effectType": "=",
             "description": "Start thinking about substitution when their stamina start dropping."
         },
         "Star": {
             "abbr": "Star",
             "category": "Position Assignment",
+            "effectType": "=",
             "description": "Extremely popular."
         },
         "Stunner": {
