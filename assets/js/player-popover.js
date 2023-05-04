@@ -208,9 +208,9 @@ function playerDoubleClicked(player) {
     }
 
     // Signature Pitch
-    const signaturePitch = player.breakingBalls.find(p => p.id.includes('SP'));
     const signaturePitchSpan = document.getElementById('popover-signature-pitch');
     if (signaturePitchSpan) {
+        const signaturePitch = player.breakingBalls.find(p => p.id.includes('SP'));
         if (signaturePitch) {
             signaturePitchSpan.textContent = signaturePitch.id;
         } else {
