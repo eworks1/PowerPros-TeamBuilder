@@ -23,7 +23,7 @@
     {% assign tempStr = throwingStr |  include.player.pitchingForm | split: ' ' | first | replace: 'Three-Quarters', '3/4' %}
     {% assign formStr = throwingStr | append: ' ' | append: tempStr %}
     {% endif %}
-    <span class="info-box detail-pitching-form" style="grid-area: pitchform; justify-content: center;">{{ formStr }}</span>
+    <span class="info-box detail-pitching-form" style="grid-area: pitchform; justify-content: center; font-family: 'Roboto Condensed', sans-serif;">{{ formStr }}</span>
 
     <span id="pitching-detail-roles-box" class="info-box" style="grid-area: roles;">
         <span class="info-label" title="{{ site.data.strings.hover_text.stats.APT }}">APT</span>
