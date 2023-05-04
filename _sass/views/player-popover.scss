@@ -486,3 +486,24 @@
 .skills-grid .skill-cell.blank .skill-desc {
     color: transparent;
 }
+
+// -- Profile Tab "Skills" section (bottom-right)
+
+#profile-tab-skills {
+    grid-area: skills;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr) repeat(2, 2fr);
+    grid-template-areas: 
+        "fullname       fullname"
+        "uniformname    uniformname"
+        "nickname       nickname"
+        "voice          voice"
+        "bat            glove"
+        "lwrist         rwrist";
+}
+
+#profile-tab-skills .info-row .content {
+    justify-content: start;
+}
