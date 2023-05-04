@@ -182,6 +182,7 @@ function playerDoubleClicked(player) {
         const pitchVelo = popoverPitchingRatingsSection.querySelector('.info-row .pitch-speed');
         if (pitchVelo) {
             pitchVelo.textContent = `${player["Top Speed"]}`;
+            pitchVelo.setAttribute('title', `${Math.round(player["Top Speed"] * 0.62137)} mph`);
         }
 
         // Control
