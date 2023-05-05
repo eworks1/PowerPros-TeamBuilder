@@ -235,14 +235,14 @@
         "battingForm": "–––––",
         "traits": {
             "Poise": "A",
+            "Heater": "S",
             "Recovery": "C",
-            "Throwing": "C",
-            "Heater": "S"
+            "Throwing": "C"
         },
         "abilities": {
             "pitcher": ["Carver", "Ironball"],
             "fielder": ["Slugger", "Rally", "Victor"],
-            "positionAssignment": ["Pace", "Brk Ball P", "Auto"]
+            "positionAssignment": ["Auto", "Brk Ball P", "Pace"]
         },
         "uniformName": "Aasa"
     }, {
@@ -283,7 +283,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": [],
-            "positionAssignment": ["Brk Ball P", "Auto"]
+            "positionAssignment": ["Auto", "Brk Ball P"]
         },
         "uniformName": "Abata"
     }, {
@@ -515,7 +515,7 @@
         "abilities": {
             "pitcher": ["Cutter", "Ironball", "Dr. K", "Battler", "vs Slugger"],
             "fielder": [],
-            "positionAssignment": ["Brk Ball P", "Auto"]
+            "positionAssignment": ["Auto", "Brk Ball P"]
         },
         "uniformName": "Aoba"
     }, {
@@ -992,8 +992,8 @@
         "traits": {},
         "abilities": {
             "pitcher": [],
-            "fielder": ["Sprayer", "Slam Fan", "Menace", "Trucker", "Slugger"],
-            "positionAssignment": ["Star", "Patient Htr"]
+            "fielder": ["Sprayer", "Slam Fan", "Menace", "Trucker"],
+            "positionAssignment": ["Star", "Slugger", "Patient Htr"]
         },
         "uniformName": "Bando"
     }, {
@@ -1303,7 +1303,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "High Hit", "Menace", "Good Eye"],
-            "positionAssignment": ["Selfish", "Patient Htr"]
+            "positionAssignment": ["Slugger", "Patient Htr", "Selfish"]
         },
         "uniformName": "Deita"
     }, {
@@ -1420,7 +1420,7 @@
         "abilities": {
             "pitcher": ["Ironball", "Tyrant", "Bluffer", "Meatball"],
             "fielder": ["Slugger"],
-            "positionAssignment": ["Auto"]
+            "positionAssignment": ["Auto", "Slugger"]
         },
         "uniformName": "Daigogetsu"
     }, {
@@ -1505,7 +1505,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Trucker"],
-            "positionAssignment": ["Aggrssiv Htr"]
+            "positionAssignment": ["Slugger", "Aggrssiv Htr"]
         },
         "uniformName": "Doken"
     }, {
@@ -1822,7 +1822,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Sprayer", "Rally", "Menace"],
-            "positionAssignment": ["Star"]
+            "positionAssignment": ["Star", "Slugger"]
         },
         "uniformName": "Fukuya"
     }, {
@@ -1857,7 +1857,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Victor", "Trucker", "Easy Out"],
-            "positionAssignment": []
+            "positionAssignment": ["Slugger", "Aggrssiv Fld"]
         },
         "uniformName": "Furu"
     }, {
@@ -2050,7 +2050,7 @@
         "abilities": {
             "pitcher": ["Hot Head"],
             "fielder": ["Slugger"],
-            "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run"]
+            "positionAssignment": ["Slugger", "Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run"]
         },
         "uniformName": "Gobu"
     }, {
@@ -2086,8 +2086,8 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Survivor", "Setter", "Clutch", "Good Eye", "Slugger"],
-            "positionAssignment": []
+            "fielder": ["Survivor", "Setter", "Clutch", "Good Eye"],
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Gunji"
     }, {
@@ -2282,8 +2282,8 @@
         "traits": {},
         "abilities": {
             "pitcher": [],
-            "fielder": ["Hot Bat", "Menace", "Good Eye", "Slugger"],
-            "positionAssignment": ["Aggrssiv Htr"]
+            "fielder": ["Hot Bat", "Menace", "Good Eye"],
+            "positionAssignment": ["Slugger", "Aggrssiv Htr"]
         },
         "uniformName": "Hakosaki"
     }, {
@@ -2436,8 +2436,8 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Squibber", "Survivor", "Slugger"],
-            "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Stl"]
+            "fielder": ["Survivor", "Squibber"],
+            "positionAssignment": ["Slugger", "Aggrssiv Htr", "Aggrssiv Stl", "Aggrssiv Fld"]
         },
         "uniformName": "Hassyaku"
     }, {
@@ -2515,7 +2515,7 @@
         "abilities": {
             "pitcher": ["Toolkit", "Hot Head"],
             "fielder": [],
-            "positionAssignment": ["Brk Ball P", "Auto"]
+            "positionAssignment": ["Auto", "Brk Ball P"]
         },
         "uniformName": "Hayakawa"
     }, {
@@ -2597,8 +2597,8 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Easy Out", "Slugger"],
-            "positionAssignment": []
+            "fielder": ["Easy Out"],
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Hidou"
     }, {
@@ -2838,8 +2838,8 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Rally", "Menace", "Slugger"],
-            "positionAssignment": ["Aggrssiv Htr"]
+            "fielder": ["Rally", "Menace"],
+            "positionAssignment": ["Slugger", "Aggrssiv Htr"]
         },
         "uniformName": "Horisugi"
     }, {
@@ -3050,7 +3050,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Trucker", "Hotshot", "Easy Out", "Mood Swinger"],
-            "positionAssignment": []
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Ichou"
     }, {
@@ -3207,7 +3207,7 @@
         "abilities": {
             "pitcher": ["Bluffer", "Downplay"],
             "fielder": [],
-            "positionAssignment": ["Pace", "Auto"]
+            "positionAssignment": ["Auto", "Pace"]
         },
         "uniformName": "Inukawa"
     }, {
@@ -3404,8 +3404,8 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Push Hit", "Slugger", "Clinical"],
-            "positionAssignment": []
+            "fielder": ["Push Hit", "Clinical"],
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Itto"
     }, {
@@ -3589,7 +3589,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Mood Swinger", "Clinical"],
-            "positionAssignment": []
+            "positionAssignment": ["Slap Hitter"]
         },
         "uniformName": "Jinguji"
     }, {
@@ -3789,7 +3789,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Sprayer", "Rally", "Laser", "Chaser"],
-            "positionAssignment": []
+            "positionAssignment": ["Star", "Aggrssiv Fld"]
         },
         "uniformName": "Kagami"
     }, {
@@ -4276,7 +4276,7 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Sprayer", "Push Hit", "Squibber", "Eager", "Setter", "Low Hit", "Level-Headed", "Good Eye", "Clinical"],
+            "fielder": ["Clinical", "Sprayer", "Push Hit", "Squibber", "Eager", "Setter", "Low Hit", "Level-Headed", "Good Eye"],
             "positionAssignment": ["Star"]
         },
         "uniformName": "Kazanagi"
@@ -4362,7 +4362,7 @@
         "abilities": {
             "pitcher": ["Gyroball", "Ironball", "Crossfire"],
             "fielder": ["Slugger", "Good Eye"],
-            "positionAssignment": ["Power P", "Auto"]
+            "positionAssignment": ["Auto", "Slugger", "Power P"]
         },
         "uniformName": "Kiba"
     }, {
@@ -4493,7 +4493,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Easy Out", "Mood Swinger"],
-            "positionAssignment": []
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Kiriki"
     }, {
@@ -4764,7 +4764,7 @@
         "abilities": {
             "pitcher": ["Airball"],
             "fielder": [],
-            "positionAssignment": ["Brk Ball P", "Auto"]
+            "positionAssignment": ["Auto", "Brk Ball P"]
         },
         "uniformName": "Kuon"
     }, {
@@ -4889,7 +4889,7 @@
         "abilities": {
             "pitcher": ["Dr. K", "Crossfire", "Low Ball"],
             "fielder": [],
-            "positionAssignment": ["Selfless", "Aggrssiv Fld", "Auto"]
+            "positionAssignment": ["Auto", "Aggrssiv Fld", "Selfless"]
         },
         "uniformName": "Kureba"
     }, {
@@ -4925,7 +4925,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Pull Hit", "High Hit", "Easy Out"],
-            "positionAssignment": []
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Kusano"
     }, {
@@ -4994,8 +4994,8 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Homer", "Tanker", "Pull Hit", "Fanned", "Slugger"],
-            "positionAssignment": ["Aggrssiv Htr"]
+            "fielder": ["Homer", "Tanker", "Pull Hit", "Fanned"],
+            "positionAssignment": ["Slugger", "Aggrssiv Htr"]
         },
         "uniformName": "Tsukami"
     }, {
@@ -5033,7 +5033,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Push Hit", "Survivor", "Clutch", "Mood Swinger"],
-            "positionAssignment": ["Slap Hitter", "Selfish", "Aggrssiv Fld", "Aggrssiv Run", "Aggrssiv Stl"]
+            "positionAssignment": ["Slap Hitter", "Aggrssiv Stl", "Aggrssiv Run", "Aggrssiv Fld", "Selfish"]
         },
         "uniformName": "Bronko"
     }, {
@@ -5069,7 +5069,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Pull Hit", "Menace", "Trucker"],
-            "positionAssignment": ["Aggrssiv Htr"]
+            "positionAssignment": ["Slugger", "Aggrssiv Htr"]
         },
         "uniformName": "Maximum"
     }, {
@@ -5116,8 +5116,8 @@
         },
         "abilities": {
             "pitcher": ["Handler", "Chill"],
-            "fielder": ["Slugger", "Slugger"],
-            "positionAssignment": ["Stamina Push", "Star", "Power P"]
+            "fielder": ["Slugger"],
+            "positionAssignment": ["Stamina Push", "Star", "Slugger", "Power P"]
         },
         "uniformName": "Ikari"
     }, {
@@ -5435,8 +5435,8 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Clutch", "Good Eye", "Slugger"],
-            "positionAssignment": []
+            "fielder": ["Clutch", "Good Eye"],
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Misono"
     }, {
@@ -5596,7 +5596,7 @@
         "abilities": {
             "pitcher": ["Cutter", "Dr. K", "Downplay", "Airball", "Choker"],
             "fielder": [],
-            "positionAssignment": ["Brk Ball P", "Auto"]
+            "positionAssignment": ["Auto", "Brk Ball P"]
         },
         "uniformName": "Mizuno"
     }, {
@@ -6016,7 +6016,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Trucker", "Blunder"],
-            "positionAssignment": ["Patient Htr"]
+            "positionAssignment": ["Slugger", "Patient Htr"]
         },
         "uniformName": "Nakai"
     }, {
@@ -6746,7 +6746,7 @@
         "abilities": {
             "pitcher": ["Ironball", "Battler", "Toolkit", "Chill"],
             "fielder": ["Slugger"],
-            "positionAssignment": ["Power P", "Auto"]
+            "positionAssignment": ["Auto", "Slugger", "Power P"]
         },
         "uniformName": "One"
     }, {
@@ -6874,8 +6874,8 @@
         "traits": {},
         "abilities": {
             "pitcher": [],
-            "fielder": ["High Hit", "Laser", "Slugger"],
-            "positionAssignment": ["Aggrssiv Htr"]
+            "fielder": ["High Hit", "Laser"],
+            "positionAssignment": ["Slugger", "Aggrssiv Htr"]
         },
         "uniformName": "Otakara"
     }, {
@@ -7099,7 +7099,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger"],
-            "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr"]
+            "positionAssignment": ["Slugger", "Aggrssiv Htr", "Aggrssiv Fld"]
         },
         "uniformName": "Ozora"
     }, {
@@ -7136,8 +7136,8 @@
         },
         "abilities": {
             "pitcher": ["Two-way"],
-            "fielder": ["Clutch", "Slugger"],
-            "positionAssignment": ["Selfish", "Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run", "Aggrssiv Stl"]
+            "fielder": ["Clutch"],
+            "positionAssignment": ["Slugger", "Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run", "Aggrssiv Stl", "Selfish"]
         },
         "uniformName": "Paachan"
     }, {
@@ -7183,8 +7183,8 @@
         },
         "abilities": {
             "pitcher": ["Tyrant"],
-            "fielder": ["Slugger", "Clinical"],
-            "positionAssignment": ["Aggrssiv Fld", "Auto"]
+            "fielder": ["Clinical", "Slugger"],
+            "positionAssignment": ["Auto", "Aggrssiv Fld"]
         },
         "uniformName": "Papillon"
     }, {
@@ -7402,8 +7402,8 @@
         },
         "abilities": {
             "pitcher": ["Ironball"],
-            "fielder": ["Slugger", "Clinical"],
-            "positionAssignment": ["Star", "Auto"]
+            "fielder": ["Clinical", "Slugger"],
+            "positionAssignment": ["Auto", "Star", "Slugger"]
         },
         "uniformName": "Red"
     }, {
@@ -7592,7 +7592,7 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Sprayer", "Clinical"],
+            "fielder": ["Clinical", "Sprayer"],
             "positionAssignment": ["Slap Hitter"]
         },
         "uniformName": "Ikari"
@@ -7749,7 +7749,7 @@
         "abilities": {
             "pitcher": ["Bluffer", "vs Runner", "Chill"],
             "fielder": [],
-            "positionAssignment": ["Power P", "Auto"]
+            "positionAssignment": ["Auto", "Power P"]
         },
         "uniformName": "Saigoh"
     }, {
@@ -8083,7 +8083,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Pull Hit", "Trucker"],
-            "positionAssignment": []
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Sanbonmatsu"
     }, {
@@ -8258,7 +8258,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Trucker"],
-            "positionAssignment": []
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Shacho"
     }, {
@@ -8326,8 +8326,8 @@
         "traits": {},
         "abilities": {
             "pitcher": [],
-            "fielder": ["Victor", "Menace", "Clutch", "Slugger"],
-            "positionAssignment": []
+            "fielder": ["Victor", "Menace", "Clutch"],
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Shibuya"
     }, {
@@ -8442,7 +8442,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": [],
-            "positionAssignment": ["Star", "Auto"]
+            "positionAssignment": ["Auto", "Star"]
         },
         "uniformName": "Shindoh"
     }, {
@@ -8569,7 +8569,7 @@
         "abilities": {
             "pitcher": ["Momentum", "Dr. K", "Handler"],
             "fielder": [],
-            "positionAssignment": ["Pace", "Auto"]
+            "positionAssignment": ["Auto", "Pace"]
         },
         "uniformName": "Shirana"
     }, {
@@ -8651,7 +8651,7 @@
         "abilities": {
             "pitcher": ["Ironball", "Guts", "Toolkit", "Hot Head"],
             "fielder": [],
-            "positionAssignment": ["Auto"]
+            "positionAssignment": ["Auto", "Power P"]
         },
         "uniformName": "Shiroyama"
     }, {
@@ -8685,8 +8685,8 @@
         "traits": {},
         "abilities": {
             "pitcher": [],
-            "fielder": ["Menace", "Slugger"],
-            "positionAssignment": []
+            "fielder": ["Menace"],
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Shogogetsu"
     }, {
@@ -8720,8 +8720,8 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Slugger"],
-            "positionAssignment": ["Aggrssiv Htr"]
+            "fielder": [],
+            "positionAssignment": ["Slugger", "Aggrssiv Htr"]
         },
         "uniformName": "Sorimachi"
     }, {
@@ -8809,7 +8809,7 @@
         "abilities": {
             "pitcher": ["Bluffer"],
             "fielder": ["Slugger"],
-            "positionAssignment": ["Auto"]
+            "positionAssignment": ["Auto", "Slugger"]
         },
         "uniformName": "Suiko"
     }, {
@@ -8934,7 +8934,7 @@
         "abilities": {
             "pitcher": ["Gripper"],
             "fielder": ["Push Hit"],
-            "positionAssignment": ["Star", "Auto"]
+            "positionAssignment": ["Auto", "Star"]
         },
         "uniformName": "Suzukaze"
     }, {
@@ -8982,7 +8982,7 @@
         "abilities": {
             "pitcher": ["Pickoff", "Handler", "Reflexes", "Gripper", "Low Ball", "Chill"],
             "fielder": [],
-            "positionAssignment": ["Star", "Pace", "Power P", "Auto"]
+            "positionAssignment": ["Auto", "Star", "Power P", "Pace"]
         },
         "uniformName": "Suzumoto"
     }, {
@@ -9077,7 +9077,7 @@
         "abilities": {
             "pitcher": ["Crossfire", "Downplay", "Moody"],
             "fielder": [],
-            "positionAssignment": ["Pace", "Brk Ball P", "Auto"]
+            "positionAssignment": ["Auto", "Brk Ball P", "Pace"]
         },
         "uniformName": "Tachibana"
     }, {
@@ -9125,7 +9125,7 @@
         "abilities": {
             "pitcher": ["Ironball", "Momentum", "vs Slugger"],
             "fielder": ["Bunt Ace", "Rally"],
-            "positionAssignment": ["Aggrssiv Fld", "Auto"]
+            "positionAssignment": ["Auto", "Aggrssiv Fld"]
         },
         "uniformName": "Tachikawa"
     }, {
@@ -9163,8 +9163,8 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Slugger"],
-            "positionAssignment": ["Aggrssiv Htr"]
+            "fielder": [],
+            "positionAssignment": ["Slugger", "Aggrssiv Htr"]
         },
         "uniformName": "Takagi"
     }, {
@@ -9246,7 +9246,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Survivor", "Victor", "Rally", "Pinch", "Clutch", "Trucker", "Mood Swinger", "Slugger"],
-            "positionAssignment": ["Aggrssiv Fld", "Patient Htr"]
+            "positionAssignment": ["Slugger", "Patient Htr", "Aggrssiv Fld"]
         },
         "uniformName": "Takeda"
     }, {
@@ -9510,7 +9510,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Bunt", "Glover"],
-            "positionAssignment": ["Slap Hitter", "Aggrssiv Fld", "Auto"]
+            "positionAssignment": ["Auto", "Slap Hitter", "Aggrssiv Fld"]
         },
         "uniformName": "Tanakayama"
     }, {
@@ -9639,7 +9639,7 @@
         "abilities": {
             "pitcher": ["Handler", "Reflexes"],
             "fielder": [],
-            "positionAssignment": ["Brk Ball P", "Auto"]
+            "positionAssignment": ["Auto", "Brk Ball P"]
         },
         "uniformName": "Tatenishi"
     }, {
@@ -9675,7 +9675,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Mood Swinger"],
-            "positionAssignment": []
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Tatsui"
     }, {
@@ -9856,8 +9856,8 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Rally", "Pinch", "Morale", "Clutch", "Easy Out", "Slugger"],
-            "positionAssignment": ["Selfless"]
+            "fielder": ["Rally", "Pinch", "Morale", "Clutch", "Easy Out"],
+            "positionAssignment": ["Slugger", "Selfless"]
         },
         "uniformName": "Todoroki"
     }, {
@@ -10082,7 +10082,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Slugger", "Easy Out"],
-            "positionAssignment": []
+            "positionAssignment": ["Slugger"]
         },
         "uniformName": "Udo"
     }, {
@@ -10190,8 +10190,8 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Slugger"],
-            "positionAssignment": ["Aggrssiv Htr"]
+            "fielder": [],
+            "positionAssignment": ["Slugger", "Aggrssiv Htr"]
         },
         "uniformName": "Umino"
     }, {
@@ -10573,7 +10573,7 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Diver", "Blunder"],
-            "positionAssignment": ["Selfish"]
+            "positionAssignment": ["Pinch Runner", "Selfish"]
         },
         "uniformName": "Yabemon"
     }, {
@@ -10841,7 +10841,7 @@
         "abilities": {
             "pitcher": ["Lucky"],
             "fielder": [],
-            "positionAssignment": ["Brk Ball P", "Auto"]
+            "positionAssignment": ["Auto", "Brk Ball P"]
         },
         "uniformName": "Yamaguchi"
     }, {
@@ -10888,7 +10888,7 @@
         "abilities": {
             "pitcher": ["Trusty", "Choker", "Unlucky"],
             "fielder": ["Slugger", "Pull Hit", "High Hit", "Menace"],
-            "positionAssignment": ["Aggrssiv Htr", "Brk Ball P", "Auto"]
+            "positionAssignment": ["Auto", "Slugger", "Aggrssiv Htr", "Brk Ball P"]
         },
         "uniformName": "Yamino"
     }, {
@@ -10993,7 +10993,7 @@
         },
         "abilities": {
             "pitcher": [],
-            "fielder": ["Hot Bat", "Clinical"],
+            "fielder": ["Clinical", "Hot Bat"],
             "positionAssignment": ["Slap Hitter"]
         },
         "uniformName": "Zansu"
