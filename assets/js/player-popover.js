@@ -152,8 +152,7 @@ function playerDoubleClicked(player) {
         // Picture
         const pfpImg = popoverFormSection.querySelector('.info-row[pfp] img');
         if (pfpImg) {
-            const shortenedName = player.nameAbbr.split('.').slice(-1);
-            pfpImg.setAttribute('src', `https://www.mlbppworld.com/wiki/images/Pfp_${shortenedName}.jpg`);
+            pfpImg.setAttribute('src', `https://www.mlbppworld.com/wiki/images/${player.pfpFileName}.jpg`);
         }
 
         // Pitching Form (Pitching Tabs)
