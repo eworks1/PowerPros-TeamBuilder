@@ -414,9 +414,12 @@
         "name": "Alan Raven",
         "nameAbbr": "Alan",
         "pfpFileName": "pfp_Alan.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "7",
         "positions": ["SP", "MR", "CP", "OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 42,
+            "OF": 29
+        },
         "throwingHandedness": "L",
         "battingHandedness": "R",
         "starPoints": 576,
@@ -431,12 +434,24 @@
         "pitchingVelo": 161,
         "control": 48,
         "stamina": 79,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "",
+            "level": null
+        }, {
+            "id": "",
+            "level": 5
+        }, {
+            "id": "FRK",
+            "level": 3
+        }, {
+            "id": "SCR",
+            "level": 3
+        }],
+        "pitchingForm": "Overhead 33",
+        "battingForm": "General 93",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Alan"
     }, {
         "id": "Alex-385",
         "name": "Alex",
@@ -520,9 +535,11 @@
         "name": "Karen Amane",
         "nameAbbr": "Amane",
         "pfpFileName": "pfp_AngelAmane.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "7",
         "positions": ["OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "OF": 60
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 271,
@@ -538,11 +555,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "Standard 2",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Amane"
     }, {
         "id": "Aoba-336",
         "name": "Haruto Aoba",
@@ -770,9 +787,12 @@
         "name": "Saji Arimura",
         "nameAbbr": "Arimura",
         "pfpFileName": "pfp_Arimura.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "2",
         "positions": ["C", "OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "C": 75,
+            "OF": 60
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 370,
@@ -788,11 +808,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 25",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Arimura"
     }, {
         "id": "Atsumori-485",
         "name": "Muneatsu Atsumori",
@@ -1146,9 +1166,12 @@
         "name": "Takai Biishiki",
         "nameAbbr": "Biishiki",
         "pfpFileName": "pfp_Biishiki.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "1",
         "positions": ["SP", "MR", "OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 53,
+            "OF": 37
+        },
         "throwingHandedness": "R",
         "battingHandedness": "L",
         "starPoints": 450,
@@ -1163,12 +1186,24 @@
         "pitchingVelo": 141,
         "control": 85,
         "stamina": 64,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "",
+            "level": 4
+        }, {
+            "id": "SNK",
+            "level": 3
+        }, {
+            "id": "SL",
+            "level": 2
+        }, {
+            "id": "",
+            "level": 2
+        }],
+        "pitchingForm": "Overhead 1",
+        "battingForm": "General 25",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Biishiki"
     }, {
         "id": "Black-314",
         "name": "Mao Serizawa (Black)",
@@ -1215,9 +1250,11 @@
         "name": "Bucho",
         "nameAbbr": "Bucho",
         "pfpFileName": "pfp_Bucho.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "44",
         "positions": ["SP", "MR", "CP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 56
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 361,
@@ -1232,12 +1269,21 @@
         "pitchingVelo": 152,
         "control": 55,
         "stamina": 61,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "FRK",
+            "level": 7
+        }, {
+            "id": "CB",
+            "level": 3
+        }, {
+            "id": "SL",
+            "level": 3
+        }],
+        "pitchingForm": "Overhead 37",
+        "battingForm": "General 50",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Bucho"
     }, {
         "id": "Charai-282",
         "name": "Genki Charai",
@@ -1603,9 +1649,11 @@
         "name": "Shunji Daito",
         "nameAbbr": "Daito",
         "pfpFileName": "pfp_Daito.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "11",
         "positions": ["SP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 50
+        },
         "throwingHandedness": "L",
         "battingHandedness": "L",
         "starPoints": 257,
@@ -1620,20 +1668,61 @@
         "pitchingVelo": 139,
         "control": 77,
         "stamina": 50,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "CB",
+            "level": 5
+        }, {
+            "id": "SCR",
+            "level": 4
+        }],
+        "pitchingForm": "Three-Quarters 15",
+        "battingForm": "General 25",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Daito"
     }, {
-        "id": "DJB KORIS DJB-K Image: pfp_DJB-K.jpg-391",
-        "name": "DJB KORIS (DJB-K) Image: pfp_DJB-K.jpg",
-        "nameAbbr": "DJB KORIS DJB-K Image: pfp_DJB-K.jpg",
-        "pfpFileName": "#ERROR!",
-        "jerseyNum": null,
+        "id": "DJB-78-367",
+        "name": "DJB-78",
+        "nameAbbr": "DJB-78",
+        "pfpFileName": "pfp_DJB-78.jpg",
+        "jerseyNum": "78",
+        "positions": ["SP"],
+        "allFieldingRatings": {
+            "P": 65
+        },
+        "throwingHandedness": "L",
+        "battingHandedness": "S",
+        "starPoints": 367,
+        "cost": 0,
+        "trajectory": 1,
+        "contact": 45,
+        "power": 30,
+        "runSpeed": 40,
+        "armStrength": 45,
+        "fielding": 65,
+        "catching": 78,
+        "pitchingVelo": 147,
+        "control": 87,
+        "stamina": 78,
+        "breakingBalls": [{
+            "id": "FRK",
+            "level": 3
+        }],
+        "pitchingForm": "Overhead 80",
+        "battingForm": "General 51",
+        "traits": [],
+        "abilities": [],
+        "uniformName": "DJB"
+    }, {
+        "id": "DJB-K-391",
+        "name": "DJB KORIS (DJB-K)",
+        "nameAbbr": "DJB-K",
+        "pfpFileName": "pfp_DJB-K.jpg",
+        "jerseyNum": "7",
         "positions": ["OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "OF": 50
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 391,
@@ -1649,39 +1738,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 25",
         "traits": [],
         "abilities": [],
-        "uniformName": null
-    }, {
-        "id": "DJB-78-367",
-        "name": "DJB-78 Image:pfp_DJB-78.jpg",
-        "nameAbbr": "DJB-78",
-        "pfpFileName": "pfp_DJB-78.jpg",
-        "jerseyNum": null,
-        "positions": ["SP"],
-        "allFieldingRatings": [],
-        "throwingHandedness": "L",
-        "battingHandedness": "S",
-        "starPoints": 367,
-        "cost": 0,
-        "trajectory": 1,
-        "contact": 45,
-        "power": 30,
-        "runSpeed": 40,
-        "armStrength": 45,
-        "fielding": 65,
-        "catching": 78,
-        "pitchingVelo": 147,
-        "control": 87,
-        "stamina": 78,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
-        "traits": [],
-        "abilities": [],
-        "uniformName": null
+        "uniformName": "DJBK"
     }, {
         "id": "Doe-559",
         "name": "Ryuga Doe",
@@ -2170,9 +2231,11 @@
         "name": "Graviton Arai",
         "nameAbbr": "G.Arai",
         "pfpFileName": "pfp_Graviton.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "1",
         "positions": ["SP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 60
+        },
         "throwingHandedness": "L",
         "battingHandedness": "S",
         "starPoints": 470,
@@ -2187,12 +2250,18 @@
         "pitchingVelo": 155,
         "control": 75,
         "stamina": 85,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "",
+            "level": 5
+        }, {
+            "id": "",
+            "level": 5
+        }],
+        "pitchingForm": "Overhead 7",
+        "battingForm": "General 29",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Graviton"
     }, {
         "id": "G.Bhattarai-357",
         "name": "Gyanendra Bhattarai",
@@ -2276,9 +2345,11 @@
         "name": "Garcia Sera",
         "nameAbbr": "Garcia",
         "pfpFileName": "pfp_Garcia.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "3",
         "positions": ["OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "OF": 76
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 450,
@@ -2294,11 +2365,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 34",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Garcia"
     }, {
         "id": "Go-535",
         "name": "Go",
@@ -2547,9 +2618,12 @@
         "name": "Sakuya Haizuka",
         "nameAbbr": "Haizuka",
         "pfpFileName": "pfp_Haizuka.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "6",
         "positions": ["SS", "3B"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "SS": 60,
+            "3B": 48
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 380,
@@ -2565,11 +2639,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 60",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Haizuka"
     }, {
         "id": "Hakata-263",
         "name": "Asune Hakata",
@@ -2894,9 +2968,11 @@
         "name": "Kirito Hebishima",
         "nameAbbr": "Hebishima",
         "pfpFileName": "pfp_Hebishima.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "4",
         "positions": ["2B"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "2B": 82
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 426,
@@ -2912,11 +2988,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 6",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Hebishima"
     }, {
         "id": "Hibikino-301",
         "name": "Cocoro Hibikino",
@@ -2970,9 +3046,11 @@
         "name": "Shinichiro Hibino",
         "nameAbbr": "Hibino",
         "pfpFileName": "pfp_Hibino.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "1",
         "positions": ["SP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 43
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 336,
@@ -2987,12 +3065,18 @@
         "pitchingVelo": 145,
         "control": 69,
         "stamina": 77,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "SL",
+            "level": 4
+        }, {
+            "id": "FRK",
+            "level": 4
+        }],
+        "pitchingForm": "Three-Quarters 1",
+        "battingForm": "General 25",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Hibino"
     }, {
         "id": "Hidou-304",
         "name": "Hidou",
@@ -3413,9 +3497,14 @@
         "name": "Kazuki Ichijo",
         "nameAbbr": "Ichijo",
         "pfpFileName": "pfp_Ichijo.jpg",
-        "jerseyNum": null,
-        "positions": ["1B", "2B", "3B"],
-        "allFieldingRatings": [],
+        "jerseyNum": "3",
+        "positions": ["1B", "2B", "3B", "SS"],
+        "allFieldingRatings": {
+            "1B": 60,
+            "2B": 42,
+            "3B": 42,
+            "SS": 42
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 443,
@@ -3431,11 +3520,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 27",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Ichijo"
     }, {
         "id": "Ichinose-418",
         "name": "Touya Ichinose",
@@ -3817,9 +3906,13 @@
         "name": "Isshin Ishigami",
         "nameAbbr": "Ishigami",
         "pfpFileName": "pfp_Ishigami.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "6",
         "positions": ["SS", "3B", "OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "3B": 59,
+            "SS": 47,
+            "OF": 41
+        },
         "throwingHandedness": "R",
         "battingHandedness": "S",
         "starPoints": 290,
@@ -3835,11 +3928,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 25",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Ishigami"
     }, {
         "id": "Ishino-179",
         "name": "Masao Ishino",
@@ -4397,9 +4490,17 @@
         "name": "Shingeki Kai",
         "nameAbbr": "Kai",
         "pfpFileName": "pfp_Kai.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "5",
         "positions": ["SP", "MR", "CP", "C", "1B", "2B", "3B", "SS", "OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 55,
+            "C": 55,
+            "1B": 55,
+            "2B": 55,
+            "3B": 55,
+            "SS": 55,
+            "OF": 55
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 408,
@@ -4414,12 +4515,18 @@
         "pitchingVelo": 143,
         "control": 40,
         "stamina": 75,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "FRK",
+            "level": 4
+        }, {
+            "id": "CUT",
+            "level": 2
+        }],
+        "pitchingForm": "Three-Quarters 15",
+        "battingForm": "General 79",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Kai"
     }, {
         "id": "Kaji-443",
         "name": "Masuto Kaji",
@@ -4473,9 +4580,12 @@
         "name": "Zenji Kamakari",
         "nameAbbr": "Kamakari",
         "pfpFileName": "pfp_Kamakari.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "4",
         "positions": ["2B", "OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "2B": 60,
+            "OF": 48
+        },
         "throwingHandedness": "R",
         "battingHandedness": "S",
         "starPoints": 319,
@@ -4491,11 +4601,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "–––––",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Kamakari"
     }, {
         "id": "Kamase-234",
         "name": "Touma Kamase",
@@ -4545,9 +4655,12 @@
         "name": "Takeru Kaminari",
         "nameAbbr": "Kaminari",
         "pfpFileName": "pfp_Kaminari.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "2'",
         "positions": ["C", "OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "C": 65,
+            "OF": 52
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 380,
@@ -4563,11 +4676,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 48",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Kaminari"
     }, {
         "id": "Kamitaka-388",
         "name": "Ryu Kamitaka",
@@ -4689,9 +4802,11 @@
         "name": "Takemitsu Karasuma",
         "nameAbbr": "Karasuma",
         "pfpFileName": "pfp_Karasuma.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "1",
         "positions": ["SP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 40
+        },
         "throwingHandedness": "L",
         "battingHandedness": "R",
         "starPoints": 418,
@@ -4706,12 +4821,21 @@
         "pitchingVelo": 149,
         "control": 55,
         "stamina": 90,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "",
+            "level": 5
+        }, {
+            "id": "",
+            "level": 5
+        }, {
+            "id": "SHU",
+            "level": 1
+        }],
+        "pitchingForm": "Overhead 15",
+        "battingForm": "–––––",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Karasuma"
     }, {
         "id": "Karuizawa-261",
         "name": "Daiki Karuizawa",
@@ -5107,9 +5231,12 @@
         "name": "Hanma Kirigane",
         "nameAbbr": "Kirigane",
         "pfpFileName": "pfp_Kirigane.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "11",
         "positions": ["1B", "SS"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "1B": 69,
+            "SS": 55
+        },
         "throwingHandedness": "R",
         "battingHandedness": "L",
         "starPoints": 452,
@@ -5125,11 +5252,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 76",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Kirigane"
     }, {
         "id": "Kiriki-294",
         "name": "Tsuyoshi Kiriki",
@@ -5173,9 +5300,12 @@
         "name": "Reiri Kirisaki",
         "nameAbbr": "Kirisaki",
         "pfpFileName": "pfp_Kirisaki.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "6",
         "positions": ["SS", "2B"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "SS": 72,
+            "2B": 57
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 458,
@@ -5191,19 +5321,22 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 78",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Kirisaki"
     }, {
         "id": "Kiyomoto-515",
         "name": "Kazushige Kiyomoto",
         "nameAbbr": "Kiyomoto",
         "pfpFileName": "pfp_Kiyomoto.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "5",
         "positions": ["1B", "3B"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "1B": 73,
+            "3B": 51
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 515,
@@ -5219,11 +5352,42 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "–––––",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Kiyomoto"
+    }, {
+        "id": "Kizaki-295",
+        "name": "Akira Kizaki",
+        "nameAbbr": "Kizaki",
+        "pfpFileName": "pfp_Kizaki.jpg",
+        "jerseyNum": "2",
+        "positions": ["C", "OF"],
+        "allFieldingRatings": {
+            "C": 60,
+            "OF": 42
+        },
+        "throwingHandedness": "R",
+        "battingHandedness": "R",
+        "starPoints": 295,
+        "cost": 3,
+        "trajectory": 3,
+        "contact": 55,
+        "power": 65,
+        "runSpeed": 50,
+        "armStrength": 70,
+        "fielding": 60,
+        "catching": 50,
+        "pitchingVelo": 120,
+        "control": 1,
+        "stamina": 1,
+        "breakingBalls": [],
+        "pitchingForm": "–––––",
+        "battingForm": "–––––",
+        "traits": [],
+        "abilities": [],
+        "uniformName": "Kizaki"
     }, {
         "id": "Kodaira-318",
         "name": "Hinata Kodaira",
@@ -5419,9 +5583,13 @@
         "name": "Shin Kokuju",
         "nameAbbr": "Kokuju",
         "pfpFileName": "pfp_Kokuju.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "4",
         "positions": ["2B", "3B", "SS"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "2B": 56,
+            "3B": 44,
+            "SS": 44
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 426,
@@ -5436,40 +5604,18 @@
         "pitchingVelo": 147,
         "control": 58,
         "stamina": 55,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "SL",
+            "level": 3
+        }, {
+            "id": "SHU",
+            "level": 1
+        }],
+        "pitchingForm": "Overhead 38",
+        "battingForm": "General 56",
         "traits": [],
         "abilities": [],
-        "uniformName": null
-    }, {
-        "id": "Koroe-396",
-        "name": "Rufu Koroe",
-        "nameAbbr": "Koroe",
-        "pfpFileName": "pfp_Koroe.jpg",
-        "jerseyNum": null,
-        "positions": ["2B", "OF"],
-        "allFieldingRatings": [],
-        "throwingHandedness": "R",
-        "battingHandedness": "R",
-        "starPoints": 396,
-        "cost": 5,
-        "trajectory": 3,
-        "contact": 82,
-        "power": 46,
-        "runSpeed": 73,
-        "armStrength": 46,
-        "fielding": 73,
-        "catching": 90,
-        "pitchingVelo": 120,
-        "control": 1,
-        "stamina": 1,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
-        "traits": [],
-        "abilities": [],
-        "uniformName": null
+        "uniformName": "Kokuju"
     }, {
         "id": "Kujo-420",
         "name": "Bannou Kujo",
@@ -5686,6 +5832,37 @@
             "positionAssignment": ["Auto", "Aggrssiv Fld", "Selfless"]
         },
         "uniformName": "Kureba"
+    }, {
+        "id": "Kuroe-396",
+        "name": "Rufu Kuroe",
+        "nameAbbr": "Kuroe",
+        "pfpFileName": "pfp_Koroe.jpg",
+        "jerseyNum": "4",
+        "positions": ["2B", "OF"],
+        "allFieldingRatings": {
+            "2B": 73,
+            "OF": 51
+        },
+        "throwingHandedness": "R",
+        "battingHandedness": "R",
+        "starPoints": 396,
+        "cost": 5,
+        "trajectory": 3,
+        "contact": 82,
+        "power": 46,
+        "runSpeed": 73,
+        "armStrength": 46,
+        "fielding": 73,
+        "catching": 90,
+        "pitchingVelo": 120,
+        "control": 1,
+        "stamina": 1,
+        "breakingBalls": [],
+        "pitchingForm": "–––––",
+        "battingForm": "–––––",
+        "traits": [],
+        "abilities": [],
+        "uniformName": "Kuroe"
     }, {
         "id": "Kusano-332",
         "name": "Kentaro Kusano",
@@ -6176,9 +6353,11 @@
         "name": "Kaname Minazuki",
         "nameAbbr": "Minazuki",
         "pfpFileName": "pfp_Minazuki.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "2",
         "positions": ["C"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "C": 61
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 360,
@@ -6194,11 +6373,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "–––––",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Minazuki"
     }, {
         "id": "Minmin-292",
         "name": "Minban Min (Minmin)",
@@ -6280,9 +6459,11 @@
         "name": "Tomoaki Mitamura",
         "nameAbbr": "Mitamura",
         "pfpFileName": "pfp_Mitamura.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "11",
         "positions": ["SP", "MR", "CP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 45
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 263,
@@ -6297,12 +6478,21 @@
         "pitchingVelo": 131,
         "control": 67,
         "stamina": 37,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "",
+            "level": 3
+        }, {
+            "id": "",
+            "level": 4
+        }, {
+            "id": "SNK",
+            "level": 4
+        }],
+        "pitchingForm": "Three-Quarters 15",
+        "battingForm": "General 25",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Mitamura"
     }, {
         "id": "Mitsuno-284",
         "name": "Seira Mitsuno",
@@ -6549,9 +6739,13 @@
         "name": "Gaku Morikawa",
         "nameAbbr": "Morikawa",
         "pfpFileName": "pfp_Morikawa.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "6",
         "positions": ["SS", "2B", "3B"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "SS": 70,
+            "2B": 49,
+            "3B": 49
+        },
         "throwingHandedness": "R",
         "battingHandedness": "L",
         "starPoints": 395,
@@ -6567,11 +6761,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 28",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Morikawa"
     }, {
         "id": "Moroi-291",
         "name": "Kiyokazu Moroi",
@@ -6931,9 +7125,13 @@
         "name": "Yukihiro Nakanoshima",
         "nameAbbr": "Nakanoshima",
         "pfpFileName": "pfp_Nakanoshima.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "6",
         "positions": ["SS", "2B", "3B"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "SS": 73,
+            "2B": 51,
+            "3B": 51
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 457,
@@ -6949,11 +7147,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 25",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Nakanoshima"
     }, {
         "id": "Namaki-264",
         "name": "Morio Namaki",
@@ -7454,9 +7652,12 @@
         "name": "Tadashi Ochiai",
         "nameAbbr": "Ochiai",
         "pfpFileName": "pfp_Ochiai.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "3",
         "positions": ["1B", "C"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "1B": 68,
+            "C": 54
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 412,
@@ -7472,11 +7673,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 91",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Ochiai"
     }, {
         "id": "Octavia-414",
         "name": "Octavia",
@@ -8223,9 +8424,12 @@
         "name": "Queen Cocoro",
         "nameAbbr": "Q.Cocoro",
         "pfpFileName": "pfp_QueenCocoro.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "1",
         "positions": ["SP", "OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 61,
+            "OF": 42
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 483,
@@ -8240,12 +8444,18 @@
         "pitchingVelo": 150,
         "control": 77,
         "stamina": 74,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "",
+            "level": null
+        }, {
+            "id": "",
+            "level": 6
+        }],
+        "pitchingForm": "Overhead 50",
+        "battingForm": "General 67",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Queen Cocoro"
     }, {
         "id": "R.Verrese-477",
         "name": "Roseo Verrese",
@@ -8746,9 +8956,12 @@
         "name": "Yuuto Saiga",
         "nameAbbr": "Saiga",
         "pfpFileName": "pfp_Saiga.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "5",
         "positions": ["3B", "1B"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "3B": 60,
+            "1B": 42
+        },
         "throwingHandedness": "R",
         "battingHandedness": "L",
         "starPoints": 390,
@@ -8764,11 +8977,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "–––––",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Saiga"
     }, {
         "id": "Saigoh-383",
         "name": "Juzo Saigoh",
@@ -9662,9 +9875,11 @@
         "name": "Fukiko Shirase",
         "nameAbbr": "Shirase",
         "pfpFileName": "pfp_Shirase.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "1",
         "positions": ["SP", "MR", "CP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 65
+        },
         "throwingHandedness": "R",
         "battingHandedness": "S",
         "starPoints": 293,
@@ -9679,12 +9894,24 @@
         "pitchingVelo": 130,
         "control": 60,
         "stamina": 80,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "EP",
+            "level": null
+        }, {
+            "id": "",
+            "level": 2
+        }, {
+            "id": "",
+            "level": 2
+        }, {
+            "id": "CIR",
+            "level": 1
+        }],
+        "pitchingForm": "Three-Quarters 15",
+        "battingForm": "Standard 2",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Shirase"
     }, {
         "id": "Shiroi-305",
         "name": "Hakusai Shiroi",
@@ -10537,9 +10764,11 @@
         "name": "Hayate Tameguchi",
         "nameAbbr": "Tameguchi",
         "pfpFileName": "pfp_Tameguchi.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "6",
         "positions": ["OF"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "OF": 72
+        },
         "throwingHandedness": "L",
         "battingHandedness": "L",
         "starPoints": 331,
@@ -10555,11 +10784,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "–––––",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Tameguchi"
     }, {
         "id": "Tamura-317",
         "name": "Tamura",
@@ -11038,9 +11267,12 @@
         "name": "Kojiro Tojo",
         "nameAbbr": "Tojo",
         "pfpFileName": "pfp_Tojo.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "3",
         "positions": ["3B", "1B"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "3B": 70,
+            "1B": 49
+        },
         "throwingHandedness": "R",
         "battingHandedness": "L",
         "starPoints": 412,
@@ -11056,11 +11288,11 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "pitchingForm": "–––––",
+        "battingForm": "General 14",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Tojo"
     }, {
         "id": "Toy-615",
         "name": "Tetsuo Toy",
@@ -11141,9 +11373,11 @@
         "name": "Minoru Tsuchinaka",
         "nameAbbr": "Tsuchinaka",
         "pfpFileName": "pfp_Tsuchinaka.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "1",
         "positions": ["SP", "MR", "CP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 60
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 318,
@@ -11158,12 +11392,21 @@
         "pitchingVelo": 135,
         "control": 60,
         "stamina": 57,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "",
+            "level": 5
+        }, {
+            "id": "CH",
+            "level": 3
+        }, {
+            "id": "CB",
+            "level": 3
+        }],
+        "pitchingForm": "Three-Quarters 15",
+        "battingForm": "General 25",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Tsuchinaka"
     }, {
         "id": "Tsukumo-314",
         "name": "Sora Tsukumo",
@@ -11709,9 +11952,11 @@
         "name": "Yuka Yumeshiro",
         "nameAbbr": "Y.Yumeshiro",
         "pfpFileName": "pfp_YYumeshiro.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "1",
         "positions": ["SP", "MR", "CP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 81
+        },
         "throwingHandedness": "L",
         "battingHandedness": "R",
         "starPoints": 356,
@@ -11726,12 +11971,21 @@
         "pitchingVelo": 110,
         "control": 87,
         "stamina": 65,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "",
+            "level": 7
+        }, {
+            "id": "CH",
+            "level": 3
+        }, {
+            "id": "SL",
+            "level": 2
+        }],
+        "pitchingForm": "Sidearm 8",
+        "battingForm": "General 26",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Yumeshiro"
     }, {
         "id": "Yabai-334",
         "name": "Moeo Yabai",
@@ -12089,9 +12343,12 @@
         "name": "YakyuMask",
         "nameAbbr": "YakyuMask",
         "pfpFileName": "pfp_YakyuMask.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "1",
         "positions": ["SP", "MR", "CP", "C"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 75,
+            "C": 75
+        },
         "throwingHandedness": "R",
         "battingHandedness": "L",
         "starPoints": 743,
@@ -12106,12 +12363,21 @@
         "pitchingVelo": 155,
         "control": 88,
         "stamina": 100,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "SL",
+            "level": 6
+        }, {
+            "id": "FRK",
+            "level": 4
+        }, {
+            "id": "SNK",
+            "level": 4
+        }],
+        "pitchingForm": "Overhead 60",
+        "battingForm": "General 117",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "YakyuMask"
     }, {
         "id": "Yamaguchi-336",
         "name": "Ken Yamaguchi",
@@ -12281,9 +12547,11 @@
         "name": "Kaede Yukino",
         "nameAbbr": "Yukino",
         "pfpFileName": "pfp_Yukino.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "14",
         "positions": ["SP", "MR"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 68
+        },
         "throwingHandedness": "L",
         "battingHandedness": "R",
         "starPoints": 295,
@@ -12298,12 +12566,24 @@
         "pitchingVelo": 135,
         "control": 67,
         "stamina": 69,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "FRK",
+            "level": 3
+        }, {
+            "id": "SCR",
+            "level": 2
+        }, {
+            "id": "CB",
+            "level": 2
+        }, {
+            "id": "SHU",
+            "level": 1
+        }],
+        "pitchingForm": "Overhead 13",
+        "battingForm": "–––––",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Yukino"
     }, {
         "id": "Zansu-425",
         "name": "Zansu",
@@ -12393,9 +12673,11 @@
         "name": "Kaoru Zento",
         "nameAbbr": "Zento",
         "pfpFileName": "pfp_Zento.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "1",
         "positions": ["SP", "MR", "CP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 40
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 279,
@@ -12410,12 +12692,21 @@
         "pitchingVelo": 151,
         "control": 45,
         "stamina": 70,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
+        "breakingBalls": [{
+            "id": "CH",
+            "level": 4
+        }, {
+            "id": "HSL",
+            "level": 1
+        }, {
+            "id": "HSHU",
+            "level": 1
+        }],
+        "pitchingForm": "Overhead 1",
+        "battingForm": "General 25",
         "traits": [],
         "abilities": [],
-        "uniformName": null
+        "uniformName": "Zento"
     }, {
         "id": "Zenzai-341",
         "name": "Zenzai",
