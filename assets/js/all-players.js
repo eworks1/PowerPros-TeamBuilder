@@ -29,6 +29,7 @@ function allPlayers() {
  * @prop {string} id
  * @prop {string} name
  * @prop {string} nameAbbr
+ * @prop {string} pfpFileName
  * @prop {string} jerseyNum
  * @prop {Position[]} positions
  * @prop {Object.<Position, number>} allFieldingRatings
