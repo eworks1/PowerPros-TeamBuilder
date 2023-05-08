@@ -449,8 +449,21 @@
         }],
         "pitchingForm": "Overhead 33",
         "battingForm": "General 93",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "w/ RISP": "B",
+            "Poise": "B",
+            "Heater": "A",
+            "Agile": "F",
+            "Recovery": "C",
+            "Clutch": "B",
+            "Stealing": "E",
+            "Runner": "F"
+        },
+        "abilities": {
+            "pitcher": ["Battler", "Dr. K", "vs Slugger", "Downplay"],
+            "fielder": ["Morale", "Pull Hit", "Rally", "Easy Out", "Grounder"],
+            "positionAssignment": ["Star"]
+        },
         "uniformName": "Alan"
     }, {
         "id": "Alex-385",
@@ -557,8 +570,17 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "Standard 2",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Clutch": "A",
+            "Runner": "B",
+            "Throwing": "C",
+            "Recovery": "C"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Builder"],
+            "positionAssignment": ["Aggrssiv Run"]
+        },
         "uniformName": "Amane"
     }, {
         "id": "Aoba-336",
@@ -810,8 +832,14 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 25",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Throwing": "B"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Blocker", "Clutch", "Low Hit", "Refined"],
+            "positionAssignment": []
+        },
         "uniformName": "Arimura"
     }, {
         "id": "Atsumori-485",
@@ -1201,8 +1229,16 @@
         }],
         "pitchingForm": "Overhead 1",
         "battingForm": "General 25",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Heater": "E",
+            "Agile": "B",
+            "Recovery": "C"
+        },
+        "abilities": {
+            "pitcher": ["Gripper", "Toolkit"],
+            "fielder": ["Clutch", "Survivor"],
+            "positionAssignment": ["Star"]
+        },
         "uniformName": "Biishiki"
     }, {
         "id": "Black-314",
@@ -1281,8 +1317,14 @@
         }],
         "pitchingForm": "Overhead 37",
         "battingForm": "General 50",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Recovery": "C"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": [],
+            "positionAssignment": []
+        },
         "uniformName": "Bucho"
     }, {
         "id": "Charai-282",
@@ -1677,8 +1719,16 @@
         }],
         "pitchingForm": "Three-Quarters 15",
         "battingForm": "General 25",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "w/ RISP": "F",
+            "Poise": "F",
+            "Recovery": "C"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": [],
+            "positionAssignment": []
+        },
         "uniformName": "Daito"
     }, {
         "id": "DJB-78-367",
@@ -1710,8 +1760,15 @@
         }],
         "pitchingForm": "Overhead 80",
         "battingForm": "General 51",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Recovery": "C",
+            "Throwing": "C"
+        },
+        "abilities": {
+            "pitcher": ["Timer", "Bluffer"],
+            "fielder": [],
+            "positionAssignment": ["Pace"]
+        },
         "uniformName": "DJB"
     }, {
         "id": "DJB-K-391",
@@ -1740,8 +1797,14 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 25",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Throwing": "F"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Laser", "Slugger", "Fanned"],
+            "positionAssignment": []
+        },
         "uniformName": "DJBK"
     }, {
         "id": "Doe-559",
@@ -2375,8 +2438,16 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 34",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Clutch": "B",
+            "Stealing": "B",
+            "Throwing": "F"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Pull Hit"],
+            "positionAssignment": ["Aggrssiv Fld", "Slugger (PA)"]
+        },
         "uniformName": "Garcia"
     }, {
         "id": "Go-535",
@@ -2649,8 +2720,16 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 60",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Stealing": "F",
+            "Runner": "F",
+            "Throwing": "F"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Eager", "Squibber", "Blunder", "Easy Out"],
+            "positionAssignment": ["Aggrssiv Stl", "Slugger (PA)"]
+        },
         "uniformName": "Haizuka"
     }, {
         "id": "Hakata-263",
@@ -3086,8 +3165,12 @@
         }],
         "pitchingForm": "Three-Quarters 1",
         "battingForm": "General 25",
-        "traits": [],
-        "abilities": [],
+        "traits": {},
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Insider"],
+            "positionAssignment": ["Stamina Push"]
+        },
         "uniformName": "Hibino"
     }, {
         "id": "Hidou-304",
@@ -3534,8 +3617,14 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 27",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Throwing": "C"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Clinical", "Hot Bat", "Menace", "Slugger", "Survivor"],
+            "positionAssignment": []
+        },
         "uniformName": "Ichijo"
     }, {
         "id": "Ichinose-418",
@@ -3942,8 +4031,17 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 25",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Clutch": "F",
+            "vs LHP": "B",
+            "Grit": "B",
+            "Throwing": "B"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Blunder"],
+            "positionAssignment": []
+        },
         "uniformName": "Ishigami"
     }, {
         "id": "Ishino-179",
@@ -4536,8 +4634,12 @@
         }],
         "pitchingForm": "Three-Quarters 15",
         "battingForm": "General 79",
-        "traits": [],
-        "abilities": [],
+        "traits": {},
+        "abilities": {
+            "pitcher": ["Chill"],
+            "fielder": ["Setter"],
+            "positionAssignment": []
+        },
         "uniformName": "Kai"
     }, {
         "id": "Kaji-443",
@@ -4615,8 +4717,12 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "–––––",
-        "traits": [],
-        "abilities": [],
+        "traits": {},
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Clinical", "Low Hit", "Push Hit"],
+            "positionAssignment": []
+        },
         "uniformName": "Kamakari"
     }, {
         "id": "Kamase-234",
@@ -4690,8 +4796,16 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 48",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Clutch": "B",
+            "Catcher": "B",
+            "Throwing": "B"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Slugger", "Good Eye"],
+            "positionAssignment": []
+        },
         "uniformName": "Kaminari"
     }, {
         "id": "Kamitaka-388",
@@ -4845,8 +4959,17 @@
         }],
         "pitchingForm": "Overhead 15",
         "battingForm": "–––––",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Poise": "A",
+            "Heater": "B",
+            "Recovery": "C",
+            "Throwing": "C"
+        },
+        "abilities": {
+            "pitcher": ["Reflexes", "Downplay", "Hot Head"],
+            "fielder": [],
+            "positionAssignment": ["Auto"]
+        },
         "uniformName": "Karasuma"
     }, {
         "id": "Karuizawa-261",
@@ -5266,8 +5389,15 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 76",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Stealing": "B",
+            "Runner": "B"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Push Hit", "Refined", "Setter"],
+            "positionAssignment": []
+        },
         "uniformName": "Kirigane"
     }, {
         "id": "Kiriki-294",
@@ -5335,8 +5465,14 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 78",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Stealing": "A"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Clinical", "Good Eye", "Level-Headed"],
+            "positionAssignment": []
+        },
         "uniformName": "Kirisaki"
     }, {
         "id": "Kiyomoto-515",
@@ -5403,8 +5539,15 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "–––––",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Clutch": "B",
+            "Catcher": "B"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Blocker"],
+            "positionAssignment": []
+        },
         "uniformName": "Kizaki"
     }, {
         "id": "Kodaira-318",
@@ -5631,8 +5774,14 @@
         }],
         "pitchingForm": "Overhead 38",
         "battingForm": "General 56",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Clutch": "A"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Outsider", "Slugger"],
+            "positionAssignment": ["Slugger (PA)", "Star"]
+        },
         "uniformName": "Kokuju"
     }, {
         "id": "Kujo-420",
@@ -5878,8 +6027,12 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "–––––",
-        "traits": [],
-        "abilities": [],
+        "traits": {},
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Clinical", "Glover", "Jester", "Sprayer", "Good Eye"],
+            "positionAssignment": ["Cautious Stl"]
+        },
         "uniformName": "Kuroe"
     }, {
         "id": "Kusano-332",
@@ -6393,8 +6546,15 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "–––––",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Catcher": "B",
+            "Throwing": "B"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Victor"],
+            "positionAssignment": []
+        },
         "uniformName": "Minazuki"
     }, {
         "id": "Minmin-292",
@@ -6508,8 +6668,15 @@
         }],
         "pitchingForm": "Three-Quarters 15",
         "battingForm": "General 25",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Agile": "B",
+            "Recovery": "C"
+        },
+        "abilities": {
+            "pitcher": ["Guts", "Low Ball", "Trusty"],
+            "fielder": ["Clutch", "Victor"],
+            "positionAssignment": ["Pace"]
+        },
         "uniformName": "Mitamura"
     }, {
         "id": "Mitsuno-284",
@@ -6781,8 +6948,16 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 28",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Clutch": "B",
+            "Runner": "B",
+            "Throwing": "C"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Slam Fan", "Squibber", "Chaser", "Mood Swinger"],
+            "positionAssignment": []
+        },
         "uniformName": "Morikawa"
     }, {
         "id": "Moroi-291",
@@ -7167,8 +7342,16 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 25",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Clutch": "A",
+            "Stealing": "B",
+            "Throwing": "E"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Clinical", "Push Hit"],
+            "positionAssignment": []
+        },
         "uniformName": "Nakanoshima"
     }, {
         "id": "Namaki-264",
@@ -7549,8 +7732,12 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 64",
-        "traits": [],
-        "abilities": [],
+        "traits": {},
+        "abilities": {
+            "pitcher": [],
+            "fielder": [],
+            "positionAssignment": []
+        },
         "uniformName": "Nisepuro"
     }, {
         "id": "Nomi-287",
@@ -7693,8 +7880,15 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "General 91",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Catcher": "C",
+            "Throwing": "C"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Clinical", "Menace", "Slugger", "Good Eye"],
+            "positionAssignment": []
+        },
         "uniformName": "Ochiai"
     }, {
         "id": "Octavia-414",
@@ -8470,8 +8664,16 @@
         }],
         "pitchingForm": "Overhead 50",
         "battingForm": "General 67",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Poise": "A",
+            "Recovery": "C",
+            "Throwing": "B"
+        },
+        "abilities": {
+            "pitcher": ["Lucky", "Toolkit", "Hot Head"],
+            "fielder": ["Clinical", "Morale", "Rally"],
+            "positionAssignment": []
+        },
         "uniformName": "Queen Cocoro"
     }, {
         "id": "R.Verrese-477",
@@ -8996,8 +9198,14 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "–––––",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Throwing": "C"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Hot Bat", "Slugger", "Sprayer", "Good Eye"],
+            "positionAssignment": []
+        },
         "uniformName": "Saiga"
     }, {
         "id": "Saigoh-383",
@@ -9926,8 +10134,15 @@
         }],
         "pitchingForm": "Three-Quarters 15",
         "battingForm": "Standard 2",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Heater": "A",
+            "Clutch": "B"
+        },
+        "abilities": {
+            "pitcher": ["Gripper", "Reflexes", "Toolkit", "Trusty"],
+            "fielder": ["Clutch", "Good Eye"],
+            "positionAssignment": ["Pace", "Slugger (PA)"]
+        },
         "uniformName": "Shirase"
     }, {
         "id": "Shiroi-305",
@@ -10803,8 +11018,16 @@
         "breakingBalls": [],
         "pitchingForm": "–––––",
         "battingForm": "–––––",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Clutch": "F",
+            "Stealing": "C",
+            "Runner": "S"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Diver", "Squibber"],
+            "positionAssignment": []
+        },
         "uniformName": "Tameguchi"
     }, {
         "id": "Tamura-317",
@@ -11425,8 +11648,18 @@
         }],
         "pitchingForm": "Three-Quarters 15",
         "battingForm": "General 25",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Poise": "E",
+            "Grit": "C",
+            "Agile": "B",
+            "Recovery": "C",
+            "Throwing": "C"
+        },
+        "abilities": {
+            "pitcher": ["Carver", "Guts", "Pickoff", "Reflexes", "Hot Head", "Moody"],
+            "fielder": ["Rally", "Blunder"],
+            "positionAssignment": ["Pace", "Selfless"]
+        },
         "uniformName": "Tsuchinaka"
     }, {
         "id": "Tsukumo-314",
@@ -12004,8 +12237,16 @@
         }],
         "pitchingForm": "Sidearm 8",
         "battingForm": "General 26",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "w/ RISP": "B",
+            "Poise": "B",
+            "Recovery": "C"
+        },
+        "abilities": {
+            "pitcher": ["Cutter", "Toolkit", "Bluffer", "Chill"],
+            "fielder": ["Charger"],
+            "positionAssignment": ["Aggrssiv Fld"]
+        },
         "uniformName": "Yumeshiro"
     }, {
         "id": "Yabai-334",
@@ -12396,8 +12637,16 @@
         }],
         "pitchingForm": "Overhead 60",
         "battingForm": "General 117",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "w/ RISP": "B",
+            "Recovery": "C",
+            "Catcher": "B"
+        },
+        "abilities": {
+            "pitcher": ["Handler", "Meatball"],
+            "fielder": ["Clinical", "Rally", "Slugger"],
+            "positionAssignment": []
+        },
         "uniformName": "YakyuMask"
     }, {
         "id": "Yamaguchi-336",
@@ -12602,8 +12851,14 @@
         }],
         "pitchingForm": "Overhead 13",
         "battingForm": "–––––",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "Throwing": "C"
+        },
+        "abilities": {
+            "pitcher": ["Reflexes", "Toolkit", "Trusty", "Bluffer"],
+            "fielder": [],
+            "positionAssignment": []
+        },
         "uniformName": "Yukino"
     }, {
         "id": "Zansu-425",
@@ -12725,8 +12980,16 @@
         }],
         "pitchingForm": "Overhead 1",
         "battingForm": "General 25",
-        "traits": [],
-        "abilities": [],
+        "traits": {
+            "vs LHB": "F",
+            "Heater": "B",
+            "Stealing": "B"
+        },
+        "abilities": {
+            "pitcher": ["Hot Head"],
+            "fielder": ["Trucker"],
+            "positionAssignment": []
+        },
         "uniformName": "Zento"
     }, {
         "id": "Zenzai-341",
