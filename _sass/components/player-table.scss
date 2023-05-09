@@ -13,10 +13,7 @@
 .player-table .player-cell-wrapper {
     font-size: 18px;
 
-    display: grid;
-    grid-template-columns: 1fr auto;
-    grid-template-rows: auto;
-    // align-items: center;
+    display: flex;
     gap: 2px;
 }
 
