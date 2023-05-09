@@ -19,12 +19,12 @@ body {
     grid-template-columns: 1fr 1fr auto;
     grid-template-rows: auto auto auto auto auto auto;
     grid-template-areas:
-        "teamname positions switcher"
-        "teamlist availableplayers detailview"
-        "teamlist availableplayers instructions"
-        "pointcount pointcount instructions"
-        ".          .          instructions"
-        ".          .          instructions";
+        "teamname   positions           switcher"
+        "teamlist   availableplayers    detailview"
+        "teamlist   availableplayers    instructions"
+        "pointcount pointcount          instructions"
+        "disclaimer disclaimer          instructions"
+        ".          .                   import";
     place-content: stretch;
     gap: 4px;
 
