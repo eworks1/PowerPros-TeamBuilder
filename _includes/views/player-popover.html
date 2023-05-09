@@ -2,7 +2,7 @@
     <div id="popover-tabbar">
         {%- assign tabs = site.data.strings.popover_tabs -%}
         {%- for t in tabs -%}
-            <span onclick="updateSelectedPopoverTab(event.target, false)" style="background-color: {{ site.data.colors.popover_tabs[t] }};">{{ t }}</span>
+            <span onclick="updateSelectedPopoverTab(event.target)" style="background-color: {{ site.data.colors.popover_tabs[t] }};">{{ t }}</span>
         {%- endfor -%}
     </div>
 
