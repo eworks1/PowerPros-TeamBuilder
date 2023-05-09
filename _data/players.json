@@ -509,7 +509,7 @@
         "id": "Amane-240",
         "name": "Karen Amane",
         "nameAbbr": "Amane",
-        "pfpFileName": "pfp_Kanehara.jpg",
+        "pfpFileName": "Pfp_Amane.jpg",
         "jerseyNum": "7",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -629,7 +629,7 @@
         "id": "Arakata-356",
         "name": "Kirei Arakata",
         "nameAbbr": "Arakata",
-        "pfpFileName": "pfp_Otakara.jpg",
+        "pfpFileName": "pfp_Arakata.jpg",
         "jerseyNum": "7",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -665,7 +665,7 @@
         "id": "Arashimaru-242",
         "name": "Shiro Arashimaru",
         "nameAbbr": "Arashimaru",
-        "pfpFileName": "Goggles.jpg",
+        "pfpFileName": "Pfp_Arashimaru_No_Goggles.jpg",
         "jerseyNum": "19",
         "positions": ["SP", "MR", "CP"],
         "allFieldingRatings": {
@@ -713,7 +713,7 @@
         "id": "Arashimaru-363",
         "name": "Shiro Arashimaru",
         "nameAbbr": "Arashimaru",
-        "pfpFileName": "pfp_Arashimaru_No_Goggles.jpg",
+        "pfpFileName": "Goggles.jpg",
         "jerseyNum": "19",
         "positions": ["SP", "MR", "CP"],
         "allFieldingRatings": {
@@ -845,7 +845,7 @@
         "id": "Atsumori-485",
         "name": "Muneatsu Atsumori",
         "nameAbbr": "Atsumori",
-        "pfpFileName": "pfp_Atsumori.jpg",
+        "pfpFileName": "Pfp_Possesed_Atsumori.jpg",
         "jerseyNum": "1",
         "positions": ["SP", "OF"],
         "allFieldingRatings": {
@@ -886,7 +886,7 @@
         "id": "Atsumori-374",
         "name": "Muneatsu Atsumori",
         "nameAbbr": "Atsumori",
-        "pfpFileName": "pfp_Possesed_Atsumori.jpg",
+        "pfpFileName": "pfp_Atsumori.jpg",
         "jerseyNum": "1",
         "positions": ["SP", "OF"],
         "allFieldingRatings": {
@@ -1242,9 +1242,9 @@
         "uniformName": "Biishiki"
     }, {
         "id": "Black-314",
-        "name": "Mao Serizawa (Black)",
+        "name": "Black (Mao Serizawa)",
         "nameAbbr": "Black",
-        "pfpFileName": "pfp_Kagami.jpg",
+        "pfpFileName": "Pfp_BlackSerizawa.jpg",
         "jerseyNum": "7",
         "positions": ["OF", "2B", "SS"],
         "allFieldingRatings": {
@@ -1570,7 +1570,7 @@
         "id": "D.Wang-383",
         "name": "Damai Wang",
         "nameAbbr": "D.Wang",
-        "pfpFileName": "pfp_BlackSerizawa.jpg",
+        "pfpFileName": "pfp_DamnMyWang.jpg",
         "jerseyNum": "8",
         "positions": ["OF", "3B", "SS"],
         "allFieldingRatings": {
@@ -1774,7 +1774,7 @@
         "id": "DJB-K-391",
         "name": "DJB KORIS (DJB-K)",
         "nameAbbr": "DJB-K",
-        "pfpFileName": "pfp_Vanguard.jpg",
+        "pfpFileName": "pfp_DJB-K.jpg",
         "jerseyNum": "7",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -2415,7 +2415,7 @@
         "id": "Garcia-450",
         "name": "Garcia Sera",
         "nameAbbr": "Garcia",
-        "pfpFileName": "pfp_DamnMyWang.jpg",
+        "pfpFileName": "pfp_Garcia.jpg",
         "jerseyNum": "3",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -2935,7 +2935,7 @@
         "id": "Hassyaku-265",
         "name": "Fumiko Hassyaku",
         "nameAbbr": "Hassyaku",
-        "pfpFileName": " pfp_DJB-K.jpg",
+        "pfpFileName": "pfp_Hassyaku.jpg",
         "jerseyNum": "8",
         "positions": ["OF", "1B"],
         "allFieldingRatings": {
@@ -3424,7 +3424,7 @@
         "id": "Horisugi-367",
         "name": "Hitoshi Horisugi",
         "nameAbbr": "Horisugi",
-        "pfpFileName": "pfp_Shibuya.jpg",
+        "pfpFileName": "pfp_Horisugi.jpg",
         "jerseyNum": "21",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -4437,7 +4437,7 @@
         "id": "K.Morales-384",
         "name": "Kyle Morales",
         "nameAbbr": "K.Morales",
-        "pfpFileName": "pfp_Garcia.jpg",
+        "pfpFileName": "pfp_KyleMorales.jpg",
         "jerseyNum": "7",
         "positions": ["OF", "SS"],
         "allFieldingRatings": {
@@ -4476,7 +4476,7 @@
         "id": "Kagami-404",
         "name": "Kuuya Kagami",
         "nameAbbr": "Kagami",
-        "pfpFileName": "pfp_Moroi.jpg",
+        "pfpFileName": "pfp_Kagami.jpg",
         "jerseyNum": "7",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -4890,7 +4890,7 @@
         "id": "Kanehara-372",
         "name": "Izuru Kanehara",
         "nameAbbr": "Kanehara",
-        "pfpFileName": "pfp_Horisugi.jpg",
+        "pfpFileName": "pfp_Kanehara.jpg",
         "jerseyNum": "7",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -6272,7 +6272,7 @@
         "id": "M.Vermillion-292",
         "name": "Mickey Vermillion",
         "nameAbbr": "M.Vermillion",
-        "pfpFileName": "pfp_KyleMorales.jpg",
+        "pfpFileName": "pfp_Vermillion.jpg",
         "jerseyNum": "07",
         "positions": ["OF", "SS"],
         "allFieldingRatings": {
@@ -6963,7 +6963,7 @@
         "id": "Moroi-291",
         "name": "Kiyokazu Moroi",
         "nameAbbr": "Moroi",
-        "pfpFileName": "pfp_Arakata.jpg",
+        "pfpFileName": "pfp_Moroi.jpg",
         "jerseyNum": "9",
         "positions": ["OF", "1B", "2B"],
         "allFieldingRatings": {
@@ -7052,7 +7052,7 @@
         "id": "Murasame-398",
         "name": "Murasame",
         "nameAbbr": "Murasame",
-        "pfpFileName": "pfp_Vermillion.jpg",
+        "pfpFileName": "pfp_Murasame.jpg",
         "jerseyNum": "8",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -7242,7 +7242,7 @@
         "id": "Naito-386",
         "name": "Meiru Naito",
         "nameAbbr": "Naito",
-        "pfpFileName": "pfp_Naito.jpg",
+        "pfpFileName": "pfp_NaitoArmor.jpg",
         "jerseyNum": "3",
         "positions": ["1B", "C", "OF"],
         "allFieldingRatings": {
@@ -7395,7 +7395,7 @@
         "id": "Nanai-337",
         "name": "Aleft Nanai",
         "nameAbbr": "Nanai",
-        "pfpFileName": "pfp_Yabe.jpg",
+        "pfpFileName": "pfp_Nanai.jpg",
         "jerseyNum": "7",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -7553,7 +7553,7 @@
         "id": "Niijima-262",
         "name": "Saki Niijima",
         "nameAbbr": "Niijima",
-        "pfpFileName": "pfp_Niijima.jpg",
+        "pfpFileName": "pfp_NiijimaYoung.jpg",
         "jerseyNum": "2",
         "positions": ["C", "OF"],
         "allFieldingRatings": {
@@ -8198,7 +8198,7 @@
         "id": "Onishi-432",
         "name": "Harrison Onishi",
         "nameAbbr": "Onishi",
-        "pfpFileName": "pfp_OnishiGoggles.jpg",
+        "pfpFileName": "pfp_Onishi.jpg",
         "jerseyNum": "1",
         "positions": ["SP", "MR", "CP"],
         "allFieldingRatings": {
@@ -8246,7 +8246,7 @@
         "id": "Otakara-287",
         "name": "Kintaro Otakara",
         "nameAbbr": "Otakara",
-        "pfpFileName": "pfp_Takeda.jpg",
+        "pfpFileName": "pfp_Otakara.jpg",
         "jerseyNum": "3",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -9060,7 +9060,7 @@
         "id": "S.Mitsumori-264",
         "name": "Sakyo Mitsumori",
         "nameAbbr": "S.Mitsumori",
-        "pfpFileName": "pfp_Murasame.jpg",
+        "pfpFileName": "pfp_SMitsumori.jpg",
         "jerseyNum": "7",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -9707,7 +9707,7 @@
         "id": "Setine-345",
         "name": "Setine",
         "nameAbbr": "Setine",
-        "pfpFileName": "pfp_SMitsumori.jpg",
+        "pfpFileName": "pfp_Setine.jpg",
         "jerseyNum": "9",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -9816,7 +9816,7 @@
         "id": "Shibuya-395",
         "name": "Hideki Shibuya",
         "nameAbbr": "Shibuya",
-        "pfpFileName": "pfp_Tameguchi.jpg",
+        "pfpFileName": "pfp_Shibuya.jpg",
         "jerseyNum": "27",
         "positions": ["OF", "1B"],
         "allFieldingRatings": {
@@ -10148,7 +10148,7 @@
         "id": "Shiroi-305",
         "name": "Hakusai Shiroi",
         "nameAbbr": "Shiroi",
-        "pfpFileName": "pfp_Hassyaku.jpg",
+        "pfpFileName": "pfp_Shiroi.jpg",
         "jerseyNum": "7",
         "positions": ["OF", "C"],
         "allFieldingRatings": {
@@ -10803,7 +10803,7 @@
         "id": "Takeda-353",
         "name": "Keiji Takeda",
         "nameAbbr": "Takeda",
-        "pfpFileName": "pfp_Tatsui.jpg",
+        "pfpFileName": "pfp_Takeda.jpg",
         "jerseyNum": "8",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -10959,7 +10959,7 @@
         "id": "Tamasaburo-354",
         "name": "Tamasaburo",
         "nameAbbr": "Tamasaburo",
-        "pfpFileName": "pfp_Setine.jpg",
+        "pfpFileName": "pfp_Tamasaburo.jpg",
         "jerseyNum": "7",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -10995,7 +10995,7 @@
         "id": "Tameguchi-331",
         "name": "Hayate Tameguchi",
         "nameAbbr": "Tameguchi",
-        "pfpFileName": "pfp_Todoroki.jpg",
+        "pfpFileName": "pfp_Tameguchi.jpg",
         "jerseyNum": "6",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -11282,7 +11282,7 @@
         "id": "Tatsui-288",
         "name": "Kazuya Tatsui",
         "nameAbbr": "Tatsui",
-        "pfpFileName": "pfp_Amane.jpg",
+        "pfpFileName": "pfp_Tatsui.jpg",
         "jerseyNum": "7",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -11319,7 +11319,7 @@
         "id": "Tennoji-428",
         "name": "Tennoji",
         "nameAbbr": "Tennoji",
-        "pfpFileName": "pfp_Tamasaburo.jpg",
+        "pfpFileName": "pfp_Tennoji.jpg",
         "jerseyNum": "9",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -11470,7 +11470,7 @@
         "id": "Todoroki-266",
         "name": "Haruka Todoroki",
         "nameAbbr": "Todoroki",
-        "pfpFileName": "pfp_Shiroi.jpg",
+        "pfpFileName": "pfp_Todoroki.jpg",
         "jerseyNum": "1",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -11746,7 +11746,7 @@
         "id": "U.Mitsumori-264",
         "name": "Ukyo Mitsumori",
         "nameAbbr": "U.Mitsumori",
-        "pfpFileName": "pfp_Tennoji.jpg",
+        "pfpFileName": "pfp_UMitsumori.jpg",
         "jerseyNum": "9",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -12017,7 +12017,7 @@
         "id": "V.Coldberg-454",
         "name": "Victor Coldberg",
         "nameAbbr": "V.Coldberg",
-        "pfpFileName": "pfp_UMitsumori.jpg",
+        "pfpFileName": "pfp_Victor.jpg",
         "jerseyNum": "1",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -12054,7 +12054,7 @@
         "id": "Vanguard-414",
         "name": "Bowman Vanguard",
         "nameAbbr": "Vanguard",
-        "pfpFileName": "pfp_Yashima.jpg",
+        "pfpFileName": "pfp_Vanguard.jpg",
         "jerseyNum": "3",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -12294,7 +12294,7 @@
         "id": "Yabe-273",
         "name": "Akio Yabe",
         "nameAbbr": "Yabe",
-        "pfpFileName": "pfp_Yabeta.jpg",
+        "pfpFileName": "pfp_Yabe.jpg",
         "jerseyNum": "99",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -12372,7 +12372,7 @@
         "id": "Yabeta-276",
         "name": "Akiko Yabeta",
         "nameAbbr": "Yabeta",
-        "pfpFileName": "pfp_Victor.jpg",
+        "pfpFileName": "pfp_Yabeta.jpg",
         "jerseyNum": "8",
         "positions": ["OF"],
         "allFieldingRatings": {
@@ -12743,7 +12743,7 @@
         "id": "Yashima-332",
         "name": "Ataru Yashima",
         "nameAbbr": "Yashima",
-        "pfpFileName": "pfp_Nanai.jpg",
+        "pfpFileName": "pfp_Yashima.jpg",
         "jerseyNum": "8",
         "positions": ["OF"],
         "allFieldingRatings": {
