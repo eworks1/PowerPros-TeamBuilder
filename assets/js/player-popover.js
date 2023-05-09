@@ -347,8 +347,12 @@ function playerDoubleClicked(player) {
                     if (key == 'fielder' && traitAbbr == 'Catcher') {
                         if (player.positions.includes('C')) {
                             cell.classList.remove('blank');
+                            // reset hover text
+                            cell.title = all_abilities.traits[key]?.[traitAbbr].description;
                         } else {
                             cell.classList.add('blank');
+                            // clear hover text
+                            cell.title = '';
                         }
                     }
 
