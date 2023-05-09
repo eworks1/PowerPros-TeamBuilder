@@ -46,7 +46,10 @@
 }
 
 .detail-trj-num {
+    flex: 1;
+
     font-weight: 500;
+    text-align: right;
 }
 
 #detail-box .info-box .dash-content {
