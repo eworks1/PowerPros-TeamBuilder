@@ -11,7 +11,15 @@ function hidePopover(event) {
  * @param {HTMLElement} tabElement 
  */
 function updateSelectedPopoverTab(tabElement) {
-    // If the tab selected was already selected, do nothing.
+    // Update viewable content
+    let index = Array.prototype.slice.call(tabElement.parentElement.children).indexOf(tabElement);
+    if (index == 0) {
+        index = popoverIsPitcher ? 1 : 2;
+    }
+
+    tabElement.parentElement.setAttribute('current-tab', popoverTabIDs[index]);
+
+    // If the tab selected was already selected, don't continue (no need to update selected class)
     if (tabElement.classList.contains('selected')) { return; }
 
     // Find selected element and remove the .selected class
@@ -28,14 +36,6 @@ function updateSelectedPopoverTab(tabElement) {
     if (popoverBody) {
         popoverBody.style.borderColor = tabElement.style.backgroundColor;
     }
-
-    // Update viewable content
-    let index = Array.prototype.slice.call(tabElement.parentElement.children).indexOf(tabElement);
-    if (index == 0) {
-        index = popoverIsPitcher ? 1 : 2;
-    }
-
-    tabElement.parentElement.setAttribute('current-tab', popoverTabIDs[index]);
 }
 
 /** Defines whether the first tab should show pitcher or batter data */
