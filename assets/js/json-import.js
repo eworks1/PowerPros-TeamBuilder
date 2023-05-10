@@ -35,11 +35,11 @@ async function importJson(event) {
             console.info(newTeam);
             
             // TODO: actual process 
-            // clear current team (maybe have a warning)
+            // Clear current team (maybe have a warning)
             const existingTeam = getAllPlayersOnTeam();
             existingTeam.forEach(p => removePlayer(p));
 
-            // add each player of imported team
+            // Add each player of imported team
             const allNewPlayers = [
                 ...newTeam.pitchers,
                 ...newTeam.fielders,
