@@ -25,7 +25,12 @@ async function copyJson(event) {
  */
 function importJson(event) {
     const jsonText = jsonBox.value;
-    /** @type {{pitchers: Player[], fielders: Player[], backups: Player[]}} */
-    const json = JSON.parse(jsonText);
+    
+    try {
+        /** @type {{pitchers: Player[], fielders: Player[], backups: Player[]}} */
+        const json = JSON.parse(jsonText);
+    } catch (error) {
+        console.error(error);
+    }
     console.info(json);
 }
