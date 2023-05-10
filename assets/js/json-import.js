@@ -58,7 +58,7 @@ async function changeButtonTextOnAction(element, successText, failureText, durat
     } catch (error) {
         element.innerText = failureText;
     } finally {
-        setTimeout(resolve, duration);
+        await new Promise(resolve => setTimeout(resolve, duration));
         element.innerText = originalText;
     }
 }
