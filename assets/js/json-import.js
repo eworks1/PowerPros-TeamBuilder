@@ -9,15 +9,13 @@ function generateJson(event) {
  * @param {Event} event
  */
 async function copyJson(event) {
-    return navigator.clipboard.writeText(jsonBox.value).then(() => {
-        event.target.innerText = 'Copied!';
-        return new Promise(resolve => setTimeout(resolve, 3000));
-    }, () => {
-        event.target.innerText = 'Failed';
-        return new Promise(resolve => setTimeout(resolve, 3000));
-    }).finally(() => {
-        event.target.innerText = 'Copy';
-    });
+    await changeButtonTextOnAction(
+        event.target,
+        'Copied!',
+        'Failed',
+        3000,
+        () => navigator.clipboard.writeText(jsonBox.value)
+    );
 }
 
 /**
@@ -33,5 +31,27 @@ function importJson(event) {
     } catch (error) {
         console.error(error instanceof SyntaxError);
         console.error(error.message);
+    }
+}
+
+/**
+ * @param {HTMLButtonElement} element 
+ * @param {string} successText 
+ * @param {string} failureText 
+ * @param {number} duration 
+ * @param {function(): Promise<void>} action
+ * @returns {Promise<void>}
+ */
+async function changeButtonTextOnAction(element, successText, failureText, duration, action) {
+    const originalText = element.innerText;
+
+    try {
+        await action();
+        element.innerText = successText;
+    } catch (error) {
+        element.innerText = failureText;
+    } finally {
+        setTimeout(resolve, duration);
+        element.innerText = originalText;
     }
 }
