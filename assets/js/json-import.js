@@ -1,7 +1,9 @@
 /** @type {HTMLTextAreaElement} */
 const jsonBox = document.getElementById('json-text-box');
 function generateJson(event) {
-    const teamJSONStr = JSON.stringify(team);
+    const teamTemp = team;
+    teamTemp.name = document.getElementById('team-name').value;
+    const teamJSONStr = JSON.stringify(teamTemp);
     jsonBox.value = teamJSONStr;
 }
 
@@ -30,11 +32,13 @@ async function importJson(event) {
         'Failed',
         3000,
         () => {
-            /** @type {{pitchers: Player[], fielders: Player[], backups: Player[]}} */
+            /** @type {{name: string, pitchers: Player[], fielders: Player[], backups: Player[]}} */
             const newTeam = JSON.parse(jsonText);
             console.info(newTeam);
             
-            // TODO: actual process 
+            // Update team name
+            document.getElementById('team-name').value = newTeam.name;
+
             // Clear current team (maybe have a warning)
             const existingTeam = getAllPlayersOnTeam();
             existingTeam.forEach(p => removePlayer(p));
