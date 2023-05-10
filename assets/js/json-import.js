@@ -19,3 +19,13 @@ async function copyJson(event) {
         event.target.innerText = 'Copy';
     });
 }
+
+/**
+ * @param {Event} event
+ */
+async function importJson(event) {
+    const jsonText = jsonBox.value;
+    /** @type {{pitchers: Player[], fielders: Player[], backups: Player[]}} */
+    const json = JSON.parse(jsonText);
+    console.info(json);
+}
