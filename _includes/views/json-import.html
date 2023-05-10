@@ -9,8 +9,8 @@
     /**
      * @param {Event} event
      */
-    function copyJson(event) {
-        await navigator.clipboard.writeText(jsonBox.value).then(() => {
+    async function copyJson(event) {
+        return navigator.clipboard.writeText(jsonBox.value).then(() => {
             event.target.innerText = 'Copied!';
             return new Promise(resolve => setTimeout(resolve, 3000));
         }, () => {
