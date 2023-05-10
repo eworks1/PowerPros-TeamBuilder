@@ -18,13 +18,12 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr auto;
     // calc is height of player lists MINUS combined height of detailview and gap between detailview and instructions.
-    grid-template-rows: auto 288px calc(500px - (288px + 4px)) 100px;
+    grid-template-rows: auto 500px 100px;
     grid-auto-rows: auto;
     grid-template-areas:
         "teamname   positions           switcher"
-        "teamlist   availableplayers    detailview"
-        "teamlist   availableplayers    instructions"
-        "pointcount pointcount          instructions"
+        "teamlist   availableplayers    detailviewinstructions"
+        "pointcount pointcount          detailviewinstructions"
         "disclaimer disclaimer          import";
     place-content: stretch;
     gap: 4px;

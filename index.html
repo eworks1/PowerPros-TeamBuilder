@@ -126,12 +126,6 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
         {% include controls/detail-switcher.html %}
     </div>
 
-    <!-- Detail Views -->
-    <div id="detail-box" class="group-box" style="grid-area: detailview;">
-        {% assign first_player = all_players | first %}
-        {% include views/detail-view.html player=first_player %}
-    </div>
-
     <!-- Team List -->
     <div id="team-list" class="group-box contains-player-table" style="grid-area: teamlist;">
         <!-- 15 pitchers, 18 fielder starters, 37 backups -->
@@ -159,9 +153,17 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
         {% include components/player-table.html players=all_players table_id="player-pool-table" %}
     </div>
 
-    <!-- Instructions -->
-    <div id="instructions-container" class="group-box" style="grid-area: instructions;">
-        {% include views/instructions.html %}
+    <div style="grid-area: detailviewinstructions;">
+        <!-- Detail Views -->
+        <div id="detail-box" class="group-box">
+            {% assign first_player = all_players | first %}
+            {% include views/detail-view.html player=first_player %}
+        </div>
+
+        <!-- Instructions -->
+        <div id="instructions-container" class="group-box">
+            {% include views/instructions.html %}
+        </div>
     </div>
 
     <!-- Team Player Counts -->
