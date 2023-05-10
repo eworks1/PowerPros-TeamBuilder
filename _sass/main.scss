@@ -120,6 +120,10 @@ body {
 // -- Disclaimer Section
 
 #disclaimer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     grid-area: disclaimer; 
     
     font-family: 'Roboto Condensed', sans-serif;
