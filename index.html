@@ -106,27 +106,33 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
 </head>
 
 <body onload="setUpClickListeners()">
+    <!-- SVG Definitions -->
     {% include letter-rating-defs.html %}
 
     {% assign all_players = site.data.players.players %}
 
+    <!-- Team Name Box -->
     <div id="team-name-box" class="group-box" style="grid-area: teamname;">
         <input id="team-name" type="text" placeholder="Team Name">
     </div>
 
+    <!-- Position Filter Box -->
     <div id="position-filter-box" class="group-box" style="grid-area: positions;">
         {% include controls/position-filter.html %}
     </div>
 
+    <!-- Detail Switcher -->
     <div id="detail-switcher" class="group-box" style="grid-area: switcher;">
         {% include controls/detail-switcher.html %}
     </div>
 
+    <!-- Detail Views -->
     <div id="detail-box" class="group-box" style="grid-area: detailview;">
         {% assign first_player = all_players | first %}
         {% include views/detail-view.html player=first_player %}
     </div>
 
+    <!-- Team List -->
     <div id="team-list" class="group-box contains-player-table" style="grid-area: teamlist;">
         <!-- 15 pitchers, 18 fielder starters, 37 backups -->
         {% assign empty_slots = site.data.players.empty_slots %}
@@ -148,14 +154,17 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
         {% include components/player-table.html players=team_players table_id="team-table" %}
     </div>
 
+    <!-- Available Players List -->
     <div class="group-box contains-player-table" style="grid-area: availableplayers;">
         {% include components/player-table.html players=all_players table_id="player-pool-table" %}
     </div>
 
+    <!-- Instructions -->
     <div id="instructions-container" class="group-box" style="grid-area: instructions;">
         {% include views/instructions.html %}
     </div>
 
+    <!-- Team Player Counts -->
     <div class="group-box" style="grid-area: pointcount; padding: 0px;">
         {% include views/team-counts.html %}
     </div>
