@@ -4,25 +4,4 @@
     <button id="json-copy-btn" onclick="copyJson(event)" title="Click to copy the text in the text box to your clipboard.">Copy</button>
     <button id="json-import-btn" title="Click to import the team from the data in the text box.">Import</button>
 </span>
-<script>
-    const jsonBox = document.getElementById('json-text-box');
-    function generateJson(event) {
-        const teamJSONStr = JSON.stringify(team);
-        jsonBox.value = teamJSONStr;
-    }
-
-    /**
-     * @param {Event} event
-     */
-    async function copyJson(event) {
-        return navigator.clipboard.writeText(jsonBox.value).then(() => {
-            event.target.innerText = 'Copied!';
-            return new Promise(resolve => setTimeout(resolve, 3000));
-        }, () => {
-            event.target.innerText = 'Failed';
-            return new Promise(resolve => setTimeout(resolve, 3000));
-        }).finally(() => {
-            event.target.innerText = 'Copy';
-        });
-    }
-</script>
+<script type="text/javascript" src="{{ 'assets/js/json-import.js' | relative_url }}" ></script>
