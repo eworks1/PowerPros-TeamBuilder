@@ -31,12 +31,21 @@ async function importJson(event) {
         3000,
         () => {
             /** @type {{pitchers: Player[], fielders: Player[], backups: Player[]}} */
-            const json = JSON.parse(jsonText);
-            console.info(json);
+            const newTeam = JSON.parse(jsonText);
+            console.info(newTeam);
             
             // TODO: actual process 
             // clear current team (maybe have a warning)
+            const existingTeam = getAllPlayersOnTeam();
+            existingTeam.forEach(p => removePlayer(p));
+
             // add each player of imported team
+            const allNewPlayers = [
+                ...newTeam.pitchers,
+                ...newTeam.fielders,
+                ...newTeam.backups
+            ];
+            allNewPlayers.forEach(p => addPlayer(p));
         }
     );
 }
