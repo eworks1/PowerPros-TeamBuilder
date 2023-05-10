@@ -14,7 +14,7 @@ async function copyJson(event) {
         'Copied!',
         'Failed',
         3000,
-        () => navigator.clipboard.writeText(jsonBox.value)
+        () => { return navigator.clipboard.writeText(jsonBox.value) }
     );
 }
 
