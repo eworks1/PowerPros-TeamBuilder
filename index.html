@@ -162,12 +162,7 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
 
     <!-- JSON Team Import -->
     <div id="json-import-section" class="group-box" style="grid-area: import;">
-        <textarea style="resize: none; width: 100%; border: 1px solid gray; border-radius: 4px;"></textarea>
-        <span style="cursor: default;">
-            <button title="Click to fill the text box with your current team.">Generate</button>
-            <button title="Click to copy the text in the text box to your clipboard.">Copy</button>
-            <button title="Click to update the active team with the data in the text box.">Submit</button>
-        </span>
+        {% include views/json-import.html %}
     </div>
 
     <!-- Disclaimer Text -->
