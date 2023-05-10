@@ -55,10 +55,12 @@ async function changeButtonTextOnAction(element, successText, failureText, durat
     try {
         await action();
         element.innerText = successText;
+        element.disabled = true;
     } catch (error) {
         element.innerText = failureText;
     } finally {
         await new Promise(resolve => setTimeout(resolve, duration));
         element.innerText = originalText;
+        element.disabled = false;
     }
 }
