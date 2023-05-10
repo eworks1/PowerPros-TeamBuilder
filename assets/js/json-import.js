@@ -29,9 +29,9 @@ function importJson(event) {
     try {
         /** @type {{pitchers: Player[], fielders: Player[], backups: Player[]}} */
         const json = JSON.parse(jsonText);
+        console.info(json);
     } catch (error) {
         console.error(error instanceof SyntaxError);
         console.error(error.message);
     }
-    console.info(json);
 }
