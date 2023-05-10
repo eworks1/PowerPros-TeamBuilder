@@ -1,11 +1,16 @@
 <textarea id="json-text-box" style="resize: none; width: 100%; border: 1px solid gray; border-radius: 4px;"></textarea>
 <span style="cursor: default;">
-    <button id="json-generate-btn" title="Click to fill the text box with your current team.">Generate</button>
+    <button id="json-generate-btn" onclick="generateJson(event)" title="Click to fill the text box with your current team.">Generate</button>
     <button id="json-copy-btn" onclick="copyJson(event)" title="Click to copy the text in the text box to your clipboard.">Copy</button>
     <button id="json-import-btn" title="Click to import the team from the data in the text box.">Import</button>
 </span>
 <script>
     const jsonBox = document.getElementById('json-text-box');
+    function generateJson(event) {
+        const teamJSONStr = JSON.stringify(team);
+        jsonBox.value = teamJSONStr;
+    }
+
     /**
      * @param {Event} event
      */
