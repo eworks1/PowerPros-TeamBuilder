@@ -21,17 +21,24 @@ async function copyJson(event) {
 /**
  * @param {Event} event
  */
-function importJson(event) {
+async function importJson(event) {
     const jsonText = jsonBox.value;
-    
-    try {
-        /** @type {{pitchers: Player[], fielders: Player[], backups: Player[]}} */
-        const json = JSON.parse(jsonText);
-        console.info(json);
-    } catch (error) {
-        console.error(error instanceof SyntaxError);
-        console.error(error.message);
-    }
+
+    await changeButtonTextOnAction(
+        event.target,
+        'Imported!',
+        'Failed',
+        3000,
+        () => {
+            /** @type {{pitchers: Player[], fielders: Player[], backups: Player[]}} */
+            const json = JSON.parse(jsonText);
+            console.info(json);
+            
+            // TODO: actual process 
+            // clear current team (maybe have a warning)
+            // add each player of imported team
+        }
+    );
 }
 
 /**
