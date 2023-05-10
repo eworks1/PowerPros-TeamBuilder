@@ -133,8 +133,12 @@ body {
 
 // to use the variable...
 
-.star-point-count, #counts-top-row, #how-to-header {
+.star-point-count, #counts-top-row {
     background-color: $group-box-border-color;
+}
+
+#how-to-header {
+    color: $group-box-border-color;
 }
 
 .jersey-number {
