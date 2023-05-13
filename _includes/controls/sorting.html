@@ -6,8 +6,7 @@
         if (!sortKey || !poolTable) { return; }
 
         const sortedArr = all_players.toSorted((a, b) => {
-            return 
-            a[sortKey] - b[sortKey];
+            return a[sortKey] - b[sortKey];
         });
 
         for (const child of poolTable.children) {
