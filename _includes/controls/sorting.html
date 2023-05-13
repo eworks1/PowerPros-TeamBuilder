@@ -1,12 +1,13 @@
-<button id="sorting-testing" sort-key="cost" onclick="sortPlayerPool(event)">Sort By Cost</button>
+<button id="sorting-testing" sort-asc="true" sort-key="cost" onclick="sortPlayerPool(event)">Sort By Cost</button>
 <script type="text/javascript">
     function sortPlayerPool(event) {
+        const sortAsc = event.target.getAttribute('sort-asc') === 'true';
         const sortKey = event.target.getAttribute('sort-key');
         const poolTable = document.getElementById('player-pool-table');
-        if (!sortKey || !poolTable) { return; }
+        if (!sortAsc || !sortKey || !poolTable) { return; }
 
         const sortedArr = all_players.toSorted((a, b) => {
-            return a[sortKey] - b[sortKey];
+            return (sortAsc ? 1 : -1) * (a[sortKey] - b[sortKey]);
         });
 
         for (const child of poolTable.children) {
@@ -14,5 +15,7 @@
             const order = sortedArr.findIndex(p => p.id == id);
             child.style.order = order;
         }
+
+        event.target.setAttribute('sort-asc', !sortAsc);
     }
 </script>
