@@ -17,6 +17,8 @@ function positionButtonRightClicked(event, position) {
     if (position != 'All') {
         updateSelectedFilterButton(position, true);
         updatePositionFilter(position, false);
+    } else {
+        positionButtonLeftClicked(event, position);
     }
 }
 
