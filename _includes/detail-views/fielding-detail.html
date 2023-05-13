@@ -25,15 +25,15 @@
 
     <span class="info-box" style="grid-area: trj; gap: 4px;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.TRJ }}" sort-key="trajectory">TRJ</span><span class="detail-trj-num">{{ include.player.trajectory }}</span> {%- include components/trajectory-arrow.html trj=trj -%}</span>
 
-    <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HIT }}">HIT</span>{%- include components/letter-rating.html rating=hit -%}</span>
+    <span class="info-box detail-hit" style="grid-area: hit;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.HIT }}" sort-key="contact">HIT</span>{%- include components/letter-rating.html rating=hit -%}</span>
 
-    <span class="info-box detail-pwr" style="grid-area: pwr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.PWR }}">PWR</span>{%- include components/letter-rating.html rating=pwr -%}</span>
+    <span class="info-box detail-pwr" style="grid-area: pwr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.PWR }}" sort-key="power">PWR</span>{%- include components/letter-rating.html rating=pwr -%}</span>
 
-    <span class="info-box detail-runspd" style="grid-area: runspd;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['RUN SPD'] }}">RUN SPD </span>{%- include components/letter-rating.html rating=runspd -%}</span>
+    <span class="info-box detail-runspd" style="grid-area: runspd;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['RUN SPD'] }}" sort-key="runSpeed">RUN SPD </span>{%- include components/letter-rating.html rating=runspd -%}</span>
 
-    <span class="info-box detail-armstr" style="grid-area: armstr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['ARM STR'] }}">ARM STR</span>{%- include components/letter-rating.html rating=armstr -%}</span>
+    <span class="info-box detail-armstr" style="grid-area: armstr;"><span class="info-label" title="{{ site.data.strings.hover_text.stats['ARM STR'] }}" sort-key="armStrength">ARM STR</span>{%- include components/letter-rating.html rating=armstr -%}</span>
 
-    <span class="info-box detail-catching" style="grid-area: catching;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.Catching }}">Catching</span>{%- include components/letter-rating.html rating=catching -%}</span>
+    <span class="info-box detail-catching" style="grid-area: catching;"><span class="info-label" title="{{ site.data.strings.hover_text.stats.Catching }}" sort-key="catching">Catching</span>{%- include components/letter-rating.html rating=catching -%}</span>
 
     <div id="fielding-detail-positions-box" class="info-box" style="display: grid; grid-area: fieldingbox;">
         <!-- TODO? -->
