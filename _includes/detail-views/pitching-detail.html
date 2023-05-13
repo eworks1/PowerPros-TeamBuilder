@@ -13,9 +13,9 @@
 <div id="pitching-detail" class="hidden-detail-page">
     {%- include components/player-name-box.html id='pitching-detail' fullName=fullName nameAbbr=nameAbbr positions=playerPositions -%}
     
-    <span class="star-point-count" style="grid-area: starpoints;">{{ include.player.starPoints }}</span>
+    <span class="star-point-count" style="grid-area: starpoints;" sort-key="starPoints">{{ include.player.starPoints }}</span>
 
-    <span class="info-box detail-topspeed pitch-speed" style="grid-area: topspeed;" title="{{ include.player.pitchingVelo | times: 0.62137 | round }} mph">{{ include.pitch.pitchingVelo }}</span>
+    <span class="info-box detail-topspeed pitch-speed" style="grid-area: topspeed;" title="{{ include.player.pitchingVelo | times: 0.62137 | round }} mph" sort-key="pitchingVelo">{{ include.pitch.pitchingVelo }}</span>
 
     {%- assign formStr = '–––––' -%}
     {%- if include.player.pitchingForm != '–––––' -%}
@@ -34,9 +34,9 @@
         </span>
     </span>
 
-    <span class="info-box detail-control" style="grid-area: control;"><span class="info-label">CONTROL</span>{%- include components/letter-rating.html rating=control -%}</span>
+    <span class="info-box detail-control" style="grid-area: control;"><span class="info-label" sort-key="control">CONTROL</span>{%- include components/letter-rating.html rating=control -%}</span>
 
-    <span class="info-box detail-stamina" style="grid-area: stamina;"><span class="info-label">STAMINA</span>{%- include components/letter-rating.html rating=stamina -%}</span>
+    <span class="info-box detail-stamina" style="grid-area: stamina;"><span class="info-label" sort-key="stamina">STAMINA</span>{%- include components/letter-rating.html rating=stamina -%}</span>
 
     <span id="pitch-selection" style="grid-area: pitches;">
         {%- assign handedness = include.player.throwingHandedness -%}
