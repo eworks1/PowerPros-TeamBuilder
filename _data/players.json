@@ -435,10 +435,10 @@
         "control": 48,
         "stamina": 79,
         "breakingBalls": [{
-            "id": "",
+            "id": "SP Fastball 11",
             "level": null
         }, {
-            "id": "",
+            "id": "PCV",
             "level": 5
         }, {
             "id": "FRK",
@@ -1215,7 +1215,7 @@
         "control": 85,
         "stamina": 64,
         "breakingBalls": [{
-            "id": "",
+            "id": "SP Curveball 2",
             "level": 4
         }, {
             "id": "SNK",
@@ -1224,7 +1224,7 @@
             "id": "SL",
             "level": 2
         }, {
-            "id": "",
+            "id": "PLM",
             "level": 2
         }],
         "pitchingForm": "Overhead 1",
@@ -2314,10 +2314,10 @@
         "control": 75,
         "stamina": 85,
         "breakingBalls": [{
-            "id": "",
+            "id": "HSL",
             "level": 5
         }, {
-            "id": "",
+            "id": "CH",
             "level": 5
         }],
         "pitchingForm": "Overhead 7",
@@ -4948,10 +4948,10 @@
         "control": 55,
         "stamina": 90,
         "breakingBalls": [{
-            "id": "",
+            "id": "HSL",
             "level": 5
         }, {
-            "id": "",
+            "id": "VSL",
             "level": 5
         }, {
             "id": "SHU",
@@ -6657,10 +6657,10 @@
         "control": 67,
         "stamina": 37,
         "breakingBalls": [{
-            "id": "",
+            "id": "SCV",
             "level": 3
         }, {
-            "id": "",
+            "id": "PLM",
             "level": 4
         }, {
             "id": "SNK",
@@ -8656,10 +8656,10 @@
         "control": 77,
         "stamina": 74,
         "breakingBalls": [{
-            "id": "",
+            "id": "SP Fastball 8",
             "level": null
         }, {
-            "id": "",
+            "id": "HSNK",
             "level": 6
         }],
         "pitchingForm": "Overhead 50",
@@ -10123,10 +10123,10 @@
             "id": "EP",
             "level": null
         }, {
-            "id": "",
+            "id": "PLM",
             "level": 2
         }, {
-            "id": "",
+            "id": "SCV",
             "level": 2
         }, {
             "id": "CIR",
@@ -11637,7 +11637,7 @@
         "control": 60,
         "stamina": 57,
         "breakingBalls": [{
-            "id": "",
+            "id": "SP Forkball 5",
             "level": 5
         }, {
             "id": "CH",
@@ -12226,7 +12226,7 @@
         "control": 87,
         "stamina": 65,
         "breakingBalls": [{
-            "id": "",
+            "id": "SCR",
             "level": 7
         }, {
             "id": "CH",
