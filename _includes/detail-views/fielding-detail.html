@@ -17,7 +17,7 @@
 <div id="fielding-detail" class="current-detail-page">
     {%- include components/player-name-box.html id='fielding-detail' fullName=fullName nameAbbr=nameAbbr positions=playerPositions -%}
     
-    <span class="star-point-count" style="grid-area: starpoints;">{{ include.player.starPoints }}</span>
+    <span class="star-point-count" style="grid-area: starpoints;" sort-key="starPoints">{{ include.player.starPoints }}</span>
 
     <span class="jersey-number" title="{{ site.data.strings.hover_text.jersey_number }}" style="grid-area: jerseynumber;">{{ include.player.jerseyNum | default: "" }}</span>
 
