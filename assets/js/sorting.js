@@ -5,7 +5,7 @@
 function sortRightClick(event) {
     // element is right clicked
     // check if it has the sort-asc attribute
-    const key = ev.target.getAttribute('sort-key');
+    const key = event.target.getAttribute('sort-key');
     if (event.target && key) {
         event.preventDefault();
         sortPlayerPool(event.target, key);
