@@ -115,6 +115,11 @@
             "Abbreviation": "SP Curveball 1",
             "Direction": "Down-Inside"
         },
+        "SP Curveball 2": {
+            "Name": "SP Curveball 2",
+            "Abbreviation": "SP Curveball 2",
+            "Direction": "Down-Inside"
+        },
         "SP Fastball 1": {
             "Name": "SP Fastball 1",
             "Abbreviation": "SP Fastball 1",
@@ -140,6 +145,16 @@
             "Abbreviation": "SP Fastball 6",
             "Direction": "Up 1"
         },
+        "SP Fastball 8": {
+            "Name": "SP Fastball 8",
+            "Abbreviation": "SP Fastball 8",
+            "Direction": "Up 2"
+        },
+        "SP Fastball 11": {
+            "Name": "SP Fastball 11",
+            "Abbreviation": "SP Fastball 11",
+            "Direction": "Up 1"
+        },
         "SP Forkball 1": {
             "Name": "SP Forkball 1",
             "Abbreviation": "SP Forkball 1",
@@ -158,6 +173,11 @@
         "SP Forkball 4": {
             "Name": "SP Forkball 4",
             "Abbreviation": "SP Forkball 4",
+            "Direction": "Down"
+        },
+        "SP Forkball 5": {
+            "Name": "SP Forkball 5",
+            "Abbreviation": "SP Forkball 5",
             "Direction": "Down"
         },
         "SP Forkball 7": {
