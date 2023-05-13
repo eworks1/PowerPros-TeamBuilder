@@ -1,11 +1,16 @@
 <button id="sorting-testing" sort-asc="true" sort-key="cost" onclick="sortPlayerPool(event)">Sort By Cost</button>
 <script type="text/javascript">
     function sortPlayerPool(event) {
-        const sortAsc = event.target.getAttribute('sort-asc');
         const sortKey = event.target.getAttribute('sort-key');
         const poolTable = document.getElementById('player-pool-table');
-        if (!sortAsc || !sortKey || !poolTable) { return; }
+        if (!sortKey || !poolTable) { return; }
 
+        let sortAsc = event.target.getAttribute('sort-asc');
+        if (!sortAsc) {
+            sortAsc = 'true';
+            event.target.setAttribute('sort-asc', 'true');
+        }
+        
         const sortedArr = all_players.toSorted((a, b) => {
             return ((sortAsc === 'true') ? 1 : -1) * (a[sortKey] - b[sortKey]);
         });
