@@ -11,7 +11,7 @@
 {%- assign stamina = include.player.stamina -%}
 
 <div id="pitching-detail" class="hidden-detail-page">
-    {%- include components/player-name-box.html id=player.id fullName=fullName nameAbbr=nameAbbr positions=playerPositions -%}
+    {%- include components/player-name-box.html id='pitching-detail' fullName=fullName nameAbbr=nameAbbr positions=playerPositions -%}
     
     <span class="star-point-count" style="grid-area: starpoints;">{{ include.player.starPoints }}</span>
 
