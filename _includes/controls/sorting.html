@@ -1,0 +1,19 @@
+<button id="sorting-testing" sort-key="cost" onclick="sortPlayerPool(event)">Sort By Cost</button>
+<script type="text/javascript">
+    function sortPlayerPool(event) {
+        const sortKey = event.target.getAttribute('sort-key');
+        const poolTable = document.getElementById('player-pool-table');
+        if (!sortKey || !poolTable) { return; }
+
+        const sortedArr = all_players.toSorted((a, b) => {
+            return 
+            a[sortKey] - b[sortKey];
+        });
+
+        for (const child of poolTable.children) {
+            const id = child.firstChild.id.replace('-name-box', '');
+            const order = sortedArr.findIndex(i => i == id);
+            child.style.order = order;
+        }
+    }
+</script>
