@@ -156,7 +156,7 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
 
     <div style="grid-area: detailviewinstructions; display: flex; flex-direction: column; gap: 4px;">
         <!-- Detail Views -->
-        <div id="detail-box" class="group-box">
+        <div id="detail-box" class="group-box" oncontextmenu="sortRightClick(event)">
             {% assign first_player = all_players | first %}
             {% include views/detail-view.html player=first_player %}
         </div>
