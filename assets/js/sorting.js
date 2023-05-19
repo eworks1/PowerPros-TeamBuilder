@@ -36,5 +36,5 @@ function sortPlayerPool(target, sortKey) {
         child.style.order = order;
     }
 
-    event.target.setAttribute('sort-asc', !(sortAsc === 'true'));
+    target.setAttribute('sort-asc', !(sortAsc === 'true'));
 }
