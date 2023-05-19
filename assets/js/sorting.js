@@ -29,7 +29,8 @@ function sortPlayerPool(target, sortKey) {
     }
 
     // Sort the array of all players by the provided sort key.
-    const sortedArr = all_players.toSorted((a, b) => {
+    const sortedArr = all_players;
+    sortedArr.sort((a, b) => {
         return ((sortAsc === 'true') ? 1 : -1) * (a[sortKey] - b[sortKey]);
     });
 
