@@ -33,7 +33,11 @@ function sortPlayerPool(target, sortKey) {
 
     // Sort the array of all players by the provided sort key.
     sortedPlayerPool.sort((a, b) => {
-        return ((sortAsc === 'true') ? 1 : -1) * (a[sortKey] - b[sortKey]);
+        if (typeof a[sortKey] == 'string') {
+            return ((sortAsc === 'true') ? 1 : -1) * a[sortKey].localeCompare(b[sortKey]);
+        } else {
+            return ((sortAsc === 'true') ? 1 : -1) * (a[sortKey] - b[sortKey]);
+        }
     });
 
     // Set the sorted order of the player cells.
