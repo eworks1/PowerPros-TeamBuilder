@@ -1,0 +1,4 @@
+// All elements that have a non-empty sort-key attribute with the .sorted class, that aren't a player-name-box
+:not(.player-name-box)[sort-key]:not([sort-key=""]).sorted {
+    font-weight: 500;
+}
