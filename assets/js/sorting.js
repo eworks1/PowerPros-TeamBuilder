@@ -51,7 +51,7 @@ function sortPlayerPool(target, sortKey) {
 
     // Remove `.sorted` class from last key sorted by (if there is one)
     const prevSorted = document.querySelectorAll(`[sort-key="${sortKey}"].sorted`);
-    prevSorted.forEach(el => prevSorted.classList.remove('sorted'));
+    prevSorted.forEach(el => el.classList.remove('sorted'));
 
     // Add `.sorted` class to the target
     const allMatchingLabels = document.querySelectorAll(`[sort-key="${sortKey}"]`);
