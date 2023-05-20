@@ -15,7 +15,7 @@
 {%- assign catching = include.player.catching -%}
 
 <div id="fielding-detail" class="current-detail-page">
-    {%- include components/player-name-box.html id='fielding-detail' fullName=fullName nameAbbr=nameAbbr positions=playerPositions -%}
+    {%- include components/player-name-box.html id='fielding-detail' fullName=fullName nameAbbr=nameAbbr positions=playerPositions customAttributes='sort-key="id"' -%}
     
     <span class="star-point-count" style="grid-area: starpoints;" sort-key="starPoints">{{ include.player.starPoints }}</span>
 

@@ -47,9 +47,8 @@
     {%- assign position_group = 'backups' -%}
 {%- endif -%}
 
-<!-- {{ include.customAttributes }} -->
 {%- if include.nameAbbr != 'Empty' -%}
-    <span id="{{ include.id }}-name-box" title="{{ include.fullName }}" class="player-name-box has-player {{ position_group }}-group" style="background: {{ gradient }};">{{ include.nameAbbr }}</span>
+    <span id="{{ include.id }}-name-box" title="{{ include.fullName }}" class="player-name-box has-player {{ position_group }}-group" style="background: {{ gradient }};" {{ include.customAttributes }}>{{ include.nameAbbr }}</span>
 {%- else -%}
-    <span title="{{ site.data.players.empty_slots.pitchers['Name'] }}" class="player-name-box no-player {{ position_group }}-group" style="background: {{ gradient }}">Empty</span>
+    <span title="{{ site.data.players.empty_slots.pitchers['Name'] }}" class="player-name-box no-player {{ position_group }}-group" style="background: {{ gradient }}" {{ include.customAttributes }}>Empty</span>
 {%- endif -%}
