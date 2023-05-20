@@ -12,6 +12,7 @@ function sortRightClick(event) {
     }
 }
 
+/** @type {Player[]} */
 const sortedPlayerPool = JSON.parse(JSON.stringify(all_players));
 
 /**
