@@ -147,6 +147,6 @@ body {
     content: " km/h";
 }
 
-:not([title=""])[title] {
+[title]:not([title=""]) {
     cursor: help;
 }
