@@ -20,6 +20,55 @@
         }
     },
     "players": [{
+        "id": "A.Aznable-279",
+        "name": "Anne Aznable",
+        "nameAbbr": "A.Aznable",
+        "pfpFileName": "Pfp_Aznable.jpg",
+        "jerseyNum": "1",
+        "positions": ["MR"],
+        "allFieldingRatings": {
+            "P": 58
+        },
+        "throwingHandedness": "L",
+        "battingHandedness": "L",
+        "starPoints": 279,
+        "cost": 0,
+        "trajectory": 3,
+        "contact": 55,
+        "power": 55,
+        "runSpeed": 55,
+        "armStrength": 61,
+        "fielding": 58,
+        "catching": 35,
+        "pitchingVelo": 143,
+        "control": 65,
+        "stamina": 45,
+        "breakingBalls": [{
+            "id": "SL",
+            "level": 2
+        }, {
+            "id": "CB",
+            "level": 3
+        }, {
+            "id": "FRK",
+            "level": 3
+        }, {
+            "id": "SHU",
+            "level": 1
+        }],
+        "pitchingForm": "Overhead 1",
+        "battingForm": "General 27",
+        "traits": {
+            "w/ RISP": "B",
+            "Recovery": "C"
+        },
+        "abilities": {
+            "pitcher": ["Reflexes"],
+            "fielder": [],
+            "positionAssignment": ["Auto"]
+        },
+        "uniformName": "Anne"
+    }, {
         "id": "A.Aznable-295",
         "name": "Anne Aznable",
         "nameAbbr": "A.Aznable",
@@ -65,55 +114,6 @@
         },
         "abilities": {
             "pitcher": ["Gripper", "Reflexes"],
-            "fielder": [],
-            "positionAssignment": ["Auto"]
-        },
-        "uniformName": "Anne"
-    }, {
-        "id": "A.Aznable-279",
-        "name": "Anne Aznable",
-        "nameAbbr": "A.Aznable",
-        "pfpFileName": "Pfp_Aznable.jpg",
-        "jerseyNum": "1",
-        "positions": ["MR"],
-        "allFieldingRatings": {
-            "P": 58
-        },
-        "throwingHandedness": "L",
-        "battingHandedness": "L",
-        "starPoints": 279,
-        "cost": 0,
-        "trajectory": 3,
-        "contact": 55,
-        "power": 55,
-        "runSpeed": 55,
-        "armStrength": 61,
-        "fielding": 58,
-        "catching": 35,
-        "pitchingVelo": 143,
-        "control": 65,
-        "stamina": 45,
-        "breakingBalls": [{
-            "id": "SL",
-            "level": 2
-        }, {
-            "id": "CB",
-            "level": 3
-        }, {
-            "id": "FRK",
-            "level": 3
-        }, {
-            "id": "SHU",
-            "level": 1
-        }],
-        "pitchingForm": "Overhead 1",
-        "battingForm": "General 27",
-        "traits": {
-            "w/ RISP": "B",
-            "Recovery": "C"
-        },
-        "abilities": {
-            "pitcher": ["Reflexes"],
             "fielder": [],
             "positionAssignment": ["Auto"]
         },
@@ -251,48 +251,6 @@
         },
         "uniformName": "Aasa"
     }, {
-        "id": "Abata-318",
-        "name": "Yasushi Abata",
-        "nameAbbr": "Abata",
-        "pfpFileName": "Pfp_Abata.jpg",
-        "jerseyNum": "01",
-        "positions": ["SP", "MR", "CP"],
-        "allFieldingRatings": {
-            "P": 65
-        },
-        "throwingHandedness": "R",
-        "battingHandedness": "R",
-        "starPoints": 318,
-        "cost": 2,
-        "trajectory": 2,
-        "contact": 30,
-        "power": 32,
-        "runSpeed": 55,
-        "armStrength": 63,
-        "fielding": 65,
-        "catching": 42,
-        "pitchingVelo": 145,
-        "control": 68,
-        "stamina": 71,
-        "breakingBalls": [{
-            "id": "SHU",
-            "level": 2
-        }, {
-            "id": "SP Forkball 1",
-            "level": 5
-        }],
-        "pitchingForm": "Overhead 7",
-        "battingForm": "General 29",
-        "traits": {
-            "Recovery": "B"
-        },
-        "abilities": {
-            "pitcher": [],
-            "fielder": [],
-            "positionAssignment": ["Auto", "Brk Ball P"]
-        },
-        "uniformName": "Abata"
-    }, {
         "id": "Abata-316",
         "name": "Yasushi Abata",
         "nameAbbr": "Abata",
@@ -327,6 +285,48 @@
         "battingForm": "General 29",
         "traits": {
             "Recovery": "C"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": [],
+            "positionAssignment": ["Auto", "Brk Ball P"]
+        },
+        "uniformName": "Abata"
+    }, {
+        "id": "Abata-318",
+        "name": "Yasushi Abata",
+        "nameAbbr": "Abata",
+        "pfpFileName": "Pfp_Abata.jpg",
+        "jerseyNum": "01",
+        "positions": ["SP", "MR", "CP"],
+        "allFieldingRatings": {
+            "P": 65
+        },
+        "throwingHandedness": "R",
+        "battingHandedness": "R",
+        "starPoints": 318,
+        "cost": 2,
+        "trajectory": 2,
+        "contact": 30,
+        "power": 32,
+        "runSpeed": 55,
+        "armStrength": 63,
+        "fielding": 65,
+        "catching": 42,
+        "pitchingVelo": 145,
+        "control": 68,
+        "stamina": 71,
+        "breakingBalls": [{
+            "id": "SHU",
+            "level": 2
+        }, {
+            "id": "SP Forkball 1",
+            "level": 5
+        }],
+        "pitchingForm": "Overhead 7",
+        "battingForm": "General 29",
+        "traits": {
+            "Recovery": "B"
         },
         "abilities": {
             "pitcher": [],
@@ -842,47 +842,6 @@
         },
         "uniformName": "Arimura"
     }, {
-        "id": "Atsumori-485",
-        "name": "Muneatsu Atsumori",
-        "nameAbbr": "Atsumori",
-        "pfpFileName": "Pfp_Possesed_Atsumori.jpg",
-        "jerseyNum": "1",
-        "positions": ["SP", "OF"],
-        "allFieldingRatings": {
-            "P": 58,
-            "OF": 29
-        },
-        "throwingHandedness": "R",
-        "battingHandedness": "R",
-        "starPoints": 485,
-        "cost": 6,
-        "trajectory": 3,
-        "contact": 73,
-        "power": 80,
-        "runSpeed": 33,
-        "armStrength": 51,
-        "fielding": 58,
-        "catching": 55,
-        "pitchingVelo": 155,
-        "control": 66,
-        "stamina": 90,
-        "breakingBalls": [{
-            "id": "CB",
-            "level": 3
-        }, {
-            "id": "SP Ball",
-            "level": 6
-        }],
-        "pitchingForm": "Overhead 80",
-        "battingForm": "General 24",
-        "traits": {},
-        "abilities": {
-            "pitcher": ["Battler", "Hot Head"],
-            "fielder": ["Rally", "Slugger"],
-            "positionAssignment": ["Auto"]
-        },
-        "uniformName": "Atsumori"
-    }, {
         "id": "Atsumori-374",
         "name": "Muneatsu Atsumori",
         "nameAbbr": "Atsumori",
@@ -927,6 +886,47 @@
         },
         "uniformName": "Atsumori"
     }, {
+        "id": "Atsumori-485",
+        "name": "Muneatsu Atsumori",
+        "nameAbbr": "Atsumori",
+        "pfpFileName": "Pfp_Possesed_Atsumori.jpg",
+        "jerseyNum": "1",
+        "positions": ["SP", "OF"],
+        "allFieldingRatings": {
+            "P": 58,
+            "OF": 29
+        },
+        "throwingHandedness": "R",
+        "battingHandedness": "R",
+        "starPoints": 485,
+        "cost": 6,
+        "trajectory": 3,
+        "contact": 73,
+        "power": 80,
+        "runSpeed": 33,
+        "armStrength": 51,
+        "fielding": 58,
+        "catching": 55,
+        "pitchingVelo": 155,
+        "control": 66,
+        "stamina": 90,
+        "breakingBalls": [{
+            "id": "CB",
+            "level": 3
+        }, {
+            "id": "SP Ball",
+            "level": 6
+        }],
+        "pitchingForm": "Overhead 80",
+        "battingForm": "General 24",
+        "traits": {},
+        "abilities": {
+            "pitcher": ["Battler", "Hot Head"],
+            "fielder": ["Rally", "Slugger"],
+            "positionAssignment": ["Auto"]
+        },
+        "uniformName": "Atsumori"
+    }, {
         "id": "Awate-296",
         "name": "Sota Awate",
         "nameAbbr": "Awate",
@@ -961,42 +961,6 @@
             "positionAssignment": ["Cautious Stl", "Patient Htr", "Selfless"]
         },
         "uniformName": "Awate"
-    }, {
-        "id": "Azuma-394",
-        "name": "Shinpachi Azuma",
-        "nameAbbr": "Azuma",
-        "pfpFileName": "Pfp_Azuma.jpg",
-        "jerseyNum": "6",
-        "positions": ["SS"],
-        "allFieldingRatings": {
-            "SS": 82
-        },
-        "throwingHandedness": "R",
-        "battingHandedness": "R",
-        "starPoints": 394,
-        "cost": 5,
-        "trajectory": 2,
-        "contact": 68,
-        "power": 55,
-        "runSpeed": 82,
-        "armStrength": 63,
-        "fielding": 82,
-        "catching": 72,
-        "pitchingVelo": 120,
-        "control": 1,
-        "stamina": 1,
-        "breakingBalls": [],
-        "pitchingForm": "–––––",
-        "battingForm": "General 36",
-        "traits": {
-            "Stealing": "A"
-        },
-        "abilities": {
-            "pitcher": [],
-            "fielder": ["Bunt Ace", "Glover", "Low Hit", "Morale", "Squibber", "Mood Swinger"],
-            "positionAssignment": ["Aggrssiv Fld", "Slap Hitter"]
-        },
-        "uniformName": "Azuma"
     }, {
         "id": "Azuma-326",
         "name": "Suguru Azuma",
@@ -1036,6 +1000,42 @@
             "pitcher": [],
             "fielder": ["High Hit", "Morale"],
             "positionAssignment": ["Star"]
+        },
+        "uniformName": "Azuma"
+    }, {
+        "id": "Azuma-394",
+        "name": "Shinpachi Azuma",
+        "nameAbbr": "Azuma",
+        "pfpFileName": "Pfp_Azuma.jpg",
+        "jerseyNum": "6",
+        "positions": ["SS"],
+        "allFieldingRatings": {
+            "SS": 82
+        },
+        "throwingHandedness": "R",
+        "battingHandedness": "R",
+        "starPoints": 394,
+        "cost": 5,
+        "trajectory": 2,
+        "contact": 68,
+        "power": 55,
+        "runSpeed": 82,
+        "armStrength": 63,
+        "fielding": 82,
+        "catching": 72,
+        "pitchingVelo": 120,
+        "control": 1,
+        "stamina": 1,
+        "breakingBalls": [],
+        "pitchingForm": "–––––",
+        "battingForm": "General 36",
+        "traits": {
+            "Stealing": "A"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Bunt Ace", "Glover", "Low Hit", "Morale", "Squibber", "Mood Swinger"],
+            "positionAssignment": ["Aggrssiv Fld", "Slap Hitter"]
         },
         "uniformName": "Azuma"
     }, {
@@ -4154,42 +4154,6 @@
         },
         "uniformName": "Iwai"
     }, {
-        "id": "Izayoi-451",
-        "name": "Mitsuru Izayoi",
-        "nameAbbr": "Izayoi",
-        "pfpFileName": "Pfp_MIzayoi.jpg",
-        "jerseyNum": "10",
-        "positions": ["SS"],
-        "allFieldingRatings": {
-            "SS": 90
-        },
-        "throwingHandedness": "R",
-        "battingHandedness": "R",
-        "starPoints": 451,
-        "cost": 5,
-        "trajectory": 2,
-        "contact": 80,
-        "power": 55,
-        "runSpeed": 77,
-        "armStrength": 60,
-        "fielding": 90,
-        "catching": 74,
-        "pitchingVelo": 120,
-        "control": 1,
-        "stamina": 1,
-        "breakingBalls": [],
-        "pitchingForm": "–––––",
-        "battingForm": "General 29",
-        "traits": {
-            "Stealing": "A"
-        },
-        "abilities": {
-            "pitcher": [],
-            "fielder": ["Joker", "Clinical", "Glover", "Line Drive", "Revenge", "Survivor"],
-            "positionAssignment": []
-        },
-        "uniformName": "Izayoi"
-    }, {
         "id": "Izayoi-373",
         "name": "Luna Izayoi",
         "nameAbbr": "Izayoi",
@@ -4230,6 +4194,42 @@
             "pitcher": ["Guts", "Gyroball", "Reflexes"],
             "fielder": ["Morale"],
             "positionAssignment": ["Auto", "Pace"]
+        },
+        "uniformName": "Izayoi"
+    }, {
+        "id": "Izayoi-451",
+        "name": "Mitsuru Izayoi",
+        "nameAbbr": "Izayoi",
+        "pfpFileName": "Pfp_MIzayoi.jpg",
+        "jerseyNum": "10",
+        "positions": ["SS"],
+        "allFieldingRatings": {
+            "SS": 90
+        },
+        "throwingHandedness": "R",
+        "battingHandedness": "R",
+        "starPoints": 451,
+        "cost": 5,
+        "trajectory": 2,
+        "contact": 80,
+        "power": 55,
+        "runSpeed": 77,
+        "armStrength": 60,
+        "fielding": 90,
+        "catching": 74,
+        "pitchingVelo": 120,
+        "control": 1,
+        "stamina": 1,
+        "breakingBalls": [],
+        "pitchingForm": "–––––",
+        "battingForm": "General 29",
+        "traits": {
+            "Stealing": "A"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Joker", "Clinical", "Glover", "Line Drive", "Revenge", "Survivor"],
+            "positionAssignment": []
         },
         "uniformName": "Izayoi"
     }, {
@@ -5628,6 +5628,42 @@
         },
         "uniformName": "Kodaka"
     }, {
+        "id": "Kogarashi-238",
+        "name": "Kabuki Kogarashi",
+        "nameAbbr": "Kogarashi",
+        "pfpFileName": "Pfp_Kogarashi.jpg",
+        "jerseyNum": "12",
+        "positions": ["C"],
+        "allFieldingRatings": {
+            "C": 71
+        },
+        "throwingHandedness": "R",
+        "battingHandedness": "R",
+        "starPoints": 238,
+        "cost": 0,
+        "trajectory": 2,
+        "contact": 42,
+        "power": 48,
+        "runSpeed": 36,
+        "armStrength": 66,
+        "fielding": 71,
+        "catching": 65,
+        "pitchingVelo": 120,
+        "control": 1,
+        "stamina": 1,
+        "breakingBalls": [],
+        "pitchingForm": "–––––",
+        "battingForm": "–––––",
+        "traits": {
+            "Catcher": "C"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Bunt Ace", "Refined"],
+            "positionAssignment": []
+        },
+        "uniformName": "Kogarashi"
+    }, {
         "id": "Kogarashi-254",
         "name": "Ryo Kogarashi",
         "nameAbbr": "Kogarashi",
@@ -5663,42 +5699,6 @@
             "pitcher": [],
             "fielder": ["Bunt Ace", "Glover"],
             "positionAssignment": ["Aggrssiv Fld", "Aggrssiv Htr", "Aggrssiv Run", "Slap Hitter"]
-        },
-        "uniformName": "Kogarashi"
-    }, {
-        "id": "Kogarashi-238",
-        "name": "Kabuki Kogarashi",
-        "nameAbbr": "Kogarashi",
-        "pfpFileName": "Pfp_Kogarashi.jpg",
-        "jerseyNum": "12",
-        "positions": ["C"],
-        "allFieldingRatings": {
-            "C": 71
-        },
-        "throwingHandedness": "R",
-        "battingHandedness": "R",
-        "starPoints": 238,
-        "cost": 0,
-        "trajectory": 2,
-        "contact": 42,
-        "power": 48,
-        "runSpeed": 36,
-        "armStrength": 66,
-        "fielding": 71,
-        "catching": 65,
-        "pitchingVelo": 120,
-        "control": 1,
-        "stamina": 1,
-        "breakingBalls": [],
-        "pitchingForm": "–––––",
-        "battingForm": "–––––",
-        "traits": {
-            "Catcher": "C"
-        },
-        "abilities": {
-            "pitcher": [],
-            "fielder": ["Bunt Ace", "Refined"],
-            "positionAssignment": []
         },
         "uniformName": "Kogarashi"
     }, {
@@ -7203,42 +7203,6 @@
         },
         "uniformName": "Nagase"
     }, {
-        "id": "Naito-392",
-        "name": "Meiru Naito",
-        "nameAbbr": "Naito",
-        "pfpFileName": "Pfp_NaitoArmor.jpg",
-        "jerseyNum": "3",
-        "positions": ["1B", "OF", "C"],
-        "allFieldingRatings": {
-            "1B": 50,
-            "OF": 40,
-            "C": 35
-        },
-        "throwingHandedness": "R",
-        "battingHandedness": "R",
-        "starPoints": 392,
-        "cost": 5,
-        "trajectory": 3,
-        "contact": 55,
-        "power": 80,
-        "runSpeed": 80,
-        "armStrength": 90,
-        "fielding": 50,
-        "catching": 60,
-        "pitchingVelo": 120,
-        "control": 1,
-        "stamina": 1,
-        "breakingBalls": [],
-        "pitchingForm": "–––––",
-        "battingForm": "General 46",
-        "traits": {},
-        "abilities": {
-            "pitcher": [],
-            "fielder": ["Morale", "Slugger"],
-            "positionAssignment": []
-        },
-        "uniformName": "Naito"
-    }, {
         "id": "Naito-386",
         "name": "Meiru Naito",
         "nameAbbr": "Naito",
@@ -7273,6 +7237,42 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Morale", "Slugger", "Trucker"],
+            "positionAssignment": []
+        },
+        "uniformName": "Naito"
+    }, {
+        "id": "Naito-392",
+        "name": "Meiru Naito",
+        "nameAbbr": "Naito",
+        "pfpFileName": "Pfp_NaitoArmor.jpg",
+        "jerseyNum": "3",
+        "positions": ["1B", "OF", "C"],
+        "allFieldingRatings": {
+            "1B": 50,
+            "OF": 40,
+            "C": 35
+        },
+        "throwingHandedness": "R",
+        "battingHandedness": "R",
+        "starPoints": 392,
+        "cost": 5,
+        "trajectory": 3,
+        "contact": 55,
+        "power": 80,
+        "runSpeed": 80,
+        "armStrength": 90,
+        "fielding": 50,
+        "catching": 60,
+        "pitchingVelo": 120,
+        "control": 1,
+        "stamina": 1,
+        "breakingBalls": [],
+        "pitchingForm": "–––––",
+        "battingForm": "General 46",
+        "traits": {},
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Morale", "Slugger"],
             "positionAssignment": []
         },
         "uniformName": "Naito"
@@ -7550,6 +7550,41 @@
         },
         "uniformName": "Nekogami"
     }, {
+        "id": "Niijima-259",
+        "name": "Saki Niijima",
+        "nameAbbr": "Niijima",
+        "pfpFileName": "Pfp_NiijimaYoung.jpg",
+        "jerseyNum": "7",
+        "positions": ["OF", "C"],
+        "allFieldingRatings": {
+            "OF": 61,
+            "C": 42
+        },
+        "throwingHandedness": "R",
+        "battingHandedness": "L",
+        "starPoints": 259,
+        "cost": 1,
+        "trajectory": 2,
+        "contact": 51,
+        "power": 60,
+        "runSpeed": 60,
+        "armStrength": 53,
+        "fielding": 61,
+        "catching": 55,
+        "pitchingVelo": 120,
+        "control": 1,
+        "stamina": 1,
+        "breakingBalls": [],
+        "pitchingForm": "–––––",
+        "battingForm": "General 42",
+        "traits": {},
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Clutch", "Insider", "Setter"],
+            "positionAssignment": []
+        },
+        "uniformName": "Niijima"
+    }, {
         "id": "Niijima-262",
         "name": "Saki Niijima",
         "nameAbbr": "Niijima",
@@ -7583,41 +7618,6 @@
         "abilities": {
             "pitcher": [],
             "fielder": ["Clutch", "Setter"],
-            "positionAssignment": []
-        },
-        "uniformName": "Niijima"
-    }, {
-        "id": "Niijima-259",
-        "name": "Saki Niijima",
-        "nameAbbr": "Niijima",
-        "pfpFileName": "Pfp_NiijimaYoung.jpg",
-        "jerseyNum": "7",
-        "positions": ["OF", "C"],
-        "allFieldingRatings": {
-            "OF": 61,
-            "C": 42
-        },
-        "throwingHandedness": "R",
-        "battingHandedness": "L",
-        "starPoints": 259,
-        "cost": 1,
-        "trajectory": 2,
-        "contact": 51,
-        "power": 60,
-        "runSpeed": 60,
-        "armStrength": 53,
-        "fielding": 61,
-        "catching": 55,
-        "pitchingVelo": 120,
-        "control": 1,
-        "stamina": 1,
-        "breakingBalls": [],
-        "pitchingForm": "–––––",
-        "battingForm": "General 42",
-        "traits": {},
-        "abilities": {
-            "pitcher": [],
-            "fielder": ["Clutch", "Insider", "Setter"],
             "positionAssignment": []
         },
         "uniformName": "Niijima"
@@ -8145,6 +8145,54 @@
         },
         "uniformName": "One"
     }, {
+        "id": "Onishi-432",
+        "name": "Harrison Onishi",
+        "nameAbbr": "Onishi",
+        "pfpFileName": "Pfp_Onishi.jpg",
+        "jerseyNum": "1",
+        "positions": ["SP", "MR", "CP"],
+        "allFieldingRatings": {
+            "P": 60
+        },
+        "throwingHandedness": "L",
+        "battingHandedness": "L",
+        "starPoints": 432,
+        "cost": 5,
+        "trajectory": 2,
+        "contact": 40,
+        "power": 60,
+        "runSpeed": 60,
+        "armStrength": 70,
+        "fielding": 60,
+        "catching": 60,
+        "pitchingVelo": 151,
+        "control": 25,
+        "stamina": 85,
+        "breakingBalls": [{
+            "id": "SL",
+            "level": 4
+        }, {
+            "id": "CB",
+            "level": 4
+        }, {
+            "id": "FRK",
+            "level": 4
+        }, {
+            "id": "SCR",
+            "level": 4
+        }],
+        "pitchingForm": "Overhead 1",
+        "battingForm": "General 25",
+        "traits": {
+            "Recovery": "C"
+        },
+        "abilities": {
+            "pitcher": ["Bluffer", "Chill"],
+            "fielder": [],
+            "positionAssignment": ["Auto", "Power P"]
+        },
+        "uniformName": "Onishi"
+    }, {
         "id": "Onishi-447",
         "name": "Harrison Onishi",
         "nameAbbr": "Onishi",
@@ -8187,54 +8235,6 @@
             "Heater": "S",
             "Recovery": "C",
             "Throwing": "C"
-        },
-        "abilities": {
-            "pitcher": ["Bluffer", "Chill"],
-            "fielder": [],
-            "positionAssignment": ["Auto", "Power P"]
-        },
-        "uniformName": "Onishi"
-    }, {
-        "id": "Onishi-432",
-        "name": "Harrison Onishi",
-        "nameAbbr": "Onishi",
-        "pfpFileName": "Pfp_Onishi.jpg",
-        "jerseyNum": "1",
-        "positions": ["SP", "MR", "CP"],
-        "allFieldingRatings": {
-            "P": 60
-        },
-        "throwingHandedness": "L",
-        "battingHandedness": "L",
-        "starPoints": 432,
-        "cost": 5,
-        "trajectory": 2,
-        "contact": 40,
-        "power": 60,
-        "runSpeed": 60,
-        "armStrength": 70,
-        "fielding": 60,
-        "catching": 60,
-        "pitchingVelo": 151,
-        "control": 25,
-        "stamina": 85,
-        "breakingBalls": [{
-            "id": "SL",
-            "level": 4
-        }, {
-            "id": "CB",
-            "level": 4
-        }, {
-            "id": "FRK",
-            "level": 4
-        }, {
-            "id": "SCR",
-            "level": 4
-        }],
-        "pitchingForm": "Overhead 1",
-        "battingForm": "General 25",
-        "traits": {
-            "Recovery": "C"
         },
         "abilities": {
             "pitcher": ["Bluffer", "Chill"],
