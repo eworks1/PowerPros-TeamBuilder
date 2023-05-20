@@ -38,7 +38,7 @@ function sortPlayerPool(target, sortKey) {
     // Set the sorted order of the player cells.
     sortedPlayerPool.forEach((player, i) => {
         // find element by ID
-        const cell = poolTable.querySelector(`#${player.id}-name-box.player-name-box`)?.parentElement;
+        const cell = poolTable.querySelector(`#${CSS.escape(player.id)}-name-box.player-name-box`)?.parentElement;
 
         if (cell) {
             // do the same as below
