@@ -35,11 +35,15 @@ function sortPlayerPool(target, sortKey) {
     });
 
     // Set the sorted order of the player cells.
-    for (const child of poolTable.children) {
-        const id = child.firstElementChild.id.replace('-name-box', '');
-        const order = sortedArr.findIndex(p => p.id == id);
-        child.style.order = order;
-    }
+    sortedArr.forEach((player, i) => {
+        // find element by ID
+        const cell = poolTable.querySelector(`#${player.id}-name-box.player-name-box`)?.parentElement;
+
+        if (cell) {
+            // do the same as below
+            child.style.order = i;
+        }        
+    });
 
     // Set `sort-asc` attribute to the opposite value.
     target.setAttribute('sort-asc', !(sortAsc === 'true'));
