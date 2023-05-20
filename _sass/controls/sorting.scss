@@ -2,8 +2,3 @@
 :not(.player-name-box)[sort-key]:not([sort-key=""]).sorted {
     font-weight: 500;
 }
-
-// All player-name-box's that have a non-empty sort-key attribute with the .sorted class
-.player-name-box[sort-key]:not([sort-key=""]).sorted {
-    border: rgba(0, 0, 0, 0.6) solid 2px;
-}
