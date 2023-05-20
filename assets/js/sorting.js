@@ -42,7 +42,7 @@ function sortPlayerPool(target, sortKey) {
 
         if (cell) {
             // do the same as below
-            child.style.order = i;
+            cell.style.order = i;
         }        
     });
 
