@@ -50,7 +50,7 @@ function sortPlayerPool(target, sortKey) {
     target.setAttribute('sort-asc', !(sortAsc === 'true'));
 
     // Remove `.sorted` class from last key sorted by (if there is one)
-    const prevSorted = document.querySelectorAll(`[sort-key="${sortKey}"].sorted`);
+    const prevSorted = document.querySelectorAll('[sort-key].sorted');
     prevSorted.forEach(el => el.classList.remove('sorted'));
 
     // Add `.sorted` class to the target
