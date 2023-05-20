@@ -48,4 +48,12 @@ function sortPlayerPool(target, sortKey) {
 
     // Set `sort-asc` attribute to the opposite value.
     target.setAttribute('sort-asc', !(sortAsc === 'true'));
+
+    // Remove `.sorted` class from last key sorted by (if there is one)
+    const prevSorted = document.querySelectorAll(`[sort-key="${sortKey}"].sorted`);
+    prevSorted.forEach(el => prevSorted.classList.remove('sorted'));
+
+    // Add `.sorted` class to the target
+    const allMatchingLabels = document.querySelectorAll(`[sort-key="${sortKey}"]`);
+    allMatchingLabels.forEach(el => el.classList.add('sorted'));
 }
