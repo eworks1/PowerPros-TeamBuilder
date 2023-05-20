@@ -12,6 +12,8 @@ function sortRightClick(event) {
     }
 }
 
+const sortedPlayerPool = JSON.parse(JSON.stringify(all_players));
+
 /**
  * @param {EventTarget} target
  * @param {string} sortKey 
@@ -29,13 +31,12 @@ function sortPlayerPool(target, sortKey) {
     }
 
     // Sort the array of all players by the provided sort key.
-    const sortedArr = all_players;
-    sortedArr.sort((a, b) => {
+    sortedPlayerPool.sort((a, b) => {
         return ((sortAsc === 'true') ? 1 : -1) * (a[sortKey] - b[sortKey]);
     });
 
     // Set the sorted order of the player cells.
-    sortedArr.forEach((player, i) => {
+    sortedPlayerPool.forEach((player, i) => {
         // find element by ID
         const cell = poolTable.querySelector(`#${player.id}-name-box.player-name-box`)?.parentElement;
 
