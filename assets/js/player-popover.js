@@ -1,7 +1,7 @@
 /**
  * @param {Event} event 
  */
-function hidePopover(event) {
+function closePlayerPopover(event) {
     if (event.target.id == 'popover-wrapper') {
         event.target.classList.add('hidden');
     }
