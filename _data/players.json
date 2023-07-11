@@ -123,9 +123,11 @@
         "name": "Aiki Izutsu",
         "nameAbbr": "A.Izutsu",
         "pfpFileName": "Pfp_Izutsu.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "4",
         "positions": ["SP", "MR", "CP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 54
+        },
         "throwingHandedness": "R",
         "battingHandedness": "L",
         "starPoints": 331,
@@ -140,12 +142,24 @@
         "pitchingVelo": 151,
         "control": 77,
         "stamina": 50,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
-        "traits": [],
-        "abilities": [],
-        "uniformName": null
+        "breakingBalls": [{
+            "id": "SL",
+            "level": 3
+        }, {
+            "id": "FRK",
+            "level": 5
+        }],
+        "pitchingForm": "Overhead 50",
+        "battingForm": "General 53",
+        "traits": {
+            "Recovery": "C"
+        },
+        "abilities": {
+            "pitcher": ["Ironball"],
+            "fielder": [],
+            "positionAssignment": ["Auto"]
+        },
+        "uniformName": "Aiki"
     }, {
         "id": "A.Lockhart-332",
         "name": "Alvin Lockhart",
@@ -1639,9 +1653,12 @@
         "name": "Dan Dadanda",
         "nameAbbr": "Dadanda",
         "pfpFileName": "Pfp_Dadanda.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "7",
         "positions": ["OF", "3B"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "OF": 75,
+            "3B": 52
+        },
         "throwingHandedness": "R",
         "battingHandedness": "L",
         "starPoints": 352,
@@ -1657,11 +1674,18 @@
         "control": 1,
         "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
-        "traits": [],
-        "abilities": [],
-        "uniformName": null
+        "pitchingForm": "–––––",
+        "battingForm": "General 25",
+        "traits": {
+            "Clutch": "F",
+            "Grit": "S"
+        },
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Eager", "Victor", "Laser", "Hotshot", "Chaser", "Grounder"],
+            "positionAssignment": []
+        },
+        "uniformName": "Dadanda"
     }, {
         "id": "Daichiman-356",
         "name": "Daikichi Daichiman",
@@ -3607,33 +3631,54 @@
         },
         "uniformName": "Hoshii"
     }, {
-        "id": "Hoshii-377",
+        "id": "Hoshii-380",
         "name": "Subaru Hoshii",
         "nameAbbr": "Hoshii",
-        "pfpFileName": "Pfp_Ohgoe.jpg",
-        "jerseyNum": null,
-        "positions": ["SS", "2B"],
-        "allFieldingRatings": [],
+        "pfpFileName": "Pfp_Hoshii.jpg",
+        "jerseyNum": "1",
+        "positions": ["SP", "MR", "CP"],
+        "allFieldingRatings": {
+            "P": 60
+        },
         "throwingHandedness": "R",
-        "battingHandedness": "S",
-        "starPoints": 377,
-        "cost": 6,
-        "trajectory": 4,
+        "battingHandedness": "L",
+        "starPoints": 380,
+        "cost": 5,
+        "trajectory": 3,
         "contact": 65,
-        "power": 85,
-        "runSpeed": 52,
-        "armStrength": 80,
+        "power": 70,
+        "runSpeed": 65,
+        "armStrength": 62,
         "fielding": 60,
-        "catching": 35,
-        "pitchingVelo": 120,
-        "control": 1,
-        "stamina": 1,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
-        "traits": [],
-        "abilities": [],
-        "uniformName": null
+        "catching": 45,
+        "pitchingVelo": 144,
+        "control": 65,
+        "stamina": 65,
+        "breakingBalls": [{
+            "id": "SL",
+            "level": 3
+        }, {
+            "id": "FRK",
+            "level": 3
+        }, {
+            "id": "SNK",
+            "level": 2
+        }, {
+            "id": "SP Shootball 6",
+            "level": 5
+        }],
+        "pitchingForm": "Sidearm 1",
+        "battingForm": "Standard 2",
+        "traits": {
+            "Recovery": "C",
+            "Throwing": "C"
+        },
+        "abilities": {
+            "pitcher": ["Trusty", "Momentum"],
+            "fielder": ["Sprayer", "High Hit"],
+            "positionAssignment": ["Auto"]
+        },
+        "uniformName": "Hoshii"
     }, {
         "id": "Hoshizora-353",
         "name": "Hoshimitsu Hoshizora",
@@ -6395,9 +6440,11 @@
         "name": "Tsunahiro Maguro",
         "nameAbbr": "Maguro",
         "pfpFileName": "Pfp_Maguro.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "1",
         "positions": ["SP", "MR", "CP"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "P": 45
+        },
         "throwingHandedness": "R",
         "battingHandedness": "R",
         "starPoints": 469,
@@ -6412,12 +6459,30 @@
         "pitchingVelo": 150,
         "control": 65,
         "stamina": 85,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
-        "traits": [],
-        "abilities": [],
-        "uniformName": null
+        "breakingBalls": [{
+            "id": "CUT",
+            "level": 5
+        }, {
+            "id": "HSHU",
+            "level": 3
+        }, {
+            "id": "SPL",
+            "level": 4
+        }],
+        "pitchingForm": "Overhead 170",
+        "battingForm": "General 62",
+        "traits": {
+            "w/ RISP": "B",
+            "Poise": "B",
+            "Heater": "A",
+            "Recovery": "C"
+        },
+        "abilities": {
+            "pitcher": ["Cutter", "Ironball", "Trusty", "Chill"],
+            "fielder": ["Slugger", "Eager"],
+            "positionAssignment": ["Auto", "Slugger", "Aggrssiv Htr"]
+        },
+        "uniformName": "Maguro"
     }, {
         "id": "Makita-339",
         "name": "Makito Makita",
@@ -8175,33 +8240,40 @@
         },
         "uniformName": "Ogane"
     }, {
-        "id": "Ohgoe-380",
+        "id": "Ohgoe-377",
         "name": "Seiryo Ohgoe",
         "nameAbbr": "Ohgoe",
-        "pfpFileName": "Pfp_Hoshii.jpg",
-        "jerseyNum": null,
-        "positions": ["SP", "MR", "CP"],
-        "allFieldingRatings": [],
+        "pfpFileName": "Pfp_Ohgoe.jpg",
+        "jerseyNum": "6",
+        "positions": ["SS", "2B"],
+        "allFieldingRatings": {
+            "SS": 60,
+            "2B": 42
+        },
         "throwingHandedness": "R",
-        "battingHandedness": "L",
-        "starPoints": 380,
-        "cost": 5,
-        "trajectory": 3,
+        "battingHandedness": "S",
+        "starPoints": 377,
+        "cost": 6,
+        "trajectory": 4,
         "contact": 65,
-        "power": 70,
-        "runSpeed": 65,
-        "armStrength": 62,
+        "power": 85,
+        "runSpeed": 52,
+        "armStrength": 80,
         "fielding": 60,
-        "catching": 45,
-        "pitchingVelo": 144,
-        "control": 65,
-        "stamina": 65,
+        "catching": 35,
+        "pitchingVelo": 120,
+        "control": 1,
+        "stamina": 1,
         "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
-        "traits": [],
-        "abilities": [],
-        "uniformName": null
+        "pitchingForm": "–––––",
+        "battingForm": "General 70",
+        "traits": {},
+        "abilities": {
+            "pitcher": [],
+            "fielder": ["Slugger"],
+            "positionAssignment": []
+        },
+        "uniformName": "Ohgoe"
     }, {
         "id": "Okino-370",
         "name": "Kairi Okino",
@@ -11682,9 +11754,12 @@
         "name": "Ryo Tomozawa",
         "nameAbbr": "Tomozawa",
         "pfpFileName": "Pfp_Tomozawa.jpg",
-        "jerseyNum": null,
+        "jerseyNum": "7",
         "positions": ["SS", "2B"],
-        "allFieldingRatings": [],
+        "allFieldingRatings": {
+            "SS": 72,
+            "2B": 57
+        },
         "throwingHandedness": "R",
         "battingHandedness": "S",
         "starPoints": 477,
@@ -11699,12 +11774,25 @@
         "pitchingVelo": 149,
         "control": 57,
         "stamina": 70,
-        "breakingBalls": [],
-        "pitchingForm": "",
-        "battingForm": "",
-        "traits": [],
-        "abilities": [],
-        "uniformName": null
+        "breakingBalls": [{
+            "id": "SL",
+            "level": 4
+        }, {
+            "id": "CB",
+            "level": 2
+        }, {
+            "id": "SNK",
+            "level": 2
+        }],
+        "pitchingForm": "–––––",
+        "battingForm": "General 4",
+        "traits": {},
+        "abilities": {
+            "pitcher": ["Bluffer"],
+            "fielder": ["Clinical", "Slugger"],
+            "positionAssignment": []
+        },
+        "uniformName": "Tomozawa"
     }, {
         "id": "Toy-615",
         "name": "Tetsuo Toy",
