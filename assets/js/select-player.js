@@ -234,7 +234,7 @@ function createPositionRatingTitle(position, rating) {
  */
 function updatePositionRatingsChart(chart, ratings) {
     for (const element of chart.children) {
-        // Changed to nodeS so it's easily compatible with convenience function, won't be more than 1.
+        // Changed to nodes so it's easily compatible with convenience function, won't be more than 1.
         const textNodes = element.querySelectorAll('text');
         let position = element.id.split('-')[0];
         if (['LF', 'CF', 'RF'].includes(position)) {
