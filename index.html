@@ -135,7 +135,7 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
             }));
 
             // listen for escape key to close popover
-            document.body.addEventListener('keypress', (e) => {
+            document.body.addEventListener('keydown', (e) => {
                 const popoverWrapper = document.getElementById('popover-wrapper');
                 if (!popoverWrapper.classList.contains('hidden') && e.key == 'Escape') {
                     popoverWrapper.click();
