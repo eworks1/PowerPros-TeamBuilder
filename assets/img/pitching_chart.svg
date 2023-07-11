@@ -3,6 +3,9 @@
     <!-- 1mm == 3.78px -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700');
+        text {
+            cursor: help;
+        }
         .gradient {
             stroke: none;
         }
