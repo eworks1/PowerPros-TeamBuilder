@@ -133,6 +133,14 @@ title: "WBSC eBASEBALL™: POWER PROS Team Builder"
                     playerDoubleClicked(matchingPlayer);
                 }
             }));
+
+            // listen for escape key to close popover
+            document.body.addEventListener('keypress', (e) => {
+                const popoverWrapper = document.getElementById('popover-wrapper');
+                if (!popoverWrapper.classList.contains('hidden') && e.key == 'Escape') {
+                    popoverWrapper.click();
+                }
+            })
         }
     </script>
 </head>
