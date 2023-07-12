@@ -15,7 +15,7 @@
     
     <span class="star-point-count" style="grid-area: starpoints;" sort-key="starPoints">{{ include.player.starPoints }}</span>
 
-    <span class="info-box detail-topspeed pitch-speed" style="grid-area: topspeed;" title="{{ include.player.pitchingVelo | times: 0.62137 | round }} mph" sort-key="pitchingVelo">{{ include.pitch.pitchingVelo }}</span>
+    <span class="info-box detail-topspeed pitch-speed" style="grid-area: topspeed;" title="{{ include.player.pitchingVelo | times: 0.62137 | round }} mph" sort-key="pitchingVelo">{{ include.player.pitchingVelo }}</span>
 
     {%- assign formStr = '–––––' -%}
     {%- if include.player.pitchingForm != '–––––' -%}
