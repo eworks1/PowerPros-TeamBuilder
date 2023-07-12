@@ -113,6 +113,19 @@ function updatePitchChart(pitches, leftHandedInput) {
         return temp;
     }, new Array());
 
+    // TODO: Refactor this into the code below
+    // If there is no special pitch Up, reset Up-0 text
+    const containsUp0SPPitch = pitches.some((p) => {
+        /** @type {{Name: string, Abbreviation: string, Direction: string}} */
+        const fullPitch = all_pitches[p.id];
+        return fullPitch.Direction == 'Up 1'
+            && fullPitch.Name.includes('SP');
+    });
+    if (containsUp0SPPitch) {
+        const singleUpLabel = this.getElementById('up-label-0');
+        singleUpLabel?.createInnerHTML('Four-Seam Fastball', '4SFB');
+    }
+
     // For each breaking ball, change gradient fill end
     pitches.forEach((p, i, arr) => {
         /** @type {{Name: string, Abbreviation: string, Direction: string}} */
