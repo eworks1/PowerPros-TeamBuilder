@@ -199,11 +199,19 @@ function playerDoubleClicked(player) {
         );
     }
 
-    // Pitching Chart
+    // Update Pitching Chart (only calls onload event each time in Safari)
     const pitchingChartObj = document.getElementById('popover-pitching-chart');
     if (pitchingChartObj) {
         pitchingChartObj.setAttribute('pitches', JSON.stringify(player.breakingBalls));
         pitchingChartObj.setAttribute('lefty', `${player.throwingHandedness == 'L'}`);
+
+        updatePitchChart.apply(
+            pitchingChartObj.contentDocument,
+            [
+                player.breakingBalls,
+                player.throwingHandedness == 'L'
+            ]
+        );
     }
 
     // Signature Pitch
