@@ -184,13 +184,15 @@ function playerClicked(player) {
     pitchingChartObj.setAttribute('lefty', player.throwingHandedness == 'L');
 
     if (pitchingChartObj) {
-        updatePitchChart.apply(
-            pitchingChartObj.contentDocument,
-            [
-                player.breakingBalls,
-                player.throwingHandedness == 'L'
-            ]
-        );
+        try {
+            updatePitchChart.apply(
+                pitchingChartObj.contentDocument,
+                [
+                    player.breakingBalls,
+                    player.throwingHandedness == 'L'
+                ]
+            );
+        } catch (error) {}
     }
 }
 
