@@ -121,7 +121,7 @@ function updatePitchChart(pitches, leftHandedInput) {
         return fullPitch.Direction == 'Up 1'
             && fullPitch.Name.includes('SP');
     });
-    if (containsUp0SPPitch) {
+    if (!containsUp0SPPitch) {
         const singleUpLabel = this.getElementById('up-label-0');
         if (singleUpLabel) {
             singleUpLabel.innerHTML = createInnerHTML('Four-Seam Fastball', '4SFB');
