@@ -59,7 +59,7 @@ async function importJson(event) {
                 ...newTeam.backups
             ];
 
-            if (existingTeam == allNewPlayers) { return; }
+            if (JSON.stringify(existingTeam) == JSON.stringify(allNewPlayers)) { return; }
             if (existingTeam.length > 0
                 && !confirm('This will clear your existing team. Are you sure you\'d like to import a new team?')) {
                 return;
