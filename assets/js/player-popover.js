@@ -205,13 +205,15 @@ function playerDoubleClicked(player) {
         pitchingChartObj.setAttribute('pitches', JSON.stringify(player.breakingBalls));
         pitchingChartObj.setAttribute('lefty', `${player.throwingHandedness == 'L'}`);
 
-        updatePitchChart.apply(
-            pitchingChartObj.contentDocument,
-            [
-                player.breakingBalls,
-                player.throwingHandedness == 'L'
-            ]
-        );
+        try {
+            updatePitchChart.apply(
+                pitchingChartObj.contentDocument,
+                [
+                    player.breakingBalls,
+                    player.throwingHandedness == 'L'
+                ]
+            );
+        } catch (error) {}
     }
 
     // Signature Pitch
