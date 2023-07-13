@@ -1,7 +1,18 @@
 /** @type {HTMLTextAreaElement} */
 const jsonBox = document.getElementById('json-text-box');
 function generateJson(event) {
-    const teamTemp = team;
+    /** @type {{name: string, pitchers: string[], fielders: string[], backups: string[]}} */
+    const teamTemp = {
+        name: document.getElementById('team-name').value,
+        pitchers: [],
+        fielders: [],
+        backups: [],
+    };
+
+    teamTemp.pitchers = team.pitchers.map(p => p.id);
+    teamTemp.fielders = team.fielders.map(p => p.id);
+    teamTemp.backups = team.backups.map(p => p.id);
+
     teamTemp.name = document.getElementById('team-name').value;
     const teamJSONStr = JSON.stringify(teamTemp);
     jsonBox.value = teamJSONStr;
@@ -32,7 +43,7 @@ async function importJson(event) {
         'Failed',
         3000,
         () => {
-            /** @type {{name: string, pitchers: Player[], fielders: Player[], backups: Player[]}} */
+            /** @type {{name: string, pitchers: string[], fielders: string[], backups: string[]}} */
             const newTeam = JSON.parse(jsonText);
             console.info(newTeam);
             
@@ -54,7 +65,7 @@ async function importJson(event) {
                 ...newTeam.pitchers,
                 ...newTeam.fielders,
                 ...newTeam.backups
-            ];
+            ].map(id => findPlayer(id));
             allNewPlayers.forEach(p => addPlayer(p));
         }
     );
