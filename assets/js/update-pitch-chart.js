@@ -123,7 +123,9 @@ function updatePitchChart(pitches, leftHandedInput) {
     });
     if (containsUp0SPPitch) {
         const singleUpLabel = this.getElementById('up-label-0');
-        singleUpLabel?.innerHTML = createInnerHTML('Four-Seam Fastball', '4SFB');
+        if (singleUpLabel) {
+            singleUpLabel.innerHTML = createInnerHTML('Four-Seam Fastball', '4SFB');
+        }
     }
 
     // For each breaking ball, change gradient fill end
