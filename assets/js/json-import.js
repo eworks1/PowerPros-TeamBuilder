@@ -41,6 +41,12 @@ async function importJson(event) {
 
             // Clear current team (maybe have a warning)
             const existingTeam = getAllPlayersOnTeam();
+            if (existingTeam.length > 0) {
+                if (!confirm('This will clear your existing team. Are you sure you\'d like to import a new team?')) {
+                    return;
+                }
+            }
+
             existingTeam.forEach(p => removePlayer(p));
 
             // Add each player of imported team
