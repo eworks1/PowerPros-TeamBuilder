@@ -51,22 +51,26 @@ async function importJson(event) {
             document.getElementById('team-name').value = newTeam.name;
 
             // Clear current team (maybe have a warning)
-            const existingTeam = getAllPlayersOnTeam();
-            if (existingTeam.length > 0) {
-                if (!confirm('This will clear your existing team. Are you sure you\'d like to import a new team?')) {
-                    return;
-                }
+            const existingTeam = getAllPlayersOnTeam()
+                .map(p => p.id);
+            const allNewPlayers = [
+                ...newTeam.pitchers,
+                ...newTeam.fielders,
+                ...newTeam.backups
+            ];
+
+            if (existingTeam == allNewPlayers) { return; }
+            if (existingTeam.length > 0
+                && !confirm('This will clear your existing team. Are you sure you\'d like to import a new team?')) {
+                return;
             }
 
             existingTeam.forEach(p => removePlayer(p));
 
             // Add each player of imported team
-            const allNewPlayers = [
-                ...newTeam.pitchers,
-                ...newTeam.fielders,
-                ...newTeam.backups
-            ].map(id => findPlayer(id));
-            allNewPlayers.forEach(p => addPlayer(p));
+            allNewPlayers
+                .map(id => findPlayer(id))
+                .forEach(p => addPlayer(p));
         }
     );
 }
